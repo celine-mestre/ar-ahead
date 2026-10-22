@@ -50,16 +50,16 @@ jobs:
           else echo "nada para o Amália"; fi
       - name: Cobertura mediática de todas as matérias (sem IA, a partir do Radar de Notícias)
         run: python scripts/cobertura.py
-      - name: "Amália — fichas de varrimento: completas para «Imediato», curtas para «Vigilância»"
+      - name: "Amália — fichas de varrimento: novas, atualizadas e das grandes matérias das semanas seguintes"
         timeout-minutes: 300
         run: |
           if [ -z "$AMALIA_GGUF_URL" ]; then echo "Segredo AMALIA_GGUF_URL por criar — passo saltado"; exit 0; fi
-          if python -c "import json,sys; d=json.load(open('dados/agenda.json',encoding='utf-8')); sys.exit(0 if any(x['pertinencia'] in ('Imediato','Vigilância') and not x.get('varrimento') and not x.get('retirado') for x in d['destaques']+d['agenda']) else 1)"; then
+          if python scripts/amalia_varrimento.py --verificar; then
             pip install llama-cpp-python
             mkdir -p modelos
             if [ ! -f modelos/amalia.gguf ]; then curl -L -o modelos/amalia.gguf "$AMALIA_GGUF_URL"; fi
             python scripts/amalia_varrimento.py
-          else echo "todas as matérias imediatas têm ficha"; fi
+          else echo "fichas em dia: nenhuma matéria precisa de ficha nova ou atualizada"; fi
       - name: Verificar se a página precisa de ser refeita
         id: muda
         run: |
