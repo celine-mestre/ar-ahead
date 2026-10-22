@@ -1,6 +1,8 @@
-"""Cobertura mediática de TODAS as matérias, sem IA: procura no arquivo do Radar de Notícias (OCS acompanhados,
-últimos 60 dias, incluindo notícias não marcadas) as notícias sobre o assunto de cada matéria e grava em cada uma
-x['cobertura'] = {n, dias, ultimas:[{data, fonte, titulo, url}]}. É também o «cesto» de notícias que o Amália usa nas fichas.
+"""Cobertura mediática de TODAS as matérias, sem IA: procura no arquivo do Radar de Notícias (OCS nacionais acompanhados
+pelo Radar, últimos 60 dias, incluindo notícias não marcadas) as notícias sobre o assunto de cada matéria e grava em cada uma
+x['cobertura'] = {n7, n7ant, n, dias, ref, metodo, ultimas:[{data, fonte, titulo, url}]}:
+  n7 = notícias nos últimos 7 dias; n7ant = nos 7 dias anteriores (tendência); n = total em 60 dias.
+É também o «cesto» de notícias que o Amália usa nas fichas.
 Uso: python scripts/cobertura.py [--local pasta_com_ficheiros_do_radar]"""
 import json, gzip, re, sys, io, pathlib, datetime, unicodedata, urllib.request
 
@@ -80,11 +82,21 @@ if __name__ == '__main__':
     p = pathlib.Path('dados/agenda.json'); d = json.loads(p.read_text(encoding='utf-8'))
     arts = corpus(local)
     print(len(arts), 'notícias no cesto (últimos', DIAS, 'dias)')
+    hoje = datetime.date.today()
+    c7, c14 = (hoje - datetime.timedelta(days=7)).isoformat(), (hoje - datetime.timedelta(days=14)).isoformat()
     for x in d['destaques'] + d['agenda']:
         if x.get('retirado'): continue
         r = procurar(x, arts)
-        x['cobertura'] = {'n': len(r), 'dias': DIAS, 'metodo': 'expressoes' if x.get('expressoes') else 'palavras', 'ultimas': [{'data': a.get('data', '')[:10], 'fonte': a.get('fonte'), 'titulo': a.get('titulo'), 'url': a.get('ligacao')} for a in sorted(r[:12], key=lambda a: a.get('data', ''), reverse=True)[:3]],
+        n7 = sum(1 for a in r if (a.get('data') or '')[:10] > c7)
+        n7ant = sum(1 for a in r if c14 < (a.get('data') or '')[:10] <= c7)
+        x['cobertura'] = {'n': len(r), 'n7': n7, 'n7ant': n7ant, 'dias': DIAS, 'ref': hoje.isoformat(), 'metodo': 'expressoes' if x.get('expressoes') else 'palavras', 'ultimas': [{'data': a.get('data', '')[:10], 'fonte': a.get('fonte'), 'titulo': a.get('titulo'), 'url': a.get('ligacao')} for a in sorted(r[:12], key=lambda a: a.get('data', ''), reverse=True)[:3]],
                           '_ligacoes': [a.get('ligacao') for a in r[:12]]}
+    # nota de metodologia (substitui a versão anterior, se existir)
+    NOTA = ('Cobertura mediática: contagem das notícias dos órgãos de comunicação social nacionais acompanhados pelo Radar de Notícias '
+            'da UPE cujo título ou resumo refere o assunto (pelas expressões de pesquisa da matéria ou, na sua falta, pelas palavras do assunto, '
+            'contagem indicativa). Mostra-se o número dos últimos 7 dias, a comparação com os 7 dias anteriores e o total em 60 dias. '
+            'As notícias listadas são as mais recentes, não necessariamente as mais relevantes; a análise está nas fichas de varrimento.')
+    d['metodologia'] = [m for m in d.get('metodologia', []) if not m.startswith('Cobertura mediática:')] + [NOTA]
     p.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
     for x in d['destaques'] + d['agenda']:
-        if 'cobertura' in x: print(f"{x['cobertura']['n']:>4}  {x['pertinencia'][:3]}  {x['tema'][:70]}")
+        if 'cobertura' in x: print(f"{x['cobertura'].get('n7', 0):>4} /{x['cobertura']['n']:>5}  {x['pertinencia'][:3]}  {x['tema'][:70]}")
