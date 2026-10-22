@@ -77,26 +77,45 @@ def procurar(x, arts):
     res.sort(key=lambda r: (r[0], r[1].get('data', '')), reverse=True)
     return [a for _, a in res]
 
+LISTA_MAX = 400   # notícias guardadas por matéria para a lista completa da página (as mais recentes)
+
+def cobertura(x, r, hoje):
+    c7, c14 = (hoje - datetime.timedelta(days=7)).isoformat(), (hoje - datetime.timedelta(days=14)).isoformat()
+    rs = sorted(r, key=lambda a: a.get('data', ''), reverse=True)
+    return {'n': len(r), 'n7': sum(1 for a in r if (a.get('data') or '')[:10] > c7),
+            'n7ant': sum(1 for a in r if c14 < (a.get('data') or '')[:10] <= c7),
+            'dias': DIAS, 'ref': hoje.isoformat(), 'metodo': 'expressoes' if x.get('expressoes') else 'palavras',
+            'ultima': rs[0].get('data', '')[:16] if rs else '',
+            'ultimas': [{'data': a.get('data', '')[:10], 'fonte': a.get('fonte'), 'titulo': a.get('titulo'), 'url': a.get('ligacao')} for a in rs[:3]],
+            # lista completa (sem IA): [data, fonte, título, ligação]
+            'todas': [[a.get('data', '')[:16], a.get('fonte') or '', a.get('titulo') or '', a.get('ligacao') or ''] for a in rs[:LISTA_MAX]]}
+
 if __name__ == '__main__':
     local = sys.argv[sys.argv.index('--local') + 1] if '--local' in sys.argv else None
     p = pathlib.Path('dados/agenda.json'); d = json.loads(p.read_text(encoding='utf-8'))
     arts = corpus(local)
     print(len(arts), 'notícias no cesto (últimos', DIAS, 'dias)')
     hoje = datetime.date.today()
-    c7, c14 = (hoje - datetime.timedelta(days=7)).isoformat(), (hoje - datetime.timedelta(days=14)).isoformat()
-    for x in d['destaques'] + d['agenda']:
+    resultados = {}
+    for x in d['destaques'] + d['agenda'] + d.get('futuro', []):     # também as semanas seguintes já publicadas
         if x.get('retirado'): continue
         r = procurar(x, arts)
-        n7 = sum(1 for a in r if (a.get('data') or '')[:10] > c7)
-        n7ant = sum(1 for a in r if c14 < (a.get('data') or '')[:10] <= c7)
-        x['cobertura'] = {'n': len(r), 'n7': n7, 'n7ant': n7ant, 'dias': DIAS, 'ref': hoje.isoformat(), 'metodo': 'expressoes' if x.get('expressoes') else 'palavras', 'ultimas': [{'data': a.get('data', '')[:10], 'fonte': a.get('fonte'), 'titulo': a.get('titulo'), 'url': a.get('ligacao')} for a in sorted(r[:12], key=lambda a: a.get('data', ''), reverse=True)[:3]],
-                          '_ligacoes': [a.get('ligacao') for a in r[:12]]}
+        x['cobertura'] = cobertura(x, r, hoje); x.pop('_ligacoes', None)
+        if x.get('varrimento'): resultados.setdefault(x['varrimento'], []).extend(r)
+    # fichas: notícias novas desde que a ficha foi feita ou revista (sem IA; a ficha não é reescrita aqui)
+    for k, r in resultados.items():
+        f = d.get('fichas', {}).get(k)
+        if not f: continue
+        datas = sorted({a.get('data', '')[:16] for a in r})
+        base = f.setdefault('base', {'ultima': datas[-1] if datas else '', 'em': hoje.isoformat()})   # fichas antigas: começa a contar a partir de agora
+        f['novas'] = sum(1 for dt in datas if dt > (base.get('ultima') or ''))
     # nota de metodologia (substitui a versão anterior, se existir)
     NOTA = ('Cobertura mediática: contagem das notícias dos órgãos de comunicação social nacionais acompanhados pelo Radar de Notícias '
             'da UPE cujo título ou resumo refere o assunto (pelas expressões de pesquisa da matéria ou, na sua falta, pelas palavras do assunto, '
-            'contagem indicativa). Mostra-se o número dos últimos 7 dias, a comparação com os 7 dias anteriores e o total em 60 dias. '
-            'As notícias listadas são as mais recentes, não necessariamente as mais relevantes; a análise está nas fichas de varrimento.')
+            'contagem indicativa). Mostra-se o número dos últimos 7 dias, a comparação com os 7 dias anteriores e o total em 60 dias; '
+            'a lista completa das notícias encontradas está disponível em cada matéria. As fichas de varrimento analisam uma amostra '
+            'escolhida ao longo dos 60 dias (dias de maior cobertura, diversidade de órgãos e notícias mais recentes).')
     d['metodologia'] = [m for m in d.get('metodologia', []) if not m.startswith('Cobertura mediática:')] + [NOTA]
     p.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
-    for x in d['destaques'] + d['agenda']:
-        if 'cobertura' in x: print(f"{x['cobertura'].get('n7', 0):>4} /{x['cobertura']['n']:>5}  {x['pertinencia'][:3]}  {x['tema'][:70]}")
+    for x in d['destaques'] + d['agenda'] + d.get('futuro', []):
+        if 'cobertura' in x: print(f"{x['cobertura'].get('n7', 0):>4} /{x['cobertura']['n']:>5}  {x['pertinencia'][:3]}  {x['data']}  {x['tema'][:60]}")

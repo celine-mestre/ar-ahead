@@ -47,12 +47,26 @@ def base(i):
     return x
 
 novos_itens = [base(i) for i in tri['itens']]
+
+# o que já se sabia das semanas seguintes (classificação do Amália ou da Ana Luísa, expressões, cobertura, ficha) não se perde:
+# passa para a nova edição quando a semana chega, e mantém-se de uma recolha para a outra
+fut_ant = {x.get('chave') or chave(x): x for x in ant.get('futuro', [])}
+HERDA = ('varrimento', 'expressoes', 'amalia', 'validado', 'cobertura')
+def herdar(x, v):
+    if not v: return
+    for k in HERDA:
+        if v.get(k) and not x.get(k): x[k] = v[k]
+    if (v.get('amalia') or v.get('validado')) and v.get('uo'): x['uo'], x['pertinencia'] = v['uo'], v['pertinencia']
+    if v.get('amalia') and not v.get('validado'): x['tema'] = v.get('tema', x['tema'])
 if nova_semana or preliminar:
     itens = novos_itens
     ed = {'numero': ant.get('edicao', {}).get('numero', 0) + (0 if preliminar else 1), 'ano': ini.year, 'semana': semana, 'inicio': tri['inicio'], 'fim': tri['fim'],
           'fecho': hoje, 'fechoLabel': extenso(agora.date()), 'alteracoes': []}
     fichas = ant.get('fichas', {}) if preliminar else {}
     n_novo = n_alt = n_ret = 0
+    for x in itens:
+        herdar(x, fut_ant.get(x['chave']))
+        if x.get('varrimento') and x['varrimento'] in ant.get('fichas', {}): fichas[x['varrimento']] = ant['fichas'][x['varrimento']]
     if preliminar:   # herda fichas, unidades e ligações da edição preliminar (mesmo dia e hora, ou mesmo dia e assunto)
         velhos = ant['destaques'] + ant['agenda']
         def pal(t): return {w for w in re.findall(r'[a-zà-ú0-9]{5,}', (t or '').lower())}
@@ -81,6 +95,7 @@ else:
                 y['alterado'] = hoje; n_alt += 1
             itens.append(y)
         else:
+            herdar(x, fut_ant.get(x['chave']))
             x['novo'] = hoje; itens.append(x); n_novo += 1
     n_ret = 0
     for k, a in antigos.items():
@@ -95,14 +110,20 @@ else:
 
 for x in itens: x.setdefault('chave', chave(x))
 
+fut = []
+for i in tri.get('futuro', []):
+    y = base(i); herdar(y, fut_ant.get(y['chave'])); fut.append(y)
+for y in fut:   # fichas das semanas seguintes acompanham a matéria
+    if y.get('varrimento') and y['varrimento'] in ant.get('fichas', {}): fichas.setdefault(y['varrimento'], ant['fichas'][y['varrimento']])
+
 # correções manuais da Ana Luísa (prevalecem sempre)
 if cor_p.exists():
     for r in csv.DictReader(cor_p.open(encoding='utf-8-sig'), delimiter=';'):
         k = (r.get('chave') or '').strip().lower()
-        for x in itens:
+        for x in itens + fut:      # também as semanas seguintes
             if x.get('chave') == k:
                 if r.get('uo') is not None and r.get('uo').strip() != '':
-                    x['uo'] = [u.strip() for u in r['uo'].split(',') if u.strip() and u.strip() != '-']
+                    x['uo'] = [u.strip() for u in re.split(r'[,|]', r['uo']) if u.strip() and u.strip() != '-']   # aceita vírgula ou |
                 if (r.get('pertinencia') or '').strip(): x['pertinencia'] = r['pertinencia'].strip()
                 if (r.get('assunto') or '').strip(): x['tema'] = r['assunto'].strip()
                 if (r.get('expressoes') or '').strip(): x['expressoes'] = [e.strip() for e in r['expressoes'].split('|') if e.strip()]
@@ -120,9 +141,6 @@ else:
 
 ordem = lambda x: (x['data'], x.get('hora') or '99')
 nova = {k: ant[k] for k in ('produto', 'tagline', 'unidades', 'disclaimer', 'metodologia', 'pedidos') if k in ant}
-fut = []
-for i in tri.get('futuro', []):
-    y = base(i); fut.append(y)
 nova['futuro'] = sorted(fut, key=lambda x: (x['data'], x.get('hora') or '99'))
 nova['calendarizacao'] = tri.get('calendarizacao', [])
 nova.update(edicao=ed, fichas=fichas,
