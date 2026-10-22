@@ -1,353 +1,372 @@
 {
  "produto": "AR Ahead",
- "edicao": {
-  "numero": 2,
-  "ano": 2026,
-  "semana": "26 de outubro a 1 de novembro de 2026",
-  "inicio": "2026-10-26",
-  "fim": "2026-11-01",
-  "fecho": "2026-10-22",
-  "fechoLabel": "22 de outubro de 2026 (preliminar)",
-  "estado": "preliminar",
-  "aviso": "O sítio da Assembleia da República estava em manutenção a 22 de outubro às 21h00 e os dados abertos não foram lidos. Constam apenas o Plenário confirmado pela Conferência de Líderes e os prazos já conhecidos da edição n.º 1. A agenda das comissões entra na recolha de sexta-feira, 23 de outubro."
- },
+ "tagline": "a semana na Assembleia da República",
  "unidades": {
   "DACDP": "Divisão de Apoio à Coordenação e Decisão Política",
   "DAPL": "Divisão de Apoio ao Processo Legislativo",
   "UPE": "Unidade de Pesquisa e Estatísticas",
   "DCIRI": "Divisão de Cooperação Institucional e Relações Internacionais"
  },
- "destaques": [
+ "disclaimer": "O presente levantamento tem por base a Agenda Parlamentar publicada pela Assembleia da República nos seus dados abertos, à data indicada. A agenda está sujeita a alterações após essa data, em particular a das comissões parlamentares, tipicamente publicada com menor antecedência do que a do Plenário. A identificação das matérias pertinentes e da unidade orgânica de referência resulta de um juízo analítico e é meramente indicativa, dado o trabalho integrado da Direção de Serviços de Suporte à Decisão (DSSD). A classificação automática constitui apenas uma sugestão de triagem, sujeita a validação. O varrimento mediático associado é amostral e ilustrativo, não exaustivo, e privilegia fontes primárias.",
+ "metodologia": [
+  "Varrimento amostral e ilustrativo, não exaustivo, com fontes originais e números confrontados com as fontes primárias: parecer do Tribunal de Contas, notificação do INE e comunicação oficial do Governo.",
+  "Ordem cronológica crescente. Natureza: vermelho = crítica / muito relevante; dourado = muito relevante; verde = contextual / positivo; cinzento = contextual."
+ ],
+ "pedidos": "O varrimento mediático das matérias sem ficha carece de pedido prévio, através da Chefe da Unidade de Pesquisa e Estatísticas.",
+ "futuro": [
   {
-   "tema": "Orçamento do Estado para 2027 — debate na generalidade (1.º dia)",
-   "data": "2026-10-27",
-   "dataLabel": "terça, 27 out",
-   "hora": "15h00",
-   "periodo": "Tarde",
-   "interveniente": "Governo e grupos parlamentares",
+   "tema": "Plenário — Debate na especialidade do Orçamento do Estado para 2027",
+   "data": "2026-11-18",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 17 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n P",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n PAN \n 11 m \n JPP \n 11 m \n Total \n 532 m",
+   "orgao": "Plenário",
+   "id_ar": 48393,
+   "chave": "ar-48393",
+   "dataLabel": "quarta, 18 nov",
    "tipo": [
-    "Debate"
+    "Plenário"
    ],
-   "tipoLabel": "Debate em Plenário · Proposta de Lei n.º 110/XVII (GOV)",
    "uo": [
-    "Transversal",
-    "DACDP",
-    "UPE",
-    "DAPL"
+    "DAPL",
+    "Transversal"
    ],
-   "pertinencia": "Imediato",
-   "resumo": "Primeiro dia do debate na generalidade. Aprovação praticamente assegurada pela abstenção anunciada do PS; disputa centrada no investimento público com o fim do PRR, no realismo das previsões e na margem de 0,1% do PIB.",
-   "ordemTrabalhos": "",
-   "varrimento": "oe",
-   "ligacoes": [
-    {
-     "titulo": "ECO — calendário aprovado pela Conferência de Líderes (23 set.)",
-     "url": "https://eco.sapo.pt/2026/09/23/oe2027-proposta-debatida-na-generalidade-em-27-e-28-de-outubro-votacao-final-em-24-novembro/"
-    },
-    {
-     "titulo": "Parlamento — página do OE 2027",
-     "url": "https://www.parlamento.pt/Paginas/2026/outubro/Orcamento-do-Estado-para-2026.aspx"
-    }
-   ],
-   "nota_atribuicao": "hora habitual do Plenário; a confirmar na ordem do dia",
-   "cobertura": {
-    "n": 514,
-    "dias": 60,
-    "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-10-22",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Comissão Política do PS manifestou \"consenso total\" sobre abstenção",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385"
-     },
-     {
-      "data": "2026-10-13",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Carneiro garante que PS \"não estará na origem de qualquer crise política\"",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-carneiro-garante-que-ps-nao-estara-na-origem-de-qualquer-crise-politica_n1771510"
-     },
-     {
-      "data": "2026-10-10",
-      "fonte": "RTP Notícias",
-      "titulo": "Carlos César aponta concordância da Comissão Nacional do PS com abstenção no OE",
-      "url": "https://www.rtp.pt/noticias/economia/carlos-cesar-aponta-concordancia-da-comissao-nacional-do-ps-com-abstencao-no-oe_n1770897"
-     }
-    ],
-    "_ligacoes": [
-     "https://www.rtp.pt/noticias/economia/carlos-cesar-aponta-concordancia-da-comissao-nacional-do-ps-com-abstencao-no-oe_n1770897",
-     "https://jornaleconomico.sapo.pt/noticias/oe2027-carlos-cesar-diz-que-ps-concorda-com-abstencao/",
-     "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385",
-     "https://www.rtp.pt/noticias/economia/oe2027-carneiro-garante-que-ps-nao-estara-na-origem-de-qualquer-crise-politica_n1771510",
-     "https://eco.sapo.pt/2026/10/09/o-bailarino-que-nao-sabe-dancar-e-o-professor-chibanga-como-foi-o-debate-pos-entrega-do-oe/",
-     "https://eco.sapo.pt/2026/10/09/primeiro-ministro-no-parlamento-depois-da-entrega-da-proposta-de-oe2027-veja-aqui/",
-     "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcGN0UzEwRW1WM1lCdU9CT0lfZ3RJUTNUUjRXZFpQMU1tZ0V1Y3lYeTF6ajBHaDUzREw0OVQyT1VnUjlYMnFkVUNfd084UzJCNmNlS0VLYWFEbHFWUUlqdExxWkpWX2s3ZDloZVBkY2Zvb29nc21vWmRQY2twTWpQZ3pvS29mZXNVODBUdEdxNXA5d0xORExUNy02RXFlRFZkLU82UWRRU2pKMG1GRVJXTHlsaDN1ckp0RUd3eGpDQ0ZKZTVyb24zbnpRenVwRzlSaUHSAdIBQVVfeXFMT3BjdFMxMEVtVjNZQnVPQk9JX2d0SVEzVFI0V2RaUDFNbWdFdWN5WHkxemowR2g1M0RMNDlUMk9VZ1I5WDJxZFVDX3dPOFMyQjZjZUtFS2FhRGxxVlFJanRMcVpKVl9rN2Q5aGVQZGNmb29vZ3Ntb1pkUGNrcE1qUGd6b0tvZmVzVTgwVHRHcTVwOXdMTkRMVDctNkVxZURWZC1PNlFkUVNqSjBtRkVSV0x5bGgzdXJKdEVHd3hqQ0NGSmU1cm9uM256UXp1cEc5UmlB?oc=5",
-     "https://www.rtp.pt/noticias/politica/primeiro-ministro-e-oposicao-em-debate-um-dia-apos-a-entrega-da-proposta-de-orcamento-do-estado-para-2027_e1770559",
-     "https://www.rtp.pt/noticias/politica/proposta-de-orcamento-do-estado-para-2027-aprovada-em-conselho-de-ministros_e1770215",
-     "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONTAwZEI1cTRvd2puUVFFdTBFRTdCaGNwZWp1UGFFRTFYZXBhSE1GWVNDMi1HYlBxV1V0TUxqeWYzRXBMZnJsVExzYnBiNjdBcEhmQ1MteWJtMFMtNXIweHhZZzJrcFZpRVFfRGUwczFPTFZrRV94R3o1akZOd2VZTWJWRDN1RGRXdWRJQ2VmNjhLakl2ZFZWa0JPRHB0NUFVRHJ3aXNIVG5na2dMbXUxVlQ2RkpaM2NaRWlLZ3I4b2pLYmU5V1hFQjNkdG92VWRhd1JiTHhUcWxRakxpLXpGQks5X2xxTmFoMURScGRaV0NESVBoOEJjcg?oc=5",
-     "https://www.rtp.pt/noticias/politica/montenegro-associa-ps-a-aumento-de-precos-da-habitacao_n1770049",
-     "https://observador.pt/programas/noticiario/as-noticias-das-12h-2463/"
-    ]
-   }
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
   },
   {
-   "tema": "Orçamento do Estado para 2027 — debate na generalidade (2.º dia) e votação",
-   "data": "2026-10-28",
-   "dataLabel": "quarta, 28 out",
-   "hora": "15h00",
-   "periodo": "Tarde",
-   "interveniente": "Governo e grupos parlamentares",
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "data": "2026-11-19",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 18 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 202",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n PAN \n 11 m \n JPP \n 11 m \n Total \n 532 m",
+   "orgao": "Plenário",
+   "id_ar": 48392,
+   "chave": "ar-48392",
+   "dataLabel": "quinta, 19 nov",
    "tipo": [
-    "Debate",
-    "Votações"
+    "Plenário"
    ],
-   "tipoLabel": "Debate em Plenário e votação na generalidade (a confirmar a hora)",
    "uo": [
-    "Transversal",
-    "DACDP",
-    "UPE",
-    "DAPL"
+    "DAPL",
+    "Transversal"
    ],
-   "pertinencia": "Imediato",
-   "resumo": "Encerramento do debate e votação na generalidade. Sentido de voto esperado: PS abstenção; PCP contra; Chega sem voto anunciado à data de fecho da edição n.º 1.",
-   "ordemTrabalhos": "",
-   "varrimento": "oe",
-   "ligacoes": [
-    {
-     "titulo": "ECO — calendário aprovado pela Conferência de Líderes (23 set.)",
-     "url": "https://eco.sapo.pt/2026/09/23/oe2027-proposta-debatida-na-generalidade-em-27-e-28-de-outubro-votacao-final-em-24-novembro/"
-    }
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "data": "2026-11-20",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 19 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 202",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n PAN \n 11 m \n JPP \n 11 m \n Total \n 532 m",
+   "orgao": "Plenário",
+   "id_ar": 48391,
+   "chave": "ar-48391",
+   "dataLabel": "sexta, 20 nov",
+   "tipo": [
+    "Plenário"
    ],
-   "nota_atribuicao": "votação no fim do debate é a prática habitual; a confirmar",
-   "cobertura": {
-    "n": 493,
-    "dias": 60,
-    "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-10-22",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Comissão Política do PS manifestou \"consenso total\" sobre abstenção",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385"
-     },
-     {
-      "data": "2026-10-19",
-      "fonte": "Jornal Económico",
-      "titulo": "Debates de urgência e interpelação marcam agenda parlamentar nos Açores",
-      "url": "https://jornaleconomico.sapo.pt/noticias/debates-de-urgencia-e-interpelacao-marcam-agenda-parlamentar-nos-acores/"
-     },
-     {
-      "data": "2026-10-10",
-      "fonte": "RTP Notícias",
-      "titulo": "Carlos César aponta concordância da Comissão Nacional do PS com abstenção no OE",
-      "url": "https://www.rtp.pt/noticias/economia/carlos-cesar-aponta-concordancia-da-comissao-nacional-do-ps-com-abstencao-no-oe_n1770897"
-     }
-    ],
-    "_ligacoes": [
-     "https://jornaleconomico.sapo.pt/noticias/oe2027-carneiro-propoe-abstencao-mas-admite-algum-desconforto-com-a-decisao/",
-     "https://eco.sapo.pt/entrevista/provavelmente-a-il-vota-contra-o-orcamento-do-estado-para-2027/",
-     "https://eco.sapo.pt/2026/10/01/oe2027-ventura-acusa-ps-de-ter-tornado-documento-inutil-com-anuncio-de-abstencao/",
-     "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385",
-     "https://jornaleconomico.sapo.pt/noticias/debates-de-urgencia-e-interpelacao-marcam-agenda-parlamentar-nos-acores/",
-     "https://www.rtp.pt/noticias/economia/carlos-cesar-aponta-concordancia-da-comissao-nacional-do-ps-com-abstencao-no-oe_n1770897",
-     "https://jornaleconomico.sapo.pt/noticias/oe2027-carlos-cesar-diz-que-ps-concorda-com-abstencao/",
-     "https://eco.sapo.pt/2026/10/09/o-bailarino-que-nao-sabe-dancar-e-o-professor-chibanga-como-foi-o-debate-pos-entrega-do-oe/",
-     "https://www.rtp.pt/noticias/politica/oe-chega-acusa-ps-de-ser-muleta-do-governo-pcp-aponta-mao-cheia-de-nada_a1770302",
-     "https://observador.pt/2026/10/06/ps-confirma-abstencao-no-oe2027-para-evitar-precipicio-politico-e-so-muda-voto-se-surgirem-medidas-surpresa/",
-     "https://eco.sapo.pt/2026/10/06/montenegro-separa-abstencao-do-ps-no-orcamento-do-estado-da-negociacao-da-lei-do-arrendamento/",
-     "https://sol.iol.pt/politica/noticias/pcp-anuncia-voto-contra-o-orcamento-do-estado-para-2027/20261002/6abfdb860cf22b9f8904da6e"
-    ]
-   }
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "data": "2026-11-23",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 20 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 202",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n PAN \n 11 m \n JPP \n 11 m \n Total \n 532 m",
+   "orgao": "Plenário",
+   "id_ar": 48390,
+   "chave": "ar-48390",
+   "dataLabel": "segunda, 23 nov",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "data": "2026-11-24",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 21 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Encerramento do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 20",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Encerramento do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n ENCERRAMENTO \n JPP \n 3 m \n PAN \n 3 m \n BE \n 3 m \n CDS-PP \n 6 m \n PCP \n 6 m 30 \n L \n 7 m 30 \n IL \n 8 m 30 \n PS \n 12 m 30 \n CH \n 13 m 30 \n PSD \n 16 m \n GOV \n 30 m \n Total \n 109 m 30 \n 4 - Votações",
+   "orgao": "Plenário",
+   "id_ar": 48395,
+   "chave": "ar-48395",
+   "dataLabel": "terça, 24 nov",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Sessão Solene Evocativa do 25 de novembro de 1975 Tempos: 2m30s para cada DURP e 5m30s para cada Grupo Parlam",
+   "data": "2026-11-25",
+   "hora": "12h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 22 · Plenário",
+   "resumo": "Sessão Solene Evocativa do 25 de novembro de 1975 \n Tempos: 2m30s para cada DURP e 5m30s para cada Grupo Parlamentar, por ordem crescente de Representação Parlamentar.",
+   "ordemTrabalhos": "Sessão Solene Evocativa do 25 de novembro de 1975 \n Tempos: 2m30s para cada DURP e 5m30s para cada Grupo Parlamentar, por ordem crescente de Representação Parlamentar.",
+   "orgao": "Plenário",
+   "id_ar": 48394,
+   "chave": "ar-48394",
+   "dataLabel": "quarta, 25 nov",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Sessão Plenária alusiva às Comemorações dos 50 anos das Primeiras Eleições Autárquicas Tempos: A definir.",
+   "data": "2026-12-11",
+   "hora": "11h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 23 · Plenário",
+   "resumo": "Sessão Plenária alusiva às Comemorações dos 50 anos das Primeiras Eleições Autárquicas \n Tempos: A definir.",
+   "ordemTrabalhos": "Sessão Plenária alusiva às Comemorações dos 50 anos das Primeiras Eleições Autárquicas \n Tempos: A definir.",
+   "orgao": "Plenário",
+   "id_ar": 48396,
+   "chave": "ar-48396",
+   "dataLabel": "sexta, 11 dez",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Manhã",
+   "ligacoes": []
   }
  ],
- "agenda": [
+ "calendarizacao": [
   {
-   "tema": "Pareceres setoriais e parecer da CAE sobre o OE 2027 — prazo de envio à COFAP",
+   "data": "2026-10-01",
+   "diaSemana": "Quinta-feira",
+   "atividade": "Jornadas Parlamentares do PCP",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-02",
+   "diaSemana": "Sexta-feira",
+   "atividade": "Jornadas Parlamentares do PCP",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-05",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Feriado",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-06",
+   "diaSemana": "Terça-feira",
+   "atividade": "Comissões",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-07",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Conferência de Líderes Reunião Plenária",
+   "horas": "10h30 · 15h00"
+  },
+  {
+   "data": "2026-10-08",
+   "diaSemana": "Quinta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "14h30"
+  },
+  {
+   "data": "2026-10-09",
+   "diaSemana": "Sexta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-10-12",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Contacto com o Eleitorado",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-13",
+   "diaSemana": "Terça-feira",
+   "atividade": "Comissões",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-14",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "15h00"
+  },
+  {
+   "data": "2026-10-15",
+   "diaSemana": "Quinta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "15h00"
+  },
+  {
+   "data": "2026-10-16",
+   "diaSemana": "Sexta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-10-19",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Contacto com o Eleitorado",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-20",
+   "diaSemana": "Terça-feira",
+   "atividade": "Comissões",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-21",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "15h00"
+  },
+  {
+   "data": "2026-10-23",
+   "diaSemana": "Sexta-feira",
+   "atividade": "OE 2027",
+   "horas": ""
+  },
+  {
    "data": "2026-10-26",
-   "dataLabel": "segunda, 26 out",
-   "hora": "18h00",
-   "periodo": "Tarde",
-   "interveniente": "Comissões parlamentares (relatores dos pareceres setoriais)",
-   "tipo": [
-    "Relatório / parecer"
-   ],
-   "tipoLabel": "Prazo · Parecer setorial OE",
-   "uo": [
-    "Transversal",
-    "DACDP",
-    "UPE",
-    "DAPL"
-   ],
-   "pertinencia": "Vigilância",
-   "resumo": "Prazo registado na ordem de trabalhos da Comissão de Assuntos Europeus de 21 de outubro para o envio do parecer à COFAP (18h00 de 26 de outubro). Os pareceres setoriais aprovados na semana de 20 a 23 seguem o mesmo calendário.",
-   "ordemTrabalhos": "",
-   "nota_atribuicao": "fonte: agenda da CAE de 21 out. (edição n.º 1)",
-   "cobertura": {
-    "n": 18,
-    "dias": 60,
-    "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-10-19",
-      "fonte": "Observador",
-      "titulo": "Aguiar-Branco indefere pedido de debate de urgência do Livre",
-      "url": "https://observador.pt/2026/10/19/aguiar-branco-chumbou-debate-de-urgencia-do-livre-sobre-habitacao-por-violar-regra-da-quinzena/"
-     },
-     {
-      "data": "2026-10-08",
-      "fonte": "Renascença",
-      "titulo": "Pensionistas notificados em outubro para devolver dinheiro que receberam a mais",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTG5QNDh2dTY3cFg0YUllVm5QUlBwN0VTYVd0UmtTaF9MR01uN1BCcFhDZWlJRVlwa05RQ3FtTi15X3pfZVh5dnd0dlN1Z3pHaml3TnB2SFZaV21JcTI2MURxTkFYa1lFSWlUMUktdHNjaTByM2FPZUF4MWJsSmdOcmhzU2xXTFVyTjA0QUl0VVl5WGdKSWZTOEdDV0hHUl9RZFN5ZGxSeG5TU0RXRlpXZVI5NlNhNTdoT0pBMFVUZFo2TVk?oc=5"
-     },
-     {
-      "data": "2026-10-07",
-      "fonte": "CNN Portugal",
-      "titulo": "\"Netanyahu tem instrumentalizado o 7 de outubro para sobreviver politicamente\"",
-      "url": "https://cnnportugal.iol.pt/videos/netanyahu-tem-instrumentalizado-o-7-de-outubro-para-sobreviver-politicamente/6ac6ad940cf20dc52778ebc2"
-     }
-    ],
-    "_ligacoes": [
-     "https://observador.pt/2026/10/19/aguiar-branco-chumbou-debate-de-urgencia-do-livre-sobre-habitacao-por-violar-regra-da-quinzena/",
-     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTG5QNDh2dTY3cFg0YUllVm5QUlBwN0VTYVd0UmtTaF9MR01uN1BCcFhDZWlJRVlwa05RQ3FtTi15X3pfZVh5dnd0dlN1Z3pHaml3TnB2SFZaV21JcTI2MURxTkFYa1lFSWlUMUktdHNjaTByM2FPZUF4MWJsSmdOcmhzU2xXTFVyTjA0QUl0VVl5WGdKSWZTOEdDV0hHUl9RZFN5ZGxSeG5TU0RXRlpXZVI5NlNhNTdoT0pBMFVUZFo2TVk?oc=5",
-     "https://cnnportugal.iol.pt/videos/netanyahu-tem-instrumentalizado-o-7-de-outubro-para-sobreviver-politicamente/6ac6ad940cf20dc52778ebc2",
-     "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNmM2eDBjSXk0TkhQTHF1ODB0NFpvRVdSaEd0QU5Oa0JoQzZFblN1YXdUSjk0dnphejAtdnBfQWd4U1J0bTZZc040NzFfQkVWSkV4Q0VKVW1RdkRBY2Jnc0NldXJENnZTRVBIdkJyV0NHT0lxNVlEXzFxeE56UGtyY1N4MUp4ejdpUE8yNW9qanA1OTJ5bnpwQkRIT29XWVFQ0gGbAUFVX3lxTE1qZTJIcTdQaHExRGJJd2ZWbVpOT2t2RjBsOXV4bjI4N2JHNEdkN3ZHNno0VDI4aTJYdG1aWng4SVlVUldIRWJVbXlEQkkyNUs1cG9fOHVaNC1zWmVndW16UVBWQUdVTjVGTFpWZzdtTnluVzNsLXU2cGprNlN4SHhYM1Faa0JGXzJSdDV0UjRMU0E5LTZscVNVVmlR?oc=5",
-     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVFRrOHA2d3RCYXYwc1VEdm90aWxqMWxaSkNLT3FkRzJ0THpVbFVVX1BTcXpzQ3d0ZXM2WGp3OFRWck9BVkx5Zm5tcHo0eWtSNll3bW9QOWxFem1Ud2wtWnMyZzcwcGhpem1VM1h1MHl1VHd5NGNhdFcyLTBPUzFibGF0c3IzeTBwS1V5ZWJPUEhxaFRTemNxSnVsRVRta1BCMkdjdGRNSUlsSTR1WkJqbzh0M0hESnhoek1XNkM4UjdUcXVpR1VXQ2tvQUlxWEo1QWNQSnNyUk51RHBTTjRhTVJfYjA?oc=5",
-     "https://observador.pt/2026/10/06/ps-acusa-moedas-de-contradicoes-no-caso-do-elevador-da-gloria-e-psd-vota-contra-voto-de-saudacao-a-republica-na-aml/",
-     "https://sol.iol.pt/politica/noticias/nao-ha-republica-sem-escolas-seguro-escolhe-o-5-de-outubro-para-deixar-mensagem-aos-professores/20261005/6ac3699a0cf20dc52778e755",
-     "https://observador.pt/2026/09/30/governo-da-15-dias-a-sdr-para-apresentar-solucoes-concretas-para-problemas-de-limpeza-causados-pelo-volta/",
-     "https://www.publico.pt/2026/09/30/azul/noticia/governo-exige-gestora-volta-solucoes-travar-lixo-espalhado-ruas-2189820",
-     "https://eco.sapo.pt/2026/09/25/viticultores-do-douro-tem-de-segunda-a-12-de-outubro-para-pedir-apoio-extraordinario/",
-     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQnloRDVKTjJidmx0eDh3TS1mcHo5dkp5ZGFjZWloZVVKYW95NDd1YmE4WWhoOXNvTzVhNW5wOHIyLWVUNVlOQTRMUVluXzdQYXVROVV3NWx4QXlEX0Zja2RkRV9mbnphUkZSVEtldjM0eFlReUFmM2RYY3c3TVpsQjlaVGR5OUQtTzd0Z0VfMTZpbFFUR0hTZ0tGMWxuLWFIMnhjUFo2OENZUndYdjVvaHZ2VG11MG9rWVFvR2VEX2xNR1NvaW1QZENrdjA3RktxZzdhdDNPeTZ1bHhKUnc?oc=5",
-     "https://www.rtp.pt/noticias/cultura/gilberto-gil-vem-a-lisboa-despertar-entusiasmo-e-dar-voz-a-proximidade-brasil-portugal_n1767406"
-    ]
-   }
+   "diaSemana": "Segunda-feira",
+   "atividade": "OE 2027",
+   "horas": ""
   },
   {
-   "tema": "COM(2026)560 — simplificação da fiscalidade direta na UE: prazo do parecer da CAE",
    "data": "2026-10-27",
-   "dataLabel": "terça, 27 out",
-   "hora": "",
-   "periodo": "Sem hora",
-   "interveniente": "Comissão de Assuntos Europeus · relatora Patrícia Nascimento (CH)",
-   "tipo": [
-    "Escrutínio europeu"
-   ],
-   "tipoLabel": "Prazo · Escrutínio europeu",
-   "uo": [
-    "DCIRI"
-   ],
-   "pertinencia": "Registo",
-   "resumo": "Iniciativa sinalizada pela CAE; prazo de envio do parecer a 27 de outubro (ordem de trabalhos da CAE de 21 de outubro).",
-   "ordemTrabalhos": "",
-   "cobertura": {
-    "n": 1,
-    "dias": 60,
-    "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-09-10",
-      "fonte": "SIC Notícias",
-      "titulo": "Criança de três anos terá sido abandonada pela mãe na Amadora: menor já estava sinalizada pela CPCJ",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
-     }
-    ],
-    "_ligacoes": [
-     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
-    ]
-   }
+   "diaSemana": "Terça-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "15h00"
   },
   {
-   "tema": "COM(2026)600 — faturas de eletricidade na União: prazo do parecer da CAE",
    "data": "2026-10-28",
-   "dataLabel": "quarta, 28 out",
-   "hora": "",
-   "periodo": "Sem hora",
-   "interveniente": "Comissão de Assuntos Europeus · relator João Torres (PS)",
-   "tipo": [
-    "Escrutínio europeu"
-   ],
-   "tipoLabel": "Prazo · Escrutínio europeu",
-   "uo": [
-    "DCIRI"
-   ],
-   "pertinencia": "Registo",
-   "resumo": "Iniciativa sinalizada pela CAE; prazo de envio do parecer a 28 de outubro (ordem de trabalhos da CAE de 21 de outubro).",
-   "ordemTrabalhos": "",
-   "cobertura": {
-    "n": 1,
-    "dias": 60,
-    "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-09-10",
-      "fonte": "SIC Notícias",
-      "titulo": "Criança de três anos terá sido abandonada pela mãe na Amadora: menor já estava sinalizada pela CPCJ",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
-     }
-    ],
-    "_ligacoes": [
-     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
-    ]
-   }
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "10h00 · 15h00"
   },
   {
-   "tema": "Agência Lusa — fim do prazo de reapreciação dos projetos de estatutos",
-   "data": "2026-10-31",
-   "dataLabel": "sábado, 31 out",
-   "hora": "",
-   "periodo": "Sem hora",
-   "interveniente": "—",
-   "tipo": [
-    "Prazo"
-   ],
-   "tipoLabel": "Prazo · Comunicação social",
-   "uo": [
-    "UPE"
-   ],
-   "pertinencia": "Vigilância",
-   "resumo": "A reapreciação dos projetos de estatutos da Lusa termina a 31 de outubro (síntese da pasta de apoio ao Gabinete do Ministro da Presidência, edição n.º 1). Convém verificar se há reunião da 12.ª Comissão ou comunicação do Governo nessa semana.",
-   "ordemTrabalhos": "",
-   "cobertura": {
-    "n": 83,
-    "dias": 60,
-    "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-10-22",
-      "fonte": "Lusa",
-      "titulo": "Fotografias PORTUGAL COMISSÃO AGÊNCIA LUSA",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93YUJyVFEyV2U3ZEFVSmdra293dlg4RkwwaXhuWmRveWh5WFgxN0xZN1U0NWZXNHNZakdDODU3eFhLTEdqb0NMd2I4WW9YTmI4eW5tbg?oc=5"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "RTP Notícias",
-      "titulo": "Estatutos da agência Lusa. Ministro nega \"pressão do Governo\" com alterações",
-      "url": "https://www.rtp.pt/noticias/economia/estatutos-da-agencia-lusa-ministro-nega-pressao-do-governo-com-alteracoes_v1773255"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "Observador",
-      "titulo": "Importante testar regras atuais da Lusa",
-      "url": "https://observador.pt/2026/10/21/ministro-da-presidencia-diz-que-e-importante-regras-atuais-da-lusa-poderem-ser-testadas/"
-     }
-    ],
-    "_ligacoes": [
-     "https://observador.pt/2026/10/21/ministro-da-presidencia-diz-que-e-importante-regras-atuais-da-lusa-poderem-ser-testadas/",
-     "https://jornaleconomico.sapo.pt/noticias/candidaturas-ao-apoio-extraordinario-para-o-douro-entre-segunda-e-12-de-outubro/",
-     "https://www.rtp.pt/noticias/economia/estatutos-da-agencia-lusa-ministro-nega-pressao-do-governo-com-alteracoes_v1773255",
-     "https://www.rtp.pt/noticias/politica/rejeitados-na-generalidade-todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa_n1772125",
-     "https://eco.sapo.pt/2026/10/16/todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa-rejeitados-na-generalidade/",
-     "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjBLMXFpUVJOcnNOSWtlWDBwZ205eC1KdFFSNVdfR1pleG4xWjRoWVZfOUoxc040dkxjVkJiX0lFZ0gtY25nR182ell6Nkhpd2tYcnE4YTN6UmQ2aUVHbkFud2VlUGphTGFKeGJvTnpkc0lNdktmNGVXYUNnNGhqdU16dmFJTzFHZExYOFhJOVBrVmhFX0FFSFhQRTE0dmo5RHdaV09BeUpyMzdJeGl2ZmtScHZibGFFdFZmQUl30gG-AUFVX3lxTFBCMEsxcWlRUk5yc05Ja2VYMHBnbTl4LUp0UVI1V19HWmV4bjFaNGhZVl85SjFzTjR2TGNWQmJfSUVnSC1jbmdHXzZ6WXo2SGl3a1hycThhM3pSZDZpRUduQW53ZWVQamFMYUp4Ym9OemRzSU12S2Y0ZVdhQ2c0aGp1TXp2YUlPMUdkTFg4WEk5UGtWaEVfQUVIWFBFMTR2ajlEd1pXT0F5SnIzN0l4aXZma1JwdmJsYUV0VmZBSXc?oc=5",
-     "https://jornaleconomico.sapo.pt/noticias/fundacao-edp-anuncia-sete-finalistas-na-16a-edicao-premio-novos-artistas/",
-     "https://jornaleconomico.sapo.pt/noticias/mau-tempo-cem-empresas-da-regiao-de-leiria-com-candidaturas-elegiveis-ficaram-sem-apoio/",
-     "https://www.rtp.pt/noticias/politica/oe2027-governo-vai-reunir-se-com-todos-os-partidos-no-final-do-mes_n1763894",
-     "https://jornaleconomico.sapo.pt/noticias/inquerito-a-alegada-intrusao-no-gabinete-de-ventura-com-carater-urgente-diz-pgr/",
-     "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93YUJyVFEyV2U3ZEFVSmdra293dlg4RkwwaXhuWmRveWh5WFgxN0xZN1U0NWZXNHNZakdDODU3eFhLTEdqb0NMd2I4WW9YTmI4eW5tbg?oc=5",
-     "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcHRkOEEyelNHUjJRZWl6UGZUMEg2YVR4T3h2a1I4WGpUb3RfMWl6ellYbWp6cWV1LUhkX2UybjRRQ25qSTI1TXVCWXd3UU05UlBpWXpiZ2hiV3BOckdwak1LT1hFZ1o1d05EN09EdVlUcE9PcFlxNmEwSlBRS3ZPTHAxYnNUcWJYSjJvdkVjU1dpZFp5Z1NYTnhoU0ZnVXJkdGczd0FYalphdktSMlJJcjFZU0l2eUhDVTNDUk9n?oc=5"
-    ]
-   }
+   "data": "2026-10-29",
+   "diaSemana": "Quinta-feira",
+   "atividade": "OE 2027",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-30",
+   "diaSemana": "Sexta-feira",
+   "atividade": "OE 2027",
+   "horas": ""
+  },
+  {
+   "data": "2026-11-18",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária (OE 2027) Conferência de Líderes",
+   "horas": "10h00 · 15h00"
+  },
+  {
+   "data": "2026-11-19",
+   "diaSemana": "Quinta-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-11-20",
+   "diaSemana": "Sexta-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": ""
+  },
+  {
+   "data": "2026-11-23",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-11-24",
+   "diaSemana": "Terça-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-11-25",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Sessão solene 25 de Novembro",
+   "horas": "11h00"
+  },
+  {
+   "data": "2026-11-28",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Contacto com o Eleitorado",
+   "horas": ""
+  },
+  {
+   "data": "2026-11-29",
+   "diaSemana": "Terça-feira",
+   "atividade": "Comissões",
+   "horas": ""
+  },
+  {
+   "data": "2026-11-30",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "15h00"
   }
  ],
+ "edicao": {
+  "numero": 1,
+  "ano": 2026,
+  "semana": "26 de outubro a 1 de novembro de 2026",
+  "inicio": "2026-10-26",
+  "fim": "2026-11-01",
+  "fecho": "2026-10-22",
+  "fechoLabel": "22 de outubro de 2026",
+  "alteracoes": [],
+  "atualizado": "2026-10-22T23:00+01:00",
+  "atualizadoLabel": "22 de outubro, 23h00",
+  "desdeLabel": "22 de outubro",
+  "estado": "com triagem automática",
+  "aviso": "6 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
+ },
  "fichas": {
   "oe": {
    "titulo": "Orçamento do Estado para 2027 — debate na generalidade",
@@ -379,7 +398,7 @@
     {
      "titulo": "Nota desta edição",
      "paragrafos": [
-      "Ficha herdada da edição n.º 1 (fecho a 19 de outubro). Falta incorporar a audição do Ministro de Estado e das Finanças na COFAP de 23 de outubro e os pareceres setoriais das comissões, com prazo de envio à COFAP a 26 de outubro."
+      "Ficha herdada da edição piloto (fecho a 19 de outubro). Falta incorporar a audição do Ministro de Estado e das Finanças na COFAP de 23 de outubro e os pareceres setoriais das comissões, com prazo de envio à COFAP a 26 de outubro."
      ]
     }
    ],
@@ -452,11 +471,478 @@
    "atencaoTitulo": "Pontos de atenção (verificação de números)"
   }
  },
- "disclaimer": "O presente levantamento tem por base a Agenda Parlamentar publicada pela Assembleia da República nos seus dados abertos, à data indicada. A agenda está sujeita a alterações após essa data, em particular a das comissões parlamentares, tipicamente publicada com menor antecedência do que a do Plenário. A identificação das matérias pertinentes e da unidade orgânica de referência resulta de um juízo analítico e é meramente indicativa, dado o trabalho integrado da Direção de Serviços de Suporte à Decisão (DSSD). A classificação automática constitui apenas uma sugestão de triagem, sujeita a validação. O varrimento mediático associado é amostral e ilustrativo, não exaustivo, e privilegia fontes primárias.",
- "metodologia": [
-  "Varrimento amostral e ilustrativo, não exaustivo, com fontes originais e números confrontados com as fontes primárias: parecer do Tribunal de Contas, notificação do INE e comunicação oficial do Governo.",
-  "Ordem cronológica crescente. Natureza: vermelho = crítica / muito relevante; dourado = muito relevante; verde = contextual / positivo; cinzento = contextual."
+ "destaques": [
+  {
+   "tema": "Plenário — Debate na generalidade do Orçamento do Estado para 2027",
+   "data": "2026-10-27",
+   "hora": "15h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 15 · Plenário",
+   "resumo": "ORDEM DO DIA \n 15H00 \n Debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 1.º Dia \n GOV \n 70 m \n PSD \n 44 m \n CH \n 37 m \n PS \n 35 m 30 \n IL \n 19 m 30 \n L \n 13  \n PCP \n 9 m 30 \n CDSP-PP \n 9 m \n BE ",
+   "ordemTrabalhos": "ORDEM DO DIA \n 15H00 \n Debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 1.º Dia \n GOV \n 70 m \n PSD \n 44 m \n CH \n 37 m \n PS \n 35 m 30 \n IL \n 19 m 30 \n L \n 13  \n PCP \n 9 m 30 \n CDSP-PP \n 9 m \n BE \n 4 m \n PAN \n 4 m \n JPP \n 4 m \n Total \n 249 m 30 \n Notas: \n O Governo, o PSD, o CH e o PS podem transferir para o dia seguinte ou antecipar até ao máximo de 30% do tempo que lhes foi atribuído. Os restantes partidos podem gerir livremente os seus tempos. \n Os pedidos de esclarecimento, com resposta individual, iniciam-se pelo maior partido da oposição, a que se seguem os restantes partidos, por ordem decrescente de dimensão, com um máximo de 5 minutos.",
+   "orgao": "Plenário",
+   "id_ar": 48339,
+   "chave": "ar-48339",
+   "dataLabel": "terça, 27 out",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [
+    "Transversal",
+    "DACDP",
+    "UPE",
+    "DAPL"
+   ],
+   "pertinencia": "Imediato",
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "ECO — calendário aprovado pela Conferência de Líderes (23 set.)",
+     "url": "https://eco.sapo.pt/2026/09/23/oe2027-proposta-debatida-na-generalidade-em-27-e-28-de-outubro-votacao-final-em-24-novembro/"
+    },
+    {
+     "titulo": "Parlamento — página do OE 2027",
+     "url": "https://www.parlamento.pt/Paginas/2026/outubro/Orcamento-do-Estado-para-2026.aspx"
+    }
+   ],
+   "varrimento": "oe",
+   "expressoes": [
+    "Orçamento do Estado para 2027",
+    "OE2027",
+    "OE 2027"
+   ],
+   "cobertura": {
+    "n": 951,
+    "dias": 60,
+    "metodo": "expressoes",
+    "ultimas": [
+     {
+      "data": "2026-10-22",
+      "fonte": "ECO",
+      "titulo": "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
+      "url": "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/"
+     },
+     {
+      "data": "2026-10-22",
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027: Raimundo diz que Chega “está todo contente” com “frete” do PS",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlJqWGQyUkM1TEtZOXo1U2F5aXJEQ3dMa2lEQXRocm45ejNCTTduVEZOUVJDTXNsOFRIN2Z1OXQ0TUZHZmg3TVlLM3VWMjhGZFhIRU1rUVZsRnVaX3NiVFJUUkh6ZnF0SHI0TFZaZnV6eHF6bmlqQ1luNlhDbVJzckVHNzJnMGhtNG9OcFgzSlotYWszaktGUTJySQ?oc=5"
+     },
+     {
+      "data": "2026-10-22",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Financiamento às corporações de bomberios vai aumentar mais de 5%",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGl5Vk1LN3F1ZXBGc0YtTERPVzV6LWVXRkVReHdpQXpRVXVpVUQzdDFTa21nOUZBay1DbUhySDVmeVVBQnhhZ1phb1N2UzFMemFnMjI4Zm1ONEc2N09FNkNqUGY2MlNPMFFpcjE4UDRKTmZqTV9fRFdHSjVUZ19OdFN6LUNMZHJWZldvNmgwY1VYYzV4SVZBdk1JZGNLbm93S1RscHJHNA?oc=5"
+     }
+    ],
+    "_ligacoes": [
+     "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/",
+     "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlJqWGQyUkM1TEtZOXo1U2F5aXJEQ3dMa2lEQXRocm45ejNCTTduVEZOUVJDTXNsOFRIN2Z1OXQ0TUZHZmg3TVlLM3VWMjhGZFhIRU1rUVZsRnVaX3NiVFJUUkh6ZnF0SHI0TFZaZnV6eHF6bmlqQ1luNlhDbVJzckVHNzJnMGhtNG9OcFgzSlotYWszaktGUTJySQ?oc=5",
+     "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGl5Vk1LN3F1ZXBGc0YtTERPVzV6LWVXRkVReHdpQXpRVXVpVUQzdDFTa21nOUZBay1DbUhySDVmeVVBQnhhZ1phb1N2UzFMemFnMjI4Zm1ONEc2N09FNkNqUGY2MlNPMFFpcjE4UDRKTmZqTV9fRFdHSjVUZ19OdFN6LUNMZHJWZldvNmgwY1VYYzV4SVZBdk1JZGNLbm93S1RscHJHNA?oc=5",
+     "https://news.google.com/rss/articles/CBMiugFBVV95cUxObkt1VzNLOHFUU3ZGNmM1d2VIeGlGX1E5cVVjSHlvdWt4YUNPMWZaY2hTc0VQaDVrWFY4OXU2TElYcGJJenMzWHdDcGE5SGtINUJSQ1RSRHJqNFJfNVVBSWstbTBycjhDMnVhRHZmem5IVjlmR0dzaDJvaUszeXA2LThibEQ1U3ZLbWxZai1XTE4wZHhlTnBUdEM4SGNOS0Ytdm50bWs3YWYwRjRLZG1jRkozSEtxV2xaQmc?oc=5",
+     "https://news.google.com/rss/articles/CBMipAFBVV95cUxObnJWNEVETU5rdlctdktYbVdVQ1J2TFZCOGNzX08zMk5aTmRNMTMwTzdWcDkwVkRRT1QtMmlPVXJqNnBMMzhraE80OWk1RTloRG1NZ1V3eHhoWEdRU3lVcnp1eEc5OVNmYnpncXlJZTU0WG5aRWlhbUl1aFZpRkQ5SlBvVzExczQ4aDBYZTBHZWhXd2NGOExZbk85c2hibW5GZWR5Zw?oc=5",
+     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWGhYZEJxNWFPbzVzYWhJTTI5NGFUZWtmcmZtaHNJYmgwMDZmajhLZ0ZYV0I2b3JFaGVfekdGNjhNYzlVV3hnOFFzNzJwOHhvS2V2TVRqUnZTZ0xKQkFVclpmeEpJajhGYnI3bXExRU9scmxpTGNNUWFoaVBHLVVNRWMwTU45TkRwdldtck5INUw2bWlZNzlUZ05qa2U1UVFtV24wNDJ5WUZkR2hEQ0c0LXFnaXFBMFFnaU1LLV9iUnFTQQ?oc=5",
+     "https://observador.pt/2026/10/22/oe2027-proposta-orcamental-esta-entre-inercia-e-transformacao-diz-bastonario-dos-economistas/",
+     "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORVJ5a0NXNXVtZ0p4cE9FQVRpYlVHZmdYMmpBVld6a2ZjZDUxRXQ0cGlMYU5ld2JmWk9udFpxcXI1VFpDUmQzWVY5N19WMmFZU0duRks4Q3RwdFIzNWxLczVOODlZU3BEbHZvcFFvUmVKOFgtREVSZUJVbk16bm5seDdIV2pmdWwzR1l3aG9nTjdsREtSd1l2aUJLanh6XzE2VU5Wc0tHdFNkamhWOGlpeHVmZTdSRC1NTU5ScFJwREFJRGZJTTlwSWsyOG41S0dXdEZQZ1NFcDZENGFONktPZF9pMl9makNlTmtlSXBWU2o3SzQ?oc=5",
+     "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1gyTk9PUy03c3dYUWxLSV9TaFc0WEFDNTNvUEJXMC1RR2g3WlUtNnRPUjg5UUg0cHpuemJ5TlNiNVltblZUVTJvTFhzbHAwQklvUmFfd0gwNG93SHZvQlJybm13X082MzEtcXFhWm5EN1RoVjB1dHdPNmJfbE1za1UzUDJaajYyVnA5N0dVT09qSW9lTHliTDJBbHgzMVFGUlhIUkdaa1lGMHRnSDViVVloaVlodw?oc=5",
+     "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385",
+     "https://observador.pt/2026/10/22/parlamento-suspende-comissoes-permanentes-e-inquerito-aos-incendios-durante-debate-do-orcamento-para-2027/",
+     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSGwxT0ZEZlpEMXE5MnVhREdQVTlidzI3bTZLeVhQdVVBUUk2TE5RN0dQbGI5dUh1RHl1Y3ZNZEZzeG05bldhNFc5b2czX21WT2xuUGhXRWZkWWFFcUNTM0Q3NGE4SmxPa3R0UnRJUkdlZHJPdXBDd0FLZjkzY0o0RE5DT1p1RDZ5Qmo5YWgwT0dJWXRlMU9PeW5NMXkwS1hUSkV4bVZYSUU?oc=5"
+    ]
+   }
+  },
+  {
+   "tema": "Plenário — Continuação do debate na generalidade do Orçamento do Estado para 2027",
+   "data": "2026-10-28",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 16 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 15H00 (sujeito a alteração)\n 1 - Continuação do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 2.º Dia \n GOV \n 70 m \n PSD \n 44 m \n CH \n 37 m \n PS \n 35 m 30 \n IL \n 19 m 3",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 15H00 (sujeito a alteração)\n 1 - Continuação do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 2.º Dia \n GOV \n 70 m \n PSD \n 44 m \n CH \n 37 m \n PS \n 35 m 30 \n IL \n 19 m 30 \n L \n 13 m  \n PCP \n 9 m 30 \n CDS-PP \n 9 m \n BE \n 4 m \n PAN \n 4 m  \n JPP \n 4 m \n Total \n 249 m 30 \n 2 - Encerramento do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n ENCERRAMENTO \n JPP \n 3 m \n PAN \n 3 m \n BE \n 3 m \n CDS-PP \n 6 m  \n PCP \n 6 m 30 \n L \n 7 m 30 \n IL \n 8 m 30 \n PS \n 12 m 30 \n CH \n 13 m 30 \n PSD \n 16 m \n GOV \n 30 m \n Total \n 109 m 30 \n 3 - Votações",
+   "orgao": "Plenário",
+   "id_ar": 48343,
+   "chave": "ar-48343",
+   "dataLabel": "quarta, 28 out",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [
+    "Transversal",
+    "DACDP",
+    "UPE",
+    "DAPL"
+   ],
+   "pertinencia": "Imediato",
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "ECO — calendário aprovado pela Conferência de Líderes (23 set.)",
+     "url": "https://eco.sapo.pt/2026/09/23/oe2027-proposta-debatida-na-generalidade-em-27-e-28-de-outubro-votacao-final-em-24-novembro/"
+    }
+   ],
+   "varrimento": "oe",
+   "expressoes": [
+    "Orçamento do Estado para 2027",
+    "OE2027",
+    "OE 2027"
+   ],
+   "cobertura": {
+    "n": 951,
+    "dias": 60,
+    "metodo": "expressoes",
+    "ultimas": [
+     {
+      "data": "2026-10-22",
+      "fonte": "ECO",
+      "titulo": "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
+      "url": "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/"
+     },
+     {
+      "data": "2026-10-22",
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027: Raimundo diz que Chega “está todo contente” com “frete” do PS",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlJqWGQyUkM1TEtZOXo1U2F5aXJEQ3dMa2lEQXRocm45ejNCTTduVEZOUVJDTXNsOFRIN2Z1OXQ0TUZHZmg3TVlLM3VWMjhGZFhIRU1rUVZsRnVaX3NiVFJUUkh6ZnF0SHI0TFZaZnV6eHF6bmlqQ1luNlhDbVJzckVHNzJnMGhtNG9OcFgzSlotYWszaktGUTJySQ?oc=5"
+     },
+     {
+      "data": "2026-10-22",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Financiamento às corporações de bomberios vai aumentar mais de 5%",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGl5Vk1LN3F1ZXBGc0YtTERPVzV6LWVXRkVReHdpQXpRVXVpVUQzdDFTa21nOUZBay1DbUhySDVmeVVBQnhhZ1phb1N2UzFMemFnMjI4Zm1ONEc2N09FNkNqUGY2MlNPMFFpcjE4UDRKTmZqTV9fRFdHSjVUZ19OdFN6LUNMZHJWZldvNmgwY1VYYzV4SVZBdk1JZGNLbm93S1RscHJHNA?oc=5"
+     }
+    ],
+    "_ligacoes": [
+     "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/",
+     "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlJqWGQyUkM1TEtZOXo1U2F5aXJEQ3dMa2lEQXRocm45ejNCTTduVEZOUVJDTXNsOFRIN2Z1OXQ0TUZHZmg3TVlLM3VWMjhGZFhIRU1rUVZsRnVaX3NiVFJUUkh6ZnF0SHI0TFZaZnV6eHF6bmlqQ1luNlhDbVJzckVHNzJnMGhtNG9OcFgzSlotYWszaktGUTJySQ?oc=5",
+     "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGl5Vk1LN3F1ZXBGc0YtTERPVzV6LWVXRkVReHdpQXpRVXVpVUQzdDFTa21nOUZBay1DbUhySDVmeVVBQnhhZ1phb1N2UzFMemFnMjI4Zm1ONEc2N09FNkNqUGY2MlNPMFFpcjE4UDRKTmZqTV9fRFdHSjVUZ19OdFN6LUNMZHJWZldvNmgwY1VYYzV4SVZBdk1JZGNLbm93S1RscHJHNA?oc=5",
+     "https://news.google.com/rss/articles/CBMiugFBVV95cUxObkt1VzNLOHFUU3ZGNmM1d2VIeGlGX1E5cVVjSHlvdWt4YUNPMWZaY2hTc0VQaDVrWFY4OXU2TElYcGJJenMzWHdDcGE5SGtINUJSQ1RSRHJqNFJfNVVBSWstbTBycjhDMnVhRHZmem5IVjlmR0dzaDJvaUszeXA2LThibEQ1U3ZLbWxZai1XTE4wZHhlTnBUdEM4SGNOS0Ytdm50bWs3YWYwRjRLZG1jRkozSEtxV2xaQmc?oc=5",
+     "https://news.google.com/rss/articles/CBMipAFBVV95cUxObnJWNEVETU5rdlctdktYbVdVQ1J2TFZCOGNzX08zMk5aTmRNMTMwTzdWcDkwVkRRT1QtMmlPVXJqNnBMMzhraE80OWk1RTloRG1NZ1V3eHhoWEdRU3lVcnp1eEc5OVNmYnpncXlJZTU0WG5aRWlhbUl1aFZpRkQ5SlBvVzExczQ4aDBYZTBHZWhXd2NGOExZbk85c2hibW5GZWR5Zw?oc=5",
+     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWGhYZEJxNWFPbzVzYWhJTTI5NGFUZWtmcmZtaHNJYmgwMDZmajhLZ0ZYV0I2b3JFaGVfekdGNjhNYzlVV3hnOFFzNzJwOHhvS2V2TVRqUnZTZ0xKQkFVclpmeEpJajhGYnI3bXExRU9scmxpTGNNUWFoaVBHLVVNRWMwTU45TkRwdldtck5INUw2bWlZNzlUZ05qa2U1UVFtV24wNDJ5WUZkR2hEQ0c0LXFnaXFBMFFnaU1LLV9iUnFTQQ?oc=5",
+     "https://observador.pt/2026/10/22/oe2027-proposta-orcamental-esta-entre-inercia-e-transformacao-diz-bastonario-dos-economistas/",
+     "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORVJ5a0NXNXVtZ0p4cE9FQVRpYlVHZmdYMmpBVld6a2ZjZDUxRXQ0cGlMYU5ld2JmWk9udFpxcXI1VFpDUmQzWVY5N19WMmFZU0duRks4Q3RwdFIzNWxLczVOODlZU3BEbHZvcFFvUmVKOFgtREVSZUJVbk16bm5seDdIV2pmdWwzR1l3aG9nTjdsREtSd1l2aUJLanh6XzE2VU5Wc0tHdFNkamhWOGlpeHVmZTdSRC1NTU5ScFJwREFJRGZJTTlwSWsyOG41S0dXdEZQZ1NFcDZENGFONktPZF9pMl9makNlTmtlSXBWU2o3SzQ?oc=5",
+     "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1gyTk9PUy03c3dYUWxLSV9TaFc0WEFDNTNvUEJXMC1RR2g3WlUtNnRPUjg5UUg0cHpuemJ5TlNiNVltblZUVTJvTFhzbHAwQklvUmFfd0gwNG93SHZvQlJybm13X082MzEtcXFhWm5EN1RoVjB1dHdPNmJfbE1za1UzUDJaajYyVnA5N0dVT09qSW9lTHliTDJBbHgzMVFGUlhIUkdaa1lGMHRnSDViVVloaVlodw?oc=5",
+     "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385",
+     "https://observador.pt/2026/10/22/parlamento-suspende-comissoes-permanentes-e-inquerito-aos-incendios-durante-debate-do-orcamento-para-2027/",
+     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSGwxT0ZEZlpEMXE5MnVhREdQVTlidzI3bTZLeVhQdVVBUUk2TE5RN0dQbGI5dUh1RHl1Y3ZNZEZzeG05bldhNFc5b2czX21WT2xuUGhXRWZkWWFFcUNTM0Q3NGE4SmxPa3R0UnRJUkdlZHJPdXBDd0FLZjkzY0o0RE5DT1p1RDZ5Qmo5YWgwT0dJWXRlMU9PeW5NMXkwS1hUSkV4bVZYSUU?oc=5"
+    ]
+   }
+  }
  ],
- "pedidos": "O varrimento mediático das matérias sem ficha carece de pedido prévio, através da Chefe da Unidade de Pesquisa e Estatísticas.",
- "tagline": "a semana na Assembleia da República"
+ "agenda": [
+  {
+   "tema": "Iniciativas europeias de segurança social: Passaporte Europeu de Segurança Social e Autoridade Europeia do Trabalho",
+   "data": "2026-10-26",
+   "hora": "15h30",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 75",
+   "resumo": "I Parte \n 1. Discussão e votação dos relatórios sobre as seguintes iniciativas europeias:\n A. COM(2026)980 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO relativo à digitalização da coordenação dos sistemas de segurança social, que estabelece um quadro para o Passaporte Europeu de Seg",
+   "ordemTrabalhos": "I Parte \n 1. Discussão e votação dos relatórios sobre as seguintes iniciativas europeias:\n A. COM(2026)980 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO relativo à digitalização da coordenação dos sistemas de segurança social, que estabelece um quadro para o Passaporte Europeu de Segurança Social (PESS) e que altera os Regulamentos (CE) n.º 883/2004, (CE) n.º 987/2009 e (UE) 2018/1724 ;\n Relatora: Deputada Sónia Margarida Fernandes (PSD)\n B. COM(2026)985 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que altera o Regulamento (UE) 2019/1149 que institui uma Autoridade Europeia do Trabalho, o Regulamento (UE) 2016/589 relativo a uma rede europeia de serviços de emprego (EURES), ao acesso dos trabalhadores a serviços de mobilidade e ao desenvolvimento da integração dos mercados de trabalho e o Regulamento (UE) n.º 1024/2012 relativo à cooperação administrativa através do Sistema de Informação do Mercado Interno, e revoga as Decisões de Execução (UE) 2017/1256, (UE) 2018/170, (UE) 2018/1020 e (UE) 2018/1021 da Comissão ;\n Relatora: Deputada Catarina Salgueiro (CH)\n 2. Discussão e votação do parecer setorial, a enviar à Comissão de Orçamento, Finanças e Administração Pública (5.ª- COFAP), sobre a Proposta de Lei n.º 110/XVII/2.ª (GOV) — Orçamento do Estado para 2027 ;\n Relatora: Deputada Ana Bernardo (PS)\n II Parte \n Audição da Ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, no âmbito da apreciação, na generalidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Orçamento do Estado para 2027 , ao abrigo do disposto no n.º 6 do artigo 206.º do Regimento.\n [Audição conjunta com a Comissão Orçamento, Finanças e Administração Pública (5.ª – COFAP)]",
+   "orgao": "Comissão de Trabalho, Segurança Social e Inclusão",
+   "id_ar": 48517,
+   "chave": "ar-48517",
+   "dataLabel": "segunda, 26 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DCIRI",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx"
+    }
+   ],
+   "expressoes": [
+    "Passaporte Europeu de Segurança Social",
+    "Autoridade Europeia do Trabalho",
+    "EURES"
+   ],
+   "cobertura": {
+    "n": 1,
+    "dias": 60,
+    "metodo": "expressoes",
+    "ultimas": [
+     {
+      "data": "2026-09-30",
+      "fonte": "ECO",
+      "titulo": "Os desafios do mercado de trabalho em Portugal",
+      "url": "https://eco.sapo.pt/2026/09/30/os-desafios-do-mercado-de-trabalho-em-portugal/"
+     }
+    ],
+    "_ligacoes": [
+     "https://eco.sapo.pt/2026/09/30/os-desafios-do-mercado-de-trabalho-em-portugal/"
+    ]
+   }
+  },
+  {
+   "tema": "Pareceres setoriais e parecer da CAE sobre o OE 2027 — prazo de envio à COFAP",
+   "data": "2026-10-26",
+   "dataLabel": "segunda, 26 out",
+   "hora": "18h00",
+   "periodo": "Tarde",
+   "interveniente": "Comissões parlamentares (relatores dos pareceres setoriais)",
+   "tipo": [
+    "Relatório / parecer"
+   ],
+   "tipoLabel": "Prazo · Parecer setorial OE",
+   "uo": [
+    "Transversal",
+    "DACDP",
+    "UPE",
+    "DAPL"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Prazo registado na ordem de trabalhos da Comissão de Assuntos Europeus de 21 de outubro para o envio do parecer à COFAP (18h00 de 26 de outubro). Os pareceres setoriais aprovados na semana de 20 a 23 seguem o mesmo calendário.",
+   "ordemTrabalhos": "",
+   "nota_atribuicao": "fonte: agenda da CAE de 21 out. (edição piloto)",
+   "manual": true,
+   "chave": "2026-10-26|18h00|pareceres setoriais e parecer da cae sobre o oe 2027 — prazo de envio à cofap",
+   "cobertura": {
+    "n": 0,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [],
+    "_ligacoes": []
+   }
+  },
+  {
+   "tema": "Conselho das Comunidades Portuguesas: direitos e garantias das comunidades no estrangeiro",
+   "data": "2026-10-27",
+   "hora": "12h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 14",
+   "resumo": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro",
+   "ordemTrabalhos": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro",
+   "orgao": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+   "id_ar": 48520,
+   "chave": "ar-48520",
+   "dataLabel": "terça, 27 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DCIRI"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx"
+    }
+   ],
+   "expressoes": [
+    "Conselho das Comunidades Portuguesas"
+   ],
+   "cobertura": {
+    "n": 3,
+    "dias": 60,
+    "metodo": "expressoes",
+    "ultimas": [
+     {
+      "data": "2026-10-08",
+      "fonte": "Jornal Económico",
+      "titulo": "OE2027: Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
+      "url": "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros/"
+     },
+     {
+      "data": "2026-09-14",
+      "fonte": "Observador",
+      "titulo": "Autarcas defendem independência editorial da Lusa",
+      "url": "https://observador.pt/2026/09/14/autarcas-defendem-independencia-editorial-da-lusa/"
+     },
+     {
+      "data": "2026-09-07",
+      "fonte": "Observador",
+      "titulo": "Conselheiro por Cabo Verde pede ajuda à Cruz Vermelha",
+      "url": "https://observador.pt/2026/09/07/cabo-verde-conselheiro-por-cabo-verde-pediu-ajuda-a-cruz-vermelha-portuguesa/"
+     }
+    ],
+    "_ligacoes": [
+     "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros/",
+     "https://observador.pt/2026/09/14/autarcas-defendem-independencia-editorial-da-lusa/",
+     "https://observador.pt/2026/09/07/cabo-verde-conselheiro-por-cabo-verde-pediu-ajuda-a-cruz-vermelha-portuguesa/"
+    ]
+   }
+  },
+  {
+   "tema": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
+   "data": "2026-10-27",
+   "hora": "13h00",
+   "interveniente": "",
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 15",
+   "resumo": "Preparação da apresentação pública da plataforma;\n Apresentação de projeto de resolução que aprova a regulamentação interna da AR para representação de interesses e Pegada Legislativa;\n Outros assuntos.",
+   "ordemTrabalhos": "Preparação da apresentação pública da plataforma;\n Apresentação de projeto de resolução que aprova a regulamentação interna da AR para representação de interesses e Pegada Legislativa;\n Outros assuntos.",
+   "orgao": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
+   "id_ar": 48473,
+   "chave": "ar-48473",
+   "dataLabel": "terça, 27 out",
+   "tipo": [
+    "Grupo de Trabalho"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Tarde",
+   "ligacoes": [],
+   "expressoes": [
+    "representação de interesses",
+    "pegada legislativa"
+   ],
+   "cobertura": {
+    "n": 1,
+    "dias": 60,
+    "metodo": "expressoes",
+    "ultimas": [
+     {
+      "data": "2026-09-20",
+      "fonte": "Observador",
+      "titulo": "A esfera pública e as leis gerais da governação política",
+      "url": "https://observador.pt/opiniao/a-esfera-publica-e-as-leis-gerais-da-governacao-politica/"
+     }
+    ],
+    "_ligacoes": [
+     "https://observador.pt/opiniao/a-esfera-publica-e-as-leis-gerais-da-governacao-politica/"
+    ]
+   }
+  },
+  {
+   "tema": "COM(2026)560 — simplificação da fiscalidade direta na UE: prazo do parecer da CAE",
+   "data": "2026-10-27",
+   "dataLabel": "terça, 27 out",
+   "hora": "",
+   "periodo": "Sem hora",
+   "interveniente": "Comissão de Assuntos Europeus · relatora Patrícia Nascimento (CH)",
+   "tipo": [
+    "Escrutínio europeu"
+   ],
+   "tipoLabel": "Prazo · Escrutínio europeu",
+   "uo": [
+    "DCIRI"
+   ],
+   "pertinencia": "Registo",
+   "resumo": "Iniciativa sinalizada pela CAE; prazo de envio do parecer a 27 de outubro (ordem de trabalhos da CAE de 21 de outubro).",
+   "ordemTrabalhos": "",
+   "nota_atribuicao": "",
+   "manual": true,
+   "chave": "2026-10-27||com(2026)560 — simplificação da fiscalidade direta na ue: prazo do parecer da ca",
+   "cobertura": {
+    "n": 0,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [],
+    "_ligacoes": []
+   }
+  },
+  {
+   "tema": "COM(2026)600 — faturas de eletricidade na União: prazo do parecer da CAE",
+   "data": "2026-10-28",
+   "dataLabel": "quarta, 28 out",
+   "hora": "",
+   "periodo": "Sem hora",
+   "interveniente": "Comissão de Assuntos Europeus · relator João Torres (PS)",
+   "tipo": [
+    "Escrutínio europeu"
+   ],
+   "tipoLabel": "Prazo · Escrutínio europeu",
+   "uo": [
+    "DCIRI"
+   ],
+   "pertinencia": "Registo",
+   "resumo": "Iniciativa sinalizada pela CAE; prazo de envio do parecer a 28 de outubro (ordem de trabalhos da CAE de 21 de outubro).",
+   "ordemTrabalhos": "",
+   "nota_atribuicao": "",
+   "manual": true,
+   "chave": "2026-10-28||com(2026)600 — faturas de eletricidade na união: prazo do parecer da cae",
+   "cobertura": {
+    "n": 0,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [],
+    "_ligacoes": []
+   }
+  },
+  {
+   "tema": "Grupo de Trabalho - Júri do Prémio Mário Soares 2026",
+   "data": "2026-10-30",
+   "hora": "15h00",
+   "interveniente": "",
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 3",
+   "resumo": "Ponto único: Conclusão da apreciação das candidaturas ao Prémio Mário Soares 2026",
+   "ordemTrabalhos": "Ponto único: Conclusão da apreciação das candidaturas ao Prémio Mário Soares 2026",
+   "orgao": "Grupo de Trabalho - Júri do Prémio Mário Soares 2026",
+   "id_ar": 48521,
+   "chave": "ar-48521",
+   "dataLabel": "sexta, 30 out",
+   "tipo": [
+    "Grupo de Trabalho"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Tarde",
+   "ligacoes": [],
+   "cobertura": {
+    "n": 0,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [],
+    "_ligacoes": []
+   }
+  },
+  {
+   "tema": "Agência Lusa — fim do prazo de reapreciação dos projetos de estatutos",
+   "data": "2026-10-31",
+   "dataLabel": "sábado, 31 out",
+   "hora": "",
+   "periodo": "Sem hora",
+   "interveniente": "—",
+   "tipo": [
+    "Prazo"
+   ],
+   "tipoLabel": "Prazo · Comunicação social",
+   "uo": [
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "A reapreciação dos projetos de estatutos da Lusa termina a 31 de outubro (síntese da pasta de apoio ao Gabinete do Ministro da Presidência, edição piloto). Convém verificar se há reunião da 12.ª Comissão ou comunicação do Governo nessa semana.",
+   "ordemTrabalhos": "",
+   "nota_atribuicao": "",
+   "manual": true,
+   "chave": "2026-10-31||agência lusa — fim do prazo de reapreciação dos projetos de estatutos",
+   "cobertura": {
+    "n": 5,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [
+     {
+      "data": "2026-10-21",
+      "fonte": "RTP Notícias",
+      "titulo": "Estatutos da agência Lusa. Ministro nega \"pressão do Governo\" com alterações",
+      "url": "https://www.rtp.pt/noticias/economia/estatutos-da-agencia-lusa-ministro-nega-pressao-do-governo-com-alteracoes_v1773255"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "Observador",
+      "titulo": "Importante testar regras atuais da Lusa",
+      "url": "https://observador.pt/2026/10/21/ministro-da-presidencia-diz-que-e-importante-regras-atuais-da-lusa-poderem-ser-testadas/"
+     },
+     {
+      "data": "2026-10-16",
+      "fonte": "RTP Notícias",
+      "titulo": "Rejeitados na generalidade todos os projetos de lei sobre os novos estatutos da Lusa",
+      "url": "https://www.rtp.pt/noticias/politica/rejeitados-na-generalidade-todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa_n1772125"
+     }
+    ],
+    "_ligacoes": [
+     "https://www.rtp.pt/noticias/economia/estatutos-da-agencia-lusa-ministro-nega-pressao-do-governo-com-alteracoes_v1773255",
+     "https://observador.pt/2026/10/21/ministro-da-presidencia-diz-que-e-importante-regras-atuais-da-lusa-poderem-ser-testadas/",
+     "https://www.rtp.pt/noticias/politica/rejeitados-na-generalidade-todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa_n1772125",
+     "https://eco.sapo.pt/2026/10/16/todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa-rejeitados-na-generalidade/",
+     "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjBLMXFpUVJOcnNOSWtlWDBwZ205eC1KdFFSNVdfR1pleG4xWjRoWVZfOUoxc040dkxjVkJiX0lFZ0gtY25nR182ell6Nkhpd2tYcnE4YTN6UmQ2aUVHbkFud2VlUGphTGFKeGJvTnpkc0lNdktmNGVXYUNnNGhqdU16dmFJTzFHZExYOFhJOVBrVmhFX0FFSFhQRTE0dmo5RHdaV09BeUpyMzdJeGl2ZmtScHZibGFFdFZmQUl30gG-AUFVX3lxTFBCMEsxcWlRUk5yc05Ja2VYMHBnbTl4LUp0UVI1V19HWmV4bjFaNGhZVl85SjFzTjR2TGNWQmJfSUVnSC1jbmdHXzZ6WXo2SGl3a1hycThhM3pSZDZpRUduQW53ZWVQamFMYUp4Ym9OemRzSU12S2Y0ZVdhQ2c0aGp1TXp2YUlPMUdkTFg4WEk5UGtWaEVfQUVIWFBFMTR2ajlEd1pXT0F5SnIzN0l4aXZma1JwdmJsYUV0VmZBSXc?oc=5"
+    ]
+   }
+  }
+ ]
 }

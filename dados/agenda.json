@@ -512,7 +512,7 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 944,
+    "n": 951,
     "dias": 60,
     "metodo": "expressoes",
     "ultimas": [
@@ -587,7 +587,7 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 944,
+    "n": 951,
     "dias": 60,
     "metodo": "expressoes",
     "ultimas": [
