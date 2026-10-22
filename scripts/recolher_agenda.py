@@ -1,4 +1,4 @@
-"""Passo 1 — recolha da Agenda Parlamentar (dados abertos da AR) para a semana seguinte.
+"""Passo 1 — recolha diária da Agenda Parlamentar (dados abertos da AR) para a semana-alvo (ver semana_alvo).
 
 ESQUELETO: o endereço do ficheiro de dados abertos e os nomes dos campos têm de ser confirmados
 na página «Agenda Parlamentar» dos Dados Abertos da AR (parlamento.pt > Cidadania > Dados abertos).
@@ -13,9 +13,13 @@ import json, pathlib, datetime, sys, urllib.request
 
 URL_AGENDA = "A_CONFIRMAR"   # ficheiro JSON/XML dos dados abertos da AR (secção Agenda Parlamentar)
 
-def semana_seguinte(hoje=None):
+def semana_alvo(hoje=None):
+    """De segunda a quinta: a semana em curso. De sexta a domingo: a semana seguinte.
+    É isto que permite atualizar todos os dias: a edição de segunda vai sendo preparada desde sexta."""
     hoje = hoje or datetime.date.today()
-    seg = hoje + datetime.timedelta(days=(7 - hoje.weekday()) % 7 or 7)   # próxima segunda-feira
+    seg = hoje - datetime.timedelta(days=hoje.weekday())
+    if hoje.weekday() >= 4:
+        seg += datetime.timedelta(days=7)
     return seg, seg + datetime.timedelta(days=6)
 
 def descarregar(url):
@@ -41,7 +45,7 @@ def normalizar(bruto, ini, fim):
     return saida
 
 if __name__ == '__main__':
-    ini, fim = semana_seguinte()
+    ini, fim = semana_alvo()
     if URL_AGENDA == 'A_CONFIRMAR':
         print('AVISO: URL_AGENDA por definir — recolha não feita; a edição em vigor mantém-se.'); sys.exit(0)
     bruto = json.loads(descarregar(URL_AGENDA))

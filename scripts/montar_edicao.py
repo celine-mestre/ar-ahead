@@ -1,35 +1,126 @@
-"""Passo 2c — monta dados/agenda.json (a edição) a partir de dados/triagem_proposta.json.
-Corre na segunda-feira antes do varrimento. Só monta se a triagem for de uma semana mais recente do que a edição em vigor.
-- «Imediato» → destaques (o Amália gera-lhes a ficha a seguir); o resto → agenda.
-- Se nem todas as matérias estiverem validadas pela Ana Luísa, a edição sai marcada «automática, não revista»."""
-import json, pathlib, datetime, sys
+"""Passo 2 — monta ou ATUALIZA dados/agenda.json a partir da recolha do dia (dados/triagem_proposta.json).
+
+* Semana nova  → nova edição (número + 1).
+* Mesma semana → atualização: mantém as classificações e fichas já feitas; marca as matérias
+  novas («novo»), as que mudaram de ordem de trabalhos («alterado») e as que deixaram de constar («retirado»).
+* dados/correcoes.csv (chave;uo;pertinencia;assunto) — correções da Ana Luísa, aplicadas sempre por cima.
+* Escreve dados/triagem_semana.csv para a revisão e, no GitHub Actions, a saída nova_semana=sim|nao.
+"""
+import json, pathlib, datetime, sys, os, csv, re
+from zoneinfo import ZoneInfo
+
 tri_p, ag_p = pathlib.Path('dados/triagem_proposta.json'), pathlib.Path('dados/agenda.json')
+cor_p, csv_p = pathlib.Path('dados/correcoes.csv'), pathlib.Path('dados/triagem_semana.csv')
+def saida(k, v):
+    if os.environ.get('GITHUB_OUTPUT'):
+        open(os.environ['GITHUB_OUTPUT'], 'a').write(f'{k}={v}\n')
+
 if not tri_p.exists():
-    print('Sem triagem nova — mantém-se a edição em vigor.'); sys.exit(0)
+    print('Sem recolha nova — mantém-se a edição em vigor.'); saida('nova_semana', 'nao'); sys.exit(0)
 tri = json.loads(tri_p.read_text(encoding='utf-8'))
 ant = json.loads(ag_p.read_text(encoding='utf-8')) if ag_p.exists() else {}
-if ant and tri['inicio'] <= ant['edicao']['inicio']:
-    print('A triagem não é de uma semana nova — mantém-se a edição em vigor.'); sys.exit(0)
+if ant and tri['inicio'] < ant['edicao']['inicio']:
+    print('A recolha é de uma semana anterior à edição em vigor — ignorada.'); saida('nova_semana', 'nao'); sys.exit(0)
+
 DIAS = ['segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo']
 MESES = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
-def d(s): return datetime.date.fromisoformat(s)
+d = datetime.date.fromisoformat
 def rotulo(s): x = d(s); return f"{DIAS[x.weekday()]}, {x.day} {MESES[x.month-1][:3]}"
 def extenso(x, ano=True): return f"{x.day} de {MESES[x.month-1]}" + (f" de {x.year}" if ano else '')
+def chave(i): return re.sub(r'\s+', ' ', f"{i['data']}|{i.get('hora','')}|{(i.get('orgao') or i.get('tema',''))[:80]}").strip().lower()
+
+agora = datetime.datetime.now(ZoneInfo('Europe/Lisbon'))
+hoje = agora.date().isoformat()
 ini, fim = d(tri['inicio']), d(tri['fim'])
-semana = f"{extenso(ini, ini.year != fim.year)} a {extenso(fim)}" if ini.month != fim.month else f"{ini.day} a {extenso(fim)}"
-validadas = all(i.get('validado') for i in tri['itens'])
-destaques, agenda = [], []
-for i in tri['itens']:
-    x = {k: i.get(k, '') for k in ('tema', 'data', 'hora', 'interveniente', 'tipoLabel', 'resumo', 'ordemTrabalhos')}
-    x.update(dataLabel=rotulo(i['data']), tipo=i.get('tipo', []), uo=i.get('uo', []), pertinencia=i.get('pertinencia', 'Registo'),
-             periodo='Manhã' if (i.get('hora') or '99')[:2] < '13' else 'Tarde', ligacoes=[{'titulo': 'Agenda parlamentar', 'url': i['ligacao']}] if i.get('ligacao') else [])
-    (destaques if x['pertinencia'] == 'Imediato' else agenda).append(x)
-recolha = tri.get('recolha', '')[:10]
-ed = {'numero': ant.get('edicao', {}).get('numero', 0) + 1, 'ano': ini.year, 'semana': semana, 'inicio': tri['inicio'], 'fim': tri['fim'],
-      'fecho': recolha, 'fechoLabel': extenso(d(recolha)) if recolha else ''}
-if not validadas:
-    ed.update(estado='automática, não revista', aviso='Esta edição foi montada e triada automaticamente (regras e Amália) e não foi revista pela Unidade de Pesquisa e Estatísticas. As fichas de varrimento, quando existem, foram geradas a partir do corpus do Radar de Notícias e não incluem a verificação de números.')
+semana = f"{extenso(ini, False)} a {extenso(fim)}" if ini.month != fim.month else f"{ini.day} a {extenso(fim)}"
+nova_semana = not ant or tri['inicio'] > ant['edicao']['inicio']
+preliminar = bool(ant) and not nova_semana and ant['edicao'].get('estado') == 'preliminar'   # 1.ª recolha real de uma edição feita à mão
+
+def base(i):
+    x = {k: i.get(k, '') for k in ('tema', 'data', 'hora', 'interveniente', 'tipoLabel', 'resumo', 'ordemTrabalhos', 'orgao')}
+    x.update(chave=chave(i), dataLabel=rotulo(i['data']), tipo=i.get('tipo', []), uo=i.get('uo', []), pertinencia=i.get('pertinencia', 'Registo'),
+             periodo='Manhã' if (i.get('hora') or '99')[:2] < '13' else 'Tarde',
+             ligacoes=[{'titulo': 'Agenda parlamentar', 'url': i['ligacao']}] if i.get('ligacao') else [])
+    return x
+
+novos_itens = [base(i) for i in tri['itens']]
+if nova_semana or preliminar:
+    itens = novos_itens
+    ed = {'numero': ant.get('edicao', {}).get('numero', 0) + (0 if preliminar else 1), 'ano': ini.year, 'semana': semana, 'inicio': tri['inicio'], 'fim': tri['fim'],
+          'fecho': hoje, 'fechoLabel': extenso(agora.date()), 'alteracoes': []}
+    fichas = ant.get('fichas', {}) if preliminar else {}
+    n_novo = n_alt = n_ret = 0
+    if preliminar:   # herda as fichas e ligações da edição preliminar para as reuniões do mesmo dia e hora
+        velhos = {(x['data'], x.get('hora', '')): x for x in ant['destaques'] + ant['agenda']}
+        for x in itens:
+            v = velhos.get((x['data'], x.get('hora', '')))
+            if v:
+                if v.get('varrimento'): x['varrimento'] = v['varrimento']
+                if v.get('ligacoes') and not x['ligacoes']: x['ligacoes'] = v['ligacoes']
+                if v.get('uo') and not x['uo']: x['uo'], x['pertinencia'] = v['uo'], v['pertinencia']
+else:
+    ed = dict(ant['edicao']); fichas = ant.get('fichas', {})
+    antigos = {x.get('chave') or chave(x): x for x in ant['destaques'] + ant['agenda']}
+    vistos, itens, n_novo, n_alt = set(), [], 0, 0
+    for x in novos_itens:
+        a = antigos.get(x['chave'])
+        if a:
+            vistos.add(x['chave'])
+            y = dict(a); y.pop('retirado', None)
+            for k in ('hora', 'interveniente', 'tipoLabel', 'ligacoes'):
+                y[k] = x[k] or a.get(k, '')
+            if x['ordemTrabalhos'] and x['ordemTrabalhos'] != a.get('ordemTrabalhos'):
+                y['ordemTrabalhos'] = x['ordemTrabalhos']
+                if not a.get('amalia'): y['resumo'] = x['resumo']
+                y['alterado'] = hoje; n_alt += 1
+            itens.append(y)
+        else:
+            x['novo'] = hoje; itens.append(x); n_novo += 1
+    n_ret = 0
+    for k, a in antigos.items():
+        if k not in vistos:
+            y = dict(a)
+            if not y.get('retirado'): y['retirado'] = hoje; n_ret += 1
+            itens.append(y)
+    if n_novo or n_alt or n_ret:
+        ed.setdefault('alteracoes', []).append({'data': hoje, 'novos': n_novo, 'alterados': n_alt, 'retirados': n_ret})
+
+# correções manuais da Ana Luísa (prevalecem sempre)
+if cor_p.exists():
+    for r in csv.DictReader(cor_p.open(encoding='utf-8-sig'), delimiter=';'):
+        k = (r.get('chave') or '').strip().lower()
+        for x in itens:
+            if x.get('chave') == k:
+                if r.get('uo') is not None and r.get('uo').strip() != '':
+                    x['uo'] = [u.strip() for u in r['uo'].split(',') if u.strip() and u.strip() != '-']
+                if (r.get('pertinencia') or '').strip(): x['pertinencia'] = r['pertinencia'].strip()
+                if (r.get('assunto') or '').strip(): x['tema'] = r['assunto'].strip()
+                x['validado'] = True
+
+ed.update(atualizado=agora.isoformat(timespec='minutes'), atualizadoLabel=f"{extenso(agora.date(), False)}, {agora:%Hh%M}")
+primeira = (ed.get('alteracoes') or [{}])[0].get('data') if ed.get('alteracoes') else None
+if not nova_semana: ed['desdeLabel'] = extenso(d(ed['fecho']), False)
+ativos = [x for x in itens if not x.get('retirado')]
+por_rever = sum(1 for x in ativos if not x.get('validado') and x['pertinencia'] != 'Registo')
+if por_rever:
+    ed.update(estado='com triagem automática', aviso=f'{por_rever} matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números.')
+else:
+    ed.pop('estado', None); ed.pop('aviso', None)
+
+ordem = lambda x: (x['data'], x.get('hora') or '99')
 nova = {k: ant[k] for k in ('produto', 'tagline', 'unidades', 'disclaimer', 'metodologia', 'pedidos') if k in ant}
-nova.update(edicao=ed, destaques=destaques, agenda=agenda, fichas={})
+nova.update(edicao=ed, fichas=fichas,
+            destaques=sorted([x for x in itens if x['pertinencia'] == 'Imediato'], key=ordem),
+            agenda=sorted([x for x in itens if x['pertinencia'] != 'Imediato'], key=ordem))
 ag_p.write_text(json.dumps(nova, ensure_ascii=False, indent=1), encoding='utf-8')
-print(f"Edição n.º {ed['numero']} montada: {semana} · {len(destaques)} destaques · {len(agenda)} na agenda · {'validada' if validadas else 'NÃO revista'}")
+
+with csv_p.open('w', encoding='utf-8-sig', newline='') as f:
+    w = csv.writer(f, delimiter=';')
+    w.writerow(['chave', 'data', 'hora', 'tema', 'uo', 'pertinencia', 'estado', 'revisto'])
+    for x in sorted(itens, key=ordem):
+        w.writerow([x['chave'], x['data'], x.get('hora', ''), x['tema'], ','.join(x['uo']), x['pertinencia'],
+                    'retirado' if x.get('retirado') else 'novo' if x.get('novo') else 'alterado' if x.get('alterado') else '', 'sim' if x.get('validado') else ''])
+
+saida('nova_semana', 'sim' if nova_semana else 'nao')
+print(f"{'Nova edição' if nova_semana else 'Atualização da edição'} n.º {ed['numero']} ({semana}): "
+      f"{len(nova['destaques'])} destaques, {len(nova['agenda'])} na agenda; hoje: +{n_novo} novas, {n_alt} alteradas, {n_ret} retiradas; {por_rever} por rever")
