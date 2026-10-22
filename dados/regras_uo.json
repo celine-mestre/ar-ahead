@@ -1,0 +1,66 @@
+{
+  "_nota": "Tabela tema → unidade orgânica. Cada dirigente valida a sua lista uma vez; depois só se acrescentam termos. 'termos' dá Vigilância; 'imediato' sobe para Imediato (implica varrimento).",
+  "transversal": [
+    "orçamento do estado",
+    "conta geral do estado",
+    "reforma do estado"
+  ],
+  "unidades": {
+    "DACDP": {
+      "termos": [
+        "conselho de ministros",
+        "programa do governo",
+        "prr",
+        "quadro financeiro plurianual",
+        "assuntos europeus"
+      ],
+      "imediato": [
+        "prr"
+      ]
+    },
+    "DAPL": {
+      "termos": [
+        "proposta de lei",
+        "autorização legislativa",
+        "transposição",
+        "diretiva",
+        "processo legislativo"
+      ],
+      "imediato": [
+        "autorização legislativa"
+      ]
+    },
+    "UPE": {
+      "termos": [
+        "ine",
+        "estatística",
+        "pensões",
+        "caixa geral de aposentações",
+        "comunicação social",
+        "lusa",
+        "rtp",
+        "prr"
+      ],
+      "imediato": [
+        "conta geral do estado",
+        "orçamento do estado",
+        "lusa"
+      ]
+    },
+    "DCIRI": {
+      "termos": [
+        "negócios estrangeiros",
+        "comunidades portuguesas",
+        "união europeia",
+        "escrutínio europeu",
+        "acordo internacional",
+        "cooperação",
+        "cplp"
+      ],
+      "imediato": [
+        "acordo-quadro",
+        "quadro financeiro plurianual"
+      ]
+    }
+  }
+}
