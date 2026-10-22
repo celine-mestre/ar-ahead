@@ -127,7 +127,7 @@ h2 .ic{color:var(--verde)} h2 small{font-weight:400;font-size:12.5px;color:var(-
 .g-top{background:var(--grad);color:#fff;padding:14px 20px;border-bottom:3px solid var(--vermelho);display:flex;gap:12px;align-items:flex-start}
 .g-top h2{color:#fff;margin:0;font-size:18px} .g-top .meta{font-size:12px;opacity:.9;margin:4px 0 0}
 .g-top .fechar{margin-left:auto;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:6px;width:34px;height:34px;cursor:pointer;flex:none;display:flex;align-items:center;justify-content:center}
-.g-corpo{overflow:auto;padding:16px 20px 30px}
+.g-corpo{flex:1;overflow:auto;padding:16px 20px 30px}
 .g-corpo h3{color:var(--azul);font-size:14px;margin:18px 0 8px;display:flex;align-items:center;gap:7px}
 .g-corpo h3 .ic{color:var(--verde)}
 .enq{background:#fff;border:1px solid var(--borda);border-radius:8px;padding:12px 14px;font-size:13.5px}
@@ -176,6 +176,13 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
 .frente details{margin-top:10px} .frente summary{cursor:pointer;color:var(--azul);font-size:12.5px;margin-bottom:4px}
 .c-cob{font-size:11.5px;color:var(--suave);display:flex;gap:6px;align-items:baseline;flex-wrap:wrap} .c-cob b{color:var(--texto);font-weight:600} .c-cob a{font-size:11.5px} .c-cob details{width:100%} .c-cob summary{cursor:pointer;color:var(--azul)} .c-cob ul{margin:4px 0 0;padding-left:16px} .c-cob li{margin:2px 0}
 .c-cob .tend{font-weight:600;white-space:nowrap} .c-cob .tend.sobe{color:var(--vermelho)} .c-cob .tend.desce{color:var(--verde)} .c-cob .tend.estavel{color:var(--suave)}
+.g-amostra{font-size:12px;color:var(--suave);background:#f7f8fa;border:1px solid var(--borda);border-radius:8px;padding:7px 10px;margin:0 0 10px}
+.g-novas{font-size:12.5px;background:#fff4c2;border:1px solid #f0d77a;color:#6b5200;border-radius:8px;padding:7px 10px;margin:0 0 10px}
+details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px} details.todas summary{cursor:pointer;color:var(--azul);font-weight:600;font-size:14px;display:flex;align-items:center;gap:7px}
+.ln-nota{font-size:11.5px;color:var(--suave);margin:6px 0} .ln-q{width:100%;border:1px solid var(--borda);border-radius:8px;padding:7px 10px;font:inherit;font-size:12.5px;margin:4px 0 8px}
+.ln-dia{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--suave);margin:10px 0 3px;padding-bottom:2px;border-bottom:1px solid var(--borda)}
+.ln{font-size:12.5px;padding:3px 0;line-height:1.35} .ln-f{display:inline-block;min-width:120px;color:var(--suave);font-size:11.5px}
+.ver.sec{background:#fff;color:var(--azul);border:1px solid var(--azul)}
 .nivel{display:inline-block;font-size:10.5px;font-weight:600;border-radius:4px;padding:1px 7px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);margin-left:8px;vertical-align:2px}
 .tag.novo{background:#fff4c2;color:#6b5200;border-color:#f0d77a}
 .tag.alt{background:#eef3f7;color:var(--azul);border-color:#d9e3ec}
@@ -366,7 +373,7 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
     }).catch(() => {});
   }
   $('#f-edicao').textContent = `${D.produto} · ${D.edicao.semana} · fecho a ${D.edicao.fechoLabel}`;
-  $('#aviso-txt').innerHTML = `<strong>As matérias desta secção não têm varrimento mediático.</strong> ${esc(D.pedidos)}`;
+  $('#aviso-txt').innerHTML = `<strong>Nesta secção não há fichas completas.</strong> As matérias em vigilância podem ter ficha curta automática e todas têm a lista das notícias encontradas no Radar de Notícias. ${esc(D.pedidos)}`;
   if (retiradas.length) { const r=$('#retiradas'); r.hidden=false; r.innerHTML = `<b>Deixaram de constar da agenda da AR (${retiradas.length})</b><ul>${retiradas.map(x=>`<li><s>${esc(x.tema)}</s> · ${esc(x.dataLabel)}${x.hora?' '+esc(x.hora):''} · retirada a ${esc(fmtD(x.retirado))}</li>`).join('')}</ul>`; }
   $('#disc').textContent = D.disclaimer; $('#metod').innerHTML = D.metodologia.map(m=>`<li>${esc(m)}</li>`).join('');
 
@@ -518,6 +525,7 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
     const tend = c.n7||c.n7ant ? ` <span class="tend ${t[2]}" title="${c.n7ant} nos 7 dias anteriores">${t[0]} ${t[1]}</span>` : '';
     return `<b>${c.n7}</b> ${c.n7===1?'notícia':'notícias'} nos últimos 7 dias${tend} · ${c.n} em ${c.dias} dias · ${fonte}${ind}`;
   };
+  const listaBtn = x => x.cobertura && x.cobertura.n && (x.cobertura.todas||[]).length ? `<button class="ver sec" data-lista="${esc(idDe(x))}"><svg class="ic"><use href="#i-news"/></svg>Notícias (${x.cobertura.n})</button>` : '';
   const icTipo = t => /Audi/.test(t)?'i-mic':/Debate|Plenário/.test(t)?'i-users':/vota|Vota/.test(t)?'i-vote':'i-file';
   function cartao(x){
     const [cls,pc] = PERT[x.pertinencia]||['reg','p-reg'];
@@ -525,8 +533,8 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
     const res = x.resumo||''; const longo = res.length>220 || x.ordemTrabalhos;
     const ligs = (x.ligacoes||[]).map(l=>`<a class="lig" href="${esc(l.url)}" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg>${esc(l.titulo)}</a>`).join('');
     const foot = x._hist ? `<a class="ver" href="${esc(BASE_ED+x._hist.ficheiro)}"><svg class="ic"><use href="#i-layers"/></svg>${x.varrimento?'Ver varrimento na ':'Abrir a '}${esc(nomeEd(x._hist).toLowerCase())}</a>${ligs}`
-      : x._fut ? `<span class="pedir">Semana seguinte · triagem provisória, sem varrimento</span>${ligs}`
-      : x.varrimento ? `<button class="ver" data-ver="${esc(x.varrimento)}"><svg class="ic"><use href="#i-news"/></svg>${D.fichas[x.varrimento] && D.fichas[x.varrimento].nivel==='curta' ? 'Ver varrimento (curto)' : 'Ver varrimento'}</button>${ligs}` : (x._d ? ligs : `<span class="pedir">Varrimento a pedido</span>`);
+      : x._fut && !x.varrimento ? `<span class="pedir">Semana seguinte · triagem provisória, sem varrimento</span>${listaBtn(x)}${ligs}`
+      : x.varrimento ? `<button class="ver" data-ver="${esc(x.varrimento)}"><svg class="ic"><use href="#i-news"/></svg>${D.fichas[x.varrimento] && D.fichas[x.varrimento].nivel==='curta' ? 'Ver varrimento (curto)' : 'Ver varrimento'}</button>${ligs}` : (x._d ? listaBtn(x)+ligs : `${listaBtn(x)}<span class="pedir">Varrimento a pedido</span>`);
     return `<article class="cartao ${cls}" data-id="${esc(x.data+'|'+x.tema)}">
       <div class="c-top"><span class="quando"><svg class="ic"><use href="#i-cal"/></svg>${esc(x.dataLabel)}${x.hora?` · ${esc(x.hora)}`:''}</span><span class="pert ${pc}">${esc(x.pertinencia)}</span></div>
       <h3 class="c-tema">${esc(x.tema)}</h3>
@@ -540,7 +548,7 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
     </article>`;
   }
   const foraDaSemana = () => st.dias.size && [...st.dias].every(k=>!semanaIso.has(k));
-  const ehDestaque = x => x._d || (x._hist && x.varrimento);
+  const ehDestaque = x => x._d || ((x._hist || x._fut) && x.varrimento);
   const daUO = x => !st.uo || (st.uo==='Transversal' ? x.uo.includes('Transversal') : x.uo.includes(st.uo));
   // o que está em análise: a edição em curso ou, com dias/semana selecionados, tudo o que existe nesses dias
   const conjunto = () => st.dias.size ? pool.filter(x => st.dias.has(x.data)) : todos;
@@ -566,7 +574,8 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
   }
   document.body.addEventListener('click', e => {
     const m = e.target.closest('[data-mais]'); if (m){ const p=m.previousElementSibling; p.classList.toggle('clamp'); m.textContent = p.classList.contains('clamp')?'Ver tudo':'Ver menos'; return; }
-    const v = e.target.closest('[data-ver]'); if (v){ e.preventDefault(); abrir(v.dataset.ver); }
+    const v = e.target.closest('[data-ver]'); if (v){ e.preventDefault(); abrir(v.dataset.ver); return; }
+    const l = e.target.closest('[data-lista]'); if (l){ e.preventDefault(); abrirLista(l.dataset.lista); }
   });
 
   // ---------- gaveta do varrimento
@@ -576,18 +585,43 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
     return `<div class="enq">${esc(f.enquadramento)}</div>
       ${f.atencao.length?`<h3><svg class="ic"><use href="#i-alert"/></svg>${esc(f.atencaoTitulo||'Pontos de atenção')}</h3><div class="atencao">${f.atencao.map(a=>`<div class="at">${a.titulo?`<b>${esc(a.titulo)}</b>`:''}${esc(a.texto)}</div>`).join('')}</div>`:''}
       ${f.blocos.map(b=>`<h3>${esc(b.titulo)}</h3><div class="bloco">${b.paragrafos.map(p=>`<p>${esc(p)}</p>`).join('')}${f.tabelas.filter(t=>t.titulo===b.titulo).map(t=>`<table class="simples"><thead><tr>${t.cabecalho.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${t.linhas.map(l=>`<tr>${l.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`).join('')}</div>`).join('')}
-      ${f.fundo.length?`<h3><svg class="ic"><use href="#i-news"/></svg>Fundo mediático <small style="font-weight:400;color:var(--suave)">· ${f.fundo.length} notícias, ordem cronológica</small></h3>${chips}<div class="linha-tempo">${f.fundo.map(n=>`<div class="not ${esc(n.natureza)}" data-nat="${esc(n.natureza)}"><div class="n-top"><span>${esc(n.data)} · ${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.fonte)}</a>`:esc(n.fonte)}</span><span class="nat ${esc(n.natureza)}">${esc(n.naturezaLabel)}</span></div><div>${esc(n.sintese)}</div><div class="imp"><b>Impacto para a sessão:</b> ${esc(n.impacto)}</div></div>`).join('')}</div>`:''}`;
+      ${f.fundo.length?`<h3><svg class="ic"><use href="#i-news"/></svg>Fundo mediático <small style="font-weight:400;color:var(--suave)">· ${f.fundo.length} notícias, ordem cronológica</small></h3>${chips}<div class="linha-tempo">${f.fundo.map(n=>`<div class="not ${esc(n.natureza)}" data-nat="${esc(n.natureza)}"><div class="n-top"><span>${esc(/^\d{4}-\d{2}-\d{2}/.test(n.data||'') ? fmtD(n.data)+' '+n.data.slice(0,4) : n.data)} · ${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.fonte)}</a>`:esc(n.fonte)}</span><span class="nat ${esc(n.natureza)}">${esc(n.naturezaLabel)}</span></div><div>${esc(n.sintese)}</div>${n.impacto?`<div class="imp"><b>Impacto para a sessão:</b> ${esc(n.impacto)}</div>`:''}</div>`).join('')}</div>`:''}`;
+  }
+  // lista completa das notícias encontradas no Radar (sem IA), agrupada por dia
+  const idDe = x => x.chave || (x.data+'|'+x.tema);
+  const coberturaDe = k => pool.filter(x => !x._hist && x.varrimento===k && x.cobertura).map(x=>x.cobertura).sort((a,b)=>(b.todas||[]).length-(a.todas||[]).length)[0];
+  function listaHTML(c, aberta){
+    const L = (c && c.todas) || []; if (!L.length) return '';
+    const dias = {}; L.forEach(n => (dias[n[0].slice(0,10)] = dias[n[0].slice(0,10)] || []).push(n));
+    const corpo = Object.keys(dias).sort().reverse().map(dk => `<div class="ln-dia">${esc(fmtD(dk))} · ${dias[dk].length}</div>` + dias[dk].map(n => `<div class="ln" data-t="${esc((n[1]+' '+n[2]).toLowerCase())}"><span class="ln-f">${esc(n[1])}</span> ${n[3]?`<a href="${esc(n[3])}" target="_blank" rel="noopener">${esc(n[2])}</a>`:esc(n[2])}</div>`).join('')).join('');
+    return `<details class="todas" ${aberta?'open':''}><summary><svg class="ic"><use href="#i-news"/></svg>Todas as notícias encontradas (${c.n})</summary>
+      <p class="ln-nota">${cobTxt(c)}${c.n > L.length ? ` · mostram-se as ${L.length} mais recentes` : ''}. Lista automática, sem análise; inclui notícias apenas de contexto.</p>
+      <input class="ln-q" type="search" placeholder="Filtrar por órgão ou palavra do título…"><div class="ln-lista">${corpo}</div></details>`;
   }
   let atual = null;
   function abrir(k){
     const f = D.fichas[k]; if (!f) return; atual = k;
     $('#g-titulo').innerHTML = esc(f.titulo) + (f.gerado_por ? `<span class="nivel">${f.nivel==='curta'?'ficha curta':'ficha'} · ${esc(f.gerado_por)}</span>` : ''); $('#g-meta').textContent = f.meta;
-    $('#g-corpo').innerHTML = fichaHTML(f, true); $('#g-corpo').scrollTop = 0;
+    const c = coberturaDe(k);
+    const amostra = f.amostra ? `<div class="g-amostra">Amostra de <b>${f.amostra.analisadas}</b> notícias analisadas, de <b>${f.amostra.encontradas}</b> encontradas em 60 dias, escolhidas ao longo do período (dias de maior cobertura, variedade de órgãos e as mais recentes).</div>` : '';
+    const novas = f.novas ? `<div class="g-novas"><svg class="ic"><use href="#i-alert"/></svg> <b>${f.novas} ${f.novas===1?'notícia nova':'notícias novas'}</b> desde ${f.gerado_por && /Amália/.test(f.gerado_por) ? 'que esta ficha foi feita' : 'a revisão desta ficha'}${f.base && f.base.em ? ` (${esc(fmtD(f.base.em))})` : ''}. Veja-as na lista completa, no fim.</div>` : '';
+    $('#g-corpo').innerHTML = novas + amostra + fichaHTML(f, true) + listaHTML(c, false); $('#g-corpo').scrollTop = 0;
     const i = ORD.indexOf(k);
     $('#g-nav').innerHTML = `${i>0?`<a href="#" data-ver="${ORD[i-1]}">‹ ${esc(D.fichas[ORD[i-1]].titulo)}</a>`:''}${i>0&&i<ORD.length-1?' · ':''}${i<ORD.length-1?`<a href="#" data-ver="${ORD[i+1]}">${esc(D.fichas[ORD[i+1]].titulo)} ›</a>`:''}`;
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
     history.replaceState(null,'','#'+k);
   }
+  function abrirLista(id){
+    const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null;
+    $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">notícias · sem ficha</span>`;
+    $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''} · Radar de Notícias, últimos ${x.cobertura.dias} dias`;
+    $('#g-corpo').innerHTML = `<div class="g-amostra">Esta matéria não tem ficha de varrimento. Abaixo, todas as notícias que o Radar de Notícias encontrou sobre o assunto, sem análise.${x.pertinencia==='Registo'?' O varrimento das matérias de registo carece de pedido à Chefe da Unidade de Pesquisa e Estatísticas.':''}</div>` + (listaHTML(x.cobertura, true) || '<p class="ln-nota">Sem notícias encontradas.</p>');
+    $('#g-corpo').scrollTop = 0; $('#g-nav').innerHTML = '';
+    $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
+  }
+  $('#g-corpo').addEventListener('input', e => { if (!e.target.classList.contains('ln-q')) return; const q = e.target.value.trim().toLowerCase(); const box = e.target.nextElementSibling;
+    box.querySelectorAll('.ln').forEach(l => l.style.display = !q || l.dataset.t.includes(q) ? '' : 'none');
+    box.querySelectorAll('.ln-dia').forEach(h => { let n = h.nextElementSibling, v = false; while (n && n.classList.contains('ln')) { if (n.style.display !== 'none') v = true; n = n.nextElementSibling; } h.style.display = v ? '' : 'none'; }); });
   function fechar(){ $('#gaveta').classList.remove('on'); $('#veu').classList.remove('on'); $('#gaveta').setAttribute('aria-hidden','true'); document.body.style.overflow=''; history.replaceState(null,'',location.pathname+location.search); }
   $('#g-fechar').addEventListener('click', fechar); $('#veu').addEventListener('click', fechar);
   document.addEventListener('keydown', e => { if (e.key==='Escape') fechar(); });
