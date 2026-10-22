@@ -63,7 +63,7 @@ jobs:
       - name: Verificar se a página precisa de ser refeita
         id: muda
         run: |
-          H=$(cat dados/agenda.json modelo/template_cartoes.html | sha256sum | cut -c1-16)
+          H=$(cat dados/agenda.json modelo/template_cartoes.html scripts/gerar.py $(ls docs/edicoes/*.json 2>/dev/null | grep -v indice.json) | sha256sum | cut -c1-16)
           if [ -f docs/.fonte ] && [ "$(cat docs/.fonte)" = "$H" ]; then echo "muda=nao" >> $GITHUB_OUTPUT; echo "sem alterações"; else echo "muda=sim" >> $GITHUB_OUTPUT; echo "$H" > .fonte_nova; fi
       - uses: actions/setup-node@v4
         if: steps.muda.outputs.muda == 'sim'
@@ -80,6 +80,8 @@ jobs:
           cp dados/agenda.json docs/agenda.json
           N=$(python -c "import json;print(json.load(open('dados/agenda.json',encoding='utf-8'))['edicao']['numero'])")
           cp saida/ar-ahead.html "docs/edicoes/n$(printf %02d $N).html"
+          cp dados/agenda.json "docs/edicoes/n$(printf %02d $N).json"
+          python scripts/indice_edicoes.py
           touch docs/.nojekyll
           mv .fonte_nova docs/.fonte
       - name: Guardar no repositório
