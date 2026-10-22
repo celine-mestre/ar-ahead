@@ -3,8 +3,8 @@ name: AR Ahead — semana na Assembleia da República
 # Segunda-feira às 9h07 (Lisboa): gera HTML + PDF a partir do agenda.json validado e envia por email.
 on:
   schedule:
-    - cron: '7 11 * * 5'   # sexta 12h07 Lisboa (horário de verão); ajustar a 7 12 no inverno
-    - cron: '7 8 * * 1'    # segunda 9h07 Lisboa
+    - cron: '7 12 * * 5'   # sexta 12h07 Lisboa no horário de inverno (UTC); no verão passar a 7 11
+    - cron: '7 9 * * 1'    # segunda 9h07 Lisboa no horário de inverno (UTC); no verão passar a 7 8
   workflow_dispatch:
     inputs:
       passo:
@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   recolha:
-    if: github.event.schedule == '7 11 * * 5' || github.event.inputs.passo == 'recolha'
+    if: github.event.schedule == '7 12 * * 5' || github.event.inputs.passo == 'recolha'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,7 +24,7 @@ jobs:
         with: { python-version: '3.12' }
       - run: python scripts/recolher_agenda.py
       - run: python scripts/triar.py
-      - name: Amália — triagem do que as regras não decidiram (guarda leve: só descarrega o modelo se houver matérias sem unidade)
+      - name: "Amália — triagem do que as regras não decidiram (só descarrega o modelo se houver matérias sem unidade)"
         run: |
           pip install llama-cpp-python
           if python -c "import json,sys; d=json.load(open('dados/triagem_proposta.json')); sys.exit(0 if any(not i['uo'] for i in d['itens']) else 1)"; then
@@ -51,7 +51,7 @@ jobs:
           attachments: dados/triagem_proposta.json
 
   publicar:
-    if: github.event.schedule == '7 8 * * 1' || github.event.inputs.passo == 'publicar'
+    if: github.event.schedule == '7 9 * * 1' || github.event.inputs.passo == 'publicar'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -60,7 +60,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '20' }
       - run: npm i playwright && npx playwright install --with-deps chromium
-      - name: Amália — fichas de varrimento para os «Imediato» sem ficha (a partir do corpus do Radar)
+      - name: "Amália — fichas de varrimento para os «Imediato» sem ficha (a partir do corpus do Radar)"
         run: |
           pip install llama-cpp-python
           if python -c "import json,sys; d=json.load(open('dados/agenda.json')); sys.exit(0 if any(i['pertinencia']=='Imediato' and not i.get('varrimento') for i in d['destaques']+d['agenda']) else 1)"; then
