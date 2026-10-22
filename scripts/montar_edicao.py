@@ -28,7 +28,9 @@ MESES = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'a
 d = datetime.date.fromisoformat
 def rotulo(s): x = d(s); return f"{DIAS[x.weekday()]}, {x.day} {MESES[x.month-1][:3]}"
 def extenso(x, ano=True): return f"{x.day} de {MESES[x.month-1]}" + (f" de {x.year}" if ano else '')
-def chave(i): return re.sub(r'\s+', ' ', f"{i['data']}|{i.get('hora','')}|{(i.get('orgao') or i.get('tema',''))[:80]}").strip().lower()
+def chave(i):
+    if i.get('id_ar'): return f"ar-{i['id_ar']}"          # identificador da própria AR: estável mesmo que mude a hora
+    return re.sub(r'\s+', ' ', f"{i['data']}|{i.get('hora','')}|{(i.get('orgao') or i.get('tema',''))[:80]}").strip().lower()
 
 agora = datetime.datetime.now(ZoneInfo('Europe/Lisbon'))
 hoje = agora.date().isoformat()
@@ -38,7 +40,7 @@ nova_semana = not ant or tri['inicio'] > ant['edicao']['inicio']
 preliminar = bool(ant) and not nova_semana and ant['edicao'].get('estado') == 'preliminar'   # 1.ª recolha real de uma edição feita à mão
 
 def base(i):
-    x = {k: i.get(k, '') for k in ('tema', 'data', 'hora', 'interveniente', 'tipoLabel', 'resumo', 'ordemTrabalhos', 'orgao')}
+    x = {k: i.get(k, '') for k in ('tema', 'data', 'hora', 'interveniente', 'tipoLabel', 'resumo', 'ordemTrabalhos', 'orgao', 'id_ar')}
     x.update(chave=chave(i), dataLabel=rotulo(i['data']), tipo=i.get('tipo', []), uo=i.get('uo', []), pertinencia=i.get('pertinencia', 'Registo'),
              periodo='Manhã' if (i.get('hora') or '99')[:2] < '13' else 'Tarde',
              ligacoes=[{'titulo': 'Agenda parlamentar', 'url': i['ligacao']}] if i.get('ligacao') else [])
@@ -51,14 +53,17 @@ if nova_semana or preliminar:
           'fecho': hoje, 'fechoLabel': extenso(agora.date()), 'alteracoes': []}
     fichas = ant.get('fichas', {}) if preliminar else {}
     n_novo = n_alt = n_ret = 0
-    if preliminar:   # herda as fichas e ligações da edição preliminar para as reuniões do mesmo dia e hora
-        velhos = {(x['data'], x.get('hora', '')): x for x in ant['destaques'] + ant['agenda']}
+    if preliminar:   # herda fichas, unidades e ligações da edição preliminar (mesmo dia e hora, ou mesmo dia e assunto)
+        velhos = ant['destaques'] + ant['agenda']
+        def pal(t): return {w for w in re.findall(r'[a-zà-ú0-9]{5,}', (t or '').lower())}
         for x in itens:
-            v = velhos.get((x['data'], x.get('hora', '')))
+            v = next((o for o in velhos if not o.get('manual') and o['data'] == x['data'] and o.get('hora') == x.get('hora')), None) \
+                or next((o for o in velhos if not o.get('manual') and o['data'] == x['data'] and len(pal(o['tema']) & pal(x['tema'] + ' ' + x.get('ordemTrabalhos', ''))) >= 3), None)
             if v:
                 if v.get('varrimento'): x['varrimento'] = v['varrimento']
                 if v.get('ligacoes') and not x['ligacoes']: x['ligacoes'] = v['ligacoes']
-                if v.get('uo') and not x['uo']: x['uo'], x['pertinencia'] = v['uo'], v['pertinencia']
+                if v.get('uo'): x['uo'], x['pertinencia'] = v['uo'], v['pertinencia']   # a classificação feita à mão prevalece sobre as regras
+        itens += [o for o in velhos if o.get('manual')]   # prazos e notas acrescentados à mão mantêm-se
 else:
     ed = dict(ant['edicao']); fichas = ant.get('fichas', {})
     antigos = {x.get('chave') or chave(x): x for x in ant['destaques'] + ant['agenda']}
@@ -79,12 +84,16 @@ else:
             x['novo'] = hoje; itens.append(x); n_novo += 1
     n_ret = 0
     for k, a in antigos.items():
-        if k not in vistos:
+        if k not in vistos and a.get('manual'):
+            itens.append(a)                                  # acrescentados à mão: a AR não os publica, não se retiram
+        elif k not in vistos:
             y = dict(a)
             if not y.get('retirado'): y['retirado'] = hoje; n_ret += 1
             itens.append(y)
     if n_novo or n_alt or n_ret:
         ed.setdefault('alteracoes', []).append({'data': hoje, 'novos': n_novo, 'alterados': n_alt, 'retirados': n_ret})
+
+for x in itens: x.setdefault('chave', chave(x))
 
 # correções manuais da Ana Luísa (prevalecem sempre)
 if cor_p.exists():
