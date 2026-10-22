@@ -49,7 +49,46 @@
      "url": "https://www.parlamento.pt/Paginas/2026/outubro/Orcamento-do-Estado-para-2026.aspx"
     }
    ],
-   "nota_atribuicao": "hora habitual do Plenário; a confirmar na ordem do dia"
+   "nota_atribuicao": "hora habitual do Plenário; a confirmar na ordem do dia",
+   "cobertura": {
+    "n": 514,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [
+     {
+      "data": "2026-10-22",
+      "fonte": "RTP Notícias",
+      "titulo": "OE2027. Comissão Política do PS manifestou \"consenso total\" sobre abstenção",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385"
+     },
+     {
+      "data": "2026-10-13",
+      "fonte": "RTP Notícias",
+      "titulo": "OE2027. Carneiro garante que PS \"não estará na origem de qualquer crise política\"",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-carneiro-garante-que-ps-nao-estara-na-origem-de-qualquer-crise-politica_n1771510"
+     },
+     {
+      "data": "2026-10-10",
+      "fonte": "RTP Notícias",
+      "titulo": "Carlos César aponta concordância da Comissão Nacional do PS com abstenção no OE",
+      "url": "https://www.rtp.pt/noticias/economia/carlos-cesar-aponta-concordancia-da-comissao-nacional-do-ps-com-abstencao-no-oe_n1770897"
+     }
+    ],
+    "_ligacoes": [
+     "https://www.rtp.pt/noticias/economia/carlos-cesar-aponta-concordancia-da-comissao-nacional-do-ps-com-abstencao-no-oe_n1770897",
+     "https://jornaleconomico.sapo.pt/noticias/oe2027-carlos-cesar-diz-que-ps-concorda-com-abstencao/",
+     "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385",
+     "https://www.rtp.pt/noticias/economia/oe2027-carneiro-garante-que-ps-nao-estara-na-origem-de-qualquer-crise-politica_n1771510",
+     "https://eco.sapo.pt/2026/10/09/o-bailarino-que-nao-sabe-dancar-e-o-professor-chibanga-como-foi-o-debate-pos-entrega-do-oe/",
+     "https://eco.sapo.pt/2026/10/09/primeiro-ministro-no-parlamento-depois-da-entrega-da-proposta-de-oe2027-veja-aqui/",
+     "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcGN0UzEwRW1WM1lCdU9CT0lfZ3RJUTNUUjRXZFpQMU1tZ0V1Y3lYeTF6ajBHaDUzREw0OVQyT1VnUjlYMnFkVUNfd084UzJCNmNlS0VLYWFEbHFWUUlqdExxWkpWX2s3ZDloZVBkY2Zvb29nc21vWmRQY2twTWpQZ3pvS29mZXNVODBUdEdxNXA5d0xORExUNy02RXFlRFZkLU82UWRRU2pKMG1GRVJXTHlsaDN1ckp0RUd3eGpDQ0ZKZTVyb24zbnpRenVwRzlSaUHSAdIBQVVfeXFMT3BjdFMxMEVtVjNZQnVPQk9JX2d0SVEzVFI0V2RaUDFNbWdFdWN5WHkxemowR2g1M0RMNDlUMk9VZ1I5WDJxZFVDX3dPOFMyQjZjZUtFS2FhRGxxVlFJanRMcVpKVl9rN2Q5aGVQZGNmb29vZ3Ntb1pkUGNrcE1qUGd6b0tvZmVzVTgwVHRHcTVwOXdMTkRMVDctNkVxZURWZC1PNlFkUVNqSjBtRkVSV0x5bGgzdXJKdEVHd3hqQ0NGSmU1cm9uM256UXp1cEc5UmlB?oc=5",
+     "https://www.rtp.pt/noticias/politica/primeiro-ministro-e-oposicao-em-debate-um-dia-apos-a-entrega-da-proposta-de-orcamento-do-estado-para-2027_e1770559",
+     "https://www.rtp.pt/noticias/politica/proposta-de-orcamento-do-estado-para-2027-aprovada-em-conselho-de-ministros_e1770215",
+     "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONTAwZEI1cTRvd2puUVFFdTBFRTdCaGNwZWp1UGFFRTFYZXBhSE1GWVNDMi1HYlBxV1V0TUxqeWYzRXBMZnJsVExzYnBiNjdBcEhmQ1MteWJtMFMtNXIweHhZZzJrcFZpRVFfRGUwczFPTFZrRV94R3o1akZOd2VZTWJWRDN1RGRXdWRJQ2VmNjhLakl2ZFZWa0JPRHB0NUFVRHJ3aXNIVG5na2dMbXUxVlQ2RkpaM2NaRWlLZ3I4b2pLYmU5V1hFQjNkdG92VWRhd1JiTHhUcWxRakxpLXpGQks5X2xxTmFoMURScGRaV0NESVBoOEJjcg?oc=5",
+     "https://www.rtp.pt/noticias/politica/montenegro-associa-ps-a-aumento-de-precos-da-habitacao_n1770049",
+     "https://observador.pt/programas/noticiario/as-noticias-das-12h-2463/"
+    ]
+   }
   },
   {
    "tema": "Orçamento do Estado para 2027 — debate na generalidade (2.º dia) e votação",
@@ -79,7 +118,46 @@
      "url": "https://eco.sapo.pt/2026/09/23/oe2027-proposta-debatida-na-generalidade-em-27-e-28-de-outubro-votacao-final-em-24-novembro/"
     }
    ],
-   "nota_atribuicao": "votação no fim do debate é a prática habitual; a confirmar"
+   "nota_atribuicao": "votação no fim do debate é a prática habitual; a confirmar",
+   "cobertura": {
+    "n": 493,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [
+     {
+      "data": "2026-10-22",
+      "fonte": "RTP Notícias",
+      "titulo": "OE2027. Comissão Política do PS manifestou \"consenso total\" sobre abstenção",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385"
+     },
+     {
+      "data": "2026-10-19",
+      "fonte": "Jornal Económico",
+      "titulo": "Debates de urgência e interpelação marcam agenda parlamentar nos Açores",
+      "url": "https://jornaleconomico.sapo.pt/noticias/debates-de-urgencia-e-interpelacao-marcam-agenda-parlamentar-nos-acores/"
+     },
+     {
+      "data": "2026-10-10",
+      "fonte": "RTP Notícias",
+      "titulo": "Carlos César aponta concordância da Comissão Nacional do PS com abstenção no OE",
+      "url": "https://www.rtp.pt/noticias/economia/carlos-cesar-aponta-concordancia-da-comissao-nacional-do-ps-com-abstencao-no-oe_n1770897"
+     }
+    ],
+    "_ligacoes": [
+     "https://jornaleconomico.sapo.pt/noticias/oe2027-carneiro-propoe-abstencao-mas-admite-algum-desconforto-com-a-decisao/",
+     "https://eco.sapo.pt/entrevista/provavelmente-a-il-vota-contra-o-orcamento-do-estado-para-2027/",
+     "https://eco.sapo.pt/2026/10/01/oe2027-ventura-acusa-ps-de-ter-tornado-documento-inutil-com-anuncio-de-abstencao/",
+     "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385",
+     "https://jornaleconomico.sapo.pt/noticias/debates-de-urgencia-e-interpelacao-marcam-agenda-parlamentar-nos-acores/",
+     "https://www.rtp.pt/noticias/economia/carlos-cesar-aponta-concordancia-da-comissao-nacional-do-ps-com-abstencao-no-oe_n1770897",
+     "https://jornaleconomico.sapo.pt/noticias/oe2027-carlos-cesar-diz-que-ps-concorda-com-abstencao/",
+     "https://eco.sapo.pt/2026/10/09/o-bailarino-que-nao-sabe-dancar-e-o-professor-chibanga-como-foi-o-debate-pos-entrega-do-oe/",
+     "https://www.rtp.pt/noticias/politica/oe-chega-acusa-ps-de-ser-muleta-do-governo-pcp-aponta-mao-cheia-de-nada_a1770302",
+     "https://observador.pt/2026/10/06/ps-confirma-abstencao-no-oe2027-para-evitar-precipicio-politico-e-so-muda-voto-se-surgirem-medidas-surpresa/",
+     "https://eco.sapo.pt/2026/10/06/montenegro-separa-abstencao-do-ps-no-orcamento-do-estado-da-negociacao-da-lei-do-arrendamento/",
+     "https://sol.iol.pt/politica/noticias/pcp-anuncia-voto-contra-o-orcamento-do-estado-para-2027/20261002/6abfdb860cf22b9f8904da6e"
+    ]
+   }
   }
  ],
  "agenda": [
@@ -103,7 +181,46 @@
    "pertinencia": "Vigilância",
    "resumo": "Prazo registado na ordem de trabalhos da Comissão de Assuntos Europeus de 21 de outubro para o envio do parecer à COFAP (18h00 de 26 de outubro). Os pareceres setoriais aprovados na semana de 20 a 23 seguem o mesmo calendário.",
    "ordemTrabalhos": "",
-   "nota_atribuicao": "fonte: agenda da CAE de 21 out. (edição n.º 1)"
+   "nota_atribuicao": "fonte: agenda da CAE de 21 out. (edição n.º 1)",
+   "cobertura": {
+    "n": 18,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [
+     {
+      "data": "2026-10-19",
+      "fonte": "Observador",
+      "titulo": "Aguiar-Branco indefere pedido de debate de urgência do Livre",
+      "url": "https://observador.pt/2026/10/19/aguiar-branco-chumbou-debate-de-urgencia-do-livre-sobre-habitacao-por-violar-regra-da-quinzena/"
+     },
+     {
+      "data": "2026-10-08",
+      "fonte": "Renascença",
+      "titulo": "Pensionistas notificados em outubro para devolver dinheiro que receberam a mais",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTG5QNDh2dTY3cFg0YUllVm5QUlBwN0VTYVd0UmtTaF9MR01uN1BCcFhDZWlJRVlwa05RQ3FtTi15X3pfZVh5dnd0dlN1Z3pHaml3TnB2SFZaV21JcTI2MURxTkFYa1lFSWlUMUktdHNjaTByM2FPZUF4MWJsSmdOcmhzU2xXTFVyTjA0QUl0VVl5WGdKSWZTOEdDV0hHUl9RZFN5ZGxSeG5TU0RXRlpXZVI5NlNhNTdoT0pBMFVUZFo2TVk?oc=5"
+     },
+     {
+      "data": "2026-10-07",
+      "fonte": "CNN Portugal",
+      "titulo": "\"Netanyahu tem instrumentalizado o 7 de outubro para sobreviver politicamente\"",
+      "url": "https://cnnportugal.iol.pt/videos/netanyahu-tem-instrumentalizado-o-7-de-outubro-para-sobreviver-politicamente/6ac6ad940cf20dc52778ebc2"
+     }
+    ],
+    "_ligacoes": [
+     "https://observador.pt/2026/10/19/aguiar-branco-chumbou-debate-de-urgencia-do-livre-sobre-habitacao-por-violar-regra-da-quinzena/",
+     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTG5QNDh2dTY3cFg0YUllVm5QUlBwN0VTYVd0UmtTaF9MR01uN1BCcFhDZWlJRVlwa05RQ3FtTi15X3pfZVh5dnd0dlN1Z3pHaml3TnB2SFZaV21JcTI2MURxTkFYa1lFSWlUMUktdHNjaTByM2FPZUF4MWJsSmdOcmhzU2xXTFVyTjA0QUl0VVl5WGdKSWZTOEdDV0hHUl9RZFN5ZGxSeG5TU0RXRlpXZVI5NlNhNTdoT0pBMFVUZFo2TVk?oc=5",
+     "https://cnnportugal.iol.pt/videos/netanyahu-tem-instrumentalizado-o-7-de-outubro-para-sobreviver-politicamente/6ac6ad940cf20dc52778ebc2",
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNmM2eDBjSXk0TkhQTHF1ODB0NFpvRVdSaEd0QU5Oa0JoQzZFblN1YXdUSjk0dnphejAtdnBfQWd4U1J0bTZZc040NzFfQkVWSkV4Q0VKVW1RdkRBY2Jnc0NldXJENnZTRVBIdkJyV0NHT0lxNVlEXzFxeE56UGtyY1N4MUp4ejdpUE8yNW9qanA1OTJ5bnpwQkRIT29XWVFQ0gGbAUFVX3lxTE1qZTJIcTdQaHExRGJJd2ZWbVpOT2t2RjBsOXV4bjI4N2JHNEdkN3ZHNno0VDI4aTJYdG1aWng4SVlVUldIRWJVbXlEQkkyNUs1cG9fOHVaNC1zWmVndW16UVBWQUdVTjVGTFpWZzdtTnluVzNsLXU2cGprNlN4SHhYM1Faa0JGXzJSdDV0UjRMU0E5LTZscVNVVmlR?oc=5",
+     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVFRrOHA2d3RCYXYwc1VEdm90aWxqMWxaSkNLT3FkRzJ0THpVbFVVX1BTcXpzQ3d0ZXM2WGp3OFRWck9BVkx5Zm5tcHo0eWtSNll3bW9QOWxFem1Ud2wtWnMyZzcwcGhpem1VM1h1MHl1VHd5NGNhdFcyLTBPUzFibGF0c3IzeTBwS1V5ZWJPUEhxaFRTemNxSnVsRVRta1BCMkdjdGRNSUlsSTR1WkJqbzh0M0hESnhoek1XNkM4UjdUcXVpR1VXQ2tvQUlxWEo1QWNQSnNyUk51RHBTTjRhTVJfYjA?oc=5",
+     "https://observador.pt/2026/10/06/ps-acusa-moedas-de-contradicoes-no-caso-do-elevador-da-gloria-e-psd-vota-contra-voto-de-saudacao-a-republica-na-aml/",
+     "https://sol.iol.pt/politica/noticias/nao-ha-republica-sem-escolas-seguro-escolhe-o-5-de-outubro-para-deixar-mensagem-aos-professores/20261005/6ac3699a0cf20dc52778e755",
+     "https://observador.pt/2026/09/30/governo-da-15-dias-a-sdr-para-apresentar-solucoes-concretas-para-problemas-de-limpeza-causados-pelo-volta/",
+     "https://www.publico.pt/2026/09/30/azul/noticia/governo-exige-gestora-volta-solucoes-travar-lixo-espalhado-ruas-2189820",
+     "https://eco.sapo.pt/2026/09/25/viticultores-do-douro-tem-de-segunda-a-12-de-outubro-para-pedir-apoio-extraordinario/",
+     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQnloRDVKTjJidmx0eDh3TS1mcHo5dkp5ZGFjZWloZVVKYW95NDd1YmE4WWhoOXNvTzVhNW5wOHIyLWVUNVlOQTRMUVluXzdQYXVROVV3NWx4QXlEX0Zja2RkRV9mbnphUkZSVEtldjM0eFlReUFmM2RYY3c3TVpsQjlaVGR5OUQtTzd0Z0VfMTZpbFFUR0hTZ0tGMWxuLWFIMnhjUFo2OENZUndYdjVvaHZ2VG11MG9rWVFvR2VEX2xNR1NvaW1QZENrdjA3RktxZzdhdDNPeTZ1bHhKUnc?oc=5",
+     "https://www.rtp.pt/noticias/cultura/gilberto-gil-vem-a-lisboa-despertar-entusiasmo-e-dar-voz-a-proximidade-brasil-portugal_n1767406"
+    ]
+   }
   },
   {
    "tema": "COM(2026)560 — simplificação da fiscalidade direta na UE: prazo do parecer da CAE",
@@ -121,7 +238,23 @@
    ],
    "pertinencia": "Registo",
    "resumo": "Iniciativa sinalizada pela CAE; prazo de envio do parecer a 27 de outubro (ordem de trabalhos da CAE de 21 de outubro).",
-   "ordemTrabalhos": ""
+   "ordemTrabalhos": "",
+   "cobertura": {
+    "n": 1,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [
+     {
+      "data": "2026-09-10",
+      "fonte": "SIC Notícias",
+      "titulo": "Criança de três anos terá sido abandonada pela mãe na Amadora: menor já estava sinalizada pela CPCJ",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
+     }
+    ],
+    "_ligacoes": [
+     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
+    ]
+   }
   },
   {
    "tema": "COM(2026)600 — faturas de eletricidade na União: prazo do parecer da CAE",
@@ -139,7 +272,23 @@
    ],
    "pertinencia": "Registo",
    "resumo": "Iniciativa sinalizada pela CAE; prazo de envio do parecer a 28 de outubro (ordem de trabalhos da CAE de 21 de outubro).",
-   "ordemTrabalhos": ""
+   "ordemTrabalhos": "",
+   "cobertura": {
+    "n": 1,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [
+     {
+      "data": "2026-09-10",
+      "fonte": "SIC Notícias",
+      "titulo": "Criança de três anos terá sido abandonada pela mãe na Amadora: menor já estava sinalizada pela CPCJ",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
+     }
+    ],
+    "_ligacoes": [
+     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
+    ]
+   }
   },
   {
    "tema": "Agência Lusa — fim do prazo de reapreciação dos projetos de estatutos",
@@ -157,7 +306,46 @@
    ],
    "pertinencia": "Vigilância",
    "resumo": "A reapreciação dos projetos de estatutos da Lusa termina a 31 de outubro (síntese da pasta de apoio ao Gabinete do Ministro da Presidência, edição n.º 1). Convém verificar se há reunião da 12.ª Comissão ou comunicação do Governo nessa semana.",
-   "ordemTrabalhos": ""
+   "ordemTrabalhos": "",
+   "cobertura": {
+    "n": 83,
+    "dias": 60,
+    "metodo": "palavras",
+    "ultimas": [
+     {
+      "data": "2026-10-22",
+      "fonte": "Lusa",
+      "titulo": "Fotografias PORTUGAL COMISSÃO AGÊNCIA LUSA",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93YUJyVFEyV2U3ZEFVSmdra293dlg4RkwwaXhuWmRveWh5WFgxN0xZN1U0NWZXNHNZakdDODU3eFhLTEdqb0NMd2I4WW9YTmI4eW5tbg?oc=5"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "RTP Notícias",
+      "titulo": "Estatutos da agência Lusa. Ministro nega \"pressão do Governo\" com alterações",
+      "url": "https://www.rtp.pt/noticias/economia/estatutos-da-agencia-lusa-ministro-nega-pressao-do-governo-com-alteracoes_v1773255"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "Observador",
+      "titulo": "Importante testar regras atuais da Lusa",
+      "url": "https://observador.pt/2026/10/21/ministro-da-presidencia-diz-que-e-importante-regras-atuais-da-lusa-poderem-ser-testadas/"
+     }
+    ],
+    "_ligacoes": [
+     "https://observador.pt/2026/10/21/ministro-da-presidencia-diz-que-e-importante-regras-atuais-da-lusa-poderem-ser-testadas/",
+     "https://jornaleconomico.sapo.pt/noticias/candidaturas-ao-apoio-extraordinario-para-o-douro-entre-segunda-e-12-de-outubro/",
+     "https://www.rtp.pt/noticias/economia/estatutos-da-agencia-lusa-ministro-nega-pressao-do-governo-com-alteracoes_v1773255",
+     "https://www.rtp.pt/noticias/politica/rejeitados-na-generalidade-todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa_n1772125",
+     "https://eco.sapo.pt/2026/10/16/todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa-rejeitados-na-generalidade/",
+     "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjBLMXFpUVJOcnNOSWtlWDBwZ205eC1KdFFSNVdfR1pleG4xWjRoWVZfOUoxc040dkxjVkJiX0lFZ0gtY25nR182ell6Nkhpd2tYcnE4YTN6UmQ2aUVHbkFud2VlUGphTGFKeGJvTnpkc0lNdktmNGVXYUNnNGhqdU16dmFJTzFHZExYOFhJOVBrVmhFX0FFSFhQRTE0dmo5RHdaV09BeUpyMzdJeGl2ZmtScHZibGFFdFZmQUl30gG-AUFVX3lxTFBCMEsxcWlRUk5yc05Ja2VYMHBnbTl4LUp0UVI1V19HWmV4bjFaNGhZVl85SjFzTjR2TGNWQmJfSUVnSC1jbmdHXzZ6WXo2SGl3a1hycThhM3pSZDZpRUduQW53ZWVQamFMYUp4Ym9OemRzSU12S2Y0ZVdhQ2c0aGp1TXp2YUlPMUdkTFg4WEk5UGtWaEVfQUVIWFBFMTR2ajlEd1pXT0F5SnIzN0l4aXZma1JwdmJsYUV0VmZBSXc?oc=5",
+     "https://jornaleconomico.sapo.pt/noticias/fundacao-edp-anuncia-sete-finalistas-na-16a-edicao-premio-novos-artistas/",
+     "https://jornaleconomico.sapo.pt/noticias/mau-tempo-cem-empresas-da-regiao-de-leiria-com-candidaturas-elegiveis-ficaram-sem-apoio/",
+     "https://www.rtp.pt/noticias/politica/oe2027-governo-vai-reunir-se-com-todos-os-partidos-no-final-do-mes_n1763894",
+     "https://jornaleconomico.sapo.pt/noticias/inquerito-a-alegada-intrusao-no-gabinete-de-ventura-com-carater-urgente-diz-pgr/",
+     "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93YUJyVFEyV2U3ZEFVSmdra293dlg4RkwwaXhuWmRveWh5WFgxN0xZN1U0NWZXNHNZakdDODU3eFhLTEdqb0NMd2I4WW9YTmI4eW5tbg?oc=5",
+     "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcHRkOEEyelNHUjJRZWl6UGZUMEg2YVR4T3h2a1I4WGpUb3RfMWl6ellYbWp6cWV1LUhkX2UybjRRQ25qSTI1TXVCWXd3UU05UlBpWXpiZ2hiV3BOckdwak1LT1hFZ1o1d05EN09EdVlUcE9PcFlxNmEwSlBRS3ZPTHAxYnNUcWJYSjJvdkVjU1dpZFp5Z1NYTnhoU0ZnVXJkdGczd0FYalphdktSMlJJcjFZU0l2eUhDVTNDUk9n?oc=5"
+    ]
+   }
   }
  ],
  "fichas": {
