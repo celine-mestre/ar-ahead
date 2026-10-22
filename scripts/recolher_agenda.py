@@ -43,7 +43,7 @@ def normalizar(bruto, ini, fim):
 if __name__ == '__main__':
     ini, fim = semana_seguinte()
     if URL_AGENDA == 'A_CONFIRMAR':
-        sys.exit('Definir URL_AGENDA (e os nomes dos campos em normalizar) antes de correr.')
+        print('AVISO: URL_AGENDA por definir — recolha não feita; a edição em vigor mantém-se.'); sys.exit(0)
     bruto = json.loads(descarregar(URL_AGENDA))
     itens = normalizar(bruto, ini, fim)
     pathlib.Path('dados/agenda_bruta.json').write_text(json.dumps({'inicio': ini.isoformat(), 'fim': fim.isoformat(), 'recolha': datetime.datetime.now().isoformat(timespec='minutes'), 'itens': itens}, ensure_ascii=False, indent=1), encoding='utf-8')

@@ -1,7 +1,9 @@
 """Passo 2 — triagem automática: propõe unidade orgânica e pertinência a partir de dados/regras_uo.json.
 A Ana Luísa confirma ou corrige no ficheiro resultante (dados/triagem_proposta.json) antes do varrimento.
 """
-import json, pathlib, re
+import json, pathlib, re, sys
+if not pathlib.Path('dados/agenda_bruta.json').exists():
+    print('Sem recolha nova — triagem não feita.'); sys.exit(0)
 regras = json.loads(pathlib.Path('dados/regras_uo.json').read_text(encoding='utf-8'))
 bruto = json.loads(pathlib.Path('dados/agenda_bruta.json').read_text(encoding='utf-8'))
 def triar(item):
