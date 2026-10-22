@@ -161,6 +161,7 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
 .sw b{display:block;font-size:12.5px;font-weight:600;white-space:nowrap} .sw small{font-size:10.5px;color:var(--suave);white-space:nowrap}
 .sw.hist{background:#f1f1ef} .sw.cur{border-color:var(--azul);box-shadow:inset 0 -2px 0 var(--azul)} .sw.fut{background:#f3f6f4}
 .sw:hover{border-color:var(--azul)} .sw.on{background:var(--azul);border-color:var(--azul);color:#fff} .sw.on small{color:rgba(255,255,255,.85)}
+.tag.arq{background:#ececea;color:#555;border-color:#dcdcd8} .tag.futt{background:#e4efe7;color:#0a5228;border-color:#c9dfcf}
 .cd.hist:not(.on){background:#ececea;color:#555}
 .cal-leg .sq{width:10px;height:10px;border-radius:3px;display:inline-block;margin-right:4px;vertical-align:-1px} .cal-leg .sq.hist{background:#e3e3e0} .cal-leg .sq.fut{background:#dbe8df}
 .ad-arq{background:#f7f8fa;border:1px dashed #cfd6dd;border-radius:8px;padding:7px 10px;font-size:12.5px;margin:2px 0 8px;color:var(--texto)} .ad-arq a{font-weight:600} .ad-arq.fut{background:#f3f6f4;color:var(--suave)}
@@ -497,7 +498,7 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
     $('#n-frente').textContent = `${futuros.length} reuniões já publicadas pela AR`;
   }
   // KPIs
-  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='nov'){ st.novidades=!st.novidades; render(); return; } if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); $('#t-destaques').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
+  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='nov'){ st.novidades=!st.novidades; render(); return; } if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); st.semana=null; $('#t-destaques').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
 
   function passa(x){
     if (st.uo){ const ok = st.uo==='Transversal' ? x.uo.includes('Transversal') : x.uo.includes(st.uo); if(!ok) return false; }
@@ -511,38 +512,47 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
   function cartao(x){
     const [cls,pc] = PERT[x.pertinencia]||['reg','p-reg'];
     const uos = x.uo.length ? x.uo.map(u=>`<span class="tag ${u==='Transversal'?'transv':''}">${esc(u)}</span>`).join('') : `<span class="tag sem">sem unidade atribuída</span>`;
-    const longo = x.resumo.length>220 || x.ordemTrabalhos;
+    const res = x.resumo||''; const longo = res.length>220 || x.ordemTrabalhos;
     const ligs = (x.ligacoes||[]).map(l=>`<a class="lig" href="${esc(l.url)}" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg>${esc(l.titulo)}</a>`).join('');
-    const foot = x.varrimento ? `<button class="ver" data-ver="${esc(x.varrimento)}"><svg class="ic"><use href="#i-news"/></svg>${D.fichas[x.varrimento] && D.fichas[x.varrimento].nivel==='curta' ? 'Ver varrimento (curto)' : 'Ver varrimento'}</button>${ligs}` : (x._d ? ligs : `<span class="pedir">Varrimento a pedido</span>`);
+    const foot = x._hist ? `<a class="ver" href="${esc(BASE_ED+x._hist.ficheiro)}"><svg class="ic"><use href="#i-layers"/></svg>${x.varrimento?'Ver varrimento na ':'Abrir a '}${esc(nomeEd(x._hist).toLowerCase())}</a>${ligs}`
+      : x._fut ? `<span class="pedir">Semana seguinte · triagem provisória, sem varrimento</span>${ligs}`
+      : x.varrimento ? `<button class="ver" data-ver="${esc(x.varrimento)}"><svg class="ic"><use href="#i-news"/></svg>${D.fichas[x.varrimento] && D.fichas[x.varrimento].nivel==='curta' ? 'Ver varrimento (curto)' : 'Ver varrimento'}</button>${ligs}` : (x._d ? ligs : `<span class="pedir">Varrimento a pedido</span>`);
     return `<article class="cartao ${cls}" data-id="${esc(x.data+'|'+x.tema)}">
       <div class="c-top"><span class="quando"><svg class="ic"><use href="#i-cal"/></svg>${esc(x.dataLabel)}${x.hora?` · ${esc(x.hora)}`:''}</span><span class="pert ${pc}">${esc(x.pertinencia)}</span></div>
       <h3 class="c-tema">${esc(x.tema)}</h3>
       <div class="c-tipo"><svg class="ic"><use href="#${icTipo(x.tipoLabel)}"/></svg><span>${esc(x.tipoLabel)}</span></div>
       ${x.interveniente && x.interveniente!=='—' ? `<div class="c-interv">${esc(x.interveniente)}</div>`:''}
-      <p class="c-resumo ${longo?'clamp':''}">${esc(x.ordemTrabalhos||x.resumo)}</p>
+      <p class="c-resumo ${longo?'clamp':''}">${esc(x.ordemTrabalhos||res)}</p>
       ${longo?`<button class="c-mais" data-mais>Ver tudo</button>`:''}
       ${x.cobertura ? `<div class="c-cob"><span><b>${x.cobertura.n}</b> ${x.cobertura.n===1?'notícia':'notícias'} nos OCS nacionais em ${x.cobertura.dias} dias${x.cobertura.metodo==='palavras'?' <span title="contagem por palavras do assunto, indicativa; fica precisa quando a matéria tem expressões de pesquisa">(indicativo)</span>':''}</span>${x.cobertura.ultimas&&x.cobertura.ultimas.length?`<details><summary>as mais recentes</summary><ul>${x.cobertura.ultimas.map(u=>`<li>${esc(u.data)} · <a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.fonte)}</a> — ${esc(u.titulo)}</li>`).join('')}</ul></details>`:''}</div>` : ''}
-      <div class="c-uo">${uos}${x.novo?`<span class="tag novo">novo · ${esc(fmtD(x.novo))}</span>`:''}${x.alterado && !x.novo?`<span class="tag alt">alterado · ${esc(fmtD(x.alterado))}</span>`:''}</div>
+      <div class="c-uo">${uos}${x._hist?`<span class="tag arq">arquivo · ${esc(nomeEd(x._hist).replace('Edição ',''))}</span>`:''}${x._fut?`<span class="tag futt">semana seguinte</span>`:''}${x.novo?`<span class="tag novo">novo · ${esc(fmtD(x.novo))}</span>`:''}${x.alterado && !x.novo?`<span class="tag alt">alterado · ${esc(fmtD(x.alterado))}</span>`:''}</div>
       <div class="c-foot">${foot}</div>
     </article>`;
   }
   const foraDaSemana = () => st.dias.size && [...st.dias].every(k=>!semanaIso.has(k));
+  const ehDestaque = x => x._d || (x._hist && x.varrimento);
+  const daUO = x => !st.uo || (st.uo==='Transversal' ? x.uo.includes('Transversal') : x.uo.includes(st.uo));
+  // o que está em análise: a edição em curso ou, com dias/semana selecionados, tudo o que existe nesses dias
+  const conjunto = () => st.dias.size ? pool.filter(x => st.dias.has(x.data)) : todos;
   function render(){
+    const C = conjunto();
     // chips
     cUO.querySelectorAll('[data-uo]').forEach(b=>b.classList.toggle('on', (b.dataset.uo||null)===st.uo));
     cP.querySelectorAll('[data-pert]').forEach(b=>b.classList.toggle('on', st.pert.has(b.dataset.pert)));
-    Object.keys(PERT).forEach(k=>{ cP.querySelector(`[data-n="${k}"]`).textContent = todos.filter(x=>x.pertinencia===k && (!st.uo || (st.uo==='Transversal'?x.uo.includes('Transversal'):x.uo.includes(st.uo)))).length; });
+    Object.keys(PERT).forEach(k=>{ cP.querySelector(`[data-n="${k}"]`).textContent = C.filter(x=>x.pertinencia===k && daUO(x)).length; });
     // kpis
-    const base = todos.filter(x=>!st.uo || (st.uo==='Transversal'?x.uo.includes('Transversal'):x.uo.includes(st.uo)));
+    const base = C.filter(daUO);
     const n = k => base.filter(x=>x.pertinencia===k).length;
-    const nNov = todos.filter(x=>x.novo||x.alterado).length;
-    $('#kpis').innerHTML = `<div class="kpi var" data-kpi="varr"><b>${D.destaques.length}</b><span>destaques com varrimento</span></div><div class="kpi ime" data-kpi="Imediato"><b>${n('Imediato')}</b><span>imediato${st.uo?' · '+esc(st.uo):''}</span></div><div class="kpi vig" data-kpi="Vigilância"><b>${n('Vigilância')}</b><span>em vigilância</span></div><div class="kpi reg" data-kpi="Registo"><b>${n('Registo')}</b><span>registo</span></div><div class="kpi" data-kpi="varr"><b>${todos.filter(x=>!x.uo.length).length}</b><span>sem unidade atribuída</span></div>${nNov?`<div class="kpi nov ${st.novidades?'on':''}" data-kpi="nov"><b>${nNov}</b><span>novas ou alteradas${D.edicao.desdeLabel?' desde '+esc(D.edicao.desdeLabel):''}</span></div>`:''}`;
+    const nNov = C.filter(x=>x.novo||x.alterado).length;
+    $('#kpis').innerHTML = `<div class="kpi var" data-kpi="varr"><b>${base.filter(ehDestaque).length}</b><span>destaques com varrimento</span></div><div class="kpi ime" data-kpi="Imediato"><b>${n('Imediato')}</b><span>imediato${st.uo?' · '+esc(st.uo):''}</span></div><div class="kpi vig" data-kpi="Vigilância"><b>${n('Vigilância')}</b><span>em vigilância</span></div><div class="kpi reg" data-kpi="Registo"><b>${n('Registo')}</b><span>registo</span></div><div class="kpi" data-kpi="varr"><b>${C.filter(x=>!x.uo.length).length}</b><span>sem unidade atribuída</span></div>${nNov?`<div class="kpi nov ${st.novidades?'on':''}" data-kpi="nov"><b>${nNov}</b><span>novas ou alteradas${D.edicao.desdeLabel?' desde '+esc(D.edicao.desdeLabel):''}</span></div>`:''}`;
     renderSemanas(); renderCal(); renderAgendaDia();
     // grelhas
-    const ds = todos.filter(x=>x._d && passa(x)), ag = todos.filter(x=>!x._d && passa(x));
-    $('#n-destaques').textContent = `${ds.length} de ${D.destaques.length}`; $('#n-agenda').textContent = `${ag.length} de ${D.agenda.length}`;
-    $('#g-destaques').innerHTML = ds.length ? ds.map(cartao).join('') : `<div class="vazio-msg">${foraDaSemana()?'Os cartões são da edição em curso. Para os dias selecionados, veja a agenda hora a hora acima.':'Nenhum destaque corresponde aos filtros.'}</div>`;
-    $('#g-agenda').innerHTML = ag.length ? ag.map(cartao).join('') : `<div class="vazio-msg">${foraDaSemana()?'Os cartões são da edição em curso. Para os dias selecionados, veja a agenda hora a hora acima':'Nenhuma matéria corresponde aos filtros'}${foraDaSemana()?'':st.pert.has('Registo')?'':' · as matérias de «Registo» estão ocultas'}.</div>`;
+    const ds = C.filter(x=>ehDestaque(x) && passa(x)), ag = C.filter(x=>!ehDestaque(x) && passa(x));
+    const ordem = (a,b) => (a.data+String(horaNum(a.hora)).padStart(4,'0')).localeCompare(b.data+String(horaNum(b.hora)).padStart(4,'0'));
+    if (st.dias.size) { ds.sort(ordem); ag.sort(ordem); }
+    $('#n-destaques').textContent = `${ds.length} de ${C.filter(ehDestaque).length}`; $('#n-agenda').textContent = `${ag.length} de ${C.filter(x=>!ehDestaque(x)).length}`;
+    $('#g-destaques').innerHTML = ds.length ? ds.map(cartao).join('') : `<div class="vazio-msg">${st.dias.size?'Sem destaques com varrimento nos dias selecionados.':'Nenhum destaque corresponde aos filtros.'}</div>`;
+    $('#g-agenda').innerHTML = ag.length ? ag.map(cartao).join('') : `<div class="vazio-msg">Nenhuma matéria corresponde aos filtros${st.pert.has('Registo')?'':' · as matérias de «Registo» estão ocultas'}.</div>`;
   }
   document.body.addEventListener('click', e => {
     const m = e.target.closest('[data-mais]'); if (m){ const p=m.previousElementSibling; p.classList.toggle('clamp'); m.textContent = p.classList.contains('clamp')?'Ver tudo':'Ver menos'; return; }
@@ -630,7 +640,7 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
       const g = e.target.closest('[data-seat]');
       if (g){ tip.classList.remove('on'); if (g.dataset.ver){ abrir(g.dataset.ver); return; } st.pert.add(g.dataset.pert); st.dias.clear(); render();
         const c = document.querySelector(`.cartao[data-id="${CSS.escape(g.dataset.seat)}"]`); if (c){ c.scrollIntoView({behavior:'smooth',block:'center'}); c.style.boxShadow='0 0 0 3px var(--amarelo)'; setTimeout(()=>c.style.boxShadow='',1600); } return; }
-      const sct = e.target.closest('[data-sd]'); if (sct && !sct.classList.contains('vazio')){ st.dias = new Set([sct.dataset.sd]); render(); $('.cal-wrap').scrollIntoView({behavior:'smooth'}); }
+      const sct = e.target.closest('[data-sd]'); if (sct && !sct.classList.contains('vazio')){ st.dias = new Set([sct.dataset.sd]); st.semana = null; render(); $('.cal-wrap').scrollIntoView({behavior:'smooth'}); }
     });
   })();
 
