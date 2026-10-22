@@ -1,49 +1,92 @@
 name: AR Ahead — semana na Assembleia da República
-# Sexta-feira ao meio-dia (Lisboa): recolhe a agenda da semana seguinte e propõe a triagem.
-# Segunda-feira às 9h07 (Lisboa): gera HTML + PDF a partir do agenda.json validado e envia por email.
+# Todos os dias, 7h07 e 18h07 (Lisboa): relê a agenda da AR e atualiza a página (novas, alteradas, retiradas).
+#   De segunda a quinta trabalha a semana em curso; de sexta a domingo prepara a semana seguinte.
+# Segunda-feira, 9h07 (Lisboa): envia o email aos dirigentes com a edição já atualizada nessa manhã.
+# Horas em UTC = hora de Lisboa no inverno. No horário de verão, subtrair 1 às horas dos três cron.
 on:
   schedule:
-    - cron: '7 12 * * 5'   # sexta 12h07 Lisboa no horário de inverno (UTC); no verão passar a 7 11
-    - cron: '7 9 * * 1'    # segunda 9h07 Lisboa no horário de inverno (UTC); no verão passar a 7 8
+    - cron: '7 7 * * *'
+    - cron: '7 18 * * *'
+    - cron: '7 9 * * 1'
   workflow_dispatch:
     inputs:
       passo:
-        description: 'recolha | publicar'
-        default: 'publicar'
+        description: 'atualizar | enviar'
+        default: 'atualizar'
 
 permissions:
   contents: write
 
+concurrency:
+  group: ar-ahead
+  cancel-in-progress: false
+
 jobs:
-  recolha:
-    if: github.event.schedule == '7 12 * * 5' || github.event.inputs.passo == 'recolha'
+  atualizar:
+    if: (github.event_name == 'schedule' && github.event.schedule != '7 9 * * 1') || github.event.inputs.passo == 'atualizar'
     runs-on: ubuntu-latest
     env:
       SMTP_OK: ${{ secrets.SMTP_SERVER != '' && 'sim' || 'nao' }}
+      AMALIA_GGUF_URL: ${{ secrets.AMALIA_GGUF_URL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - run: python scripts/recolher_agenda.py
-      - run: python scripts/triar.py
-      - name: "Amália — triagem do que as regras não decidiram (só descarrega o modelo se houver matérias sem unidade)"
-        env:
-          AMALIA_GGUF_URL: ${{ secrets.AMALIA_GGUF_URL }}
+      - name: Recolher a agenda da AR (semana-alvo)
+        run: python scripts/recolher_agenda.py
+      - name: Triagem por regras
+        run: python scripts/triar.py
+      - name: Montar ou atualizar a edição
+        id: montar
+        run: python scripts/montar_edicao.py
+      - name: "Amália — triagem das matérias novas sem unidade"
         run: |
           if [ -z "$AMALIA_GGUF_URL" ]; then echo "Segredo AMALIA_GGUF_URL por criar — passo saltado"; exit 0; fi
-          if python -c "import json,sys; d=json.load(open('dados/triagem_proposta.json')); sys.exit(0 if any(not i['uo'] for i in d['itens']) else 1)"; then
+          if python -c "import json,sys; d=json.load(open('dados/agenda.json',encoding='utf-8')); sys.exit(0 if any(not x['uo'] and not x.get('validado') and not x.get('amalia') and not x.get('retirado') for x in d['destaques']+d['agenda']) else 1)"; then
             pip install llama-cpp-python
-            mkdir -p modelos && curl -L -o modelos/amalia.gguf "$AMALIA_GGUF_URL"
+            mkdir -p modelos
+            curl -L -o modelos/amalia.gguf "$AMALIA_GGUF_URL"
             python scripts/amalia_triagem.py
           else echo "nada para o Amália"; fi
-      - name: Guardar proposta de triagem no repositório
+      - name: "Amália — fichas de varrimento para os «Imediato» sem ficha"
+        run: |
+          if [ -z "$AMALIA_GGUF_URL" ]; then echo "Segredo AMALIA_GGUF_URL por criar — passo saltado"; exit 0; fi
+          if python -c "import json,sys; d=json.load(open('dados/agenda.json',encoding='utf-8')); sys.exit(0 if any(x['pertinencia']=='Imediato' and not x.get('varrimento') and not x.get('retirado') for x in d['destaques']) else 1)"; then
+            pip install llama-cpp-python
+            mkdir -p modelos
+            if [ ! -f modelos/amalia.gguf ]; then curl -L -o modelos/amalia.gguf "$AMALIA_GGUF_URL"; fi
+            python scripts/amalia_varrimento.py
+          else echo "todas as matérias imediatas têm ficha"; fi
+      - name: Verificar se a página precisa de ser refeita
+        id: muda
+        run: |
+          H=$(cat dados/agenda.json modelo/template_cartoes.html | sha256sum | cut -c1-16)
+          if [ -f docs/.fonte ] && [ "$(cat docs/.fonte)" = "$H" ]; then echo "muda=nao" >> $GITHUB_OUTPUT; echo "sem alterações"; else echo "muda=sim" >> $GITHUB_OUTPUT; echo "$H" > .fonte_nova; fi
+      - uses: actions/setup-node@v4
+        if: steps.muda.outputs.muda == 'sim'
+        with: { node-version: '20' }
+      - name: Gerar página, PDF e pasta pública
+        if: steps.muda.outputs.muda == 'sim'
+        run: |
+          npm i playwright && npx playwright install --with-deps chromium
+          python scripts/gerar.py dados/agenda.json saida/ar-ahead.html
+          node scripts/pdf.js saida/ar-ahead.html saida/ar-ahead.pdf
+          mkdir -p docs/edicoes
+          cp saida/ar-ahead.html docs/index.html
+          cp saida/ar-ahead.pdf docs/ar-ahead.pdf
+          cp dados/agenda.json docs/agenda.json
+          N=$(python -c "import json;print(json.load(open('dados/agenda.json',encoding='utf-8'))['edicao']['numero'])")
+          cp saida/ar-ahead.html "docs/edicoes/n$(printf %02d $N).html"
+          touch docs/.nojekyll
+          mv .fonte_nova docs/.fonte
+      - name: Guardar no repositório
         run: |
           git config user.name "ar-ahead-bot"; git config user.email "upe@sggoverno.gov.pt"
-          git add dados/agenda_bruta.json dados/triagem_proposta.json
-          git commit -m "Recolha da agenda e proposta de triagem" || echo "sem alterações"
-          git push
-      - name: Avisar a Ana Luísa (email com a proposta em anexo; só se os segredos SMTP existirem)
-        if: env.SMTP_OK == 'sim'
+          git add -A dados/ docs/ saida/
+          git commit -m "Atualização automática $(TZ=Europe/Lisbon date '+%Y-%m-%d %Hh%M')" || { echo "sem alterações"; exit 0; }
+          git pull --rebase && git push
+      - name: Avisar a Ana Luísa quando começa uma semana nova (lista para rever)
+        if: steps.montar.outputs.nova_semana == 'sim' && env.SMTP_OK == 'sim'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_SERVER }}
@@ -52,57 +95,23 @@ jobs:
           password: ${{ secrets.SMTP_PASS }}
           from: ${{ secrets.SMTP_FROM }}
           to: ${{ secrets.EMAIL_TRIAGEM }}
-          subject: "AR Ahead — proposta de triagem para validar"
-          body: "A recolha da agenda correu. A proposta de triagem está em dados/triagem_proposta.json. Confirme ou corrija e marque validado=true; o varrimento e a publicação seguem na segunda-feira."
-          attachments: dados/triagem_proposta.json
+          subject: "AR Ahead — nova semana em preparação: triagem para rever"
+          body: "A edição da semana seguinte já está na página e será atualizada duas vezes por dia. Para corrigir uma unidade, uma pertinência ou o assunto, acrescente uma linha a dados/correcoes.csv (chave;uo;pertinencia;assunto), copiando a chave da lista em anexo. As correções entram na atualização seguinte. Envio aos dirigentes: segunda-feira, 9h07."
+          attachments: dados/triagem_semana.csv
 
-  publicar:
-    if: github.event.schedule == '7 9 * * 1' || github.event.inputs.passo == 'publicar'
+  enviar:
+    if: github.event.schedule == '7 9 * * 1' || github.event.inputs.passo == 'enviar'
     runs-on: ubuntu-latest
     env:
       SMTP_OK: ${{ secrets.SMTP_SERVER != '' && 'sim' || 'nao' }}
+      PAGINA_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - uses: actions/setup-node@v4
-        with: { node-version: '20' }
-      - run: npm i playwright && npx playwright install --with-deps chromium
-      - name: "Amália — fichas de varrimento para os «Imediato» sem ficha (a partir do corpus do Radar)"
-        env:
-          AMALIA_GGUF_URL: ${{ secrets.AMALIA_GGUF_URL }}
-        run: |
-          if [ -z "$AMALIA_GGUF_URL" ]; then echo "Segredo AMALIA_GGUF_URL por criar — passo saltado"; exit 0; fi
-          if python -c "import json,sys; d=json.load(open('dados/agenda.json')); sys.exit(0 if any(i['pertinencia']=='Imediato' and not i.get('varrimento') for i in d['destaques']+d['agenda']) else 1)"; then
-            pip install llama-cpp-python
-            mkdir -p modelos && curl -L -o modelos/amalia.gguf "$AMALIA_GGUF_URL"
-            python scripts/amalia_varrimento.py
-          else echo "todas as matérias imediatas têm ficha"; fi
-      - run: python scripts/gerar.py dados/agenda.json saida/ar-ahead.html
-      - run: node scripts/pdf.js saida/ar-ahead.html saida/ar-ahead.pdf
-      - run: python scripts/email_resumo.py dados/agenda.json > saida/email.html
-      - name: Disponibilizar a edição para descarregar (página da execução › Artifacts)
-        uses: actions/upload-artifact@v4
-        with:
-          name: ar-ahead-edicao
-          path: saida/
-          retention-days: 90
-      - name: Preparar a página pública (docs/ → GitHub Pages)
-        run: |
-          mkdir -p docs/edicoes
-          cp saida/ar-ahead.html docs/index.html
-          cp saida/ar-ahead.pdf docs/ar-ahead.pdf
-          cp dados/agenda.json docs/agenda.json
-          N=$(python -c "import json;print(json.load(open('dados/agenda.json',encoding='utf-8'))['edicao']['numero'])")
-          cp saida/ar-ahead.html "docs/edicoes/n$(printf %02d $N).html"
-          touch docs/.nojekyll
-      - name: Guardar edição no repositório
-        run: |
-          git config user.name "ar-ahead-bot"; git config user.email "upe@sggoverno.gov.pt"
-          git add saida/ docs/
-          git commit -m "Edição semanal publicada" || echo "sem alterações"
-          git push
-      - name: Enviar aos dirigentes (só se os segredos SMTP existirem)
+      - name: Preparar o corpo do email (resumo por unidade)
+        run: python scripts/email_resumo.py dados/agenda.json > email.html
+      - name: Enviar aos dirigentes
         if: env.SMTP_OK == 'sim'
         uses: dawidd6/action-send-mail@v3
         with:
@@ -113,5 +122,8 @@ jobs:
           from: ${{ secrets.SMTP_FROM }}
           to: ${{ secrets.DIRIGENTES_DSSD }}
           subject: "AR Ahead — a semana na Assembleia da República"
-          html_body: file://saida/email.html
-          attachments: saida/ar-ahead.pdf,saida/ar-ahead.html
+          html_body: file://email.html
+          attachments: docs/ar-ahead.pdf
+      - name: Sem segredos SMTP
+        if: env.SMTP_OK != 'sim'
+        run: echo "Segredos SMTP por criar — email não enviado. O corpo preparado foi este:" && cat email.html
