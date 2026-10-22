@@ -1,18 +1,127 @@
-# AR Ahead — a semana na Assembleia da República · kit de automatização
+# AR Ahead — a semana na Assembleia da República
 
-Cadeia: **recolha (sexta 12h)** → **triagem proposta + validação humana** → **varrimento (IA + revisão)** → **publicação (segunda 9h)**.
+Agenda parlamentar semanal para os dirigentes da Direção de Serviços de Suporte à Decisão (DSSD) da Secretaria-Geral do Governo, triada por unidade orgânica (DACDP, DAPL, UPE, DCIRI), com cobertura mediática e fichas de varrimento.
+
+**Página:** https://celine-mestre.github.io/ar-ahead/ (endereço provisório, para desenvolvimento e testes)
+**Responsável:** Unidade de Pesquisa e Estatísticas (UPE)
+
+---
+
+## O que acontece sozinho
+
+| Quando (hora de Lisboa) | O quê |
+|---|---|
+| Todos os dias, 7h07 e 18h07 | Recolhe a agenda da AR, atualiza a edição da semana, marca o que é novo, alterado ou retirado, refaz a página e o PDF |
+| Segunda-feira, 9h07 | Envia aos dirigentes o resumo por unidade, com o logótipo da SGGov, o PDF em anexo, a ligação para a página e, em cada matéria, a ligação para a AR e para o varrimento |
+| Quando começa uma semana nova | Arquiva a edição anterior e avisa a pessoa da triagem com a lista de matérias a rever |
+
+**Semana-alvo:** de segunda a quinta, a semana em curso; de sexta a domingo, a semana seguinte.
+
+Os horários estão em UTC no workflow. No horário de verão (de março a outubro), subtrai-se 1 às horas dos três `cron`.
+
+---
+
+## Cadeia
 
 ```
-dados/agenda_bruta.json        ← scripts/recolher_agenda.py (dados abertos da AR; URL a confirmar)
-dados/triagem_proposta.json    ← scripts/triar.py (regras em dados/regras_uo.json) → Ana Luísa valida
-dados/agenda.json              ← após varrimento: fichas em "fichas", destaques em "destaques"
-saida/ar-ahead.html           ← scripts/gerar.py (modelo/template_cartoes.html + logótipo)
-saida/ar-ahead.pdf            ← scripts/pdf.js (Chromium)
-saida/email.html               ← scripts/email_resumo.py (resumo por unidade para o corpo do email)
+1. scripts/recolher_agenda.py   dados abertos da AR          → dados/agenda_bruta.json
+2. scripts/triar.py             regras (dados/regras_uo.json) → dados/triagem_proposta.json
+3. scripts/montar_edicao.py     edição nova ou atualização    → dados/agenda.json
+4. scripts/amalia_triagem.py    Amália: unidade e assunto das matérias novas sem unidade
+5. scripts/cobertura.py         notícias do Radar de Notícias (60 dias, OCS nacionais) para todas as matérias
+6. scripts/amalia_varrimento.py Amália: fichas completas («Imediato») e curtas («Vigilância»)
+7. scripts/gerar.py             modelo + dados + histórico   → saida/ar-ahead.html
+8. scripts/pdf.js               Chromium                      → saida/ar-ahead.pdf
+9. scripts/indice_edicoes.py    lista de edições              → docs/edicoes/indice.json
+   scripts/email_resumo.py      corpo do email de segunda-feira
 ```
 
-* O modelo não contém conteúdo: só desenha o `agenda.json`. Para corrigir o aspeto, muda-se o modelo; para publicar uma semana, muda-se o JSON.
-* `scripts/importar_html_antigo.py` converte a 1.ª edição (HTML da Ana Luísa) para `agenda.json` — foi assim que este `dados/agenda.json` nasceu.
-* O repositório deve ser **privado** (a atribuição às unidades é um juízo interno). Numa organização gratuita no GitHub, os repositórios privados têm 2 000 minutos/mês de Actions; esta cadeia gasta ~5 minutos por semana.
-* Segredos a criar no repositório: `SMTP_SERVER`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM`, `EMAIL_TRIAGEM`, `DIRIGENTES_DSSD` (mesmo esquema do Radar de Notícias).
-* **Amália** (mesmo esquema do Radar: pesos abertos, `llama-cpp`, corre no próprio fluxo): `scripts/amalia_triagem.py` atribui unidade e pertinência ao que as regras não decidiram e reescreve o tema como ASSUNTO; `scripts/amalia_varrimento.py` gera as fichas dos «Imediato» a partir do corpus do Radar de Notícias (nunca da memória do modelo) — cada notícia com data, fonte e ligação reais. Os «Pontos de atenção» ficam para a revisão humana. Segredo adicional: `AMALIA_GGUF_URL`. As competências que o Amália lê estão em `dados/competencias_dssd.json`.
+Tudo corre em `.github/workflows/ar-ahead.yml`.
+
+---
+
+## Fonte dos dados
+
+Dados abertos da Assembleia da República, Agenda Parlamentar (XVII Legislatura), em formato JSON:
+
+- Página de origem: https://www.parlamento.pt/Cidadania/Paginas/DABoletimInformativo.aspx
+- Ficheiro: `AgendaParlamentar_json.txt`. O endereço completo está em `scripts/recolher_agenda.py`.
+
+Secções lidas: Plenário, Comissões Parlamentares, Grupos de Trabalho, Conferência de Líderes e Comissão Permanente, e ainda a «Resumo da Calendarização». A AR publica uma janela que vai mais ou menos de ontem a dois meses à frente.
+
+---
+
+## A página
+
+- **Edição em curso:** cartões por matéria, filtros por unidade e pertinência, calendário mensal e agenda hora a hora.
+- **Seletor «Semanas»**, por cima do calendário:
+  - edições anteriores, a cinzento, com ligação para a edição completa;
+  - a semana em curso;
+  - as semanas seguintes já publicadas pela AR, a verde, ainda sem triagem completa nem varrimento.
+- **«Mais à frente»:** reuniões futuras e calendarização da AR.
+- **Histórico:** cada edição fica em `docs/edicoes/nNN.html` (a piloto, de 19 a 25 de outubro de 2026, em `piloto.html`). O menu «Edições» do cabeçalho e o seletor de semanas leem esse arquivo.
+- **Modelo e dados separados:** `modelo/template_cartoes.html` não tem conteúdo, só desenha o `dados/agenda.json`. Para mudar o aspeto, muda-se o modelo; para mudar o conteúdo, muda-se o JSON.
+
+---
+
+## Revisão humana
+
+Para corrigir a classificação de uma matéria, acrescenta-se uma linha a `dados/correcoes.csv`:
+
+```
+chave;uo;pertinencia;assunto;expressoes
+ar-123456;DCIRI|UPE;Vigilância;Conselho das Comunidades Portuguesas;Conselho das Comunidades|CCP
+```
+
+- A `chave` aparece em `dados/triagem_semana.csv`.
+- As unidades e as expressões de pesquisa separam-se com `|`.
+- A correção prevalece em todas as atualizações seguintes e a matéria fica marcada como validada; o Amália nunca a altera.
+- As expressões de pesquisa tornam a contagem de notícias precisa.
+
+Matérias acrescentadas à mão (por exemplo, prazos de pareceres) têm `"manual": true` e nunca são retiradas automaticamente.
+
+---
+
+## Amália
+
+Usa o mesmo esquema do Radar de Notícias: pesos abertos, `llama-cpp`, a correr no próprio workflow.
+
+- **Triagem:** `amalia_triagem.py` propõe unidade, pertinência, assunto e expressões de pesquisa só para o que as regras não decidiram. Usa como critério as competências descritas em `dados/competencias_dssd.json`.
+- **Varrimento:** `amalia_varrimento.py` escreve as fichas apenas a partir de notícias reais do Radar de Notícias, nunca da memória do modelo. Cada notícia tem data, fonte e ligação.
+- **Revisão:** as fichas geradas pelo Amália não incluem a verificação de números, que fica para revisão humana.
+
+Sem o segredo `AMALIA_GGUF_URL`, estes passos saltam e a página publica-se na mesma.
+
+---
+
+## Segredos do repositório
+
+Criam-se em Settings › Secrets and variables › Actions › New repository secret.
+
+| Nome | Valor |
+|---|---|
+| `SMTP_SERVER` | `smtp.gmail.com` |
+| `SMTP_PORT` | `465` |
+| `SMTP_USER` | endereço remetente |
+| `SMTP_PASS` | palavra-passe de aplicação do Google (16 letras, sem espaços) |
+| `SMTP_FROM` | `AR Ahead <endereço remetente>` |
+| `DIRIGENTES_DSSD` | destinatários do email de segunda-feira, separados por vírgulas |
+| `EMAIL_TRIAGEM` | destinatário do aviso de semana nova |
+| `AMALIA_GGUF_URL` | opcional: endereço do modelo Amália |
+
+Sem os segredos SMTP, os emails não são enviados e o registo do workflow mostra o texto que seria enviado.
+
+---
+
+## Correr à mão
+
+Actions › AR Ahead › Run workflow, com o passo `atualizar` (recolha e publicação) ou `enviar` (email aos dirigentes).
+
+---
+
+## Notas
+
+- O repositório é **público**. A página tem `noindex`, para não aparecer nos motores de pesquisa, mas abre para qualquer pessoa com o endereço, e todo o conteúdo do repositório (dados, regras, histórico) é legível.
+- A atribuição às unidades e o varrimento são indicativos e estão sujeitos a validação. O varrimento é amostral e não exaustivo.
+- O email usa o logótipo publicado em `docs/logo-sggov.png`: os programas de email não mostram imagens embebidas no próprio HTML.
+- `scripts/importar_html_antigo.py` converteu a edição piloto (HTML original) para JSON.
