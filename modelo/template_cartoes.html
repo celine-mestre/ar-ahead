@@ -153,6 +153,12 @@ table.simples th{background:var(--azul);color:#fff;text-align:left;padding:7px 1
 footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(255,255,255,.85);padding:14px 20px;font-size:11.5px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .ftr{max-width:1320px;margin:0 auto;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap} footer strong{color:#fff}
 #impressao{display:none}
+.tag.novo{background:#fff4c2;color:#6b5200;border-color:#f0d77a}
+.tag.alt{background:#eef3f7;color:var(--azul);border-color:#d9e3ec}
+.ev .nv{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--amarelo);box-shadow:0 0 0 1px #b38f00;margin-left:6px;vertical-align:1px}
+.retiradas{background:#fff;border:1px dashed var(--borda);border-radius:10px;padding:10px 14px;margin:12px 0;font-size:12.5px;color:var(--suave)}
+.retiradas b{color:var(--texto)} .retiradas li{margin:2px 0} .retiradas s{color:var(--texto)}
+.kpi.nov b{color:#b38f00} .kpi.on{border-color:var(--azul);box-shadow:inset 0 0 0 1px var(--azul)}
 /* ---------- página de entrada: hemiciclo da semana ---------- */
 .hero{background:radial-gradient(1200px 600px at 70% 120%,rgba(14,116,51,.55),transparent 60%),linear-gradient(120deg,#17304f 0%,#1a3f6f 45%,#0f4a2c 100%);color:#fff;position:relative;overflow:hidden;border-bottom:3px solid var(--vermelho)}
 .hero::after{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Ccircle cx='1' cy='1' r='1' fill='rgba(255,255,255,.06)'/%3E%3C/svg%3E");pointer-events:none}
@@ -283,6 +289,7 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
   <h2 id="t-agenda"><svg class="ic"><use href="#i-list"/></svg>Mais na agenda<small id="n-agenda"></small></h2>
   <div class="aviso" id="aviso"><svg class="ic"><use href="#i-info"/></svg><div id="aviso-txt"></div></div>
   <div class="grelha" id="g-agenda"></div>
+  <div class="retiradas" id="retiradas" hidden></div>
   <div class="rodape-info"><h3>Disclaimer</h3><p id="disc"></p><h3>Metodologia</h3><ul id="metod"></ul></div>
   <div id="impressao"></div>
 </main>
@@ -309,21 +316,25 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
   const esc = s => String(s??'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const PERT = {'Imediato':['ime','p-ime'],'Vigilância':['vig','p-vig'],'Registo':['reg','p-reg']};
   const UOS = ['Transversal', ...Object.keys(D.unidades)];
-  const todos = [...D.destaques.map(x=>({...x,_d:true})), ...D.agenda.map(x=>({...x,_d:false}))];
+  const todosComRetiradas = [...D.destaques.map(x=>({...x,_d:true})), ...D.agenda.map(x=>({...x,_d:false}))];
+  const todos = todosComRetiradas.filter(x=>!x.retirado);
+  const retiradas = todosComRetiradas.filter(x=>x.retirado);
+  const fmtD = iso => { if(!iso) return ''; const d=new Date(iso.slice(0,10)+'T00:00:00'); return `${d.getDate()} ${['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'][d.getMonth()]}`; };
 
   // cabeçalho
   document.title = `${D.produto} · ${D.edicao.semana}`;
   $('#h-titulo').innerHTML = `${esc(D.produto)}<small>${esc(D.tagline||'')}</small>`;
   $('#h-semana').textContent = D.edicao.semana;
   if (D.edicao.aviso) { const a=document.createElement('div'); a.className='aviso'; a.id='aviso-edicao'; a.innerHTML=`<svg class="ic"><use href="#i-alert"/></svg><div><strong>Edição ${esc(D.edicao.estado||'')}.</strong> ${esc(D.edicao.aviso)}</div>`; $('main').prepend(a); }
-  $('#h-fecho').innerHTML = `<svg class="ic"><use href="#i-clock"/></svg> Data de fecho: ${esc(D.edicao.fechoLabel)} · A agenda do Parlamento pode sofrer alterações.`;
+  $('#h-fecho').innerHTML = `<svg class="ic"><use href="#i-clock"/></svg> ${D.edicao.atualizadoLabel ? `Atualizado a ${esc(D.edicao.atualizadoLabel)}` : `Data de fecho: ${esc(D.edicao.fechoLabel)}`} · Atualização automática diária; a agenda do Parlamento pode sofrer alterações.`;
   $('#h-edicao').textContent = `Edição semanal n.º ${D.edicao.numero} · ${D.edicao.ano}`;
   $('#f-edicao').textContent = `${D.produto} · ${D.edicao.semana} · fecho a ${D.edicao.fechoLabel}`;
   $('#aviso-txt').innerHTML = `<strong>As matérias desta secção não têm varrimento mediático.</strong> ${esc(D.pedidos)}`;
+  if (retiradas.length) { const r=$('#retiradas'); r.hidden=false; r.innerHTML = `<b>Deixaram de constar da agenda da AR (${retiradas.length})</b><ul>${retiradas.map(x=>`<li><s>${esc(x.tema)}</s> · ${esc(x.dataLabel)}${x.hora?' '+esc(x.hora):''} · retirada a ${esc(fmtD(x.retirado))}</li>`).join('')}</ul>`; }
   $('#disc').textContent = D.disclaimer; $('#metod').innerHTML = D.metodologia.map(m=>`<li>${esc(m)}</li>`).join('');
 
   // estado dos filtros
-  const st = { q:'', uo:null, pert:new Set(['Imediato','Vigilância']), dia:null };
+  const st = { q:'', uo:null, pert:new Set(['Imediato','Vigilância']), dia:null, novidades:false };
   const guardar = () => { try { localStorage.setItem('ar-ahead-filtros', JSON.stringify({uo:st.uo, pert:[...st.pert]})); } catch(e){} };
   try { const s = JSON.parse(localStorage.getItem('ar-ahead-filtros')||'null'); if (s) { st.uo = s.uo; st.pert = new Set(s.pert); } } catch(e){}
 
@@ -385,7 +396,7 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
       h += `<div class="ad-dia">${NOMES[d.getDay()]}, ${d.getDate()} de ${MESES[d.getMonth()]}${datasComAgenda.has(k)?` · ${its.length}`:' · sem agenda publicada'}</div>`;
       if (!its.length) { h += `<div class="vazio-ad">${datasComAgenda.has(k)?'Nada corresponde aos filtros neste dia.':'Nenhuma reunião publicada para este dia à data de fecho.'}</div>`; return; }
       total += its.length;
-      h += its.map(x => `<div class="ev" data-ir-cartao="${esc(x.data+'|'+x.tema)}"><span class="h">${esc(x.hora||'—')}</span><span class="d ${(PERT[x.pertinencia]||['reg'])[0]}"></span><span class="t"><b>${esc(x.tema)}</b>${x.uo.length?x.uo.slice(0,3).map(u=>`<span class="tag ${u==='Transversal'?'transv':''}">${esc(u)}</span>`).join(''):''}${x.varrimento?`<a href="#" class="vr" data-ver="${esc(x.varrimento)}">varrimento ›</a>`:''}<small>${esc(x.tipoLabel)}${x.interveniente&&x.interveniente!=='—'?` · ${esc(x.interveniente)}`:''}</small></span></div>`).join('');
+      h += its.map(x => `<div class="ev" data-ir-cartao="${esc(x.data+'|'+x.tema)}"><span class="h">${esc(x.hora||'—')}</span><span class="d ${(PERT[x.pertinencia]||['reg'])[0]}"></span><span class="t"><b>${esc(x.tema)}</b>${x.novo||x.alterado?'<span class="nv" title="novo ou alterado"></span>':''}${x.uo.length?x.uo.slice(0,3).map(u=>`<span class="tag ${u==='Transversal'?'transv':''}">${esc(u)}</span>`).join(''):''}${x.varrimento?`<a href="#" class="vr" data-ver="${esc(x.varrimento)}">varrimento ›</a>`:''}<small>${esc(x.tipoLabel)}${x.interveniente&&x.interveniente!=='—'?` · ${esc(x.interveniente)}`:''}</small></span></div>`).join('');
     });
     $('#ad-sub').textContent = `${total} ${total===1?'matéria':'matérias'}${st.pert.has('Registo')?'':' · registo oculto'}`;
     $('#ad-lista').innerHTML = h || `<div class="vazio-ad">Nada corresponde aos filtros.</div>`;
@@ -397,12 +408,13 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
     if (c){ c.scrollIntoView({behavior:'smooth',block:'center'}); c.style.boxShadow='0 0 0 3px var(--amarelo)'; setTimeout(()=>c.style.boxShadow='',1600); }
   });
   // KPIs
-  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); $('#t-destaques').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
+  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='nov'){ st.novidades=!st.novidades; render(); return; } if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); $('#t-destaques').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
 
   function passa(x){
     if (st.uo){ const ok = st.uo==='Transversal' ? x.uo.includes('Transversal') : x.uo.includes(st.uo); if(!ok) return false; }
     if (!st.pert.has(x.pertinencia)) return false;
     if (st.dias.size && !st.dias.has(x.data)) return false;
+    if (st.novidades && !(x.novo || x.alterado)) return false;
     if (st.q){ const h = [x.tema,x.interveniente,x.resumo,x.tipoLabel,x.ordemTrabalhos].join(' ').toLowerCase(); if(!h.includes(st.q)) return false; }
     return true;
   }
@@ -420,7 +432,7 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
       ${x.interveniente && x.interveniente!=='—' ? `<div class="c-interv">${esc(x.interveniente)}</div>`:''}
       <p class="c-resumo ${longo?'clamp':''}">${esc(x.ordemTrabalhos||x.resumo)}</p>
       ${longo?`<button class="c-mais" data-mais>Ver tudo</button>`:''}
-      <div class="c-uo">${uos}</div>
+      <div class="c-uo">${uos}${x.novo?`<span class="tag novo">novo · ${esc(fmtD(x.novo))}</span>`:''}${x.alterado && !x.novo?`<span class="tag alt">alterado · ${esc(fmtD(x.alterado))}</span>`:''}</div>
       <div class="c-foot">${foot}</div>
     </article>`;
   }
@@ -432,7 +444,8 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
     // kpis
     const base = todos.filter(x=>!st.uo || (st.uo==='Transversal'?x.uo.includes('Transversal'):x.uo.includes(st.uo)));
     const n = k => base.filter(x=>x.pertinencia===k).length;
-    $('#kpis').innerHTML = `<div class="kpi var" data-kpi="varr"><b>${D.destaques.length}</b><span>destaques com varrimento</span></div><div class="kpi ime" data-kpi="Imediato"><b>${n('Imediato')}</b><span>imediato${st.uo?' · '+esc(st.uo):''}</span></div><div class="kpi vig" data-kpi="Vigilância"><b>${n('Vigilância')}</b><span>em vigilância</span></div><div class="kpi reg" data-kpi="Registo"><b>${n('Registo')}</b><span>registo</span></div><div class="kpi" data-kpi="varr"><b>${todos.filter(x=>!x.uo.length).length}</b><span>sem unidade atribuída</span></div>`;
+    const nNov = todos.filter(x=>x.novo||x.alterado).length;
+    $('#kpis').innerHTML = `<div class="kpi var" data-kpi="varr"><b>${D.destaques.length}</b><span>destaques com varrimento</span></div><div class="kpi ime" data-kpi="Imediato"><b>${n('Imediato')}</b><span>imediato${st.uo?' · '+esc(st.uo):''}</span></div><div class="kpi vig" data-kpi="Vigilância"><b>${n('Vigilância')}</b><span>em vigilância</span></div><div class="kpi reg" data-kpi="Registo"><b>${n('Registo')}</b><span>registo</span></div><div class="kpi" data-kpi="varr"><b>${todos.filter(x=>!x.uo.length).length}</b><span>sem unidade atribuída</span></div>${nNov?`<div class="kpi nov ${st.novidades?'on':''}" data-kpi="nov"><b>${nNov}</b><span>novas ou alteradas${D.edicao.desdeLabel?' desde '+esc(D.edicao.desdeLabel):''}</span></div>`:''}`;
     renderCal(); renderAgendaDia();
     // grelhas
     const ds = todos.filter(x=>x._d && passa(x)), ag = todos.filter(x=>!x._d && passa(x));
