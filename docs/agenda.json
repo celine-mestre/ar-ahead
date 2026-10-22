@@ -1,0 +1,1383 @@
+{
+ "produto": "AR Ahead",
+ "edicao": {
+  "numero": 1,
+  "ano": 2026,
+  "semana": "19 a 25 de outubro de 2026",
+  "inicio": "2026-10-19",
+  "fim": "2026-10-25",
+  "fecho": "2026-10-19",
+  "fechoLabel": "19 de outubro de 2026"
+ },
+ "unidades": {
+  "DACDP": "Divisão de Apoio à Coordenação e Decisão Política",
+  "DAPL": "Divisão de Apoio ao Processo Legislativo",
+  "UPE": "Unidade de Pesquisa e Estatísticas",
+  "DCIRI": "Divisão de Cooperação Institucional e Relações Internacionais"
+ },
+ "destaques": [
+  {
+   "tema": "Conta Geral do Estado (CGE) de 2025",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "17h30",
+   "periodo": "Tarde",
+   "interveniente": "Secretário de Estado Adjunto e do Orçamento, José Maria Brandão de Brito",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição · Comissão de Orçamento, Finanças e Administração Pública (COFAP)",
+   "uo": [
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Imediato",
+   "resumo": "Apreciação da CGE de 2025. Primeira ocasião pública identificada para o Governo responder ao parecer do Tribunal de Contas.",
+   "ordemTrabalhos": "",
+   "varrimento": "cge",
+   "ligacoes": [
+    {
+     "titulo": "Parecer do Tribunal de Contas sobre a CGE 2025",
+     "url": "https://www.tcontas.pt/pt-pt/ProdutosTC/PareceresTribunalContas/ParecerCGE/Documents/2025/pcge2025.pdf"
+    }
+   ]
+  },
+  {
+   "tema": "Comunicação social",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "9h30",
+   "periodo": "Manhã",
+   "interveniente": "Ministro da Presidência, António Leitão Amaro",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição regimental · 12.ª Comissão (Cultura, Comunicação, Juventude e Desporto)",
+   "uo": [
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Imediato",
+   "resumo": "Lusa, RTP e verbas do setor no OE 2027. Na mesma reunião: votação de três projetos de resolução sobre a RTP.",
+   "ordemTrabalhos": "",
+   "varrimento": "mp",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://agenda.parlamento.pt/"
+    }
+   ]
+  },
+  {
+   "tema": "Conta Geral do Estado (CGE) de 2025",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "10h00",
+   "periodo": "Manhã",
+   "interveniente": "COFAP · relator: deputado Eduardo Teixeira (CH)",
+   "tipo": [
+    "Votação",
+    "Relatório / parecer"
+   ],
+   "tipoLabel": "Discussão e votação de relatório",
+   "uo": [
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Relatório final da CGE de 2025, antes do debate em Plenário.",
+   "ordemTrabalhos": "",
+   "varrimento": "cge",
+   "ligacoes": [
+    {
+     "titulo": "Parecer do Tribunal de Contas sobre a CGE 2025",
+     "url": "https://www.tcontas.pt/pt-pt/ProdutosTC/PareceresTribunalContas/ParecerCGE/Documents/2025/pcge2025.pdf"
+    }
+   ]
+  },
+  {
+   "tema": "Interoperabilidade de dados na Administração Pública",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "10h30",
+   "periodo": "Manhã",
+   "interveniente": "13.ª Comissão (Reforma do Estado e Poder Local)",
+   "tipo": [
+    "Relatório / parecer"
+   ],
+   "tipoLabel": "Informação de baixa e nomeação de relator",
+   "uo": [
+    "DACDP",
+    "DAPL"
+   ],
+   "pertinencia": "Imediato",
+   "resumo": "Proposta de Lei n.º 107/XVII: princípio «só uma vez» e partilha de dados entre serviços sem consentimento do titular.",
+   "ordemTrabalhos": "",
+   "varrimento": "interop",
+   "ligacoes": [
+    {
+     "titulo": "Ficha da Proposta de Lei n.º 107/XVII",
+     "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=377269"
+    },
+    {
+     "titulo": "Parecer da CNPD n.º 2026/33",
+     "url": "https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/123306"
+    }
+   ],
+   "nota_atribuicao": "UnIT retirada"
+  },
+  {
+   "tema": "Plano de Recuperação e Resiliência (PRR)",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "11h00",
+   "periodo": "Manhã",
+   "interveniente": "Presidente da Comissão Nacional de Acompanhamento do PRR, Pedro Dominguinhos",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição · 6.ª Comissão (requerimento do PS)",
+   "uo": [
+    "DACDP",
+    "UPE"
+   ],
+   "pertinencia": "Imediato",
+   "resumo": "«Estado efetivo de execução» do PRR, depois de o Governo anunciar o cumprimento de 100% dos marcos e metas.",
+   "ordemTrabalhos": "",
+   "varrimento": "prr",
+   "ligacoes": [
+    {
+     "titulo": "Governo — último pedido de pagamento do PRR",
+     "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/portugal-cumpre-integralmente-metas-do-prr-e-submete-ultimo-pedido-de-pagamento"
+    }
+   ]
+  },
+  {
+   "tema": "Conta Geral do Estado (CGE) de 2025",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "Governo e grupos parlamentares",
+   "tipo": [
+    "Plenário / debate"
+   ],
+   "tipoLabel": "Debate em Plenário (art. 213.º-A do Regimento)",
+   "uo": [
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Imediato",
+   "resumo": "Tribunal de Contas considera a Conta não conforme com a Lei de Enquadramento Orçamental. Excedente de 0,7% do PIB em contabilidade nacional.",
+   "ordemTrabalhos": "",
+   "varrimento": "cge",
+   "ligacoes": [
+    {
+     "titulo": "Parecer do Tribunal de Contas sobre a CGE 2025",
+     "url": "https://www.tcontas.pt/pt-pt/ProdutosTC/PareceresTribunalContas/ParecerCGE/Documents/2025/pcge2025.pdf"
+    },
+    {
+     "titulo": "Conta Geral do Estado 2025 (relatório)",
+     "url": "https://www.eo.gov.pt/politicaorcamental/ContaGeraldoEstado/01_CGE2025_Relatorio_AnaliseGlobal_ContaSS.pdf"
+    },
+    {
+     "titulo": "INE — 2.ª notificação do Procedimento dos Défices Excessivos",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=771939216&DESTAQUESmodo=2&xlang=pt"
+    }
+   ]
+  },
+  {
+   "tema": "Orçamento do Estado para 2027",
+   "data": "2026-10-23",
+   "dataLabel": "sexta, 23 out",
+   "hora": "10h00",
+   "periodo": "Manhã",
+   "interveniente": "Ministro de Estado e das Finanças, Joaquim Miranda Sarmento, e secretários de Estado",
+   "tipo": [
+    "Audição",
+    "Relatório / parecer"
+   ],
+   "tipoLabel": "Audição · COFAP (apreciação na generalidade)",
+   "uo": [
+    "Transversal",
+    "DACDP",
+    "UPE",
+    "DAPL"
+   ],
+   "pertinencia": "Imediato",
+   "resumo": "Proposta de Lei n.º 110/XVII. Excedente previsto de 0,1% do PIB; debate na generalidade a 27 e 28 de outubro.",
+   "ordemTrabalhos": "",
+   "varrimento": "oe",
+   "ligacoes": [
+    {
+     "titulo": "Conselho das Finanças Públicas — Parecer n.º 05/2026",
+     "url": "https://www.cfp.pt/pt/publicacoes/orcamento-do-estado/previsoes-macroeconomicas-subjacentes-a-proposta-de-orcamento-do-estado-para-2027"
+    },
+    {
+     "titulo": "Governo — apresentação do OE 2027",
+     "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/oe-2027-um-portugal-mais-preparado-com-mais-rendimento-e-investimento"
+    }
+   ]
+  }
+ ],
+ "agenda": [
+  {
+   "tema": "Comissão Parlamentar de Inquérito aos Negócios dos Incêndios Rurais",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "09h00",
+   "periodo": "Manhã",
+   "interveniente": "Coronel Mário Figueiredo, na qualidade de gestor de contratos na Força Aérea",
+   "tipo": [
+    "Audição",
+    "Relatório / parecer",
+    "Inquérito parlamentar"
+   ],
+   "tipoLabel": "Audição; Inquérito parlamentar; Parecer setorial OE",
+   "uo": [],
+   "pertinencia": "Vigilância",
+   "resumo": "Deliberação sobre a eventual suspensão dos trabalhos durante o período de discussão e votação do Orçamento do Estado; · Discussão e votação das atas das reuniões ºs 27, 28 e 29, respetivamente de 11, 17 e 18 de junho; · Outros assuntos.",
+   "ordemTrabalhos": "Deliberação sobre a eventual suspensão dos trabalhos durante o período de discussão e votação do Orçamento do Estado; · Discussão e votação das atas das reuniões ºs 27, 28 e 29, respetivamente de 11, 17 e 18 de junho; · Outros assuntos. · Audição, ao abrigo do artigo 16.º do Regime Jurídico dos Inquéritos Parlamentares, Coronel Mário Figueiredo, na qualidade de gestor de contratos na Força Aérea"
+  },
+  {
+   "tema": "Reunião conjunta: Comissão de Agricultura e Pescas; Comissão de Assuntos Europeus; Comissão de Economia e Coesão Territorial; Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "09h00",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Reunião"
+   ],
+   "tipoLabel": "Reunião",
+   "uo": [
+    "DACDP",
+    "DCIRI"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Conferência sobre o Quadro Financeiro Plurianual (2028-2034) e recursos próprios da União Europeia. · (em conjunto com a Comissão de Assuntos Europeus, Comissão de Orçamento, Finanças e Administração Pública e Comissão de Economia e Coesão Territorial)",
+   "ordemTrabalhos": "",
+   "nota_atribuicao": "proposta: QFP 2028-2034 e recursos próprios da UE"
+  },
+  {
+   "tema": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "10h00",
+   "periodo": "Manhã",
+   "interveniente": "AMAL Algarve",
+   "tipo": [
+    "Audição",
+    "Relatório / parecer",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Audição; Iniciativa de grupo parlamentar; Requerimento; Parecer setorial OE",
+   "uo": [
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Audições no âmbito da apreciação do Projeto de Lei n.º 501/XVII/1.ª (IL) - «Promove a concorrência no transporte rodoviário através do acesso aberto a terminais e interfaces» · 10h00 – Antrop - Associação Nacional de Transportes de Passageiros",
+   "ordemTrabalhos": "Audições no âmbito da apreciação do Projeto de Lei n.º 501/XVII/1.ª (IL) - «Promove a concorrência no transporte rodoviário através do acesso aberto a terminais e interfaces» · 10h00 – Antrop - Associação Nacional de Transportes de Passageiros · 11h00 – IMT – Instituto da Mobilidade e dos Transportes · 14h00 – · 15h00 – Audição da AMAL Algarve, no âmbito - âmbito da apreciação do Projeto de Lei n.º 501/XVII/1.ª (IL) - «Promove a concorrência no transporte rodoviário através do acesso aberto a terminais e interfaces» · 16h00 – Audição do Metropolitano de Lisboa, no âmbito do requerimento apresentado pelo GP IL, sobre «ponto de situação e evolução das obras de expansão das Linhas Verde e Amarela e de extensão da Linha Vermelha.» · 17h00 – Audição do Metropolitano de Lisboa, no âmbito do requerimento apresentado pelo GP CH, «para esclarecimentos sobre derrapagens financeiras, atrasos nas obras de expansão e impactos urbanos e sociais» · Informações gerais · Apreciação e votação das atas n.º 65 e 66, relativas às reuniões de 13 e 14 de outubro de 2026 · Apreciação e votação do Relatório de Atividades da Comissão, respeitante à 1.ª Sessão Legislativa · Apreciação e votação do requerimento, apresentado pelo GP BE, «para audição urgente do Ministro das Infraestruturas e da Habitação, Miguel Pinto Luz, sobre o novo Regime Jurídico da Reabilitação Urbana» · Apreciação e votação do requerimento, apresentado pelo GP L, para «audição, com carácter de urgência, do Ministro das Infraestruturas e da Habitação, Miguel Pinto Luz, sobre alteração ao regime jurídico da reabilitação urbana» · Apreciação e votação do requerimento, apresentado pelo GP PS, para «audição urgente do Ministro das Infraestruturas e Habitação, Miguel Pinto Luz, sobre eventual conflito de interesses na aprovação das alterações ao Regime Jurídico da Urbanização e da Edificação» · Apreciação e votação do requerimento, apresentado pelo GP CH, para «audição do Ministro das Infraestruturas e Habitação sobre o processo de privatização da TAP e a salvaguarda dos interesses estratégicos nacionais» · Apreciação e votação do relatório relativo à Proposta de Lei n.º 110/XVII/2.ª (GOV) – «Aprova o Orçamento do Estado para 2027» · Baixa à Comissão, para apreciação na generalidade, do Projeto de Lei n.º 808/XVII/2.ª (PCP) - «Aprova o desenvolvimento conceptual e normativo da Carta Municipal de Habitação» - com conexão à Comissão da Reforma do Estado e Poder Local · Baixa à Comissão, em conexão, do Projeto de Lei n.º 809/XVII/2.ª (PCP) - «Altera a Lei de Bases Gerais da Política Pública de Solos, do Ordenamento do Território e do Urbanismo (5.ª alteração à Lei n.º 31/2014, de 30 de maio)» - Comissão competente: Comissão da Reforma do Estado e Poder Local · Discussão dos Projetos de Resolução: · Projeto de Resolução n.º 314/XVII/ª (PAN) - «Recomenda ao Governo a criação do Programa Nacional de Resiliência Sísmica e o reforço da fiscalização e da prevenção sísmica na construção e reabilitação urbana» · Projeto de Resolução n.º 359/XVII/1.ª (PAN) - «Pelo reforço dos padrões de segurança e garantia de supervisão independente dos funiculares e dos carros elétricos sobre carris» · Baixa inicial dos Projetos de Resolução: · Projeto de Resolução n.º 1323/XVII/2.ª (PCP) - «Recomenda a elaboração de um novo Código da Construção» · Projeto de Resolução n.º 1326/XVII/2.ª (PCP) - «Pelo apoio ao cooperativismo habitacional» · Projeto de Resolução n.º 1324/XVII/2.ª (PCP) - «Promoção de habitação pública e dinamização da iniciativa pública de construção e reabilitação urbana» · Projeto de Resolução n.º 1325/XVII/2.ª (PCP) - «Recomenda a melhoria da informação estatística – componente solo e componente edifício no Índice de Preços da Habitação» · Outros assuntos",
+   "nota_atribuicao": "UnIT retirada"
+  },
+  {
+   "tema": "Comissão de Educação e Ciência",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "13h45",
+   "periodo": "Tarde",
+   "interveniente": "Andreia Filipa da Silva Rosário, Estudante do Mestrado Integrado em Medicina",
+   "tipo": [
+    "Audiência"
+   ],
+   "tipoLabel": "Audiência",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audiência a Andreia Filipa da Silva Rosário, Estudante do Mestrado Integrado em Medicina para expor a situação de falta de enquadramento legal para a transferência de estudantes do ensino superior por motivos de saúde, com vista à salvaguarda dos direitos e necessidades dos estudantes em situação de vulnerabilidade.",
+   "ordemTrabalhos": "Audiência a Andreia Filipa da Silva Rosário, Estudante do Mestrado Integrado em Medicina para expor a situação de falta de enquadramento legal para a transferência de estudantes do ensino superior por motivos de saúde, com vista à salvaguarda dos direitos e necessidades dos estudantes em situação de vulnerabilidade. · Audiência por Deputado-piloto, presidida pela Senhora Deputada Rosa isabel Cruz (PS)"
+  },
+  {
+   "tema": "Comissão de Saúde",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "14h00",
+   "periodo": "Tarde",
+   "interveniente": "Comissão de Trabalhadores do INEM",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição; Requerimento",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audição, a requerimento do PS , da Comissão de Trabalhadores do INEM, sobre a publicação da nova Lei Orgânica do INEM. · Audição, a requerimento do PS , do Sindicato dos Técnicos de Emergência pré-Hospitalar, sobre a publicação da nova Lei Orgânica do INEM.",
+   "ordemTrabalhos": "Audição, a requerimento do PS , da Comissão de Trabalhadores do INEM, sobre a publicação da nova Lei Orgânica do INEM. · Audição, a requerimento do PS , do Sindicato dos Técnicos de Emergência pré-Hospitalar, sobre a publicação da nova Lei Orgânica do INEM. · Audição, a requerimento do PS , da Bastonária da Ordem dos Psicólogos Portugueses, sobre a publicação da nova Lei Orgânica do INEM."
+  },
+  {
+   "tema": "Comissão de Educação e Ciência",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "14h15",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Reunião"
+   ],
+   "tipoLabel": "Reunião",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Discussão do Plano de Atividades e Orçamento da Comissão respeitante à 2.ª Sessão Legislativa · Outros assuntos",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão de Defesa Nacional",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Relatório / parecer",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Iniciativa de grupo parlamentar; Parecer setorial OE",
+   "uo": [
+    "DAPL"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Informação sobre a baixa, em conexão, da seguinte iniciativa legislativa:",
+   "ordemTrabalhos": "Informação sobre a baixa, em conexão, da seguinte iniciativa legislativa: · - Proposta de Lei n.º 93/XVII/1.ª (ALRAM) - Quinta alteração à Lei n.º 54/2005, de 15 de novembro, que estabelece a titularidade dos recursos hídricos – a iniciativa baixou, em conexão, às 1.ª, 3.ª e 11.ª Comissões · Comissão competente: 7.ª Comissão; · Distribuição e nomeação de relator das seguintes iniciativas legislativas: · - Projeto de Lei n.º 806/XVII/2.ª (PCP) - Autoridade Marítima Nacional ; · [Relator a designar pelo Grupo Parlamentar do PSD] · - Projeto de Lei n.º 807/XVII/2.ª (PCP) - Aprova a orgânica da Polícia Marítima · [Relator a designar pelo Grupo Parlamentar do CH] · Discussão e votação do parecer setorial na área da defesa nacional sobre a Proposta de Lei n.º 110/XVII/2.ª (GOV) – Aprova o Orçamento do Estado para 2027; · Relator: Deputado Luís Dias (PS) · Discussão, nos termos dos n. os 1 e 2 do artigo 128.º do Regimento da AR, das seguintes iniciativas: · - Projeto de Resolução n.º 1177/XVII/1.ª (BE) - Recomenda ao Governo a compatibilização da empreitada de reabilitação da Messe de Lisboa, Pólo de Santa Clara, com a continuidade do Projeto Cultiva, na Escola Básica e Secundária Gil Vicente, em Lisboa; · - Projeto de Resolução n.º 1178/XVII/1.ª (BE) - Recomenda ao Governo que garanta a fiscalização independente e a transparência integral na execução do Instrumento SAFE e dos investimentos na Defesa Nacional; · Discussão e votação na especialidade, nos termos dos n. os 4 e 5 do artigo 128.º do RAR, do Projeto de Resolução n.º 1259/XVII/2.ª (L) - Recomenda ao Governo o aumento do valor da pensão dos antigos combatentes e a revisão do complemento especial de pensão; · Apreciação e votação do Plano de Atividades da Comissão para a 2.ª Sessão Legislativa; · Apreciação do Relatório da visita de trabalho da Comissão de Defesa Nacional (CDN) às Forças Nacionais Destacadas (FND) na Eslováquia, Lituânia e Itália, realizada entre os dias 12 e 15 de setembro de 2026; · Apreciação e votação da ata n. o 48/XVII/1.ª, correspondente à reunião de 13 de outubro de 2026; · Outros assuntos.",
+   "nota_atribuicao": "UnIT retirada"
+  },
+  {
+   "tema": "Comissão de Educação e Ciência",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "Federação Nacional dos Sindicatos dos Trabalhadores em Funções Públicas e Sociais",
+   "tipo": [
+    "Audiência",
+    "Relatório / parecer",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Audiência; Iniciativa de grupo parlamentar; Petição; Parecer setorial OE",
+   "uo": [
+    "DACDP"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Aprovação da proposta de Ordem do Dia · Aprovação das atas das reuniões anteriores",
+   "ordemTrabalhos": "Aprovação da proposta de Ordem do Dia · Aprovação das atas das reuniões anteriores · Audiência à Federação Nacional dos Sindicatos dos Trabalhadores em Funções Públicas e Sociais (FNSTFPS) relativamente à situação dos trabalhadores não docentes (assistentes operacionais e assistentes técnicos) da Escola Pública, transferência de competências e processo negocial – 15h · Audiência ao Sindicato Nacional do Ensino Superior (SNESUP), sobre o processo de transição dos diplomas de criação da Universidade Técnica do Porto e Universidade de Leiria e Oeste – 15h45 · Comunicações da Presidente · Discussão e votação do relatório do Projeto de Lei n.º 777/XVII/2.ª (IL) - Reforça a autonomia das instituições de ensino superior públicas no que respeita à fixação das vagas de acesso e associa essa autonomia à respetiva responsabilidade financeira · Apreciação do Parecer sobre a Proposta de Lei n.º 110/XVII/2.ª (GOV) – « Aprova o Orçamento do Estado para 2027» · Fixação da redação final relativa ao Projeto de Lei n.º 285/XVII/1 (cidadãos) - Reposicionamento Justo na Carreira Docente e Garantia de Princípios Constitucionais e Europeus de Igualdade Profissional (artigo 11.º da Lei n.º 17/2003, de 4 de junho ) · Apreciação e votação da admissibilidade da Petição n.º 238/XVII/2.ª – Reduções iguais da componente letiva para todos os Docentes: conversão na íntegra para a componente individual de trabalho · Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa"
+  },
+  {
+   "tema": "Comissão de Transparência e Estatuto dos Deputados",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Reunião"
+   ],
+   "tipoLabel": "Reunião",
+   "uo": [],
+   "pertinencia": "Vigilância",
+   "resumo": "Apreciação e votação das atas n.ºs 6 e 7, de 12 de maio de 2026 e de 30 de setembro de 2026; · Deliberação sobre a admissibilidade de participação(ões) e denúncia(s) enviada(s) à Comissão (matéria reservada); · Outros assuntos.",
+   "ordemTrabalhos": "",
+   "nota_atribuicao": "UnIT retirada — unidade a confirmar"
+  },
+  {
+   "tema": "Subcomissão para a Igualdade e Não Discriminação (Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias)",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Reunião"
+   ],
+   "tipoLabel": "Reunião",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Calendarização dos trabalhos preparatórios na Subcomissão da apreciação na especialidade das iniciativas legislativas relativas à violência doméstica; · Outros assuntos.",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão de Trabalho, Segurança Social e Inclusão",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "15h30",
+   "periodo": "Tarde",
+   "interveniente": "Presidente do Conselho Diretivo da Caixa Geral de Aposentações",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição; Requerimento",
+   "uo": [
+    "UPE"
+   ],
+   "pertinencia": "Imediato",
+   "resumo": "Audição do Senhor Presidente do Conselho Diretivo da Caixa Geral de Aposentações (CGA), Dr. António Valente , e do Senhor Diretor Central da CGA, Dr. Vasco Costa , a requerimento do Grupo Parlamentar do PCP e do Deputado único representante do BE , sobre a redução dos valores fixados para as pensões por aposentação.",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "16h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Audição",
+    "Relatório / parecer",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Audição; Iniciativa do Governo; Iniciativa de grupo parlamentar; Petição; Escrutínio europeu; Requerimento; Parecer setorial OE",
+   "uo": [
+    "DAPL",
+    "DCIRI"
+   ],
+   "pertinencia": "Imediato",
+   "resumo": "Distribuição de iniciativas legislativas: nomeação de relatores e deliberação sobre consultas a promover; · Distribuição de iniciativas europeias; · Discussão e votação dos pareceres setoriais sobre a Proposta de Lei 110/XVII/2 (GOV) - Orçamento do Estado para 2027 :",
+   "ordemTrabalhos": "Distribuição de iniciativas legislativas: nomeação de relatores e deliberação sobre consultas a promover; · Distribuição de iniciativas europeias; · Discussão e votação dos pareceres setoriais sobre a Proposta de Lei 110/XVII/2 (GOV) - Orçamento do Estado para 2027 : · Parecer sobre a Administração Interna · Relatora: Deputada Vanessa Barata (CH) · Parecer sobre a Justiça · Relator: Deputado Rui Rocha (IL) · Parecer sobre Igualdade e migrações · Relatora: Isabel Alves Moreira (PS) · Discussão e votação dos relatórios sobre as seguintes iniciativas legislativas: · a) Proposta de Lei 97/XVII/1 (GOV) – Autoriza o Governo a alterar a Lei do Tribunal Arbitral do Desporto, aprovada em anexo à Lei n.º 74/2013, de 6 de setembro; · Relator: Deputado Rui Rocha (IL) · b) Projeto de Lei 704/XVII/1 (CH) – Criação do Estatuto do Arguido Colaborador; · Relator: Deputado Rui Rocha (IL) · c) Projeto de Lei 720/XVII/1 (PCP) – Gestão democrática do Sistema de Assistência na Doença da GNR e PSP (Sexta alteração ao Decreto-lei n.º 158/2005, de 20 de setembro); · Relator: Deputado Paulo Muacho (L) · d) Projeto de Lei 780 XVII 2 (PAN) – Criminaliza a prática da zoofilia reforçando a proteção animal e a tutela penal e contraordenacional; · Relator: Deputado Delgado Alves (PS) · e) Projeto de Lei 745/XVII/2 (IL) – Desconcentração de processos contra a AIMA e Redistribuição para um descongestionamento do TAC de Lisboa, alteração do Código de Processo nos Tribunais Administrativos; · Relator: Deputado Filipe Sousa (JPP) · f) Projeto de Lei 731/XVII/1 (CH) – Institui a prioridade das crianças de nacionalidade portuguesa ou filhos de portugueses e os filhos de cidadãos de Estados-Membros da UE no processo de matrícula e renovação de matrícula nos estabelecimentos de ensino; · Relator: Deputado João Pinho de Almeida (CDS-PP) · Discussão, nos termos dos n.ºs 1 e 2 do artigo 128.º do RAR, dos seguintes Projetos de Resolução: · a) Projeto de Resolução 1305 XVII 2 (JPP) - Recomenda ao Governo que promova a revisão das regras sobre atos dilatórios no processo penal para salvaguardar as garantias de defesa ; · b) Projeto de Resolução 1286 XVII 2 (CH) - Recomenda ao Governo que incentive a proteção e valorização dos técnicos de migração da AIMA, I. P., e inicie a negociação de uma carreira especial ; · Fixação da redação final, nos termos do disposto nos artigos 156.º e 128.º, n.º 8 do RAR, do Projeto de Resolução n.º 1167/XVII/1.ª (CDS-PP) - Recomenda ao Governo o reforço das medidas de prevenção e combate à violência policial e ao abuso de poder pelas forças de segurança; · Apreciação e votação dos pareceres sobre: · a) a constitucionalidade da Proposta de Lei n.º 91/XVII/1.ª (GOV) – Pela majoração do financiamento da Universidade da Madeira e da Universidade dos Açores e acesso a apoios europeus, através da alteração à Lei n.º 37/2003, de 22 de agosto, que estabelece as bases do financiamento do ensino superior ; · Relator: Deputado Cristóvão Norte · b) o sentido e alcance do artigo 102.º, n.º 4 do RAR na sequência de audições de titulares de administração local e outros, aprovadas na Comissão de Ambiente e Energia; · Relatora: Deputada Inês de Sousa Real (PAN) · Apreciação e votação do parecer sobre a iniciativa europeia COM(2026)681 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO EU KIDS ACT — Salvaguarda da Responsabilização e da Fiabilidade nos Espaços Digitais da Internet na EU; · Relator: Deputado Paulo Lopes Marcelo (PSD) · Apreciação e votação dos seguintes requerimentos: · a) apresentado pelo GP do CH para audição urgente de António Pombeiro, ex-Secretário-Geral Adjunto da Administração Interna, sobre as denúncias de irregularidades no SIRESP por parte de Ricardo Carrilho, na sequência da sua exoneração; · b) apresentado pelo DURP do BE para audição urgente do Diretor Nacional da Polícia de Segurança Pública sobre a intervenção policial na manifestação pelo direito à habitação no Porto; · Admissão e distribuição de petições; · Discussão e votação de relatórios finais de petições, designadamente da Petição n.º 118/XVII/1.ª - Revisão e atualização do Regime Remuneratório dos Militares da Guarda Nacional Republicana (Decreto-Lei n.º 298/2009, de 14 de outubro); · Relator: Deputado Rui Rocha (IL) · Anúncio de projetos de voto e discussão e votação, nos termos dos n.ºs 7, 8 e 10 do artigo 75.º do RAR, dos seguintes Projetos de Voto: · a) 766/XVII/2 (PSD) - De pesar pelo falecimento de Eduardo Santos, Bombeiro Voluntário de Rebordosa e 767/XVII/2 (CH) - De pesar pela morte do Bombeiro Eduardo Santos ; · b) 782/XVII/2 (CDS-PP) - Pela actuação da Polícia de Segurança Pública na reposição da legalidade e na defesa da ordem pública, na Praça D. João I, no Porto e 781/XVII/2 (BE) - De solidariedade com os manifestantes em defesa do direito da habitação na Praça D. João I, no Porto ; · Apreciação e votação das atas n.ºs 92/XVII/1.ª a 101/XVII/2.ª (correspondentes às reuniões de 8 a 30 de setembro de 2026); · Apresentação do relatório da visita da Subcomissão para a Reinserção Social e Assuntos Prisionais ao Estabelecimento Prisional de Lisboa, realizada no passado dia 6 de outubro – em representação da Subcomissão, Deputado Cristóvão Norte (PSD) · Constituição da delegação da CACDLG para a deslocação de trabalho às instituições europeias em Bruxelas, de 15 a 17 de novembro de 2026; · Outros assuntos.",
+   "nota_atribuicao": "proposta: iniciativas europeias, EU Kids Act, parecer OE Igualdade e migrações, AIMA"
+  },
+  {
+   "tema": "Grupo de Trabalho de Acompanhamento da Plataforma Eletrónica para o Orçamento do Estado (Comissão de Orçamento, Finanças e Administração Pública)",
+   "data": "2026-10-20",
+   "dataLabel": "terça, 20 out",
+   "hora": "16h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Reunião"
+   ],
+   "tipoLabel": "Reunião",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Ponto de situação da Plataforma eletrónica; · Outros assuntos.",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão de Agricultura e Pescas",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "09h00",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Audição",
+    "Relatório / parecer",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Audição; Iniciativa de grupo parlamentar; Escrutínio europeu; Requerimento; Parecer setorial OE",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Informações. · Discussão e votação do Projeto de Lei n.º 581/XVII/1.ª (PAN) – Regula o acorrentamento e o alojamento permanente em varandas e espaços afins, e prevê a implementação do Plano Nacional de Desacorrentamento, para aprovação de texto de substituição.",
+   "ordemTrabalhos": "Informações. · Discussão e votação do Projeto de Lei n.º 581/XVII/1.ª (PAN) – Regula o acorrentamento e o alojamento permanente em varandas e espaços afins, e prevê a implementação do Plano Nacional de Desacorrentamento, para aprovação de texto de substituição. · Discussão e votação do Projeto de Lei n.º 528/XVII/1.ª (PAN) – Regula a contenção e treino de animais de companhia, vedando a comercialização e utilização de “coleiras de choque” e de “coleiras estranguladoras'', procedendo à décima alteração ao Decreto-Lei n.º 276/2001, de 17 de outubro, para aprovação de texto de substituição. · Discussão do Projeto de Resolução n.º 1184/XVII/1.ª (CH) – Pela atualização do diagnóstico e reforço da rede de Centros de Recolha Oficial de animais de companhia. · Apreciação do parecer sectorial sobre a Proposta de Lei n.º 110/XVII/2.ª (GOV) – Aprova o Orçamento do Estado para 2027. Pedido da COFAP a 08/10/2026. Relator: Deputado João Lopes Aleixo (CH). · Discussão e votação do texto de substituição apresentado pelo GP do PS do Projeto de Lei n.º 205/XVII/1.ª (PS) – Procede à revisão do regime da propriedade rústica. · Discussão do Projeto de Resolução n.º 190/XVII/1.ª (PAN) – Recomenda ao Governo a criação de um programa que integre equipas de socorro e resgate animal, hospitais de campanha e demais meios de socorro animal em situação de emergência. · Discussão e votação do Projeto de Voto n.º 774/XVII/2.ª (PAN) – De congratulação às Associações de Proteção Animal, aos Voluntários e Cuidadores Informais de Animais. · Discussão e votação do Projeto de Voto n.º 777/XVII/2.ª (PSD) – De saudação ao projeto “Sabores com História” pelos prémios conquistados em 2026. · Discussão e votação do requerimento apresentado pelo GP do CH sobre «audição urgente do Senhor Ministro da Agricultura e Mar (MAGRIM), Eng.º José Manuel Fernandes e da Senhora Diretora-Geral da Direção-Geral da Alimentação e Veterinária (DGAV), Mestre Susana Isabel Ferreira Guedes Pombo, a propósito existência do vírus Shamonda em Portugal». · Informação sobre iniciativas europeias: · – COM/2026/0661 – Proposta de REGULAMENTO DO CONSELHO que altera os Regulamentos (UE) n.º 1380/2013, (UE) n.º 1308/2013, (UE) 2023/1115 e (UE) 2024/1348 do Parlamento Europeu e do Conselho e o Regulamento (UE) 2023/2720 do Conselho no que diz respeito à adaptação de determinados requisitos e à redução dos encargos administrativos nas regiões ultraperiféricas da União; · – COM/2026/0531 – Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que estabelece medidas de gestão, de conservação e de controlo aplicáveis na zona de aplicação do Acordo de Pesca para o Oceano Índico Sul (SIOFA); · – COM/2025/0002 – RELATÓRIO DA COMISSÃO AO CONSELHO E AO PARLAMENTO EUROPEU sobre a execução da Diretiva-Quadro da Água (2000/60/CE) e da Diretiva Inundações (2007/60/CE) Terceiros planos de gestão das bacias hidrográficas Segundos planos de gestão dos riscos de inundações; · – COM/2025/0003 – RELATÓRIO DA COMISSÃO AO CONSELHO E AO PARLAMENTO EUROPEU sobre a avaliação pela Comissão dos programas de medidas dos Estados-Membros atualizados nos termos do artigo 17.º da Diretiva-Quadro Estratégia Marinha (2008/56/CE). · Outros assuntos."
+  },
+  {
+   "tema": "Comissão de Saúde",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "09h00",
+   "periodo": "Manhã",
+   "interveniente": "Ordem dos Médicos",
+   "tipo": [
+    "Audição",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Audição; Iniciativa de grupo parlamentar; Petição; Requerimento",
+   "uo": [
+    "DCIRI"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Audição da Ordem dos Médicos no âmbito da apreciação na especialidade do Projeto de Lei n.º 709/XVII/1.ª (PSD/CDS-PP) - «Alteração ao Estatuto da Ordem dos Médicos - Regime jurídico dos estágios de formação profissional em medicina para nacionais dos países da CPLP». (a confirmar)",
+   "ordemTrabalhos": "Audição da Ordem dos Médicos no âmbito da apreciação na especialidade do Projeto de Lei n.º 709/XVII/1.ª (PSD/CDS-PP) - «Alteração ao Estatuto da Ordem dos Médicos - Regime jurídico dos estágios de formação profissional em medicina para nacionais dos países da CPLP». (a confirmar) · Audição, a requerimento do CH , Presidente do Conselho de Administração da Unidade Local de Saúde da Região de Aveiro, sobre o processo de ampliação do Hospital de Aveiro e construção da nova Unidade de Ambulatório. · Discussão e votação do requerimento do PSD para constituição de um grupo de trabalho para continuação da especialidade do Projeto de Lei n.º 560/XVII/1.ª (L) - «Garante o pagamento integral dos retroativos devidos aos enfermeiros ao abrigo da Lei n.º 51/2025, de 7 de abril». · Informação da baixa à Comissão, para efeitos do n.º 2, do artigo 128.º, do Regimento, do Projeto de Resolução n.º 1327/XVII/2.ª (PAN) - «Pelo acesso equitativo das pessoas com epidermólise bolhosa e outras doenças raras a terapêuticas inovadoras». · Deliberação sobre a admissibilidade das seguintes petições: · a) Petição n.º 234/XVII/2.ª - «Pelo acesso universal e gratuito a terapias essenciais para crianças com necessidades especiais» · (1334 assinaturas) · Indicação de autor do relatório cabe ao GP PSD; · b) Petição n.º 237/XVII/2.ª - «Pela transparência, equidade e justiça no processo de escolha de vagas da formação especializada do Internato Médico 2026» · (5296 assinaturas) · Indicação de autor do relatório cabe ao GP PS; · c) Petição n.º 239/XVII/2.ª - «Petição pela concretização e abertura da Clínica de Esclerose Múltipla na ULS de Matosinhos» · (1113 assinaturas) · Indicação de autor do relatório cabe ao GP PSD. · Discussão e votação do relatório final relativo à Petição n.º 223/XVII/1.ª - «Pela alteração da proposta do acordo apresentado pelo Governo, relativo à carreira dos Técnicos Superiores das Áreas de Diagnóstico e Terapêutica». · (8675 assinaturas) · Discussão e votação do requerimento do CH , para audição urgente da Ministra da Saúde sobre a permanência de crianças e jovens em internamento hospitalar por falta de respostas de acolhimento. · Outros assuntos.",
+   "nota_atribuicao": "proposta: estágios de medicina para nacionais da CPLP; UnIT retirada"
+  },
+  {
+   "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "10h00",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição; Requerimento",
+   "uo": [],
+   "pertinencia": "Imediato",
+   "resumo": "Audição, a requerimento apresentado pelo DURP do BE , sobre a compatibilização do direito à proteção de dados pessoais com a exigência de transparência no financiamento da atividade política em Portugal. · Comissão de Acesso aos Documentos Administrativos (CADA)",
+   "ordemTrabalhos": "Audição, a requerimento apresentado pelo DURP do BE , sobre a compatibilização do direito à proteção de dados pessoais com a exigência de transparência no financiamento da atividade política em Portugal. · Comissão de Acesso aos Documentos Administrativos (CADA) · Juíza Conselheira Maria do Céu Neves, Presidente da CADA · Entidade das Contas e Financiamentos Políticos (ECFP) · Carla Cardador, Presidente da ECFP · Mafalda Bettencourt, Vogal da ECFP · João Pires, Vogal ECFP",
+   "nota_atribuicao": "UnIT retirada — unidade a confirmar (proteção de dados vs. financiamento político)"
+  },
+  {
+   "tema": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "10h00",
+   "periodo": "Manhã",
+   "interveniente": "CTT – Correios de Portugal",
+   "tipo": [
+    "Audição",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Audição; Iniciativa de grupo parlamentar; Requerimento",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audição dos CTT – Correios de Portugal, a requerimento do GP PSD, sobre «recusa de entrega de encomendas, a aplicação de custos de envio desproporcionados e a limitação do acesso a condições comerciais equivalentes às do território continental»",
+   "ordemTrabalhos": "Audição dos CTT – Correios de Portugal, a requerimento do GP PSD, sobre «recusa de entrega de encomendas, a aplicação de custos de envio desproporcionados e a limitação do acesso a condições comerciais equivalentes às do território continental» · Audições no âmbito - âmbito da apreciação do Projeto de Lei n.º 501/XVII/1.ª (IL) - «Promove a concorrência no transporte rodoviário através do acesso aberto a terminais e interfaces» · 11h00 – ARP – Associação Rodoviária de Transportes Pesados de Passageiros · 12h00 – CIM Região de Coimbra"
+  },
+  {
+   "tema": "Grupo de Trabalho de Escrutínio de Iniciativas Europeias (Comissão de Assuntos Europeus)",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "10h30",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Reunião"
+   ],
+   "tipoLabel": "Reunião",
+   "uo": [
+    "DCIRI"
+   ],
+   "pertinencia": "Registo",
+   "resumo": "Informações; · Propostas de deliberação; · Outros assuntos.",
+   "ordemTrabalhos": "",
+   "nota_atribuicao": "proposta: escrutínio de iniciativas europeias"
+  },
+  {
+   "tema": "Comissão de Assuntos Europeus",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "11h00",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Relatório / parecer",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Iniciativa de grupo parlamentar; Escrutínio europeu; Parecer setorial OE",
+   "uo": [
+    "DACDP",
+    "DCIRI"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Informações · Grupo de Trabalho – Escrutínio de Iniciativas Europeias · Nomeação de Deputado(a) autor(a) de parecer no âmbito de iniciativas europeias:",
+   "ordemTrabalhos": "Informações · Grupo de Trabalho – Escrutínio de Iniciativas Europeias · Nomeação de Deputado(a) autor(a) de parecer no âmbito de iniciativas europeias: · a) COM(2026)660 - Comunicação da Comissão ao Parlamento Europeu, ao Conselho, ao Comité Económico e Social Europeu e ao Comité das Regiões: Reforçar o alcance mundial da União: Uma Nova Visão Estratégica para as Regiões Ultraperiféricas da UE · Deputado Autor de Parecer: Cabe ao L · b) COM(2026)485 - Proposta de DECISÃO DO CONSELHO relativa à celebração do Acordo-Quadro entre a União Europeia e os Estados Unidos da América sobre o intercâmbio recíproco de informações para efeitos de verificação da identidade, controlo e investigações de segurança, no que respeita aos procedimentos na fronteira e aos pedidos de autorização de viagem e de vistos · C) COM(2026)484 - Proposta de DECISÃO DO CONSELHO relativa à assinatura e à aplicação provisória do Acordo-Quadro entre a União Europeia e os Estados Unidos da América sobre o intercâmbio recíproco de informações para efeitos de verificação da identidade, controlo e investigações de segurança, no que respeita aos procedimentos na fronteira e aos pedidos de autorização de viagem e de vistos · Deputado Autor de Parecer: Cabe à IL · Discussão, nos termos do n.º 1 e 2 do artigo 128.º do RAR: · Projeto de Resolução n.º 1309/XVII/2.ª (CH) - Recomenda ao Governo que crie as condições necessárias para o cumprimento interno do regulamento europeu relativo à análise dos investimentos estrangeiros na União e que revoga o Regulamento (UE) 2019/452 · Apreciação e votação de pareceres da CAE no âmbito de iniciativas legislativas: · Proposta de Lei n.º 110/XVII/2.ª (GOV) – Aprova o Orçamento do Estado para 2027 · Autor de Parecer: Deputado António Mendonça Mendes (PS) · Prazo de envio à COFAP: 18h00 de dia 26/10/2026 · Apreciação e votação de pareceres da CAE no âmbito do escrutínio de iniciativas europeias: · a) COM(2026)560 - Proposta de DIRETIVA DO CONSELHO que altera as Diretivas 2003/49/CE, 2009/133/CE, 2011/96/UE, (UE) 2016/1164, (UE) 2017/1852 e (UE) 2025/50 do Conselho no que diz respeito à simplificação do quadro da União em matéria de fiscalidade direta e ao apoio ao crescimento e à competitividade da UE – Relatório da 5.ª COFAP · Autor de Parecer: Deputada Patrícia Nascimento (CH) · Iniciativa sinalizada pela CAE: Prazo de envio – 27/10/2026 · b) COM(2026)600 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que altera o Regulamento (UE) 2019/943 no que diz respeito à preparação para o futuro das faturas de eletricidade na União, através da redução dos custos do sistema e da promoção da eletrificação e da digitalização – Relatório da 6.ª CECT · Autor de Parecer: Deputado João Torres (PS) · Iniciativa sinalizada pela CAE: Prazo de envio – 28/10/2026 · Outros assuntos",
+   "nota_atribuicao": "proposta: acordo-quadro UE–EUA, regiões ultraperiféricas, pareceres CAE"
+  },
+  {
+   "tema": "Comissão da Reforma do Estado e Poder Local",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "11h30",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Reunião"
+   ],
+   "tipoLabel": "Reunião",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "(Após ) · Organização das próximas atividades da Comissão e sugestões para o Plano de Atividades da 2.ª Sessão Legislativa; · Versão final do Relatório de atividades da 1.ª Sessão Legislativa; · Outros assuntos.",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão de Trabalho, Segurança Social e Inclusão",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "11h30",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Iniciativa de grupo parlamentar; Petição",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Apreciação e votação das atas das reuniões n.ºs 71 e 72, respetivamente, de 14 e 15 de outubro de 2026;",
+   "ordemTrabalhos": "Apreciação e votação das atas das reuniões n.ºs 71 e 72, respetivamente, de 14 e 15 de outubro de 2026; · Comunicação de baixa à Comissão e distribuição de iniciativas - designação do Deputado relator e deliberação sobre a submissão a apreciação pública e eventuais consultas a realizar; · Fixação da redação final, nos termos do artigo 156.º do RAR, do texto relativo ao Projeto de Resolução n.º 1200/XVII/1.ª (JPP) — Institui o programa «Parlamento Sénior» na Assembleia da República ; · Discussão, nos termos do artigo 128.º do RAR, das seguintes iniciativas [1] : · Projeto de Resolução n.º 1179/XVII/1.ª (PS) – Recomenda ao Governo a prorrogação dos apoios destinados à manutenção do emprego e à recuperação das empresas afetadas pelas tempestades que assolaram a Região Centro ; · Projeto de Resolução n.º 1283/XVII/2.ª (JPP) – Recomenda ao Governo que promova o teletrabalho sempre que possível para reduzir os encargos com combustíveis ; · Deliberação sobre a admissibilidade da Petição n.º 236/XVII/1.ª — Revisão do Artigo 166.º-A do Código do Trabalho (Teletrabalho) , da iniciativa de Marisa Sofia Lopes Teixeira e outros (com 114 assinaturas); · Relator: Fabian Figueiredo (BE) · Discussão e votação do relatório sobre a Petição n.º 182/XVII/1.ª — Atualização de pensão para todos os pensionistas e reformados , da iniciativa do Movimento JPR – Justiça para Pensionistas e Reformados (com 7.621 assinaturas); · Relator: Deputada Mariana Leitão (IL) · Outros assuntos. · [1] Adiado por consenso na reunião de 15 de outubro de 2026."
+  },
+  {
+   "tema": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "12h00",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Inquérito parlamentar"
+   ],
+   "tipoLabel": "Inquérito parlamentar",
+   "uo": [],
+   "pertinencia": "Vigilância",
+   "resumo": "Fixação de metodologia dos trabalhos da Comissão. · Outros assuntos.",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Grupo de Trabalho - Audiências (Comissão de Saúde)",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "14h00",
+   "periodo": "Tarde",
+   "interveniente": "Plataforma Recalibrar a Balança",
+   "tipo": [
+    "Audiência"
+   ],
+   "tipoLabel": "Audiência",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audiência com a plataforma Recalibrar a Balança.",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Grupo de Trabalho - Inclusão e Direitos das Pessoas com Deficiência (Comissão de Trabalho, Segurança Social e Inclusão)",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "14h00",
+   "periodo": "Tarde",
+   "interveniente": "Associação Movimento Inclusão Efetiva",
+   "tipo": [
+    "Audiência"
+   ],
+   "tipoLabel": "Audiência",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audiência da Associação Movimento Inclusão Efetiva (MIE) , para apresentação da Associação e da atividade por si desenvolvida na área da Inclusão e na garantia dos direitos das pessoas com deficiência, neuro divergência e surdez.",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Grupo de Trabalho para as Audiências (Comissão de Defesa Nacional)",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "14h00",
+   "periodo": "Tarde",
+   "interveniente": "Movimento Pró-Associação de Todos os Militarizados do Quadro de Pessoal Militarizado da Marinha",
+   "tipo": [
+    "Audiência"
+   ],
+   "tipoLabel": "Audiência",
+   "uo": [
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Audiência do Movimento Pró-Associação de Todos os Militarizados do Quadro de Pessoal Militarizado da Marinha (MPATMQPMM), sobre o cálculo das pensões de reforma · Coordenador do MPATMQPMM, Joaquim Buinho",
+   "ordemTrabalhos": "Audiência do Movimento Pró-Associação de Todos os Militarizados do Quadro de Pessoal Militarizado da Marinha (MPATMQPMM), sobre o cálculo das pensões de reforma · Coordenador do MPATMQPMM, Joaquim Buinho · Representante do Grupo 2 - Policia dos Estabelecimentos de Marinha, Carlos Alves · Representante do Grupo 4 - Troço do Mar, Manobra, Máquinas e Eletricidade, José Sambade · Representante do Grupo 6 - Faroleiros e Faroleiros Técnicos, Joaquim Pessoa"
+  },
+  {
+   "tema": "Plenário",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Iniciativa de grupo parlamentar",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Projeto de Lei n.º 702/XVII/1.ª (PAN) · Consagra a publicidade das condenações por crimes e contraordenações relativos a maus-tratos a animais de companhia como sanção acessória e cria o Registo Nacional de Agressores de Animais · Projeto de Lei n.º 780/XVII/2.ª (PAN)",
+   "ordemTrabalhos": "Projeto de Lei n.º 702/XVII/1.ª (PAN) · Consagra a publicidade das condenações por crimes e contraordenações relativos a maus-tratos a animais de companhia como sanção acessória e cria o Registo Nacional de Agressores de Animais · Projeto de Lei n.º 780/XVII/2.ª (PAN) · Criminaliza a prática da zoofilia reforçando a proteção animal e a tutela penal e contraordenacional · Projeto de Lei n.º 107/XVII/1.ª (L) · Cria o Conselho Nacional para o Bem-estar e Proteção Animal · Projeto de Lei n.º 659/XVII/1.ª (JPP) · Altera o Decreto-Lei n.º 265/2007, de 24 de julho, alterado pelo Decreto-Lei n.º 158/2008, de 8 de agosto, restringindo a exportação de animais vivos por via marítima para países terceiros · Projeto de Lei n.º 698/XVII/1.ª (CH) · Procede à criação do Registo Nacional de Condenados Por Maus-Tratos a Animais (RNCMA) · Projeto de Lei n.º 797/XVII/2.ª (BE) · Estabelece o regime jurídico de proteção dos animais de companhia contra maus-tratos em matéria de alojamento e contenção, proibindo dispositivos lesivos do bem-estar animal e criando o Plano Nacional pelo Bem-Estar dos Animais de Companhia"
+  },
+  {
+   "tema": "Plenário",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Iniciativa de grupo parlamentar",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Projeto de Resolução n.º 1239/XVII/2.ª (JPP) · Pela criação de um mecanismo permanente de financiamento estatal dos corpos de bombeiros profissionais da administração local · Projeto de Lei n.º 747/XVII/2.ª (JPP)",
+   "ordemTrabalhos": "Projeto de Resolução n.º 1239/XVII/2.ª (JPP) · Pela criação de um mecanismo permanente de financiamento estatal dos corpos de bombeiros profissionais da administração local · Projeto de Lei n.º 747/XVII/2.ª (JPP) · Reforça e uniformiza o quadro de comando dos corpos de bombeiros profissionais da administração local e atualiza as condições de ingresso na carreira de bombeiro sapador, procedendo à quarta alteração ao Decreto-Lei n.º 106/2002, de 13 de abril · Projeto de Resolução n.º 666/XVII/1.ª (CH) · Recomenda ao governo o reforço da Proteção Civil e valorização dos Bombeiros das Associações Humanitárias · Projeto de Resolução n.º 1288/XVII/2.ª (PAN) · Pela valorização e financiamento dos corpos de bombeiros profissionais · Projeto de Resolução n.º 1296/XVII/2.ª (L) · Recomenda ao Governo que seja estabelecido um modelo nacional de financiamento dos corpos de bombeiros municipais e detidos por associações humanitárias de bombeiros · Projeto de Resolução n.º 1298/XVII/2.ª (BE) · Pela criação de um mecanismo de financiamento estatal fixo dos bombeiros profissionais da administração local e valorização da carreira"
+  },
+  {
+   "tema": "Plenário",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Votação"
+   ],
+   "tipoLabel": "Votações",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Votações regimentais",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão de Educação e Ciência",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "18h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Reunião"
+   ],
+   "tipoLabel": "Reunião",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "º Café de Ciência no Parlamento · Dar Espaço ao Espaço: Inspirar para Inovar · Salão Nobre - Assembleia da República · (Programa em breve)",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão Parlamentar de Inquérito aos Negócios dos Incêndios Rurais",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "18h30",
+   "periodo": "Tarde",
+   "interveniente": "Dr. Pedro Pimpão, na qualidade de Presidente do Conselho Diretivo da Associação Nacional de Municípios Portugueses",
+   "tipo": [
+    "Audição",
+    "Inquérito parlamentar"
+   ],
+   "tipoLabel": "Audição; Inquérito parlamentar",
+   "uo": [],
+   "pertinencia": "Vigilância",
+   "resumo": "Audição, ao abrigo do artigo 16.º do Regime Jurídico dos Inquéritos Parlamentares, do Dr. Pedro Pimpão, na qualidade de Presidente do Conselho Diretivo da Associação Nacional de Municípios Portugueses",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses (Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias)",
+   "data": "2026-10-21",
+   "dataLabel": "quarta, 21 out",
+   "hora": "19h00",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Iniciativa de grupo parlamentar",
+   "uo": [],
+   "pertinencia": "Vigilância",
+   "resumo": "Preparação da apresentação pública da plataforma; · Apresentação de projeto de resolução que aprova a regulamentação interna da AR para representação de interesses e Pegada Legislativa; · Outros assuntos.",
+   "ordemTrabalhos": "",
+   "nota_atribuicao": "UnIT retirada — unidade a confirmar (representação de interesses)"
+  },
+  {
+   "tema": "Comissão de Ambiente e Energia",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "09h00",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Relatório / parecer",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Iniciativa de grupo parlamentar; Parecer setorial OE",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Discussão e votação do parecer setorial sobre a Proposta de Lei n.º 110/XVII/2.ª (GOV) – Aprova o Orçamento do Estado para 2027 – Relator: Deputado José Dotti (CH);",
+   "ordemTrabalhos": "Discussão e votação do parecer setorial sobre a Proposta de Lei n.º 110/XVII/2.ª (GOV) – Aprova o Orçamento do Estado para 2027 – Relator: Deputado José Dotti (CH); · Discussão e votação do relatório do Projeto de Lei n.º 701/XVII/1.ª (IL) - Revoga o monopólio público na gestão de resíduos – Relator: Deputado Pedro Vaz (PS) · Representação na reunião interparlamentar «Implementação dos Planos Sociais para o Clima nos Estados-Membros como forma de combater a pobreza de mobilidade», que se realiza a 1 de dezembro, em Bruxelas; · Apreciação das atas n. os 56, 57 e 58 referentes às reuniões de 6, 13 e 14 de outubro; · Outros assuntos."
+  },
+  {
+   "tema": "Comissão de Cultura, Comunicação, Juventude e Desporto",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "10h00",
+   "periodo": "Manhã",
+   "interveniente": "Diretora de Informação cessante e dos Diretores-Adjuntos da Lusa",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição; Requerimento",
+   "uo": [
+    "UPE"
+   ],
+   "pertinencia": "Imediato",
+   "resumo": "Audição, a requerimento dos Grupos Parlamentares do L, PS e PCP, da Diretora de Informação cessante e dos Diretores-Adjuntos da Lusa, sobre a cessação de funções da Direção de Informação e a independência editorial da Agência. (10:00)",
+   "ordemTrabalhos": "Audição, a requerimento dos Grupos Parlamentares do L, PS e PCP, da Diretora de Informação cessante e dos Diretores-Adjuntos da Lusa, sobre a cessação de funções da Direção de Informação e a independência editorial da Agência. (10:00) · Audição, a requerimento dos Grupos Parlamentares do L, PS e PCP, do Conselho de Administração da Lusa, sobre a cessação de funções da Direção de Informação e a independência editorial da Agência.(11:00)"
+  },
+  {
+   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "10h00",
+   "periodo": "Manhã",
+   "interveniente": "—",
+   "tipo": [
+    "Relatório / parecer",
+    "Iniciativa legislativa"
+   ],
+   "tipoLabel": "Iniciativa de grupo parlamentar; Parecer setorial OE",
+   "uo": [
+    "DCIRI"
+   ],
+   "pertinencia": "Vigilância",
+   "resumo": "Informações Gerais. · Baixa de iniciativas – indicação de discussão em Comissão ou Plenário",
+   "ordemTrabalhos": "Informações Gerais. · Baixa de iniciativas – indicação de discussão em Comissão ou Plenário · Projeto de Resolução n.º 1322/XVII/2.ª (CH) – Recomenda ao Governo que rejeite toda a iniciativa que se proponha impor indemnizações ou concessões a Portugal pela prática da escravatura, com destaque para a liderada pela República do Gana. · Apresentação, discussão e votação do parecer referente à Proposta de Lei n.º 110/XVII/2.ª (GOV) - Orçamento do Estado para 2027 · Deputado relator: Rui Tavares (L) · Apresentação e discussão na generalidade do Projeto de Resolução n.º 1306/XVII/2.ª (IL) – Recomenda ao Governo que promova uma política de memória assente na condenação de todos os regimes totalitários e na igual dignidade das suas vítimas. · Apresentação e discussão na generalidade do Projeto de Resolução n.º 1307/XVII/2.ª (IL) – Recomenda ao Governo que reconheça e condene os crimes cometidos pela administração militar soviética na Transcarpátia entre 1944 e 1946 e apoie a preservação da memória das suas vítimas. · Votação do texto final relativo aos projetos de voto º 760/XVII/2.ª (IL) - De saudação à coragem do comandante Smit Machchhar, dos passageiros e dos membros da tripulação que impediram uma tragédia no voo FZ1073 da FlyDubai; e n.º 765/XVII/2.ª (PSD) - De congratulação pelo ato heroico de Yaniv Hayun e dos demais passageiros e tripulantes que evitaram a queda do voo FZ1073, entre o Dubai e Telavive, a 30 de setembro de 2026. · Apresentação, discussão e votação do Projeto de Voto n.º 702/XVII/1.ª (L) - De condenação pelo anúncio dos Estados Unidos da América de imposição de sanções a magistrados e procuradores do Tribunal Penal Internacional. · Adiado na reunião de 22 de setembro por solicitação do GP Livre. · Adiado na reunião de 13 de outubro por solicitação do GP Livre. · Apresentação, discussão e votação do Projeto de Voto n.º 709/XVII/1.ª (L) - De condenação pelo ataque das forças israelitas às instalações da UNRWA, em Jerusalém Oriental. · Adiado na reunião de 22 de setembro por solicitação do GP Livre. · Adiado na reunião de 13 de outubro por solicitação do GP Livre. · Apresentação, discussão e votação dos Projetos de voto: · Adiado na reunião de 22 de setembro por solicitação do GP Livre. · Adiado na reunião de 13 de outubro por solicitação do GP Livre. · º 707/XVII/1.ª (L) - De pesar pelas vítimas das inundações extremas no Nepal. · º 710/XVII/1.ª (PSD) - De pesar pelas vítimas das inundações no Nepal. · º 715/XVII/1.ª (CH) - De pesar pelas vítimas das inundações que se abateram sobre a República Democrática Federal do Nepal e a Região Autónoma do Tibete, na República Popular da China. · Apresentação, discussão e votação do Projeto de Voto n.º 739/XVII/2.ª (L) - De condenação da perseguição de ativistas e organizações LGBTQIA+ na Turquia. · Adiado na reunião de 13 de outubro por solicitação do GP Livre. · Apresentação, discussão e votação do Projeto de Voto n.º 740/XVII/2.ª (L) - De condenação das execuções e repressão da dissidência pelo regime de Teerão. · Adiado na reunião de 13 de outubro por solicitação do GP Livre. · Fixação da redação final do Projeto de Resolução n.º 1147/XVI/1ª (L) - Recomenda ao Governo que promova, no quadro da União Europeia e do Conselho da Europa, uma resposta firme à detenção e ao julgamento de Ekrem İmamoğlu e à repressão da oposição democrática na Turquia. · Apreciação e votação das atas: · º 61, de 13 de outubro de 2026. · Outros assuntos",
+   "nota_atribuicao": "proposta: parecer OE Negócios Estrangeiros, projetos de voto internacionais"
+  },
+  {
+   "tema": "Grupo de Trabalho para Avaliação dos Benefícios Fiscais (Comissão de Orçamento, Finanças e Administração Pública)",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "12h00",
+   "periodo": "Manhã",
+   "interveniente": "Professor Doutor. Carlos Lobo, Professor Doutor. Sérgio Vasques e Dr. Nuno Félix, na qualidade de antigos Secretários de Estado dos Assuntos Fiscais",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audição conjunta do Professor Doutor. Carlos Lobo, Professor Doutor. Sérgio Vasques e Dr. Nuno Félix, na qualidade de antigos Secretários de Estado dos Assuntos Fiscais.",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão de Economia e Coesão Territorial",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "14h00",
+   "periodo": "Tarde",
+   "interveniente": "Primeira peticionária da Petição n.º 194/XVII/1.ª – Parar o hotel no Quartel da Graça",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição; Petição",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audição da primeira peticionária da Petição n.º 194/XVII/1.ª – Parar o hotel no Quartel da Graça , nos termos e para os efeitos do disposto no artigo 21.º, n.º 1 da Lei de Exercício do Direito de Petição. · Relator: Deputado Filipe Melo (CH)",
+   "ordemTrabalhos": "Audição da primeira peticionária da Petição n.º 194/XVII/1.ª – Parar o hotel no Quartel da Graça , nos termos e para os efeitos do disposto no artigo 21.º, n.º 1 da Lei de Exercício do Direito de Petição. · Relator: Deputado Filipe Melo (CH) · Mariana da Mota Soares – primeira peticionária · (a confirmar)"
+  },
+  {
+   "tema": "Grupo de Trabalho - Audiências (Comissão de Saúde)",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "14h00",
+   "periodo": "Tarde",
+   "interveniente": "Subscritores da Carta Aberta – Compromisso Público com a Oncologia",
+   "tipo": [
+    "Audiência"
+   ],
+   "tipoLabel": "Audiência",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audiência com os Subscritores da Carta Aberta – Compromisso Público com a Oncologia. (a confirmar)",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "14h30",
+   "periodo": "Tarde",
+   "interveniente": "Dr. Gustavo Carvalho",
+   "tipo": [
+    "Audição",
+    "Audiência"
+   ],
+   "tipoLabel": "Audição; Audiência; Requerimento",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audição do Dr. Gustavo Carvalho, a requerimento oral do GP PSD, no âmbito do requerimento apresentado pelo GP IL, sobre «ponto de situação e evolução das obras de expansão das Linhas Verde e Amarela e de extensão da Linha Vermelha.»",
+   "ordemTrabalhos": "Audição do Dr. Gustavo Carvalho, a requerimento oral do GP PSD, no âmbito do requerimento apresentado pelo GP IL, sobre «ponto de situação e evolução das obras de expansão das Linhas Verde e Amarela e de extensão da Linha Vermelha.» · 15h30 – Audiência da Comissão de Cidadãos de Infraestruturas, Mobilidade e Habitação – a confirmar"
+  },
+  {
+   "tema": "Comissão Parlamentar de Inquérito aos Negócios dos Incêndios Rurais",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "Coronel João Pereira da Silva, na qualidade de gestor de contratos na Força Aérea",
+   "tipo": [
+    "Audição",
+    "Inquérito parlamentar"
+   ],
+   "tipoLabel": "Audição; Inquérito parlamentar",
+   "uo": [],
+   "pertinencia": "Vigilância",
+   "resumo": "Audição, ao abrigo do artigo 16.º do Regime Jurídico dos Inquéritos Parlamentares, de Coronel João Pereira da Silva, na qualidade de gestor de contratos na Força Aérea",
+   "ordemTrabalhos": "Audição, ao abrigo do artigo 16.º do Regime Jurídico dos Inquéritos Parlamentares, de Coronel João Pereira da Silva, na qualidade de gestor de contratos na Força Aérea · Audição, ao abrigo do artigo 16.º do Regime Jurídico dos Inquéritos Parlamentares, de Coronel Isabel Machado, na qualidade de gestora de contratos na Força Aérea - a confirmar"
+  },
+  {
+   "tema": "Comissão de Saúde",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "15h00",
+   "periodo": "Tarde",
+   "interveniente": "Peticionários da Petição n.º 230/XVII/1.ª - «Pela Criação de Cuidados Intensivos Pediátricos no IPO do Porto»",
+   "tipo": [
+    "Audição"
+   ],
+   "tipoLabel": "Audição; Petição",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Audição dos peticionários da Petição n.º 230/XVII/1.ª - «Pela Criação de Cuidados Intensivos Pediátricos no IPO do Porto». (a confirmar) · Deputado Relator: Alberto Machado (PSD).",
+   "ordemTrabalhos": ""
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-10-22",
+   "dataLabel": "quinta, 22 out",
+   "hora": "17h30",
+   "periodo": "Tarde",
+   "interveniente": "—",
+   "tipo": [
+    "Relatório / parecer"
+   ],
+   "tipoLabel": "Parecer setorial OE",
+   "uo": [],
+   "pertinencia": "Registo",
+   "resumo": "Procedimentos a adotar em sede de Orçamento do Estado; · Planeamento do workshop organizado pelo Council on Economic Policies; · Outros assuntos.",
+   "ordemTrabalhos": ""
+  }
+ ],
+ "fichas": {
+  "cge": {
+   "titulo": "Conta Geral do Estado de 2025",
+   "meta": "Plenário · 21 de outubro, 15h00 · Debate da Conta Geral do Estado (artigo 213.º-A do Regimento). Também: Comissão de Orçamento, Finanças e Administração Pública (COFAP), 20 de outubro, 17h30, audição do Secretário de Estado Adjunto e do Orçamento; 21 de outubro, 10h00, votação do relatório final · UO de referência: Transversal · UPE",
+   "enquadramento": "O debate realiza-se três semanas depois de o Tribunal de Contas ter considerado as Contas de 2025 não conformes com a Lei de Enquadramento Orçamental, à semelhança dos pareceres sobre as Contas de 2021 a 2024. A narrativa mediática é desfavorável. O confronto previsível opõe o excedente orçamental, defendido pelo Governo, à qualidade e fiabilidade das contas, sublinhada pelo Tribunal e pela oposição.",
+   "atencao": [
+    {
+     "titulo": "Quatro valores de saldo em circulação, que não se contradizem",
+     "texto": "excedente de 0,7% do PIB, 2 045 M€ (contabilidade nacional; INE, 2.ª notificação de setembro); excedente de 1 159 M€, 0,4% do PIB (contabilidade pública, Administrações Públicas, segundo a própria CGE); défice de 131 M€ (contabilidade pública, só Administração Central e Segurança Social consolidadas, parecer do TdC); défice de cerca de 7,4 mil M€ do subsetor Estado (CGE, citado pelo Chega). Medem perímetros e óticas diferentes. Há risco de confusão no debate e na cobertura."
+    },
+    {
+     "titulo": "«Erros de pelo menos 331 M€» (imprensa)",
+     "texto": "o parecer não apresenta este total. É a soma, feita pela imprensa, de duas subavaliações que o TdC indica em separado: 133 M€ de despesas pagas por dedução à receita fiscal e 198 M€ de juros/dividendos registados pelo valor líquido."
+    },
+    {
+     "titulo": "«526 M€ em apoios sem destinatário ou finalidade» (imprensa)",
+     "texto": "o valor consta do parecer (capítulo C.5, p. 166). Dos 5 401 M€ de apoios não reembolsáveis, 956 M€ (17,7%) tinham especificação insuficiente na execução orçamental; as entidades esclareceram 430 M€ e ficaram 526 M€ por esclarecer. Atenção: o próprio parecer decompõe estes 526 M€ em 378 M€ não identificados e 178 M€ «outras finalidades», que somam 556 M€. A diferença deve ser confirmada antes de citar a decomposição. Não confundir com os 527 M€ de transações não consolidadas, que sobrevalorizam receita e despesa sem afetar o saldo."
+    },
+    {
+     "titulo": "«PRR cortado para 13,2%»",
+     "texto": "refere-se apenas ao financiamento PRR dos sistemas de informação de gestão financeira (de 122 M€ para 16,1 M€), não ao PRR no seu conjunto."
+    },
+    {
+     "titulo": "Reação do Governo",
+     "texto": "não foi identificada, nas fontes abertas consultadas até 19 de outubro, reação pública do Ministério das Finanças ao parecer. As respostas das entidades do Ministério constam apenas do contraditório, dentro do próprio parecer."
+    }
+   ],
+   "blocos": [
+    {
+     "titulo": "Outras reuniões sobre a Conta nesta semana (adenda de 19 de outubro)",
+     "paragrafos": [
+      "Na véspera do debate, a COFAP ouve o Secretário de Estado Adjunto e do Orçamento, José Maria Brandão de Brito, sobre a CGE de 2025 (20 de outubro, 17h30). É a primeira ocasião pública identificada para o Governo responder ao parecer do Tribunal de Contas. Na manhã do debate (21 de outubro, 10h00), a COFAP discute e vota o relatório final da Conta Geral do Estado, de que é relator o deputado Eduardo Teixeira (CH). Em 2024, o Governo defendeu a Conta com o desempenho económico; os pontos de atenção acima indicam onde é provável que o confronto se centre."
+     ]
+    }
+   ],
+   "fundo": [
+    {
+     "data": "8 de outubro de 2025",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2025/10/08/tribunal-de-contas-volta-a-chumbar-a-conta-geral-do-estado/",
+     "sintese": "O Tribunal de Contas (TdC) volta a considerar a Conta Geral do Estado (CGE) de 2024 não conforme com a Lei de Enquadramento Orçamental (LEO), pela falta de demonstrações consolidadas da Administração Central e da Segurança Social. Juízo idêntico já fora emitido para 2021, 2022 e 2023.",
+     "impacto": "Mostra que a não conformidade é estrutural e anterior a este Governo. É um argumento possível do Governo; a oposição tenderá a sublinhar a recorrência sem resolução.",
+     "natureza": "contexto",
+     "naturezaLabel": "Contextual"
+    },
+    {
+     "data": "13 de fevereiro de 2026",
+     "fonte": "RTP",
+     "url": "https://www.rtp.pt/noticias/economia/conta-geral-do-estado-de-2024-aprovada-no-parlamento-por-psd-e-cds-pp_n1718919",
+     "sintese": "A CGE de 2024 foi aprovada só com os votos de PSD e CDS-PP. Votaram contra Chega, IL, Livre, PCP, BE e PAN; PS e JPP abstiveram-se. O Governo defendeu que 2024 foi um bom ano para a economia.",
+     "impacto": "Antecipa o padrão de voto provável para a CGE de 2025 e o tom da defesa do Governo, centrado no desempenho económico.",
+     "natureza": "contexto",
+     "naturezaLabel": "Contextual"
+    },
+    {
+     "data": "26 de março de 2026",
+     "fonte": "INE (1.ª notificação PDE)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=762272780&DESTAQUESmodo=2&xlang=pt",
+     "sintese": "1.ª notificação do Procedimento relativo aos Défices Excessivos (PDE): em 2025, as Administrações Públicas registaram um saldo positivo de 2 058,6 M€ (0,7% do PIB), e a dívida bruta desceu para 89,7% do PIB.",
+     "impacto": "É o número central da defesa do Governo. Atenção: está em contabilidade nacional e não é comparável com o saldo em contabilidade pública da CGE (ver pontos de atenção).",
+     "natureza": "positivo",
+     "naturezaLabel": "Contextual / positivo"
+    },
+    {
+     "data": "2 de junho de 2026",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/06/02/sem-fundos-europeus-contas-publicas-entravam-no-vermelho-alerta-utao/",
+     "sintese": "A Unidade Técnica de Apoio Orçamental (UTAO), na apreciação do Relatório Anual de Progresso, estima que a despesa primária líquida cresceu 6,4% em 2025 (5,9% segundo as Finanças) e um desvio acumulado de 0,5% do PIB em 2025-2026. Sem fundos europeus, o saldo de 2026 passaria a défice.",
+     "impacto": "Fornece à oposição argumentos técnicos sobre a qualidade do excedente e a dependência de fundos europeus. Provável referência no debate.",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    },
+    {
+     "data": "23 de setembro de 2026",
+     "fonte": "INE (2.ª notificação PDE)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=771939216&DESTAQUESmodo=2&xlang=pt",
+     "sintese": "2.ª notificação: saldo positivo de 2 045,4 M€ em 2025, mantendo-se em 0,7% do PIB. A dívida bruta foi revista para 89,2% do PIB. Os valores de 2024 também foram revistos (excedente de 0,7% e dívida de 93,0%).",
+     "impacto": "Valor mais recente a usar no debate. Confirma o excedente; a revisão da dívida em baixa reforça o argumento do Governo.",
+     "natureza": "positivo",
+     "naturezaLabel": "Contextual / positivo"
+    },
+    {
+     "data": "29 de setembro de 2026",
+     "fonte": "Tribunal de Contas (parecer)",
+     "url": "https://www.tcontas.pt/pt-pt/ProdutosTC/PareceresTribunalContas/ParecerCGE/Documents/2025/pcge2025.pdf",
+     "sintese": "O parecer conclui que a CGE de 2025 não cumpre a LEO e não pode ser certificada. Aponta, entre outros: pelo menos 527 M€ de transações não consolidadas; 22 543 M€ de dívida dos serviços e fundos autónomos fora da Conta; 956 M€ de apoios com finalidade não especificada, dos quais 526 M€ ficaram por esclarecer; despesa fiscal de 20 934 M€; mais de 2 mil M€ do PRR por transferir aos beneficiários finais. Emite 57 recomendações, 50 reiteradas.",
+     "impacto": "Núcleo do debate. A imprensa leu o parecer como um «chumbo» (RTP, ECO, DN, SOL). Alguns números circulam sem o devido contexto (ver pontos de atenção).",
+     "natureza": "critica",
+     "naturezaLabel": "Crítica / muito relevante"
+    },
+    {
+     "data": "29 de setembro de 2026",
+     "fonte": "Chega (sítio oficial)",
+     "url": "https://partidochega.pt/index.php/2026/09/29/audicao-ao-presidente-do-conselho-economico-e-social-sobre-a-conta-geral-do-estado-de-2025/",
+     "sintese": "Na audição do Conselho Económico e Social (CES) sobre a CGE, o Chega destacou: dívida direta do Estado de 315,2 mil M€ (+9,5 mil M€), défice do subsetor Estado de 7,4 mil M€, pagamentos em atraso de 337 M€, prazo médio de pagamento de 42 dias, 23,9 mil M€ de receita liquidada por cobrar e encargos com parcerias público-privadas acima do orçamentado.",
+     "impacto": "Antecipa as linhas de ataque do Chega: excedente «construído» com atrasos de pagamento, sobretudo na Saúde, e aumento nominal da dívida.",
+     "natureza": "critica",
+     "naturezaLabel": "Crítica / muito relevante"
+    },
+    {
+     "data": "29 de setembro de 2026",
+     "fonte": "SOL",
+     "url": "https://sol.iol.pt/economia/noticias/contas-do-estado-chumbam-no-teste-do-tribunal-de-contas-ha-erros-de-pelo-menos-331-milhoes/20260929/6abc0b400cf20dc52778dcc5",
+     "sintese": "Titula «erros de pelo menos 331 milhões» que subvalorizaram receita e despesa, sem explicar a composição do valor.",
+     "impacto": "Exemplo de número agregado pela imprensa que não consta do parecer (ver pontos de atenção).",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    },
+    {
+     "data": "30 de setembro de 2026",
+     "fonte": "RTP",
+     "url": "https://www.rtp.pt/noticias/economia/tdc-alerta-para-nao-se-relativizar-desconformidade-da-conta-geral-do-estado_n1768617",
+     "sintese": "Em audição na Assembleia da República, a Presidente do TdC pede que o juízo de desconformidade não seja relativizado. Esclarece que não significa que a execução orçamental esteja toda errada e lembra que o parecer é lido pelas agências de notação.",
+     "impacto": "Antecipa e limita o argumento de que se trata de uma questão meramente técnica. Liga o tema à credibilidade externa do país.",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    },
+    {
+     "data": "30 de setembro de 2026",
+     "fonte": "Diário de Notícias",
+     "url": "https://www.dn.pt/economia/tribunal-de-contas-governo-deu-526-milhes-de-euros-em-subsdios-no-se-sabe-bem-a-quem-ou-para-qu",
+     "sintese": "Destaca que, de cerca de 5,4 mil M€ em subsídios e transferências, 526 M€ foram concedidos sem identificação clara de beneficiários ou finalidade. Retomado por Executive Digest e Folha Nacional.",
+     "impacto": "Enquadramento com forte potencial de uso político («não se sabe a quem nem para quê»). Valor confirmado no parecer, com ressalva na decomposição.",
+     "natureza": "critica",
+     "naturezaLabel": "Crítica / muito relevante"
+    },
+    {
+     "data": "7 de outubro de 2026",
+     "fonte": "RTP",
+     "url": "https://www.rtp.pt/noticias/economia/cfp-defende-conclusao-da-reforma-da-contabilidade-apos-alerta-do-tdc_n1770064",
+     "sintese": "A Presidente do Conselho das Finanças Públicas (CFP), em audição sobre a CGE, defende concluir a reforma da contabilidade pública, que descreve como talvez a grande reforma do Estado ainda por fazer, incluindo a criação da entidade contabilística consolidante.",
+     "impacto": "Oferece ao Governo um enquadramento construtivo: compromisso de calendário para a Entidade Contabilística Estado. Toca também a agenda da Reforma do Estado (DACDP).",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    }
+   ],
+   "tabelas": [],
+   "atencaoTitulo": "Pontos de atenção (verificação de números)"
+  },
+  "oe": {
+   "titulo": "Orçamento do Estado para 2027 — audição do Ministro das Finanças",
+   "meta": "COFAP · 23 de outubro, 10h00 · Audição do Ministro de Estado e das Finanças na apreciação na generalidade da Proposta de Lei n.º 110/XVII (Governo); debate na generalidade em Plenário a 27 e 28 de outubro; votação final global a 24 de novembro · UO de referência: Transversal · DACDP · UPE · DAPL",
+   "enquadramento": "Última audição do Ministro das Finanças antes do debate na generalidade. A aprovação na generalidade está praticamente assegurada pela abstenção anunciada do PS, o que desloca o debate para a especialidade e para a qualidade das previsões. As linhas de crítica já visíveis são a margem orçamental curta (excedente de 0,1% do PIB), a queda do investimento público com o fim do PRR e o risco de a inflação ficar acima do previsto.",
+   "atencao": [
+    {
+     "titulo": "Números centrais da proposta",
+     "texto": "crescimento do PIB de 2,1%, inflação de 2,3%, excedente de 0,1% do PIB (cerca de 270 M€), dívida pública de 84,5% do PIB, redução do IRS de cerca de 550 M€, IRC a 18% em 2027 e salário mínimo de 970 €."
+    },
+    {
+     "titulo": "Previsões contestadas por fontes independentes",
+     "texto": "o Conselho das Finanças Públicas (CFP) validou o cenário macroeconómico, mas alerta para uma possível subestimação da inflação em 2026 e 2027 e para o risco de o crescimento ficar abaixo do previsto. O Fundo Monetário Internacional (FMI) projeta 1,9% de crescimento e 3% de inflação em 2027."
+    },
+    {
+     "titulo": "Investimento público",
+     "texto": "segundo a imprensa, desce de 4,3% para 2,8% do PIB com o fim do PRR. O PCP fala num «corte brutal de mais de 30%». O argumento do Governo é a continuidade via Portugal 2030 e Orçamento do Estado; a promessa de 2,2 mil M€ de projetos que saem do PRR liga este tema à audição sobre o PRR (21 de outubro)."
+    },
+    {
+     "titulo": "Posições partidárias",
+     "texto": "PS abstém-se na generalidade, mas condiciona a especialidade à continuidade de todos os projetos do PRR e à verba para os danos das tempestades. Chega classifica-o como «mau orçamento», recusa ser «muleta» e não decidiu o voto. PCP vota contra."
+    },
+    {
+     "titulo": "Unidade Técnica de Apoio Orçamental (UTAO)",
+     "texto": "a apreciação preliminar da proposta não pôde ser consultada (ligação da Assembleia da República inacessível a 19 de outubro). A verificar antes do debate."
+    }
+   ],
+   "blocos": [],
+   "fundo": [
+    {
+     "data": "8 de outubro de 2026",
+     "fonte": "Governo (portugal.gov.pt)",
+     "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/oe-2027-um-portugal-mais-preparado-com-mais-rendimento-e-investimento",
+     "sintese": "Apresentação da proposta: crescimento de 2,1%, dívida a descer para 84,5% do PIB, sexta redução do IRS (cerca de 550 M€), IRC a 18% em 2027, salário mínimo de 970 €, aumentos de 2,3% na Administração Pública e sem aumento de impostos.",
+     "impacto": "Narrativa do Governo: rendimento, investimento e contas certas. Base das intervenções do Ministro na audição.",
+     "natureza": "positivo",
+     "naturezaLabel": "Contextual / positivo"
+    },
+    {
+     "data": "8 de outubro de 2026",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/miranda-sarmento-ja-entregou-proposta-de-orcamento-do-estado-no-parlamento",
+     "sintese": "O PS confirma a abstenção, mas duvida de duas condições: continuidade de todos os projetos do PRR e verba para os danos das tempestades. Ventura diz que o Chega «não é muleta do Governo». A proposta prevê excedente de 0,1% do PIB e queda do investimento público de 4,3% para 2,8% do PIB.",
+     "impacto": "Antecipa as perguntas do PS na audição: demonstração «linha a linha» dos projetos do PRR e das verbas para as tempestades.",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    },
+    {
+     "data": "11 de outubro de 2026",
+     "fonte": "Postal do Algarve",
+     "url": "https://postal.pt/nacional/precos-podem-subir-mais-do-que-o-previsto-em-2027-entidade-independente-deixa-alerta-aos-portugueses/",
+     "sintese": "O CFP validou as previsões macroeconómicas da proposta (parecer de 8 de outubro), mas assinala uma potencial subestimação da inflação em 2026 e 2027, sobretudo por causa da energia, e o risco de o crescimento ficar aquém de 2,1%.",
+     "impacto": "Argumento técnico para a oposição questionar o realismo das previsões, sem pôr em causa a validação formal do cenário.",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    },
+    {
+     "data": "12 de outubro de 2026",
+     "fonte": "Jornal Económico / Lusa",
+     "url": "https://jornaleconomico.sapo.pt/noticias/pcp-acusa-governo-de-corte-brutal-no-investimento-publico-no-oe2027/",
+     "sintese": "O PCP acusa o Governo de um «corte brutal de mais de 30%» no investimento público, que não se explica só pelo fim do PRR, e anuncia voto contra.",
+     "impacto": "Linha de crítica previsível na audição e no debate na generalidade. Exige números de investimento comparáveis (com e sem PRR).",
+     "natureza": "critica",
+     "naturezaLabel": "Crítica / muito relevante"
+    },
+    {
+     "data": "13 de outubro de 2026",
+     "fonte": "Diário de Notícias",
+     "url": "https://www.dn.pt/economia/fmi-contradiz-cenrio-do-oe2027-portugal-cresce-menos-e-inflao-ser-muito-superior",
+     "sintese": "Nas Perspetivas Económicas Mundiais, o FMI projeta para Portugal crescimento de 1,9% e inflação de 3% em 2027, contra 2,1% e 2,3% na proposta do Governo.",
+     "impacto": "Reforça a crítica ao otimismo do cenário. Provável pergunta ao Ministro sobre o impacto orçamental de uma inflação mais alta.",
+     "natureza": "critica",
+     "naturezaLabel": "Crítica / muito relevante"
+    },
+    {
+     "data": "14 de outubro de 2026",
+     "fonte": "Observador",
+     "url": "https://observador.pt/2026/10/14/oe2027-ps-diz-que-abstencao-retira-ao-chega-possibilidade-de-chantagear-o-pais/",
+     "sintese": "O PS diz que a abstenção retira ao Chega a «possibilidade de chantagear o país». O Chega chama-lhe «o orçamento do brutal aumento do custo de vida»; o BE questiona o efeito da descida do IRC.",
+     "impacto": "Mostra o quadro político: aprovação na generalidade assegurada e disputa centrada no custo de vida e no IRC.",
+     "natureza": "contexto",
+     "naturezaLabel": "Contextual"
+    },
+    {
+     "data": "16 de outubro de 2026",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/mesmo-com-pouca-margem-fitch-confia-na-execucao-do-oe-2027",
+     "sintese": "A Fitch confia na execução do Orçamento e considera exequível a descida da dívida, mas alerta que o excedente de 0,1% deixa «pouca margem» para choques ou apoios.",
+     "impacto": "Útil ao Governo (credibilidade externa) e à oposição (margem curta). Liga-se ao alerta do Tribunal de Contas sobre a leitura das contas pelas agências.",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    }
+   ],
+   "tabelas": [],
+   "atencaoTitulo": "Pontos de atenção (verificação de números)"
+  },
+  "prr": {
+   "titulo": "Execução do Plano de Recuperação e Resiliência (PRR)",
+   "meta": "6.ª Comissão (Economia e Coesão Territorial) · 21 de outubro, 11h00 · Audição do Presidente da Comissão Nacional de Acompanhamento do PRR, a requerimento do PS, «sobre o estado efetivo de execução» · UO de referência: DACDP · UPE",
+   "enquadramento": "A audição acontece três semanas depois de o Governo anunciar o cumprimento integral dos marcos e metas. O requerimento do PS aponta para a distinção que o próprio Presidente da Comissão Nacional de Acompanhamento tem feito: cumprir formalmente as metas não é o mesmo que concluir as obras ou produzir resultados.",
+   "atencao": [
+    {
+     "titulo": "Coerência dos números",
+     "texto": "os cerca de 17 230 M€ recebidos até agosto mais o último pedido de 4 672 M€ perfazem cerca de 21 900 M€, em linha com a dotação de 21 905 M€ indicada pelo Governo."
+    },
+    {
+     "titulo": "Lacuna",
+     "texto": "não foram encontrados números públicos de pagamentos aos beneficiários finais posteriores ao início de agosto (13 791 M€). Provável pedido de atualização na audição."
+    },
+    {
+     "titulo": "Prazo",
+     "texto": "a execução física pode prolongar-se até 31 de dezembro de 2026, desde que as metas tenham sido cumpridas até 31 de agosto."
+    }
+   ],
+   "blocos": [],
+   "fundo": [
+    {
+     "data": "30 de abril de 2026",
+     "fonte": "Dinheiro Vivo / Lusa",
+     "url": "https://dinheirovivo.dn.pt/economia/prr-tem-37-investimentos-em-estado-preocupante-ou-crtico-a-quatro-meses-do-fim-do-plano",
+     "sintese": "6.º relatório da Comissão Nacional de Acompanhamento do PRR (CNA-PRR): 37 dos 127 investimentos em estado preocupante (21) ou crítico (16), quatro reformas por cumprir até 30 de setembro e reprogramação feita com pouca discussão pública.",
+     "impacto": "Ponto de partida das críticas. É provável que os deputados peçam ao Presidente da CNA-PRR o ponto de situação destes 37 investimentos.",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    },
+    {
+     "data": "7 de agosto de 2026",
+     "fonte": "RTP",
+     "url": "https://www.rtp.pt/noticias/economia/reta-final-de-execucao-prr-desembolsa-13791-milhoes-de-euros-ate-agosto_n1758246",
+     "sintese": "Até ao início de agosto, o PRR tinha pago 13 791 M€ aos beneficiários finais (62% do contratado) e Portugal tinha recebido cerca de 17 230 M€ de Bruxelas (79% da dotação).",
+     "impacto": "Último retrato público da execução financeira. Mostra a distância entre o dinheiro recebido e o dinheiro que já chegou ao terreno.",
+     "natureza": "contexto",
+     "naturezaLabel": "Contextual"
+    },
+    {
+     "data": "27 de agosto de 2026",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/entrevista-prr-portugal-aumentou-probabilidades-de-execucao-mas-obras-vao-decorrer-pos-agosto-dominguinhos/",
+     "sintese": "Pedro Dominguinhos considera que as reprogramações aumentaram a probabilidade de cumprir as metas, mas avisa que várias obras continuarão depois de agosto. Passa as residências estudantis para «preocupante» e defende avaliar o sucesso em três planos: metas formais, conclusão dos investimentos e impactos.",
+     "impacto": "Antecipa a linha provável do Presidente da CNA-PRR na audição: o cumprimento formal não equivale à conclusão física nem a resultados.",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    },
+    {
+     "data": "23 de setembro de 2026",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/09/23/fim-do-prr-deixa-fatura-de-22-mil-milhoes-em-projetos-oe2027-vai-pagar-pouquissimo/",
+     "sintese": "O fim do PRR deixa pelo menos 2,2 mil M€ em projetos que transitam para outros financiamentos (Portugal 2030, Banco Europeu de Investimento, parcerias). O Ministro da Economia e Coesão Territorial garante que o Orçamento do Estado para 2027 pagará «pouquíssimo» e estima o overbooking em 220 M€, no máximo.",
+     "impacto": "Liga o PRR ao debate orçamental. Abre a pergunta sobre o custo final para o Orçamento, que ainda não está fechado.",
+     "natureza": "critica",
+     "naturezaLabel": "Crítica / muito relevante"
+    },
+    {
+     "data": "29 de setembro de 2026",
+     "fonte": "Governo (portugal.gov.pt)",
+     "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/portugal-cumpre-integralmente-metas-do-prr-e-submete-ultimo-pedido-de-pagamento",
+     "sintese": "O Governo anuncia o cumprimento de 100% dos 379 marcos e metas e submete o 10.º e último pedido de pagamento, de 4 672 M€, que completaria a dotação de 21 905 M€.",
+     "impacto": "Narrativa do Governo («missão cumprida»). É o contraponto direto ao requerimento do PS, que pede o «estado efetivo» de execução.",
+     "natureza": "positivo",
+     "naturezaLabel": "Contextual / positivo"
+    },
+    {
+     "data": "29 de setembro de 2026",
+     "fonte": "Tribunal de Contas (parecer CGE)",
+     "url": "https://www.tcontas.pt/pt-pt/ProdutosTC/PareceresTribunalContas/ParecerCGE/Documents/2025/pcge2025.pdf",
+     "sintese": "No parecer sobre a CGE de 2025, o TdC regista que, no fim de 2025, mais de 2 mil M€ do PRR estavam por transferir aos beneficiários finais, retidos numa fase intermédia da cadeia de financiamento.",
+     "impacto": "Cruza os dois debates do mesmo dia (PRR de manhã, CGE à tarde). Pode ser usado em ambos.",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    }
+   ],
+   "tabelas": [],
+   "atencaoTitulo": "Pontos de atenção"
+  },
+  "mp": {
+   "titulo": "Audição do Ministro da Presidência",
+   "meta": "12.ª Comissão (Cultura, Comunicação, Juventude e Desporto) · 21 de outubro, 9h30 · Audição regimental · UO de referência: Transversal · UPE",
+   "enquadramento": "Esta audição já foi preparada na pasta de apoio ao Gabinete do Ministro da Presidência, com análise de 1 de abril a 14 de outubro de 2026. Segue a síntese dos pontos-chave e a atualização desde a data de fecho da pasta.",
+   "atencao": [
+    {
+     "titulo": "Agência Lusa, o tema mais quente",
+     "texto": "novos estatutos contestados pelo Sindicato dos Jornalistas (SJ), pelos trabalhadores e pela Entidade Reguladora para a Comunicação Social (ERC); greve a 20 de maio; saída da diretora de informação a 12 de outubro; audições urgentes aprovadas a 13 de outubro. A reapreciação dos projetos termina a 31 de outubro."
+    },
+    {
+     "titulo": "RTP, o tema de maior impacto público (cerca de três quartos das interações)",
+     "texto": "relatório preliminar da Inspeção-Geral de Finanças (IGF) sobre 12,25 M€ em complementos remuneratórios, propostas de privatização (Chega e IL) e escolha da nova administração pelo Conselho Geral Independente (CGI)."
+    },
+    {
+     "titulo": "Orçamento do Estado para 2027",
+     "texto": "o programa Comunicação Social desce de 314 para 287 M€; o plano de reorganização da RTP, de 20 para 12,5 M€; a contribuição audiovisual mantém-se congelada."
+    },
+    {
+     "titulo": "Plano de Ação para a Comunicação Social",
+     "texto": "execução sob escrutínio, sobretudo pela imprensa regional; teve muito pouca cobertura no período."
+    },
+    {
+     "titulo": "Tema emergente, a relação Governo–jornalistas",
+     "texto": "contrato da Secretaria-Geral do Governo para a ferramenta NewsWhip (contestado pelo SJ; a ERC abriu averiguação), declarações sem perguntas e a expressão «censura moderna» do Primeiro-Ministro."
+    }
+   ],
+   "blocos": [
+    {
+     "titulo": "Atualização desde 14 de outubro",
+     "paragrafos": [
+      "Nas fontes abertas consultadas a 16 de outubro não foram identificados desenvolvimentos materiais novos sobre a Lusa ou a RTP além dos já incluídos na pasta. Ficam por agendar as audições urgentes sobre a Lusa aprovadas a 13 de outubro (diretora de informação cessante, diretores-adjuntos e conselho de administração)."
+     ]
+    },
+    {
+     "titulo": "Votação na mesma reunião (parte II)",
+     "paragrafos": [
+      "Na mesma reunião, a comissão vota na especialidade os três projetos de resolução sobre a RTP, cujas votações tinham sido adiadas a 13 de outubro. O resultado pode marcar a cobertura do dia mais do que a própria audição."
+     ]
+    }
+   ],
+   "fundo": [],
+   "tabelas": [
+    {
+     "titulo": "Votação na mesma reunião (parte II)",
+     "cabecalho": [
+      "Iniciativa",
+      "Objeto"
+     ],
+     "linhas": [
+      [
+       "Projeto de Resolução n.º 1209/XVII (CH)",
+       "Auditoria abrangente à RTP e acompanhamento reforçado do aumento de capital de 20 M€"
+      ],
+      [
+       "Projeto de Resolução n.º 1250/XVII (PS)",
+       "Defesa, valorização e sustentabilidade do serviço público de rádio e televisão"
+      ],
+      [
+       "Projeto de Resolução n.º 1267/XVII (PSD)",
+       "Sustentabilidade, modernização e adequação do serviço público de media"
+      ]
+     ]
+    }
+   ],
+   "atencaoTitulo": "Síntese da pasta de apoio"
+  },
+  "interop": {
+   "titulo": "Interoperabilidade de dados na Administração Pública (Proposta de Lei n.º 107/XVII)",
+   "meta": "13.ª Comissão (Reforma do Estado e Poder Local) · 21 de outubro, 10h30 (antes prevista para 20 de outubro, 15h00) · Informação de baixa à comissão, com conexão à 1.ª Comissão · UO de referência: DACDP · DAPL · UnIT",
+   "enquadramento": "O Governo pede autorização legislativa, por 180 dias, para aprovar por decreto-lei o regime jurídico da interoperabilidade na Administração Pública. O objetivo é aplicar o princípio «só uma vez»: o Estado deixa de pedir aos cidadãos e empresas documentos que já tem. O ponto sensível é a partilha de dados entre serviços sem consentimento do titular. Na reunião desta semana apenas se dá informação da baixa à comissão e se indica o relator. A cobertura mediática tem sido escassa e sobretudo factual; a crítica de fundo vem da Comissão Nacional de Proteção de Dados (CNPD).",
+   "atencao": [
+    {
+     "titulo": "Consentimento",
+     "texto": "a proposta dispensa o consentimento do titular na partilha via Plataforma de Interoperabilidade da Administração Pública (iAP), limitando-a aos dados «estritamente necessários». A CNPD concorda que o consentimento não é a base adequada, mas exige que a lei fixe finalidades, tipos de dados, destinatários e prazos."
+    },
+    {
+     "titulo": "Forma legal",
+     "texto": "no parecer sobre o projeto de decreto-lei (maio de 2026), a CNPD defendeu lei ou autorização legislativa, por estarem em causa direitos, liberdades e garantias. O Governo seguiu esse caminho com a autorização legislativa."
+    },
+    {
+     "titulo": "Críticas que se mantêm em aberto",
+     "texto": "normas «abertas ou de formulação vaga», partilha por defeito de todos os documentos, risco de agregação de dados que permita construir perfis dos cidadãos e prazo de conservação dos registos de acesso (três anos) não justificado."
+    },
+    {
+     "titulo": "Pareceres pedidos pela Assembleia (7 de outubro)",
+     "texto": "CNPD, Centro Nacional de Cibersegurança, conselhos superiores das magistraturas e Ordem dos Advogados. Não há data para o debate em Plenário."
+    },
+    {
+     "titulo": "Ligação à mesma semana",
+     "texto": "a 1.ª Comissão ouve, a 21 de outubro às 10h00, entidades sobre a compatibilização do direito à proteção de dados, a pedido do BE. O tema pode cruzar-se com esta proposta."
+    }
+   ],
+   "blocos": [],
+   "fundo": [
+    {
+     "data": "19 de maio de 2026",
+     "fonte": "CNPD (Parecer 2026/33)",
+     "url": "https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/123306",
+     "sintese": "Sobre o projeto de decreto-lei, a CNPD recomenda lei ou autorização legislativa, aponta normas «abertas ou de formulação vaga», a falta de finalidades e tipos de dados definidos, o risco de agregação de dados e um prazo de conservação dos registos não justificado. Propõe mais de duas dezenas de alterações.",
+     "impacto": "Principal fonte de crítica técnica. É provável que seja usada pela oposição e que volte a pronunciar-se sobre a proposta de lei.",
+     "natureza": "critica",
+     "naturezaLabel": "Crítica / muito relevante"
+    },
+    {
+     "data": "20 de agosto de 2026",
+     "fonte": "Governo (portugal.gov.pt)",
+     "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/estado-deixa-de-pedir-aos-portugueses-documentos-que-ja-tem",
+     "sintese": "O Conselho de Ministros aprova a proposta. O Ministro da Presidência: «O cidadão ou a empresa só deve entregar ao Estado uma vez os documentos.» A iAP passa a ser obrigatória para as entidades públicas.",
+     "impacto": "Narrativa do Governo centrada na simplificação e na redução de custos para cidadãos e empresas. Medida tutelada pelo Ministro da Presidência.",
+     "natureza": "positivo",
+     "naturezaLabel": "Contextual / positivo"
+    },
+    {
+     "data": "21 de setembro de 2026",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/09/21/governo-entrega-autorizacao-legislativa-para-estado-deixar-de-pedir-documentos-consentimento-dos-cidadaos-pode-deixar-de-ser-necessario/",
+     "sintese": "A proposta dá entrada na Assembleia: autorização legislativa por 180 dias; partilha sem consentimento, limitada aos dados estritamente necessários; registos de acesso guardados três anos pela ARTE e consultáveis pelos cidadãos; auditorias do Centro Nacional de Cibersegurança.",
+     "impacto": "Título centrado no fim do consentimento. É o enquadramento mediático mais provável se o tema ganhar visibilidade.",
+     "natureza": "relevante",
+     "naturezaLabel": "Muito relevante"
+    }
+   ],
+   "tabelas": [],
+   "atencaoTitulo": "Pontos de atenção"
+  }
+ },
+ "disclaimer": "O presente levantamento tem por base a Agenda Parlamentar publicada pela Assembleia da República nos seus dados abertos, à data indicada. A agenda está sujeita a alterações após essa data, em particular a das comissões parlamentares, tipicamente publicada com menor antecedência do que a do Plenário. A identificação das matérias pertinentes e da unidade orgânica de referência resulta de um juízo analítico e é meramente indicativa, dado o trabalho integrado da Direção de Serviços de Suporte à Decisão (DSSD). A classificação automática constitui apenas uma sugestão de triagem, sujeita a validação. O varrimento mediático associado é amostral e ilustrativo, não exaustivo, e privilegia fontes primárias.",
+ "metodologia": [
+  "Varrimento amostral e ilustrativo, não exaustivo, com fontes originais e números confrontados com as fontes primárias: parecer do Tribunal de Contas, notificação do INE e comunicação oficial do Governo.",
+  "Ordem cronológica crescente. Natureza: vermelho = crítica / muito relevante; dourado = muito relevante; verde = contextual / positivo; cinzento = contextual."
+ ],
+ "pedidos": "O varrimento mediático das matérias sem ficha carece de pedido prévio, através da Chefe da Unidade de Pesquisa e Estatísticas.",
+ "tagline": "a semana na Assembleia da República"
+}
