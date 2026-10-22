@@ -1,1 +1,90 @@
+name: AR Ahead — semana na Assembleia da República
+# Sexta-feira ao meio-dia (Lisboa): recolhe a agenda da semana seguinte e propõe a triagem.
+# Segunda-feira às 9h07 (Lisboa): gera HTML + PDF a partir do agenda.json validado e envia por email.
+on:
+  schedule:
+    - cron: '7 11 * * 5'   # sexta 12h07 Lisboa (horário de verão); ajustar a 7 12 no inverno
+    - cron: '7 8 * * 1'    # segunda 9h07 Lisboa
+  workflow_dispatch:
+    inputs:
+      passo:
+        description: 'recolha | publicar'
+        default: 'publicar'
 
+permissions:
+  contents: write
+
+jobs:
+  recolha:
+    if: github.event.schedule == '7 11 * * 5' || github.event.inputs.passo == 'recolha'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python scripts/recolher_agenda.py
+      - run: python scripts/triar.py
+      - name: Amália — triagem do que as regras não decidiram (guarda leve: só descarrega o modelo se houver matérias sem unidade)
+        run: |
+          pip install llama-cpp-python
+          if python -c "import json,sys; d=json.load(open('dados/triagem_proposta.json')); sys.exit(0 if any(not i['uo'] for i in d['itens']) else 1)"; then
+            mkdir -p modelos && curl -L -o modelos/amalia.gguf "${{ secrets.AMALIA_GGUF_URL }}"
+            python scripts/amalia_triagem.py
+          else echo "nada para o Amália"; fi
+      - name: Guardar proposta de triagem no repositório
+        run: |
+          git config user.name "ar-ahead-bot"; git config user.email "upe@sggoverno.gov.pt"
+          git add dados/agenda_bruta.json dados/triagem_proposta.json
+          git commit -m "Recolha da agenda e proposta de triagem" || echo "sem alterações"
+          git push
+      - name: Avisar a Ana Luísa (email com a proposta em anexo)
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USER }}
+          password: ${{ secrets.SMTP_PASS }}
+          from: ${{ secrets.SMTP_FROM }}
+          to: ${{ secrets.EMAIL_TRIAGEM }}
+          subject: "AR Ahead — proposta de triagem para validar"
+          body: "A recolha da agenda correu. A proposta de triagem está em dados/triagem_proposta.json. Confirme ou corrija e marque validado=true; o varrimento e a publicação seguem na segunda-feira."
+          attachments: dados/triagem_proposta.json
+
+  publicar:
+    if: github.event.schedule == '7 8 * * 1' || github.event.inputs.passo == 'publicar'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm i playwright && npx playwright install --with-deps chromium
+      - name: Amália — fichas de varrimento para os «Imediato» sem ficha (a partir do corpus do Radar)
+        run: |
+          pip install llama-cpp-python
+          if python -c "import json,sys; d=json.load(open('dados/agenda.json')); sys.exit(0 if any(i['pertinencia']=='Imediato' and not i.get('varrimento') for i in d['destaques']+d['agenda']) else 1)"; then
+            mkdir -p modelos && curl -L -o modelos/amalia.gguf "${{ secrets.AMALIA_GGUF_URL }}"
+            python scripts/amalia_varrimento.py
+          else echo "todas as matérias imediatas têm ficha"; fi
+      - run: python scripts/gerar.py dados/agenda.json saida/ar-ahead.html
+      - run: node scripts/pdf.js saida/ar-ahead.html saida/ar-ahead.pdf
+      - run: python scripts/email_resumo.py dados/agenda.json > saida/email.html
+      - name: Guardar edição no repositório
+        run: |
+          git config user.name "ar-ahead-bot"; git config user.email "upe@sggoverno.gov.pt"
+          git add saida/
+          git commit -m "Edição semanal publicada" || echo "sem alterações"
+          git push
+      - name: Enviar aos dirigentes
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USER }}
+          password: ${{ secrets.SMTP_PASS }}
+          from: ${{ secrets.SMTP_FROM }}
+          to: ${{ secrets.DIRIGENTES_DSSD }}
+          subject: "AR Ahead — a semana na Assembleia da República"
+          html_body: file://saida/email.html
+          attachments: saida/ar-ahead.pdf,saida/ar-ahead.html
