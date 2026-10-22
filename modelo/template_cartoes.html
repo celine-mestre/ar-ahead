@@ -175,6 +175,7 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
 .frente .cal-l span:first-child{color:var(--suave)} .frente .cal-l span:last-child{color:var(--suave);font-variant-numeric:tabular-nums}
 .frente details{margin-top:10px} .frente summary{cursor:pointer;color:var(--azul);font-size:12.5px;margin-bottom:4px}
 .c-cob{font-size:11.5px;color:var(--suave);display:flex;gap:6px;align-items:baseline;flex-wrap:wrap} .c-cob b{color:var(--texto);font-weight:600} .c-cob a{font-size:11.5px} .c-cob details{width:100%} .c-cob summary{cursor:pointer;color:var(--azul)} .c-cob ul{margin:4px 0 0;padding-left:16px} .c-cob li{margin:2px 0}
+.c-cob .tend{font-weight:600;white-space:nowrap} .c-cob .tend.sobe{color:var(--vermelho)} .c-cob .tend.desce{color:var(--verde)} .c-cob .tend.estavel{color:var(--suave)}
 .nivel{display:inline-block;font-size:10.5px;font-weight:600;border-radius:4px;padding:1px 7px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);margin-left:8px;vertical-align:2px}
 .tag.novo{background:#fff4c2;color:#6b5200;border-color:#f0d77a}
 .tag.alt{background:#eef3f7;color:var(--azul);border-color:#d9e3ec}
@@ -508,6 +509,15 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
     if (st.q){ const h = [x.tema,x.interveniente,x.resumo,x.tipoLabel,x.ordemTrabalhos].join(' ').toLowerCase(); if(!h.includes(st.q)) return false; }
     return true;
   }
+  // linha de cobertura mediática: últimos 7 dias, tendência face aos 7 anteriores e total em 60 dias (Radar de Notícias)
+  const cobTxt = c => {
+    const ind = c.metodo==='palavras' ? ' <span title="contagem pelas palavras do assunto, indicativa; fica precisa quando a matéria tem expressões de pesquisa">(indicativo)</span>' : '';
+    const fonte = '<span title="Órgãos de comunicação social nacionais acompanhados pelo Radar de Notícias da UPE">OCS acompanhados pelo Radar</span>';
+    if (c.n7 === undefined) return `<b>${c.n}</b> ${c.n===1?'notícia':'notícias'} em ${c.dias} dias nos ${fonte}${ind}`;   // edições antigas
+    const t = c.n7 > c.n7ant ? ['↑','a subir','sobe'] : c.n7 < c.n7ant ? ['↓','a descer','desce'] : ['→','estável','estavel'];
+    const tend = c.n7||c.n7ant ? ` <span class="tend ${t[2]}" title="${c.n7ant} nos 7 dias anteriores">${t[0]} ${t[1]}</span>` : '';
+    return `<b>${c.n7}</b> ${c.n7===1?'notícia':'notícias'} nos últimos 7 dias${tend} · ${c.n} em ${c.dias} dias · ${fonte}${ind}`;
+  };
   const icTipo = t => /Audi/.test(t)?'i-mic':/Debate|Plenário/.test(t)?'i-users':/vota|Vota/.test(t)?'i-vote':'i-file';
   function cartao(x){
     const [cls,pc] = PERT[x.pertinencia]||['reg','p-reg'];
@@ -524,7 +534,7 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
       ${x.interveniente && x.interveniente!=='—' ? `<div class="c-interv">${esc(x.interveniente)}</div>`:''}
       <p class="c-resumo ${longo?'clamp':''}">${esc(x.ordemTrabalhos||res)}</p>
       ${longo?`<button class="c-mais" data-mais>Ver tudo</button>`:''}
-      ${x.cobertura ? `<div class="c-cob"><span><b>${x.cobertura.n}</b> ${x.cobertura.n===1?'notícia':'notícias'} nos OCS nacionais em ${x.cobertura.dias} dias${x.cobertura.metodo==='palavras'?' <span title="contagem por palavras do assunto, indicativa; fica precisa quando a matéria tem expressões de pesquisa">(indicativo)</span>':''}</span>${x.cobertura.ultimas&&x.cobertura.ultimas.length?`<details><summary>as mais recentes</summary><ul>${x.cobertura.ultimas.map(u=>`<li>${esc(u.data)} · <a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.fonte)}</a> — ${esc(u.titulo)}</li>`).join('')}</ul></details>`:''}</div>` : ''}
+      ${x.cobertura ? `<div class="c-cob"><span>${cobTxt(x.cobertura)}</span>${x.cobertura.ultimas&&x.cobertura.ultimas.length?`<details><summary>notícias mais recentes</summary><ul>${x.cobertura.ultimas.map(u=>`<li>${esc(u.data)} · <a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.fonte)}</a> — ${esc(u.titulo)}</li>`).join('')}</ul></details>`:''}</div>` : ''}
       <div class="c-uo">${uos}${x._hist?`<span class="tag arq">arquivo · ${esc(nomeEd(x._hist).replace('Edição ',''))}</span>`:''}${x._fut?`<span class="tag futt">semana seguinte</span>`:''}${x.novo?`<span class="tag novo">novo · ${esc(fmtD(x.novo))}</span>`:''}${x.alterado && !x.novo?`<span class="tag alt">alterado · ${esc(fmtD(x.alterado))}</span>`:''}</div>
       <div class="c-foot">${foot}</div>
     </article>`;
