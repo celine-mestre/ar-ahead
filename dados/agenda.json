@@ -13,6 +13,345 @@
   "Ordem cronológica crescente. Natureza: vermelho = crítica / muito relevante; dourado = muito relevante; verde = contextual / positivo; cinzento = contextual."
  ],
  "pedidos": "O varrimento mediático das matérias sem ficha carece de pedido prévio, através da Chefe da Unidade de Pesquisa e Estatísticas.",
+ "futuro": [
+  {
+   "tema": "Plenário — Debate na especialidade do Orçamento do Estado para 2027",
+   "data": "2026-11-18",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 17 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n P",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n PAN \n 11 m \n JPP \n 11 m \n Total \n 532 m",
+   "orgao": "Plenário",
+   "id_ar": 48393,
+   "chave": "ar-48393",
+   "dataLabel": "quarta, 18 nov",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "data": "2026-11-19",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 18 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 202",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n PAN \n 11 m \n JPP \n 11 m \n Total \n 532 m",
+   "orgao": "Plenário",
+   "id_ar": 48392,
+   "chave": "ar-48392",
+   "dataLabel": "quinta, 19 nov",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "data": "2026-11-20",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 19 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 202",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n PAN \n 11 m \n JPP \n 11 m \n Total \n 532 m",
+   "orgao": "Plenário",
+   "id_ar": 48391,
+   "chave": "ar-48391",
+   "dataLabel": "sexta, 20 nov",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "data": "2026-11-23",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 20 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 202",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Continuação do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n GOV \n 120 m \n PSD \n 96 m \n CH \n 80 m \n PS \n 77 m \n IL \n 42 m \n L \n 34 m \n PCP \n 27 m \n CDS-PP \n 23 m \n BE \n 11 m \n PAN \n 11 m \n JPP \n 11 m \n Total \n 532 m",
+   "orgao": "Plenário",
+   "id_ar": 48390,
+   "chave": "ar-48390",
+   "dataLabel": "segunda, 23 nov",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "data": "2026-11-24",
+   "hora": "10h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 21 · Plenário",
+   "resumo": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Encerramento do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 20",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 1 - Discussão de artigos remetidos a Plenário e normas avocadas \n Tempos \n 5 minutos ao Governo, a cada GP e DURP \n 2 - Votações \n 3- Encerramento do debate na especialidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Especialidade \n ENCERRAMENTO \n JPP \n 3 m \n PAN \n 3 m \n BE \n 3 m \n CDS-PP \n 6 m \n PCP \n 6 m 30 \n L \n 7 m 30 \n IL \n 8 m 30 \n PS \n 12 m 30 \n CH \n 13 m 30 \n PSD \n 16 m \n GOV \n 30 m \n Total \n 109 m 30 \n 4 - Votações",
+   "orgao": "Plenário",
+   "id_ar": 48395,
+   "chave": "ar-48395",
+   "dataLabel": "terça, 24 nov",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Sessão Solene Evocativa do 25 de novembro de 1975 Tempos: 2m30s para cada DURP e 5m30s para cada Grupo Parlam",
+   "data": "2026-11-25",
+   "hora": "12h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 22 · Plenário",
+   "resumo": "Sessão Solene Evocativa do 25 de novembro de 1975 \n Tempos: 2m30s para cada DURP e 5m30s para cada Grupo Parlamentar, por ordem crescente de Representação Parlamentar.",
+   "ordemTrabalhos": "Sessão Solene Evocativa do 25 de novembro de 1975 \n Tempos: 2m30s para cada DURP e 5m30s para cada Grupo Parlamentar, por ordem crescente de Representação Parlamentar.",
+   "orgao": "Plenário",
+   "id_ar": 48394,
+   "chave": "ar-48394",
+   "dataLabel": "quarta, 25 nov",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Manhã",
+   "ligacoes": []
+  },
+  {
+   "tema": "Plenário — Sessão Plenária alusiva às Comemorações dos 50 anos das Primeiras Eleições Autárquicas Tempos: A definir.",
+   "data": "2026-12-11",
+   "hora": "11h00",
+   "interveniente": "",
+   "tipoLabel": "Plenário · Reunião n.º 23 · Plenário",
+   "resumo": "Sessão Plenária alusiva às Comemorações dos 50 anos das Primeiras Eleições Autárquicas \n Tempos: A definir.",
+   "ordemTrabalhos": "Sessão Plenária alusiva às Comemorações dos 50 anos das Primeiras Eleições Autárquicas \n Tempos: A definir.",
+   "orgao": "Plenário",
+   "id_ar": 48396,
+   "chave": "ar-48396",
+   "dataLabel": "sexta, 11 dez",
+   "tipo": [
+    "Plenário"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Manhã",
+   "ligacoes": []
+  }
+ ],
+ "calendarizacao": [
+  {
+   "data": "2026-10-01",
+   "diaSemana": "Quinta-feira",
+   "atividade": "Jornadas Parlamentares do PCP",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-02",
+   "diaSemana": "Sexta-feira",
+   "atividade": "Jornadas Parlamentares do PCP",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-05",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Feriado",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-06",
+   "diaSemana": "Terça-feira",
+   "atividade": "Comissões",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-07",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Conferência de Líderes Reunião Plenária",
+   "horas": "10h30 · 15h00"
+  },
+  {
+   "data": "2026-10-08",
+   "diaSemana": "Quinta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "14h30"
+  },
+  {
+   "data": "2026-10-09",
+   "diaSemana": "Sexta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-10-12",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Contacto com o Eleitorado",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-13",
+   "diaSemana": "Terça-feira",
+   "atividade": "Comissões",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-14",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "15h00"
+  },
+  {
+   "data": "2026-10-15",
+   "diaSemana": "Quinta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "15h00"
+  },
+  {
+   "data": "2026-10-16",
+   "diaSemana": "Sexta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-10-19",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Contacto com o Eleitorado",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-20",
+   "diaSemana": "Terça-feira",
+   "atividade": "Comissões",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-21",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "15h00"
+  },
+  {
+   "data": "2026-10-23",
+   "diaSemana": "Sexta-feira",
+   "atividade": "OE 2027",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-26",
+   "diaSemana": "Segunda-feira",
+   "atividade": "OE 2027",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-27",
+   "diaSemana": "Terça-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "15h00"
+  },
+  {
+   "data": "2026-10-28",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "10h00 · 15h00"
+  },
+  {
+   "data": "2026-10-29",
+   "diaSemana": "Quinta-feira",
+   "atividade": "OE 2027",
+   "horas": ""
+  },
+  {
+   "data": "2026-10-30",
+   "diaSemana": "Sexta-feira",
+   "atividade": "OE 2027",
+   "horas": ""
+  },
+  {
+   "data": "2026-11-18",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária (OE 2027) Conferência de Líderes",
+   "horas": "10h00 · 15h00"
+  },
+  {
+   "data": "2026-11-19",
+   "diaSemana": "Quinta-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-11-20",
+   "diaSemana": "Sexta-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": ""
+  },
+  {
+   "data": "2026-11-23",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-11-24",
+   "diaSemana": "Terça-feira",
+   "atividade": "Reunião Plenária (OE 2027)",
+   "horas": "10h00"
+  },
+  {
+   "data": "2026-11-25",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Sessão solene 25 de Novembro",
+   "horas": "11h00"
+  },
+  {
+   "data": "2026-11-28",
+   "diaSemana": "Segunda-feira",
+   "atividade": "Contacto com o Eleitorado",
+   "horas": ""
+  },
+  {
+   "data": "2026-11-29",
+   "diaSemana": "Terça-feira",
+   "atividade": "Comissões",
+   "horas": ""
+  },
+  {
+   "data": "2026-11-30",
+   "diaSemana": "Quarta-feira",
+   "atividade": "Reunião Plenária",
+   "horas": "15h00"
+  }
+ ],
  "edicao": {
   "numero": 1,
   "ano": 2026,
@@ -22,8 +361,8 @@
   "fecho": "2026-10-22",
   "fechoLabel": "22 de outubro de 2026",
   "alteracoes": [],
-  "atualizado": "2026-10-22T22:54+01:00",
-  "atualizadoLabel": "22 de outubro, 22h54",
+  "atualizado": "2026-10-22T23:00+01:00",
+  "atualizadoLabel": "22 de outubro, 23h00",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
   "aviso": "6 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
@@ -362,43 +701,11 @@
    "manual": true,
    "chave": "2026-10-26|18h00|pareceres setoriais e parecer da cae sobre o oe 2027 — prazo de envio à cofap",
    "cobertura": {
-    "n": 17,
+    "n": 0,
     "dias": 60,
     "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-10-19",
-      "fonte": "Observador",
-      "titulo": "Aguiar-Branco indefere pedido de debate de urgência do Livre",
-      "url": "https://observador.pt/2026/10/19/aguiar-branco-chumbou-debate-de-urgencia-do-livre-sobre-habitacao-por-violar-regra-da-quinzena/"
-     },
-     {
-      "data": "2026-10-08",
-      "fonte": "Renascença",
-      "titulo": "Pensionistas notificados em outubro para devolver dinheiro que receberam a mais",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTG5QNDh2dTY3cFg0YUllVm5QUlBwN0VTYVd0UmtTaF9MR01uN1BCcFhDZWlJRVlwa05RQ3FtTi15X3pfZVh5dnd0dlN1Z3pHaml3TnB2SFZaV21JcTI2MURxTkFYa1lFSWlUMUktdHNjaTByM2FPZUF4MWJsSmdOcmhzU2xXTFVyTjA0QUl0VVl5WGdKSWZTOEdDV0hHUl9RZFN5ZGxSeG5TU0RXRlpXZVI5NlNhNTdoT0pBMFVUZFo2TVk?oc=5"
-     },
-     {
-      "data": "2026-10-07",
-      "fonte": "CNN Portugal",
-      "titulo": "\"Netanyahu tem instrumentalizado o 7 de outubro para sobreviver politicamente\"",
-      "url": "https://cnnportugal.iol.pt/videos/netanyahu-tem-instrumentalizado-o-7-de-outubro-para-sobreviver-politicamente/6ac6ad940cf20dc52778ebc2"
-     }
-    ],
-    "_ligacoes": [
-     "https://observador.pt/2026/10/19/aguiar-branco-chumbou-debate-de-urgencia-do-livre-sobre-habitacao-por-violar-regra-da-quinzena/",
-     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTG5QNDh2dTY3cFg0YUllVm5QUlBwN0VTYVd0UmtTaF9MR01uN1BCcFhDZWlJRVlwa05RQ3FtTi15X3pfZVh5dnd0dlN1Z3pHaml3TnB2SFZaV21JcTI2MURxTkFYa1lFSWlUMUktdHNjaTByM2FPZUF4MWJsSmdOcmhzU2xXTFVyTjA0QUl0VVl5WGdKSWZTOEdDV0hHUl9RZFN5ZGxSeG5TU0RXRlpXZVI5NlNhNTdoT0pBMFVUZFo2TVk?oc=5",
-     "https://cnnportugal.iol.pt/videos/netanyahu-tem-instrumentalizado-o-7-de-outubro-para-sobreviver-politicamente/6ac6ad940cf20dc52778ebc2",
-     "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNmM2eDBjSXk0TkhQTHF1ODB0NFpvRVdSaEd0QU5Oa0JoQzZFblN1YXdUSjk0dnphejAtdnBfQWd4U1J0bTZZc040NzFfQkVWSkV4Q0VKVW1RdkRBY2Jnc0NldXJENnZTRVBIdkJyV0NHT0lxNVlEXzFxeE56UGtyY1N4MUp4ejdpUE8yNW9qanA1OTJ5bnpwQkRIT29XWVFQ0gGbAUFVX3lxTE1qZTJIcTdQaHExRGJJd2ZWbVpOT2t2RjBsOXV4bjI4N2JHNEdkN3ZHNno0VDI4aTJYdG1aWng4SVlVUldIRWJVbXlEQkkyNUs1cG9fOHVaNC1zWmVndW16UVBWQUdVTjVGTFpWZzdtTnluVzNsLXU2cGprNlN4SHhYM1Faa0JGXzJSdDV0UjRMU0E5LTZscVNVVmlR?oc=5",
-     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVFRrOHA2d3RCYXYwc1VEdm90aWxqMWxaSkNLT3FkRzJ0THpVbFVVX1BTcXpzQ3d0ZXM2WGp3OFRWck9BVkx5Zm5tcHo0eWtSNll3bW9QOWxFem1Ud2wtWnMyZzcwcGhpem1VM1h1MHl1VHd5NGNhdFcyLTBPUzFibGF0c3IzeTBwS1V5ZWJPUEhxaFRTemNxSnVsRVRta1BCMkdjdGRNSUlsSTR1WkJqbzh0M0hESnhoek1XNkM4UjdUcXVpR1VXQ2tvQUlxWEo1QWNQSnNyUk51RHBTTjRhTVJfYjA?oc=5",
-     "https://observador.pt/2026/10/06/ps-acusa-moedas-de-contradicoes-no-caso-do-elevador-da-gloria-e-psd-vota-contra-voto-de-saudacao-a-republica-na-aml/",
-     "https://sol.iol.pt/politica/noticias/nao-ha-republica-sem-escolas-seguro-escolhe-o-5-de-outubro-para-deixar-mensagem-aos-professores/20261005/6ac3699a0cf20dc52778e755",
-     "https://observador.pt/2026/09/30/governo-da-15-dias-a-sdr-para-apresentar-solucoes-concretas-para-problemas-de-limpeza-causados-pelo-volta/",
-     "https://www.publico.pt/2026/09/30/azul/noticia/governo-exige-gestora-volta-solucoes-travar-lixo-espalhado-ruas-2189820",
-     "https://eco.sapo.pt/2026/09/25/viticultores-do-douro-tem-de-segunda-a-12-de-outubro-para-pedir-apoio-extraordinario/",
-     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQnloRDVKTjJidmx0eDh3TS1mcHo5dkp5ZGFjZWloZVVKYW95NDd1YmE4WWhoOXNvTzVhNW5wOHIyLWVUNVlOQTRMUVluXzdQYXVROVV3NWx4QXlEX0Zja2RkRV9mbnphUkZSVEtldjM0eFlReUFmM2RYY3c3TVpsQjlaVGR5OUQtTzd0Z0VfMTZpbFFUR0hTZ0tGMWxuLWFIMnhjUFo2OENZUndYdjVvaHZ2VG11MG9rWVFvR2VEX2xNR1NvaW1QZENrdjA3RktxZzdhdDNPeTZ1bHhKUnc?oc=5",
-     "https://www.rtp.pt/noticias/cultura/gilberto-gil-vem-a-lisboa-despertar-entusiasmo-e-dar-voz-a-proximidade-brasil-portugal_n1767406"
-    ]
+    "ultimas": [],
+    "_ligacoes": []
    }
   },
   {
@@ -522,20 +829,11 @@
    "manual": true,
    "chave": "2026-10-27||com(2026)560 — simplificação da fiscalidade direta na ue: prazo do parecer da ca",
    "cobertura": {
-    "n": 1,
+    "n": 0,
     "dias": 60,
     "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-09-10",
-      "fonte": "SIC Notícias",
-      "titulo": "Criança de três anos terá sido abandonada pela mãe na Amadora: menor já estava sinalizada pela CPCJ",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
-     }
-    ],
-    "_ligacoes": [
-     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
-    ]
+    "ultimas": [],
+    "_ligacoes": []
    }
   },
   {
@@ -559,20 +857,11 @@
    "manual": true,
    "chave": "2026-10-28||com(2026)600 — faturas de eletricidade na união: prazo do parecer da cae",
    "cobertura": {
-    "n": 1,
+    "n": 0,
     "dias": 60,
     "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-09-10",
-      "fonte": "SIC Notícias",
-      "titulo": "Criança de três anos terá sido abandonada pela mãe na Amadora: menor já estava sinalizada pela CPCJ",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
-     }
-    ],
-    "_ligacoes": [
-     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEtxeFhoZTdKYjRCUzBzMW9UVHNLeU9wcXJTQmJPNmF3UWVUc1NIR1h4RGl2YTktdDNHT3NIT2hLZTJTcVFnb2RJQzliVldxOEU1X1NYM00wQjZYcEFTSHRMWkc5UlNoZDVna1VrQUlDLWNRUDZEdXZNVTNHZEtzTkl4VjhSWDVGTExlWFdneGJCdFRtTUotcnA4Ry01OHhMYXY4YjdZSXFTZ2RiaW9DX1lYMkJWX0tvb1BoYVdEZHFEX0dFdF9kZmh2ZzUzVGF2b1FSbHpoRGJQc3UzNVZJ?oc=5"
-    ]
+    "ultimas": [],
+    "_ligacoes": []
    }
   },
   {
@@ -595,36 +884,11 @@
    "periodo": "Tarde",
    "ligacoes": [],
    "cobertura": {
-    "n": 5,
+    "n": 0,
     "dias": 60,
     "metodo": "palavras",
-    "ultimas": [
-     {
-      "data": "2026-10-22",
-      "fonte": "Visão",
-      "titulo": "González, Passos e Mário Soares",
-      "url": "https://visao.pt/opiniao/ponto-de-vista/2026-10-22-gonzalez-passos-e-mario-soares-opiniao-de-goncalo-ribeiro-telles/?utm_source=rss&utm_medium=rss&utm_campaign=gonzalez-passos-e-mario-soares-opiniao-de-goncalo-ribeiro-telles"
-     },
-     {
-      "data": "2026-10-16",
-      "fonte": "Observador",
-      "titulo": "13h. Morreu o jornalista Joaquim Letria aos 82 anos",
-      "url": "https://observador.pt/programas/noticiario/as-noticias-das-13h-2477/"
-     },
-     {
-      "data": "2026-10-10",
-      "fonte": "ECO",
-      "titulo": "Lucinda Dâmaso lembra Soares e Sá Carneiro no congresso da UGT e pede que “princípios e valores” sejam preservados",
-      "url": "https://eco.sapo.pt/2026/10/10/lucinda-damaso-lembra-soares-e-sa-carneiro-no-congresso-da-ugt-e-pede-que-principios-e-valores-sejam-preservados/"
-     }
-    ],
-    "_ligacoes": [
-     "https://visao.pt/opiniao/ponto-de-vista/2026-10-22-gonzalez-passos-e-mario-soares-opiniao-de-goncalo-ribeiro-telles/?utm_source=rss&utm_medium=rss&utm_campaign=gonzalez-passos-e-mario-soares-opiniao-de-goncalo-ribeiro-telles",
-     "https://observador.pt/programas/noticiario/as-noticias-das-13h-2477/",
-     "https://eco.sapo.pt/2026/10/10/lucinda-damaso-lembra-soares-e-sa-carneiro-no-congresso-da-ugt-e-pede-que-principios-e-valores-sejam-preservados/",
-     "https://jornaleconomico.sapo.pt/noticias/crise-dos-fatores-de-producao-cap-convoca-conselho-de-presidentes-extraordinario/",
-     "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUXBUSllWQVpaVUt2c0ZRdllMSTdPUWxoYkpiVkUyaUZmTUd4V185VVV1MmVnSzNHS1JmOUVnX2Z1OElyYWhtMTVQM2V0TGlrTlFic3Y5M3RZY1lsODZCT1J1cF9oZTJEWGY4aVp5S1ZnMEFFVlYzTk5MbHVlODIxNmtkS2p1TXVpcUYwTnFsSEVoVDY4NWRtRzBkV3lXREJzeDR1VVdHYUZHaHozcFIwNWFiLThkcWlxYU1tU2ZYSy1NTUg5YjdjZFBBMktDQQ?oc=5"
-    ]
+    "ultimas": [],
+    "_ligacoes": []
    }
   },
   {
@@ -648,16 +912,10 @@
    "manual": true,
    "chave": "2026-10-31||agência lusa — fim do prazo de reapreciação dos projetos de estatutos",
    "cobertura": {
-    "n": 77,
+    "n": 5,
     "dias": 60,
     "metodo": "palavras",
     "ultimas": [
-     {
-      "data": "2026-10-22",
-      "fonte": "Lusa",
-      "titulo": "Fotografias PORTUGAL COMISSÃO AGÊNCIA LUSA",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93YUJyVFEyV2U3ZEFVSmdra293dlg4RkwwaXhuWmRveWh5WFgxN0xZN1U0NWZXNHNZakdDODU3eFhLTEdqb0NMd2I4WW9YTmI4eW5tbg?oc=5"
-     },
      {
       "data": "2026-10-21",
       "fonte": "RTP Notícias",
@@ -669,21 +927,20 @@
       "fonte": "Observador",
       "titulo": "Importante testar regras atuais da Lusa",
       "url": "https://observador.pt/2026/10/21/ministro-da-presidencia-diz-que-e-importante-regras-atuais-da-lusa-poderem-ser-testadas/"
+     },
+     {
+      "data": "2026-10-16",
+      "fonte": "RTP Notícias",
+      "titulo": "Rejeitados na generalidade todos os projetos de lei sobre os novos estatutos da Lusa",
+      "url": "https://www.rtp.pt/noticias/politica/rejeitados-na-generalidade-todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa_n1772125"
      }
     ],
     "_ligacoes": [
-     "https://observador.pt/2026/10/21/ministro-da-presidencia-diz-que-e-importante-regras-atuais-da-lusa-poderem-ser-testadas/",
-     "https://jornaleconomico.sapo.pt/noticias/candidaturas-ao-apoio-extraordinario-para-o-douro-entre-segunda-e-12-de-outubro/",
      "https://www.rtp.pt/noticias/economia/estatutos-da-agencia-lusa-ministro-nega-pressao-do-governo-com-alteracoes_v1773255",
+     "https://observador.pt/2026/10/21/ministro-da-presidencia-diz-que-e-importante-regras-atuais-da-lusa-poderem-ser-testadas/",
      "https://www.rtp.pt/noticias/politica/rejeitados-na-generalidade-todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa_n1772125",
      "https://eco.sapo.pt/2026/10/16/todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa-rejeitados-na-generalidade/",
-     "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjBLMXFpUVJOcnNOSWtlWDBwZ205eC1KdFFSNVdfR1pleG4xWjRoWVZfOUoxc040dkxjVkJiX0lFZ0gtY25nR182ell6Nkhpd2tYcnE4YTN6UmQ2aUVHbkFud2VlUGphTGFKeGJvTnpkc0lNdktmNGVXYUNnNGhqdU16dmFJTzFHZExYOFhJOVBrVmhFX0FFSFhQRTE0dmo5RHdaV09BeUpyMzdJeGl2ZmtScHZibGFFdFZmQUl30gG-AUFVX3lxTFBCMEsxcWlRUk5yc05Ja2VYMHBnbTl4LUp0UVI1V19HWmV4bjFaNGhZVl85SjFzTjR2TGNWQmJfSUVnSC1jbmdHXzZ6WXo2SGl3a1hycThhM3pSZDZpRUduQW53ZWVQamFMYUp4Ym9OemRzSU12S2Y0ZVdhQ2c0aGp1TXp2YUlPMUdkTFg4WEk5UGtWaEVfQUVIWFBFMTR2ajlEd1pXT0F5SnIzN0l4aXZma1JwdmJsYUV0VmZBSXc?oc=5",
-     "https://jornaleconomico.sapo.pt/noticias/fundacao-edp-anuncia-sete-finalistas-na-16a-edicao-premio-novos-artistas/",
-     "https://jornaleconomico.sapo.pt/noticias/mau-tempo-cem-empresas-da-regiao-de-leiria-com-candidaturas-elegiveis-ficaram-sem-apoio/",
-     "https://www.rtp.pt/noticias/politica/oe2027-governo-vai-reunir-se-com-todos-os-partidos-no-final-do-mes_n1763894",
-     "https://jornaleconomico.sapo.pt/noticias/inquerito-a-alegada-intrusao-no-gabinete-de-ventura-com-carater-urgente-diz-pgr/",
-     "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93YUJyVFEyV2U3ZEFVSmdra293dlg4RkwwaXhuWmRveWh5WFgxN0xZN1U0NWZXNHNZakdDODU3eFhLTEdqb0NMd2I4WW9YTmI4eW5tbg?oc=5",
-     "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcHRkOEEyelNHUjJRZWl6UGZUMEg2YVR4T3h2a1I4WGpUb3RfMWl6ellYbWp6cWV1LUhkX2UybjRRQ25qSTI1TXVCWXd3UU05UlBpWXpiZ2hiV3BOckdwak1LT1hFZ1o1d05EN09EdVlUcE9PcFlxNmEwSlBRS3ZPTHAxYnNUcWJYSjJvdkVjU1dpZFp5Z1NYTnhoU0ZnVXJkdGczd0FYalphdktSMlJJcjFZU0l2eUhDVTNDUk9n?oc=5"
+     "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjBLMXFpUVJOcnNOSWtlWDBwZ205eC1KdFFSNVdfR1pleG4xWjRoWVZfOUoxc040dkxjVkJiX0lFZ0gtY25nR182ell6Nkhpd2tYcnE4YTN6UmQ2aUVHbkFud2VlUGphTGFKeGJvTnpkc0lNdktmNGVXYUNnNGhqdU16dmFJTzFHZExYOFhJOVBrVmhFX0FFSFhQRTE0dmo5RHdaV09BeUpyMzdJeGl2ZmtScHZibGFFdFZmQUl30gG-AUFVX3lxTFBCMEsxcWlRUk5yc05Ja2VYMHBnbTl4LUp0UVI1V19HWmV4bjFaNGhZVl85SjFzTjR2TGNWQmJfSUVnSC1jbmdHXzZ6WXo2SGl3a1hycThhM3pSZDZpRUduQW53ZWVQamFMYUp4Ym9OemRzSU12S2Y0ZVdhQ2c0aGp1TXp2YUlPMUdkTFg4WEk5UGtWaEVfQUVIWFBFMTR2ajlEd1pXT0F5SnIzN0l4aXZma1JwdmJsYUV0VmZBSXc?oc=5"
     ]
    }
   }
