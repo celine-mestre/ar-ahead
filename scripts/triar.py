@@ -16,7 +16,7 @@ def triar(item):
             elif pert != 'Imediato': pert = 'Vigilância'
     if any(t in texto for t in regras.get('transversal', [])): uos.add('Transversal'); pert = pert if pert=='Imediato' else 'Vigilância'
     return sorted(uos), pert
-for it in bruto['itens']:
+for it in bruto['itens'] + bruto.get('futuro', []):
     it['uo'], it['pertinencia'] = triar(it)
     it['validado'] = False          # a Ana Luísa muda para true (ou corrige uo/pertinencia)
 pathlib.Path('dados/triagem_proposta.json').write_text(json.dumps(bruto, ensure_ascii=False, indent=1), encoding='utf-8')

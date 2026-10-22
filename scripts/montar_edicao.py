@@ -120,6 +120,11 @@ else:
 
 ordem = lambda x: (x['data'], x.get('hora') or '99')
 nova = {k: ant[k] for k in ('produto', 'tagline', 'unidades', 'disclaimer', 'metodologia', 'pedidos') if k in ant}
+fut = []
+for i in tri.get('futuro', []):
+    y = base(i); fut.append(y)
+nova['futuro'] = sorted(fut, key=lambda x: (x['data'], x.get('hora') or '99'))
+nova['calendarizacao'] = tri.get('calendarizacao', [])
 nova.update(edicao=ed, fichas=fichas,
             destaques=sorted([x for x in itens if x['pertinencia'] == 'Imediato'], key=ordem),
             agenda=sorted([x for x in itens if x['pertinencia'] != 'Imediato'], key=ordem))

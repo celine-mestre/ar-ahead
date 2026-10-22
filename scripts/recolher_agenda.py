@@ -74,12 +74,34 @@ def normalizar(bruto, ini, fim):
         })
     return saida
 
+MESES = {m: i + 1 for i, m in enumerate(['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'])}
+
+def calendarizacao(bruto):
+    """«Resumo da Calendarização» da AR (um registo por mês): dias de Plenário, comissões, feriados, jornadas parlamentares."""
+    out = []
+    for x in bruto:
+        if x.get('Section') != 'Resumo da Calendarização': continue
+        m = re.search(r'de (\w+) de (\d{4})', x.get('Title') or '')
+        if not m or m.group(1).lower() not in MESES: continue
+        mes, ano = MESES[m.group(1).lower()], int(m.group(2))
+        h = html.unescape(html.unescape(x.get('InternetText') or ''))
+        for linha in re.findall(r'<tr[^>]*>(.*?)</tr>', h, re.S):
+            cel = [re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', c)).replace('\xa0', ' ').strip() for c in re.findall(r'<td[^>]*>(.*?)</td>', linha, re.S)]
+            cel = [c for c in cel if c]
+            d = re.match(r'Dia (\d+)', cel[0]) if cel else None
+            if not d or len(cel) < 3: continue
+            horas = ' · '.join(re.findall(r'\d{1,2}h\d{2}', ' '.join(cel[3:])))
+            out.append({'data': datetime.date(ano, mes, int(d.group(1))).isoformat(), 'diaSemana': cel[1], 'atividade': cel[2], 'horas': horas})
+    return sorted({c['data'] + c['atividade']: c for c in out}.values(), key=lambda c: c['data'])
+
 if __name__ == '__main__':
     args = sys.argv[1:]
     hoje = datetime.date.fromisoformat(args[args.index('--semana') + 1]) if '--semana' in args else None
     ini, fim = semana_alvo(hoje)
     bruto = json.loads(pathlib.Path(args[args.index('--ficheiro') + 1]).read_text(encoding='utf-8-sig')) if '--ficheiro' in args else obter()
     itens = normalizar(bruto, ini, fim)
+    futuro = normalizar(bruto, fim + datetime.timedelta(days=1), fim + datetime.timedelta(days=70))   # semanas seguintes (o que a AR já publicou)
+    cal = calendarizacao(bruto)
     pathlib.Path('dados').mkdir(exist_ok=True)
-    pathlib.Path('dados/agenda_bruta.json').write_text(json.dumps({'inicio': ini.isoformat(), 'fim': fim.isoformat(), 'recolha': datetime.datetime.now().isoformat(timespec='minutes'), 'fonte': 'Dados abertos da Assembleia da República — AgendaParlamentar_json.txt', 'itens': itens}, ensure_ascii=False, indent=1), encoding='utf-8')
-    print(f'{len(bruto)} registos na fonte; {len(itens)} para a semana de {ini} a {fim}')
+    pathlib.Path('dados/agenda_bruta.json').write_text(json.dumps({'inicio': ini.isoformat(), 'fim': fim.isoformat(), 'recolha': datetime.datetime.now().isoformat(timespec='minutes'), 'fonte': 'Dados abertos da Assembleia da República — AgendaParlamentar_json.txt', 'itens': itens, 'futuro': futuro, 'calendarizacao': cal}, ensure_ascii=False, indent=1), encoding='utf-8')
+    print(f'{len(bruto)} registos na fonte; {len(itens)} para a semana de {ini} a {fim}; {len(futuro)} nas semanas seguintes; {len(cal)} dias de calendarização')

@@ -9,9 +9,14 @@ ESTRANGEIROS = ('.br', '.cv', '.ao', '.mz', '.gw', '.st', '.tl', '.mo', '.es', '
 DIAS = 60
 VAZIAS = set('''comissao comissoes parlamentar parlamentares audicao audicoes reuniao apreciacao votacao votacoes requerimento
 requerimentos projeto projetos proposta propostas resolucao discussao relatorio relatorios parecer pareceres plenario
-grupo trabalho governo ministro ministra secretario secretaria estado assuntos sobre outros informacoes deputado deputada
-relator relatora prazo envio sessao legislativa iniciativa iniciativas apresentacao nomeacao distribuicao direitos
-liberdades garantias atividades plano orcamento comissao'''.split())
+grupo trabalho trabalhos governo ministro ministra secretario secretaria estado assuntos sobre outros informacoes deputado
+deputada relator relatora prazo prazos envio sessao legislativa iniciativa iniciativas apresentacao nomeacao distribuicao
+direitos liberdades garantias atividades plano orcamento ordem sinalizada sinalizado
+para pela pelo pelas pelos como mais entre desde este esta estes estas esse essa isso isto seus suas nossa nosso
+quando onde qual quais cada todo toda todos todas outra outro outras tambem ainda apos ante contra durante segundo
+janeiro fevereiro marco abril maio junho julho agosto setembro outubro novembro dezembro
+segunda terca quarta quinta sexta sabado domingo hoje ontem amanha semana data datas numero alteracao alteracoes
+continuacao debate generalidade especialidade encerramento'''.split())
 
 def norm(s): return ''.join(c for c in unicodedata.normalize('NFD', (s or '').lower()) if unicodedata.category(c) != 'Mn')
 
@@ -43,10 +48,10 @@ def corpus(local=None):
     return out
 
 def termos(x):
-    """Termos de pesquisa a partir do ASSUNTO (tema, assunto do Amália e início do resumo):
+    """Termos de pesquisa a partir do ASSUNTO (tema e assunto do Amália; o resumo fica de fora):
     palavras significativas e expressões de 2 palavras seguidas."""
-    base = ' '.join(filter(None, [(x.get('amalia') or {}).get('assunto'), x.get('tema'), (x.get('resumo') or '')[:160]]))
-    ws = [w for w in re.findall(r'[a-z0-9]+', norm(base)) if len(w) >= 4 and w not in VAZIAS]
+    base = ' '.join(filter(None, [(x.get('amalia') or {}).get('assunto'), x.get('tema')]))
+    ws = [w for w in re.findall(r'[a-z0-9]+', norm(base)) if len(w) >= 4 and w not in VAZIAS and not w.isdigit()]
     sig = list(dict.fromkeys(ws))[:12]
     pares = list(dict.fromkeys(f'{a} {b}' for a, b in zip(ws, ws[1:])))[:10]
     return sig, pares
@@ -59,13 +64,13 @@ def procurar(x, arts):
         res.sort(key=lambda a: a.get('data', ''), reverse=True)
         return res
     sig, pares = termos(x)
-    if len(sig) < 2: return []
+    if len(sig) < 2 or not pares: return []
     res, sigs = [], set(sig)
     for a in arts:
         s = len(sigs & a['_w'])
         if s < 2: continue
         p = sum(1 for e in pares if e in a['_t'])
-        if p >= 1:                       # exige uma expressão do assunto, não só palavras soltas
+        if p >= 1 and s >= min(3, len(sigs)):   # exige uma expressão do assunto e quase todas as palavras
             res.append((p * 3 + s, a))
     res.sort(key=lambda r: (r[0], r[1].get('data', '')), reverse=True)
     return [a for _, a in res]
