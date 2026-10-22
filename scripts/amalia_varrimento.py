@@ -1,60 +1,55 @@
-"""Passo 3 — varrimento mediático com o Amália, a partir do corpus do Radar de Notícias (nunca da memória do modelo).
-Para cada matéria "Imediato" validada:
-  1. procura no arquivo do Radar (arquivo.json, 7 dias; meses/AAAA-MM.jsonl.gz para trás) as notícias que casam com o assunto;
-  2. pede ao Amália, por notícia REAL, a síntese, o impacto para a sessão e a natureza;
-  3. pede um enquadramento de um parágrafo, só com base nessas notícias;
-  4. escreve a ficha no formato de agenda.json['fichas'] — cada entrada com data, fonte e ligação verdadeiras.
-Os «Pontos de atenção» (verificação de números) NÃO são gerados: ficam para a Ana Luísa, que confronta as fontes primárias."""
-import json, pathlib, re, sys, gzip, datetime, urllib.request
+"""Fichas de varrimento geradas pelo Amália, por níveis, SEMPRE a partir de notícias reais do Radar de Notícias
+(nunca da memória do modelo):
+  Imediato   → ficha completa: até 10 notícias com síntese, impacto e natureza + enquadramento de um parágrafo;
+  Vigilância → ficha curta: até 5 notícias com síntese e natureza + enquadramento de duas frases;
+  Registo    → sem ficha (fica a contagem de cobertura, calculada por cobertura.py).
+Uma chamada ao modelo por ficha (lote), para caber no tempo do GitHub Actions. Sem notícias → ficha que o diz, sem IA.
+Os «Pontos de atenção» (verificação de números na fonte primária) NÃO são gerados: são trabalho humano."""
+import json, pathlib, re, sys
 from amalia import perguntar, json_da_resposta
+from cobertura import corpus, procurar
 
-RADAR = 'https://raw.githubusercontent.com/upe-sggov/radar-noticias/main/'   # repositório público do Radar
-dados = json.loads(pathlib.Path('dados/agenda.json').read_text(encoding='utf-8'))
+NIVEL = {'Imediato': ('completa', 10), 'Vigilância': ('curta', 5)}
+ROT = {'critica': 'Crítica / muito relevante', 'relevante': 'Muito relevante', 'positivo': 'Contextual / positivo', 'contexto': 'Contextual'}
+SIS = "Analista da DSSD (Secretaria-Geral do Governo). Português europeu. Responde só com JSON. Não acrescentes factos que não estejam nas notícias dadas."
 
-def corpus(dias=60):
-    arts = json.loads(urllib.request.urlopen(RADAR + 'arquivo.json', timeout=60).read())
-    hoje = datetime.date.today()
-    for m in {(hoje - datetime.timedelta(days=i)).strftime('%Y-%m') for i in range(0, dias, 28)}:
-        try:
-            with gzip.open(urllib.request.urlopen(RADAR + f'meses/{m}.jsonl.gz', timeout=60)) as f:
-                arts += [json.loads(l) for l in f]
-        except Exception: pass
-    vistos, out = set(), []
-    for a in arts:                                   # campos do Radar: titulo, fonte, ligacao, data, texto/resumo
-        if a.get('ligacao') in vistos: continue
-        vistos.add(a.get('ligacao')); out.append(a)
-    return out
+def ficha(x, arts):
+    nivel, maxn = NIVEL[x['pertinencia']]
+    nots = sorted(procurar(x, arts)[:maxn * 2], key=lambda a: a.get('data', ''), reverse=True)[:maxn]
+    nots.sort(key=lambda a: a.get('data', ''))
+    meta = f"{x.get('tipoLabel','')} · {x['dataLabel']}{', ' + x['hora'] if x.get('hora') else ''} · UO de referência: {' · '.join(x['uo']) or '—'}"
+    f = {'titulo': x['tema'], 'meta': meta, 'nivel': nivel, 'gerado_por': 'Amália — a rever', 'atencao': [], 'blocos': [], 'tabelas': [], 'fundo': []}
+    if not nots:
+        f['enquadramento'] = f"Sem notícias sobre esta matéria nos órgãos de comunicação social nacionais acompanhados pelo Radar de Notícias nos últimos 60 dias (expressões usadas: {', '.join(x.get('expressoes') or ['palavras do assunto'])})."
+        return f
+    lista = '\n'.join(f"{i+1}. [{a.get('data','')[:10]} · {a.get('fonte')}] {a.get('titulo')} — {(a.get('resumo') or '')[:350]}" for i, a in enumerate(nots))
+    pedido_imp = ', "impacto": "1 frase: como pode ser usada na sessão e por quem"' if nivel == 'completa' else ''
+    enq = 'um parágrafo (4 a 6 frases)' if nivel == 'completa' else 'duas frases'
+    r = json_da_resposta(perguntar(SIS, f"""Matéria na agenda da Assembleia da República: {x['tema']} ({x['dataLabel']} {x.get('hora','')}).
+Resumo: {x.get('resumo','')[:400]}
+Notícias numeradas:
+{lista}
 
-def casa(art, termos):
-    t = (art.get('titulo', '') + ' ' + art.get('resumo', '')).lower()
-    return sum(1 for k in termos if k in t)
+Devolve {{"enquadramento": "{enq}, só com base nestas notícias", "noticias": [{{"n": 1, "sintese": "1 a 2 frases factuais"{pedido_imp}, "natureza": "critica"|"relevante"|"positivo"|"contexto"}}, ...]}}
+Inclui todas as notícias, pela mesma numeração. Se uma notícia não for sobre esta matéria, devolve para ela "natureza": "fora".""", 1600 if nivel == 'completa' else 700)) or {}
+    por_n = {int(n.get('n', 0)): n for n in (r.get('noticias') or []) if isinstance(n, dict) and str(n.get('n', '')).isdigit()}
+    for i, a in enumerate(nots, 1):
+        n = por_n.get(i, {})
+        if n.get('natureza') == 'fora': continue
+        nat = n.get('natureza') if n.get('natureza') in ROT else 'contexto'
+        f['fundo'].append({'data': a.get('data', '')[:10], 'fonte': a.get('fonte'), 'url': a.get('ligacao'), 'sintese': n.get('sintese') or a.get('titulo'),
+                           'impacto': n.get('impacto', '') if nivel == 'completa' else '', 'natureza': nat, 'naturezaLabel': ROT[nat]})
+    f['enquadramento'] = (r.get('enquadramento') or '').strip() or f"{len(f['fundo'])} notícias encontradas no Radar de Notícias; enquadramento por gerar."
+    return f
 
-def ficha(item, arts):
-    termos = [t for t in re.split(r'[\s,;:()«»"]+', item['tema'].lower()) if len(t) > 4][:8]
-    cand = sorted((a for a in arts if casa(a, termos) >= 2), key=lambda a: a.get('data', ''))[-15:]
-    if not cand: return None
-    fundo = []
-    for a in cand:
-        r = json_da_resposta(perguntar(
-            "Analista da DSSD. Responde só com JSON em português europeu. Não acrescentes factos que não estejam no texto.",
-            f"""Matéria na agenda da AR: {item['tema']} ({item['data']}). Resumo: {item['resumo']}
-Notícia ({a.get('fonte')}, {a.get('data')}): {a.get('titulo')}
-{(a.get('resumo') or '')[:1500]}
-Devolve {{"sintese": "2 a 3 frases factuais", "impacto": "1 a 2 frases: como pode ser usada na sessão e por quem", "natureza": "critica"|"relevante"|"positivo"|"contexto"}}""", 350))
-        if not r: continue
-        fundo.append({'data': a.get('data'), 'fonte': a.get('fonte'), 'url': a.get('ligacao'), 'sintese': r.get('sintese', ''), 'impacto': r.get('impacto', ''), 'natureza': r.get('natureza', 'contexto'),
-                      'naturezaLabel': {'critica': 'Crítica / muito relevante', 'relevante': 'Muito relevante', 'positivo': 'Contextual / positivo', 'contexto': 'Contextual'}.get(r.get('natureza'), 'Contextual')})
-    enq = perguntar("Analista da DSSD. Português europeu, um parágrafo, sem listas, só com base nas notícias dadas.",
-                    "Escreve o enquadramento para a sessão parlamentar «" + item['tema'] + "» a partir destas sínteses:\n" + '\n'.join(f"- {f['data']} {f['fonte']}: {f['sintese']}" for f in fundo), 300)
-    return {'titulo': item['tema'], 'meta': f"{item.get('tipoLabel','')} · {item['dataLabel']}, {item.get('hora','')} · UO de referência: {' · '.join(item['uo'])}",
-            'enquadramento': enq.strip(), 'atencaoTitulo': 'Pontos de atenção (verificação de números)', 'atencao': [], 'blocos': [], 'tabelas': [], 'fundo': fundo, 'gerado_por': 'Amália — a rever'}
-
-arts = corpus()
-novas = 0
-for it in dados['destaques'] + dados['agenda']:
-    if it['pertinencia'] != 'Imediato' or it.get('varrimento'): continue
-    chave = re.sub(r'[^a-z0-9]+', '-', it['tema'].lower())[:40]
-    f = ficha(it, arts)
-    if f: dados['fichas'][chave] = f; it['varrimento'] = chave; novas += 1
-pathlib.Path('dados/agenda.json').write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding='utf-8')
-print(novas, 'fichas geradas pelo Amália, marcadas «a rever»')
+if __name__ == '__main__':
+    p = pathlib.Path('dados/agenda.json'); d = json.loads(p.read_text(encoding='utf-8'))
+    local = sys.argv[sys.argv.index('--local') + 1] if '--local' in sys.argv else None
+    alvo = [x for x in d['destaques'] + d['agenda'] if x['pertinencia'] in NIVEL and not x.get('varrimento') and not x.get('retirado')]
+    if not alvo: print('Nada a fazer.'); sys.exit(0)
+    arts = corpus(local)
+    for x in alvo:
+        chave = re.sub(r'[^a-z0-9]+', '-', (x['data'] + '-' + x['tema']).lower())[:50].strip('-')
+        d['fichas'][chave] = ficha(x, arts); x['varrimento'] = chave
+        p.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')   # grava a cada ficha: se o tempo acabar, nada se perde
+        print('ficha', d['fichas'][chave]['nivel'], len(d['fichas'][chave]['fundo']), 'notícias ·', x['tema'][:60])

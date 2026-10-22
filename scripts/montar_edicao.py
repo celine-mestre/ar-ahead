@@ -3,7 +3,8 @@
 * Semana nova  → nova edição (número + 1).
 * Mesma semana → atualização: mantém as classificações e fichas já feitas; marca as matérias
   novas («novo»), as que mudaram de ordem de trabalhos («alterado») e as que deixaram de constar («retirado»).
-* dados/correcoes.csv (chave;uo;pertinencia;assunto) — correções da Ana Luísa, aplicadas sempre por cima.
+* dados/correcoes.csv (chave;uo;pertinencia;assunto;expressoes) — correções da Ana Luísa, aplicadas sempre por cima;
+  expressoes = expressões de pesquisa separadas por | (ex.: Lusa|Luísa Meireles).
 * Escreve dados/triagem_semana.csv para a revisão e, no GitHub Actions, a saída nova_semana=sim|nao.
 """
 import json, pathlib, datetime, sys, os, csv, re
@@ -95,6 +96,7 @@ if cor_p.exists():
                     x['uo'] = [u.strip() for u in r['uo'].split(',') if u.strip() and u.strip() != '-']
                 if (r.get('pertinencia') or '').strip(): x['pertinencia'] = r['pertinencia'].strip()
                 if (r.get('assunto') or '').strip(): x['tema'] = r['assunto'].strip()
+                if (r.get('expressoes') or '').strip(): x['expressoes'] = [e.strip() for e in r['expressoes'].split('|') if e.strip()]
                 x['validado'] = True
 
 ed.update(atualizado=agora.isoformat(timespec='minutes'), atualizadoLabel=f"{extenso(agora.date(), False)}, {agora:%Hh%M}")
@@ -116,9 +118,9 @@ ag_p.write_text(json.dumps(nova, ensure_ascii=False, indent=1), encoding='utf-8'
 
 with csv_p.open('w', encoding='utf-8-sig', newline='') as f:
     w = csv.writer(f, delimiter=';')
-    w.writerow(['chave', 'data', 'hora', 'tema', 'uo', 'pertinencia', 'estado', 'revisto'])
+    w.writerow(['chave', 'data', 'hora', 'tema', 'uo', 'pertinencia', 'expressoes', 'noticias_60d', 'estado', 'revisto'])
     for x in sorted(itens, key=ordem):
-        w.writerow([x['chave'], x['data'], x.get('hora', ''), x['tema'], ','.join(x['uo']), x['pertinencia'],
+        w.writerow([x['chave'], x['data'], x.get('hora', ''), x['tema'], ','.join(x['uo']), x['pertinencia'], '|'.join(x.get('expressoes') or []), (x.get('cobertura') or {}).get('n', ''),
                     'retirado' if x.get('retirado') else 'novo' if x.get('novo') else 'alterado' if x.get('alterado') else '', 'sim' if x.get('validado') else ''])
 
 saida('nova_semana', 'sim' if nova_semana else 'nao')
