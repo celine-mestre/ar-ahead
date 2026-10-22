@@ -74,8 +74,9 @@ ar-123456;DCIRI|UPE;Vigilância;Conselho das Comunidades Portuguesas;Conselho da
 ```
 
 - A `chave` aparece em `dados/triagem_semana.csv`.
-- As unidades e as expressões de pesquisa separam-se com `|`.
+- As unidades separam-se com `,` ou `|`; as expressões de pesquisa com `|`.
 - A correção prevalece em todas as atualizações seguintes e a matéria fica marcada como validada; o Amália nunca a altera.
+- Também se aplica às matérias das semanas seguintes (por exemplo, para marcar já como «Imediato» uma grande matéria de novembro).
 - As expressões de pesquisa tornam a contagem de notícias precisa.
 
 Matérias acrescentadas à mão (por exemplo, prazos de pareceres) têm `"manual": true` e nunca são retiradas automaticamente.
@@ -88,9 +89,16 @@ Usa o mesmo esquema do Radar de Notícias: pesos abertos, `llama-cpp`, a correr 
 
 - **Triagem:** `amalia_triagem.py` propõe unidade, pertinência, assunto e expressões de pesquisa só para o que as regras não decidiram. Usa como critério as competências descritas em `dados/competencias_dssd.json`.
 - **Varrimento:** `amalia_varrimento.py` escreve as fichas apenas a partir de notícias reais do Radar de Notícias, nunca da memória do modelo. Cada notícia tem data, fonte e ligação.
-- **Revisão:** as fichas geradas pelo Amália não incluem a verificação de números, que fica para revisão humana.
+  - «Imediato»: ficha completa com até 20 notícias analisadas. «Vigilância»: ficha curta com até 8, que passa a completa quando a cobertura está a subir.
+  - A amostra é escolhida ao longo dos 60 dias: cerca de 40 % da última semana e o resto repartido pelas semanas anteriores na proporção da cobertura, com preferência pelo assunto no título e pela variedade de órgãos e de dias.
+  - As fichas são refeitas até à segunda-feira da semana da matéria quando há notícias novas, quando passam de curta a completa e quando uma ficha sem notícias passa a ter notícias.
+  - As fichas revistas por pessoas nunca são reescritas; a página mostra quantas notícias saíram desde a revisão.
+  - As matérias «Imediato» das semanas seguintes já publicadas pela AR também têm ficha com antecedência, que passa para a edição quando a semana chega.
+  - `python scripts/amalia_varrimento.py --verificar` diz o que há para fazer, sem carregar o modelo.
+- **Lista completa, sem IA:** `cobertura.py` guarda, para cada matéria, todas as notícias encontradas (até 400, as mais recentes), que a página mostra em «Notícias» e no fim de cada ficha.
+- **Revisão:** as fichas geradas pelo Amália não incluem a verificação de números, que fica para revisão humana. Para marcar uma ficha como revista, muda-se `gerado_por` em `dados/agenda.json` para o nome de quem reviu.
 
-Sem o segredo `AMALIA_GGUF_URL`, estes passos saltam e a página publica-se na mesma.
+Sem o segredo `AMALIA_GGUF_URL`, os passos do Amália saltam e a página publica-se na mesma, com a contagem e a lista completa.
 
 ---
 
