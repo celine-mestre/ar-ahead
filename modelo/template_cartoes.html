@@ -155,6 +155,16 @@ table.simples th{background:var(--azul);color:#fff;text-align:left;padding:7px 1
 footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(255,255,255,.85);padding:14px 20px;font-size:11.5px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .ftr{max-width:1320px;margin:0 auto;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap} footer strong{color:#fff}
 #impressao{display:none}
+.semanas{display:flex;gap:6px;overflow-x:auto;padding:2px 2px 8px;margin:0 0 10px;align-items:stretch;scrollbar-width:thin}
+.semanas .sl{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--suave);align-self:center;white-space:nowrap;margin-right:4px}
+.sw{flex:0 0 auto;border:1px solid var(--borda);background:#fff;border-radius:10px;padding:6px 12px;cursor:pointer;text-align:left;font:inherit;line-height:1.25;color:var(--texto);transition:.12s}
+.sw b{display:block;font-size:12.5px;font-weight:600;white-space:nowrap} .sw small{font-size:10.5px;color:var(--suave);white-space:nowrap}
+.sw.hist{background:#f1f1ef} .sw.cur{border-color:var(--azul);box-shadow:inset 0 -2px 0 var(--azul)} .sw.fut{background:#f3f6f4}
+.sw:hover{border-color:var(--azul)} .sw.on{background:var(--azul);border-color:var(--azul);color:#fff} .sw.on small{color:rgba(255,255,255,.85)}
+.cd.hist:not(.on){background:#ececea;color:#555}
+.cal-leg .sq{width:10px;height:10px;border-radius:3px;display:inline-block;margin-right:4px;vertical-align:-1px} .cal-leg .sq.hist{background:#e3e3e0} .cal-leg .sq.fut{background:#dbe8df}
+.ad-arq{background:#f7f8fa;border:1px dashed #cfd6dd;border-radius:8px;padding:7px 10px;font-size:12.5px;margin:2px 0 8px;color:var(--texto)} .ad-arq a{font-weight:600} .ad-arq.fut{background:#f3f6f4;color:var(--suave)}
+a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{background:var(--verde);opacity:.55;border-radius:2px}
 .cd.cal-ar::after{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);width:14px;height:2px;border-radius:1px;background:var(--verde);opacity:.55}
 .cd.fut:not(.on){background:#f3f6f4}
 .frente{background:#fff;border:1px solid var(--borda);border-radius:12px;padding:12px 16px;margin:6px 0 10px}
@@ -225,7 +235,7 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
 @media print{
   @page{size:A4;margin:11mm}
   body{background:#fff;font-size:10px}
-  .barra,.veu,.gaveta,.c-mais,.c-foot .ver,.kpi,.cal-top button,.cal-leg .limpar,.ad .mais-ad{display:none!important}
+  .semanas,.ad-arq,.barra,.veu,.gaveta,.c-mais,.c-foot .ver,.kpi,.cal-top button,.cal-leg .limpar,.ad .mais-ad{display:none!important}
   .hdr{padding:6px 0} .brand img{height:34px} .titulo h1{font-size:17px} .titulo .semana{font-size:12px}
   main{max-width:none;padding:0}
   .kpis{display:none}
@@ -292,8 +302,9 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
 
 <main>
   <div class="kpis" id="kpis"></div>
+  <div class="semanas" id="semanas" hidden></div>
   <div class="cal-wrap">
-    <div class="cal"><div class="cal-top"><button id="cal-ant" aria-label="Mês anterior">‹</button><b id="cal-mes"></b><button id="cal-seg" aria-label="Mês seguinte">›</button></div><div class="cal-g" id="cal-g"></div><div class="cal-leg"><span><i class="ime"></i>imediato</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><button class="limpar" id="cal-limpar" hidden>Limpar seleção</button></div></div>
+    <div class="cal"><div class="cal-top"><button id="cal-ant" aria-label="Mês anterior">‹</button><b id="cal-mes"></b><button id="cal-seg" aria-label="Mês seguinte">›</button></div><div class="cal-g" id="cal-g"></div><div class="cal-leg"><span><i class="ime"></i>imediato</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span><b class="sq hist"></b>edições anteriores</span><span><b class="sq fut"></b>semanas seguintes</span><button class="limpar" id="cal-limpar" hidden>Limpar seleção</button></div></div>
     <div class="ad"><div class="ad-top"><b id="ad-titulo">Agenda da semana</b><span id="ad-sub"></span></div><div id="ad-lista"></div></div>
   </div>
   <h2 id="t-destaques"><svg class="ic"><use href="#i-layers"/></svg>Destaques com varrimento mediático<small id="n-destaques"></small></h2>
@@ -324,7 +335,7 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
   let D = JSON.parse(document.getElementById('dados').textContent);
   const p = new URLSearchParams(location.search).get('data');
   const fonte = p || (location.protocol.startsWith('http') ? 'agenda.json' : null);
-  if (fonte) { try { const r = await fetch(fonte, {cache:'no-store'}); if (r.ok) D = await r.json(); } catch(e) {} }
+  if (fonte) { try { const r = await fetch(fonte, {cache:'no-store'}); if (r.ok) { const E = D; D = await r.json(); if (!D.historico) D.historico = E.historico; } } catch(e) {} }
 
   const $ = s => document.querySelector(s);
   const esc = s => String(s??'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -381,10 +392,41 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
   const semanaIso = new Set(); { const d0=new Date(D.edicao.inicio+'T00:00:00'); for(let i=0;i<7;i++){ const d=new Date(d0); d.setDate(d0.getDate()+i); semanaIso.add(iso(d)); } }
   const futuros = (D.futuro||[]).map(x=>({...x,_fut:true}));
   const calAR = {}; (D.calendarizacao||[]).forEach(c=>{ (calAR[c.data]=calAR[c.data]||[]).push(c); });
-  const pool = todos.concat(futuros);
+  // histórico: edições anteriores embebidas pelo gerar.py (D.historico), navegáveis no calendário
+  const HIST = (D.historico||[]).slice().sort((a,b)=>a.inicio.localeCompare(b.inicio));
+  const BASE_ED = /\/edicoes\/[^/]*$/.test(location.pathname) ? './' : 'edicoes/';
+  const nomeEd = e => e.numero ? `Edição n.º ${e.numero}` : 'Edição piloto';
+  const hist = HIST.flatMap(e => (e.itens||[]).map(x => ({...x, uo:x.uo||[], dataLabel:fmtD(x.data), _hist:e})));
+  const edDe = k => HIST.find(e => k>=e.inicio && k<=e.fim);
+  const pool = todos.concat(futuros, hist);
   const datasComAgenda = new Set(pool.map(x=>x.data));
-  st.dias = new Set();
+  st.dias = new Set(); st.semana = null;
+  const iniSem = [...semanaIso].sort()[0], fimSemAtual = [...semanaIso].sort().pop();
   let calMes = new Date(D.edicao.inicio+'T00:00:00'); calMes = new Date(calMes.getFullYear(), calMes.getMonth(), 1);
+  // seletor de semanas: edições anteriores · semana em curso · semanas seguintes já publicadas pela AR
+  const segDe = k => { const x=new Date(k+'T00:00:00'); x.setDate(x.getDate()-((x.getDay()+6)%7)); return iso(x); };
+  const diasDe = k => { const s=new Date(k+'T00:00:00'); return [...Array(7)].map((_,i)=>{ const d=new Date(s); d.setDate(s.getDate()+i); return iso(d); }); };
+  const rotSem = k => { const a=new Date(k+'T00:00:00'), b=new Date(a); b.setDate(a.getDate()+6); const m=['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez']; return a.getMonth()===b.getMonth() ? `${a.getDate()}–${b.getDate()} ${m[b.getMonth()]}` : `${a.getDate()} ${m[a.getMonth()]}–${b.getDate()} ${m[b.getMonth()]}`; };
+  const SEMANAS = (() => {
+    const s = {};
+    HIST.forEach(e => { s[segDe(e.inicio)] = {tipo:'hist', sub: nomeEd(e).replace('Edição ',''), ed:e}; });
+    s[segDe(iniSem)] = {tipo:'cur', sub: `${D.edicao.numero ? 'n.º '+D.edicao.numero : 'piloto'} · esta edição`};
+    futuros.forEach(x => { const k=segDe(x.data); if (k>fimSemAtual) { s[k] = s[k] || {tipo:'fut', n:0}; s[k].n = (s[k].n||0)+1; } });
+    Object.keys(calAR).forEach(d => { const k=segDe(d); if (k>fimSemAtual && !s[k]) s[k] = {tipo:'fut', n:0}; });
+    Object.values(s).forEach(v => { if (v.tipo==='fut') v.sub = v.n ? `${v.n} ${v.n===1?'reunião':'reuniões'} publicada${v.n===1?'':'s'}` : 'calendarização AR'; });
+    return Object.keys(s).sort().map(k => ({k, ...s[k]}));
+  })();
+  function renderSemanas(){
+    const el = $('#semanas'); if (SEMANAS.length < 2) { el.hidden = true; return; }
+    el.hidden = false;
+    el.innerHTML = `<span class="sl">Semanas</span>` + SEMANAS.map(w => `<button class="sw ${w.tipo} ${st.semana===w.k?'on':''}" data-sw="${w.k}"><b>${rotSem(w.k)}</b><small>${esc(w.sub)}</small></button>`).join('');
+  }
+  $('#semanas').addEventListener('click', e => {
+    const b = e.target.closest('[data-sw]'); if (!b) return; const k = b.dataset.sw;
+    if (st.semana === k) { st.semana = null; st.dias.clear(); }
+    else { st.semana = k; st.dias = k===segDe(iniSem) ? new Set() : new Set(diasDe(k)); const d=new Date(k+'T00:00:00'); calMes = new Date(d.getFullYear(), d.getMonth(), 1); }
+    render(); $('.cal-wrap').scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
   const limMin = new Date([...datasComAgenda].sort()[0]+'T00:00:00'), limMax = new Date([...datasComAgenda, ...Object.keys(calAR)].sort().pop()+'T00:00:00');
   const visiveis = x => st.pert.has(x.pertinencia) && (!st.uo || (st.uo==='Transversal'?x.uo.includes('Transversal'):x.uo.includes(st.uo))) && (!st.q || [x.tema,x.interveniente,x.resumo,x.tipoLabel,x.ordemTrabalhos].join(' ').toLowerCase().includes(st.q));
   function renderCal(){
@@ -402,28 +444,36 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
       const ni=its.filter(x=>x.pertinencia==='Imediato').length, nv=its.filter(x=>x.pertinencia==='Vigilância').length, nr=its.length-ni-nv;
       const vazio = !datasComAgenda.has(k);
       const pts = vazio?'':`<span class="pts">${ni?'<i class="ime"></i>':''}${nv?'<i class="vig"></i>':''}${nr?'<i></i>':''}</span>`;
-      h += `<button class="cd ${fora?'fora':''} ${semanaIso.has(k)?'semana':''} ${!vazio?'edicao':'vazio'} ${st.dias.has(k)?'on':''} ${k===hojeIso?'hoje':''} ${cal?'cal-ar':''} ${k>[...semanaIso].sort().pop()?'fut':''}" data-cd="${k}" ${vazio?'disabled':''} title="${esc([vazio?'sem agenda publicada':`${tot} matérias`].concat(cal?cal.map(c=>c.atividade+(c.horas?' '+c.horas:'')):[]).join(' · '))}"><span class="cn">${d.getDate()}</span>${pts}${!vazio&&its.length?`<span class="cnt">${its.length}</span>`:''}</button>`;
+      const ed = k < iniSem ? edDe(k) : null;
+      h += `<button class="cd ${fora?'fora':''} ${semanaIso.has(k)?'semana':''} ${!vazio?'edicao':'vazio'} ${st.dias.has(k)?'on':''} ${k===hojeIso?'hoje':''} ${cal?'cal-ar':''} ${k>fimSemAtual?'fut':''} ${ed&&!vazio?'hist':''}" data-cd="${k}" ${vazio&&!cal?'disabled':''} title="${esc([vazio?'sem agenda publicada':`${tot} matérias`+(ed?' · '+nomeEd(ed):'')].concat(cal?cal.map(c=>c.atividade+(c.horas?' '+c.horas:'')):[]).join(' · '))}"><span class="cn">${d.getDate()}</span>${pts}${!vazio&&its.length?`<span class="cnt">${its.length}</span>`:''}</button>`;
     }
     $('#cal-g').innerHTML = h; $('#cal-limpar').hidden = !st.dias.size;
   }
-  $('#cal-g').addEventListener('click', e => { const b = e.target.closest('[data-cd]'); if (!b || b.disabled) return; const k=b.dataset.cd; st.dias.has(k)?st.dias.delete(k):st.dias.add(k); render(); });
-  $('#cal-limpar').addEventListener('click', () => { st.dias.clear(); render(); });
+  $('#cal-g').addEventListener('click', e => { const b = e.target.closest('[data-cd]'); if (!b || b.disabled) return; const k=b.dataset.cd; if (st.semana) { st.semana = null; st.dias.clear(); } st.dias.has(k)?st.dias.delete(k):st.dias.add(k); render(); });
+  $('#cal-limpar').addEventListener('click', () => { st.dias.clear(); st.semana = null; render(); });
   $('#cal-ant').addEventListener('click', () => { calMes = new Date(calMes.getFullYear(), calMes.getMonth()-1, 1); renderCal(); });
   $('#cal-seg').addEventListener('click', () => { calMes = new Date(calMes.getFullYear(), calMes.getMonth()+1, 1); renderCal(); });
   const horaNum = h => { const m = /^(\d{1,2})h(\d{2})?/.exec(h||''); return m ? parseInt(m[1])*60+parseInt(m[2]||'0') : 9999; };
   function renderAgendaDia(){
     const dias = st.dias.size ? [...st.dias].sort() : [...semanaIso].sort();
     const sel = st.dias.size;
-    $('#ad-titulo').textContent = sel ? (dias.length===1 ? `Agenda de ${NOMES[new Date(dias[0]+'T00:00:00').getDay()]}, ${parseInt(dias[0].slice(8))} de ${MESES[parseInt(dias[0].slice(5,7))-1]}` : `Agenda dos ${dias.length} dias selecionados`) : 'Agenda da semana, hora a hora';
+    const semSel = st.semana && st.semana!==segDe(iniSem) ? st.semana : null;
+    $('#ad-titulo').textContent = semSel ? `Semana de ${rotSem(semSel)}, hora a hora` : sel ? (dias.length===1 ? `Agenda de ${NOMES[new Date(dias[0]+'T00:00:00').getDay()]}, ${parseInt(dias[0].slice(8))} de ${MESES[parseInt(dias[0].slice(5,7))-1]}` : `Agenda dos ${dias.length} dias selecionados`) : 'Agenda da semana, hora a hora';
     let total = 0, h = '';
+    // edições anteriores envolvidas na seleção: ligação para a edição completa (cartões e varrimentos)
+    const eds = [...new Set(dias.filter(k=>k<iniSem).map(edDe).filter(Boolean))];
+    h += eds.map(e => `<div class="ad-arq"><svg class="ic"><use href="#i-layers"/></svg> Arquivo · ${esc(nomeEd(e))} (${esc(e.semana)}). <a href="${esc(BASE_ED+e.ficheiro)}">Abrir a edição completa ›</a></div>`).join('');
+    if (sel && dias.some(k=>k>fimSemAtual)) h += `<div class="ad-arq fut">Semanas seguintes: o que a Assembleia da República já publicou, ainda sem triagem completa nem varrimento. Pode mudar até à data.</div>`;
     dias.forEach(k => {
       const its = pool.filter(x=>x.data===k && visiveis(x)).sort((a,b)=>horaNum(a.hora)-horaNum(b.hora));
+      const cal = calAR[k] || [];
       if (!its.length && !sel) return;
+      if (!its.length && semSel && !cal.length && !datasComAgenda.has(k)) return;   // semana selecionada: omite dias vazios
       const d = new Date(k+'T00:00:00');
-      h += `<div class="ad-dia">${NOMES[d.getDay()]}, ${d.getDate()} de ${MESES[d.getMonth()]}${datasComAgenda.has(k)?` · ${its.length}`:' · sem agenda publicada'}</div>`;
-      if (!its.length) { h += `<div class="vazio-ad">${datasComAgenda.has(k)?'Nada corresponde aos filtros neste dia.':'Nenhuma reunião publicada para este dia à data de fecho.'}</div>`; return; }
+      h += `<div class="ad-dia">${NOMES[d.getDay()]}, ${d.getDate()} de ${MESES[d.getMonth()]}${datasComAgenda.has(k)?` · ${its.length}`:cal.length?' · calendarização':' · sem agenda publicada'}</div>`;
+      if (!its.length) { h += cal.length && !datasComAgenda.has(k) ? cal.map(c=>`<div class="ev cal-ev"><span class="h">${esc(c.horas||'—')}</span><span class="d"></span><span class="t"><b>${esc(c.atividade)}</b><small>Calendarização da Assembleia da República · ordem de trabalhos ainda não publicada</small></span></div>`).join('') : `<div class="vazio-ad">${datasComAgenda.has(k)?'Nada corresponde aos filtros neste dia.':'Nenhuma reunião publicada para este dia à data de fecho.'}</div>`; return; }
       total += its.length;
-      h += its.map(x => `<div class="ev" data-ir-cartao="${esc(x.data+'|'+x.tema)}"><span class="h">${esc(x.hora||'—')}</span><span class="d ${(PERT[x.pertinencia]||['reg'])[0]}"></span><span class="t"><b>${esc(x.tema)}</b>${x.novo||x.alterado?'<span class="nv" title="novo ou alterado"></span>':''}${x.uo.length?x.uo.slice(0,3).map(u=>`<span class="tag ${u==='Transversal'?'transv':''}">${esc(u)}</span>`).join(''):''}${x.varrimento?`<a href="#" class="vr" data-ver="${esc(x.varrimento)}">varrimento ›</a>`:''}<small>${esc(x.tipoLabel)}${x.interveniente&&x.interveniente!=='—'?` · ${esc(x.interveniente)}`:''}</small></span></div>`).join('');
+      h += its.map(x => x._hist ? `<a class="ev arq" href="${esc(BASE_ED+x._hist.ficheiro)}" title="Abrir a ${esc(nomeEd(x._hist).toLowerCase())}"><span class="h">${esc(x.hora||'—')}</span><span class="d ${(PERT[x.pertinencia]||['reg'])[0]}"></span><span class="t"><b>${esc(x.tema)}</b>${x.uo.slice(0,3).map(u=>`<span class="tag ${u==='Transversal'?'transv':''}">${esc(u)}</span>`).join('')}${x.varrimento?`<span class="vr">com varrimento</span>`:''}<small>${esc(x.tipoLabel||'')}${x.interveniente&&x.interveniente!=='—'?` · ${esc(x.interveniente)}`:''}</small></span></a>` : `<div class="ev" data-ir-cartao="${esc(x.data+'|'+x.tema)}"><span class="h">${esc(x.hora||'—')}</span><span class="d ${(PERT[x.pertinencia]||['reg'])[0]}"></span><span class="t"><b>${esc(x.tema)}</b>${x.novo||x.alterado?'<span class="nv" title="novo ou alterado"></span>':''}${x.uo.length?x.uo.slice(0,3).map(u=>`<span class="tag ${u==='Transversal'?'transv':''}">${esc(u)}</span>`).join(''):''}${x.varrimento?`<a href="#" class="vr" data-ver="${esc(x.varrimento)}">varrimento ›</a>`:''}<small>${esc(x.tipoLabel)}${x.interveniente&&x.interveniente!=='—'?` · ${esc(x.interveniente)}`:''}</small></span></div>`).join('');
     });
     $('#ad-sub').textContent = `${total} ${total===1?'matéria':'matérias'}${st.pert.has('Registo')?'':' · registo oculto'}`;
     $('#ad-lista').innerHTML = h || `<div class="vazio-ad">Nada corresponde aos filtros.</div>`;
@@ -476,6 +526,7 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
       <div class="c-foot">${foot}</div>
     </article>`;
   }
+  const foraDaSemana = () => st.dias.size && [...st.dias].every(k=>!semanaIso.has(k));
   function render(){
     // chips
     cUO.querySelectorAll('[data-uo]').forEach(b=>b.classList.toggle('on', (b.dataset.uo||null)===st.uo));
@@ -486,12 +537,12 @@ footer{background:var(--grad);border-top:3px solid var(--vermelho);color:rgba(25
     const n = k => base.filter(x=>x.pertinencia===k).length;
     const nNov = todos.filter(x=>x.novo||x.alterado).length;
     $('#kpis').innerHTML = `<div class="kpi var" data-kpi="varr"><b>${D.destaques.length}</b><span>destaques com varrimento</span></div><div class="kpi ime" data-kpi="Imediato"><b>${n('Imediato')}</b><span>imediato${st.uo?' · '+esc(st.uo):''}</span></div><div class="kpi vig" data-kpi="Vigilância"><b>${n('Vigilância')}</b><span>em vigilância</span></div><div class="kpi reg" data-kpi="Registo"><b>${n('Registo')}</b><span>registo</span></div><div class="kpi" data-kpi="varr"><b>${todos.filter(x=>!x.uo.length).length}</b><span>sem unidade atribuída</span></div>${nNov?`<div class="kpi nov ${st.novidades?'on':''}" data-kpi="nov"><b>${nNov}</b><span>novas ou alteradas${D.edicao.desdeLabel?' desde '+esc(D.edicao.desdeLabel):''}</span></div>`:''}`;
-    renderCal(); renderAgendaDia();
+    renderSemanas(); renderCal(); renderAgendaDia();
     // grelhas
     const ds = todos.filter(x=>x._d && passa(x)), ag = todos.filter(x=>!x._d && passa(x));
     $('#n-destaques').textContent = `${ds.length} de ${D.destaques.length}`; $('#n-agenda').textContent = `${ag.length} de ${D.agenda.length}`;
-    $('#g-destaques').innerHTML = ds.length ? ds.map(cartao).join('') : `<div class="vazio-msg">Nenhum destaque corresponde aos filtros.</div>`;
-    $('#g-agenda').innerHTML = ag.length ? ag.map(cartao).join('') : `<div class="vazio-msg">Nenhuma matéria corresponde aos filtros${st.pert.has('Registo')?'':' · as matérias de «Registo» estão ocultas'}.</div>`;
+    $('#g-destaques').innerHTML = ds.length ? ds.map(cartao).join('') : `<div class="vazio-msg">${foraDaSemana()?'Os cartões são da edição em curso. Para os dias selecionados, veja a agenda hora a hora acima.':'Nenhum destaque corresponde aos filtros.'}</div>`;
+    $('#g-agenda').innerHTML = ag.length ? ag.map(cartao).join('') : `<div class="vazio-msg">${foraDaSemana()?'Os cartões são da edição em curso. Para os dias selecionados, veja a agenda hora a hora acima':'Nenhuma matéria corresponde aos filtros'}${foraDaSemana()?'':st.pert.has('Registo')?'':' · as matérias de «Registo» estão ocultas'}.</div>`;
   }
   document.body.addEventListener('click', e => {
     const m = e.target.closest('[data-mais]'); if (m){ const p=m.previousElementSibling; p.classList.toggle('clamp'); m.textContent = p.classList.contains('clamp')?'Ver tudo':'Ver menos'; return; }
