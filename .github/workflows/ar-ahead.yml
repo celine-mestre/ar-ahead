@@ -18,6 +18,8 @@ jobs:
   recolha:
     if: github.event.schedule == '7 12 * * 5' || github.event.inputs.passo == 'recolha'
     runs-on: ubuntu-latest
+    env:
+      SMTP_OK: ${{ secrets.SMTP_SERVER != '' && 'sim' || 'nao' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,10 +27,13 @@ jobs:
       - run: python scripts/recolher_agenda.py
       - run: python scripts/triar.py
       - name: "Amália — triagem do que as regras não decidiram (só descarrega o modelo se houver matérias sem unidade)"
+        env:
+          AMALIA_GGUF_URL: ${{ secrets.AMALIA_GGUF_URL }}
         run: |
-          pip install llama-cpp-python
+          if [ -z "$AMALIA_GGUF_URL" ]; then echo "Segredo AMALIA_GGUF_URL por criar — passo saltado"; exit 0; fi
           if python -c "import json,sys; d=json.load(open('dados/triagem_proposta.json')); sys.exit(0 if any(not i['uo'] for i in d['itens']) else 1)"; then
-            mkdir -p modelos && curl -L -o modelos/amalia.gguf "${{ secrets.AMALIA_GGUF_URL }}"
+            pip install llama-cpp-python
+            mkdir -p modelos && curl -L -o modelos/amalia.gguf "$AMALIA_GGUF_URL"
             python scripts/amalia_triagem.py
           else echo "nada para o Amália"; fi
       - name: Guardar proposta de triagem no repositório
@@ -37,7 +42,8 @@ jobs:
           git add dados/agenda_bruta.json dados/triagem_proposta.json
           git commit -m "Recolha da agenda e proposta de triagem" || echo "sem alterações"
           git push
-      - name: Avisar a Ana Luísa (email com a proposta em anexo)
+      - name: Avisar a Ana Luísa (email com a proposta em anexo; só se os segredos SMTP existirem)
+        if: env.SMTP_OK == 'sim'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_SERVER }}
@@ -53,6 +59,8 @@ jobs:
   publicar:
     if: github.event.schedule == '7 9 * * 1' || github.event.inputs.passo == 'publicar'
     runs-on: ubuntu-latest
+    env:
+      SMTP_OK: ${{ secrets.SMTP_SERVER != '' && 'sim' || 'nao' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -61,22 +69,41 @@ jobs:
         with: { node-version: '20' }
       - run: npm i playwright && npx playwright install --with-deps chromium
       - name: "Amália — fichas de varrimento para os «Imediato» sem ficha (a partir do corpus do Radar)"
+        env:
+          AMALIA_GGUF_URL: ${{ secrets.AMALIA_GGUF_URL }}
         run: |
-          pip install llama-cpp-python
+          if [ -z "$AMALIA_GGUF_URL" ]; then echo "Segredo AMALIA_GGUF_URL por criar — passo saltado"; exit 0; fi
           if python -c "import json,sys; d=json.load(open('dados/agenda.json')); sys.exit(0 if any(i['pertinencia']=='Imediato' and not i.get('varrimento') for i in d['destaques']+d['agenda']) else 1)"; then
-            mkdir -p modelos && curl -L -o modelos/amalia.gguf "${{ secrets.AMALIA_GGUF_URL }}"
+            pip install llama-cpp-python
+            mkdir -p modelos && curl -L -o modelos/amalia.gguf "$AMALIA_GGUF_URL"
             python scripts/amalia_varrimento.py
           else echo "todas as matérias imediatas têm ficha"; fi
       - run: python scripts/gerar.py dados/agenda.json saida/ar-ahead.html
       - run: node scripts/pdf.js saida/ar-ahead.html saida/ar-ahead.pdf
       - run: python scripts/email_resumo.py dados/agenda.json > saida/email.html
+      - name: Disponibilizar a edição para descarregar (página da execução › Artifacts)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ar-ahead-edicao
+          path: saida/
+          retention-days: 90
+      - name: Preparar a página pública (docs/ → GitHub Pages)
+        run: |
+          mkdir -p docs/edicoes
+          cp saida/ar-ahead.html docs/index.html
+          cp saida/ar-ahead.pdf docs/ar-ahead.pdf
+          cp dados/agenda.json docs/agenda.json
+          N=$(python -c "import json;print(json.load(open('dados/agenda.json',encoding='utf-8'))['edicao']['numero'])")
+          cp saida/ar-ahead.html "docs/edicoes/n$(printf %02d $N).html"
+          touch docs/.nojekyll
       - name: Guardar edição no repositório
         run: |
           git config user.name "ar-ahead-bot"; git config user.email "upe@sggoverno.gov.pt"
-          git add saida/
+          git add saida/ docs/
           git commit -m "Edição semanal publicada" || echo "sem alterações"
           git push
-      - name: Enviar aos dirigentes
+      - name: Enviar aos dirigentes (só se os segredos SMTP existirem)
+        if: env.SMTP_OK == 'sim'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_SERVER }}
