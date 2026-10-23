@@ -42,7 +42,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -76,7 +76,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -110,7 +110,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -144,7 +144,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -178,7 +178,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -209,7 +209,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -240,7 +240,7 @@
     "n7": 0,
     "n7ant": 1,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "2026-10-10 11:55",
     "ultimas": [
@@ -482,12 +482,19 @@
   "fim": "2026-11-01",
   "fecho": "2026-10-22",
   "fechoLabel": "22 de outubro de 2026",
-  "alteracoes": [],
-  "atualizado": "2026-10-22T23:00+01:00",
-  "atualizadoLabel": "22 de outubro, 23h00",
+  "alteracoes": [
+   {
+    "data": "2026-10-23",
+    "novos": 4,
+    "alterados": 0,
+    "retirados": 0
+   }
+  ],
+  "atualizado": "2026-10-23T13:35+01:00",
+  "atualizadoLabel": "23 de outubro, 13h35",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
-  "aviso": "6 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
+  "aviso": "7 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
  },
  "fichas": {
   "oe": {
@@ -595,7 +602,7 @@
     "ultima": "2026-10-22 20:02",
     "em": "2026-10-22"
    },
-   "novas": 0
+   "novas": 18
   }
  },
  "destaques": [
@@ -639,34 +646,148 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 951,
-    "n7": 50,
-    "n7ant": 216,
+    "n": 971,
+    "n7": 63,
+    "n7ant": 116,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "expressoes",
-    "ultima": "2026-10-22 20:02",
+    "ultima": "2026-10-23 12:18",
     "ultimas": [
      {
-      "data": "2026-10-22",
-      "fonte": "ECO",
-      "titulo": "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
-      "url": "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/"
+      "data": "2026-10-23",
+      "fonte": "Jornal Económico",
+      "titulo": "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
+      "url": "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
      },
      {
-      "data": "2026-10-22",
-      "fonte": "Diário de Notícias",
-      "titulo": "OE2027: Raimundo diz que Chega “está todo contente” com “frete” do PS",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlJqWGQyUkM1TEtZOXo1U2F5aXJEQ3dMa2lEQXRocm45ejNCTTduVEZOUVJDTXNsOFRIN2Z1OXQ0TUZHZmg3TVlLM3VWMjhGZFhIRU1rUVZsRnVaX3NiVFJUUkh6ZnF0SHI0TFZaZnV6eHF6bmlqQ1luNlhDbVJzckVHNzJnMGhtNG9OcFgzSlotYWszaktGUTJySQ?oc=5"
+      "data": "2026-10-23",
+      "fonte": "RTP Notícias",
+      "titulo": "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
      },
      {
-      "data": "2026-10-22",
+      "data": "2026-10-23",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Financiamento às corporações de bomberios vai aumentar mais de 5%",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGl5Vk1LN3F1ZXBGc0YtTERPVzV6LWVXRkVReHdpQXpRVXVpVUQzdDFTa21nOUZBay1DbUhySDVmeVVBQnhhZ1phb1N2UzFMemFnMjI4Zm1ONEc2N09FNkNqUGY2MlNPMFFpcjE4UDRKTmZqTV9fRFdHSjVUZ19OdFN6LUNMZHJWZldvNmgwY1VYYzV4SVZBdk1JZGNLbm93S1RscHJHNA?oc=5"
+      "titulo": "OE2027: Governo quer começar a discutir redução da derrama estadual de IRC em 2028, garante Sarmento",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkF1NXIzU01STTlsd19IbFkwSjNPakljLXFsek1QZC1DWGdZbl81b21hR19XbUtXNkpDQnRna2UyUk9yT0ZzMHNHWkg3M2EtZ3dRWk1aQWhfWE9FdmNVTnI0R0xYOWdLdnY1T3JrOVg4SHh3QlJhSVhxUUp2WUFLR25pY2NaRThBQ19JU3ZLZkdCWV8yVGhnVUZsX1FkSklJbzQxalpWU21fR0EyM3JNSzlBNzJDeW5WMHVJQ1RzNWk?oc=5"
      }
     ],
     "todas": [
+     [
+      "2026-10-23 12:18",
+      "Jornal Económico",
+      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+     ],
+     [
+      "2026-10-23 12:18",
+      "RTP Notícias",
+      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
+      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
+     ],
+     [
+      "2026-10-23 12:06",
+      "Executive Digest",
+      "OE2027: Governo quer começar a discutir redução da derrama estadual de IRC em 2028, garante Sarmento",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkF1NXIzU01STTlsd19IbFkwSjNPakljLXFsek1QZC1DWGdZbl81b21hR19XbUtXNkpDQnRna2UyUk9yT0ZzMHNHWkg3M2EtZ3dRWk1aQWhfWE9FdmNVTnI0R0xYOWdLdnY1T3JrOVg4SHh3QlJhSVhxUUp2WUFLR25pY2NaRThBQ19JU3ZLZkdCWV8yVGhnVUZsX1FkSklJbzQxalpWU21fR0EyM3JNSzlBNzJDeW5WMHVJQ1RzNWk?oc=5"
+     ],
+     [
+      "2026-10-23 12:01",
+      "Jornal Económico",
+      "AGEFE propõe incentivos fiscais à transição verde e digital no Orçamento do Estado para 2027",
+      "https://jornaleconomico.sapo.pt/noticias/agefe-propoe-incentivos-fiscais-a-transicao-verde-e-digital-no-orcamento-do-estado-para-2027/"
+     ],
+     [
+      "2026-10-23 11:49",
+      "Notícias ao Minuto",
+      "PS garante que propostas ao OE2027 não agravam saldo orçamental",
+      "https://www.noticiasaominuto.com/politica/3071724/ps-garante-que-propostas-ao-oe2027-nao-agravam-saldo-orcamental#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-23 11:44",
+      "Executive Digest",
+      "OE2027: Governo já tomou \"muitas medidas\" na habitação mas efeitos levam tempo, diz Sarmento",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRUhNWDdyOWF5SmwyWmU5MGQzU1puTVFqYnU4cjN0b3BqdmR4WnJHSXJBcV9NUkw5a0JESGJWWU1PSF9lNVpwaGhyQVZsX3RTUG85VHFVbUJXZ0lBZm1NSHhpYjNXRzh5R3VMS1ZXZWFEcklGbm52X1lZaFd0b2pRckhuVXpJZzV2SHgweURWZFQzbmhUU3o2WHhubFgzNVNCNHJrcUp5RjQ1RUNXWk1GLUM1eklxbHps?oc=5"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
+     ],
+     [
+      "2026-10-23 11:30",
+      "Executive Digest",
+      "Católica Porto SBE e PwC juntam Governo e empresas para analisar o Orçamento do Estado para 2027",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTnN1NHhYRWFpb1QxY29tSnlHNU1mb2xZUFphNjZ3aXVCeF9wcDYwd0p5dl8xZlRTU3V6ZXMxbXItal9xaGVLLWt1VW9iU0JabnEyNUYyRl9nNGdrb3lUUHZXM1Nha1RUaWFsejRwVmRKQUx2STJoYWtpcDhJckNDd0d4dWRTR1BMSGRiUGh3TkhCMHRyREo1Q2JUaEx6cV9NY25jTEU5d01rVlFsaGZqekhadGNrY1owblY1WmwwMFNmamlMbnBZQQ?oc=5"
+     ],
+     [
+      "2026-10-23 11:20",
+      "Executive Digest",
+      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVnE5VlpNSV93NC12Xy1PYkJKUmE1X09qV0syT1V6WGRaUmlzNngzSGJMTHEtYlRjdmNqVlVrSTFrREcwSlZVS0JrT2tzQWsxNnVPaHk5akliLU9ybTlnSnpjdmZkZzdYWko1MEtQOVV6dzVvQ0toa1l2d0kwOE8zbDBXRDNfVlNYM1RPaldDdnhuZEs3QnZUbVpNckxaalN3dE9WVW56c2ZSOGUyMmxVUm8zRU5sV2VaV3hiSkMwNmJtamJzbWtqRGVhNHBlR05lZTdvUDRFcw?oc=5"
+     ],
+     [
+      "2026-10-23 10:57",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
+     ],
+     [
+      "2026-10-23 10:54",
+      "Notícias ao Minuto",
+      "STI alerta sobre fragilização da Autoridade Tributária no OE2027",
+      "https://www.noticiasaominuto.com/pais/3071677/sti-alerta-sobre-fragilizacao-da-at-no-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-23 10:33",
+      "Executive Digest",
+      "AGEFE quer incentivos fiscais para acelerar transição verde e digital no OE 2027",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT1RWclQ3SW5jQndDeXZLMU1sdGJlRFpiY0wwa3d1emU5VGE4Sk5FOWg1T2JaRnV3RE82cFk2a3F5SWtRQW9hdFNMZ3VXN29GMndNOW5RYUFkZTVDNkxXQVF0WlN4dE5RaGNvc2Q3N0NRa0lsT2MxUXhfUzFqSy13cWtiUVd5OUQ1S2F1U3lNeXkzVWEyWUNDRjFuLXdwaGVIMnI4aFI0SERpcEhzU2xXZ3MxRQ?oc=5"
+     ],
+     [
+      "2026-10-23 10:17",
+      "ECO",
+      "PS só viabiliza OE2027 se houver medidas para combater o custo de vida",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ0UybWdwXzhnbXZydzB6V1hxWFNiUHIxZXhjWnFQVG12S1lkNThtZm5mcU93YmhpOFpQT2pzMy1uY19qRmtqQk1IZkhYWkpERTdwbHFKdVhlYUppVVo4bHh5d2pBcGt5V1VrTHNONUtyYXl1bDhCemhwOE8wNWZ2UW9wY0pxdlNKUnNnd2JRRjlrak5rcjNsdU9VaUJwdlNxcUJDMA?oc=5"
+     ],
+     [
+      "2026-10-23 08:35",
+      "Renascença",
+      "🔴 Ministro das Finanças no Parlamento: Veja em direto a audição sobre o OE 2027",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWVRTMjJSakhwSVpqaUsweWNQZE1Yc1lJS2pSZGozM0ZwcFVKbDBEWVNPNjVmb1E0X2t4UGNTVnRGMUhXTE1sMkdPenR5ZmpXYWZaaWhLSmJtc2hXa2IyUG43RVZWSVBCODZkQWQzWHIwXzZRYkdMeEtHdzVablpfQjAybC1XRXZPX3Fucm1MZWZxTHJybkVfOTJva2FmTXVXSzJRN2ptTnprV2tVeWc?oc=5"
+     ],
+     [
+      "2026-10-23 08:11",
+      "Diário de Notícias",
+      "OE2027: Medina elogia redução da dívida, mas critica rigidez da despesa",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY1FqZUR1VkxudENaYXhHcGtFMzRSQ044QS0wM1NKdkJlVU9JTDFJbW9yZjdLS3dGeTd5R3lTM2RCcjF0Snd2STd6VTVrNmpJVXVuUkN2a1JFbktqVE52b3ByVFVIbHQ5Z2NadUkxcW1RYkhmOFd0NzBaQlJfOUJrNHRVQURncEc3REFZZ2ZMeW1sNTkxczhXMWdFSkY4dWM?oc=5"
+     ],
+     [
+      "2026-10-23 08:09",
+      "Diário de Notícias",
+      "OE2027: Miranda Sarmento ouvido no arranque da discussão na generalidade",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGhfdGRGR05SR2FUOWYyYWZtVy1ITXp3RVhmYjc2VklFZHg0Ym9sZV9YQ1FSdWFzdERySnpNS2p3YlRmM0dDSVFjazBpWDFwWDUzNUJRcUk1clZUMXZLUXFrZ2oyakd1czc5Z2dvWDFUNjV6Uzc0OXdCRlliSXY5aWtXdUFZR2RGeHFiUVBGa1RlaDhxSkczaG1ENnBwUQ?oc=5"
+     ],
+     [
+      "2026-10-23 06:49",
+      "Notícias ao Minuto",
+      "Ministro Miranda Sarmento ouvido no arranque da discussão do OE2027",
+      "https://www.noticiasaominuto.com/economia/3071576/ministro-miranda-sarmento-ouvido-no-arranque-da-discussao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-23 06:02",
+      "Correio da Manhã",
+      "Miranda Sarmento ouvido no arranque da discussão na generalidade do OE2027",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGZBWnRDcVBiTERNVjUyQjV4SFBkdnJkME5SQ0g5ZlpjRWdIaU9xc1dERnJ5RU5nUHB3bE9Iem1VLVk3VUpXUzI5c3lic21JRzdqNk9KRzhFQnRWamNzSU1mbHNLcU9JWkY4aVFUcmFDRnc3U1ZKbUk3Q19xY2piWFJvM0tjRk9NejRqTmlrOG9HZkh3SEg1V2RhY054TUYyU0hiSXl2ejdMdHRoZWFjdtIBsAFBVV95cUxNeGZBWnRDcVBiTERNVjUyQjV4SFBkdnJkME5SQ0g5ZlpjRWdIaU9xc1dERnJ5RU5nUHB3bE9Iem1VLVk3VUpXUzI5c3lic21JRzdqNk9KRzhFQnRWamNzSU1mbHNLcU9JWkY4aVFUcmFDRnc3U1ZKbUk3Q19xY2piWFJvM0tjRk9NejRqTmlrOG9HZkh3SEg1V2RhY054TUYyU0hiSXl2ejdMdHRoZWFjdg?oc=5"
+     ],
+     [
+      "2026-10-23 06:00",
+      "Renascença",
+      "Com protestos na rua, oposição aposta em medidas para a habitação no OE2027 sem margem orçamental",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQkFxOGREWmtrWS1xMGJoQ04tNzFoQVNNd0RhRkNlbTVyNHVWT1VHekIwc1Z3cUE4VzRhc2xVSTdjNFVVNm5sSkdzSmN1M0xoMDlaQ1FqMmZNazIyNGFTa01mSjZjUmF6R2YtSnJCN2stREI3bzFzTVdQeUxwVURzWlFIckhial9rU0wyMk1EUWQwUG90a0lnWVRBQllELWJJUjRHcWhQRUo3aGVzVXBqci04bDVxRmNzbmM5cXhncmdTZ3NSNzBfb3NaWklPSDNuUlk2QkxGVDZqVnJvMlJIdGdoZTY?oc=5"
+     ],
      [
       "2026-10-22 20:02",
       "ECO",
@@ -974,6 +1095,12 @@
       "https://observador.pt/2026/10/15/oe2027-plataforma-fala-de-mao-cheia-de-nada-em-vias-de-comunicacao-para-o-interior/"
      ],
      [
+      "2026-10-15 07:04",
+      "ECO",
+      "Governo prevê poupar 354,5 milhões com revisão da despesa em 2027",
+      "https://eco.sapo.pt/2026/10/15/governo-preve-poupar-3545-milhoes-com-revisao-da-despesa-em-2027/"
+     ],
+     [
       "2026-10-15 07:03",
       "ECO",
       "“Retiraria todas as condições ao prémio de produtividade e permitiria um 15º mês limpo para os trabalhadores”",
@@ -992,16 +1119,22 @@
       "https://eco.sapo.pt/entrevista/baixa-do-irs-nunca-e-suficiente-porque-os-impostos-ainda-sao-significativos-em-portugal/"
      ],
      [
-      "2026-10-15 00:07",
-      "Observador",
-      "OE2027 - Menos IRC, mais do mesmo?",
-      "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JVDEwbnppaDF1b0pNb1RiT1dtQ2xVQ292RnNDZlpLSy14WmhwVmVsVEFVMHdULXVkQnhCUDZCaHdxWndBYTlCekswYnE3VXUtZlJzMnh2cW00dXQtWTdwU25mbkVGLWNzb1paOFZB?oc=5"
+      "2026-10-15 06:59",
+      "ECO",
+      "Banco de Fomento com aumento de 50% nas garantias do Estado em 2027",
+      "https://eco.sapo.pt/2026/10/15/banco-de-fomento-com-aumento-de-50-nas-garantias-do-estado-em-2027/"
      ],
      [
       "2026-10-15 00:07",
       "Observador",
       "OE2027",
       "https://observador.pt/opiniao/oe2027-menos-irc-mais-do-mesmo/"
+     ],
+     [
+      "2026-10-15 00:07",
+      "Observador",
+      "OE2027 - Menos IRC, mais do mesmo?",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JVDEwbnppaDF1b0pNb1RiT1dtQ2xVQ292RnNDZlpLSy14WmhwVmVsVEFVMHdULXVkQnhCUDZCaHdxWndBYTlCekswYnE3VXUtZlJzMnh2cW00dXQtWTdwU25mbkVGLWNzb1paOFZB?oc=5"
      ],
      [
       "2026-10-14 20:06",
@@ -2940,132 +3073,6 @@
       "Observador",
       "Aumento do salário mínimo para 970 euros assumido no OE2027",
       "https://observador.pt/2026/10/08/aumento-do-salario-minimo-para-970-euros-garantido-no-oe-para-2027/"
-     ],
-     [
-      "2026-10-08 17:34",
-      "Executive Digest",
-      "OE2027: Governo prevê mais de 730 ME para Prestação Social Única",
-      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnRfZXpLNGFOOXQ1czJEUU1ySjFSbHd3My13eVI0WWFfQmRLTE85WFJGMXhBeFE3a2cxTVpRZVBUVGlobzdjMy0wNy1OTkRUTFhKcE1jTm9tN2hrbVZYMVp1Rlo0ck9MNDdHczdqMGd5OE5Jd3lvR0Fka2FuaWJzVEpBX2dxVTFHSHRnQ0dITHhTRXQwN3JGdnVDWFY?oc=5"
-     ],
-     [
-      "2026-10-08 17:33",
-      "Executive Digest",
-      "OE2027: Governo continua a estudar novo imposto sobre a banca",
-      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFlackxDSUw0YVl5N1FYemdIZUFxRTdBTTk5UlFNc2NXcHBubjhCbWR2LWRxaDRIX3BpWVVFZkFQT3JMU29MdGNGbl9lUlRnTXNQZ3NFSEJZTzJjb1hOT3VnYUtZWmVjQ2V0bXhfVWU4d0t2UlBlT0lVUVByMkdudDB1SWozWFZwNGFMWi05MzZmb1NyS1AwQnNBOEJhd0tva0ZtT1QwUUs1b2lGNUlJ?oc=5"
-     ],
-     [
-      "2026-10-08 17:30",
-      "Notícias ao Minuto",
-      "OE2027. Cultura terá orçamento de 541,7 milhões de euros",
-      "https://www.noticiasaominuto.com/pais/3063627/oe2027-despesa-consolidada-para-a-cultura-sera-de-541-7-milhoes-de-euros#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:27",
-      "Executive Digest",
-      "OE2027: Verbas para instalações, equipamentos, viaturas e armas da PSP e GNR aumentam 29%",
-      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeFR4aXVKV2pfQ2VPZjF0REFWT25fWXhiWUN1VjdMYXpwQzVqLU9kUl9lZUpwNU9iaDVEMUt0N0dJeFJnZzZ5NHBLUjIzakVaeS1MQVMzX0dZTEg5M0pvYzVUUnVJcVJXekxZUzlHQk5SZnV5TE5IaVJwb3g4MGR4ZlRkMkp5OXRfaGZuanBpM2l0WFRlSzBSNktKSkxIdTRPcWJ5OW5MQ2Q0YUU0TUZQUmlqQ1d1SmlvN1E?oc=5"
-     ],
-     [
-      "2026-10-08 17:25",
-      "Diário de Notícias",
-      "OE2027: Miranda Sarmento diz que \"aquilo que sair do Parlamento tem de ser aquilo que entrou\"",
-      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZDAycWY2UlQ1cU5iWlpGYlcydzNsT0l2NUJCYWg1TzJJX2VUYjc0eGlTWk5yN2J5X1M4YTVNVDFwT3czY2J4cWJ4YllGUmtUc2d2SGZlM3JRY3FGUl96NzFlYW5wcTFwZ3FIbS1lV0VKcEY1ejBWR3lSU3BzNy1va1p0cmxsM0l1cnpzblVIT0VJNWgxV3VkbU5Oa1VidVM3SlFpbWcwNEhaX2pLdmpyOXI5WldHSEJu?oc=5"
-     ],
-     [
-      "2026-10-08 17:23",
-      "Notícias ao Minuto",
-      "OE2027. Investimento em ferrovias cai, mas rodovias têm redução maior",
-      "https://www.noticiasaominuto.com/pais/3063651/oe2027-investimento-em-ferrovias-cai-mas-rodovias-tem-reducao-maior#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:22",
-      "Notícias ao Minuto",
-      "OE2027: Segurança Social terá excedente de 8.382,7 milhões",
-      "https://www.noticiasaominuto.com/pais/3063656/oe2027-seguranca-social-tera-excedente-de-8382-7-milhoes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:22",
-      "Notícias ao Minuto",
-      "OE2027: Dedução específica do IRS será atualizada em 2027",
-      "https://www.noticiasaominuto.com/economia/3063657/oe2027-deducao-especifica-do-irs-sera-atualizada-em-2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:21",
-      "CNN Portugal",
-      "OE2027. Estado prevê arrecadar 3.796 milhões de euros com imposto sobre combustíveis",
-      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado-2027/oe2027-estado-preve-arrecadar-3-796-milhoes-de-euros-com-imposto-sobre-combustiveis/20261008/6ac7c344d34e53c759c7598d"
-     ],
-     [
-      "2026-10-08 17:20",
-      "Agroportal",
-      "OE2027: ICNF recebe 48,1 ME para áreas protegidas, prevenção de incêndios e alterações climáticas",
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNDJERnl5dTd1WlVvaG9ZYVBaRFBOdnhwalZBOHhveFhXRkpQZUtnSjNyeURiMzR4NDlXNVlWU3g4bU9scE10dkp2YnFQeHZKUVMzQWxETnNWQTlYRFBFWVRmTHhoVWlodmQ1YWg3dXJwQXcxTzgzdnU3OGZzSFNFbXV0dUQwNXNqTlFkcmNRX0VwZVQxRXg4RXpBOFpZdDRycWZHTS1rTDI1SGdEMEExR1RCblhyR3dRRVV3WG1B?oc=5"
-     ],
-     [
-      "2026-10-08 17:19",
-      "Executive Digest",
-      "OE2027: Subida da dedução específica do IRS fica dependente da atualização do IAS",
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZkxxXzVsSkswelRsZ0tCd21pd0hiQ1QtbmlrMWU0THhWOWVfTVRtejZ6QzQ0NjdBSXhXX2h3OUlfWGliSHg1SEV3ekFkTTdGYzVjM3QwbHVjRG91NGNBNzFZeTBaNGVweHJiRXFUaGRZRmFaVEpuVkxWYmMzUEdVUG1LVzh1UW94S0pqeDZzN2dXX3pUQS1yWVdLdEVHN3VmWXRxSExqdmYxcW9uYVRhQ0I4aw?oc=5"
-     ],
-     [
-      "2026-10-08 17:19",
-      "Executive Digest",
-      "OE2027: Governo prevê excedente da Segurança Social acima dos 8.300 ME em 2027",
-      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbllFSXpJLW5zUkJfWG1Zb0FVY3ozdEVDS2JiV2ZwdmxGMFVxZFQ4UFdvbG5hVnR4NWNqMU9SaEhqSkVJUW45NG53QXFUaWtaQ1l5eEVpajdWWEFnQ2RycC1FdzhIREFwQVBvQ0kzaXJzU2E4MkItOFNVOGFMRUlsTlQ2TV9ROFMwcGZYSkhqaDdjYl95RmI3dTlNcjA3MUt3TldSajhHVHBIbjJ0MVp3?oc=5"
-     ],
-     [
-      "2026-10-08 17:18",
-      "Açoriano Oriental",
-      "Orçamento prevê 17 ME para combater violência doméstica e tráfico de seres humanos",
-      "https://www.acorianooriental.pt/noticia/orcamento-preve-17-me-para-combater-violencia-domestica-e-trafico-de-seres-humanos-380924"
-     ],
-     [
-      "2026-10-08 17:18",
-      "Renascença",
-      "Verbas para Educação aumentam 1,5% para 7,78 mil milhões no OE2027",
-      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTVVHQ3BwTThVcC13bUxpUF9seDVoTkZHSk0zcWhud3luejZDUXB6SkdjcW9rZGEtcGc5aTlmcF8zR21WVmpHWFBodUJDQTBUVU9nUHFmcUc1VHBlTWtfX0t0aThMZmlzVVU3elV6MWowd3pOS0tnU1pRRjRCUk05MVJuM0JjWms2UVNMZ2s1Y3F0WnI4U1BUWm5sdVNMY21zNmRmaVhCZnR2WG54cDMtMDhZbHhiaFNhOTZZ?oc=5"
-     ],
-     [
-      "2026-10-08 17:17",
-      "Diário de Notícias",
-      "OE2027: Negócios Estrangeiros com subida de 7,7%, mas quebra no apoio à lusofonia",
-      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWlpkMURTUHFXSjN6SUE1X1dDVzNjV0tuNGxBWm1FOWtOaFFPQWhoUl9iRzZhVUxnNjMzN3BnRE5uZHptaWJMazRYYUwyeHYtYW9BempZdjRFaU1CcENkcVFwT1ZPSUtTVlF0M2RrcXdYQ1FBWlMwbHRFRHlFcGhVR1NCejBBUkJtQmdld0xLcW9HQV82bWhDMV9nZEVfUmhnU2pR?oc=5"
-     ],
-     [
-      "2026-10-08 17:16",
-      "Açoriano Oriental",
-      "Despesa consolidada para a Cultura será de 541,7 milhões de euros",
-      "https://www.acorianooriental.pt/noticia/despesa-consolidada-para-a-cultura-sera-de-541-7-milhoes-de-euros-380923"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Governo melhora previsão de crescimento da economia este ano para 2,3%",
-      "https://www.rtp.pt/noticias/economia/governo-melhora-previsao-de-crescimento-da-economia-este-ano-para-23_n1770405"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Governo descongela valor das propinas a partir de 2027/2028",
-      "https://www.rtp.pt/noticias/economia/governo-descongela-valor-das-propinas-a-partir-de-20272028_n1770386"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Taxa de solidariedade no IRS do tempo da `troika` alinhada com 9.º escalão",
-      "https://www.rtp.pt/noticias/economia/proposta-de-orcamento-taxa-de-solidariedade-no-irs-do-tempo-da-troika-alinhada-com-9o-escalao_n1770411"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Verbas para Ensino Superior, Ciência e Inovação caem 7,6%",
-      "https://www.rtp.pt/noticias/economia/verbas-para-ensino-superior-ciencia-e-inovacao-caem-76_n1770422"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Apresentação da proposta de Orçamento pelo ministro das Finanças",
-      "https://www.rtp.pt/noticias/economia/apresentacao-da-proposta-de-orcamento-pelo-ministro-das-financas_v1770423"
      ]
     ]
    }
@@ -3106,34 +3113,148 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 951,
-    "n7": 50,
-    "n7ant": 216,
+    "n": 971,
+    "n7": 63,
+    "n7ant": 116,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "expressoes",
-    "ultima": "2026-10-22 20:02",
+    "ultima": "2026-10-23 12:18",
     "ultimas": [
      {
-      "data": "2026-10-22",
-      "fonte": "ECO",
-      "titulo": "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
-      "url": "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/"
+      "data": "2026-10-23",
+      "fonte": "Jornal Económico",
+      "titulo": "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
+      "url": "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
      },
      {
-      "data": "2026-10-22",
-      "fonte": "Diário de Notícias",
-      "titulo": "OE2027: Raimundo diz que Chega “está todo contente” com “frete” do PS",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlJqWGQyUkM1TEtZOXo1U2F5aXJEQ3dMa2lEQXRocm45ejNCTTduVEZOUVJDTXNsOFRIN2Z1OXQ0TUZHZmg3TVlLM3VWMjhGZFhIRU1rUVZsRnVaX3NiVFJUUkh6ZnF0SHI0TFZaZnV6eHF6bmlqQ1luNlhDbVJzckVHNzJnMGhtNG9OcFgzSlotYWszaktGUTJySQ?oc=5"
+      "data": "2026-10-23",
+      "fonte": "RTP Notícias",
+      "titulo": "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
      },
      {
-      "data": "2026-10-22",
+      "data": "2026-10-23",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Financiamento às corporações de bomberios vai aumentar mais de 5%",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGl5Vk1LN3F1ZXBGc0YtTERPVzV6LWVXRkVReHdpQXpRVXVpVUQzdDFTa21nOUZBay1DbUhySDVmeVVBQnhhZ1phb1N2UzFMemFnMjI4Zm1ONEc2N09FNkNqUGY2MlNPMFFpcjE4UDRKTmZqTV9fRFdHSjVUZ19OdFN6LUNMZHJWZldvNmgwY1VYYzV4SVZBdk1JZGNLbm93S1RscHJHNA?oc=5"
+      "titulo": "OE2027: Governo quer começar a discutir redução da derrama estadual de IRC em 2028, garante Sarmento",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkF1NXIzU01STTlsd19IbFkwSjNPakljLXFsek1QZC1DWGdZbl81b21hR19XbUtXNkpDQnRna2UyUk9yT0ZzMHNHWkg3M2EtZ3dRWk1aQWhfWE9FdmNVTnI0R0xYOWdLdnY1T3JrOVg4SHh3QlJhSVhxUUp2WUFLR25pY2NaRThBQ19JU3ZLZkdCWV8yVGhnVUZsX1FkSklJbzQxalpWU21fR0EyM3JNSzlBNzJDeW5WMHVJQ1RzNWk?oc=5"
      }
     ],
     "todas": [
+     [
+      "2026-10-23 12:18",
+      "Jornal Económico",
+      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+     ],
+     [
+      "2026-10-23 12:18",
+      "RTP Notícias",
+      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
+      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
+     ],
+     [
+      "2026-10-23 12:06",
+      "Executive Digest",
+      "OE2027: Governo quer começar a discutir redução da derrama estadual de IRC em 2028, garante Sarmento",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkF1NXIzU01STTlsd19IbFkwSjNPakljLXFsek1QZC1DWGdZbl81b21hR19XbUtXNkpDQnRna2UyUk9yT0ZzMHNHWkg3M2EtZ3dRWk1aQWhfWE9FdmNVTnI0R0xYOWdLdnY1T3JrOVg4SHh3QlJhSVhxUUp2WUFLR25pY2NaRThBQ19JU3ZLZkdCWV8yVGhnVUZsX1FkSklJbzQxalpWU21fR0EyM3JNSzlBNzJDeW5WMHVJQ1RzNWk?oc=5"
+     ],
+     [
+      "2026-10-23 12:01",
+      "Jornal Económico",
+      "AGEFE propõe incentivos fiscais à transição verde e digital no Orçamento do Estado para 2027",
+      "https://jornaleconomico.sapo.pt/noticias/agefe-propoe-incentivos-fiscais-a-transicao-verde-e-digital-no-orcamento-do-estado-para-2027/"
+     ],
+     [
+      "2026-10-23 11:49",
+      "Notícias ao Minuto",
+      "PS garante que propostas ao OE2027 não agravam saldo orçamental",
+      "https://www.noticiasaominuto.com/politica/3071724/ps-garante-que-propostas-ao-oe2027-nao-agravam-saldo-orcamental#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-23 11:44",
+      "Executive Digest",
+      "OE2027: Governo já tomou \"muitas medidas\" na habitação mas efeitos levam tempo, diz Sarmento",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRUhNWDdyOWF5SmwyWmU5MGQzU1puTVFqYnU4cjN0b3BqdmR4WnJHSXJBcV9NUkw5a0JESGJWWU1PSF9lNVpwaGhyQVZsX3RTUG85VHFVbUJXZ0lBZm1NSHhpYjNXRzh5R3VMS1ZXZWFEcklGbm52X1lZaFd0b2pRckhuVXpJZzV2SHgweURWZFQzbmhUU3o2WHhubFgzNVNCNHJrcUp5RjQ1RUNXWk1GLUM1eklxbHps?oc=5"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
+     ],
+     [
+      "2026-10-23 11:30",
+      "Executive Digest",
+      "Católica Porto SBE e PwC juntam Governo e empresas para analisar o Orçamento do Estado para 2027",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTnN1NHhYRWFpb1QxY29tSnlHNU1mb2xZUFphNjZ3aXVCeF9wcDYwd0p5dl8xZlRTU3V6ZXMxbXItal9xaGVLLWt1VW9iU0JabnEyNUYyRl9nNGdrb3lUUHZXM1Nha1RUaWFsejRwVmRKQUx2STJoYWtpcDhJckNDd0d4dWRTR1BMSGRiUGh3TkhCMHRyREo1Q2JUaEx6cV9NY25jTEU5d01rVlFsaGZqekhadGNrY1owblY1WmwwMFNmamlMbnBZQQ?oc=5"
+     ],
+     [
+      "2026-10-23 11:20",
+      "Executive Digest",
+      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVnE5VlpNSV93NC12Xy1PYkJKUmE1X09qV0syT1V6WGRaUmlzNngzSGJMTHEtYlRjdmNqVlVrSTFrREcwSlZVS0JrT2tzQWsxNnVPaHk5akliLU9ybTlnSnpjdmZkZzdYWko1MEtQOVV6dzVvQ0toa1l2d0kwOE8zbDBXRDNfVlNYM1RPaldDdnhuZEs3QnZUbVpNckxaalN3dE9WVW56c2ZSOGUyMmxVUm8zRU5sV2VaV3hiSkMwNmJtamJzbWtqRGVhNHBlR05lZTdvUDRFcw?oc=5"
+     ],
+     [
+      "2026-10-23 10:57",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
+     ],
+     [
+      "2026-10-23 10:54",
+      "Notícias ao Minuto",
+      "STI alerta sobre fragilização da Autoridade Tributária no OE2027",
+      "https://www.noticiasaominuto.com/pais/3071677/sti-alerta-sobre-fragilizacao-da-at-no-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-23 10:33",
+      "Executive Digest",
+      "AGEFE quer incentivos fiscais para acelerar transição verde e digital no OE 2027",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT1RWclQ3SW5jQndDeXZLMU1sdGJlRFpiY0wwa3d1emU5VGE4Sk5FOWg1T2JaRnV3RE82cFk2a3F5SWtRQW9hdFNMZ3VXN29GMndNOW5RYUFkZTVDNkxXQVF0WlN4dE5RaGNvc2Q3N0NRa0lsT2MxUXhfUzFqSy13cWtiUVd5OUQ1S2F1U3lNeXkzVWEyWUNDRjFuLXdwaGVIMnI4aFI0SERpcEhzU2xXZ3MxRQ?oc=5"
+     ],
+     [
+      "2026-10-23 10:17",
+      "ECO",
+      "PS só viabiliza OE2027 se houver medidas para combater o custo de vida",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ0UybWdwXzhnbXZydzB6V1hxWFNiUHIxZXhjWnFQVG12S1lkNThtZm5mcU93YmhpOFpQT2pzMy1uY19qRmtqQk1IZkhYWkpERTdwbHFKdVhlYUppVVo4bHh5d2pBcGt5V1VrTHNONUtyYXl1bDhCemhwOE8wNWZ2UW9wY0pxdlNKUnNnd2JRRjlrak5rcjNsdU9VaUJwdlNxcUJDMA?oc=5"
+     ],
+     [
+      "2026-10-23 08:35",
+      "Renascença",
+      "🔴 Ministro das Finanças no Parlamento: Veja em direto a audição sobre o OE 2027",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWVRTMjJSakhwSVpqaUsweWNQZE1Yc1lJS2pSZGozM0ZwcFVKbDBEWVNPNjVmb1E0X2t4UGNTVnRGMUhXTE1sMkdPenR5ZmpXYWZaaWhLSmJtc2hXa2IyUG43RVZWSVBCODZkQWQzWHIwXzZRYkdMeEtHdzVablpfQjAybC1XRXZPX3Fucm1MZWZxTHJybkVfOTJva2FmTXVXSzJRN2ptTnprV2tVeWc?oc=5"
+     ],
+     [
+      "2026-10-23 08:11",
+      "Diário de Notícias",
+      "OE2027: Medina elogia redução da dívida, mas critica rigidez da despesa",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY1FqZUR1VkxudENaYXhHcGtFMzRSQ044QS0wM1NKdkJlVU9JTDFJbW9yZjdLS3dGeTd5R3lTM2RCcjF0Snd2STd6VTVrNmpJVXVuUkN2a1JFbktqVE52b3ByVFVIbHQ5Z2NadUkxcW1RYkhmOFd0NzBaQlJfOUJrNHRVQURncEc3REFZZ2ZMeW1sNTkxczhXMWdFSkY4dWM?oc=5"
+     ],
+     [
+      "2026-10-23 08:09",
+      "Diário de Notícias",
+      "OE2027: Miranda Sarmento ouvido no arranque da discussão na generalidade",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGhfdGRGR05SR2FUOWYyYWZtVy1ITXp3RVhmYjc2VklFZHg0Ym9sZV9YQ1FSdWFzdERySnpNS2p3YlRmM0dDSVFjazBpWDFwWDUzNUJRcUk1clZUMXZLUXFrZ2oyakd1czc5Z2dvWDFUNjV6Uzc0OXdCRlliSXY5aWtXdUFZR2RGeHFiUVBGa1RlaDhxSkczaG1ENnBwUQ?oc=5"
+     ],
+     [
+      "2026-10-23 06:49",
+      "Notícias ao Minuto",
+      "Ministro Miranda Sarmento ouvido no arranque da discussão do OE2027",
+      "https://www.noticiasaominuto.com/economia/3071576/ministro-miranda-sarmento-ouvido-no-arranque-da-discussao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-23 06:02",
+      "Correio da Manhã",
+      "Miranda Sarmento ouvido no arranque da discussão na generalidade do OE2027",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGZBWnRDcVBiTERNVjUyQjV4SFBkdnJkME5SQ0g5ZlpjRWdIaU9xc1dERnJ5RU5nUHB3bE9Iem1VLVk3VUpXUzI5c3lic21JRzdqNk9KRzhFQnRWamNzSU1mbHNLcU9JWkY4aVFUcmFDRnc3U1ZKbUk3Q19xY2piWFJvM0tjRk9NejRqTmlrOG9HZkh3SEg1V2RhY054TUYyU0hiSXl2ejdMdHRoZWFjdtIBsAFBVV95cUxNeGZBWnRDcVBiTERNVjUyQjV4SFBkdnJkME5SQ0g5ZlpjRWdIaU9xc1dERnJ5RU5nUHB3bE9Iem1VLVk3VUpXUzI5c3lic21JRzdqNk9KRzhFQnRWamNzSU1mbHNLcU9JWkY4aVFUcmFDRnc3U1ZKbUk3Q19xY2piWFJvM0tjRk9NejRqTmlrOG9HZkh3SEg1V2RhY054TUYyU0hiSXl2ejdMdHRoZWFjdg?oc=5"
+     ],
+     [
+      "2026-10-23 06:00",
+      "Renascença",
+      "Com protestos na rua, oposição aposta em medidas para a habitação no OE2027 sem margem orçamental",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQkFxOGREWmtrWS1xMGJoQ04tNzFoQVNNd0RhRkNlbTVyNHVWT1VHekIwc1Z3cUE4VzRhc2xVSTdjNFVVNm5sSkdzSmN1M0xoMDlaQ1FqMmZNazIyNGFTa01mSjZjUmF6R2YtSnJCN2stREI3bzFzTVdQeUxwVURzWlFIckhial9rU0wyMk1EUWQwUG90a0lnWVRBQllELWJJUjRHcWhQRUo3aGVzVXBqci04bDVxRmNzbmM5cXhncmdTZ3NSNzBfb3NaWklPSDNuUlk2QkxGVDZqVnJvMlJIdGdoZTY?oc=5"
+     ],
      [
       "2026-10-22 20:02",
       "ECO",
@@ -3441,6 +3562,12 @@
       "https://observador.pt/2026/10/15/oe2027-plataforma-fala-de-mao-cheia-de-nada-em-vias-de-comunicacao-para-o-interior/"
      ],
      [
+      "2026-10-15 07:04",
+      "ECO",
+      "Governo prevê poupar 354,5 milhões com revisão da despesa em 2027",
+      "https://eco.sapo.pt/2026/10/15/governo-preve-poupar-3545-milhoes-com-revisao-da-despesa-em-2027/"
+     ],
+     [
       "2026-10-15 07:03",
       "ECO",
       "“Retiraria todas as condições ao prémio de produtividade e permitiria um 15º mês limpo para os trabalhadores”",
@@ -3459,16 +3586,22 @@
       "https://eco.sapo.pt/entrevista/baixa-do-irs-nunca-e-suficiente-porque-os-impostos-ainda-sao-significativos-em-portugal/"
      ],
      [
-      "2026-10-15 00:07",
-      "Observador",
-      "OE2027 - Menos IRC, mais do mesmo?",
-      "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JVDEwbnppaDF1b0pNb1RiT1dtQ2xVQ292RnNDZlpLSy14WmhwVmVsVEFVMHdULXVkQnhCUDZCaHdxWndBYTlCekswYnE3VXUtZlJzMnh2cW00dXQtWTdwU25mbkVGLWNzb1paOFZB?oc=5"
+      "2026-10-15 06:59",
+      "ECO",
+      "Banco de Fomento com aumento de 50% nas garantias do Estado em 2027",
+      "https://eco.sapo.pt/2026/10/15/banco-de-fomento-com-aumento-de-50-nas-garantias-do-estado-em-2027/"
      ],
      [
       "2026-10-15 00:07",
       "Observador",
       "OE2027",
       "https://observador.pt/opiniao/oe2027-menos-irc-mais-do-mesmo/"
+     ],
+     [
+      "2026-10-15 00:07",
+      "Observador",
+      "OE2027 - Menos IRC, mais do mesmo?",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JVDEwbnppaDF1b0pNb1RiT1dtQ2xVQ292RnNDZlpLSy14WmhwVmVsVEFVMHdULXVkQnhCUDZCaHdxWndBYTlCekswYnE3VXUtZlJzMnh2cW00dXQtWTdwU25mbkVGLWNzb1paOFZB?oc=5"
      ],
      [
       "2026-10-14 20:06",
@@ -5407,138 +5540,49 @@
       "Observador",
       "Aumento do salário mínimo para 970 euros assumido no OE2027",
       "https://observador.pt/2026/10/08/aumento-do-salario-minimo-para-970-euros-garantido-no-oe-para-2027/"
-     ],
-     [
-      "2026-10-08 17:34",
-      "Executive Digest",
-      "OE2027: Governo prevê mais de 730 ME para Prestação Social Única",
-      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnRfZXpLNGFOOXQ1czJEUU1ySjFSbHd3My13eVI0WWFfQmRLTE85WFJGMXhBeFE3a2cxTVpRZVBUVGlobzdjMy0wNy1OTkRUTFhKcE1jTm9tN2hrbVZYMVp1Rlo0ck9MNDdHczdqMGd5OE5Jd3lvR0Fka2FuaWJzVEpBX2dxVTFHSHRnQ0dITHhTRXQwN3JGdnVDWFY?oc=5"
-     ],
-     [
-      "2026-10-08 17:33",
-      "Executive Digest",
-      "OE2027: Governo continua a estudar novo imposto sobre a banca",
-      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFlackxDSUw0YVl5N1FYemdIZUFxRTdBTTk5UlFNc2NXcHBubjhCbWR2LWRxaDRIX3BpWVVFZkFQT3JMU29MdGNGbl9lUlRnTXNQZ3NFSEJZTzJjb1hOT3VnYUtZWmVjQ2V0bXhfVWU4d0t2UlBlT0lVUVByMkdudDB1SWozWFZwNGFMWi05MzZmb1NyS1AwQnNBOEJhd0tva0ZtT1QwUUs1b2lGNUlJ?oc=5"
-     ],
-     [
-      "2026-10-08 17:30",
-      "Notícias ao Minuto",
-      "OE2027. Cultura terá orçamento de 541,7 milhões de euros",
-      "https://www.noticiasaominuto.com/pais/3063627/oe2027-despesa-consolidada-para-a-cultura-sera-de-541-7-milhoes-de-euros#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:27",
-      "Executive Digest",
-      "OE2027: Verbas para instalações, equipamentos, viaturas e armas da PSP e GNR aumentam 29%",
-      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeFR4aXVKV2pfQ2VPZjF0REFWT25fWXhiWUN1VjdMYXpwQzVqLU9kUl9lZUpwNU9iaDVEMUt0N0dJeFJnZzZ5NHBLUjIzakVaeS1MQVMzX0dZTEg5M0pvYzVUUnVJcVJXekxZUzlHQk5SZnV5TE5IaVJwb3g4MGR4ZlRkMkp5OXRfaGZuanBpM2l0WFRlSzBSNktKSkxIdTRPcWJ5OW5MQ2Q0YUU0TUZQUmlqQ1d1SmlvN1E?oc=5"
-     ],
-     [
-      "2026-10-08 17:25",
-      "Diário de Notícias",
-      "OE2027: Miranda Sarmento diz que \"aquilo que sair do Parlamento tem de ser aquilo que entrou\"",
-      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZDAycWY2UlQ1cU5iWlpGYlcydzNsT0l2NUJCYWg1TzJJX2VUYjc0eGlTWk5yN2J5X1M4YTVNVDFwT3czY2J4cWJ4YllGUmtUc2d2SGZlM3JRY3FGUl96NzFlYW5wcTFwZ3FIbS1lV0VKcEY1ejBWR3lSU3BzNy1va1p0cmxsM0l1cnpzblVIT0VJNWgxV3VkbU5Oa1VidVM3SlFpbWcwNEhaX2pLdmpyOXI5WldHSEJu?oc=5"
-     ],
-     [
-      "2026-10-08 17:23",
-      "Notícias ao Minuto",
-      "OE2027. Investimento em ferrovias cai, mas rodovias têm redução maior",
-      "https://www.noticiasaominuto.com/pais/3063651/oe2027-investimento-em-ferrovias-cai-mas-rodovias-tem-reducao-maior#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:22",
-      "Notícias ao Minuto",
-      "OE2027: Segurança Social terá excedente de 8.382,7 milhões",
-      "https://www.noticiasaominuto.com/pais/3063656/oe2027-seguranca-social-tera-excedente-de-8382-7-milhoes#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:22",
-      "Notícias ao Minuto",
-      "OE2027: Dedução específica do IRS será atualizada em 2027",
-      "https://www.noticiasaominuto.com/economia/3063657/oe2027-deducao-especifica-do-irs-sera-atualizada-em-2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:21",
-      "CNN Portugal",
-      "OE2027. Estado prevê arrecadar 3.796 milhões de euros com imposto sobre combustíveis",
-      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado-2027/oe2027-estado-preve-arrecadar-3-796-milhoes-de-euros-com-imposto-sobre-combustiveis/20261008/6ac7c344d34e53c759c7598d"
-     ],
-     [
-      "2026-10-08 17:20",
-      "Agroportal",
-      "OE2027: ICNF recebe 48,1 ME para áreas protegidas, prevenção de incêndios e alterações climáticas",
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNDJERnl5dTd1WlVvaG9ZYVBaRFBOdnhwalZBOHhveFhXRkpQZUtnSjNyeURiMzR4NDlXNVlWU3g4bU9scE10dkp2YnFQeHZKUVMzQWxETnNWQTlYRFBFWVRmTHhoVWlodmQ1YWg3dXJwQXcxTzgzdnU3OGZzSFNFbXV0dUQwNXNqTlFkcmNRX0VwZVQxRXg4RXpBOFpZdDRycWZHTS1rTDI1SGdEMEExR1RCblhyR3dRRVV3WG1B?oc=5"
-     ],
-     [
-      "2026-10-08 17:19",
-      "Executive Digest",
-      "OE2027: Subida da dedução específica do IRS fica dependente da atualização do IAS",
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZkxxXzVsSkswelRsZ0tCd21pd0hiQ1QtbmlrMWU0THhWOWVfTVRtejZ6QzQ0NjdBSXhXX2h3OUlfWGliSHg1SEV3ekFkTTdGYzVjM3QwbHVjRG91NGNBNzFZeTBaNGVweHJiRXFUaGRZRmFaVEpuVkxWYmMzUEdVUG1LVzh1UW94S0pqeDZzN2dXX3pUQS1yWVdLdEVHN3VmWXRxSExqdmYxcW9uYVRhQ0I4aw?oc=5"
-     ],
-     [
-      "2026-10-08 17:19",
-      "Executive Digest",
-      "OE2027: Governo prevê excedente da Segurança Social acima dos 8.300 ME em 2027",
-      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbllFSXpJLW5zUkJfWG1Zb0FVY3ozdEVDS2JiV2ZwdmxGMFVxZFQ4UFdvbG5hVnR4NWNqMU9SaEhqSkVJUW45NG53QXFUaWtaQ1l5eEVpajdWWEFnQ2RycC1FdzhIREFwQVBvQ0kzaXJzU2E4MkItOFNVOGFMRUlsTlQ2TV9ROFMwcGZYSkhqaDdjYl95RmI3dTlNcjA3MUt3TldSajhHVHBIbjJ0MVp3?oc=5"
-     ],
-     [
-      "2026-10-08 17:18",
-      "Açoriano Oriental",
-      "Orçamento prevê 17 ME para combater violência doméstica e tráfico de seres humanos",
-      "https://www.acorianooriental.pt/noticia/orcamento-preve-17-me-para-combater-violencia-domestica-e-trafico-de-seres-humanos-380924"
-     ],
-     [
-      "2026-10-08 17:18",
-      "Renascença",
-      "Verbas para Educação aumentam 1,5% para 7,78 mil milhões no OE2027",
-      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTVVHQ3BwTThVcC13bUxpUF9seDVoTkZHSk0zcWhud3luejZDUXB6SkdjcW9rZGEtcGc5aTlmcF8zR21WVmpHWFBodUJDQTBUVU9nUHFmcUc1VHBlTWtfX0t0aThMZmlzVVU3elV6MWowd3pOS0tnU1pRRjRCUk05MVJuM0JjWms2UVNMZ2s1Y3F0WnI4U1BUWm5sdVNMY21zNmRmaVhCZnR2WG54cDMtMDhZbHhiaFNhOTZZ?oc=5"
-     ],
-     [
-      "2026-10-08 17:17",
-      "Diário de Notícias",
-      "OE2027: Negócios Estrangeiros com subida de 7,7%, mas quebra no apoio à lusofonia",
-      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWlpkMURTUHFXSjN6SUE1X1dDVzNjV0tuNGxBWm1FOWtOaFFPQWhoUl9iRzZhVUxnNjMzN3BnRE5uZHptaWJMazRYYUwyeHYtYW9BempZdjRFaU1CcENkcVFwT1ZPSUtTVlF0M2RrcXdYQ1FBWlMwbHRFRHlFcGhVR1NCejBBUkJtQmdld0xLcW9HQV82bWhDMV9nZEVfUmhnU2pR?oc=5"
-     ],
-     [
-      "2026-10-08 17:16",
-      "Açoriano Oriental",
-      "Despesa consolidada para a Cultura será de 541,7 milhões de euros",
-      "https://www.acorianooriental.pt/noticia/despesa-consolidada-para-a-cultura-sera-de-541-7-milhoes-de-euros-380923"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Governo melhora previsão de crescimento da economia este ano para 2,3%",
-      "https://www.rtp.pt/noticias/economia/governo-melhora-previsao-de-crescimento-da-economia-este-ano-para-23_n1770405"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Governo descongela valor das propinas a partir de 2027/2028",
-      "https://www.rtp.pt/noticias/economia/governo-descongela-valor-das-propinas-a-partir-de-20272028_n1770386"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Taxa de solidariedade no IRS do tempo da `troika` alinhada com 9.º escalão",
-      "https://www.rtp.pt/noticias/economia/proposta-de-orcamento-taxa-de-solidariedade-no-irs-do-tempo-da-troika-alinhada-com-9o-escalao_n1770411"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Verbas para Ensino Superior, Ciência e Inovação caem 7,6%",
-      "https://www.rtp.pt/noticias/economia/verbas-para-ensino-superior-ciencia-e-inovacao-caem-76_n1770422"
-     ],
-     [
-      "2026-10-08 17:15",
-      "RTP Notícias",
-      "Apresentação da proposta de Orçamento pelo ministro das Finanças",
-      "https://www.rtp.pt/noticias/economia/apresentacao-da-proposta-de-orcamento-pelo-ministro-das-financas_v1770423"
      ]
     ]
    }
   }
  ],
  "agenda": [
+  {
+   "tema": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "data": "2026-10-26",
+   "hora": "11h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 70",
+   "resumo": "Audição do Ministro das Infraestruturas e Habitação, Miguel Pinto Luz, sobre um alegado conflito de interesses na aprovação das alterações ao Regime Jurídico da Urbanização e da Edificação e ao Regime Jurídico da Reabilitação Urbana",
+   "ordemTrabalhos": "Audição do Ministro das Infraestruturas e Habitação, Miguel Pinto Luz, sobre um alegado conflito de interesses na aprovação das alterações ao Regime Jurídico da Urbanização e da Edificação e ao Regime Jurídico da Reabilitação Urbana",
+   "orgao": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "id_ar": 48525,
+   "chave": "ar-48525",
+   "dataLabel": "segunda, 26 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-23",
+   "cobertura": {
+    "n": 0,
+    "n7": 0,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-23",
+    "metodo": "palavras",
+    "ultima": "",
+    "ultimas": [],
+    "todas": []
+   }
+  },
   {
    "tema": "Iniciativas europeias de segurança social: Passaporte Europeu de Segurança Social e Autoridade Europeia do Trabalho",
    "data": "2026-10-26",
@@ -5576,7 +5620,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "expressoes",
     "ultima": "2026-09-30 09:00",
     "ultimas": [
@@ -5625,7 +5669,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -5666,7 +5710,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "expressoes",
     "ultima": "2026-10-08 16:42",
     "ultimas": [
@@ -5712,6 +5756,606 @@
    }
   },
   {
+   "tema": "Comissão Parlamentar de Inquérito relativa às decisões, contratações e responsabilidades na conceção e execução da classificação digital dos exames nacionais de 2025 e 2026",
+   "data": "2026-10-27",
+   "hora": "13h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2",
+   "resumo": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a possibilidade de suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do a",
+   "ordemTrabalhos": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a possibilidade de suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Regime Jurídico dos Inquéritos Parlamentares;\n Deliberação sobre as diligências instrutórias solicitadas pelos Grupos Parlamentares e pelo Deputado Único Representante do BE;\n Outros Assuntos.",
+   "orgao": "Comissão Parlamentar de Inquérito relativa às decisões, contratações e responsabilidades na conceção e execução da classificação digital dos exames nacionais de 2025 e 2026",
+   "id_ar": 48522,
+   "chave": "ar-48522",
+   "dataLabel": "terça, 27 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Tarde",
+   "ligacoes": [],
+   "novo": "2026-10-23",
+   "cobertura": {
+    "n": 91,
+    "n7": 0,
+    "n7ant": 5,
+    "dias": 60,
+    "ref": "2026-10-23",
+    "metodo": "palavras",
+    "ultima": "2026-10-14 12:07",
+    "ultimas": [
+     {
+      "data": "2026-10-14",
+      "fonte": "CNN Portugal",
+      "titulo": "Aguiar-Branco quer comissão de inquérito aos exames nacionais livre de jogos partidários",
+      "url": "https://cnnportugal.iol.pt/aguiar-branco/comissao-de-inquerito/aguiar-branco-quer-comissao-de-inquerito-aos-exames-nacionais-livre-de-jogos-partidarios/20261014/6acf6278d34e9a786e75c1b1"
+     },
+     {
+      "data": "2026-10-14",
+      "fonte": "RTP Notícias",
+      "titulo": "Parlamento tem pela primeira vez quatro comissões de inquérito",
+      "url": "https://www.rtp.pt/noticias/politica/parlamento-tem-pela-primeira-vez-quatro-comissoes-de-inquerito_n1771556"
+     },
+     {
+      "data": "2026-10-10",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Explicador: O que é uma CPI?",
+      "url": "https://www.jornaldenegocios.pt/multimedia/explicadores/detalhe/explicador-o-que-e-uma-cpi"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-14 12:07",
+      "CNN Portugal",
+      "Aguiar-Branco quer comissão de inquérito aos exames nacionais livre de jogos partidários",
+      "https://cnnportugal.iol.pt/aguiar-branco/comissao-de-inquerito/aguiar-branco-quer-comissao-de-inquerito-aos-exames-nacionais-livre-de-jogos-partidarios/20261014/6acf6278d34e9a786e75c1b1"
+     ],
+     [
+      "2026-10-14 09:11",
+      "RTP Notícias",
+      "Parlamento tem pela primeira vez quatro comissões de inquérito",
+      "https://www.rtp.pt/noticias/politica/parlamento-tem-pela-primeira-vez-quatro-comissoes-de-inquerito_n1771556"
+     ],
+     [
+      "2026-10-10 18:00",
+      "Jornal de Negócios",
+      "Explicador: O que é uma CPI?",
+      "https://www.jornaldenegocios.pt/multimedia/explicadores/detalhe/explicador-o-que-e-uma-cpi"
+     ],
+     [
+      "2026-10-10 15:00",
+      "Jornal de Negócios",
+      "O que é e para que serve uma Comissão Parlamentar de Inquérito?",
+      "https://www.jornaldenegocios.pt/economia/politica/detalhe/o-que-e-e-para-que-serve-uma-comissao-parlamentar-de-inquerito"
+     ],
+     [
+      "2026-10-10 10:44",
+      "Público",
+      "Começa hoje a última oportunidade para concorrer ao ensino superior e só tem três dias",
+      "https://www.publico.pt/2026/10/10/sociedade/noticia/comeca-hoje-ultima-oportunidade-concorrer-ensino-superior-so-tres-dias-2190910"
+     ],
+     [
+      "2026-10-09 17:58",
+      "Açoriano Oriental",
+      "BE/Açores questiona Governo Regional sobre pagamento a docentes",
+      "https://www.acorianooriental.pt/noticia/be-acores-questiona-governo-regional-sobre-pagamento-a-docentes-380969"
+     ],
+     [
+      "2026-10-09 04:16",
+      "Observador",
+      "4h. FENPROF apresenta queixa contra ministro da Educação",
+      "https://observador.pt/programas/noticiario/as-noticias-das-4h-2425/"
+     ],
+     [
+      "2026-10-08 15:37",
+      "RTP Notícias",
+      "Fenprof apresenta queixa-crime contra ministro da Educação",
+      "https://www.rtp.pt/noticias/pais/fenprof-apresenta-queixa-crime-contra-ministro-da-educacao_n1770347"
+     ],
+     [
+      "2026-10-07 14:15",
+      "Observador",
+      "14h. Arrancam a 14 de outubro as comissões parlamentares de inquérito aos exames nacionais e a Luís Neves",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE05OFdweVhBTzlQTEVlNU5Kc2tfMXZ0V3RRVEswUXlocVpjSkdHNmNDbVFabllvTlhJNnJvRWpyWWsybHFVWnBqckVSYkduRFNSNWNEd3k0b0VOOTVyaE5kVFB6RnNmdGVMMTk5UVZ5dlFnS0hOSWVz?oc=5"
+     ],
+     [
+      "2026-10-07 14:02",
+      "TSF",
+      "Luís Neves e exames nacionais: comissões de inquérito instaladas na próxima quarta-feira",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSzdpb3VQV0ljYnlhODBzT1hUa2tGcXNReURSakRGa2xKN2hjeWQzQWk0cURLdUdyWjJ5WjVRRUJUMGRRN1Vlc1kzMVEwMjBfUzZHYUluUGxsUWFLQ0NuN3ZEM0hIaFItbGlOdmRqT0h1MXQwaHAxLV8yZ1BBVkhDMXY2SUNBdDVWQlBxelRibWpSRE9kclQ2RUU2WFBLV29sMGxsbEZVMzJHOXJWdnI3aFB4OWdoQ3EtYkRpa1ZRN1ZkVzhPaDdNQm5DM2E?oc=5"
+     ],
+     [
+      "2026-10-07 13:43",
+      "Expresso",
+      "Comissões de inquérito a Luís Neves e sobre exames nacionais serão instaladas a 14 de outubro",
+      "https://news.google.com/rss/articles/CBMi3wNBVV95cUxNbjBEUnhJMWZMSFBhN0p5MWVrRF80VC10QTNCakdMSUFLVkpHakVCeEZsMTU3S2RsZ1JiemhtRkhpX2VXZnBieUxsbEpRajBJOEpDQnhkWmpTVlItMklCdUpkNVR3SzBTeEVMQXpDUkwwc2oySnJOYmJGbHVhU2w5R0JEVUJSZURIX09pUzZRa0piWDlmeldDcU8wdDg5WTk5YjlUVGt6RHc4bU9FN3E3VEk2TGlpQVp4b1dXMkdsZ1FtYjhMLXdLRUIwaTNuZE85enVnOG1GeXE5VDExUFJ4emJkTzBucC04TmFaaVhBaERrYmgySTJ6SmdzakxldWlZXzc1bGpHUnRQb25BUURXMVRYM0owWmhRclhKajNtanQ5Vjh6Vnh6Q1BkMk1uZExlZHdveWNPN3JvdTRNX0h6MFBqdGxTZUZCUVhzUVhod3dnREhQUVVBSTNSakNQSTN1N1BacG41aXdHUlFnX1NVQ2ZTWllzWnNqS29qRnE2M3R5RG4ySDNZMUlpZFZQSm9Ud3lzVTJvOGh6S29BYWljeW11SVU5VlBoMS1JbDhfaXlyWkx0N3UteDcyaXBUcEpkMHdSbGlVYVZhM0dtWmVSb243T1JoQ2pvbmdHSzBpQQ?oc=5"
+     ],
+     [
+      "2026-10-07 12:58",
+      "SIC Notícias",
+      "Comissões de inquérito a Luís Neves e exames nacionais tomam posse este mês mas podem arrancar (só) no final do ano",
+      "https://news.google.com/rss/articles/CBMiggJBVV95cUxOLWhzT0MteEUwc0ZuMDNKV05mMVBpWjdLWTRwLTFyN3NsWUxidGMtSWVQM0JpVkR3bmphbUxjNmx3aXFKYUUzQ3o2eTBfUnNsalY0Rm1jaEZUYmxVTU1NdXdfY3llTmJmQWlxUXpmZTJEcmsySmFZYWNvdTJkeEd1M25VSDNDaE5TMDgzbHI5QkVBd0xvaFJrVkEzcWtxRHR1Rl96bkZBYVd0TnZLS2FraGQyWmk1cXhhMU54ajZ0bjJsTWRmaHplRFZRQmg4Q1ZLZzBCTnJzRkw4UUU5djNqdkVFLWdUakhWV2pvR3I5SWVEU0hNRjVaN3ZJSndaUTlXdXc?oc=5"
+     ],
+     [
+      "2026-10-07 12:55",
+      "Executive Digest",
+      "Parlamento marca data: comissões de inquérito aos exames nacionais e a Luís Neves arrancam no mesmo dia",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQUoxc1ZBRlVqNURmWnhSdTdZZVBNOHJWYW5mX05lOTR3d3FWNmNCTEhNTnFNTUd0dGFWWGhNTmNkek96WUxlSkk5UDkxd01hNkllWlI4b2ZVb2xFQllzNS01LTBnUnNCTVVoRlkweVlpOHA5djZYdXhDQnBuWmNfNnlSMkZ1Vzl1bmFiN2JiWlY2NEtKc21jTkZXbWRlNVdGZ3B0RXdvV3VibUZUQThzXzRJTUx3dV9XdE5LcUpDSWpXWHlPaUYwQTlkWUY5ckZa?oc=5"
+     ],
+     [
+      "2026-10-07 12:50",
+      "CNN Portugal",
+      "Comissões Parlamentares de Inquérito aos exames nacionais e a Luís Neves arrancam a 14 de outubro",
+      "https://cnnportugal.iol.pt/cpi/comissao-de-inquerito/comissoes-parlamentares-de-inquerito-aos-exames-nacionais-e-a-luis-neves-arrancam-a-14-de-outubro/20261007/6ac6320ed34e9a786e75b25f"
+     ],
+     [
+      "2026-10-07 12:42",
+      "Correio da Manhã",
+      "Comissões Parlamentares de Inquérito aos exames nacionais e a Luís Neves já têm data marcada",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVDR5aGpkc0NsaVM2Ym1JdDhoTFNhUXFMZ0V2V09pTFkxdHdNZUlmZTFNVWJfeUV6ZGtTdUgwQ2lXSV80eElRVUo1bHlTMExNRERhTG5COHRUa2lPb0ZELUhHLVQ2ZU9YYW1WRUZMVm0taWZndWp4aXdJTko5UHBub2liSlVTNVVTV1VfRlp3VncwaFp6WlhGWHFiQXJhWjk3UzAxTHhha0V6aDEtUjhESWE0RkxDQklrckx4WkZacmhxd2dTdVVIMtIByAFBVV95cUxOVDR5aGpkc0NsaVM2Ym1JdDhoTFNhUXFMZ0V2V09pTFkxdHdNZUlmZTFNVWJfeUV6ZGtTdUgwQ2lXSV80eElRVUo1bHlTMExNRERhTG5COHRUa2lPb0ZELUhHLVQ2ZU9YYW1WRUZMVm0taWZndWp4aXdJTko5UHBub2liSlVTNVVTV1VfRlp3VncwaFp6WlhGWHFiQXJhWjk3UzAxTHhha0V6aDEtUjhESWE0RkxDQklrckx4WkZacmhxd2dTdVVIMg?oc=5"
+     ],
+     [
+      "2026-10-07 12:33",
+      "Renascença",
+      "​Comissões de inquérito aos exames nacionais e a Luís Neves arrancam a 14 de outubro",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRE9JekhJV1VSTjJhRmVoNnlNX0dKUmYybzlaYm96OWdNR0MwNy1WcTFPdXdUdTdaVGV4N2RsRm1JX0RDdFlTZEwzZGpCMkpYMEllc2pXdDNEeWNjd2htOC1ubF82UElINHNIMWRlbUpQdTZPc2NmajZfRHJUd2NDNEFjd3dJeFNfdDB4dmxBeDVRWFNYQndFNWRFOXJ6b2t0ZGJHdm0ybHVncmhZQUVEVy14eHNQUWh1NDNFVTR5SXdBVVJFOVp6MXFZcTRlRmtRV3Jr?oc=5"
+     ],
+     [
+      "2026-10-06 09:41",
+      "ECO",
+      "Comissão de inquérito aos exames nacionais vai escrutinar contratos e custos da classificação digital",
+      "https://eco.sapo.pt/2026/10/06/comissao-de-inquerito-aos-exames-nacionais-vai-escrutinar-contratos-e-custos-da-classificacao-digital/"
+     ],
+     [
+      "2026-10-03 13:54",
+      "Correio da Manhã",
+      "Escola António Arroio rejeita classificação digital de exames e diz que teve 100 pedidos de reapreciação",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTTRIS2xaX25YNGhGdTRRMUx3OG00bE1qRXF0SzJWem5OaFYzZVRJWWFQOXJ6XzVOemhwY0t4T2VhNUJad3htZ1R1QnlSclI5a0ZMaHNuZ3F1TFU3M202S3U2NHZOVTFtd0RxaUdHTW91Mzlha05MVDRqUmpaVWtHVEU4RXhTRTlBOTZpd3RMaU1ucDlGRWZmYXU3S09LRmxiNmFCUFF1aVYwaGNsbWo4QUpnZWpuWUFkVExEeFZtUUZLUXlBSzk0TEl1MUo5SlBNZ3RtcDhCdlNyZ9IB2gFBVV95cUxOTTRIS2xaX25YNGhGdTRRMUx3OG00bE1qRXF0SzJWem5OaFYzZVRJWWFQOXJ6XzVOemhwY0t4T2VhNUJad3htZ1R1QnlSclI5a0ZMaHNuZ3F1TFU3M202S3U2NHZOVTFtd0RxaUdHTW91Mzlha05MVDRqUmpaVWtHVEU4RXhTRTlBOTZpd3RMaU1ucDlGRWZmYXU3S09LRmxiNmFCUFF1aVYwaGNsbWo4QUpnZWpuWUFkVExEeFZtUUZLUXlBSzk0TEl1MUo5SlBNZ3RtcDhCdlNyZw?oc=5"
+     ],
+     [
+      "2026-09-30 14:30",
+      "RTP Notícias",
+      "Identificadas falhas técnicas na classificação dos exames nacionais",
+      "https://www.rtp.pt/noticias/pais/identificadas-falhas-tecnicas-na-classificacao-dos-exames-nacionais_v1768635"
+     ],
+     [
+      "2026-09-30 11:29",
+      "SAPO Tek",
+      "Exames nacionais: o plano B para os códigos QR também falhou e espalhou erros pela correção digital",
+      "https://tek.sapo.pt/noticias/ciencia/artigos/exames-nacionais-o-plano-b-para-os-codigos-qr-tambem-falhou-e-espalhou-erros-pela-correcao-digital/"
+     ],
+     [
+      "2026-09-30 08:04",
+      "TSF",
+      "Dupla falha na classificação digital dos exames nacionais",
+      "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORUJXYm5yRlJoLXNIR2lNZkhHUlZQbW5zSzNwejhPQThKVXRZZkxiU0ZfYU14T1VLYVc3dWtfcGFpU2RVOE5TcGMya3lQYldaVWkwY3FkYVRwRUFNeE5wd3JlczJrNUlHM0d1Tm95YVQySlZyZ2YxZ2taTk5HSzMwa0JrNXpiZVZfNWFiS0hFYl9pTGVyMzhiTElQOWVoWUtrdkJRZ0tBblBTTkRvZm5EY2g3S3RRWHBrTTA2c1dBZnUtSm53SHN4aGJ5RGVaZVRpRDdwRXVpdG9KQUpZdnJSU21rNmZiQQ?oc=5"
+     ],
+     [
+      "2026-09-29 20:01",
+      "SIC Notícias",
+      "Exames nacionais: falhas nos códigos QR atrasaram classificação das provas, revela relatório",
+      "https://news.google.com/rss/articles/CBMi3ANBVV95cUxQbXhzUkUtdHhaMHdxY2Jaa2RuYTdEOWRMYTlOODZ2ZVNxWUlHbWhsS0l3MmhWejQ1NFliLWtRb1RNbFRaajl0WUlSdzA4clRiRjVIaDFIblZLS0Q1WmZaLVVSVXJyUWRsZWJ3ZGxwQXFKV3E2RzBpOC05dTFmM19sYUZXUU42UVU2anNud1A2bkhteHhPTGhhM3RhajkwUGpnRjZlVW4zaHlORVNjMVBjeWJrWFRqeWRjTldpbkphN19kRlBOUk95UmxYRWJfMkUxMEFLaDBTT1phOFpfdDFqLU4yTEp1N2d0N3kyWFJjUXVSMzMxMTRYMURZY19fMEplQ0JraWFaMzFKemVBQldlWDBXVlpycjNXaGs1VXRBc18yWWt3ZE1zYm5ZaVZTd1VrcTh1VGRoSFNXY29ERXJrV3lYa0xLeVVGZVJrLWJpWHd1cll4OXlJSGpNdGF5TVB2TWFkeE9penZlZGg5OVdpLWlnQzNGLV85cTZVZUR2dHdYTzBDbFFWdDlTQ2EwTU4wR0RmaEtRbm1EckM0aGh2LWQwZzlWOTJ2OWJEbE9kbjhYT3l0U3owRmF4UF9DUlk0d0VTdnphVUlBWWtOdHhjSGZXaUlMbDBnTndYSA?oc=5"
+     ],
+     [
+      "2026-09-26 00:15",
+      "Observador",
+      "00h. FENPROF avança com queixa contra ministro da Educação",
+      "https://observador.pt/programas/noticiario/as-noticias-das-00h-2430/"
+     ],
+     [
+      "2026-09-25 21:26",
+      "Observador",
+      "Professores pondera queixa contra ministro da Educação",
+      "https://observador.pt/2026/09/25/fenprof-acusa-fernando-alexandre-de-declaracoes-insultuosas-e-pondera-queixa-formal-contra-o-ministro/"
+     ],
+     [
+      "2026-09-25 21:14",
+      "Público",
+      "Exames nacionais: ministro da Educação e Fenprof trocam acusações",
+      "https://www.publico.pt/2026/09/25/sociedade/noticia/exames-nacionais-ministro-educacao-fenprof-trocam-acusacoes-2189374"
+     ],
+     [
+      "2026-09-25 16:28",
+      "Observador",
+      "Emídio Guerreiro preside a comissão de inquérito aos exames",
+      "https://observador.pt/2026/09/25/social-democrata-emidio-guerreiro-vai-presidir-a-comissao-de-inquerito-aos-exames-nacionais/"
+     ],
+     [
+      "2026-09-25 14:57",
+      "RTP Notícias",
+      "Ministro da Educação diz que Fenprof fez tudo para que processo da correção de exames corresse mal",
+      "https://www.rtp.pt/noticias/pais/ministro-da-educacao-diz-que-fenprof-fez-tudo-para-que-processo-da-correcao-de-exames-corresse-mal_n1767711"
+     ],
+     [
+      "2026-09-25 14:51",
+      "ECO",
+      "Ministro diz que Fenprof fez tudo para que processo da correção de exames corresse mal",
+      "https://eco.sapo.pt/2026/09/25/ministro-diz-que-fenprof-fez-tudo-para-que-processo-da-correcao-de-exames-corresse-mal/"
+     ],
+     [
+      "2026-09-25 14:02",
+      "Notícias ao Minuto",
+      "Emídio Guerreiro vai presidir a inquérito aos exames nacionais",
+      "https://www.noticiasaominuto.com/pais/3057292/social-democrata-emidio-guerreiro-vai-presidir-a-comissao-de-inquerito-aos-exames-nacionais#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-09-25 12:58",
+      "SIC Notícias",
+      "Comissão de inquérito aos exames nacionais vai ser presidida pelo PSD",
+      "https://news.google.com/rss/articles/CBMitgNBVV95cUxQbmxULTJzMHlMRnBjOWI2cVJzalk5d0NKYmh2VktncHZJQWJSd203cjFsZkJEREtrZWZWMk13M3AySElLbUFNSnRzemMtWlgzWU1sVzAyaFM5ZTRURmFZUkFJY3VVb2NTVTdUbTRZd2VPaHNBR0xUQ1ZLeXdjNlQyX2YyYnlmLUxCNE9sWU85WFc4NmM0WTVUQ01oekFjS013NmI0Q2hndmNVbVhjWmtDRzRiUkpwQ3RSSk5TZVJaQWZmV0tDcHd4allJNHVUblBRLWpMZW9yUHZmYnAyaENrMWFfRnRHY1Z0b3VickJPNDQ0WTM3RUNRZWZxSi15S0lxR1dTQWhXYWc0a0U5TzFXN19ISDJlaWJyNlEtOFlHdjJ5U05MdF83cFloSFlDY0N1SFBIZWwycUs2NGs2OFJYYXZOVm5NdDZDbUZPd1pUc3hYbm9OS1VMMGdGdm9iS01nR3FHaGM5OVhaNkFTbU9yMmRNNEVkUVo2RW1jOVFyWEtNUXppdVNCUFBlNHU0Nm1RajQ5X1VONVdMOGhOZ1Z3VUVLSDFMRUJ4dzNacm9zNkcydXd5OEE?oc=5"
+     ],
+     [
+      "2026-09-25 12:11",
+      "Correio da Manhã",
+      "Social-democrata Emídio Guerreiro vai presidir à comissão de inquérito aos exames nacionais",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYmpmSHJMNzRyMll2R0tNSDJkMmFnd0tlanhvZ19iSF9YTGpaTktnR1I5Sk91cVBnTnRvX2Jtb05mVFFJbm9FOGRaT0lZbzFOTV9YRXpRMEJLN2RMSVRqenZpMDh6NDMtSVAtS0hKRUhTY1NZRXVzeGVHeERNTmFIdDhsZ0lZdlZWakphWW1qd28yc0lqeFo1R19rcjg2ZDhiMGNoLWdBTFFwa1NOMEZNNnRjZUFiZVU1cXl5UzAwcWR3SE5CWTc40gHHAUFVX3lxTE1iamZIckw3NHIyWXZHS01IMmQyYWd3S2VqeG9nX2JIX1hMalpOS2dHUjlKT3VxUGdOdG9fYm1vTmZUUUlub0U4ZFpPSVlvMU5NX1hFelEwQks3ZExJVGp6dmkwOHo0My1JUC1LSEpFSFNjU1lFdXN4ZUd4RE1OYUh0OGxnSVl2VlZqSmFZbWp3bzJzSWp4WjVHX2tyODZkOGIwY2gtZ0FMUXBrU04wRk02dGNlQWJlVTVxeXlTMDBxZHdITkJZNzg?oc=5"
+     ],
+     [
+      "2026-09-22 23:01",
+      "Renascença",
+      "Aprovado inquérito aos exames nacionais, PCP mantém pressão ao ministro da Educação com arranque do ano letivo",
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSzBSVXFwUERZSUVfZlRVNThCUmRiREpveXlOOUlvSGFHbE1SZ29VSDVYWmc4OFBUY1FOekNiRWJ4eDhRVWJBZ0dHUnpLT0VFdkVYdVpRa3p3cTVHMkZRZjR0clZLTTNLVUNrQW9NcVUyclBDLTcxOGQ5QmMyTUJ5ODRzTFJtRW5sWlo1dFhsaEhtbWlLdjhrN1poZjVGS0JnMVJmX2J5RjVVMUZlYldRV3Z0bDV5VGdrR0ZGdG1iNTAwcThlS2w5aGo5MEd1MEM4R09kcHI5Vl9PaENaVnBUa2VXMFN2WnotY1lFZGZpal85Qzd5WXc?oc=5"
+     ],
+     [
+      "2026-09-18 21:28",
+      "Observador",
+      "PAR-Ventura: CPI é mais um episódio da novela Luís Neves?",
+      "https://observador.pt/programas/fora-do-baralho/par-ventura-cpi-e-mais-um-episodio-da-novela-luis-neves/"
+     ],
+     [
+      "2026-09-18 15:56",
+      "TSF",
+      "Comissão de inquérito aos exames nacionais é \"positiva\", mas \"questão muito política\"",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObnRQZkMta2tCZXNoelF0dGpBeUZqM0JHbHhpOG9oR3FuSGEwdC1hS2FHV095RWJxajFhV2ZtSUxaSUlYZVV1d0g0N3lZSEZsam5SZ0M5cmJSbGxhMF92UjBicXhmdWZSNkdiZDhOVjZ1cG51dUozYXFLaUk4eXFRRXBEM1lCUVZtU1hoaTgxV3hsQndvZFhMWDcwNHZyNTV3SVBhV1hRLWhuN1pYYVJoVmpZd3ZEQ2N1amFnOUJWT2duS0k?oc=5"
+     ],
+     [
+      "2026-09-18 15:56",
+      "TSF",
+      "Comissão de inquérito aos exames nacionais é \\\"positiva\\\", mas \\\"questão muito política\\\"",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTmx6TnlVbzFEc2NFQmdPS3hUMEszUVFfd0VsN256TWFqb21zazV3R3Zsc2Ewb2tIMHFKV1ZKN0lvQi1GS190MW9JaHdGSVJLWUdSTElmczdrazdoLTUzTFRFaExhSmRqNkFLYjBTNThMUWZ4QzNKaWRnb25ybXFOOWdCRmVMMzFIMHg4YXBJZkpzVkRQc3o0Y09HeWV4Vjd6ZEpmM2pma3hyb2pqY2ZxeGh3?oc=5"
+     ],
+     [
+      "2026-09-18 15:06",
+      "RTP Notícias",
+      "Exames. Parlamento aprova comissão de inquérito proposta pelo BE com apoio de Chega e PS",
+      "https://www.rtp.pt/noticias/politica/exames-parlamento-aprova-comissao-de-inquerito-proposta-pelo-be-com-apoio-de-chega-e-ps_n1766316"
+     ],
+     [
+      "2026-09-18 14:37",
+      "SIC Notícias",
+      "Aprovada comissão de inquérito ao caos nos exames nacionais, (só) PSD e CDS votaram contra",
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcERzdFZzc09fekdocTlVZGZzX1lsbTR5Z0p6ZVdLR2xuaG1OM0JlNHZpZkJ2WW91T2ZxY3kzcDVOd04td1g0MHI2dmIzTWlvNzRWNTJLbF83Qkxsc293VDY2VTlRTzhZVnI1d216bEJoTmd4R2pnT0tvVVMxZ2I1SjJHWFEzYmswTDFObzMxWUNkeVlTOHl2UzBZakE2cjJxUmhyTlUwU1NteE4xTFlobFNrSjh2ejVEanJDaFoxUXk0bWJIRjRKbUYtVlN5aTVXVmpKMTNXVnlPb3VJVjhn?oc=5"
+     ],
+     [
+      "2026-09-18 14:14",
+      "Expresso",
+      "Aprovada comissão de inquérito aos exames nacionais por iniciativa do Bloco de Esquerda",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVVMtdlNvQlpqcFpXWFk2R0tPU1l5TWh6RHFaaWZtdF9XTUN0Smh1RjBxNWZLcUEtNkp0V1RWenN2SzNqYUhCWFZhT0VhcHlHZnZtanJhelFkajRqbk5FZ3JObkJ3aDEzU2FWNFR5dGs1NVFtSXJ1SlZFbUNsSDR0YlhIdklidjNOcndNMkljQlZVdUctMjFUNXNIY2p2REEwNjNfc2RxT3pZa3BYUEVnZnZpeDlUNmhvM21zTEwtYWc5U3R3bFJVRXpFNTdtVzJPSVpqUQ?oc=5"
+     ],
+     [
+      "2026-09-18 14:09",
+      "Jornal de Notícias",
+      "Aprovada comissão de inquérito aos exames nacionais proposta pelo BE",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR3ZRdXlvYjRrVGZtNU9uaWRVVDFUV3IzNTRobWVsREhFYUtXRl9aSVlxcVh4aHRNQU9ncEZpTzNUOWtCOU9tMVNvWTJkUkJOUFBPdGtHS1dnM2NCRUhkM2Q2TG4wOVJmZ2VsTVRvbzhITjJSS2l2SzhLblRaUTg3SUNVUnF6dTBpb0xtUEY4eFh3dVdvTGhsQmd1VHNwQ28xcmtSa1pPcEoxejlwaTBSRQ?oc=5"
+     ],
+     [
+      "2026-09-18 14:05",
+      "TSF",
+      "Parlamento aprova comissão de inquérito sobre a classificação digital dos exames nacionais",
+      "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb0ZBdE5WLWtLa28tZjZ2YmVVU0lfa3VBMlNXSF9YQjVpdHdldHd2Y00ydHBfZHlqcHZsZmhKZkNsVFduRUJIUjRrUVB1OGd5cnEwVjR3SUxEUnN6dmdpWHRyVV9QUEUtTkJ5UXN6eW42djJhdl9IcGJxMlJqZC1yX1lEUWs3TzBTS2dOTjdkWkNuSmlxZW45eTNlMFVaOHM1UTR3NXItN0duRVZTVHh2YkliQVNxa0NMUG9XSlFZNkV4RkNiMWtyQ3IyWUQxTk0?oc=5"
+     ],
+     [
+      "2026-09-18 13:21",
+      "Renascença",
+      "Parlamento aprova comissão de inquérito aos exames nacionais",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR1g5WnRwSVFXUkF0d0J1Rjl1SkZNVk5IZXoyenFXVDdYSEFFTzU4WkVYNnAxTXItU2dsc19kWnNuOUVCb29fT3ZvTGs1aXhuYUpHejhwQ1JVcy1sTnU4eHo0T0NHZXF2NXRkekYyaWt2M0NsbE5WQ1ZFY3dIWV9HMk1RNzE3Q25wVzB6bU9TX2dWakpQWjBGOElXNjZYdW1sR1JVOFhHOWFHUkJsSFE0RWVMbWc?oc=5"
+     ],
+     [
+      "2026-09-18 13:12",
+      "Correio da Manhã",
+      "Parlamento aprova comissão de inquérito sobre os exames nacionais",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd2hJTU5pTWY4UlU0eDA1YzdtUnZiZ25SdGdHdWg2aTJtSWJzSVRHSnhMVjlsUUh5d2hKX3BIdWpFVzRCdUNvODVDelZwZURzVEk1dFd5S0hiTWRES2c2SGdvd3FJTVc5RG5sWWZyY1F6Z3BrY2p2SWt4VExzdVMzQ0ZFN29FQ1BMMG84Sk1za1dTUmZ1eURFNE13bWJOeTJVbmk5T9IBpAFBVV95cUxNd2hJTU5pTWY4UlU0eDA1YzdtUnZiZ25SdGdHdWg2aTJtSWJzSVRHSnhMVjlsUUh5d2hKX3BIdWpFVzRCdUNvODVDelZwZURzVEk1dFd5S0hiTWRES2c2SGdvd3FJTVc5RG5sWWZyY1F6Z3BrY2p2SWt4VExzdVMzQ0ZFN29FQ1BMMG84Sk1za1dTUmZ1eURFNE13bWJOeTJVbmk5Tw?oc=5"
+     ],
+     [
+      "2026-09-17 17:49",
+      "Sábado",
+      "IL vai abster-se na proposta do BE para criar comissão de inquérito à classificação dos exames nacionais",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNN3ZSdjJnc3FzOGlCWXdLM1BPNVBJNVR0dVVBYk9Yb2NHeHg3RTJmZWQ2d295Q25XQ1ZmdnhwZVE4dm1WU2hvcmMzbzBYQ0d6bFVGYjVpd21EQkxLSDEtS3BzZGhJMklnVGtuaDVucUx4YzVZeHM2Wmx5b1pYN0hydnRaN1NzTTgtQW1uZkFfNUJ3bGc2ZFNMT3I5akV0V1lvWXhDd2ZzNlItLVVmLXBsWm84VUdUdnZDcmVwekUxRVNENmFqLWt0M1hyM0pzXy1kdW5yQ2JPVmlEX2PSAdYBQVVfeXFMUFBXQ0JIa0VOQUhBTWZ1N0hra0ktQ0h3QmpVMUFzb2c3d3dkRFgyQk5IMkUxMk1heV9MUXpIS1FVRXhHMmtJWE1Xd3JnUmJrNHhYaFV6VldRcnFjd09FbTB5VjF3eThGNlZyb2lsbjRDQVNMRExvNXZuM0s4OHU3N0lUVTUycG5pUXNSZHR4SlFXeGxNWXdjUVkwOG9nYnpDZzdjN1BTcnNJV2JqNVBYSWxPU1hYWldVY29tMGtfYXZfQjNfNDl1T2s1OGd5LXhpQjZsbnJTUQ?oc=5"
+     ],
+     [
+      "2026-09-17 15:20",
+      "RTP Notícias",
+      "PS apoia CPI aos exames após envio de 30 perguntas ao Governo: \"Ministro teve todas as possibilidades de cooperar\"",
+      "https://www.rtp.pt/noticias/politica/ps-apoia-cpi-aos-exames-apos-envio-de-30-perguntas-ao-governo-ministro-teve-todas-as-possibilidades-de-cooperar_a1766022"
+     ],
+     [
+      "2026-09-17 13:28",
+      "RTP Notícias",
+      "PS vai votar contra Comissão de Inquérito do JPP ao ministro Luís Neves mas apoia CPI aos exames",
+      "https://www.rtp.pt/noticias/pais/ps-vai-votar-contra-comissao-de-inquerito-do-jpp-ao-ministro-luis-neves-mas-apoia-cpi-aos-exames_n1766016"
+     ],
+     [
+      "2026-09-17 12:42",
+      "RTP Notícias",
+      "PS vai votar contra Comissão de Inquérito do JPP ao ministro Luís Neves",
+      "https://www.rtp.pt/noticias/pais/ps-vai-votar-contra-comissao-de-inquerito-do-jpp-ao-ministro-luis-neves_n1766016"
+     ],
+     [
+      "2026-09-17 09:50",
+      "Jornal Económico",
+      "Realizadas 21 mil provas na época especial dos exames",
+      "https://jornaleconomico.sapo.pt/noticias/realizadas-21-mil-provas-na-epoca-especial-dos-exames/"
+     ],
+     [
+      "2026-09-17 07:18",
+      "Observador",
+      "7h. PS vai votar a favor da CPI aos exames nacionais",
+      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2508/"
+     ],
+     [
+      "2026-09-17 07:18",
+      "Observador",
+      "7h. Partido Socialista vai votar a favor da Comissão Parlamentar de Inquérito aos exames nacionais",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE12Z1dNZ2NFUzRHZUh6OTVoZmFFTlFuRmtrcWpUMk04Z2xxYV9MTUI2TUhZV0tLU0dtS0l5eENQNGYyRHRBNTRBTWY4Z2szbFpCazhxaTA1MTdZTk5oSWZpOElRUFI5M3pZMFdhWUlCR3R5RzhWcnc?oc=5"
+     ],
+     [
+      "2026-09-17 00:39",
+      "RTP Notícias",
+      "23h PS vai viabilizar a comissão de inquérito sobre os exames nacionais",
+      "https://www.rtp.pt/noticias/noticiario-antena1/23h-ps-vai-viabilizar-a-comissao-de-inquerito-sobre-os-exames-nacionais_a1_1765919"
+     ],
+     [
+      "2026-09-17 00:17",
+      "Observador",
+      "00h. Valência. Mau tempo fecha aeroporto e escolas",
+      "https://observador.pt/programas/noticiario/as-noticias-das-00h-2422/"
+     ],
+     [
+      "2026-09-16 22:05",
+      "ECO",
+      "Vem aí mais uma comissão parlamentar. PS prepara voto a favor no inquérito aos exames",
+      "https://eco.sapo.pt/2026/09/16/vem-ai-mais-uma-comissao-parlamentar-ps-prepara-voto-a-favor-no-inquerito-aos-exames/"
+     ],
+     [
+      "2026-09-16 21:59",
+      "Observador",
+      "Inquérito ao caos nos exames nacionais vai avançar",
+      "https://observador.pt/2026/09/16/comissao-de-inquerito-ao-caos-nos-exames-nacionais-vai-avancar/"
+     ],
+     [
+      "2026-09-16 21:46",
+      "RTP Notícias",
+      "Exames nacionais. Secretariado Nacional do PS propõe voto a favor no inquérito pedido pelo BE",
+      "https://www.rtp.pt/noticias/politica/exames-nacionais-secretariado-nacional-do-ps-propoe-voto-a-favor-no-inquerito-pedido-pelo-be_n1765905"
+     ],
+     [
+      "2026-09-16 21:37",
+      "CNN Portugal",
+      "Exames nacionais. PS avisa que, sem esclarecimentos, é \"mesmo preciso\" um inquérito parlamentar",
+      "https://cnnportugal.iol.pt/exames-nacionais/exames/exames-nacionais-ps-avisa-que-sem-esclarecimentos-e-mesmo-preciso-um-inquerito-parlamentar/20260916/6aaaf371d34e53c759c726cd"
+     ],
+     [
+      "2026-09-16 21:04",
+      "Observador",
+      "21h. PS admite que é preciso uma comissão de inquérito aos exames nacionais",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GRDQtV1VUY1h4TTdURlNBZktvRzV1bXFaQWlZTDRFXy1aTkd3ZnhGYjBEYVZHR0tTaHdVXzR3dGpHQXNxUmpyWVRpejZLVExhdWZWTUlWcnNXdDNPaVFKeVlHSGp0UzBuRUdpNkhiSVZZZW1jVzdj?oc=5"
+     ],
+     [
+      "2026-09-16 20:39",
+      "Diário de Notícias",
+      "Exames nacionais: PS defende que sem esclarecimentos é “preciso mesmo” um inquérito parlamentar",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa2tDcXozcFdtSEZhOS10VmF3SzlRZG5rQk9taERWRmRwU1lmV2c4V2pZQmVjMTJHY293UU5kZjJ0Y2F1d0ZZaTV4TzVVdDhsM2J6T2VpZ0ZsUm5zQWV1RDZMVGJYMVhhcjVTTmc4OTdwamdsZ0NIUzU2RDBYcFpKWHNZUGxCa3hmM2NZc1BhVGtjanZiMWxZaVI4cUFvVmt1bTFTR3F6dGx2YnpVM1VDbXFZbzg3aXZPQjZuM0FR?oc=5"
+     ],
+     [
+      "2026-09-16 20:32",
+      "Público",
+      "PS vota a favor da comissão de inquérito aos exames nacionais proposta pelo Bloco",
+      "https://www.publico.pt/2026/09/16/politica/noticia/ps-caso-exames-precisa-inquerito-parlamentar-2188301"
+     ],
+     [
+      "2026-09-16 18:39",
+      "Correio da Manhã",
+      "PS defende que sem esclarecimentos sobre exames nacionais é \"preciso mesmo\" um inquérito parlamentar",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSVZ6YjkxMXBNUTJxbmd4eDBfRWFHNU5ORE94MW16bkFDX2w4ckhrMGhmQTI4OF8yNmlRcVFlbVloSGlzdlljZHJab01sOGlwdjNFdHZkR0xfME9TSGtGZFVwcERPWG44dHVqWDM3YzhqSzlYOG5wZll1X0NPWGltWkphaXp3QmdrdmZzbXNWUFd6T2ZVak9mb0ppR0dLYjQ0OFY4enF3Y2Jmd2RrV1dUN3pUYWNYS0NpcmJZYVlYSWhyNTdIa0dTWkRHR25KVTNj0gHQAUFVX3lxTE1JVnpiOTExcE1RMnFuZ3h4MF9FYUc1Tk5ET3gxbXpuQUNfbDhySGswaGZBMjg4XzI2aVFxUWVtWWhIaXN2WWNkclpvTWw4aXB2M0V0dmRHTF8wT1NIa0ZkVXBwRE9Ybjh0dWpYMzdjOGpLOVg4bnBmWXVfQ09YaW1aSmFpendCZ2t2ZnNtc1ZQV3pPZlVqT2ZvSmlHR0tiNDQ4Vjh6cXdjYmZ3ZGtXV1Q3elRhY1hLQ2lyYllhWVhJaHI1N0hrR1NaREdHbkpVM2M?oc=5"
+     ],
+     [
+      "2026-09-16 18:00",
+      "Renascença",
+      "PS vota a favor de inquérito do BE aos exames nacionais",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMUphaEhjME5jdkh3RW9KSWZ2SGNtXzNlVExKX2NoYkVFbW9Zamp2WWpZcWttdWpXYmJ3R3pVazV6Y0xiLU5TR09VVzE3Ym42bnZ3d1Q2VGpLUkNhZmNCRHdWVGltODBUeXRQRDY3SnVRUEdBUmt2Z2xPeHBOS0liUE1zeVNIcUNoMDBsekktU3k0R0tMS1o0RlhaTHVIeDU4LTAzMWxtMFk?oc=5"
+     ],
+     [
+      "2026-09-16 17:47",
+      "ECO",
+      "Nota subiu em 75% dos exames da 2.ª fase que foram reavaliados",
+      "https://eco.sapo.pt/2026/09/16/nota-subiu-em-75-dos-exames-da-2-a-fase-que-foram-reavaliados/"
+     ],
+     [
+      "2026-09-15 18:05",
+      "CNN Portugal",
+      "Chega vai votar a favor da comissão de inquérito do BE sobre os exames nacionais",
+      "https://cnnportugal.iol.pt/chega/be/chega-vai-votar-a-favor-da-comissao-de-inquerito-do-be-sobre-os-exames-nacionais/20260915/6aa972c6d34e9a786e75812a"
+     ],
+     [
+      "2026-09-15 17:51",
+      "RTP Notícias",
+      "Exames nacionais. Chega vai votar a favor comissão de inquérito do BE",
+      "https://www.rtp.pt/noticias/economia/exames-nacionais-chega-vai-votar-a-favor-comissao-de-inquerito-do-be_n1765617"
+     ],
+     [
+      "2026-09-14 22:43",
+      "RTP Notícias",
+      "Iniciativa Liberal acusa PS de hipocrisia por criticar o ministro da Educação",
+      "https://www.rtp.pt/noticias/politica/iniciativa-liberal-acusa-ps-de-hipocrisia-por-criticar-o-ministro-da-educacao_v1765427"
+     ],
+     [
+      "2026-09-08 12:57",
+      "Público",
+      "Contrato com a Deloitte para suporte à classificação digital dos exames foi reforçado em 187 mil euros",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQXlocHAzRVZJVmZ6YVV2cmU0RXJZRk13VnpCbVB2YjUzcU1BREZ2cFpYbXFxcDg3N0VVX2NCZVUweGJ1dWxCcENCdlM1eVB0QWdaZy1zcGZZM0p1aGtEWGVhdUU3Mml5aHFSbDVmSWJtWmRWblFzZ0hvbE52U0tLb2Q1UWdvVXZtMUQtUnd4VWpqQ1E5S25neUdsMkhteS1BUldlTmVjZnVQZkxjX3I1bWtQRVFtRngtLWhUVlI5S3ZKYW5qMHF2UWNzV1g?oc=5"
+     ],
+     [
+      "2026-09-07 08:00",
+      "Visão",
+      "Para que servem os exames nacionais?",
+      "https://visao.pt/opiniao/pensar/2026-09-07-para-que-servem-os-exames-nacionais/?utm_source=rss&utm_medium=rss&utm_campaign=para-que-servem-os-exames-nacionais"
+     ],
+     [
+      "2026-09-03 09:19",
+      "Jornal Económico",
+      "Época especial de exames do secundário arranca hoje com 43.501 inscrições",
+      "https://jornaleconomico.sapo.pt/noticias/epoca-especial-de-exames-do-secundario-arranca-hoje-com-43-501-inscricoes/"
+     ],
+     [
+      "2026-09-01 22:02",
+      "CNN Portugal",
+      "MP abre inquérito ao caos nos exames nacionais, mas \"dificilmente algum aluno verá a sua situação resolvida ou reparada\"",
+      "https://cnnportugal.iol.pt/exames-nacionais/queixa-exames-nacionais/mp-abre-inquerito-ao-caos-nos-exames-nacionais-mas-dificilmente-algum-aluno-vera-a-sua-situacao-resolvida-ou-reparada/20260901/6a97344ed34e511da0b36799"
+     ],
+     [
+      "2026-09-01 21:46",
+      "RTP Notícias",
+      "Exames. Ministério Público abre inquérito, ministro está \"tranquilo\"",
+      "https://www.rtp.pt/noticias/politica/exames-ministerio-publico-abre-inquerito-ministro-esta-tranquilo_v1762842"
+     ],
+     [
+      "2026-09-01 16:31",
+      "RTP Notícias",
+      "15h Ministro da Educação tranquilo com inquérito do MP aos exames nacionais",
+      "https://www.rtp.pt/noticias/noticiario-antena1/15h-ministro-da-educacao-tranquilo-com-inquerito-do-mp-aos-exames-nacionais_a1_1762777"
+     ],
+     [
+      "2026-09-01 15:02",
+      "Observador",
+      "15h. Ministro tranquilo com inquérito aos exames nacionais",
+      "https://observador.pt/programas/noticiario/as-noticias-das-15h-2443/"
+     ],
+     [
+      "2026-09-01 14:36",
+      "SIC Notícias",
+      "20 minutos: MP abre inquérito às falhas na correção dos exames nacionais",
+      "https://news.google.com/rss/articles/CBMinwRBVV95cUxNWlJJNGkyRFJfcGE5Nzc2N1JVNG5CMG84SVV4X0RzRC1yRzNOeEdCeFA4ZnJ5T1U0eUlhQnZpVzNvaFk4Q2JoT0xaN0FlSHZLaGhoYklhaDFaYlVLM3hlU2pBRWVTYmVlMWdQd0s5c1dqdUI5clc4cVZQdjhvbW5ObUF0Y09ZVkdGRE8ySF94aWVpYkZOZTZuUUNiWDl6c1lrTFR2dlllMGJnV2Y3MmI3QzlQNkNXU3pwQlUxUDlHOHRwVW9FVFJQTlplSXBybDJGbHhudWRscmZLUk1QNGdKOVJnZmhjM1ZNczdyb3poSDlHRTBxaHlZNTRWNU8wNlhxTENiejlJaFlKOVVyaEwxTFFZTUwwdVRmbDRZREg5WTl1VkJPYmN4UWk2UzEya2FzTzdCUDNSSndIZVdXSHBVc1ZUelhUaFZyUmxTMkZ3VmZXSDhuZ2p5NGlwSzVkbUVwZTNoNHJWOE9BdkZ4ZnROUUVkWUFTT2tXc1N3NGFpZkxRREZNUXc5R1pXY0wxdFdhMnBIVEFWVWJrZDNOTS15cndDeFFxUWtrUGRHd21Yc1hMLXBBVGUxNVBtQVhXTHR1bXhlMmU2cEQ5RHhYdjhXOF9SZHdDZUI1VWtnczJJS1BVSUdwRGhib3J0QjdmcVB2S095dEVXZG1DQ3BKVFo3VVF0YmhwTFltdnE2anpiN25YYTkwNWlGeTRpaGdyaUk?oc=5"
+     ],
+     [
+      "2026-09-01 14:31",
+      "Expresso",
+      "Falhas nos exames nacionais: ministro está de ”consciência totalmente tranquila”, Fenprof sauda abertura do inquérito",
+      "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNjFfVjRicndtMW03X1hLejBKeHR6N1ZmZV9SaTVGeVY2RFRXeXMzb2RORU56b2hWYTJrWTh3MnBFSExLanYwdG03Y3ZXa212b0c3ZF9XWFNRQWFuR0JKZjBZUXRQSFdVQVJZem1CWUljSXg4YWZkMVBUd2dzbnA1NWZpY3dKcERIaUtqSnAzOWZMQXRTQ0tDTDdPSTZzenJEVGFvcGNxdG45TkIxVWxCOU9HdTM0ckVIb2VyWW1qRzQzdzVJb2p1blY5THN4SDBkZWZRN2RwOHluT0lLZGlUNWpNMk9Bc0NNQlpqODhRUFVULW9C?oc=5"
+     ],
+     [
+      "2026-09-01 14:14",
+      "Jornal de Negócios",
+      "Ministro de \"consciência totalmente tranquila\" quanto a processo sobre exames",
+      "https://www.jornaldenegocios.pt/economia/detalhe/ministro-de-consciencia-totalmente-tranquila-quanto-a-processo-sobre-exames"
+     ],
+     [
+      "2026-09-01 13:14",
+      "Observador",
+      "13h. MP abriu inquérito à correção dos Exames Nacionais",
+      "https://observador.pt/programas/noticiario/as-noticias-das-13h-2433/"
+     ],
+     [
+      "2026-09-01 12:53",
+      "CNN Portugal",
+      "\"Tem de ser apurado quem é que impôs isto\": Fenprof congratula-se com abertura de inquérito ao caos dos exames nacionais",
+      "https://cnnportugal.iol.pt/exames-nacionais/fenprof/fenprof-congratula-se-com-a-abertura-de-inquerito-pelo-ministerio-publico-ao-caos-dos-exames-nacionais/20260901/6a96bc22d34e511da0b3655c"
+     ],
+     [
+      "2026-09-01 12:16",
+      "Observador",
+      "12h. Nepal. Português encontrado com vida",
+      "https://observador.pt/programas/noticiario/as-noticias-das-12h-2432/"
+     ],
+     [
+      "2026-09-01 10:57",
+      "RTP Notícias",
+      "Classificação Exames Nacionais. Ministério Público abre inquérito após queixa da FENPROF",
+      "https://www.rtp.pt/noticias/pais/classificacao-exames-nacionais-ministerio-publico-abre-inquerito-apos-queixa-da-fenprof_n1762714"
+     ],
+     [
+      "2026-09-01 10:57",
+      "RTP Notícias",
+      "10h Ministério público abre inquérito sobre a correção dos exames nacionais",
+      "https://www.rtp.pt/noticias/noticiario-antena1/10h-ministerio-publico-abre-inquerito-sobre-a-correcao-dos-exames-nacionais_a1_1762716"
+     ],
+     [
+      "2026-09-01 10:29",
+      "Sábado",
+      "MP abre inquérito a processo de classificação de exames nacionais a pedido da Fenprof",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxORER4Q05reW41OXJKUmZSd05VMkpBNFc0blFzS0xxMW1PZzFaOHk0U2k4NkxqTG8ySVV2UTZRWUZwRm5JaU9hbnc3bDZBVnZ1OUQyQUNQajJZVldJLVo2SE1uSnA3SjBiS3NRSlcta0FhVXcyMVN5ODV5X3VnTk9ZaVd5UGlGRTlvRkhEQXNDalktbjNjMkJRS0VwbmtPWmdaX2E4M1B0ZEdmZWVlTlp3Z0hUZ0Y0cXJmdjhWUG9vU1Bjb1JwTXfSAcABQVVfeXFMT3VWTHI2WlphMVdWTkV6LXpjYkgtaGZKT0Fjck02aGxYZE4wRlFoN0JHVml0cTluMkJUcFlxRHE4a3Nrbi1MRUhaYnVkNTVXRTQxZ3JrU056Yk4wNW1lTTJSakVzRjZzOWR6c01YOEJKYzRmTkYzUGFkeVBnN3F3Vl9Wb3hTV09QRDNtNlA5elVhSnRtOXhWTkVjVWlZaHFUa0ZKZm5aSnprd0dIS3VPVVliXzYzalFoV3ZqWUhER1JQ?oc=5"
+     ],
+     [
+      "2026-09-01 10:17",
+      "Expresso",
+      "Ministério Público abre inquérito a falhas na correção digital dos exames nacionais",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQR2dkQ0JOck5QZG1CcUFwcmVPb1M2amVUQW93MW1fVDRlV0IzeVl1WV82cXZUME9ScVlLeVZhdzkzRVdCbEw5VTBPSGRLSTFQX2V1QlJYSUlGdjItelhGbkxuWmZxZkJpdmlTclgzdUZhYXBTVVFkek5KeXJvVExqVVF4MWE3R3hmUVhKVzZlTklIN2I4aUtmT2pWRGhXQUxfYm5BSWRPM0c0dkM5ajB3U1I2ZkkzMGs0enZaNHpaLVRZLXhzMWF3RF95cnBGN3UxT1JJbkR6UVh5VFM5bC1qYmlfVEg?oc=5"
+     ],
+     [
+      "2026-09-01 10:08",
+      "Jornal de Notícias",
+      "Ministério Público abre inquérito a processo de classificação de exames nacionais",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMURWeHFINXdnaVE0cTBiUEJwUGo4VmtoNEdHeVBQTWwtRTFVcGcxckxHZklubDVQOU5WVmtrTjloRGJmNGd4NWZqaGpSSnBKaGRqa0hka0RtS1VZc0xybUFzNG9FSjN3cldTdy1rU3E4OHFVTVFZUUtZbW50blp0SzBya0JUUHl1SnVjOTBwOHFaMWtkU1N3REZkd09RMXcxZENiYXg1dkhITHd6a3dFRjBLT2FCM0dQc2JDaGVQdm5QZw?oc=5"
+     ],
+     [
+      "2026-09-01 09:59",
+      "Observador",
+      "Ministério Público abre inquérito sobre a correção dos exames nacionais após queixa da Fenprof",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxORHozWmV5ZTNCdWZ5OFc4Ym9JZ1BTbFlpcVJmWFRqaHZudDhvNVFIM3BBVG43eDBZekxnalVRLWdIZVkyWEVBU2VWcGQ2YUpmRGQ1dVR1V25EVl9aaHQ4dzNSQ2xwdm1hQU9zMFZ2QXV0ejJoc2ZuaS1HbXlFTGVpbXJraGJiOGg4SVk3Q1JGdHppd2FIUmw1ZmZvMFJ5c3FfWUVkdk4xU3EwUHhiUVk4Nmk2Q2NPTUNpaU9UaVFsU2NLNTZGaXFN?oc=5"
+     ],
+     [
+      "2026-09-01 09:54",
+      "Nascer do SOL",
+      "Caos nos exames nacionais: folhas desaparecidas levam Ministério Público a abrir inquérito",
+      "https://sol.iol.pt/sociedade/noticias/caos-nos-exames-nacionais-folhas-desaparecidas-levam-ministerio-publico-a-abrir-inquerito/20260901/6a9697690cf2f6a1a1e75f1f"
+     ],
+     [
+      "2026-09-01 09:54",
+      "CNN Portugal",
+      "Folhas desaparecidas estão na origem: Ministério Público investiga classificação dos exames nacionais",
+      "https://cnnportugal.iol.pt/exames-nacionais/ministerio-publico/ministerio-publico-abre-inquerito-a-processo-de-classificacao-de-exames-nacionais/20260901/6a9692d4d34e511da0b364c5"
+     ],
+     [
+      "2026-09-01 09:53",
+      "Notícias ao Minuto",
+      "MP abre inquérito a processo de classificação de exames nacionais",
+      "https://www.noticiasaominuto.com/pais/3044415/ministerio-publico-abre-inquerito-a-processo-de-classificacao-de-exames-nacionais#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-09-01 09:53",
+      "SIC Notícias",
+      "Ministério Público abre inquérito à classificação de exames nacionais após queixa da Fenprof",
+      "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNzE5ZUlaaTh5ZE5TRTdsdnFEWC1TZXlqUkJZQzZuN1pGd0FnbE85SG5iOGozNHpBandyYnU1ZE5TaXRTTFlWT0VOc2c5aUQtVUItS08zMU9kN1lIbWplbkR5ZlllM1NITFQ3Q3hoVFVONjZCVUppY3RscHpWZ3pHOFo5S1J0TnVyc2dTS0MyUDZGSHBvckZSaDJNYVlIa09lWjhQZHdzQ0NuZGlYT2VBUlkxN2JVRlQ1VFlUNjlJcnh6WDAxSW9VSy1kMEFxa2thRkpFbFJjR0ZLaXJaQ3NJMzRpOA?oc=5"
+     ],
+     [
+      "2026-09-01 09:48",
+      "TSF",
+      "Ministério Público abre inquérito a processo de classificação de exames nacionais após queixa da Fenprof",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcUZ1Q0Fuam5Hb3NlUDlKSG1HOEZDdFFFaWRnR2NSNW94RnloQnF5R0JtNkRldHUyU0lSRU52WUlUZ3B3d1RvdU0wUFRMQXh0Y2JFdFVHV0VhY1BmQ296OUtTWGRpTHpGdlMweER4Yld4YktzRy1HdkNjRGNXblpRQ0ZLQzNXQXBGTmNXc1ZFVHZRaGhTem80bVgxY054XzJ2dTJITHpTZWdfSkx6RkNqLVhnS2dxaExqdXQyS0J1M2p3VzJV?oc=5"
+     ],
+     [
+      "2026-09-01 08:30",
+      "Renascença",
+      "Exames nacionais: Ministério Público abriu inquérito",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNdmhjREVHQlZZR3h1SFphVmIyYUlmczBJWDZmd29WLXdpcWFKOTNaWWd6S2JLTjl2emZlQ1h1RmVyaHpWTEk5NmpnSHV0bElsTDQyald2My00TlBacXNQNFFmQU1oWlhTWkRCSXpuN01aa3RhSXg5enV2NEQ0cHg4dUNfbjQyeTZJUmkyVjB5RDJGZWxNMVpDYzVXcWNvUQ?oc=5"
+     ],
+     [
+      "2026-08-30 15:13",
+      "Açoriano Oriental",
+      "Primeiro-ministro lamenta perturbações nos exames mas insiste que foi “caminho correto”",
+      "http://www.acorianooriental.pt/noticia/primeiro-ministro-lamenta-perturbacoes-nos-exames-mas-insiste-que-foi-caminho-correto-379992"
+     ],
+     [
+      "2026-08-28 19:21",
+      "Jornal Económico",
+      "IGEC deteta falhas em exames nacionais de 2026 e aponta 98 escolas com irregularidades",
+      "https://jornaleconomico.sapo.pt/noticias/igec-deteta-falhas-em-exames-nacionais-de-2026-e-aponta-98-escolas-com-irregularidades/"
+     ]
+    ]
+   }
+  },
+  {
    "tema": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
    "data": "2026-10-27",
    "hora": "13h00",
@@ -5739,7 +6383,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "expressoes",
     "ultima": "2026-09-20 00:13",
     "ultimas": [
@@ -5758,6 +6402,80 @@
       "https://observador.pt/opiniao/a-esfera-publica-e-as-leis-gerais-da-governacao-politica/"
      ]
     ]
+   }
+  },
+  {
+   "tema": "Comissão de Educação e Ciência",
+   "data": "2026-10-27",
+   "hora": "15h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 58",
+   "resumo": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
+   "ordemTrabalhos": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
+   "orgao": "Comissão de Educação e Ciência",
+   "id_ar": 48533,
+   "chave": "ar-48533",
+   "dataLabel": "terça, 27 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-23",
+   "cobertura": {
+    "n": 0,
+    "n7": 0,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-23",
+    "metodo": "palavras",
+    "ultima": "",
+    "ultimas": [],
+    "todas": []
+   }
+  },
+  {
+   "tema": "Comissão de Transparência e Estatuto dos Deputados",
+   "data": "2026-10-27",
+   "hora": "15h30",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 56",
+   "resumo": "1 – Apreciação e votação de parecer relativo a verificação de poderes;\n 2 – Outros assuntos.",
+   "ordemTrabalhos": "1 – Apreciação e votação de parecer relativo a verificação de poderes;\n 2 – Outros assuntos.",
+   "orgao": "Comissão de Transparência e Estatuto dos Deputados",
+   "id_ar": 48527,
+   "chave": "ar-48527",
+   "dataLabel": "terça, 27 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-23",
+   "cobertura": {
+    "n": 0,
+    "n7": 0,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-23",
+    "metodo": "palavras",
+    "ultima": "",
+    "ultimas": [],
+    "todas": []
    }
   },
   {
@@ -5785,7 +6503,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -5817,7 +6535,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -5848,7 +6566,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -5877,10 +6595,10 @@
    "chave": "2026-10-31||agência lusa — fim do prazo de reapreciação dos projetos de estatutos",
    "cobertura": {
     "n": 5,
-    "n7": 5,
-    "n7ant": 0,
+    "n7": 2,
+    "n7ant": 3,
     "dias": 60,
-    "ref": "2026-10-22",
+    "ref": "2026-10-23",
     "metodo": "palavras",
     "ultima": "2026-10-21 15:40",
     "ultimas": [
