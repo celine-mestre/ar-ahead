@@ -236,14 +236,20 @@
    "periodo": "Manhã",
    "ligacoes": [],
    "cobertura": {
-    "n": 4,
-    "n7": 0,
+    "n": 5,
+    "n7": 1,
     "n7ant": 1,
     "dias": 60,
     "ref": "2026-10-23",
     "metodo": "palavras",
-    "ultima": "2026-10-10 11:55",
+    "ultima": "2026-10-23 16:47",
     "ultimas": [
+     {
+      "data": "2026-10-23",
+      "fonte": "Observador",
+      "titulo": "Governo quer criar Código do Poder Local",
+      "url": "https://observador.pt/2026/10/23/governo-cria-grupo-de-trabalho-para-codigo-do-poder-local-e-quer-simplificar-legislacao-das-autarquias/"
+     },
      {
       "data": "2026-10-10",
       "fonte": "ECO",
@@ -255,15 +261,15 @@
       "fonte": "Notícias ao Minuto",
       "titulo": "UE quer observar primeiras eleições palestinianas em quase 20 anos",
       "url": "https://www.noticiasaominuto.com/mundo/3062373/medio-oriente-ue-disponivel-para-observar-eleicoes-legislativas-palestinianas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     },
-     {
-      "data": "2026-10-05",
-      "fonte": "ECO",
-      "titulo": "“A habitação é o nosso maior desafio”, diz Carlos Moedas",
-      "url": "https://eco.sapo.pt/2026/10/05/a-habitacao-e-o-nosso-maior-desafio-diz-carlos-moedas/"
      }
     ],
     "todas": [
+     [
+      "2026-10-23 16:47",
+      "Observador",
+      "Governo quer criar Código do Poder Local",
+      "https://observador.pt/2026/10/23/governo-cria-grupo-de-trabalho-para-codigo-do-poder-local-e-quer-simplificar-legislacao-das-autarquias/"
+     ],
      [
       "2026-10-10 11:55",
       "ECO",
@@ -490,8 +496,8 @@
     "retirados": 0
    }
   ],
-  "atualizado": "2026-10-23T13:35+01:00",
-  "atualizadoLabel": "23 de outubro, 13h35",
+  "atualizado": "2026-10-23T22:20+01:00",
+  "atualizadoLabel": "23 de outubro, 22h20",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
   "aviso": "7 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
@@ -602,7 +608,7 @@
     "ultima": "2026-10-22 20:02",
     "em": "2026-10-22"
    },
-   "novas": 18
+   "novas": 25
   }
  },
  "destaques": [
@@ -646,45 +652,81 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 971,
-    "n7": 63,
+    "n": 977,
+    "n7": 69,
     "n7ant": 116,
     "dias": 60,
     "ref": "2026-10-23",
     "metodo": "expressoes",
-    "ultima": "2026-10-23 12:18",
+    "ultima": "2026-10-23 16:33",
     "ultimas": [
      {
       "data": "2026-10-23",
-      "fonte": "Jornal Económico",
-      "titulo": "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
-      "url": "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+      "fonte": "Notícias ao Minuto",
+      "titulo": "ANMP aprova parecer positivo ao OE2027, mas alerta",
+      "url": "https://www.noticiasaominuto.com/pais/3071945/anmp-aprova-parecer-positivo-ao-oe2027-mas-alerta#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
      },
      {
       "data": "2026-10-23",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
+      "fonte": "Lusa",
+      "titulo": "OE2027: Conselho Geral da Associação de Municípios aprova por unanimidade parecer positivo",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNS2xCdGRIRFNMRWlvYndtTHRGRklfTUNFLW9aakdEcXd2YjFLZVBmMUlCUEoxQlYyMUZSZ3p6WXhvUDNzX0dXVlBiSEVMcFJwTWJnaWhTVTFYSkp3LW5tMGs0NzVfU0JxYUdjNlZkOVRwbG1WdzNIZnBpQzlnWGoyYW1UTEFaUnBfQVlaWHlvcDVlOERpcE1TeEN3LUdhMTg1dWY1R0RCc1llVDVHaks1UFd0Z0pCMVk3WEJUQVhsWXBpWU96bGQ4U05zSXMtSDBsanNJckxzaTFfZWtIaFI3S3FtNWZKeEVDd0VxQldHTmRVRzg?oc=5"
      },
      {
       "data": "2026-10-23",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: Governo quer começar a discutir redução da derrama estadual de IRC em 2028, garante Sarmento",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkF1NXIzU01STTlsd19IbFkwSjNPakljLXFsek1QZC1DWGdZbl81b21hR19XbUtXNkpDQnRna2UyUk9yT0ZzMHNHWkg3M2EtZ3dRWk1aQWhfWE9FdmNVTnI0R0xYOWdLdnY1T3JrOVg4SHh3QlJhSVhxUUp2WUFLR25pY2NaRThBQ19JU3ZLZkdCWV8yVGhnVUZsX1FkSklJbzQxalpWU21fR0EyM3JNSzlBNzJDeW5WMHVJQ1RzNWk?oc=5"
+      "fonte": "JM Madeira",
+      "titulo": "Pedro Coelho destaca aumento das transferências do Estado para a Madeira no OE 2027",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV3doa0JNbkx4a251akJ0WXUyWUNVeGlJM0ZrYVpqTzFHSXRBM1dLSUFuakJDeVFNZkpraGNPR2MyUGhpQmNLRkg4R3FlRHdNSnVsX0ZkREp5MzVMeWwxOEZDeTg5V0cxYTR1QWl2aUUzVnAwanh6OGFyTlg1ZU5idWVXMHUxdGRYOEZJS0s2ck5DTHFELVZQTjhvTW52Tm50cDJFZmNwT2k0X0p4NUxSeE1kWkY3OXk3Tl9XUVdlM3ViVC12NHh4TEx6anlHWGNiRjJIdklWV2l3M3Zo?oc=5"
      }
     ],
     "todas": [
      [
-      "2026-10-23 12:18",
-      "Jornal Económico",
-      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+      "2026-10-23 16:33",
+      "Notícias ao Minuto",
+      "ANMP aprova parecer positivo ao OE2027, mas alerta",
+      "https://www.noticiasaominuto.com/pais/3071945/anmp-aprova-parecer-positivo-ao-oe2027-mas-alerta#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-23 16:29",
+      "Lusa",
+      "OE2027: Conselho Geral da Associação de Municípios aprova por unanimidade parecer positivo",
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNS2xCdGRIRFNMRWlvYndtTHRGRklfTUNFLW9aakdEcXd2YjFLZVBmMUlCUEoxQlYyMUZSZ3p6WXhvUDNzX0dXVlBiSEVMcFJwTWJnaWhTVTFYSkp3LW5tMGs0NzVfU0JxYUdjNlZkOVRwbG1WdzNIZnBpQzlnWGoyYW1UTEFaUnBfQVlaWHlvcDVlOERpcE1TeEN3LUdhMTg1dWY1R0RCc1llVDVHaks1UFd0Z0pCMVk3WEJUQVhsWXBpWU96bGQ4U05zSXMtSDBsanNJckxzaTFfZWtIaFI3S3FtNWZKeEVDd0VxQldHTmRVRzg?oc=5"
+     ],
+     [
+      "2026-10-23 15:52",
+      "JM Madeira",
+      "Pedro Coelho destaca aumento das transferências do Estado para a Madeira no OE 2027",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV3doa0JNbkx4a251akJ0WXUyWUNVeGlJM0ZrYVpqTzFHSXRBM1dLSUFuakJDeVFNZkpraGNPR2MyUGhpQmNLRkg4R3FlRHdNSnVsX0ZkREp5MzVMeWwxOEZDeTg5V0cxYTR1QWl2aUUzVnAwanh6OGFyTlg1ZU5idWVXMHUxdGRYOEZJS0s2ck5DTHFELVZQTjhvTW52Tm50cDJFZmNwT2k0X0p4NUxSeE1kWkY3OXk3Tl9XUVdlM3ViVC12NHh4TEx6anlHWGNiRjJIdklWV2l3M3Zo?oc=5"
+     ],
+     [
+      "2026-10-23 15:34",
+      "Executive Digest",
+      "OE2027: Sarmento diz ter dificuldade em associar renda moderada de 2.300 euros a subida de preços",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVzRMYXMzOGJ4OGdwM1oxbUYwS1N4b3lRN2VOYVRIX1R3bnB3b3dZdkM3NERQN2Y0N3VNSktzWDdla05GV1FaQVdhNTd3TjM2NTRoZGNURm5aODcySlFSRkdvYWpWUnVUcmJrcmZNblB2YzFiT201TXkzd0tuajR0N2luTUNGWU8wdlg1SW9zbHlEZHNzN1pnS0NTZkRJcHlTbmVOYWtMb2Q2Qk9xRDkzM3dHTS1OdERVbGdjREhDSTZtWW05QnUzRg?oc=5"
+     ],
+     [
+      "2026-10-23 13:12",
+      "Executive Digest",
+      "OE2027: Setor eletrodigital quer incentivos fiscais para transições verde e digital",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMGk2dnJMOV96WEZzSWpyNnFIMDhnaW9xV1B6TGpXVVRuVmt2Sml2dk14cE5GX0RMSnZ5dmFGMThwYWRYVk1HbFBaOXBEMjE3Z0xDeWU0Ty1CNi1hQlVjQUZDaGdmSG5HNnZ0UWxIa0VGVktPM3p6a0Y0UkxxSjFPWUpCMlRMam5tLXRZZy1tZncxRFFzbW9pdXduWktBeWhDQjJ5ZGNESWp2SUFyZDJUWVN1QUJ3Zw?oc=5"
+     ],
+     [
+      "2026-10-23 12:37",
+      "Jornal de Negócios",
+      "OE2027: Sarmento quer prudência. PS promete alívios no custo de vida sem beliscar excedente",
+      "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZUktOEhRcjhXek5FMnhyd1UtLVY1YmJDYTZZckJ4Ny1WMEJYWU5hTzAyYnN4OUhGZGpLVW93elJEaUhMV2UwNUZ2UDVRT0Y2S2xGczdadE9fOUs5Z3dVQTVFVnZYWWlYYVd1Q2tQQTJfOTlfeVlDVmRvTXB4ek5XaE9jVTE1OEtJN0o1NDdwR1RGUlhRZGpTdnI0ZmRkV0ZKOUt4d0JkaE1GWlB2SDk1SjBmV1NMaVNKbXFUWDkwU1cxelpTSXY0RnFoMERPam1BSDE4T0ZWVGd3MFM2Xy0zSXZxNzBOUmJEYU4yeG5xUWZzSG1CT3lYUi1SZGpEVEo4U3pxeVlTbw?oc=5"
      ],
      [
       "2026-10-23 12:18",
       "RTP Notícias",
       "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
       "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
+     ],
+     [
+      "2026-10-23 12:18",
+      "Jornal Económico",
+      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
      ],
      [
       "2026-10-23 12:06",
@@ -711,28 +753,16 @@
       "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRUhNWDdyOWF5SmwyWmU5MGQzU1puTVFqYnU4cjN0b3BqdmR4WnJHSXJBcV9NUkw5a0JESGJWWU1PSF9lNVpwaGhyQVZsX3RTUG85VHFVbUJXZ0lBZm1NSHhpYjNXRzh5R3VMS1ZXZWFEcklGbm52X1lZaFd0b2pRckhuVXpJZzV2SHgweURWZFQzbmhUU3o2WHhubFgzNVNCNHJrcUp5RjQ1RUNXWk1GLUM1eklxbHps?oc=5"
      ],
      [
-      "2026-10-23 11:34",
-      "ECO",
-      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
-      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
+      "2026-10-23 11:37",
+      "Executive Digest",
+      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRm1kbjJoR2gwTFRMdDNSODFMVm5vTDJjZjJBUUhTcG5oeWFCUnpwbTVUSTM2N29EX2NabDFLbUpvY2RQWGtGQmV0emgwWk85SlRjejlLOXVwOWMtbjdfX09aZ3E2bGVCaVBMa2FPOHhianU2UXk4UTBxODQtM0x4cFk2Z1hXa2FNNy02NVBKcS1NeFdKekpodURpYWxiei1BdlAtdFdMNDdwa0xJOTN3?oc=5"
      ],
      [
       "2026-10-23 11:30",
       "Executive Digest",
       "Católica Porto SBE e PwC juntam Governo e empresas para analisar o Orçamento do Estado para 2027",
       "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTnN1NHhYRWFpb1QxY29tSnlHNU1mb2xZUFphNjZ3aXVCeF9wcDYwd0p5dl8xZlRTU3V6ZXMxbXItal9xaGVLLWt1VW9iU0JabnEyNUYyRl9nNGdrb3lUUHZXM1Nha1RUaWFsejRwVmRKQUx2STJoYWtpcDhJckNDd0d4dWRTR1BMSGRiUGh3TkhCMHRyREo1Q2JUaEx6cV9NY25jTEU5d01rVlFsaGZqekhadGNrY1owblY1WmwwMFNmamlMbnBZQQ?oc=5"
-     ],
-     [
-      "2026-10-23 11:20",
-      "Executive Digest",
-      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
-      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVnE5VlpNSV93NC12Xy1PYkJKUmE1X09qV0syT1V6WGRaUmlzNngzSGJMTHEtYlRjdmNqVlVrSTFrREcwSlZVS0JrT2tzQWsxNnVPaHk5akliLU9ybTlnSnpjdmZkZzdYWko1MEtQOVV6dzVvQ0toa1l2d0kwOE8zbDBXRDNfVlNYM1RPaldDdnhuZEs3QnZUbVpNckxaalN3dE9WVW56c2ZSOGUyMmxVUm8zRU5sV2VaV3hiSkMwNmJtamJzbWtqRGVhNHBlR05lZTdvUDRFcw?oc=5"
-     ],
-     [
-      "2026-10-23 10:57",
-      "ECO",
-      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
-      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 10:54",
@@ -749,8 +779,14 @@
      [
       "2026-10-23 10:17",
       "ECO",
-      "PS só viabiliza OE2027 se houver medidas para combater o custo de vida",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ0UybWdwXzhnbXZydzB6V1hxWFNiUHIxZXhjWnFQVG12S1lkNThtZm5mcU93YmhpOFpQT2pzMy1uY19qRmtqQk1IZkhYWkpERTdwbHFKdVhlYUppVVo4bHh5d2pBcGt5V1VrTHNONUtyYXl1bDhCemhwOE8wNWZ2UW9wY0pxdlNKUnNnd2JRRjlrak5rcjNsdU9VaUJwdlNxcUJDMA?oc=5"
+     ],
+     [
+      "2026-10-23 09:46",
+      "Executive Digest",
+      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVnE5VlpNSV93NC12Xy1PYkJKUmE1X09qV0syT1V6WGRaUmlzNngzSGJMTHEtYlRjdmNqVlVrSTFrREcwSlZVS0JrT2tzQWsxNnVPaHk5akliLU9ybTlnSnpjdmZkZzdYWko1MEtQOVV6dzVvQ0toa1l2d0kwOE8zbDBXRDNfVlNYM1RPaldDdnhuZEs3QnZUbVpNckxaalN3dE9WVW56c2ZSOGUyMmxVUm8zRU5sV2VaV3hiSkMwNmJtamJzbWtqRGVhNHBlR05lZTdvUDRFcw?oc=5"
      ],
      [
       "2026-10-23 08:35",
@@ -771,6 +807,12 @@
       "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGhfdGRGR05SR2FUOWYyYWZtVy1ITXp3RVhmYjc2VklFZHg0Ym9sZV9YQ1FSdWFzdERySnpNS2p3YlRmM0dDSVFjazBpWDFwWDUzNUJRcUk1clZUMXZLUXFrZ2oyakd1czc5Z2dvWDFUNjV6Uzc0OXdCRlliSXY5aWtXdUFZR2RGeHFiUVBGa1RlaDhxSkczaG1ENnBwUQ?oc=5"
      ],
      [
+      "2026-10-23 07:48",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd1I4aGQ4S1dVM0lVeTNGMFJlMzFEUVRteFdVaTNZQW0xMU5BSDFPYUtfbWhjODFPZjc2aXNUOWV2T0gwVnBkUmpKNHNOU3gtWkJlU2lUUXlKeTQtLW5ibDBlUWk4cUFDWW5LLWNpX3RQM2djc09Sd0ZHbVlOcDI2Qldrc2I0ejdNRjRSeWxaTmNJbV9Wb2ZwRTZEOU5qV1oxbnhaYUE4Qmxtc1Aw?oc=5"
+     ],
+     [
       "2026-10-23 06:49",
       "Notícias ao Minuto",
       "Ministro Miranda Sarmento ouvido no arranque da discussão do OE2027",
@@ -789,10 +831,10 @@
       "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQkFxOGREWmtrWS1xMGJoQ04tNzFoQVNNd0RhRkNlbTVyNHVWT1VHekIwc1Z3cUE4VzRhc2xVSTdjNFVVNm5sSkdzSmN1M0xoMDlaQ1FqMmZNazIyNGFTa01mSjZjUmF6R2YtSnJCN2stREI3bzFzTVdQeUxwVURzWlFIckhial9rU0wyMk1EUWQwUG90a0lnWVRBQllELWJJUjRHcWhQRUo3aGVzVXBqci04bDVxRmNzbmM5cXhncmdTZ3NSNzBfb3NaWklPSDNuUlk2QkxGVDZqVnJvMlJIdGdoZTY?oc=5"
      ],
      [
-      "2026-10-22 20:02",
+      "2026-10-22 20:05",
       "ECO",
       "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
-      "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/"
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSUlSeDVXWTU5ZVVzZDB6Ulh1Z0xQdkdza2NERTNjNk1BLUJLVFdlQjRVbDdqd2FsdE9jTUlVTmNFV21UV29sSi1OZW1fX1pBNTd6XzJUbmM0U0tpYjVBdmpoOC1KTl9GUjNDZE5xVWhIdUc0WllpMy1Ia1BER0FOd0R1ZG1pOVZwQW1kRlIzVUxrOV9mS25FVHpmWnVCdUZzVlMyTWFYZGtiMVN2aEVyc25pSlI4Rkk?oc=5"
      ],
      [
       "2026-10-22 19:36",
@@ -3037,42 +3079,6 @@
       "Executive Digest",
       "OE2027: PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do Governo",
       "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTTBXenREVkZNcDEwWno0QVVmLXAwNm9RRTNZb3BZdFhEbHhOQTNIbFRzRXpEZ1FaSFNKQzhZbk1YUmZzZ25YbkgwbkVrRzV4TXhuTFczSlNQMDJaMGN5OV96aTNsbWFITXR6V1JOY1JCemdKSHFkblA1OV9GM1JMajVOX09raWJMOVN3bnhLbDJnM09VMTVydXVDRmFoMW1fQXhwMk0wSVF0UnhLWEhIWFZjT1BpNzdaWFQ2ZjczNXpTT0hieFpV?oc=5"
-     ],
-     [
-      "2026-10-08 17:52",
-      "ECO",
-      "Regiões autónomas da Madeira e Açores com reforço de 5% no OE2027",
-      "https://eco.sapo.pt/2026/10/08/regioes-autonomas-da-madeira-e-acores-com-reforco-de-5-no-oe2027/"
-     ],
-     [
-      "2026-10-08 17:52",
-      "ECO",
-      "Governo prevê manutenção da carga fiscal em 35% do PIB no próximo ano",
-      "https://eco.sapo.pt/2026/10/08/governo-preve-manutencao-da-carga-fiscal-em-35-do-pib-no-proximo-ano/"
-     ],
-     [
-      "2026-10-08 17:49",
-      "Notícias ao Minuto",
-      "PS convoca a Comissão Nacional para analisar a proposta do OE2027",
-      "https://www.noticiasaominuto.com/politica/3063683/ps-convoca-a-comissao-nacional-para-analisar-a-proposta-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:48",
-      "ECO",
-      "Gastos na Reforma do Estado caem para menos de metade com fim do PRR",
-      "https://eco.sapo.pt/2026/10/08/gastos-na-reforma-do-estado-caem-para-menos-de-metade-com-fim-do-prr/"
-     ],
-     [
-      "2026-10-08 17:47",
-      "Agroportal",
-      "OE2027: Despesa do Ministério da Agricultura e Mar sobe 6,5% para 1.625 ME",
-      "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNFJoYWExbUt1MWFLTjgtc3ZRSFRZYXByZldrWk9CejFFaDdDbWxrUEMtZi1FZ09yOEoyTl9Mc0Y2bDIwcHRKaFhzX2diamxrRmtfNEdKZGlHRmhpU29lVGFNcHhVNmdtX0x0NnFrbWROZGNhWnBZQlI3Smg3bk41cklia3VNazBLVUpLRVBnTlBacGhscmtkYXd2OFVDZDA?oc=5"
-     ],
-     [
-      "2026-10-08 17:41",
-      "Observador",
-      "Aumento do salário mínimo para 970 euros assumido no OE2027",
-      "https://observador.pt/2026/10/08/aumento-do-salario-minimo-para-970-euros-garantido-no-oe-para-2027/"
      ]
     ]
    }
@@ -3113,45 +3119,81 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 971,
-    "n7": 63,
+    "n": 977,
+    "n7": 69,
     "n7ant": 116,
     "dias": 60,
     "ref": "2026-10-23",
     "metodo": "expressoes",
-    "ultima": "2026-10-23 12:18",
+    "ultima": "2026-10-23 16:33",
     "ultimas": [
      {
       "data": "2026-10-23",
-      "fonte": "Jornal Económico",
-      "titulo": "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
-      "url": "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+      "fonte": "Notícias ao Minuto",
+      "titulo": "ANMP aprova parecer positivo ao OE2027, mas alerta",
+      "url": "https://www.noticiasaominuto.com/pais/3071945/anmp-aprova-parecer-positivo-ao-oe2027-mas-alerta#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
      },
      {
       "data": "2026-10-23",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
+      "fonte": "Lusa",
+      "titulo": "OE2027: Conselho Geral da Associação de Municípios aprova por unanimidade parecer positivo",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNS2xCdGRIRFNMRWlvYndtTHRGRklfTUNFLW9aakdEcXd2YjFLZVBmMUlCUEoxQlYyMUZSZ3p6WXhvUDNzX0dXVlBiSEVMcFJwTWJnaWhTVTFYSkp3LW5tMGs0NzVfU0JxYUdjNlZkOVRwbG1WdzNIZnBpQzlnWGoyYW1UTEFaUnBfQVlaWHlvcDVlOERpcE1TeEN3LUdhMTg1dWY1R0RCc1llVDVHaks1UFd0Z0pCMVk3WEJUQVhsWXBpWU96bGQ4U05zSXMtSDBsanNJckxzaTFfZWtIaFI3S3FtNWZKeEVDd0VxQldHTmRVRzg?oc=5"
      },
      {
       "data": "2026-10-23",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: Governo quer começar a discutir redução da derrama estadual de IRC em 2028, garante Sarmento",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkF1NXIzU01STTlsd19IbFkwSjNPakljLXFsek1QZC1DWGdZbl81b21hR19XbUtXNkpDQnRna2UyUk9yT0ZzMHNHWkg3M2EtZ3dRWk1aQWhfWE9FdmNVTnI0R0xYOWdLdnY1T3JrOVg4SHh3QlJhSVhxUUp2WUFLR25pY2NaRThBQ19JU3ZLZkdCWV8yVGhnVUZsX1FkSklJbzQxalpWU21fR0EyM3JNSzlBNzJDeW5WMHVJQ1RzNWk?oc=5"
+      "fonte": "JM Madeira",
+      "titulo": "Pedro Coelho destaca aumento das transferências do Estado para a Madeira no OE 2027",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV3doa0JNbkx4a251akJ0WXUyWUNVeGlJM0ZrYVpqTzFHSXRBM1dLSUFuakJDeVFNZkpraGNPR2MyUGhpQmNLRkg4R3FlRHdNSnVsX0ZkREp5MzVMeWwxOEZDeTg5V0cxYTR1QWl2aUUzVnAwanh6OGFyTlg1ZU5idWVXMHUxdGRYOEZJS0s2ck5DTHFELVZQTjhvTW52Tm50cDJFZmNwT2k0X0p4NUxSeE1kWkY3OXk3Tl9XUVdlM3ViVC12NHh4TEx6anlHWGNiRjJIdklWV2l3M3Zo?oc=5"
      }
     ],
     "todas": [
      [
-      "2026-10-23 12:18",
-      "Jornal Económico",
-      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+      "2026-10-23 16:33",
+      "Notícias ao Minuto",
+      "ANMP aprova parecer positivo ao OE2027, mas alerta",
+      "https://www.noticiasaominuto.com/pais/3071945/anmp-aprova-parecer-positivo-ao-oe2027-mas-alerta#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-23 16:29",
+      "Lusa",
+      "OE2027: Conselho Geral da Associação de Municípios aprova por unanimidade parecer positivo",
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNS2xCdGRIRFNMRWlvYndtTHRGRklfTUNFLW9aakdEcXd2YjFLZVBmMUlCUEoxQlYyMUZSZ3p6WXhvUDNzX0dXVlBiSEVMcFJwTWJnaWhTVTFYSkp3LW5tMGs0NzVfU0JxYUdjNlZkOVRwbG1WdzNIZnBpQzlnWGoyYW1UTEFaUnBfQVlaWHlvcDVlOERpcE1TeEN3LUdhMTg1dWY1R0RCc1llVDVHaks1UFd0Z0pCMVk3WEJUQVhsWXBpWU96bGQ4U05zSXMtSDBsanNJckxzaTFfZWtIaFI3S3FtNWZKeEVDd0VxQldHTmRVRzg?oc=5"
+     ],
+     [
+      "2026-10-23 15:52",
+      "JM Madeira",
+      "Pedro Coelho destaca aumento das transferências do Estado para a Madeira no OE 2027",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV3doa0JNbkx4a251akJ0WXUyWUNVeGlJM0ZrYVpqTzFHSXRBM1dLSUFuakJDeVFNZkpraGNPR2MyUGhpQmNLRkg4R3FlRHdNSnVsX0ZkREp5MzVMeWwxOEZDeTg5V0cxYTR1QWl2aUUzVnAwanh6OGFyTlg1ZU5idWVXMHUxdGRYOEZJS0s2ck5DTHFELVZQTjhvTW52Tm50cDJFZmNwT2k0X0p4NUxSeE1kWkY3OXk3Tl9XUVdlM3ViVC12NHh4TEx6anlHWGNiRjJIdklWV2l3M3Zo?oc=5"
+     ],
+     [
+      "2026-10-23 15:34",
+      "Executive Digest",
+      "OE2027: Sarmento diz ter dificuldade em associar renda moderada de 2.300 euros a subida de preços",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVzRMYXMzOGJ4OGdwM1oxbUYwS1N4b3lRN2VOYVRIX1R3bnB3b3dZdkM3NERQN2Y0N3VNSktzWDdla05GV1FaQVdhNTd3TjM2NTRoZGNURm5aODcySlFSRkdvYWpWUnVUcmJrcmZNblB2YzFiT201TXkzd0tuajR0N2luTUNGWU8wdlg1SW9zbHlEZHNzN1pnS0NTZkRJcHlTbmVOYWtMb2Q2Qk9xRDkzM3dHTS1OdERVbGdjREhDSTZtWW05QnUzRg?oc=5"
+     ],
+     [
+      "2026-10-23 13:12",
+      "Executive Digest",
+      "OE2027: Setor eletrodigital quer incentivos fiscais para transições verde e digital",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMGk2dnJMOV96WEZzSWpyNnFIMDhnaW9xV1B6TGpXVVRuVmt2Sml2dk14cE5GX0RMSnZ5dmFGMThwYWRYVk1HbFBaOXBEMjE3Z0xDeWU0Ty1CNi1hQlVjQUZDaGdmSG5HNnZ0UWxIa0VGVktPM3p6a0Y0UkxxSjFPWUpCMlRMam5tLXRZZy1tZncxRFFzbW9pdXduWktBeWhDQjJ5ZGNESWp2SUFyZDJUWVN1QUJ3Zw?oc=5"
+     ],
+     [
+      "2026-10-23 12:37",
+      "Jornal de Negócios",
+      "OE2027: Sarmento quer prudência. PS promete alívios no custo de vida sem beliscar excedente",
+      "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZUktOEhRcjhXek5FMnhyd1UtLVY1YmJDYTZZckJ4Ny1WMEJYWU5hTzAyYnN4OUhGZGpLVW93elJEaUhMV2UwNUZ2UDVRT0Y2S2xGczdadE9fOUs5Z3dVQTVFVnZYWWlYYVd1Q2tQQTJfOTlfeVlDVmRvTXB4ek5XaE9jVTE1OEtJN0o1NDdwR1RGUlhRZGpTdnI0ZmRkV0ZKOUt4d0JkaE1GWlB2SDk1SjBmV1NMaVNKbXFUWDkwU1cxelpTSXY0RnFoMERPam1BSDE4T0ZWVGd3MFM2Xy0zSXZxNzBOUmJEYU4yeG5xUWZzSG1CT3lYUi1SZGpEVEo4U3pxeVlTbw?oc=5"
      ],
      [
       "2026-10-23 12:18",
       "RTP Notícias",
       "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
       "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
+     ],
+     [
+      "2026-10-23 12:18",
+      "Jornal Económico",
+      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
      ],
      [
       "2026-10-23 12:06",
@@ -3178,28 +3220,16 @@
       "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRUhNWDdyOWF5SmwyWmU5MGQzU1puTVFqYnU4cjN0b3BqdmR4WnJHSXJBcV9NUkw5a0JESGJWWU1PSF9lNVpwaGhyQVZsX3RTUG85VHFVbUJXZ0lBZm1NSHhpYjNXRzh5R3VMS1ZXZWFEcklGbm52X1lZaFd0b2pRckhuVXpJZzV2SHgweURWZFQzbmhUU3o2WHhubFgzNVNCNHJrcUp5RjQ1RUNXWk1GLUM1eklxbHps?oc=5"
      ],
      [
-      "2026-10-23 11:34",
-      "ECO",
-      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
-      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
+      "2026-10-23 11:37",
+      "Executive Digest",
+      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRm1kbjJoR2gwTFRMdDNSODFMVm5vTDJjZjJBUUhTcG5oeWFCUnpwbTVUSTM2N29EX2NabDFLbUpvY2RQWGtGQmV0emgwWk85SlRjejlLOXVwOWMtbjdfX09aZ3E2bGVCaVBMa2FPOHhianU2UXk4UTBxODQtM0x4cFk2Z1hXa2FNNy02NVBKcS1NeFdKekpodURpYWxiei1BdlAtdFdMNDdwa0xJOTN3?oc=5"
      ],
      [
       "2026-10-23 11:30",
       "Executive Digest",
       "Católica Porto SBE e PwC juntam Governo e empresas para analisar o Orçamento do Estado para 2027",
       "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTnN1NHhYRWFpb1QxY29tSnlHNU1mb2xZUFphNjZ3aXVCeF9wcDYwd0p5dl8xZlRTU3V6ZXMxbXItal9xaGVLLWt1VW9iU0JabnEyNUYyRl9nNGdrb3lUUHZXM1Nha1RUaWFsejRwVmRKQUx2STJoYWtpcDhJckNDd0d4dWRTR1BMSGRiUGh3TkhCMHRyREo1Q2JUaEx6cV9NY25jTEU5d01rVlFsaGZqekhadGNrY1owblY1WmwwMFNmamlMbnBZQQ?oc=5"
-     ],
-     [
-      "2026-10-23 11:20",
-      "Executive Digest",
-      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
-      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVnE5VlpNSV93NC12Xy1PYkJKUmE1X09qV0syT1V6WGRaUmlzNngzSGJMTHEtYlRjdmNqVlVrSTFrREcwSlZVS0JrT2tzQWsxNnVPaHk5akliLU9ybTlnSnpjdmZkZzdYWko1MEtQOVV6dzVvQ0toa1l2d0kwOE8zbDBXRDNfVlNYM1RPaldDdnhuZEs3QnZUbVpNckxaalN3dE9WVW56c2ZSOGUyMmxVUm8zRU5sV2VaV3hiSkMwNmJtamJzbWtqRGVhNHBlR05lZTdvUDRFcw?oc=5"
-     ],
-     [
-      "2026-10-23 10:57",
-      "ECO",
-      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
-      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 10:54",
@@ -3216,8 +3246,14 @@
      [
       "2026-10-23 10:17",
       "ECO",
-      "PS só viabiliza OE2027 se houver medidas para combater o custo de vida",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ0UybWdwXzhnbXZydzB6V1hxWFNiUHIxZXhjWnFQVG12S1lkNThtZm5mcU93YmhpOFpQT2pzMy1uY19qRmtqQk1IZkhYWkpERTdwbHFKdVhlYUppVVo4bHh5d2pBcGt5V1VrTHNONUtyYXl1bDhCemhwOE8wNWZ2UW9wY0pxdlNKUnNnd2JRRjlrak5rcjNsdU9VaUJwdlNxcUJDMA?oc=5"
+     ],
+     [
+      "2026-10-23 09:46",
+      "Executive Digest",
+      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVnE5VlpNSV93NC12Xy1PYkJKUmE1X09qV0syT1V6WGRaUmlzNngzSGJMTHEtYlRjdmNqVlVrSTFrREcwSlZVS0JrT2tzQWsxNnVPaHk5akliLU9ybTlnSnpjdmZkZzdYWko1MEtQOVV6dzVvQ0toa1l2d0kwOE8zbDBXRDNfVlNYM1RPaldDdnhuZEs3QnZUbVpNckxaalN3dE9WVW56c2ZSOGUyMmxVUm8zRU5sV2VaV3hiSkMwNmJtamJzbWtqRGVhNHBlR05lZTdvUDRFcw?oc=5"
      ],
      [
       "2026-10-23 08:35",
@@ -3238,6 +3274,12 @@
       "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGhfdGRGR05SR2FUOWYyYWZtVy1ITXp3RVhmYjc2VklFZHg0Ym9sZV9YQ1FSdWFzdERySnpNS2p3YlRmM0dDSVFjazBpWDFwWDUzNUJRcUk1clZUMXZLUXFrZ2oyakd1czc5Z2dvWDFUNjV6Uzc0OXdCRlliSXY5aWtXdUFZR2RGeHFiUVBGa1RlaDhxSkczaG1ENnBwUQ?oc=5"
      ],
      [
+      "2026-10-23 07:48",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd1I4aGQ4S1dVM0lVeTNGMFJlMzFEUVRteFdVaTNZQW0xMU5BSDFPYUtfbWhjODFPZjc2aXNUOWV2T0gwVnBkUmpKNHNOU3gtWkJlU2lUUXlKeTQtLW5ibDBlUWk4cUFDWW5LLWNpX3RQM2djc09Sd0ZHbVlOcDI2Qldrc2I0ejdNRjRSeWxaTmNJbV9Wb2ZwRTZEOU5qV1oxbnhaYUE4Qmxtc1Aw?oc=5"
+     ],
+     [
       "2026-10-23 06:49",
       "Notícias ao Minuto",
       "Ministro Miranda Sarmento ouvido no arranque da discussão do OE2027",
@@ -3256,10 +3298,10 @@
       "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQkFxOGREWmtrWS1xMGJoQ04tNzFoQVNNd0RhRkNlbTVyNHVWT1VHekIwc1Z3cUE4VzRhc2xVSTdjNFVVNm5sSkdzSmN1M0xoMDlaQ1FqMmZNazIyNGFTa01mSjZjUmF6R2YtSnJCN2stREI3bzFzTVdQeUxwVURzWlFIckhial9rU0wyMk1EUWQwUG90a0lnWVRBQllELWJJUjRHcWhQRUo3aGVzVXBqci04bDVxRmNzbmM5cXhncmdTZ3NSNzBfb3NaWklPSDNuUlk2QkxGVDZqVnJvMlJIdGdoZTY?oc=5"
      ],
      [
-      "2026-10-22 20:02",
+      "2026-10-22 20:05",
       "ECO",
       "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
-      "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/"
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSUlSeDVXWTU5ZVVzZDB6Ulh1Z0xQdkdza2NERTNjNk1BLUJLVFdlQjRVbDdqd2FsdE9jTUlVTmNFV21UV29sSi1OZW1fX1pBNTd6XzJUbmM0U0tpYjVBdmpoOC1KTl9GUjNDZE5xVWhIdUc0WllpMy1Ia1BER0FOd0R1ZG1pOVZwQW1kRlIzVUxrOV9mS25FVHpmWnVCdUZzVlMyTWFYZGtiMVN2aEVyc25pSlI4Rkk?oc=5"
      ],
      [
       "2026-10-22 19:36",
@@ -5504,42 +5546,6 @@
       "Executive Digest",
       "OE2027: PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do Governo",
       "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTTBXenREVkZNcDEwWno0QVVmLXAwNm9RRTNZb3BZdFhEbHhOQTNIbFRzRXpEZ1FaSFNKQzhZbk1YUmZzZ25YbkgwbkVrRzV4TXhuTFczSlNQMDJaMGN5OV96aTNsbWFITXR6V1JOY1JCemdKSHFkblA1OV9GM1JMajVOX09raWJMOVN3bnhLbDJnM09VMTVydXVDRmFoMW1fQXhwMk0wSVF0UnhLWEhIWFZjT1BpNzdaWFQ2ZjczNXpTT0hieFpV?oc=5"
-     ],
-     [
-      "2026-10-08 17:52",
-      "ECO",
-      "Regiões autónomas da Madeira e Açores com reforço de 5% no OE2027",
-      "https://eco.sapo.pt/2026/10/08/regioes-autonomas-da-madeira-e-acores-com-reforco-de-5-no-oe2027/"
-     ],
-     [
-      "2026-10-08 17:52",
-      "ECO",
-      "Governo prevê manutenção da carga fiscal em 35% do PIB no próximo ano",
-      "https://eco.sapo.pt/2026/10/08/governo-preve-manutencao-da-carga-fiscal-em-35-do-pib-no-proximo-ano/"
-     ],
-     [
-      "2026-10-08 17:49",
-      "Notícias ao Minuto",
-      "PS convoca a Comissão Nacional para analisar a proposta do OE2027",
-      "https://www.noticiasaominuto.com/politica/3063683/ps-convoca-a-comissao-nacional-para-analisar-a-proposta-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 17:48",
-      "ECO",
-      "Gastos na Reforma do Estado caem para menos de metade com fim do PRR",
-      "https://eco.sapo.pt/2026/10/08/gastos-na-reforma-do-estado-caem-para-menos-de-metade-com-fim-do-prr/"
-     ],
-     [
-      "2026-10-08 17:47",
-      "Agroportal",
-      "OE2027: Despesa do Ministério da Agricultura e Mar sobe 6,5% para 1.625 ME",
-      "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNFJoYWExbUt1MWFLTjgtc3ZRSFRZYXByZldrWk9CejFFaDdDbWxrUEMtZi1FZ09yOEoyTl9Mc0Y2bDIwcHRKaFhzX2diamxrRmtfNEdKZGlHRmhpU29lVGFNcHhVNmdtX0x0NnFrbWROZGNhWnBZQlI3Smg3bk41cklia3VNazBLVUpLRVBnTlBacGhscmtkYXd2OFVDZDA?oc=5"
-     ],
-     [
-      "2026-10-08 17:41",
-      "Observador",
-      "Aumento do salário mínimo para 970 euros assumido no OE2027",
-      "https://observador.pt/2026/10/08/aumento-do-salario-minimo-para-970-euros-garantido-no-oe-para-2027/"
      ]
     ]
    }
