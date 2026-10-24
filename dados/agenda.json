@@ -42,7 +42,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -76,7 +76,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -110,7 +110,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -144,7 +144,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -178,7 +178,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -209,7 +209,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -238,9 +238,9 @@
    "cobertura": {
     "n": 5,
     "n7": 1,
-    "n7ant": 1,
+    "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "2026-10-23 16:47",
     "ultimas": [
@@ -494,13 +494,19 @@
     "novos": 4,
     "alterados": 0,
     "retirados": 0
+   },
+   {
+    "data": "2026-10-24",
+    "novos": 3,
+    "alterados": 1,
+    "retirados": 0
    }
   ],
-  "atualizado": "2026-10-23T22:20+01:00",
-  "atualizadoLabel": "23 de outubro, 22h20",
+  "atualizado": "2026-10-24T21:41+01:00",
+  "atualizadoLabel": "24 de outubro, 21h41",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
-  "aviso": "7 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
+  "aviso": "8 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
  },
  "fichas": {
   "oe": {
@@ -608,7 +614,7 @@
     "ultima": "2026-10-22 20:02",
     "em": "2026-10-22"
    },
-   "novas": 25
+   "novas": 29
   }
  },
  "destaques": [
@@ -652,34 +658,58 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 977,
-    "n7": 69,
-    "n7ant": 116,
+    "n": 981,
+    "n7": 67,
+    "n7ant": 93,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "expressoes",
-    "ultima": "2026-10-23 16:33",
+    "ultima": "2026-10-23 23:19",
     "ultimas": [
      {
       "data": "2026-10-23",
-      "fonte": "Notícias ao Minuto",
-      "titulo": "ANMP aprova parecer positivo ao OE2027, mas alerta",
-      "url": "https://www.noticiasaominuto.com/pais/3071945/anmp-aprova-parecer-positivo-ao-oe2027-mas-alerta#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+      "fonte": "Observador",
+      "titulo": "OE2027. Carneiro justifica viabilização com crises mundiais",
+      "url": "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/"
      },
      {
       "data": "2026-10-23",
-      "fonte": "Lusa",
-      "titulo": "OE2027: Conselho Geral da Associação de Municípios aprova por unanimidade parecer positivo",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNS2xCdGRIRFNMRWlvYndtTHRGRklfTUNFLW9aakdEcXd2YjFLZVBmMUlCUEoxQlYyMUZSZ3p6WXhvUDNzX0dXVlBiSEVMcFJwTWJnaWhTVTFYSkp3LW5tMGs0NzVfU0JxYUdjNlZkOVRwbG1WdzNIZnBpQzlnWGoyYW1UTEFaUnBfQVlaWHlvcDVlOERpcE1TeEN3LUdhMTg1dWY1R0RCc1llVDVHaks1UFd0Z0pCMVk3WEJUQVhsWXBpWU96bGQ4U05zSXMtSDBsanNJckxzaTFfZWtIaFI3S3FtNWZKeEVDd0VxQldHTmRVRzg?oc=5"
+      "fonte": "Jornal de Negócios",
+      "titulo": "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro"
      },
      {
       "data": "2026-10-23",
-      "fonte": "JM Madeira",
-      "titulo": "Pedro Coelho destaca aumento das transferências do Estado para a Madeira no OE 2027",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV3doa0JNbkx4a251akJ0WXUyWUNVeGlJM0ZrYVpqTzFHSXRBM1dLSUFuakJDeVFNZkpraGNPR2MyUGhpQmNLRkg4R3FlRHdNSnVsX0ZkREp5MzVMeWwxOEZDeTg5V0cxYTR1QWl2aUUzVnAwanh6OGFyTlg1ZU5idWVXMHUxdGRYOEZJS0s2ck5DTHFELVZQTjhvTW52Tm50cDJFZmNwT2k0X0p4NUxSeE1kWkY3OXk3Tl9XUVdlM3ViVC12NHh4TEx6anlHWGNiRjJIdklWV2l3M3Zo?oc=5"
+      "fonte": "CNN Portugal",
+      "titulo": "José Luís Carneiro justifica viabilização do \"mau\" OE2027 com crises em Portugal e no estrangeiro",
+      "url": "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b"
      }
     ],
     "todas": [
+     [
+      "2026-10-23 23:19",
+      "Observador",
+      "OE2027. Carneiro justifica viabilização com crises mundiais",
+      "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/"
+     ],
+     [
+      "2026-10-23 22:57",
+      "Jornal de Negócios",
+      "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro"
+     ],
+     [
+      "2026-10-23 22:39",
+      "CNN Portugal",
+      "José Luís Carneiro justifica viabilização do \"mau\" OE2027 com crises em Portugal e no estrangeiro",
+      "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b"
+     ],
+     [
+      "2026-10-23 21:48",
+      "Correio da Manhã",
+      "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUTBOUXpKME41WkxSQ1VjenVpTm9HcFhnSEJhNnpBOFp6QjVtUTEzczNrS3l0NGNUYjFYM2M3TnVaLUptLW9IRlJMQmFmNkpLeDU0MExmTVBnV0wta19KNFIzaWJ4QUlWeGloRGZuTkV2Zmt5Yzg0RzgtWUw1ajlSMlRpek90YkRFanA2dHpidVZCb0lXTzBsVXpuVTVkZGVmQjRiSTBfSC1aZ3VmR3BQcFdCcFI5MVZxQ3fSAboBQVVfeXFMTVEwTlF6SjBONVpMUkNVY3p1aU5vR3BYZ0hCYTZ6QThaekI1bVExM3Mza0t5dDRjVGIxWDNjN051Wi1KbS1vSEZSTEJhZjZKS3g1NDBMZk1QZ1dMLWtfSjRSM2lieEFJVnhpaERmbk5FdmZreWM4NEc4LVlMNWo5UjJUaXpPdGJERWpwNnR6YnVWQm9JV08wbFV6blU1ZGRlZkI0YkkwX0gtWmd1ZkdwUHBXQnBSOTFWcUN3?oc=5"
+     ],
      [
       "2026-10-23 16:33",
       "Notícias ao Minuto",
@@ -3055,30 +3085,6 @@
       "Notícias ao Minuto",
       "OE2027: Governo prevê aumento da Euribor e taxas de juro em 2027",
       "https://www.noticiasaominuto.com/economia/3063709/oe2027-governo-preve-aumento-da-euribor-e-taxas-de-juro-em-2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:02",
-      "ECO",
-      "Valor reclamado ao Estado nas PPP dispara 63%. São quase 2,9 mil milhões de euros",
-      "https://eco.sapo.pt/2026/10/08/valor-reclamado-ao-estado-nas-ppp-dispara-63-sao-quase-29-mil-milhoes-de-euros/"
-     ],
-     [
-      "2026-10-08 18:02",
-      "Notícias ao Minuto",
-      "PS questiona cumprimento de condições para aprovação do OE2027",
-      "https://www.noticiasaominuto.com/pais/3063700/ps-questiona-cumprimento-de-condicoes-para-aprovacao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:01",
-      "ECO",
-      "Norte é a região que agrega mais financiamento com 685,4 milhões",
-      "https://eco.sapo.pt/2026/10/08/oe2027-norte-e-a-regiao-que-agrega-mais-financiamento-com-6854-milhoes/"
-     ],
-     [
-      "2026-10-08 17:57",
-      "Executive Digest",
-      "OE2027: PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do Governo",
-      "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTTBXenREVkZNcDEwWno0QVVmLXAwNm9RRTNZb3BZdFhEbHhOQTNIbFRzRXpEZ1FaSFNKQzhZbk1YUmZzZ25YbkgwbkVrRzV4TXhuTFczSlNQMDJaMGN5OV96aTNsbWFITXR6V1JOY1JCemdKSHFkblA1OV9GM1JMajVOX09raWJMOVN3bnhLbDJnM09VMTVydXVDRmFoMW1fQXhwMk0wSVF0UnhLWEhIWFZjT1BpNzdaWFQ2ZjczNXpTT0hieFpV?oc=5"
      ]
     ]
    }
@@ -3119,34 +3125,58 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 977,
-    "n7": 69,
-    "n7ant": 116,
+    "n": 981,
+    "n7": 67,
+    "n7ant": 93,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "expressoes",
-    "ultima": "2026-10-23 16:33",
+    "ultima": "2026-10-23 23:19",
     "ultimas": [
      {
       "data": "2026-10-23",
-      "fonte": "Notícias ao Minuto",
-      "titulo": "ANMP aprova parecer positivo ao OE2027, mas alerta",
-      "url": "https://www.noticiasaominuto.com/pais/3071945/anmp-aprova-parecer-positivo-ao-oe2027-mas-alerta#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+      "fonte": "Observador",
+      "titulo": "OE2027. Carneiro justifica viabilização com crises mundiais",
+      "url": "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/"
      },
      {
       "data": "2026-10-23",
-      "fonte": "Lusa",
-      "titulo": "OE2027: Conselho Geral da Associação de Municípios aprova por unanimidade parecer positivo",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNS2xCdGRIRFNMRWlvYndtTHRGRklfTUNFLW9aakdEcXd2YjFLZVBmMUlCUEoxQlYyMUZSZ3p6WXhvUDNzX0dXVlBiSEVMcFJwTWJnaWhTVTFYSkp3LW5tMGs0NzVfU0JxYUdjNlZkOVRwbG1WdzNIZnBpQzlnWGoyYW1UTEFaUnBfQVlaWHlvcDVlOERpcE1TeEN3LUdhMTg1dWY1R0RCc1llVDVHaks1UFd0Z0pCMVk3WEJUQVhsWXBpWU96bGQ4U05zSXMtSDBsanNJckxzaTFfZWtIaFI3S3FtNWZKeEVDd0VxQldHTmRVRzg?oc=5"
+      "fonte": "Jornal de Negócios",
+      "titulo": "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro"
      },
      {
       "data": "2026-10-23",
-      "fonte": "JM Madeira",
-      "titulo": "Pedro Coelho destaca aumento das transferências do Estado para a Madeira no OE 2027",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV3doa0JNbkx4a251akJ0WXUyWUNVeGlJM0ZrYVpqTzFHSXRBM1dLSUFuakJDeVFNZkpraGNPR2MyUGhpQmNLRkg4R3FlRHdNSnVsX0ZkREp5MzVMeWwxOEZDeTg5V0cxYTR1QWl2aUUzVnAwanh6OGFyTlg1ZU5idWVXMHUxdGRYOEZJS0s2ck5DTHFELVZQTjhvTW52Tm50cDJFZmNwT2k0X0p4NUxSeE1kWkY3OXk3Tl9XUVdlM3ViVC12NHh4TEx6anlHWGNiRjJIdklWV2l3M3Zo?oc=5"
+      "fonte": "CNN Portugal",
+      "titulo": "José Luís Carneiro justifica viabilização do \"mau\" OE2027 com crises em Portugal e no estrangeiro",
+      "url": "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b"
      }
     ],
     "todas": [
+     [
+      "2026-10-23 23:19",
+      "Observador",
+      "OE2027. Carneiro justifica viabilização com crises mundiais",
+      "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/"
+     ],
+     [
+      "2026-10-23 22:57",
+      "Jornal de Negócios",
+      "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro"
+     ],
+     [
+      "2026-10-23 22:39",
+      "CNN Portugal",
+      "José Luís Carneiro justifica viabilização do \"mau\" OE2027 com crises em Portugal e no estrangeiro",
+      "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b"
+     ],
+     [
+      "2026-10-23 21:48",
+      "Correio da Manhã",
+      "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUTBOUXpKME41WkxSQ1VjenVpTm9HcFhnSEJhNnpBOFp6QjVtUTEzczNrS3l0NGNUYjFYM2M3TnVaLUptLW9IRlJMQmFmNkpLeDU0MExmTVBnV0wta19KNFIzaWJ4QUlWeGloRGZuTkV2Zmt5Yzg0RzgtWUw1ajlSMlRpek90YkRFanA2dHpidVZCb0lXTzBsVXpuVTVkZGVmQjRiSTBfSC1aZ3VmR3BQcFdCcFI5MVZxQ3fSAboBQVVfeXFMTVEwTlF6SjBONVpMUkNVY3p1aU5vR3BYZ0hCYTZ6QThaekI1bVExM3Mza0t5dDRjVGIxWDNjN051Wi1KbS1vSEZSTEJhZjZKS3g1NDBMZk1QZ1dMLWtfSjRSM2lieEFJVnhpaERmbk5FdmZreWM4NEc4LVlMNWo5UjJUaXpPdGJERWpwNnR6YnVWQm9JV08wbFV6blU1ZGRlZkI0YkkwX0gtWmd1ZkdwUHBXQnBSOTFWcUN3?oc=5"
+     ],
      [
       "2026-10-23 16:33",
       "Notícias ao Minuto",
@@ -5522,30 +5552,6 @@
       "Notícias ao Minuto",
       "OE2027: Governo prevê aumento da Euribor e taxas de juro em 2027",
       "https://www.noticiasaominuto.com/economia/3063709/oe2027-governo-preve-aumento-da-euribor-e-taxas-de-juro-em-2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:02",
-      "ECO",
-      "Valor reclamado ao Estado nas PPP dispara 63%. São quase 2,9 mil milhões de euros",
-      "https://eco.sapo.pt/2026/10/08/valor-reclamado-ao-estado-nas-ppp-dispara-63-sao-quase-29-mil-milhoes-de-euros/"
-     ],
-     [
-      "2026-10-08 18:02",
-      "Notícias ao Minuto",
-      "PS questiona cumprimento de condições para aprovação do OE2027",
-      "https://www.noticiasaominuto.com/pais/3063700/ps-questiona-cumprimento-de-condicoes-para-aprovacao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:01",
-      "ECO",
-      "Norte é a região que agrega mais financiamento com 685,4 milhões",
-      "https://eco.sapo.pt/2026/10/08/oe2027-norte-e-a-regiao-que-agrega-mais-financiamento-com-6854-milhoes/"
-     ],
-     [
-      "2026-10-08 17:57",
-      "Executive Digest",
-      "OE2027: PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do Governo",
-      "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTTBXenREVkZNcDEwWno0QVVmLXAwNm9RRTNZb3BZdFhEbHhOQTNIbFRzRXpEZ1FaSFNKQzhZbk1YUmZzZ25YbkgwbkVrRzV4TXhuTFczSlNQMDJaMGN5OV96aTNsbWFITXR6V1JOY1JCemdKSHFkblA1OV9GM1JMajVOX09raWJMOVN3bnhLbDJnM09VMTVydXVDRmFoMW1fQXhwMk0wSVF0UnhLWEhIWFZjT1BpNzdaWFQ2ZjczNXpTT0hieFpV?oc=5"
      ]
     ]
    }
@@ -5582,7 +5588,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -5622,14 +5628,20 @@
     "EURES"
    ],
    "cobertura": {
-    "n": 1,
-    "n7": 0,
+    "n": 2,
+    "n7": 1,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "expressoes",
-    "ultima": "2026-09-30 09:00",
+    "ultima": "2026-10-23 18:44",
     "ultimas": [
+     {
+      "data": "2026-10-23",
+      "fonte": "Observador",
+      "titulo": "PJ identifica nove vítimas de tráfico humano",
+      "url": "https://observador.pt/2026/10/23/pj-identifica-nove-vitimas-de-trafico-humano-para-exploracao-laboral-e-constitui-quatro-arguidos-em-operacao-europeia/"
+     },
      {
       "data": "2026-09-30",
       "fonte": "ECO",
@@ -5639,10 +5651,160 @@
     ],
     "todas": [
      [
+      "2026-10-23 18:44",
+      "Observador",
+      "PJ identifica nove vítimas de tráfico humano",
+      "https://observador.pt/2026/10/23/pj-identifica-nove-vitimas-de-trafico-humano-para-exploracao-laboral-e-constitui-quatro-arguidos-em-operacao-europeia/"
+     ],
+     [
       "2026-09-30 09:00",
       "ECO",
       "Os desafios do mercado de trabalho em Portugal",
       "https://eco.sapo.pt/2026/09/30/os-desafios-do-mercado-de-trabalho-em-portugal/"
+     ]
+    ]
+   }
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-10-26",
+   "hora": "16h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 123 · Plenário",
+   "resumo": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social no âmbito da apreciação, na generalidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Trabalho, Solidariedade e Segurança Social – Maria do Rosário Palma Ramalho\n Secretário de Estado do Tra",
+   "ordemTrabalhos": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social no âmbito da apreciação, na generalidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Trabalho, Solidariedade e Segurança Social – Maria do Rosário Palma Ramalho\n Secretário de Estado do Trabalho – Adriano Rafael Moreira\n Secretária de Estado da Ação Social e da Inclusão – Clara Marques Mendes\n Secretária de Estado da Segurança Social – Susana Filipa Lima",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48539,
+   "chave": "ar-48539",
+   "dataLabel": "segunda, 26 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-24",
+   "cobertura": {
+    "n": 14,
+    "n7": 2,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-24",
+    "metodo": "palavras",
+    "ultima": "2026-10-20 12:09",
+    "ultimas": [
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     },
+     {
+      "data": "2026-10-19",
+      "fonte": "Jornal Económico",
+      "titulo": "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "url": "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     },
+     {
+      "data": "2026-10-08",
+      "fonte": "ECO",
+      "titulo": "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "url": "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTEJXV19oQXJxNlByTTNBMFpmbkFCNU9aZU1paWlEdHlRVWE1SHJtZzBMT2xsa09hem5rSVVHcjhraDdwTFIwd1dldlM1SENESzZnVktMc2YzQXU3d2JldVFuWXhoWG5DOXdXX2taa3IwTFZTVi1RNXBjWl8tbU02b21TTTBBc0w1cGpHT0ZJVmJqMEdBN3YzZnVHM241QlkzQU9KN2hxT194NHVNbmhYUzJBWjF4LTNfUURNaTFPeGR2dw?oc=5"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
      ]
     ]
    }
@@ -5675,7 +5837,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -5716,7 +5878,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "expressoes",
     "ultima": "2026-10-08 16:42",
     "ultimas": [
@@ -5767,8 +5929,8 @@
    "hora": "13h00",
    "interveniente": "",
    "tipoLabel": "Comissões Parlamentares · Reunião n.º 2",
-   "resumo": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a possibilidade de suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do a",
-   "ordemTrabalhos": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a possibilidade de suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Regime Jurídico dos Inquéritos Parlamentares;\n Deliberação sobre as diligências instrutórias solicitadas pelos Grupos Parlamentares e pelo Deputado Único Representante do BE;\n Outros Assuntos.",
+   "resumo": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Reg",
+   "ordemTrabalhos": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Regime Jurídico dos Inquéritos Parlamentares;\n Deliberação sobre as diligências instrutórias solicitadas pelos Grupos Parlamentares e pelo Deputado Único Representante do BE;\n Outros Assuntos.",
    "orgao": "Comissão Parlamentar de Inquérito relativa às decisões, contratações e responsabilidades na conceção e execução da classificação digital dos exames nacionais de 2025 e 2026",
    "id_ar": 48522,
    "chave": "ar-48522",
@@ -5784,11 +5946,11 @@
    "ligacoes": [],
    "novo": "2026-10-23",
    "cobertura": {
-    "n": 91,
+    "n": 90,
     "n7": 0,
-    "n7ant": 5,
+    "n7ant": 2,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "2026-10-14 12:07",
     "ultimas": [
@@ -6269,12 +6431,6 @@
       "https://cnnportugal.iol.pt/exames-nacionais/fenprof/fenprof-congratula-se-com-a-abertura-de-inquerito-pelo-ministerio-publico-ao-caos-dos-exames-nacionais/20260901/6a96bc22d34e511da0b3655c"
      ],
      [
-      "2026-09-01 12:16",
-      "Observador",
-      "12h. Nepal. Português encontrado com vida",
-      "https://observador.pt/programas/noticiario/as-noticias-das-12h-2432/"
-     ],
-     [
       "2026-09-01 10:57",
       "RTP Notícias",
       "Classificação Exames Nacionais. Ministério Público abre inquérito após queixa da FENPROF",
@@ -6359,7 +6515,8 @@
       "https://jornaleconomico.sapo.pt/noticias/igec-deteta-falhas-em-exames-nacionais-de-2026-e-aponta-98-escolas-com-irregularidades/"
      ]
     ]
-   }
+   },
+   "alterado": "2026-10-24"
   },
   {
    "tema": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
@@ -6389,7 +6546,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "expressoes",
     "ultima": "2026-09-20 00:13",
     "ultimas": [
@@ -6440,7 +6597,44 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
+    "metodo": "palavras",
+    "ultima": "",
+    "ultimas": [],
+    "todas": []
+   }
+  },
+  {
+   "tema": "Comissão de Transparência e Estatuto dos Deputados",
+   "data": "2026-10-27",
+   "hora": "15h15",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 9",
+   "resumo": "1 – Deliberação sobre a admissibilidade de participação(ões) e denúncia(s) enviadas à Comissão (matéria reservada);\n 2 – Outros assuntos.",
+   "ordemTrabalhos": "1 – Deliberação sobre a admissibilidade de participação(ões) e denúncia(s) enviadas à Comissão (matéria reservada);\n 2 – Outros assuntos.",
+   "orgao": "Comissão de Transparência e Estatuto dos Deputados",
+   "id_ar": 48546,
+   "chave": "ar-48546",
+   "dataLabel": "terça, 27 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-24",
+   "cobertura": {
+    "n": 0,
+    "n7": 0,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -6477,7 +6671,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -6509,7 +6703,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -6541,7 +6735,39 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
+    "metodo": "palavras",
+    "ultima": "",
+    "ultimas": [],
+    "todas": []
+   }
+  },
+  {
+   "tema": "Grupo de Trabalho - Parlamento dos Jovens",
+   "data": "2026-10-29",
+   "hora": "10h30",
+   "interveniente": "",
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 8",
+   "resumo": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
+   "ordemTrabalhos": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
+   "orgao": "Grupo de Trabalho - Parlamento dos Jovens",
+   "id_ar": 48540,
+   "chave": "ar-48540",
+   "dataLabel": "quinta, 29 out",
+   "tipo": [
+    "Grupo de Trabalho"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Manhã",
+   "ligacoes": [],
+   "novo": "2026-10-24",
+   "cobertura": {
+    "n": 0,
+    "n7": 0,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -6572,7 +6798,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -6600,11 +6826,11 @@
    "manual": true,
    "chave": "2026-10-31||agência lusa — fim do prazo de reapreciação dos projetos de estatutos",
    "cobertura": {
-    "n": 5,
+    "n": 4,
     "n7": 2,
-    "n7ant": 3,
+    "n7ant": 2,
     "dias": 60,
-    "ref": "2026-10-23",
+    "ref": "2026-10-24",
     "metodo": "palavras",
     "ultima": "2026-10-21 15:40",
     "ultimas": [
@@ -6651,12 +6877,6 @@
       "ECO",
       "Todos os projetos de lei sobre os novos estatutos da Lusa rejeitados na generalidade",
       "https://eco.sapo.pt/2026/10/16/todos-os-projetos-de-lei-sobre-os-novos-estatutos-da-lusa-rejeitados-na-generalidade/"
-     ],
-     [
-      "2026-10-16 13:45",
-      "Correio da Manhã",
-      "Rejeitados na generalidade todos os projetos de lei sobre os novos estatutos da Lusa",
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjBLMXFpUVJOcnNOSWtlWDBwZ205eC1KdFFSNVdfR1pleG4xWjRoWVZfOUoxc040dkxjVkJiX0lFZ0gtY25nR182ell6Nkhpd2tYcnE4YTN6UmQ2aUVHbkFud2VlUGphTGFKeGJvTnpkc0lNdktmNGVXYUNnNGhqdU16dmFJTzFHZExYOFhJOVBrVmhFX0FFSFhQRTE0dmo5RHdaV09BeUpyMzdJeGl2ZmtScHZibGFFdFZmQUl30gG-AUFVX3lxTFBCMEsxcWlRUk5yc05Ja2VYMHBnbTl4LUp0UVI1V19HWmV4bjFaNGhZVl85SjFzTjR2TGNWQmJfSUVnSC1jbmdHXzZ6WXo2SGl3a1hycThhM3pSZDZpRUduQW53ZWVQamFMYUp4Ym9OemRzSU12S2Y0ZVdhQ2c0aGp1TXp2YUlPMUdkTFg4WEk5UGtWaEVfQUVIWFBFMTR2ajlEd1pXT0F5SnIzN0l4aXZma1JwdmJsYUV0VmZBSXc?oc=5"
      ]
     ]
    }

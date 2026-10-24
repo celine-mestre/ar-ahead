@@ -1,7 +1,7 @@
 {
  "inicio": "2026-10-26",
  "fim": "2026-11-01",
- "recolha": "2026-10-23T21:20",
+ "recolha": "2026-10-24T20:41",
  "fonte": "Dados abertos da Assembleia da República — AgendaParlamentar_json.txt",
  "itens": [
   {
@@ -45,6 +45,27 @@
    "validado": false
   },
   {
+   "id_ar": 48539,
+   "data": "2026-10-26",
+   "hora": "16h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 123 · Plenário",
+   "resumo": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social no âmbito da apreciação, na generalidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Trabalho, Solidariedade e Segurança Social – Maria do Rosário Palma Ramalho\n Secretário de Estado do Tra",
+   "ordemTrabalhos": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social no âmbito da apreciação, na generalidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Trabalho, Solidariedade e Segurança Social – Maria do Rosário Palma Ramalho\n Secretário de Estado do Trabalho – Adriano Rafael Moreira\n Secretária de Estado da Ação Social e da Inclusão – Clara Marques Mendes\n Secretária de Estado da Segurança Social – Susana Filipa Lima",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx",
+   "uo": [
+    "DAPL",
+    "Transversal"
+   ],
+   "pertinencia": "Vigilância",
+   "validado": false
+  },
+  {
    "id_ar": 48520,
    "data": "2026-10-27",
    "hora": "12h00",
@@ -75,8 +96,8 @@
     "Comissões Parlamentares"
    ],
    "tipoLabel": "Comissões Parlamentares · Reunião n.º 2",
-   "resumo": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a possibilidade de suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do a",
-   "ordemTrabalhos": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a possibilidade de suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Regime Jurídico dos Inquéritos Parlamentares;\n Deliberação sobre as diligências instrutórias solicitadas pelos Grupos Parlamentares e pelo Deputado Único Representante do BE;\n Outros Assuntos.",
+   "resumo": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Reg",
+   "ordemTrabalhos": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Regime Jurídico dos Inquéritos Parlamentares;\n Deliberação sobre as diligências instrutórias solicitadas pelos Grupos Parlamentares e pelo Deputado Único Representante do BE;\n Outros Assuntos.",
    "ligacao": "",
    "uo": [
     "Transversal"
@@ -116,6 +137,24 @@
    "resumo": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
    "ordemTrabalhos": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx",
+   "uo": [],
+   "pertinencia": "Registo",
+   "validado": false
+  },
+  {
+   "id_ar": 48546,
+   "data": "2026-10-27",
+   "hora": "15h15",
+   "tema": "Comissão de Transparência e Estatuto dos Deputados",
+   "orgao": "Comissão de Transparência e Estatuto dos Deputados",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 9",
+   "resumo": "1 – Deliberação sobre a admissibilidade de participação(ões) e denúncia(s) enviadas à Comissão (matéria reservada);\n 2 – Outros assuntos.",
+   "ordemTrabalhos": "1 – Deliberação sobre a admissibilidade de participação(ões) e denúncia(s) enviadas à Comissão (matéria reservada);\n 2 – Outros assuntos.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.aspx",
    "uo": [],
    "pertinencia": "Registo",
    "validado": false
@@ -178,6 +217,24 @@
     "Transversal"
    ],
    "pertinencia": "Vigilância",
+   "validado": false
+  },
+  {
+   "id_ar": 48540,
+   "data": "2026-10-29",
+   "hora": "10h30",
+   "tema": "Grupo de Trabalho - Parlamento dos Jovens",
+   "orgao": "Grupo de Trabalho - Parlamento dos Jovens",
+   "interveniente": "",
+   "tipo": [
+    "Grupo de Trabalho"
+   ],
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 8",
+   "resumo": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
+   "ordemTrabalhos": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
+   "ligacao": "",
+   "uo": [],
+   "pertinencia": "Registo",
    "validado": false
   },
   {
