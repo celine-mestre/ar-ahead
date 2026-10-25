@@ -502,8 +502,8 @@
     "retirados": 0
    }
   ],
-  "atualizado": "2026-10-25T12:32+00:00",
-  "atualizadoLabel": "25 de outubro, 12h32",
+  "atualizado": "2026-10-25T20:45+00:00",
+  "atualizadoLabel": "25 de outubro, 20h45",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
   "aviso": "8 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
@@ -614,7 +614,7 @@
     "ultima": "2026-10-22 20:02",
     "em": "2026-10-22"
    },
-   "novas": 29
+   "novas": 30
   }
  },
  "destaques": [
@@ -658,14 +658,20 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 977,
-    "n7": 67,
+    "n": 978,
+    "n7": 68,
     "n7ant": 84,
     "dias": 60,
     "ref": "2026-10-25",
     "metodo": "expressoes",
-    "ultima": "2026-10-24 22:00",
+    "ultima": "2026-10-25 17:50",
     "ultimas": [
+     {
+      "data": "2026-10-25",
+      "fonte": "Jornal Económico",
+      "titulo": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
+      "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
+     },
      {
       "data": "2026-10-24",
       "fonte": "RTP Notícias",
@@ -677,15 +683,15 @@
       "fonte": "Observador",
       "titulo": "OE2027. Carneiro justifica viabilização com crises mundiais",
       "url": "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/"
-     },
-     {
-      "data": "2026-10-23",
-      "fonte": "Jornal de Negócios",
-      "titulo": "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
-      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro"
      }
     ],
     "todas": [
+     [
+      "2026-10-25 17:50",
+      "Jornal Económico",
+      "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
+      "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
+     ],
      [
       "2026-10-24 22:00",
       "RTP Notícias",
@@ -3079,12 +3085,6 @@
       "Notícias ao Minuto",
       "OE2027: Governo prevê aumento da Euribor e taxas de juro em 2027",
       "https://www.noticiasaominuto.com/economia/3063709/oe2027-governo-preve-aumento-da-euribor-e-taxas-de-juro-em-2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:02",
-      "ECO",
-      "Valor reclamado ao Estado nas PPP dispara 63%. São quase 2,9 mil milhões de euros",
-      "https://eco.sapo.pt/2026/10/08/valor-reclamado-ao-estado-nas-ppp-dispara-63-sao-quase-29-mil-milhoes-de-euros/"
      ]
     ]
    }
@@ -3125,14 +3125,20 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 977,
-    "n7": 67,
+    "n": 978,
+    "n7": 68,
     "n7ant": 84,
     "dias": 60,
     "ref": "2026-10-25",
     "metodo": "expressoes",
-    "ultima": "2026-10-24 22:00",
+    "ultima": "2026-10-25 17:50",
     "ultimas": [
+     {
+      "data": "2026-10-25",
+      "fonte": "Jornal Económico",
+      "titulo": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
+      "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
+     },
      {
       "data": "2026-10-24",
       "fonte": "RTP Notícias",
@@ -3144,15 +3150,15 @@
       "fonte": "Observador",
       "titulo": "OE2027. Carneiro justifica viabilização com crises mundiais",
       "url": "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/"
-     },
-     {
-      "data": "2026-10-23",
-      "fonte": "Jornal de Negócios",
-      "titulo": "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
-      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro"
      }
     ],
     "todas": [
+     [
+      "2026-10-25 17:50",
+      "Jornal Económico",
+      "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
+      "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
+     ],
      [
       "2026-10-24 22:00",
       "RTP Notícias",
@@ -5546,12 +5552,6 @@
       "Notícias ao Minuto",
       "OE2027: Governo prevê aumento da Euribor e taxas de juro em 2027",
       "https://www.noticiasaominuto.com/economia/3063709/oe2027-governo-preve-aumento-da-euribor-e-taxas-de-juro-em-2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:02",
-      "ECO",
-      "Valor reclamado ao Estado nas PPP dispara 63%. São quase 2,9 mil milhões de euros",
-      "https://eco.sapo.pt/2026/10/08/valor-reclamado-ao-estado-nas-ppp-dispara-63-sao-quase-29-mil-milhoes-de-euros/"
      ]
     ]
    }
