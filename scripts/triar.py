@@ -15,6 +15,8 @@ def triar(item):
             if any(re.search(r'\b'+re.escape(t.lower())+r'\b', texto) for t in cfg.get('imediato', [])): pert = 'Imediato'
             elif pert != 'Imediato': pert = 'Vigilância'
     if any(t in texto for t in regras.get('transversal', [])): uos.add('Transversal'); pert = pert if pert=='Imediato' else 'Vigilância'
+    if any(t in texto for t in regras.get('governo', {}).get('termos', [])):   # presença do Governo na AR: coordenação política
+        uos.add('DACDP'); pert = pert if pert=='Imediato' else 'Vigilância'
     return sorted(uos), pert
 for it in bruto['itens'] + bruto.get('futuro', []):
     it['uo'], it['pertinencia'] = triar(it)
