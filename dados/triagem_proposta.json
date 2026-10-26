@@ -1,7 +1,7 @@
 {
  "inicio": "2026-10-26",
  "fim": "2026-11-01",
- "recolha": "2026-10-26T16:24",
+ "recolha": "2026-10-26T16:26",
  "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
   {
@@ -258,7 +258,7 @@
   {
    "id_ar": 48545,
    "data": "2026-10-28",
-   "hora": "9h00",
+   "hora": "09h00",
    "tema": "Grupo de Trabalho para os Assuntos Culturais",
    "orgao": "Grupo de Trabalho para os Assuntos Culturais",
    "interveniente": "",
@@ -317,7 +317,7 @@
   {
    "id_ar": 48555,
    "data": "2026-10-29",
-   "hora": "9h30",
+   "hora": "09h30",
    "tema": "Grupo de Trabalho - Parlamento dos Jovens",
    "orgao": "Grupo de Trabalho - Parlamento dos Jovens",
    "interveniente": "",

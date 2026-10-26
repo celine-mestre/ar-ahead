@@ -12513,8 +12513,8 @@
     "retirados": 0
    }
   ],
-  "atualizado": "2026-10-26T16:24+00:00",
-  "atualizadoLabel": "26 de outubro, 16h24",
+  "atualizado": "2026-10-26T16:26+00:00",
+  "atualizadoLabel": "26 de outubro, 16h26",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
   "aviso": "10 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
@@ -26119,6 +26119,38 @@
    }
   },
   {
+   "tema": "Grupo de Trabalho para os Assuntos Culturais",
+   "data": "2026-10-28",
+   "hora": "09h00",
+   "interveniente": "",
+   "tipoLabel": "Grupo de Trabalho AR · Reunião n.º 5 · Sala 7",
+   "resumo": "I. Aprovação da ata da reunião anterior; \n II. Programação Cultural 2027; \n III. Apreciação de iniciativas; \n IV. Apreciação de publicações; \n V. Outros assuntos.",
+   "ordemTrabalhos": "I. Aprovação da ata da reunião anterior; \n II. Programação Cultural 2027; \n III. Apreciação de iniciativas; \n IV. Apreciação de publicações; \n V. Outros assuntos.",
+   "orgao": "Grupo de Trabalho para os Assuntos Culturais",
+   "id_ar": 48545,
+   "chave": "ar-48545",
+   "dataLabel": "quarta, 28 out",
+   "tipo": [
+    "Grupo de Trabalho AR"
+   ],
+   "uo": [],
+   "pertinencia": "Registo",
+   "periodo": "Tarde",
+   "ligacoes": [],
+   "novo": "2026-10-26",
+   "cobertura": {
+    "n": 0,
+    "n7": 0,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-26",
+    "metodo": "palavras",
+    "ultima": "",
+    "ultimas": [],
+    "todas": []
+   }
+  },
+  {
    "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
    "data": "2026-10-28",
    "hora": "14h00",
@@ -26217,19 +26249,19 @@
    }
   },
   {
-   "tema": "Grupo de Trabalho para os Assuntos Culturais",
-   "data": "2026-10-28",
-   "hora": "9h00",
+   "tema": "Grupo de Trabalho - Parlamento dos Jovens",
+   "data": "2026-10-29",
+   "hora": "09h30",
    "interveniente": "",
-   "tipoLabel": "Grupo de Trabalho AR · Reunião n.º 5 · Sala 7",
-   "resumo": "I. Aprovação da ata da reunião anterior; \n II. Programação Cultural 2027; \n III. Apreciação de iniciativas; \n IV. Apreciação de publicações; \n V. Outros assuntos.",
-   "ordemTrabalhos": "I. Aprovação da ata da reunião anterior; \n II. Programação Cultural 2027; \n III. Apreciação de iniciativas; \n IV. Apreciação de publicações; \n V. Outros assuntos.",
-   "orgao": "Grupo de Trabalho para os Assuntos Culturais",
-   "id_ar": 48545,
-   "chave": "ar-48545",
-   "dataLabel": "quarta, 28 out",
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 8 · Sala 1",
+   "resumo": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
+   "ordemTrabalhos": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
+   "orgao": "Grupo de Trabalho - Parlamento dos Jovens",
+   "id_ar": 48555,
+   "chave": "ar-48555",
+   "dataLabel": "quinta, 29 out",
    "tipo": [
-    "Grupo de Trabalho AR"
+    "Grupo de Trabalho"
    ],
    "uo": [],
    "pertinencia": "Registo",
@@ -26280,38 +26312,6 @@
     "todas": []
    },
    "retirado": "2026-10-26"
-  },
-  {
-   "tema": "Grupo de Trabalho - Parlamento dos Jovens",
-   "data": "2026-10-29",
-   "hora": "9h30",
-   "interveniente": "",
-   "tipoLabel": "Grupo de Trabalho · Reunião n.º 8 · Sala 1",
-   "resumo": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
-   "ordemTrabalhos": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
-   "orgao": "Grupo de Trabalho - Parlamento dos Jovens",
-   "id_ar": 48555,
-   "chave": "ar-48555",
-   "dataLabel": "quinta, 29 out",
-   "tipo": [
-    "Grupo de Trabalho"
-   ],
-   "uo": [],
-   "pertinencia": "Registo",
-   "periodo": "Tarde",
-   "ligacoes": [],
-   "novo": "2026-10-26",
-   "cobertura": {
-    "n": 0,
-    "n7": 0,
-    "n7ant": 0,
-    "dias": 60,
-    "ref": "2026-10-26",
-    "metodo": "palavras",
-    "ultima": "",
-    "ultimas": [],
-    "todas": []
-   }
   },
   {
    "tema": "Grupo de Trabalho - Júri do Prémio Mário Soares 2026",
