@@ -1,0 +1,54 @@
+{
+ "tentadas": 344,
+ "resolvidas": 0,
+ "exemplos_falhados": [
+  {
+   "ligacao": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGl5Vk1LN3F1ZXBGc0YtTERPVzV6LWVXRkVReHdpQXpRVXVpVUQzdDFTa21nOUZBay1",
+   "do_identificador": "sem resultado",
+   "pelo_google": "sem resultado",
+   "seguindo": "sem resultado"
+  },
+  {
+   "ligacao": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlJqWGQyUkM1TEtZOXo1U2F5aXJEQ3dMa2lEQXRocm45ejNCTTduVEZOUVJDTXNsOFR",
+   "do_identificador": "sem resultado",
+   "pelo_google": "sem resultado",
+   "seguindo": "sem resultado"
+  },
+  {
+   "ligacao": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQelU4aVg1Tjk3bDRmQmlqa1g3Q21WN1NscHNTRTJUbHVFajZuTWNsTHExWHhVTTJJVXk",
+   "do_identificador": "sem resultado",
+   "pelo_google": "sem resultado",
+   "seguindo": "sem resultado"
+  },
+  {
+   "ligacao": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNjRNSjVCMkNYQ2ZHMlJMM2FvNDdnWmthY3RpWU1vZDdyaXM3V1AtbnY2V1pfa0YzZEF",
+   "do_identificador": "sem resultado",
+   "pelo_google": "sem resultado",
+   "seguindo": "sem resultado"
+  },
+  {
+   "ligacao": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxNdXlYRFpnX1JrXzRfTm5helJCLUwwYmgtVE9LYWtMR295czZJQ2hnYXNMUjkzQzRfbXh",
+   "do_identificador": "sem resultado",
+   "pelo_google": "sem resultado",
+   "seguindo": "sem resultado"
+  },
+  {
+   "ligacao": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcFRRN0Q4YnpWSVFtREFZc3E2aFJDTnc3Z1huYlpKZ1QxMkR5UUl3TzVUeWxleVFUYzZ",
+   "do_identificador": "sem resultado",
+   "pelo_google": "sem resultado",
+   "seguindo": "sem resultado"
+  },
+  {
+   "ligacao": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE90WlRwRDdtRVRfY29peXB4VGxHS0thODVHTHRtem1ZZ2kyNjNqaldfaEE2aUZSTlhDeWo",
+   "do_identificador": "sem resultado",
+   "pelo_google": "sem resultado",
+   "seguindo": "sem resultado"
+  },
+  {
+   "ligacao": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZkxSMGtPbUF1bmxna3pmSFdYSTgzMlhnWDJ5Nkg1S3lORGZLNmRwSVZfTjhzQWU4c1R",
+   "do_identificador": "sem resultado",
+   "pelo_google": "sem resultado",
+   "seguindo": "sem resultado"
+  }
+ ]
+}
