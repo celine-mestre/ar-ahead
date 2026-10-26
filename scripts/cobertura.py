@@ -62,7 +62,8 @@ def termos(x):
 PADROES = [
     (r'or[cç]amento do estado para (20\d\d)', lambda m: [f'Orçamento do Estado para {m.group(1)}', f'OE{m.group(1)}', f'OE {m.group(1)}']),
     (r'\bOE ?(20\d\d)\b', lambda m: [f'Orçamento do Estado para {m.group(1)}', f'OE{m.group(1)}', f'OE {m.group(1)}']),
-    (r'conta geral do estado (?:de |para )?(20\d\d)', lambda m: [f'Conta Geral do Estado de {m.group(1)}', f'CGE {m.group(1)}', f'CGE de {m.group(1)}']),
+    (r'conta geral do estado(?: \(cge\))? (?:de |para )?(20\d\d)', lambda m: [f'Conta Geral do Estado de {m.group(1)}', f'CGE {m.group(1)}', f'CGE de {m.group(1)}', 'Conta Geral do Estado']),
+    (r'\bPRR\b|plano de recupera[cç][aã]o e resili[eê]ncia', lambda m: ['PRR', 'Plano de Recuperação e Resiliência']),
     (r'grandes op[cç][oõ]es do plano', lambda m: ['Grandes Opções do Plano', 'Grandes Opções']),
     (r'programa de estabilidade', lambda m: ['Programa de Estabilidade']),
     (r'estado da na[cç][aã]o', lambda m: ['estado da nação']),

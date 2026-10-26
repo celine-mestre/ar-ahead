@@ -294,7 +294,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     <p class="lead" id="hero-lead"></p>
     <div class="hero-kpis" id="hero-kpis"></div>
     <button class="cta" id="hero-cta"><svg class="ic"><use href="#i-list"/></svg>Entrar na agenda</button>
-    <div class="leg"><span><i class="ime"></i>imediato, com varrimento</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span>cada lugar é uma matéria · passe o rato, clique para abrir</span></div>
+    <div class="leg"><span><i class="ime"></i>imediato, com varrimento</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span>cada lugar é uma matéria · quanto mais perto da Mesa, mais pertinente: anel interior imediato, meio vigilância, exterior registo · da esquerda para a direita, da manhã para a tarde · clique para abrir</span></div>
   </div>
   <div class="hemi"><svg id="hemi" viewBox="0 0 800 430" role="img" aria-label="AR Preview — hemiciclo da semana: uma matéria por lugar, agrupadas por dia"></svg></div>
 </div></section>
@@ -640,7 +640,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     const arcPath = (r0,r1,a0,a1) => { const [x0,y0]=pol(r1,a0),[x1,y1]=pol(r1,a1),[x2,y2]=pol(r0,a1),[x3,y3]=pol(r0,a0); return `M${x0},${y0} A${r1},${r1} 0 0 1 ${x1},${y1} L${x2},${y2} A${r0},${r0} 0 0 0 ${x3},${y3} Z`; };
     let h = `<defs><linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>`;
     h += `<path class="sweep" d="M${cx-R1},${cy} A${R1},${R1} 0 0 1 ${cx+R1},${cy} L${cx+R0},${cy} A${R0},${R0} 0 0 0 ${cx-R0},${cy} Z"/>`;
-    [R0, (R0+R1)/2, R1].forEach(r => { h += `<path class="arc" d="M${cx-r},${cy} A${r},${r} 0 0 1 ${cx+r},${cy}"/>`; });
+    const lb = (R1 - R0 - 24) / 3; [R0, R0+12+lb, R0+12+2*lb, R1].forEach(r => { h += `<path class="arc" d="M${cx-r},${cy} A${r},${r} 0 0 1 ${cx+r},${cy}"/>`; });
     let seats = '', labels = '', k = 0;
     diasSem.forEach((dk, i) => {
       const a0 = i*(span+gap), a1 = a0 + span; const d = new Date(dk+'T00:00:00');
@@ -649,19 +649,24 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
       h += `<path class="sector ${vazio?'vazio':''} ${dk===hojeIso?'hoje':''}" d="${arcPath(R0+6, R1-6, a0, a1)}" data-sd="${dk}"><title>${vazio?'sem agenda publicada':its.length+' matérias'}</title></path>`;
       const [lx,ly] = pol(R1+22, (a0+a1)/2);
       labels += `<text class="dl ${vazio?'vazio':''}" x="${lx}" y="${ly}" transform="rotate(${((a0+a1)/2)*180/Math.PI - 90},${lx},${ly})">${NOMES[d.getDay()].toUpperCase()} ${d.getDate()}${vazio?'':`<tspan class="n" x="${lx}" dy="14">${its.length}</tspan>`}</text>`;
-      // lugares: filas concêntricas, da fila interior para a exterior, por ordem cronológica
-      const filas = []; let r = R0 + 26;
-      while (r < R1 - 12) { filas.push(r); r += 30; }
-      let idx = 0;
-      filas.forEach(rf => {
-        const cap = Math.max(1, Math.floor((rf*(span-0.03)) / 24));
-        const n = Math.min(cap, its.length - idx); if (n <= 0) return;
-        for (let j=0;j<n;j++,idx++) {
-          const x = its[idx]; const a = a0 + 0.015 + (span-0.03) * (n===1 ? .5 : j/(n-1));
-          const [px,py] = pol(rf, a); const cls = (PERT[x.pertinencia]||['reg'])[0];
-          const rr = cls==='ime'?7:cls==='vig'?6:4.5;
-          seats += `<g class="seat ${cls} ${x.varrimento?'var':''}" style="animation-delay:${(k++)*28}ms" data-seat="${esc(x.data+'|'+x.tema)}" data-ver="${esc(x.varrimento||'')}" data-pert="${esc(x.pertinencia)}"><circle class="p" cx="${px}" cy="${py}" r="6" style="animation-delay:${(i*400+j*150)}ms"/><circle class="c" cx="${px}" cy="${py}" r="${rr}"/></g>`;
-        }
+      // lugares: a distância ao centro é a pertinência (anel interior = Imediato, meio = Vigilância, exterior = Registo);
+      // dentro de cada anel, da esquerda para a direita, por hora. As cores e o tamanho repetem a mesma leitura.
+      const bandas = [[0, 'Imediato'], [1, 'Vigilância'], [2, 'Registo']];
+      const larg = (R1 - R0 - 24) / 3;                       // três anéis iguais entre a Mesa e a bancada exterior
+      bandas.forEach(([bi, pert]) => {
+        const grupo = its.filter(x => x.pertinencia === pert); if (!grupo.length) return;
+        const rIn = R0 + 12 + bi * larg;                        // filas dentro do anel, se o dia tiver muitas matérias
+        const filas = []; for (let r = rIn + larg / 2; filas.length < 3 && r < rIn + larg; r += larg / 2) filas.push(r);
+        const cap = rf => Math.max(1, Math.floor((rf * (span - 0.03)) / 22));
+        const porFila = []; let idx = 0;
+        for (const rf of filas) { const n = Math.min(cap(rf), grupo.length - idx); if (n <= 0) break; porFila.push([rf, grupo.slice(idx, idx + n)]); idx += n; }
+        if (idx < grupo.length) porFila[porFila.length - 1][1].push(...grupo.slice(idx));   // nunca se perde uma matéria
+        porFila.forEach(([rf, lista]) => lista.forEach((x, j) => {
+          const n = lista.length, a = a0 + 0.015 + (span - 0.03) * (n === 1 ? .5 : j / (n - 1));
+          const [px, py] = pol(rf, a); const cls = (PERT[x.pertinencia] || ['reg'])[0];
+          const rr = cls === 'ime' ? 7 : cls === 'vig' ? 6 : 4.5;
+          seats += `<g class="seat ${cls} ${x.varrimento ? 'var' : ''}" style="animation-delay:${(k++) * 28}ms" data-seat="${esc(x.data + '|' + x.tema)}" data-ver="${esc(x.varrimento || '')}" data-pert="${esc(x.pertinencia)}"><circle class="p" cx="${px}" cy="${py}" r="6" style="animation-delay:${(i * 400 + j * 150)}ms"/><circle class="c" cx="${px}" cy="${py}" r="${rr}"/></g>`;
+        }));
       });
     });
     const tot = todos.length, nVar = D.destaques.length, nIme = todos.filter(x=>x.pertinencia==='Imediato').length;
