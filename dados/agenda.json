@@ -45,34 +45,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-18-plen-rio-debate-na-especialidade-do-or",
    "cobertura": {
-    "n": 979,
-    "n7": 61,
+    "n": 982,
+    "n7": 64,
     "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-26",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 06:38",
+    "ultima": "2026-10-26 16:46",
     "ultimas": [
      {
       "data": "2026-10-26",
-      "fonte": "ECO",
-      "titulo": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
-      "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
-     },
-     {
-      "data": "2026-10-25",
-      "fonte": "Jornal Económico",
-      "titulo": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
-      "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
-     },
-     {
-      "data": "2026-10-24",
       "fonte": "RTP Notícias",
-      "titulo": "Empresários avisam: não é possível o investimento privado crescer 10% como previsto no OE27",
-      "url": "https://www.rtp.pt/noticias/conversa-capital/empresarios-avisam-nao-e-possivel-o-investimento-privado-crescer-10-como-previsto-no-oe27_v1773801"
+      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Jornal de Negócios",
+      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
      }
     ],
     "todas": [
+     [
+      "2026-10-26 16:46",
+      "RTP Notícias",
+      "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     ],
+     [
+      "2026-10-26 16:05",
+      "Jornal de Negócios",
+      "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     ],
+     [
+      "2026-10-26 15:04",
+      "Executive Digest",
+      "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+     ],
      [
       "2026-10-26 06:38",
       "ECO",
@@ -2454,24 +2472,6 @@
       "Expresso",
       "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
       "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
-     ],
-     [
-      "2026-10-08 18:14",
-      "RTP Notícias",
-      "OE2027 prevê 17 ME para combater violência doméstica e tráfico de seres humanos",
-      "https://www.rtp.pt/noticias/economia/oe2027-preve-17-me-para-combater-violencia-domestica-e-trafico-de-seres-humanos_n1770425"
-     ],
-     [
-      "2026-10-08 18:14",
-      "Notícias ao Minuto",
-      "OE2027: Governo anuncia 2.003 milhões para habitação pública e acessível",
-      "https://www.noticiasaominuto.com/pais/3063716/oe2027-governo-anuncia-2-003-milhoes-para-habitacao-publica-e-acessivel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:13",
-      "Lusa",
-      "PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do OE2027 do Governo",
-      "https://www.lusa.pt/article/47907377/ps-tem-d%C3%BAvidas-se-est%C3%A3o-cumpridas-duas-das-condi%C3%A7%C3%B5es-para-viabilizar-proposta-do-oe2027-do-governo"
      ]
     ]
    },
@@ -2511,34 +2511,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 979,
-    "n7": 61,
+    "n": 982,
+    "n7": 64,
     "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-26",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 06:38",
+    "ultima": "2026-10-26 16:46",
     "ultimas": [
      {
       "data": "2026-10-26",
-      "fonte": "ECO",
-      "titulo": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
-      "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
-     },
-     {
-      "data": "2026-10-25",
-      "fonte": "Jornal Económico",
-      "titulo": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
-      "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
-     },
-     {
-      "data": "2026-10-24",
       "fonte": "RTP Notícias",
-      "titulo": "Empresários avisam: não é possível o investimento privado crescer 10% como previsto no OE27",
-      "url": "https://www.rtp.pt/noticias/conversa-capital/empresarios-avisam-nao-e-possivel-o-investimento-privado-crescer-10-como-previsto-no-oe27_v1773801"
+      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Jornal de Negócios",
+      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
      }
     ],
     "todas": [
+     [
+      "2026-10-26 16:46",
+      "RTP Notícias",
+      "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     ],
+     [
+      "2026-10-26 16:05",
+      "Jornal de Negócios",
+      "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     ],
+     [
+      "2026-10-26 15:04",
+      "Executive Digest",
+      "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+     ],
      [
       "2026-10-26 06:38",
       "ECO",
@@ -4920,24 +4938,6 @@
       "Expresso",
       "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
       "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
-     ],
-     [
-      "2026-10-08 18:14",
-      "RTP Notícias",
-      "OE2027 prevê 17 ME para combater violência doméstica e tráfico de seres humanos",
-      "https://www.rtp.pt/noticias/economia/oe2027-preve-17-me-para-combater-violencia-domestica-e-trafico-de-seres-humanos_n1770425"
-     ],
-     [
-      "2026-10-08 18:14",
-      "Notícias ao Minuto",
-      "OE2027: Governo anuncia 2.003 milhões para habitação pública e acessível",
-      "https://www.noticiasaominuto.com/pais/3063716/oe2027-governo-anuncia-2-003-milhoes-para-habitacao-publica-e-acessivel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:13",
-      "Lusa",
-      "PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do OE2027 do Governo",
-      "https://www.lusa.pt/article/47907377/ps-tem-d%C3%BAvidas-se-est%C3%A3o-cumpridas-duas-das-condi%C3%A7%C3%B5es-para-viabilizar-proposta-do-oe2027-do-governo"
      ]
     ]
    },
@@ -4977,34 +4977,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 979,
-    "n7": 61,
+    "n": 982,
+    "n7": 64,
     "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-26",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 06:38",
+    "ultima": "2026-10-26 16:46",
     "ultimas": [
      {
       "data": "2026-10-26",
-      "fonte": "ECO",
-      "titulo": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
-      "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
-     },
-     {
-      "data": "2026-10-25",
-      "fonte": "Jornal Económico",
-      "titulo": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
-      "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
-     },
-     {
-      "data": "2026-10-24",
       "fonte": "RTP Notícias",
-      "titulo": "Empresários avisam: não é possível o investimento privado crescer 10% como previsto no OE27",
-      "url": "https://www.rtp.pt/noticias/conversa-capital/empresarios-avisam-nao-e-possivel-o-investimento-privado-crescer-10-como-previsto-no-oe27_v1773801"
+      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Jornal de Negócios",
+      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
      }
     ],
     "todas": [
+     [
+      "2026-10-26 16:46",
+      "RTP Notícias",
+      "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     ],
+     [
+      "2026-10-26 16:05",
+      "Jornal de Negócios",
+      "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     ],
+     [
+      "2026-10-26 15:04",
+      "Executive Digest",
+      "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+     ],
      [
       "2026-10-26 06:38",
       "ECO",
@@ -7386,24 +7404,6 @@
       "Expresso",
       "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
       "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
-     ],
-     [
-      "2026-10-08 18:14",
-      "RTP Notícias",
-      "OE2027 prevê 17 ME para combater violência doméstica e tráfico de seres humanos",
-      "https://www.rtp.pt/noticias/economia/oe2027-preve-17-me-para-combater-violencia-domestica-e-trafico-de-seres-humanos_n1770425"
-     ],
-     [
-      "2026-10-08 18:14",
-      "Notícias ao Minuto",
-      "OE2027: Governo anuncia 2.003 milhões para habitação pública e acessível",
-      "https://www.noticiasaominuto.com/pais/3063716/oe2027-governo-anuncia-2-003-milhoes-para-habitacao-publica-e-acessivel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:13",
-      "Lusa",
-      "PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do OE2027 do Governo",
-      "https://www.lusa.pt/article/47907377/ps-tem-d%C3%BAvidas-se-est%C3%A3o-cumpridas-duas-das-condi%C3%A7%C3%B5es-para-viabilizar-proposta-do-oe2027-do-governo"
      ]
     ]
    },
@@ -7443,34 +7443,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 979,
-    "n7": 61,
+    "n": 982,
+    "n7": 64,
     "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-26",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 06:38",
+    "ultima": "2026-10-26 16:46",
     "ultimas": [
      {
       "data": "2026-10-26",
-      "fonte": "ECO",
-      "titulo": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
-      "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
-     },
-     {
-      "data": "2026-10-25",
-      "fonte": "Jornal Económico",
-      "titulo": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
-      "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
-     },
-     {
-      "data": "2026-10-24",
       "fonte": "RTP Notícias",
-      "titulo": "Empresários avisam: não é possível o investimento privado crescer 10% como previsto no OE27",
-      "url": "https://www.rtp.pt/noticias/conversa-capital/empresarios-avisam-nao-e-possivel-o-investimento-privado-crescer-10-como-previsto-no-oe27_v1773801"
+      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Jornal de Negócios",
+      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
      }
     ],
     "todas": [
+     [
+      "2026-10-26 16:46",
+      "RTP Notícias",
+      "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     ],
+     [
+      "2026-10-26 16:05",
+      "Jornal de Negócios",
+      "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     ],
+     [
+      "2026-10-26 15:04",
+      "Executive Digest",
+      "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+     ],
      [
       "2026-10-26 06:38",
       "ECO",
@@ -9852,24 +9870,6 @@
       "Expresso",
       "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
       "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
-     ],
-     [
-      "2026-10-08 18:14",
-      "RTP Notícias",
-      "OE2027 prevê 17 ME para combater violência doméstica e tráfico de seres humanos",
-      "https://www.rtp.pt/noticias/economia/oe2027-preve-17-me-para-combater-violencia-domestica-e-trafico-de-seres-humanos_n1770425"
-     ],
-     [
-      "2026-10-08 18:14",
-      "Notícias ao Minuto",
-      "OE2027: Governo anuncia 2.003 milhões para habitação pública e acessível",
-      "https://www.noticiasaominuto.com/pais/3063716/oe2027-governo-anuncia-2-003-milhoes-para-habitacao-publica-e-acessivel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:13",
-      "Lusa",
-      "PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do OE2027 do Governo",
-      "https://www.lusa.pt/article/47907377/ps-tem-d%C3%BAvidas-se-est%C3%A3o-cumpridas-duas-das-condi%C3%A7%C3%B5es-para-viabilizar-proposta-do-oe2027-do-governo"
      ]
     ]
    },
@@ -9909,34 +9909,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 979,
-    "n7": 61,
+    "n": 982,
+    "n7": 64,
     "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-26",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 06:38",
+    "ultima": "2026-10-26 16:46",
     "ultimas": [
      {
       "data": "2026-10-26",
-      "fonte": "ECO",
-      "titulo": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
-      "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
-     },
-     {
-      "data": "2026-10-25",
-      "fonte": "Jornal Económico",
-      "titulo": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
-      "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
-     },
-     {
-      "data": "2026-10-24",
       "fonte": "RTP Notícias",
-      "titulo": "Empresários avisam: não é possível o investimento privado crescer 10% como previsto no OE27",
-      "url": "https://www.rtp.pt/noticias/conversa-capital/empresarios-avisam-nao-e-possivel-o-investimento-privado-crescer-10-como-previsto-no-oe27_v1773801"
+      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Jornal de Negócios",
+      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
      }
     ],
     "todas": [
+     [
+      "2026-10-26 16:46",
+      "RTP Notícias",
+      "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     ],
+     [
+      "2026-10-26 16:05",
+      "Jornal de Negócios",
+      "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     ],
+     [
+      "2026-10-26 15:04",
+      "Executive Digest",
+      "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+     ],
      [
       "2026-10-26 06:38",
       "ECO",
@@ -12318,24 +12336,6 @@
       "Expresso",
       "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
       "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
-     ],
-     [
-      "2026-10-08 18:14",
-      "RTP Notícias",
-      "OE2027 prevê 17 ME para combater violência doméstica e tráfico de seres humanos",
-      "https://www.rtp.pt/noticias/economia/oe2027-preve-17-me-para-combater-violencia-domestica-e-trafico-de-seres-humanos_n1770425"
-     ],
-     [
-      "2026-10-08 18:14",
-      "Notícias ao Minuto",
-      "OE2027: Governo anuncia 2.003 milhões para habitação pública e acessível",
-      "https://www.noticiasaominuto.com/pais/3063716/oe2027-governo-anuncia-2-003-milhoes-para-habitacao-publica-e-acessivel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:13",
-      "Lusa",
-      "PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do OE2027 do Governo",
-      "https://www.lusa.pt/article/47907377/ps-tem-d%C3%BAvidas-se-est%C3%A3o-cumpridas-duas-das-condi%C3%A7%C3%B5es-para-viabilizar-proposta-do-oe2027-do-governo"
      ]
     ]
    },
@@ -12568,8 +12568,8 @@
     "retirados": 0
    }
   ],
-  "atualizado": "2026-10-26T18:22+00:00",
-  "atualizadoLabel": "26 de outubro, 18h22",
+  "atualizado": "2026-10-26T22:31+00:00",
+  "atualizadoLabel": "26 de outubro, 22h31",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
   "aviso": "12 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
@@ -12632,9 +12632,9 @@
     },
     {
      "data": "2026-10-07",
-     "fonte": "Renascença",
-     "url": "https://rr.pt/noticia/amp/economia/2026/10/07/oe2027-governo-entrega-proposta-no-parlamento-quinta-feira-a-tarde/488243/",
-     "sintese": "OE2027. Governo entrega proposta no parlamento quinta-feira à tarde",
+     "fonte": "TSF",
+     "url": "https://www.tsf.pt/economia/artigo/oe2027-governo-entrega-proposta-no-parlamento-esta-quinta-feira-a-tarde/18134613",
+     "sintese": "OE2027: Governo entrega proposta no Parlamento esta quinta-feira à tarde",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12686,18 +12686,18 @@
     },
     {
      "data": "2026-10-13",
-     "fonte": "RTP Notícias",
-     "url": "https://www.rtp.pt/noticias/economia/oe2027-carneiro-garante-que-ps-nao-estara-na-origem-de-qualquer-crise-politica_n1771510",
-     "sintese": "OE2027. Carneiro garante que PS \"não estará na origem de qualquer crise política\"",
+     "fonte": "Renascença",
+     "url": "https://rr.pt/artigo/convidado/2026/10/13/o-oe-2027-em-perspetiva/489028/",
+     "sintese": "O OE 2027 em perspetiva",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-21",
-     "fonte": "TSF",
-     "url": "https://www.tsf.pt/programa/cafe-duplo-ribau-esteves-e-frederico-rosa?ep=18139326",
-     "sintese": "Protestos, OE 2027 e Lei das Rendas",
+     "data": "2026-10-20",
+     "fonte": "Diário de Notícias",
+     "url": "https://www.dn.pt/sociedade/oe2027-no-cumpre-conveno-da-onu-sobre-direitos-das-pessoas-com-deficincia-alerta-entidade-independente",
+     "sintese": "OE2027 não cumpre convenção da ONU sobre direitos das pessoas com deficiência, alerta entidade independente",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12713,18 +12713,9 @@
     },
     {
      "data": "2026-10-22",
-     "fonte": "Executive Digest",
-     "url": "https://executivedigest.sapo.pt/oe2027-financiamento-as-corporacoes-de-bomberios-vai-aumentar-mais-de-5/",
-     "sintese": "OE2027: Financiamento às corporações de bomberios vai aumentar mais de 5%",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-22",
-     "fonte": "Diário de Notícias",
-     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-raimundo-diz-que-chega-est-todo-contente-com-frete-do-ps",
-     "sintese": "OE2027: Raimundo diz que Chega “está todo contente” com “frete” do PS",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/",
+     "sintese": "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12758,9 +12749,18 @@
     },
     {
      "data": "2026-10-26",
-     "fonte": "ECO",
-     "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/",
-     "sintese": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/",
+     "sintese": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504",
+     "sintese": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12768,14 +12768,14 @@
    ],
    "amostra": {
     "analisadas": 20,
-    "encontradas": 979
+    "encontradas": 982
    },
    "base": {
-    "ultima": "2026-10-26 06:38",
+    "ultima": "2026-10-26 16:46",
     "em": "2026-10-26"
    },
    "novas": 0,
-   "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "enquadramento": "Seleção automática de 20 das 982 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (64 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-26-iniciativas-europeias-de-seguran-a-soci": {
    "titulo": "Iniciativas europeias de segurança social: Passaporte Europeu de Segurança Social e Autoridade Europeia do Trabalho",
@@ -13812,7 +13812,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 0,
+   "novas": 3,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -14014,7 +14014,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 0,
+   "novas": 3,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-30-comiss-o-de-assuntos-europeus": {
@@ -14237,7 +14237,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 0,
+   "novas": 3,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -14439,7 +14439,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 0,
+   "novas": 3,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -14641,7 +14641,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 0,
+   "novas": 3,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   }
  },
@@ -14681,34 +14681,52 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 979,
-    "n7": 61,
+    "n": 982,
+    "n7": 64,
     "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-26",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 06:38",
+    "ultima": "2026-10-26 16:46",
     "ultimas": [
      {
       "data": "2026-10-26",
-      "fonte": "ECO",
-      "titulo": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
-      "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
-     },
-     {
-      "data": "2026-10-25",
-      "fonte": "Jornal Económico",
-      "titulo": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
-      "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
-     },
-     {
-      "data": "2026-10-24",
       "fonte": "RTP Notícias",
-      "titulo": "Empresários avisam: não é possível o investimento privado crescer 10% como previsto no OE27",
-      "url": "https://www.rtp.pt/noticias/conversa-capital/empresarios-avisam-nao-e-possivel-o-investimento-privado-crescer-10-como-previsto-no-oe27_v1773801"
+      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Jornal de Negócios",
+      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
      }
     ],
     "todas": [
+     [
+      "2026-10-26 16:46",
+      "RTP Notícias",
+      "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     ],
+     [
+      "2026-10-26 16:05",
+      "Jornal de Negócios",
+      "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     ],
+     [
+      "2026-10-26 15:04",
+      "Executive Digest",
+      "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+     ],
      [
       "2026-10-26 06:38",
       "ECO",
@@ -17090,24 +17108,6 @@
       "Expresso",
       "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
       "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
-     ],
-     [
-      "2026-10-08 18:14",
-      "RTP Notícias",
-      "OE2027 prevê 17 ME para combater violência doméstica e tráfico de seres humanos",
-      "https://www.rtp.pt/noticias/economia/oe2027-preve-17-me-para-combater-violencia-domestica-e-trafico-de-seres-humanos_n1770425"
-     ],
-     [
-      "2026-10-08 18:14",
-      "Notícias ao Minuto",
-      "OE2027: Governo anuncia 2.003 milhões para habitação pública e acessível",
-      "https://www.noticiasaominuto.com/pais/3063716/oe2027-governo-anuncia-2-003-milhoes-para-habitacao-publica-e-acessivel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:13",
-      "Lusa",
-      "PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do OE2027 do Governo",
-      "https://www.lusa.pt/article/47907377/ps-tem-d%C3%BAvidas-se-est%C3%A3o-cumpridas-duas-das-condi%C3%A7%C3%B5es-para-viabilizar-proposta-do-oe2027-do-governo"
      ]
     ]
    },
@@ -17143,34 +17143,52 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 979,
-    "n7": 61,
+    "n": 982,
+    "n7": 64,
     "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-26",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 06:38",
+    "ultima": "2026-10-26 16:46",
     "ultimas": [
      {
       "data": "2026-10-26",
-      "fonte": "ECO",
-      "titulo": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
-      "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
-     },
-     {
-      "data": "2026-10-25",
-      "fonte": "Jornal Económico",
-      "titulo": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
-      "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/"
-     },
-     {
-      "data": "2026-10-24",
       "fonte": "RTP Notícias",
-      "titulo": "Empresários avisam: não é possível o investimento privado crescer 10% como previsto no OE27",
-      "url": "https://www.rtp.pt/noticias/conversa-capital/empresarios-avisam-nao-e-possivel-o-investimento-privado-crescer-10-como-previsto-no-oe27_v1773801"
+      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Jornal de Negócios",
+      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
      }
     ],
     "todas": [
+     [
+      "2026-10-26 16:46",
+      "RTP Notícias",
+      "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
+      "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
+     ],
+     [
+      "2026-10-26 16:05",
+      "Jornal de Negócios",
+      "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
+      "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     ],
+     [
+      "2026-10-26 15:04",
+      "Executive Digest",
+      "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
+      "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+     ],
      [
       "2026-10-26 06:38",
       "ECO",
@@ -19552,24 +19570,6 @@
       "Expresso",
       "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
       "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
-     ],
-     [
-      "2026-10-08 18:14",
-      "RTP Notícias",
-      "OE2027 prevê 17 ME para combater violência doméstica e tráfico de seres humanos",
-      "https://www.rtp.pt/noticias/economia/oe2027-preve-17-me-para-combater-violencia-domestica-e-trafico-de-seres-humanos_n1770425"
-     ],
-     [
-      "2026-10-08 18:14",
-      "Notícias ao Minuto",
-      "OE2027: Governo anuncia 2.003 milhões para habitação pública e acessível",
-      "https://www.noticiasaominuto.com/pais/3063716/oe2027-governo-anuncia-2-003-milhoes-para-habitacao-publica-e-acessivel#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 18:13",
-      "Lusa",
-      "PS tem dúvidas se estão cumpridas duas das condições para viabilizar proposta do OE2027 do Governo",
-      "https://www.lusa.pt/article/47907377/ps-tem-d%C3%BAvidas-se-est%C3%A3o-cumpridas-duas-das-condi%C3%A7%C3%B5es-para-viabilizar-proposta-do-oe2027-do-governo"
      ]
     ]
    },
@@ -19649,19 +19649,19 @@
     "dias": 60,
     "ref": "2026-10-26",
     "metodo": "palavras",
-    "ultima": "2026-10-26 14:24",
+    "ultima": "2026-10-26 14:10",
     "ultimas": [
-     {
-      "data": "2026-10-26",
-      "fonte": "Observador",
-      "titulo": "14h. Detidos nos protestos chegam ao Campus de Justiça",
-      "url": "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/"
-     },
      {
       "data": "2026-10-26",
       "fonte": "Notícias ao Minuto",
       "titulo": "PSD quer ouvir António Costa e Luís Neves na comissão de inquérito",
       "url": "https://www.noticiasaominuto.com/pais/3073064/psd-quer-ouvir-20-personalidades-na-cpi-a-neves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Observador",
+      "titulo": "14h. Detidos nos protestos chegam ao Campus de Justiça",
+      "url": "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/"
      },
      {
       "data": "2026-10-26",
@@ -19672,16 +19672,16 @@
     ],
     "todas": [
      [
-      "2026-10-26 14:24",
-      "Observador",
-      "14h. Detidos nos protestos chegam ao Campus de Justiça",
-      "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/"
-     ],
-     [
       "2026-10-26 14:10",
       "Notícias ao Minuto",
       "PSD quer ouvir António Costa e Luís Neves na comissão de inquérito",
       "https://www.noticiasaominuto.com/pais/3073064/psd-quer-ouvir-20-personalidades-na-cpi-a-neves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 13:24",
+      "Observador",
+      "14h. Detidos nos protestos chegam ao Campus de Justiça",
+      "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/"
      ],
      [
       "2026-10-26 12:20",
@@ -22832,19 +22832,19 @@
     "dias": 60,
     "ref": "2026-10-26",
     "metodo": "palavras",
-    "ultima": "2026-10-26 14:24",
+    "ultima": "2026-10-26 14:10",
     "ultimas": [
-     {
-      "data": "2026-10-26",
-      "fonte": "Observador",
-      "titulo": "14h. Detidos nos protestos chegam ao Campus de Justiça",
-      "url": "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/"
-     },
      {
       "data": "2026-10-26",
       "fonte": "Notícias ao Minuto",
       "titulo": "PSD quer ouvir António Costa e Luís Neves na comissão de inquérito",
       "url": "https://www.noticiasaominuto.com/pais/3073064/psd-quer-ouvir-20-personalidades-na-cpi-a-neves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Observador",
+      "titulo": "14h. Detidos nos protestos chegam ao Campus de Justiça",
+      "url": "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/"
      },
      {
       "data": "2026-10-26",
@@ -22855,16 +22855,16 @@
     ],
     "todas": [
      [
-      "2026-10-26 14:24",
-      "Observador",
-      "14h. Detidos nos protestos chegam ao Campus de Justiça",
-      "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/"
-     ],
-     [
       "2026-10-26 14:10",
       "Notícias ao Minuto",
       "PSD quer ouvir António Costa e Luís Neves na comissão de inquérito",
       "https://www.noticiasaominuto.com/pais/3073064/psd-quer-ouvir-20-personalidades-na-cpi-a-neves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 13:24",
+      "Observador",
+      "14h. Detidos nos protestos chegam ao Campus de Justiça",
+      "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/"
      ],
      [
       "2026-10-26 12:20",
