@@ -58,9 +58,32 @@ def termos(x):
     pares = list(dict.fromkeys(f'{a} {b}' for a, b in zip(ws, ws[1:])))[:10]
     return sig, pares
 
+# matérias recorrentes reconhecidas no texto da AR: expressões de pesquisa automáticas, quando ninguém as definiu
+PADROES = [
+    (r'or[cç]amento do estado para (20\d\d)', lambda m: [f'Orçamento do Estado para {m.group(1)}', f'OE{m.group(1)}', f'OE {m.group(1)}']),
+    (r'\bOE ?(20\d\d)\b', lambda m: [f'Orçamento do Estado para {m.group(1)}', f'OE{m.group(1)}', f'OE {m.group(1)}']),
+    (r'conta geral do estado (?:de |para )?(20\d\d)', lambda m: [f'Conta Geral do Estado de {m.group(1)}', f'CGE {m.group(1)}', f'CGE de {m.group(1)}']),
+    (r'grandes op[cç][oõ]es do plano', lambda m: ['Grandes Opções do Plano', 'Grandes Opções']),
+    (r'programa de estabilidade', lambda m: ['Programa de Estabilidade']),
+    (r'estado da na[cç][aã]o', lambda m: ['estado da nação']),
+]
+def expressoes_auto(x):
+    # no Plenário a ordem do dia é a matéria; nas comissões o Orçamento aparece como um ponto entre muitos (pareceres setoriais),
+    # por isso aí só conta o próprio tema
+    plenario = (x.get('orgao') or '').startswith('Plenário') or (x.get('tema') or '').startswith('Plenário')
+    txt = ' '.join(filter(None, [x.get('tema'), (x.get('ordemTrabalhos') or x.get('resumo')) if plenario else None]))
+    out = []
+    for p, f in PADROES:
+        m = re.search(p, txt, re.I)
+        if m: out += [e for e in f(m) if e not in out]
+    return out
+
 def procurar(x, arts):
-    exps = [norm(e).strip() for e in (x.get('expressoes') or []) if e and e.strip()]
-    if exps:   # expressões de pesquisa definidas (pelo Amália ou pela Ana Luísa): muito mais precisas
+    if not x.get('expressoes'):
+        auto = expressoes_auto(x)
+        if auto: x['expressoes_auto'] = auto
+    exps = [norm(e).strip() for e in (x.get('expressoes') or x.get('expressoes_auto') or []) if e and e.strip()]
+    if exps:   # expressões de pesquisa definidas (pelo Amália ou pela revisão humana): muito mais precisas
         rx = re.compile(r'\b(' + '|'.join(re.escape(e) for e in exps) + r')\b')
         res = [a for a in arts if rx.search(a['_t'])]
         res.sort(key=lambda a: a.get('data', ''), reverse=True)
@@ -84,7 +107,7 @@ def cobertura(x, r, hoje):
     rs = sorted(r, key=lambda a: a.get('data', ''), reverse=True)
     return {'n': len(r), 'n7': sum(1 for a in r if (a.get('data') or '')[:10] > c7),
             'n7ant': sum(1 for a in r if c14 < (a.get('data') or '')[:10] <= c7),
-            'dias': DIAS, 'ref': hoje.isoformat(), 'metodo': 'expressoes' if x.get('expressoes') else 'palavras',
+            'dias': DIAS, 'ref': hoje.isoformat(), 'metodo': 'expressoes' if (x.get('expressoes') or x.get('expressoes_auto')) else 'palavras',
             'ultima': rs[0].get('data', '')[:16] if rs else '',
             'ultimas': [{'data': a.get('data', '')[:10], 'fonte': a.get('fonte'), 'titulo': a.get('titulo'), 'url': a.get('ligacao')} for a in rs[:3]],
             # lista completa (sem IA): [data, fonte, título, ligação]

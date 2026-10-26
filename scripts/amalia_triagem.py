@@ -1,6 +1,6 @@
 """Triagem assistida pelo Amália, sobre dados/agenda.json: só as matérias ainda sem unidade, não revistas e não
 classificadas antes pelo Amália (na prática, as novas do dia). Reescreve o tema como ASSUNTO e propõe unidade e pertinência,
-usando dados/competencias_dssd.json como critério. As correções da Ana Luísa (correcoes.csv) prevalecem no dia seguinte."""
+usando dados/competencias_dssd.json como critério. As correções da revisão humana (correcoes.csv) prevalecem no dia seguinte."""
 import json, pathlib
 from amalia import perguntar, json_da_resposta
 comp = json.loads(pathlib.Path('dados/competencias_dssd.json').read_text(encoding='utf-8'))

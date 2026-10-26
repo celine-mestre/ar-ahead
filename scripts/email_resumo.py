@@ -1,6 +1,6 @@
 """Corpo do email de segunda-feira: resumo por unidade orgânica, gerado do mesmo dados/agenda.json que a página.
 As matérias transversais aparecem uma só vez, no topo. Cada matéria tem ligação para a Assembleia da República
-(página própria quando a AR a indica; senão, a agenda parlamentar) e, se tiver ficha, para o varrimento no AR Ahead.
+(página própria quando a AR a indica; senão, a agenda parlamentar) e, se tiver ficha, para o varrimento no AR Preview.
 Logótipo da SGGov servido pela própria página (docs/logo-sggov.png); os emails não aceitam imagens embebidas em base64.
 HTML simples com estilos em linha (compatível com o Outlook).
 Uso: PAGINA_URL=https://… python scripts/email_resumo.py dados/agenda.json > email.html"""
@@ -55,7 +55,7 @@ n_ed = f'edição n.º {ed["numero"]}' if ed.get('numero') else 'edição piloto
 
 logo = (f'<td style="width:46px;padding:0 12px 0 0;vertical-align:middle"><div style="background:#ffffff;border-radius:50%;width:46px;height:46px;text-align:center;line-height:46px">'
         f'<img src="{e(url)}logo-sggov.png" width="38" height="38" alt="SGGov" style="display:inline-block;vertical-align:middle;border:0;width:38px;height:38px"></div></td>') if url else ''
-b_ahead = (f'<a href="{e(url)}" style="{F}display:inline-block;background:#FFD200;color:#171715;text-decoration:none;font-weight:bold;font-size:13px;padding:9px 16px;border-radius:6px;margin:0 8px 6px 0">Abrir o AR Ahead</a>') if url else ''
+b_preview = (f'<a href="{e(url)}" style="{F}display:inline-block;background:#FFD200;color:#171715;text-decoration:none;font-weight:bold;font-size:13px;padding:9px 16px;border-radius:6px;margin:0 8px 6px 0">Abrir o AR Preview</a>') if url else ''
 b_ar = (f'<a href="{AGENDA_AR}" style="{F}display:inline-block;background:#ffffff;color:#2B5683;text-decoration:none;font-weight:bold;font-size:13px;padding:8px 15px;border-radius:6px;border:1px solid #2B5683;margin:0 0 6px">Agenda parlamentar no site da AR</a>')
 
 print(f'''<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -63,7 +63,7 @@ print(f'''<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <tr><td style="background:#1a3f6f;border-bottom:3px solid #D02117;padding:14px 18px">
   <table cellpadding="0" cellspacing="0"><tr>{logo}<td style="vertical-align:middle">
     <div style="{F}color:#dfe6ee;font-size:10.5px;letter-spacing:.06em">SECRETARIA-GERAL DO GOVERNO · DSSD</div>
-    <div style="{F}color:#fff;font-size:20px;font-weight:bold;margin-top:2px">AR Ahead</div>
+    <div style="{F}color:#fff;font-size:20px;font-weight:bold;margin-top:2px">AR Preview</div>
   </td></tr></table>
   <div style="{F}color:#FFD200;font-size:14px;font-weight:bold;margin-top:8px">{e(ed["semana"])}</div>
   <div style="{F}color:#dfe6ee;font-size:11.5px;margin-top:4px">A semana na Assembleia da República · {n_ed} · atualizada a {e(quando)}</div>
@@ -72,8 +72,8 @@ print(f'''<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <div style="{F}font-size:13px;color:#171715"><b style="color:#D02117">{n_ime}</b> matérias imediatas e <b style="color:#BE9C54">{n_vig}</b> em vigilância para as unidades da DSSD; {len(d.get("fichas", {}))} com ficha de varrimento.</div>
 </td></tr>
 <tr><td style="padding:0 18px"><table cellpadding="0" cellspacing="0" style="width:100%">{corpo}</table></td></tr>
-<tr><td style="padding:16px 18px">{b_ahead}{b_ar}
-  <div style="{F}font-size:11.5px;color:#666;margin-top:10px">Calendário, cartões e fichas de varrimento na página do AR Ahead, atualizada diariamente; o PDF segue em anexo. A agenda da Assembleia da República pode mudar depois desta edição. Pedidos de varrimento adicionais: Chefe da Unidade de Pesquisa e Estatísticas.</div>
+<tr><td style="padding:16px 18px">{b_preview}{b_ar}
+  <div style="{F}font-size:11.5px;color:#666;margin-top:10px">Calendário, cartões e fichas de varrimento na página do AR Preview, atualizada diariamente; o PDF segue em anexo. A agenda da Assembleia da República pode mudar depois desta edição. Pedidos de varrimento adicionais: Chefe da Unidade de Pesquisa e Estatísticas.</div>
 </td></tr>
 <tr><td style="background:#0E7433;border-top:3px solid #D02117;padding:8px 18px;{F}font-size:11px;color:#e9f2ec">Secretaria-Geral do Governo · Direção de Serviços de Suporte à Decisão · Unidade de Pesquisa e Estatísticas</td></tr>
 </table>''')

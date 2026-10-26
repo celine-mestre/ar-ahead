@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>AR Ahead</title>
+<title>AR Preview</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
 :root{--verde:#0E7433;--azul:#2B5683;--azul-esc:#1a3f6f;--dourado:#BE9C54;--vermelho:#D02117;--amarelo:#FFD200;--texto:#171715;--suave:#5a5a57;--fundo:#f4f5f7;--borda:#e3e6ea;--branco:#fff;--grad:linear-gradient(120deg,#2B5683 0%,#1a3f6f 28%,#0E7433 62%,#0a5228 100%)}
@@ -283,7 +283,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
 
 <header><div class="hdr">
 <div class="brand"><img src="data:image/png;base64,__LOGO__" alt="Secretaria-Geral do Governo"><div class="brand-txt"><strong>SECRETARIA-GERAL DO GOVERNO</strong>Direção de Serviços de Suporte à Decisão<br>Unidade de Pesquisa e Estatísticas</div></div>
-<div class="titulo"><h1 id="h-titulo">AR Ahead</h1><p class="semana" id="h-semana"></p><p class="fecho" id="h-fecho"></p></div>
+<div class="titulo"><h1 id="h-titulo">AR Preview</h1><p class="semana" id="h-semana"></p><p class="fecho" id="h-fecho"></p></div>
 <div class="hdr-side"><span class="badge-int">Uso interno · dirigentes DSSD</span><small id="h-edicao"></small><select class="edicoes" id="h-edicoes" hidden aria-label="Edições anteriores"></select></div>
 </div></header>
 
@@ -296,7 +296,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     <button class="cta" id="hero-cta"><svg class="ic"><use href="#i-list"/></svg>Entrar na agenda</button>
     <div class="leg"><span><i class="ime"></i>imediato, com varrimento</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span>cada lugar é uma matéria · passe o rato, clique para abrir</span></div>
   </div>
-  <div class="hemi"><svg id="hemi" viewBox="0 0 800 430" role="img" aria-label="AR Ahead — hemiciclo da semana: uma matéria por lugar, agrupadas por dia"></svg></div>
+  <div class="hemi"><svg id="hemi" viewBox="0 0 800 430" role="img" aria-label="AR Preview — hemiciclo da semana: uma matéria por lugar, agrupadas por dia"></svg></div>
 </div></section>
 <div class="tip" id="tip"></div>
 
@@ -344,7 +344,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   let D = JSON.parse(document.getElementById('dados').textContent);
   const p = new URLSearchParams(location.search).get('data');
   const fonte = p || (location.protocol.startsWith('http') ? 'agenda.json' : null);
-  if (fonte) { try { const r = await fetch(fonte, {cache:'no-store'}); if (r.ok) { const E = D; D = await r.json(); if (!D.historico) D.historico = E.historico; } } catch(e) {} }
+  if (fonte) { try { const r = await fetch(fonte, {cache:'no-store'}); if (r.ok) { const E = D; D = await r.json(); if (!D.historico) D.historico = E.historico; D.produto = E.produto; } } catch(e) {} }
 
   const $ = s => document.querySelector(s);
   const esc = s => String(s??'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -379,8 +379,8 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
 
   // estado dos filtros
   const st = { q:'', uo:null, pert:new Set(['Imediato','Vigilância']), dia:null, novidades:false };
-  const guardar = () => { try { localStorage.setItem('ar-ahead-filtros', JSON.stringify({uo:st.uo, pert:[...st.pert]})); } catch(e){} };
-  try { const s = JSON.parse(localStorage.getItem('ar-ahead-filtros')||'null'); if (s) { st.uo = s.uo; st.pert = new Set(s.pert); } } catch(e){}
+  const guardar = () => { try { localStorage.setItem('ar-preview-filtros', JSON.stringify({uo:st.uo, pert:[...st.pert]})); } catch(e){} };
+  try { const s = JSON.parse(localStorage.getItem('ar-preview-filtros')||'null'); if (s) { st.uo = s.uo; st.pert = new Set(s.pert); } } catch(e){}
 
   // chips UO
   const cUO = $('#chips-uo');
@@ -601,11 +601,11 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   let atual = null;
   function abrir(k){
     const f = D.fichas[k]; if (!f) return; atual = k;
-    $('#g-titulo').innerHTML = esc(f.titulo) + (f.gerado_por ? `<span class="nivel">${f.nivel==='curta'?'ficha curta':'ficha'} · ${esc(f.gerado_por)}</span>` : ''); $('#g-meta').textContent = f.meta;
+    $('#g-titulo').innerHTML = esc(f.titulo) + (f.gerado_por ? `<span class="nivel">${f.nivel==='curta'?'ficha curta':'ficha'} · ${esc(f.revista_por ? 'revista por '+f.revista_por : f.gerado_por)}</span>` : ''); $('#g-meta').textContent = f.meta;
     const c = coberturaDe(k);
-    const amostra = f.amostra ? `<div class="g-amostra">Amostra de <b>${f.amostra.analisadas}</b> notícias analisadas, de <b>${f.amostra.encontradas}</b> encontradas em 60 dias, escolhidas ao longo do período (dias de maior cobertura, variedade de órgãos e as mais recentes).</div>` : '';
-    const novas = f.novas ? `<div class="g-novas"><svg class="ic"><use href="#i-alert"/></svg> <b>${f.novas} ${f.novas===1?'notícia nova':'notícias novas'}</b> desde ${f.gerado_por && /Amália/.test(f.gerado_por) ? 'que esta ficha foi feita' : 'a revisão desta ficha'}${f.base && f.base.em ? ` (${esc(fmtD(f.base.em))})` : ''}. Veja-as na lista completa, no fim.</div>` : '';
-    $('#g-corpo').innerHTML = novas + amostra + fichaHTML(f, true) + listaHTML(c, false); $('#g-corpo').scrollTop = 0;
+    const amostra = f.amostra && f.origem!=='radar' ? `<div class="g-amostra">${f.origem==='radar'?'Seleção automática':'Amostra'} de <b>${f.amostra.analisadas}</b> notícias${f.origem==='radar'?'':' analisadas'}, de <b>${f.amostra.encontradas}</b> encontradas em 60 dias no Radar de Notícias, escolhidas ao longo do período (dias de maior cobertura, variedade de órgãos e as mais recentes).</div>` : '';
+    const novas = f.novas ? `<div class="g-novas"><svg class="ic"><use href="#i-alert"/></svg> <b>${f.novas} ${f.novas===1?'notícia nova':'notícias novas'}</b> desde ${f.revista_por ? 'a revisão desta ficha' : 'que esta ficha foi feita'}${f.base && f.base.em ? ` (${esc(fmtD(f.base.em))})` : ''}. Veja-as na lista completa, no fim.</div>` : '';
+    $('#g-corpo').innerHTML = novas + amostra + fichaHTML(f, f.origem!=='radar') + listaHTML(c, false); $('#g-corpo').scrollTop = 0;
     const i = ORD.indexOf(k);
     $('#g-nav').innerHTML = `${i>0?`<a href="#" data-ver="${ORD[i-1]}">‹ ${esc(D.fichas[ORD[i-1]].titulo)}</a>`:''}${i>0&&i<ORD.length-1?' · ':''}${i<ORD.length-1?`<a href="#" data-ver="${ORD[i+1]}">${esc(D.fichas[ORD[i+1]].titulo)} ›</a>`:''}`;
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';

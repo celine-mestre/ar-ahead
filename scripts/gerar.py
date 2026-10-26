@@ -1,7 +1,7 @@
 """Gera a página de cartões (HTML autónomo) a partir de dados/agenda.json e do modelo.
 Embebe também o histórico (edições anteriores em docs/edicoes/*.json), para o calendário
 permitir navegar semana a semana: edições anteriores, semana em curso e semanas seguintes.
-Uso: python scripts/gerar.py dados/agenda.json saida/ar-ahead.html
+Uso: python scripts/gerar.py dados/agenda.json saida/ar-preview.html
 """
 import sys, pathlib, json
 raiz = pathlib.Path(__file__).resolve().parent.parent
@@ -9,6 +9,7 @@ dados, destino = pathlib.Path(sys.argv[1]), pathlib.Path(sys.argv[2])
 modelo = (raiz/'modelo'/'template_cartoes.html').read_text(encoding='utf-8')
 logo = (raiz/'modelo'/'logo_sggov_b64.txt').read_text().strip()
 d = json.loads(dados.read_text(encoding='utf-8'))          # valida o JSON
+d['produto'] = 'AR Preview'                                # nome da ferramenta (também nas edições arquivadas)
 
 CAMPOS = ('data', 'hora', 'tema', 'pertinencia', 'uo', 'tipoLabel', 'interveniente')
 hist, pasta = [], raiz/'docs'/'edicoes'

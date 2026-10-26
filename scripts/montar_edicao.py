@@ -3,7 +3,7 @@
 * Semana nova  → nova edição (número + 1).
 * Mesma semana → atualização: mantém as classificações e fichas já feitas; marca as matérias
   novas («novo»), as que mudaram de ordem de trabalhos («alterado») e as que deixaram de constar («retirado»).
-* dados/correcoes.csv (chave;uo;pertinencia;assunto;expressoes) — correções da Ana Luísa, aplicadas sempre por cima;
+* dados/correcoes.csv (chave;uo;pertinencia;assunto;expressoes) — correções da revisão humana (UPE), aplicadas sempre por cima;
   expressoes = expressões de pesquisa separadas por | (ex.: Lusa|Luísa Meireles).
 * Escreve dados/triagem_semana.csv para a revisão e, no GitHub Actions, a saída nova_semana=sim|nao.
 """
@@ -48,7 +48,7 @@ def base(i):
 
 novos_itens = [base(i) for i in tri['itens']]
 
-# o que já se sabia das semanas seguintes (classificação do Amália ou da Ana Luísa, expressões, cobertura, ficha) não se perde:
+# o que já se sabia das semanas seguintes (classificação do Amália ou da revisão humana, expressões, cobertura, ficha) não se perde:
 # passa para a nova edição quando a semana chega, e mantém-se de uma recolha para a outra
 fut_ant = {x.get('chave') or chave(x): x for x in ant.get('futuro', [])}
 HERDA = ('varrimento', 'expressoes', 'amalia', 'validado', 'cobertura')
@@ -116,7 +116,7 @@ for i in tri.get('futuro', []):
 for y in fut:   # fichas das semanas seguintes acompanham a matéria
     if y.get('varrimento') and y['varrimento'] in ant.get('fichas', {}): fichas.setdefault(y['varrimento'], ant['fichas'][y['varrimento']])
 
-# correções manuais da Ana Luísa (prevalecem sempre)
+# correções manuais da revisão humana (prevalecem sempre)
 if cor_p.exists():
     for r in csv.DictReader(cor_p.open(encoding='utf-8-sig'), delimiter=';'):
         k = (r.get('chave') or '').strip().lower()
@@ -143,6 +143,7 @@ ordem = lambda x: (x['data'], x.get('hora') or '99')
 nova = {k: ant[k] for k in ('produto', 'tagline', 'unidades', 'disclaimer', 'metodologia', 'pedidos') if k in ant}
 nova['futuro'] = sorted(fut, key=lambda x: (x['data'], x.get('hora') or '99'))
 nova['calendarizacao'] = tri.get('calendarizacao', [])
+nova['produto'] = 'AR Preview'
 nova.update(edicao=ed, fichas=fichas,
             destaques=sorted([x for x in itens if x['pertinencia'] == 'Imediato'], key=ordem),
             agenda=sorted([x for x in itens if x['pertinencia'] != 'Imediato'], key=ordem))

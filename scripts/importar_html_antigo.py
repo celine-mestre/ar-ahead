@@ -83,7 +83,7 @@ for sec in soup.select('section.painel'):
     fichas[key] = f
 
 data = {
-    'produto': 'AR Ahead', 'tagline': 'a semana na Assembleia da República',
+    'produto': 'AR Preview', 'tagline': 'a semana na Assembleia da República',
     'edicao': {'numero': 1, 'ano': 2026, 'semana': '19 a 25 de outubro de 2026', 'inicio': '2026-10-19', 'fim': '2026-10-25', 'fecho': '2026-10-19', 'fechoLabel': '19 de outubro de 2026'},
     'unidades': {'UPE': 'Unidade de Pesquisa e Estatísticas', 'DACDP': 'Divisão de Apoio à Coordenação e Decisão Política', 'DAPL': 'Divisão de Apoio ao Processo Legislativo', 'UnIT': 'Unidade de Integridade e Transparência', 'DCIRI': 'Divisão de Cooperação Institucional e Relações Internacionais'},
     'destaques': destaques, 'agenda': agenda, 'fichas': fichas,

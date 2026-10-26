@@ -1,4 +1,4 @@
-name: AR Ahead — semana na Assembleia da República
+name: AR Preview — semana na Assembleia da República
 # Todos os dias, 7h07 e 18h07 (Lisboa): relê a agenda da AR e atualiza a página (novas, alteradas, retiradas).
 #   De segunda a quinta trabalha a semana em curso; de sexta a domingo prepara a semana seguinte.
 # Segunda-feira, 9h07 (Lisboa): envia o email aos dirigentes com a edição já atualizada nessa manhã.
@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ar-ahead
+  group: ar-preview
   cancel-in-progress: false
 
 jobs:
@@ -50,11 +50,13 @@ jobs:
           else echo "nada para o Amália"; fi
       - name: Cobertura mediática de todas as matérias (sem IA, a partir do Radar de Notícias)
         run: python scripts/cobertura.py
-      - name: "Amália — fichas de varrimento: novas, atualizadas e das grandes matérias das semanas seguintes"
+      - name: "Varrimento automático a partir do Radar de Notícias (com o Amália, se estiver ativo)"
         timeout-minutes: 300
         run: |
-          if [ -z "$AMALIA_GGUF_URL" ]; then echo "Segredo AMALIA_GGUF_URL por criar — passo saltado"; exit 0; fi
-          if python scripts/amalia_varrimento.py --verificar; then
+          if [ -z "$AMALIA_GGUF_URL" ]; then
+            echo "Amália por ativar (segredo AMALIA_GGUF_URL) — fichas só com as notícias do Radar, sem análise"
+            python scripts/amalia_varrimento.py --sem-ia
+          elif python scripts/amalia_varrimento.py --verificar; then
             pip install llama-cpp-python
             mkdir -p modelos
             if [ ! -f modelos/amalia.gguf ]; then curl -L -o modelos/amalia.gguf "$AMALIA_GGUF_URL"; fi
@@ -63,7 +65,7 @@ jobs:
       - name: Verificar se a página precisa de ser refeita
         id: muda
         run: |
-          H=$(cat dados/agenda.json modelo/template_cartoes.html scripts/gerar.py $(ls docs/edicoes/*.json 2>/dev/null | grep -v indice.json) | sha256sum | cut -c1-16)
+          H=$(cat dados/agenda.json modelo/template_cartoes.html scripts/gerar.py scripts/email_resumo.py $(ls docs/edicoes/*.json 2>/dev/null | grep -v indice.json) | sha256sum | cut -c1-16)
           if [ -f docs/.fonte ] && [ "$(cat docs/.fonte)" = "$H" ]; then echo "muda=nao" >> $GITHUB_OUTPUT; echo "sem alterações"; else echo "muda=sim" >> $GITHUB_OUTPUT; echo "$H" > .fonte_nova; fi
       - uses: actions/setup-node@v4
         if: steps.muda.outputs.muda == 'sim'
@@ -72,25 +74,26 @@ jobs:
         if: steps.muda.outputs.muda == 'sim'
         run: |
           npm i playwright && npx playwright install --with-deps chromium
-          python scripts/gerar.py dados/agenda.json saida/ar-ahead.html
-          node scripts/pdf.js saida/ar-ahead.html saida/ar-ahead.pdf
+          python scripts/gerar.py dados/agenda.json saida/ar-preview.html
+          node scripts/pdf.js saida/ar-preview.html saida/ar-preview.pdf
           mkdir -p docs/edicoes
-          cp saida/ar-ahead.html docs/index.html
-          cp saida/ar-ahead.pdf docs/ar-ahead.pdf
+          rm -f docs/ar-ahead.pdf saida/ar-ahead.html saida/ar-ahead.pdf   # ficheiros do nome antigo
+          cp saida/ar-preview.html docs/index.html
+          cp saida/ar-preview.pdf docs/ar-preview.pdf
           cp dados/agenda.json docs/agenda.json
           N=$(python -c "import json;print(json.load(open('dados/agenda.json',encoding='utf-8'))['edicao']['numero'])")
-          cp saida/ar-ahead.html "docs/edicoes/n$(printf %02d $N).html"
+          cp saida/ar-preview.html "docs/edicoes/n$(printf %02d $N).html"
           cp dados/agenda.json "docs/edicoes/n$(printf %02d $N).json"
           python scripts/indice_edicoes.py
           touch docs/.nojekyll
           mv .fonte_nova docs/.fonte
       - name: Guardar no repositório
         run: |
-          git config user.name "ar-ahead-bot"; git config user.email "upe@sggoverno.gov.pt"
+          git config user.name "ar-preview-bot"; git config user.email "upe@sggoverno.gov.pt"
           git add -A dados/ docs/ saida/
           git commit -m "Atualização automática $(TZ=Europe/Lisbon date '+%Y-%m-%d %Hh%M')" || { echo "sem alterações"; exit 0; }
           git pull --rebase && git push
-      - name: Avisar a Ana Luísa quando começa uma semana nova (lista para rever)
+      - name: Avisar a revisão (EMAIL_TRIAGEM) quando começa uma semana nova (lista para rever)
         if: steps.montar.outputs.nova_semana == 'sim' && env.SMTP_OK == 'sim'
         uses: dawidd6/action-send-mail@v3
         with:
@@ -100,7 +103,7 @@ jobs:
           password: ${{ secrets.SMTP_PASS }}
           from: ${{ secrets.SMTP_FROM }}
           to: ${{ secrets.EMAIL_TRIAGEM }}
-          subject: "AR Ahead — nova semana em preparação: triagem para rever"
+          subject: "AR Preview — nova semana em preparação: triagem para rever"
           body: "A edição da semana seguinte já está na página e será atualizada duas vezes por dia. Para corrigir uma unidade, uma pertinência ou o assunto, acrescente uma linha a dados/correcoes.csv (chave;uo;pertinencia;assunto), copiando a chave da lista em anexo. As correções entram na atualização seguinte. Envio aos dirigentes: segunda-feira, 9h07."
           attachments: dados/triagem_semana.csv
 
@@ -126,9 +129,9 @@ jobs:
           password: ${{ secrets.SMTP_PASS }}
           from: ${{ secrets.SMTP_FROM }}
           to: ${{ secrets.DIRIGENTES_DSSD }}
-          subject: "AR Ahead — a semana na Assembleia da República"
+          subject: "AR Preview — a semana na Assembleia da República"
           html_body: file://email.html
-          attachments: docs/ar-ahead.pdf
+          attachments: docs/ar-preview.pdf
       - name: Sem segredos SMTP
         if: env.SMTP_OK != 'sim'
         run: echo "Segredos SMTP por criar — email não enviado. O corpo preparado foi este:" && cat email.html

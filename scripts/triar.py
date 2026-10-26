@@ -1,5 +1,5 @@
 """Passo 2 — triagem automática: propõe unidade orgânica e pertinência a partir de dados/regras_uo.json.
-A Ana Luísa confirma ou corrige no ficheiro resultante (dados/triagem_proposta.json) antes do varrimento.
+A revisão humana (UPE) confirma ou corrige no ficheiro resultante (dados/triagem_proposta.json) antes do varrimento.
 """
 import json, pathlib, re, sys
 if not pathlib.Path('dados/agenda_bruta.json').exists():
@@ -18,6 +18,6 @@ def triar(item):
     return sorted(uos), pert
 for it in bruto['itens'] + bruto.get('futuro', []):
     it['uo'], it['pertinencia'] = triar(it)
-    it['validado'] = False          # a Ana Luísa muda para true (ou corrige uo/pertinencia)
+    it['validado'] = False          # a revisão humana muda para true (ou corrige uo/pertinencia)
 pathlib.Path('dados/triagem_proposta.json').write_text(json.dumps(bruto, ensure_ascii=False, indent=1), encoding='utf-8')
 n = len(bruto['itens']); print(n, 'itens;', sum(1 for i in bruto['itens'] if i['uo']), 'com unidade proposta;', sum(1 for i in bruto['itens'] if i['pertinencia']=='Imediato'), 'imediato')

@@ -1,8 +1,8 @@
-# AR Ahead — a semana na Assembleia da República
+# AR Preview — a semana na Assembleia da República
 
 Agenda parlamentar semanal para os dirigentes da Direção de Serviços de Suporte à Decisão (DSSD) da Secretaria-Geral do Governo, triada por unidade orgânica (DACDP, DAPL, UPE, DCIRI), com cobertura mediática e fichas de varrimento.
 
-**Página:** https://celine-mestre.github.io/ar-ahead/ (endereço provisório, para desenvolvimento e testes)
+**Página:** https://celine-mestre.github.io/ar-ahead/ (endereço provisório, para desenvolvimento e testes; o repositório mantém por agora o nome `ar-ahead`)
 **Responsável:** Unidade de Pesquisa e Estatísticas (UPE)
 
 ---
@@ -30,24 +30,23 @@ Os horários estão em UTC no workflow. No horário de verão (de março a outub
 4. scripts/amalia_triagem.py    Amália: unidade e assunto das matérias novas sem unidade
 5. scripts/cobertura.py         notícias do Radar de Notícias (60 dias, OCS nacionais) para todas as matérias
 6. scripts/amalia_varrimento.py Amália: fichas completas («Imediato») e curtas («Vigilância»)
-7. scripts/gerar.py             modelo + dados + histórico   → saida/ar-ahead.html
-8. scripts/pdf.js               Chromium                      → saida/ar-ahead.pdf
+7. scripts/gerar.py             modelo + dados + histórico   → saida/ar-preview.html
+8. scripts/pdf.js               Chromium                      → saida/ar-preview.pdf
 9. scripts/indice_edicoes.py    lista de edições              → docs/edicoes/indice.json
    scripts/email_resumo.py      corpo do email de segunda-feira
 ```
 
-Tudo corre em `.github/workflows/ar-ahead.yml`.
+Tudo corre em `.github/workflows/ar-preview.yml`.
 
 ---
 
 ## Fonte dos dados
 
-Dados abertos da Assembleia da República, Agenda Parlamentar (XVII Legislatura), em formato JSON:
+- **Principal: https://agenda.parlamento.pt** — a exportação JSON do próprio site da Agenda Parlamentar (a mesma do botão «Exportar › Para JSON»). É a versão mais atual: a 26/10/2026, o ficheiro dos dados abertos ainda não tinha três reuniões que o site já mostrava (COFAP de 27/10 às 11h00, Grupo de Trabalho para os Assuntos Culturais de 28/10 e o Parlamento dos Jovens remarcado para 29/10 às 9h30).
+- **Recurso: dados abertos** (https://www.parlamento.pt/Cidadania/Paginas/DABoletimInformativo.aspx › Agenda Parlamentar › XVII Legislatura › `AgendaParlamentar_json.txt`), usados se o site da agenda não responder. A «Resumo da Calendarização» dos meses seguintes vem sempre daqui.
+- O registo de cada recolha (`dados/agenda_bruta.json`, campo `fonte`) diz qual das duas foi usada.
 
-- Página de origem: https://www.parlamento.pt/Cidadania/Paginas/DABoletimInformativo.aspx
-- Ficheiro: `AgendaParlamentar_json.txt`. O endereço completo está em `scripts/recolher_agenda.py`.
-
-Secções lidas: Plenário, Comissões Parlamentares, Grupos de Trabalho, Conferência de Líderes e Comissão Permanente, e ainda a «Resumo da Calendarização». A AR publica uma janela que vai mais ou menos de ontem a dois meses à frente.
+Secções lidas: Plenário, Comissões Parlamentares, Grupo de Trabalho, Grupo de Trabalho AR, Conferência de Líderes e Comissão Permanente. Ficam de fora as audiências dos grupos parlamentares, as visitas, as assistências e o Conselho de Administração.
 
 ---
 
@@ -83,22 +82,20 @@ Matérias acrescentadas à mão (por exemplo, prazos de pareceres) têm `"manual
 
 ---
 
-## Amália
+## Varrimento mediático (automático) e Amália
 
-Usa o mesmo esquema do Radar de Notícias: pesos abertos, `llama-cpp`, a correr no próprio workflow.
+**As notícias vêm sempre e só do Radar de Notícias por área governativa** (`upe-sggov/radar-noticias`): nunca de pesquisa manual nem da memória do modelo. Fichas feitas à mão são retiradas e substituídas pela versão automática. As únicas ligações mantidas nos cartões são as da Assembleia da República.
 
-- **Triagem:** `amalia_triagem.py` propõe unidade, pertinência, assunto e expressões de pesquisa só para o que as regras não decidiram. Usa como critério as competências descritas em `dados/competencias_dssd.json`.
-- **Varrimento:** `amalia_varrimento.py` escreve as fichas apenas a partir de notícias reais do Radar de Notícias, nunca da memória do modelo. Cada notícia tem data, fonte e ligação.
-  - «Imediato»: ficha completa com até 20 notícias analisadas. «Vigilância»: ficha curta com até 8, que passa a completa quando a cobertura está a subir.
-  - A amostra é escolhida ao longo dos 60 dias: cerca de 40 % da última semana e o resto repartido pelas semanas anteriores na proporção da cobertura, com preferência pelo assunto no título e pela variedade de órgãos e de dias.
-  - As fichas são refeitas até à segunda-feira da semana da matéria quando há notícias novas, quando passam de curta a completa e quando uma ficha sem notícias passa a ter notícias.
-  - As fichas revistas por pessoas nunca são reescritas; a página mostra quantas notícias saíram desde a revisão.
-  - As matérias «Imediato» das semanas seguintes já publicadas pela AR também têm ficha com antecedência, que passa para a edição quando a semana chega.
+- **Contagem e lista completa (sem IA):** `cobertura.py` procura, para cada matéria, as notícias dos últimos 60 dias pelas expressões de pesquisa (definidas na revisão, pelo Amália, ou reconhecidas automaticamente para matérias recorrentes como o Orçamento do Estado e a Conta Geral do Estado) e guarda a contagem, a tendência de 7 dias e a lista (até 400, as mais recentes).
+- **Fichas (`amalia_varrimento.py`):**
+  - «Imediato»: ficha completa com até 20 notícias. «Vigilância»: ficha curta com até 8, que passa a completa quando a cobertura está a subir. As matérias «Imediato» das semanas seguintes também têm ficha com antecedência.
+  - A seleção é feita ao longo dos 60 dias: cerca de 40 % da última semana e o resto repartido pelas semanas anteriores na proporção da cobertura, com preferência pelo assunto no título e pela variedade de órgãos e de dias.
+  - **Sem o Amália** (sem o segredo `AMALIA_GGUF_URL`): a ficha mostra só a seleção de notícias (data, órgão, título, ligação), sem análise.
+  - **Com o Amália:** a mesma seleção, com enquadramento, síntese, natureza e impacto de cada notícia; as fichas sem análise são completadas automaticamente.
+  - As fichas são refeitas até à segunda-feira da semana da matéria quando há notícias novas, quando passam de curta a completa e quando uma ficha sem notícias passa a ter notícias. A mesma matéria em vários dias (por exemplo, duas sessões do mesmo debate) partilha a ficha.
   - `python scripts/amalia_varrimento.py --verificar` diz o que há para fazer, sem carregar o modelo.
-- **Lista completa, sem IA:** `cobertura.py` guarda, para cada matéria, todas as notícias encontradas (até 400, as mais recentes), que a página mostra em «Notícias» e no fim de cada ficha.
-- **Revisão:** as fichas geradas pelo Amália não incluem a verificação de números, que fica para revisão humana. Para marcar uma ficha como revista, muda-se `gerado_por` em `dados/agenda.json` para o nome de quem reviu.
-
-Sem o segredo `AMALIA_GGUF_URL`, os passos do Amália saltam e a página publica-se na mesma, com a contagem e a lista completa.
+- **Triagem:** `amalia_triagem.py` propõe unidade, pertinência, assunto e expressões de pesquisa só para o que as regras não decidiram, usando as competências em `dados/competencias_dssd.json`.
+- **Revisão:** as fichas do Amália não incluem a verificação de números, que fica para revisão humana. Para marcar uma ficha como revista (e impedir que seja reescrita), acrescenta-se `"revista_por": "nome"` à ficha em `dados/agenda.json`; a página passa a mostrar as notícias novas desde a revisão.
 
 ---
 
@@ -112,7 +109,7 @@ Criam-se em Settings › Secrets and variables › Actions › New repository se
 | `SMTP_PORT` | `465` |
 | `SMTP_USER` | endereço remetente |
 | `SMTP_PASS` | palavra-passe de aplicação do Google (16 letras, sem espaços) |
-| `SMTP_FROM` | `AR Ahead <endereço remetente>` |
+| `SMTP_FROM` | `AR Preview <endereço remetente>` |
 | `DIRIGENTES_DSSD` | destinatários do email de segunda-feira, separados por vírgulas |
 | `EMAIL_TRIAGEM` | destinatário do aviso de semana nova |
 | `AMALIA_GGUF_URL` | opcional: endereço do modelo Amália |
@@ -123,7 +120,7 @@ Sem os segredos SMTP, os emails não são enviados e o registo do workflow mostr
 
 ## Correr à mão
 
-Actions › AR Ahead › Run workflow, com o passo `atualizar` (recolha e publicação) ou `enviar` (email aos dirigentes).
+Actions › AR Preview › Run workflow, com o passo `atualizar` (recolha e publicação) ou `enviar` (email aos dirigentes).
 
 ---
 
