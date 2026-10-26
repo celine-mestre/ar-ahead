@@ -68,13 +68,18 @@ def seguindo(lig, tempo=12):
             if plausivel(c): return c
     return None
 
+DIAG = []   # diagnóstico das primeiras tentativas (gravado em dados/ligacoes_diag.json)
 def resolver(lig):
     if not lig or 'news.google.' not in lig: return lig
+    notas = {}
     for f in (do_identificador, pelo_google, seguindo):
         try:
             r = f(lig)
             if r: return r
-        except Exception: pass
+            notas[f.__name__] = 'sem resultado'
+        except Exception as e:
+            notas[f.__name__] = f'{type(e).__name__}: {str(e)[:160]}'
+    if len(DIAG) < 8: DIAG.append({'ligacao': lig[:120], **notas})
     return None   # não resolvida: fica a do Google (tenta-se outra vez noutra corrida)
 
 def ligacoes_de(d):
@@ -100,7 +105,9 @@ if __name__ == '__main__':
             for u, r in zip(pend, piscina.map(resolver, pend)):
                 if r: cache[u] = r
         CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding='utf-8')
-        print(f'{sum(1 for u in pend if u in cache)} resolvidas nesta corrida; {len(cache)} em cache')
+        ok = sum(1 for u in pend if u in cache)
+        print(f'{ok} resolvidas nesta corrida; {len(cache)} em cache')
+        pathlib.Path('dados/ligacoes_diag.json').write_text(json.dumps({'tentadas': len(pend), 'resolvidas': ok, 'exemplos_falhados': DIAG}, ensure_ascii=False, indent=1), encoding='utf-8')
     # aplica a cache a toda a edição
     n = 0
     def troca(u):

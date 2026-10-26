@@ -188,7 +188,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 .btn.sec{background:#fff;color:var(--azul);border:1px solid var(--azul)}
 @media screen{ body.sem-cartoes #t-destaques, body.sem-cartoes #g-destaques, body.sem-cartoes #t-agenda, body.sem-cartoes #aviso, body.sem-cartoes #g-agenda{display:none} }
 @media print{ .cartoes-bar{display:none} }
-.g-foot .g-acoes{display:flex;gap:8px} .g-foot .g-acoes button{font:inherit;font-size:12px;border:1px solid var(--azul);background:#fff;color:var(--azul);border-radius:6px;padding:4px 10px;cursor:pointer}
+.g-foot .g-acoes{display:flex;gap:8px;align-items:center} .g-foot .g-acoes button{font:inherit;font-size:12px;border:1px solid var(--azul);background:#fff;color:var(--azul);border-radius:6px;padding:4px 10px;cursor:pointer}
 .ln-acoes{display:flex;gap:8px;margin:4px 0 8px} .ln-acoes button{font:inherit;font-size:11.5px;border:1px solid var(--borda);background:#fff;color:var(--azul);border-radius:6px;padding:3px 9px;cursor:pointer}
 @media print{ body.imprimir-gaveta > *:not(.gaveta){display:none!important} body.imprimir-gaveta .gaveta{display:block!important;position:static;transform:none;width:auto;box-shadow:none;height:auto} body.imprimir-gaveta .g-corpo{overflow:visible;padding:0} body.imprimir-gaveta .g-top .fechar{display:none} body.imprimir-gaveta details.todas{display:block} body.imprimir-gaveta .ln-acoes,body.imprimir-gaveta .ln-q,body.imprimir-gaveta .g-acoes{display:none} }
 .gaveta-cartao .cartao{max-width:none;margin-bottom:12px} .gaveta-cartao .c-resumo.clamp{-webkit-line-clamp:unset;display:block}
@@ -328,7 +328,6 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     <div class="cal"><div class="cal-top"><button id="cal-ant" aria-label="Mês anterior">‹</button><b id="cal-mes"></b><button id="cal-seg" aria-label="Mês seguinte">›</button></div><div class="cal-g" id="cal-g"></div><div class="cal-leg"><span><i class="ime"></i>imediato</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span><b class="sq hist"></b>edições anteriores</span><span><b class="sq fut"></b>semanas seguintes</span><button class="limpar" id="cal-limpar" hidden>Limpar seleção</button></div></div>
     <div class="ad"><div class="ad-top"><b id="ad-titulo">Agenda da semana</b><span id="ad-sub"></span></div><div id="ad-lista"></div></div>
   </div>
-  <div class="cartoes-bar" id="cartoes-bar"><span>Os cartões abrem ao lado, a partir da agenda hora a hora ou do hemiciclo.</span><button class="btn sec" id="btn-cartoes">Mostrar todos os cartões</button></div>
   <h2 id="t-destaques"><svg class="ic"><use href="#i-layers"/></svg>Destaques com varrimento mediático<small id="n-destaques"></small></h2>
   <div class="grelha" id="g-destaques"></div>
   <h2 id="t-agenda"><svg class="ic"><use href="#i-list"/></svg>Mais na agenda<small id="n-agenda"></small></h2>
@@ -345,7 +344,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 <aside class="gaveta" id="gaveta" aria-hidden="true">
   <div class="g-top"><div><h2 id="g-titulo"></h2><p class="meta" id="g-meta"></p></div><button class="fechar" id="g-fechar" aria-label="Fechar"><svg class="ic"><use href="#i-x"/></svg></button></div>
   <div class="g-corpo" id="g-corpo"></div>
-  <div class="g-foot"><span>Fontes com data e ligação. Varrimento amostral, não exaustivo.</span><span class="g-acoes"><button type="button" data-imprimir-gaveta>Imprimir / PDF</button></span><span id="g-nav"></span></div>
+  <div class="g-foot"><span>Fontes com data e ligação. Varrimento amostral, não exaustivo.</span><span class="g-acoes"><button type="button" id="g-exportar" data-exportar hidden>Exportar para Excel</button><button type="button" data-imprimir-gaveta>Imprimir / PDF</button></span><span id="g-nav"></span></div>
 </aside>
 
 <footer><div class="ftr"><span><strong>Secretaria-Geral do Governo</strong> · Suporte à Decisão</span><span id="f-edicao"></span><span>Pedidos de varrimento: <a href="mailto:upe@sggoverno.gov.pt?subject=AR%20Preview%20%E2%80%94%20pedido%20de%20varrimento" style="color:#fff">upe@sggoverno.gov.pt</a></span></div></footer>
@@ -408,10 +407,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
   cP.addEventListener('click', e => { const b = e.target.closest('[data-pert]'); if (!b) return; const k=b.dataset.pert; st.pert.has(k)?st.pert.delete(k):st.pert.add(k); guardar(); render(); });
   $('#q').addEventListener('input', e => { st.q = e.target.value.trim().toLowerCase(); render(); });
   $('#btn-print').addEventListener('click', () => window.print());
-  // cartões: escondidos por defeito no ecrã (abrem na gaveta); o estado fica guardado
-  const cartoesVis = v => { document.body.classList.toggle('sem-cartoes', !v); $('#btn-cartoes').textContent = v ? 'Ocultar os cartões' : 'Mostrar todos os cartões'; try { localStorage.setItem('ar-preview-cartoes', v ? '1' : '0'); } catch(e){} };
-  let cv = false; try { cv = localStorage.getItem('ar-preview-cartoes') === '1'; } catch(e){} cartoesVis(cv);
-  $('#btn-cartoes').addEventListener('click', () => cartoesVis(document.body.classList.contains('sem-cartoes')));
+  document.body.classList.add('sem-cartoes');   // no ecrã, os cartões só abrem na gaveta, a partir da agenda ou do hemiciclo; o PDF inclui-os
 
   // calendário (mês) + agenda do dia
   const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
@@ -531,7 +527,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     $('#n-frente').textContent = `${futuros.length} reuniões já publicadas pela AR`;
   }
   // KPIs
-  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='nov'){ st.novidades=!st.novidades; render(); return; } if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); st.semana=null; cartoesVis(true); $('#t-destaques').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
+  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='nov'){ st.novidades=!st.novidades; render(); return; } if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); st.semana=null; $('.cal-wrap').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
 
   function passa(x){
     if (st.uo){ const ok = st.uo==='Transversal' ? x.uo.includes('Transversal') : x.uo.includes(st.uo); if(!ok) return false; }
@@ -571,7 +567,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
       ${x.interveniente && x.interveniente!=='—' ? `<div class="c-interv">${esc(x.interveniente)}</div>`:''}
       <p class="c-resumo ${longo?'clamp':''}">${esc(x.ordemTrabalhos||res)}</p>
       ${longo?`<button class="c-mais" data-mais>Ver tudo</button>`:''}
-      ${x.cobertura ? `<div class="c-cob"><span>${cobTxt(x.cobertura)}</span>${x.cobertura.ultimas&&x.cobertura.ultimas.length?`<details><summary>notícias mais recentes</summary><ul>${x.cobertura.ultimas.map(u=>`<li>${esc(u.data)} · <a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.fonte)}</a> — ${esc(u.titulo)}</li>`).join('')}</ul></details>`:''}</div>` : ''}
+      ${x.cobertura ? `<div class="c-cob"><span>${cobTxt(x.cobertura)}</span></div>` : ''}
       ${(x.criterio||[]).length?`<div class="c-crit"><b>Classificação:</b> ${x.criterio.map(esc).join(' · ')}${x.validado?' · validada':''}</div>`:''}
       <div class="c-uo">${uos}${x._hist?`<span class="tag arq">arquivo · ${esc(nomeEd(x._hist).replace('Edição ',''))}</span>`:''}${x._fut?`<span class="tag futt">semana seguinte</span>`:''}${x.novo?`<span class="tag novo">novo · ${esc(fmtD(x.novo))}</span>`:''}${x.alterado && !x.novo?`<span class="tag alt">alterado · ${esc(fmtD(x.alterado))}</span>`:''}</div>
       <div class="c-foot">${foot}</div>
@@ -634,7 +630,6 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     const nHist = Object.values(dias).reduce((s,v)=>s+v.length,0);
     return `<details class="todas" ${aberta?'open':''}><summary><svg class="ic"><use href="#i-news"/></svg>Notícias encontradas (${c.n}${nHist<L.length?` · ${nHist} histórias`:''})</summary>
       <p class="ln-nota">${cobTxt(c)}${c.n > L.length ? ` · mostram-se as ${L.length} mais recentes` : ''}. Lista automática, sem análise; a mesma notícia publicada em vários órgãos aparece uma só vez.</p>
-      <div class="ln-acoes"><button type="button" data-exportar="${esc(c._titulo||'')}">Exportar para Excel (CSV)</button><span class="ln-nota" style="margin:0 0 0 6px;align-self:center">(para imprimir, use o botão no rodapé)</span></div>
       <input class="ln-q" type="search" placeholder="Filtrar por órgão ou palavra do título…"><div class="ln-lista">${corpo}</div></details>`;
   }
   let atual = null;
@@ -645,7 +640,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     const amostra = f.amostra && f.origem!=='radar' ? `<div class="g-amostra">${f.origem==='radar'?'Seleção automática':'Amostra'} de <b>${f.amostra.analisadas}</b> notícias${f.origem==='radar'?'':' analisadas'}, de <b>${f.amostra.encontradas}</b> encontradas em 60 dias no Radar de Notícias, escolhidas ao longo do período (dias de maior cobertura, variedade de órgãos e as mais recentes).</div>` : '';
     const novas = f.novas ? `<div class="g-novas"><svg class="ic"><use href="#i-alert"/></svg> <b>${f.novas} ${f.novas===1?'notícia nova':'notícias novas'}</b> desde ${f.revista_por ? 'a revisão desta ficha' : 'que esta ficha foi feita'}${f.base && f.base.em ? ` (${esc(fmtD(f.base.em))})` : ''}. Veja-as na lista completa, no fim.</div>` : '';
     // sem análise do Amália, a seleção é redundante com a lista: mostra-se só a lista completa, aberta
-    $('#g-corpo').innerHTML = novas + amostra + (f.origem==='radar' ? `<div class="enq">${esc(f.enquadramento)}</div>` + listaHTML(c, true) : fichaHTML(f, true) + listaHTML(c, false)); $('#g-corpo').scrollTop = 0;
+    botaoExportar(); $('#g-corpo').innerHTML = novas + amostra + (f.origem==='radar' ? `<div class="enq">${esc(f.enquadramento)}</div>` + listaHTML(c, true) : fichaHTML(f, true) + listaHTML(c, false)); $('#g-corpo').scrollTop = 0;
     const i = ORD.indexOf(k);
     $('#g-nav').innerHTML = `${i>0?`<a href="#" data-ver="${ORD[i-1]}">‹ ${esc(D.fichas[ORD[i-1]].titulo)}</a>`:''}${i>0&&i<ORD.length-1?' · ':''}${i<ORD.length-1?`<a href="#" data-ver="${ORD[i+1]}">${esc(D.fichas[ORD[i+1]].titulo)} ›</a>`:''}`;
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
@@ -653,12 +648,12 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
   }
   // cartão de uma matéria na gaveta (a partir da agenda hora a hora ou do hemiciclo)
   function abrirCartao(id){
-    const x = pool.find(y => y.data+'|'+y.tema===id); if (!x) return; atual = null; if (x.cobertura) { x.cobertura._titulo = x.tema; listaAtual = x.cobertura; listaMateria = x; }
+    const x = pool.find(y => y.data+'|'+y.tema===id); if (!x) return; atual = null; listaAtual = null; listaMateria = x; if (x.cobertura) { x.cobertura._titulo = x.tema; listaAtual = x.cobertura; }
     const [cls,pc] = PERT[x.pertinencia]||['reg','p-reg'];
     $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">${esc(x.pertinencia)}</span>`;
     $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''}${x.uo&&x.uo.length?' · UO de referência: '+x.uo.join(' · '):''}`;
     const crit = (x.criterio||[]).length ? `<div class="g-amostra">Classificação: ${x.criterio.map(esc).join(' · ')}${x.validado?' · validada':' · automática, a validar'}</div>` : '';
-    $('#g-corpo').innerHTML = crit + `<div class="gaveta-cartao">${cartao(x)}</div>` + (x.cobertura ? listaHTML(x.cobertura, false) : '');
+    botaoExportar(); $('#g-corpo').innerHTML = crit + `<div class="gaveta-cartao">${cartao(x)}</div>` + (x.cobertura ? listaHTML(x.cobertura, false) : '');
     $('#g-corpo').scrollTop = 0; $('#g-nav').innerHTML = '';
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
@@ -666,37 +661,54 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null; x.cobertura._titulo = x.tema; listaAtual = x.cobertura; listaMateria = x;
     $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">notícias · sem ficha</span>`;
     $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''} · Radar de Notícias, últimos ${x.cobertura.dias} dias`;
-    $('#g-corpo').innerHTML = `<div class="g-amostra">Esta matéria não tem ficha de varrimento. Abaixo, todas as notícias que o Radar de Notícias encontrou sobre o assunto, sem análise. ${pedirVarr(x)}</div>` + (listaHTML(x.cobertura, true) || '<p class="ln-nota">Sem notícias encontradas.</p>');
+    botaoExportar(); $('#g-corpo').innerHTML = `<div class="g-amostra">Esta matéria não tem ficha de varrimento. Abaixo, todas as notícias que o Radar de Notícias encontrou sobre o assunto, sem análise. ${pedirVarr(x)}</div>` + (listaHTML(x.cobertura, true) || '<p class="ln-nota">Sem notícias encontradas.</p>');
     $('#g-corpo').scrollTop = 0; $('#g-nav').innerHTML = '';
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
   // exportação: todas as notícias da lista aberta (uma linha por notícia e órgão), CSV com BOM e «;» para o Excel em português
   let listaAtual = null, listaMateria = null;
-  $('#g-corpo').addEventListener('click', e => {
-    const bx = e.target.closest('[data-exportar]');
-    if (!bx || !listaAtual) return;
-    const L = listaAtual.todas || []; const c = listaAtual; const x = listaMateria || {}; const q = s => '"' + String(s||'').replace(/"/g,'""') + '"';
+  $('#g-exportar').addEventListener('click', () => {
+    if (!listaAtual) return;
+    const L = listaAtual.todas || []; const c = listaAtual; const x = listaMateria || {};
     const agora = new Date(); const dt = `${agora.getFullYear()}-${String(agora.getMonth()+1).padStart(2,'0')}-${String(agora.getDate()).padStart(2,'0')} ${String(agora.getHours()).padStart(2,'0')}:${String(agora.getMinutes()).padStart(2,'0')}`;
     const exps = (x.expressoes || x.expressoes_auto || []).join(' | ') || 'palavras do assunto (contagem indicativa)';
     const meta = [
-      ['AR Preview — notícias sobre uma matéria da agenda da Assembleia da República'],
+      ['Campo', 'Valor'],
+      ['Produto', 'AR Preview — a semana na Assembleia da República (Secretaria-Geral do Governo · Suporte à Decisão)'],
       ['Matéria', x.tema || c._titulo || ''], ['Data da reunião', `${x.dataLabel||x.data||''}${x.hora?' · '+x.hora:''}`], ['Tipo / órgão', x.tipoLabel || ''],
-      ['Unidade(s) de referência', (x.uo||[]).join(', ') || '—'], ['Pertinência', x.pertinencia || ''], ['Ligação à reunião na AR', arUrl(x) || ''],
-      ['Edição', `n.º ${D.edicao.numero} · ${D.edicao.semana}`],
+      ['Unidade(s) de referência', (x.uo||[]).join(', ') || '—'], ['Pertinência', x.pertinencia || ''], ['Classificação', (x.criterio||[]).join(' · ') || '—'],
+      ['Ligação à reunião na AR', arUrl(x) || ''], ['Edição', `n.º ${D.edicao.numero} · ${D.edicao.semana}`],
       ['Fonte das notícias', 'Radar de Notícias por área governativa (UPE / Suporte à Decisão, SGGov): órgãos de comunicação social nacionais acompanhados pelo Radar'],
       ['Janela', `últimos ${c.dias||60} dias até ${c.ref||''}`], ['Expressões de pesquisa', exps],
-      ['Notícias encontradas', `${c.n||L.length} em ${c.dias||60} dias · ${c.n7||0} nos últimos 7 dias · ${c.n7ant||0} nos 7 dias anteriores${c.n>L.length?` · exportadas as ${L.length} mais recentes`:''}`],
+      ['Notícias encontradas', c.n || L.length], ['Nos últimos 7 dias', c.n7 || 0], ['Nos 7 dias anteriores', c.n7ant || 0],
+      ['Notícias exportadas', L.length + (c.n > L.length ? ` (as mais recentes de ${c.n})` : '')],
       ['Ligações', 'endereço do próprio órgão de comunicação social; quando o reencaminhamento do Google Notícias ainda não foi resolvido, a ligação do Google abre o mesmo artigo'],
-      ['Exportado em', dt], []
-    ].map(r => r.map(q).join(';'));
-    const linhas = meta.concat([['Data','Hora','Órgão','Título','Ligação'].map(q).join(';')], L.map(n => [n[0].slice(0,10), n[0].slice(11,16), n[1], n[2], n[3]].map(q).join(';')));
-    const nome = (listaAtual._titulo||'noticias').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
-    const blob = new Blob(['\ufeff' + linhas.join('\r\n')], {type:'text/csv;charset=utf-8'}); const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob); a.download = `ar-preview-noticias-${nome}.csv`; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); }, 500);
+      ['Exportado em', dt]
+    ];
+    const rows = [['Data', 'Hora', 'Órgão', 'Título', 'Ligação']].concat(L.map(n => [n[0].slice(0,10), n[0].slice(11,16), n[1], n[2], n[3]]));
+    const nome = (x.tema||c._titulo||'noticias').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
+    const descarregar = (blob, ficheiro) => { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = ficheiro; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); }, 500); };
+    const comXLSX = () => {
+      const wb = XLSX.utils.book_new();
+      const ws1 = XLSX.utils.aoa_to_sheet(rows); ws1['!cols'] = [{wch:11},{wch:6},{wch:22},{wch:90},{wch:60}]; ws1['!autofilter'] = {ref: `A1:E${rows.length}`};
+      rows.forEach((r, i) => { if (i && r[4]) { const cel = ws1[XLSX.utils.encode_cell({r:i, c:4})]; if (cel) cel.l = {Target: r[4]}; } });
+      const ws2 = XLSX.utils.aoa_to_sheet(meta); ws2['!cols'] = [{wch:26},{wch:110}];
+      XLSX.utils.book_append_sheet(wb, ws1, 'Notícias'); XLSX.utils.book_append_sheet(wb, ws2, 'Metainformação');
+      XLSX.writeFile(wb, `ar-preview-noticias-${nome}.xlsx`);
+    };
+    if (window.XLSX) return comXLSX();
+    const s = document.createElement('script'); s.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+    s.onload = comXLSX;
+    s.onerror = () => {   // sem acesso à biblioteca: CSV com os mesmos dados (metainformação no início)
+      const q = v => '"' + String(v ?? '').replace(/"/g,'""') + '"';
+      descarregar(new Blob(['\ufeff' + meta.map(r=>r.map(q).join(';')).concat([''], rows.map(r=>r.map(q).join(';'))).join('\r\n')], {type:'text/csv;charset=utf-8'}), `ar-preview-noticias-${nome}.csv`);
+    };
+    document.head.appendChild(s);
   });
   $('#g-corpo').addEventListener('input', e => { if (!e.target.classList.contains('ln-q')) return; const q = e.target.value.trim().toLowerCase(); const box = e.target.nextElementSibling;
     box.querySelectorAll('.ln').forEach(l => l.style.display = !q || l.dataset.t.includes(q) ? '' : 'none');
     box.querySelectorAll('.ln-dia').forEach(h => { let n = h.nextElementSibling, v = false; while (n && n.classList.contains('ln')) { if (n.style.display !== 'none') v = true; n = n.nextElementSibling; } h.style.display = v ? '' : 'none'; }); });
+  const botaoExportar = () => { $('#g-exportar').hidden = !(listaAtual && (listaAtual.todas||[]).length); };
   function fechar(){ $('#gaveta').classList.remove('on'); $('#veu').classList.remove('on'); $('#gaveta').setAttribute('aria-hidden','true'); document.body.style.overflow=''; history.replaceState(null,'',location.pathname+location.search); }
   $('#g-fechar').addEventListener('click', fechar);
   document.querySelector('[data-imprimir-gaveta]').addEventListener('click', () => { document.body.classList.add('imprimir-gaveta'); window.print(); setTimeout(()=>document.body.classList.remove('imprimir-gaveta'), 1000); }); $('#veu').addEventListener('click', fechar);
