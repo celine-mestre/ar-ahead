@@ -188,7 +188,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 .btn.sec{background:#fff;color:var(--azul);border:1px solid var(--azul)}
 @media screen{ body.sem-cartoes #t-destaques, body.sem-cartoes #g-destaques, body.sem-cartoes #t-agenda, body.sem-cartoes #aviso, body.sem-cartoes #g-agenda{display:none} }
 @media print{ .cartoes-bar{display:none} }
-.g-foot .g-acoes{display:flex;gap:8px} .g-foot .g-acoes button{font:inherit;font-size:12px;border:1px solid var(--azul);background:#fff;color:var(--azul);border-radius:6px;padding:4px 10px;cursor:pointer}
+.g-foot .g-acoes{display:flex;gap:8px;align-items:center} .g-foot .g-acoes button{font:inherit;font-size:12px;border:1px solid var(--azul);background:#fff;color:var(--azul);border-radius:6px;padding:4px 10px;cursor:pointer}
 .ln-acoes{display:flex;gap:8px;margin:4px 0 8px} .ln-acoes button{font:inherit;font-size:11.5px;border:1px solid var(--borda);background:#fff;color:var(--azul);border-radius:6px;padding:3px 9px;cursor:pointer}
 @media print{ body.imprimir-gaveta > *:not(.gaveta){display:none!important} body.imprimir-gaveta .gaveta{display:block!important;position:static;transform:none;width:auto;box-shadow:none;height:auto} body.imprimir-gaveta .g-corpo{overflow:visible;padding:0} body.imprimir-gaveta .g-top .fechar{display:none} body.imprimir-gaveta details.todas{display:block} body.imprimir-gaveta .ln-acoes,body.imprimir-gaveta .ln-q,body.imprimir-gaveta .g-acoes{display:none} }
 .gaveta-cartao .cartao{max-width:none;margin-bottom:12px} .gaveta-cartao .c-resumo.clamp{-webkit-line-clamp:unset;display:block}
@@ -214,6 +214,20 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 .hero-kpis span{font-size:11.5px;color:rgba(255,255,255,.75);margin-top:4px}
 .hero .cta{display:inline-flex;align-items:center;gap:8px;background:var(--amarelo);color:#171715;border:0;border-radius:8px;padding:10px 16px;font-weight:600;font-size:13.5px;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.25)}
 .hero .cta:hover{transform:translateY(-1px)}
+.hero-det{color:#fff;align-self:start;max-height:430px;overflow:auto;padding-right:6px}
+.hero-det .voltar{background:none;border:0;color:rgba(255,255,255,.75);font:inherit;font-size:12px;cursor:pointer;padding:0;margin-bottom:10px;text-decoration:underline}
+.hero-det .hd-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;color:rgba(255,255,255,.8);margin-bottom:6px}
+.hero-det .hd-pert{font-size:10.5px;font-weight:700;border-radius:4px;padding:2px 7px;text-transform:uppercase;letter-spacing:.04em}
+.hero-det .hd-pert.ime{background:#ff6b61;color:#fff} .hero-det .hd-pert.vig{background:#f0c75e;color:#171715} .hero-det .hd-pert.reg{background:#9aa3ad;color:#171715}
+.hero-det h3{font-size:19px;line-height:1.25;margin:2px 0 6px;color:#fff;font-weight:600}
+.hero-det .hd-tipo{font-size:12px;color:rgba(255,255,255,.75);margin-bottom:10px}
+.hero-det .hd-ot{font-size:12.5px;line-height:1.5;color:rgba(255,255,255,.9);background:rgba(255,255,255,.07);border-left:3px solid var(--amarelo);border-radius:4px;padding:8px 10px;margin-bottom:10px;white-space:pre-line;max-height:150px;overflow:auto}
+.hero-det .hd-linha{font-size:12px;color:rgba(255,255,255,.85);margin:4px 0} .hero-det .hd-linha b{color:#fff;font-weight:600}
+.hero-det .hd-uo span{display:inline-block;font-size:10.5px;border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:1px 6px;margin:0 4px 4px 0}
+.hero-det .hd-acoes{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.hero-det .hd-acoes a,.hero-det .hd-acoes button{font:inherit;font-size:12px;border-radius:6px;padding:6px 11px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.hero-det .hd-acoes .p1{background:var(--amarelo);color:#171715;border:0;font-weight:600} .hero-det .hd-acoes .p2{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
+.hemi .seat.sel circle.c{stroke:var(--amarelo);stroke-width:3}
 .hero .leg{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:rgba(255,255,255,.75);margin-top:14px}
 .hero .leg i{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:-1px;background:#9aa3ad} .hero .leg i.ime{background:#ff6b61} .hero .leg i.vig{background:#f0c75e}
 .hemi{position:relative;width:100%;max-width:820px;margin:0 auto}
@@ -301,12 +315,13 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 
 
 <section class="hero" id="hero"><div class="hero-in">
-  <div>
+  <div class="hero-det" id="hero-det" hidden></div>
+  <div id="hero-resumo">
     <h2 id="hero-t">A semana em <em>relance</em></h2>
     <p class="lead" id="hero-lead"></p>
     <div class="hero-kpis" id="hero-kpis"></div>
     <button class="cta" id="hero-cta"><svg class="ic"><use href="#i-list"/></svg>Entrar na agenda</button>
-    <div class="leg"><span><i class="ime"></i>imediato, com varrimento</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span>cada lugar é uma matéria · quanto mais perto da Mesa, mais pertinente: anel interior imediato, meio vigilância, exterior registo · da esquerda para a direita, da manhã para a tarde · clique para abrir</span></div>
+    <div class="leg"><span><i class="ime"></i>imediato, com varrimento</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span>cada lugar é uma matéria · quanto mais perto da Mesa, mais pertinente: anel interior imediato, meio vigilância, exterior registo · da esquerda para a direita, da manhã para a tarde · clique num lugar para ver a matéria</span></div>
   </div>
   <div class="hemi"><svg id="hemi" viewBox="0 0 800 430" role="img" aria-label="AR Preview — hemiciclo da semana: uma matéria por lugar, agrupadas por dia"></svg></div>
 </div></section>
@@ -328,7 +343,6 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     <div class="cal"><div class="cal-top"><button id="cal-ant" aria-label="Mês anterior">‹</button><b id="cal-mes"></b><button id="cal-seg" aria-label="Mês seguinte">›</button></div><div class="cal-g" id="cal-g"></div><div class="cal-leg"><span><i class="ime"></i>imediato</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span><b class="sq hist"></b>edições anteriores</span><span><b class="sq fut"></b>semanas seguintes</span><button class="limpar" id="cal-limpar" hidden>Limpar seleção</button></div></div>
     <div class="ad"><div class="ad-top"><b id="ad-titulo">Agenda da semana</b><span id="ad-sub"></span></div><div id="ad-lista"></div></div>
   </div>
-  <div class="cartoes-bar" id="cartoes-bar"><span>Os cartões abrem ao lado, a partir da agenda hora a hora ou do hemiciclo.</span><button class="btn sec" id="btn-cartoes">Mostrar todos os cartões</button></div>
   <h2 id="t-destaques"><svg class="ic"><use href="#i-layers"/></svg>Destaques com varrimento mediático<small id="n-destaques"></small></h2>
   <div class="grelha" id="g-destaques"></div>
   <h2 id="t-agenda"><svg class="ic"><use href="#i-list"/></svg>Mais na agenda<small id="n-agenda"></small></h2>
@@ -345,7 +359,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 <aside class="gaveta" id="gaveta" aria-hidden="true">
   <div class="g-top"><div><h2 id="g-titulo"></h2><p class="meta" id="g-meta"></p></div><button class="fechar" id="g-fechar" aria-label="Fechar"><svg class="ic"><use href="#i-x"/></svg></button></div>
   <div class="g-corpo" id="g-corpo"></div>
-  <div class="g-foot"><span>Fontes com data e ligação. Varrimento amostral, não exaustivo.</span><span class="g-acoes"><button type="button" data-imprimir-gaveta>Imprimir / PDF</button></span><span id="g-nav"></span></div>
+  <div class="g-foot"><span>Fontes com data e ligação. Varrimento amostral, não exaustivo.</span><span class="g-acoes"><button type="button" id="g-exportar" data-exportar hidden>Exportar para Excel</button><button type="button" data-imprimir-gaveta>Imprimir / PDF</button></span><span id="g-nav"></span></div>
 </aside>
 
 <footer><div class="ftr"><span><strong>Secretaria-Geral do Governo</strong> · Suporte à Decisão</span><span id="f-edicao"></span><span>Pedidos de varrimento: <a href="mailto:upe@sggoverno.gov.pt?subject=AR%20Preview%20%E2%80%94%20pedido%20de%20varrimento" style="color:#fff">upe@sggoverno.gov.pt</a></span></div></footer>
@@ -408,10 +422,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
   cP.addEventListener('click', e => { const b = e.target.closest('[data-pert]'); if (!b) return; const k=b.dataset.pert; st.pert.has(k)?st.pert.delete(k):st.pert.add(k); guardar(); render(); });
   $('#q').addEventListener('input', e => { st.q = e.target.value.trim().toLowerCase(); render(); });
   $('#btn-print').addEventListener('click', () => window.print());
-  // cartões: escondidos por defeito no ecrã (abrem na gaveta); o estado fica guardado
-  const cartoesVis = v => { document.body.classList.toggle('sem-cartoes', !v); $('#btn-cartoes').textContent = v ? 'Ocultar os cartões' : 'Mostrar todos os cartões'; try { localStorage.setItem('ar-preview-cartoes', v ? '1' : '0'); } catch(e){} };
-  let cv = false; try { cv = localStorage.getItem('ar-preview-cartoes') === '1'; } catch(e){} cartoesVis(cv);
-  $('#btn-cartoes').addEventListener('click', () => cartoesVis(document.body.classList.contains('sem-cartoes')));
+  document.body.classList.add('sem-cartoes');   // no ecrã, os cartões só abrem na gaveta, a partir da agenda ou do hemiciclo; o PDF inclui-os
 
   // calendário (mês) + agenda do dia
   const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
@@ -531,7 +542,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     $('#n-frente').textContent = `${futuros.length} reuniões já publicadas pela AR`;
   }
   // KPIs
-  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='nov'){ st.novidades=!st.novidades; render(); return; } if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); st.semana=null; cartoesVis(true); $('#t-destaques').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
+  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='nov'){ st.novidades=!st.novidades; render(); return; } if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); st.semana=null; $('.cal-wrap').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
 
   function passa(x){
     if (st.uo){ const ok = st.uo==='Transversal' ? x.uo.includes('Transversal') : x.uo.includes(st.uo); if(!ok) return false; }
@@ -571,7 +582,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
       ${x.interveniente && x.interveniente!=='—' ? `<div class="c-interv">${esc(x.interveniente)}</div>`:''}
       <p class="c-resumo ${longo?'clamp':''}">${esc(x.ordemTrabalhos||res)}</p>
       ${longo?`<button class="c-mais" data-mais>Ver tudo</button>`:''}
-      ${x.cobertura ? `<div class="c-cob"><span>${cobTxt(x.cobertura)}</span>${x.cobertura.ultimas&&x.cobertura.ultimas.length?`<details><summary>notícias mais recentes</summary><ul>${x.cobertura.ultimas.map(u=>`<li>${esc(u.data)} · <a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.fonte)}</a> — ${esc(u.titulo)}</li>`).join('')}</ul></details>`:''}</div>` : ''}
+      ${x.cobertura ? `<div class="c-cob"><span>${cobTxt(x.cobertura)}</span></div>` : ''}
       ${(x.criterio||[]).length?`<div class="c-crit"><b>Classificação:</b> ${x.criterio.map(esc).join(' · ')}${x.validado?' · validada':''}</div>`:''}
       <div class="c-uo">${uos}${x._hist?`<span class="tag arq">arquivo · ${esc(nomeEd(x._hist).replace('Edição ',''))}</span>`:''}${x._fut?`<span class="tag futt">semana seguinte</span>`:''}${x.novo?`<span class="tag novo">novo · ${esc(fmtD(x.novo))}</span>`:''}${x.alterado && !x.novo?`<span class="tag alt">alterado · ${esc(fmtD(x.alterado))}</span>`:''}</div>
       <div class="c-foot">${foot}</div>
@@ -634,18 +645,17 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     const nHist = Object.values(dias).reduce((s,v)=>s+v.length,0);
     return `<details class="todas" ${aberta?'open':''}><summary><svg class="ic"><use href="#i-news"/></svg>Notícias encontradas (${c.n}${nHist<L.length?` · ${nHist} histórias`:''})</summary>
       <p class="ln-nota">${cobTxt(c)}${c.n > L.length ? ` · mostram-se as ${L.length} mais recentes` : ''}. Lista automática, sem análise; a mesma notícia publicada em vários órgãos aparece uma só vez.</p>
-      <div class="ln-acoes"><button type="button" data-exportar="${esc(c._titulo||'')}">Exportar para Excel (CSV)</button><button type="button" data-imprimir>Imprimir / PDF</button></div>
       <input class="ln-q" type="search" placeholder="Filtrar por órgão ou palavra do título…"><div class="ln-lista">${corpo}</div></details>`;
   }
   let atual = null;
   function abrir(k){
     const f = D.fichas[k]; if (!f) return; atual = k;
     $('#g-titulo').innerHTML = esc(f.titulo) + (f.gerado_por ? `<span class="nivel">${f.nivel==='curta'?'ficha curta':'ficha'} · ${esc(f.revista_por ? 'revista por '+f.revista_por : f.gerado_por)}</span>` : ''); $('#g-meta').textContent = f.meta;
-    const c = coberturaDe(k); if (c) { c._titulo = f.titulo; } listaAtual = c || null;
+    const c = coberturaDe(k); if (c) { c._titulo = f.titulo; } listaAtual = c || null; listaMateria = pool.find(y => !y._hist && y.varrimento===k) || null;
     const amostra = f.amostra && f.origem!=='radar' ? `<div class="g-amostra">${f.origem==='radar'?'Seleção automática':'Amostra'} de <b>${f.amostra.analisadas}</b> notícias${f.origem==='radar'?'':' analisadas'}, de <b>${f.amostra.encontradas}</b> encontradas em 60 dias no Radar de Notícias, escolhidas ao longo do período (dias de maior cobertura, variedade de órgãos e as mais recentes).</div>` : '';
     const novas = f.novas ? `<div class="g-novas"><svg class="ic"><use href="#i-alert"/></svg> <b>${f.novas} ${f.novas===1?'notícia nova':'notícias novas'}</b> desde ${f.revista_por ? 'a revisão desta ficha' : 'que esta ficha foi feita'}${f.base && f.base.em ? ` (${esc(fmtD(f.base.em))})` : ''}. Veja-as na lista completa, no fim.</div>` : '';
     // sem análise do Amália, a seleção é redundante com a lista: mostra-se só a lista completa, aberta
-    $('#g-corpo').innerHTML = novas + amostra + (f.origem==='radar' ? `<div class="enq">${esc(f.enquadramento)}</div>` + listaHTML(c, true) : fichaHTML(f, true) + listaHTML(c, false)); $('#g-corpo').scrollTop = 0;
+    botaoExportar(); $('#g-corpo').innerHTML = novas + amostra + (f.origem==='radar' ? `<div class="enq">${esc(f.enquadramento)}</div>` + listaHTML(c, true) : fichaHTML(f, true) + listaHTML(c, false)); $('#g-corpo').scrollTop = 0;
     const i = ORD.indexOf(k);
     $('#g-nav').innerHTML = `${i>0?`<a href="#" data-ver="${ORD[i-1]}">‹ ${esc(D.fichas[ORD[i-1]].titulo)}</a>`:''}${i>0&&i<ORD.length-1?' · ':''}${i<ORD.length-1?`<a href="#" data-ver="${ORD[i+1]}">${esc(D.fichas[ORD[i+1]].titulo)} ›</a>`:''}`;
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
@@ -653,38 +663,67 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
   }
   // cartão de uma matéria na gaveta (a partir da agenda hora a hora ou do hemiciclo)
   function abrirCartao(id){
-    const x = pool.find(y => y.data+'|'+y.tema===id); if (!x) return; atual = null; if (x.cobertura) { x.cobertura._titulo = x.tema; listaAtual = x.cobertura; }
+    const x = pool.find(y => y.data+'|'+y.tema===id); if (!x) return; atual = null; listaAtual = null; listaMateria = x; if (x.cobertura) { x.cobertura._titulo = x.tema; listaAtual = x.cobertura; }
     const [cls,pc] = PERT[x.pertinencia]||['reg','p-reg'];
     $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">${esc(x.pertinencia)}</span>`;
     $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''}${x.uo&&x.uo.length?' · UO de referência: '+x.uo.join(' · '):''}`;
     const crit = (x.criterio||[]).length ? `<div class="g-amostra">Classificação: ${x.criterio.map(esc).join(' · ')}${x.validado?' · validada':' · automática, a validar'}</div>` : '';
-    $('#g-corpo').innerHTML = crit + `<div class="gaveta-cartao">${cartao(x)}</div>` + (x.cobertura ? listaHTML(x.cobertura, false) : '');
+    botaoExportar(); $('#g-corpo').innerHTML = crit + `<div class="gaveta-cartao">${cartao(x)}</div>` + (x.cobertura ? listaHTML(x.cobertura, false) : '');
     $('#g-corpo').scrollTop = 0; $('#g-nav').innerHTML = '';
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
   function abrirLista(id){
-    const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null; x.cobertura._titulo = x.tema; listaAtual = x.cobertura;
+    const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null; x.cobertura._titulo = x.tema; listaAtual = x.cobertura; listaMateria = x;
     $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">notícias · sem ficha</span>`;
     $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''} · Radar de Notícias, últimos ${x.cobertura.dias} dias`;
-    $('#g-corpo').innerHTML = `<div class="g-amostra">Esta matéria não tem ficha de varrimento. Abaixo, todas as notícias que o Radar de Notícias encontrou sobre o assunto, sem análise. ${pedirVarr(x)}</div>` + (listaHTML(x.cobertura, true) || '<p class="ln-nota">Sem notícias encontradas.</p>');
+    botaoExportar(); $('#g-corpo').innerHTML = `<div class="g-amostra">Esta matéria não tem ficha de varrimento. Abaixo, todas as notícias que o Radar de Notícias encontrou sobre o assunto, sem análise. ${pedirVarr(x)}</div>` + (listaHTML(x.cobertura, true) || '<p class="ln-nota">Sem notícias encontradas.</p>');
     $('#g-corpo').scrollTop = 0; $('#g-nav').innerHTML = '';
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
   // exportação: todas as notícias da lista aberta (uma linha por notícia e órgão), CSV com BOM e «;» para o Excel em português
-  let listaAtual = null;
-  $('#g-corpo').addEventListener('click', e => {
-    const bx = e.target.closest('[data-exportar]'); const bp = e.target.closest('[data-imprimir]');
-    if (bp) { document.body.classList.add('imprimir-gaveta'); window.print(); setTimeout(()=>document.body.classList.remove('imprimir-gaveta'), 1000); return; }
-    if (!bx || !listaAtual) return;
-    const L = listaAtual.todas || []; const q = s => '"' + String(s||'').replace(/"/g,'""') + '"';
-    const linhas = [['Data','Hora','Órgão','Título','Ligação'].map(q).join(';')].concat(L.map(n => [n[0].slice(0,10), n[0].slice(11,16), n[1], n[2], n[3]].map(q).join(';')));
-    const nome = (listaAtual._titulo||'noticias').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
-    const blob = new Blob(['\ufeff' + linhas.join('\r\n')], {type:'text/csv;charset=utf-8'}); const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob); a.download = `ar-preview-noticias-${nome}.csv`; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); }, 500);
+  let listaAtual = null, listaMateria = null;
+  $('#g-exportar').addEventListener('click', () => {
+    if (!listaAtual) return;
+    const L = listaAtual.todas || []; const c = listaAtual; const x = listaMateria || {};
+    const agora = new Date(); const dt = `${agora.getFullYear()}-${String(agora.getMonth()+1).padStart(2,'0')}-${String(agora.getDate()).padStart(2,'0')} ${String(agora.getHours()).padStart(2,'0')}:${String(agora.getMinutes()).padStart(2,'0')}`;
+    const exps = (x.expressoes || x.expressoes_auto || []).join(' | ') || 'palavras do assunto (contagem indicativa)';
+    const meta = [
+      ['Campo', 'Valor'],
+      ['Produto', 'AR Preview — a semana na Assembleia da República (Secretaria-Geral do Governo · Suporte à Decisão)'],
+      ['Matéria', x.tema || c._titulo || ''], ['Data da reunião', `${x.dataLabel||x.data||''}${x.hora?' · '+x.hora:''}`], ['Tipo / órgão', x.tipoLabel || ''],
+      ['Unidade(s) de referência', (x.uo||[]).join(', ') || '—'], ['Pertinência', x.pertinencia || ''], ['Classificação', (x.criterio||[]).join(' · ') || '—'],
+      ['Ligação à reunião na AR', arUrl(x) || ''], ['Edição', `n.º ${D.edicao.numero} · ${D.edicao.semana}`],
+      ['Fonte das notícias', 'Radar de Notícias por área governativa (UPE / Suporte à Decisão, SGGov): órgãos de comunicação social nacionais acompanhados pelo Radar'],
+      ['Janela', `últimos ${c.dias||60} dias até ${c.ref||''}`], ['Expressões de pesquisa', exps],
+      ['Notícias encontradas', c.n || L.length], ['Nos últimos 7 dias', c.n7 || 0], ['Nos 7 dias anteriores', c.n7ant || 0],
+      ['Notícias exportadas', L.length + (c.n > L.length ? ` (as mais recentes de ${c.n})` : '')],
+      ['Ligações', 'endereço do próprio órgão de comunicação social; quando o reencaminhamento do Google Notícias ainda não foi resolvido, a ligação do Google abre o mesmo artigo'],
+      ['Exportado em', dt]
+    ];
+    const rows = [['Data', 'Hora', 'Órgão', 'Título', 'Ligação']].concat(L.map(n => [n[0].slice(0,10), n[0].slice(11,16), n[1], n[2], n[3]]));
+    const nome = (x.tema||c._titulo||'noticias').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
+    const descarregar = (blob, ficheiro) => { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = ficheiro; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); }, 500); };
+    const comXLSX = () => {
+      const wb = XLSX.utils.book_new();
+      const ws1 = XLSX.utils.aoa_to_sheet(rows); ws1['!cols'] = [{wch:11},{wch:6},{wch:22},{wch:90},{wch:60}]; ws1['!autofilter'] = {ref: `A1:E${rows.length}`};
+      rows.forEach((r, i) => { if (i && r[4]) { const cel = ws1[XLSX.utils.encode_cell({r:i, c:4})]; if (cel) cel.l = {Target: r[4]}; } });
+      const ws2 = XLSX.utils.aoa_to_sheet(meta); ws2['!cols'] = [{wch:26},{wch:110}];
+      XLSX.utils.book_append_sheet(wb, ws1, 'Notícias'); XLSX.utils.book_append_sheet(wb, ws2, 'Metainformação');
+      XLSX.writeFile(wb, `ar-preview-noticias-${nome}.xlsx`);
+    };
+    if (window.XLSX) return comXLSX();
+    const s = document.createElement('script'); s.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+    s.onload = comXLSX;
+    s.onerror = () => {   // sem acesso à biblioteca: CSV com os mesmos dados (metainformação no início)
+      const q = v => '"' + String(v ?? '').replace(/"/g,'""') + '"';
+      descarregar(new Blob(['\ufeff' + meta.map(r=>r.map(q).join(';')).concat([''], rows.map(r=>r.map(q).join(';'))).join('\r\n')], {type:'text/csv;charset=utf-8'}), `ar-preview-noticias-${nome}.csv`);
+    };
+    document.head.appendChild(s);
   });
   $('#g-corpo').addEventListener('input', e => { if (!e.target.classList.contains('ln-q')) return; const q = e.target.value.trim().toLowerCase(); const box = e.target.nextElementSibling;
     box.querySelectorAll('.ln').forEach(l => l.style.display = !q || l.dataset.t.includes(q) ? '' : 'none');
     box.querySelectorAll('.ln-dia').forEach(h => { let n = h.nextElementSibling, v = false; while (n && n.classList.contains('ln')) { if (n.style.display !== 'none') v = true; n = n.nextElementSibling; } h.style.display = v ? '' : 'none'; }); });
+  const botaoExportar = () => { $('#g-exportar').hidden = !(listaAtual && (listaAtual.todas||[]).length); };
   function fechar(){ $('#gaveta').classList.remove('on'); $('#veu').classList.remove('on'); $('#gaveta').setAttribute('aria-hidden','true'); document.body.style.overflow=''; history.replaceState(null,'',location.pathname+location.search); }
   $('#g-fechar').addEventListener('click', fechar);
   document.querySelector('[data-imprimir-gaveta]').addEventListener('click', () => { document.body.classList.add('imprimir-gaveta'); window.print(); setTimeout(()=>document.body.classList.remove('imprimir-gaveta'), 1000); }); $('#veu').addEventListener('click', fechar);
@@ -697,6 +736,44 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 
   // ---------- página de entrada: hemiciclo
   let hemiSemana = null, hemiAnimado = false;
+  // detalhe da matéria no lado esquerdo do hero (ao clicar num lugar do hemiciclo)
+  function detalheHero(x){
+    const det = $('#hero-det'), res = $('#hero-resumo');
+    $('#hemi').querySelectorAll('.seat.sel').forEach(g => g.classList.remove('sel'));
+    if (!x) { det.hidden = true; res.hidden = false; return; }
+    const g = $('#hemi').querySelector(`[data-seat="${CSS.escape(x.data+'|'+x.tema)}"]`); if (g) g.classList.add('sel');
+    const cls = (PERT[x.pertinencia]||['reg'])[0];
+    // ordem do dia sem a grelha de tempos (GOV 70 m, PSD 44 m…), que não interessa aqui
+    const linhasOT = []; for (const l of (x.ordemTrabalhos || x.resumo || '').replace(/ORDEM DO DIA/g,'').split('\n').map(s=>s.trim()).filter(Boolean)) {
+      if (/^(GOV|PSD|PS|CH|IL|L|PCP|BE|CDS(-PP)?|CDSP-PP|PAN|JPP|Tempos|\d+(\.º)? Dia|\d+ m\b)/.test(l)) break; linhasOT.push(l); }
+    const ot = linhasOT.join('\n').slice(0, 900);
+    const c = x.cobertura;
+    const ar = arUrl(x), f = x.varrimento && D.fichas[x.varrimento];
+    const extra = (x.ligacoes||[]).filter(l => l.url && l.url !== ar && !(x.id_ar && l.titulo === 'Agenda parlamentar'));
+    det.innerHTML = `<button class="voltar" data-hd-voltar>← voltar à semana</button>
+      <div class="hd-top"><span class="hd-pert ${cls}">${esc(x.pertinencia)}</span><span>${esc(x.dataLabel||'')}${x.hora?' · '+esc(x.hora):''}</span>${x.novo?'<span>· novo</span>':''}${x.alterado&&!x.novo?'<span>· alterado</span>':''}${x._hist?`<span>· ${esc(nomeEd(x._hist))}</span>`:''}</div>
+      <h3>${esc(x.tema)}</h3>
+      <div class="hd-tipo">${esc(x.tipoLabel||'')}${x.interveniente&&x.interveniente!=='—'?' · '+esc(x.interveniente):''}</div>
+      ${ot?`<div class="hd-ot">${esc(ot)}${(x.ordemTrabalhos||'').length>900?'…':''}</div>`:''}
+      <div class="hd-linha hd-uo"><b>Unidades:</b> ${(x.uo||[]).length ? x.uo.map(u=>`<span>${esc(u)}</span>`).join('') : 'sem unidade atribuída'}</div>
+      ${(x.criterio||[]).length?`<div class="hd-linha"><b>Classificação:</b> ${x.criterio.map(esc).join(' · ')}${x.validado?' · validada':' · automática, a validar'}</div>`:''}
+      ${c?`<div class="hd-linha"><b>Cobertura:</b> ${cobTxt(c)}</div>`:''}
+      ${f&&f.enquadramento&&f.origem!=='radar'?`<div class="hd-linha"><b>Enquadramento:</b> ${esc(f.enquadramento)}</div>`:''}
+      ${extra.length?`<div class="hd-linha"><b>Ligações:</b> ${extra.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener" style="color:#fff">${esc(l.titulo)}</a>`).join(' · ')}</div>`:''}
+      <div class="hd-acoes">
+        ${x._hist ? `<a class="p1" href="${esc(BASE_ED + x._hist.ficheiro + (x.varrimento ? '#' + x.varrimento : ''))}">Abrir na ${esc(nomeEd(x._hist).toLowerCase())}</a>`
+          : f ? `<button class="p1" data-hd-ver="${esc(x.varrimento)}">${f.origem==='radar'?'Ver notícias':'Ver varrimento'}${c&&c.n?` (${c.n})`:''}</button>`
+          : (c && c.n ? `<button class="p1" data-hd-lista="${esc(idDe(x))}">Ver notícias (${c.n})</button>` : '')}
+        ${ar?`<a class="p2" href="${esc(ar)}" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg>Ver na agenda da AR</a>`:''}
+        ${!x._hist && !f ? pedirVarr(x).replace('class="pedir lig"', 'class="p2"') : ''}
+      </div>`;
+    res.hidden = true; det.hidden = false; det.scrollTop = 0;
+  }
+  document.addEventListener('click', e => {
+    if (e.target.closest('[data-hd-voltar]')) { detalheHero(null); return; }
+    const v = e.target.closest('[data-hd-ver]'); if (v) { abrir(v.dataset.hdVer); return; }
+    const l = e.target.closest('[data-hd-lista]'); if (l) { abrirLista(l.dataset.hdLista); return; }
+  });
   // os filtros (unidade, pertinência, pesquisa) e os dias selecionados aplicam-se também ao hemiciclo
   function filtrarHemi(){
     const svg = $('#hemi'); let n = 0, nv = 0;
@@ -708,7 +785,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     const svg = $('#hemi'); const cx=400, cy=400, R0=150, R1=372;
     const semSel = st.semana && st.semana !== segDe(iniSem) ? st.semana : null;
     if (hemiSemana === (semSel || 'cur') && svg.childElementCount) return;   // só se a semana mudou
-    hemiSemana = semSel || 'cur';
+    hemiSemana = semSel || 'cur'; detalheHero(null);
     const diasSem = semSel ? diasDe(semSel) : [...semanaIso].sort(); const nD = diasSem.length;
     const todos = semSel ? pool.filter(x => x.data >= diasSem[0] && x.data <= diasSem[6]) : todosSemana;   // matérias da semana mostrada
     const edSel = semSel ? edDe(diasSem[0]) : null;
@@ -742,7 +819,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
           const n = lista.length, a = a0 + 0.015 + (span - 0.03) * (n === 1 ? .5 : j / (n - 1));
           const [px, py] = pol(rf, a); const cls = (PERT[x.pertinencia] || ['reg'])[0];
           const rr = cls === 'ime' ? 7 : cls === 'vig' ? 6 : 4.5;
-          seats += `<g class="seat ${cls} ${x.varrimento ? 'var' : ''}" style="animation-delay:${(k++) * 28}ms" data-seat="${esc(x.data + '|' + x.tema)}" data-ver="${esc(x.varrimento || '')}" data-pert="${esc(x.pertinencia)}"><circle class="p" cx="${px}" cy="${py}" r="6" style="animation-delay:${(i * 400 + j * 150)}ms"/><circle class="c" cx="${px}" cy="${py}" r="${rr}"/></g>`;
+          seats += `<g class="seat ${cls} ${x.varrimento ? 'var' : ''}" style="animation-delay:${(k++) * 28}ms" data-seat="${esc(x.data + '|' + x.tema)}" data-pert="${esc(x.pertinencia)}"><circle class="p" cx="${px}" cy="${py}" r="6" style="animation-delay:${(i * 400 + j * 150)}ms"/><circle class="c" cx="${px}" cy="${py}" r="${rr}"/></g>`;
         }));
       });
     });
@@ -764,12 +841,12 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     // interação: dica, clique no lugar (abre varrimento ou salta ao cartão), clique no setor (seleciona o dia)
     const tip = $('#tip');
     svg.addEventListener('mousemove', e => { const g = e.target.closest('[data-seat]'); if (!g){ tip.classList.remove('on'); return; } const x = pool.find(t=>t.data+'|'+t.tema===g.dataset.seat); if(!x) return;
-      tip.innerHTML = `<b>${esc(x.tema)}</b>${esc(x.dataLabel)}${x.hora?' · '+esc(x.hora):''} · <span class="pert p-${(PERT[x.pertinencia]||['reg'])[0]}" style="font-size:10px">${esc(x.pertinencia)}</span><br><small>${esc(x.tipoLabel||'')}${(x.uo||[]).length?' · '+x.uo.join(' · '):''}${x.varrimento?' · clique para abrir o varrimento':''}</small>`;
+      tip.innerHTML = `<b>${esc(x.tema)}</b>${esc(x.dataLabel)}${x.hora?' · '+esc(x.hora):''} · <span class="pert p-${(PERT[x.pertinencia]||['reg'])[0]}" style="font-size:10px">${esc(x.pertinencia)}</span><br><small>${esc(x.tipoLabel||'')}${(x.uo||[]).length?' · '+x.uo.join(' · '):''} · clique para ver a matéria</small>`;
       tip.style.left = Math.min(innerWidth-340, e.clientX+14)+'px'; tip.style.top = (e.clientY+16)+'px'; tip.classList.add('on'); });
     svg.addEventListener('mouseleave', () => tip.classList.remove('on'));
     svg.addEventListener('click', e => {
       const g = e.target.closest('[data-seat]');
-      if (g){ tip.classList.remove('on'); const x = pool.find(t=>t.data+'|'+t.tema===g.dataset.seat); if (x && x._hist){ location.href = BASE_ED + x._hist.ficheiro + (x.varrimento ? '#' + x.varrimento : ''); return; } if (g.dataset.ver && D.fichas[g.dataset.ver]){ abrir(g.dataset.ver); return; } abrirCartao(g.dataset.seat); return; }
+      if (g){ tip.classList.remove('on'); const x = pool.find(t=>t.data+'|'+t.tema===g.dataset.seat); if (x) detalheHero(x); return; }
       const sct = e.target.closest('[data-sd]'); if (sct && !sct.classList.contains('vazio')){ st.dias = new Set([sct.dataset.sd]); render(); $('.cal-wrap').scrollIntoView({behavior:'smooth'}); }
     });
   })();

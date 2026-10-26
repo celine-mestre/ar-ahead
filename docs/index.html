@@ -214,6 +214,20 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 .hero-kpis span{font-size:11.5px;color:rgba(255,255,255,.75);margin-top:4px}
 .hero .cta{display:inline-flex;align-items:center;gap:8px;background:var(--amarelo);color:#171715;border:0;border-radius:8px;padding:10px 16px;font-weight:600;font-size:13.5px;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.25)}
 .hero .cta:hover{transform:translateY(-1px)}
+.hero-det{color:#fff;align-self:start;max-height:430px;overflow:auto;padding-right:6px}
+.hero-det .voltar{background:none;border:0;color:rgba(255,255,255,.75);font:inherit;font-size:12px;cursor:pointer;padding:0;margin-bottom:10px;text-decoration:underline}
+.hero-det .hd-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;color:rgba(255,255,255,.8);margin-bottom:6px}
+.hero-det .hd-pert{font-size:10.5px;font-weight:700;border-radius:4px;padding:2px 7px;text-transform:uppercase;letter-spacing:.04em}
+.hero-det .hd-pert.ime{background:#ff6b61;color:#fff} .hero-det .hd-pert.vig{background:#f0c75e;color:#171715} .hero-det .hd-pert.reg{background:#9aa3ad;color:#171715}
+.hero-det h3{font-size:19px;line-height:1.25;margin:2px 0 6px;color:#fff;font-weight:600}
+.hero-det .hd-tipo{font-size:12px;color:rgba(255,255,255,.75);margin-bottom:10px}
+.hero-det .hd-ot{font-size:12.5px;line-height:1.5;color:rgba(255,255,255,.9);background:rgba(255,255,255,.07);border-left:3px solid var(--amarelo);border-radius:4px;padding:8px 10px;margin-bottom:10px;white-space:pre-line;max-height:150px;overflow:auto}
+.hero-det .hd-linha{font-size:12px;color:rgba(255,255,255,.85);margin:4px 0} .hero-det .hd-linha b{color:#fff;font-weight:600}
+.hero-det .hd-uo span{display:inline-block;font-size:10.5px;border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:1px 6px;margin:0 4px 4px 0}
+.hero-det .hd-acoes{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.hero-det .hd-acoes a,.hero-det .hd-acoes button{font:inherit;font-size:12px;border-radius:6px;padding:6px 11px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.hero-det .hd-acoes .p1{background:var(--amarelo);color:#171715;border:0;font-weight:600} .hero-det .hd-acoes .p2{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
+.hemi .seat.sel circle.c{stroke:var(--amarelo);stroke-width:3}
 .hero .leg{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:rgba(255,255,255,.75);margin-top:14px}
 .hero .leg i{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:-1px;background:#9aa3ad} .hero .leg i.ime{background:#ff6b61} .hero .leg i.vig{background:#f0c75e}
 .hemi{position:relative;width:100%;max-width:820px;margin:0 auto}
@@ -301,12 +315,13 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 
 
 <section class="hero" id="hero"><div class="hero-in">
-  <div>
+  <div class="hero-det" id="hero-det" hidden></div>
+  <div id="hero-resumo">
     <h2 id="hero-t">A semana em <em>relance</em></h2>
     <p class="lead" id="hero-lead"></p>
     <div class="hero-kpis" id="hero-kpis"></div>
     <button class="cta" id="hero-cta"><svg class="ic"><use href="#i-list"/></svg>Entrar na agenda</button>
-    <div class="leg"><span><i class="ime"></i>imediato, com varrimento</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span>cada lugar é uma matéria · quanto mais perto da Mesa, mais pertinente: anel interior imediato, meio vigilância, exterior registo · da esquerda para a direita, da manhã para a tarde · clique para abrir</span></div>
+    <div class="leg"><span><i class="ime"></i>imediato, com varrimento</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span>cada lugar é uma matéria · quanto mais perto da Mesa, mais pertinente: anel interior imediato, meio vigilância, exterior registo · da esquerda para a direita, da manhã para a tarde · clique num lugar para ver a matéria</span></div>
   </div>
   <div class="hemi"><svg id="hemi" viewBox="0 0 800 430" role="img" aria-label="AR Preview — hemiciclo da semana: uma matéria por lugar, agrupadas por dia"></svg></div>
 </div></section>
@@ -721,6 +736,44 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
 
   // ---------- página de entrada: hemiciclo
   let hemiSemana = null, hemiAnimado = false;
+  // detalhe da matéria no lado esquerdo do hero (ao clicar num lugar do hemiciclo)
+  function detalheHero(x){
+    const det = $('#hero-det'), res = $('#hero-resumo');
+    $('#hemi').querySelectorAll('.seat.sel').forEach(g => g.classList.remove('sel'));
+    if (!x) { det.hidden = true; res.hidden = false; return; }
+    const g = $('#hemi').querySelector(`[data-seat="${CSS.escape(x.data+'|'+x.tema)}"]`); if (g) g.classList.add('sel');
+    const cls = (PERT[x.pertinencia]||['reg'])[0];
+    // ordem do dia sem a grelha de tempos (GOV 70 m, PSD 44 m…), que não interessa aqui
+    const linhasOT = []; for (const l of (x.ordemTrabalhos || x.resumo || '').replace(/ORDEM DO DIA/g,'').split('\n').map(s=>s.trim()).filter(Boolean)) {
+      if (/^(GOV|PSD|PS|CH|IL|L|PCP|BE|CDS(-PP)?|CDSP-PP|PAN|JPP|Tempos|\d+(\.º)? Dia|\d+ m\b)/.test(l)) break; linhasOT.push(l); }
+    const ot = linhasOT.join('\n').slice(0, 900);
+    const c = x.cobertura;
+    const ar = arUrl(x), f = x.varrimento && D.fichas[x.varrimento];
+    const extra = (x.ligacoes||[]).filter(l => l.url && l.url !== ar && !(x.id_ar && l.titulo === 'Agenda parlamentar'));
+    det.innerHTML = `<button class="voltar" data-hd-voltar>← voltar à semana</button>
+      <div class="hd-top"><span class="hd-pert ${cls}">${esc(x.pertinencia)}</span><span>${esc(x.dataLabel||'')}${x.hora?' · '+esc(x.hora):''}</span>${x.novo?'<span>· novo</span>':''}${x.alterado&&!x.novo?'<span>· alterado</span>':''}${x._hist?`<span>· ${esc(nomeEd(x._hist))}</span>`:''}</div>
+      <h3>${esc(x.tema)}</h3>
+      <div class="hd-tipo">${esc(x.tipoLabel||'')}${x.interveniente&&x.interveniente!=='—'?' · '+esc(x.interveniente):''}</div>
+      ${ot?`<div class="hd-ot">${esc(ot)}${(x.ordemTrabalhos||'').length>900?'…':''}</div>`:''}
+      <div class="hd-linha hd-uo"><b>Unidades:</b> ${(x.uo||[]).length ? x.uo.map(u=>`<span>${esc(u)}</span>`).join('') : 'sem unidade atribuída'}</div>
+      ${(x.criterio||[]).length?`<div class="hd-linha"><b>Classificação:</b> ${x.criterio.map(esc).join(' · ')}${x.validado?' · validada':' · automática, a validar'}</div>`:''}
+      ${c?`<div class="hd-linha"><b>Cobertura:</b> ${cobTxt(c)}</div>`:''}
+      ${f&&f.enquadramento&&f.origem!=='radar'?`<div class="hd-linha"><b>Enquadramento:</b> ${esc(f.enquadramento)}</div>`:''}
+      ${extra.length?`<div class="hd-linha"><b>Ligações:</b> ${extra.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener" style="color:#fff">${esc(l.titulo)}</a>`).join(' · ')}</div>`:''}
+      <div class="hd-acoes">
+        ${x._hist ? `<a class="p1" href="${esc(BASE_ED + x._hist.ficheiro + (x.varrimento ? '#' + x.varrimento : ''))}">Abrir na ${esc(nomeEd(x._hist).toLowerCase())}</a>`
+          : f ? `<button class="p1" data-hd-ver="${esc(x.varrimento)}">${f.origem==='radar'?'Ver notícias':'Ver varrimento'}${c&&c.n?` (${c.n})`:''}</button>`
+          : (c && c.n ? `<button class="p1" data-hd-lista="${esc(idDe(x))}">Ver notícias (${c.n})</button>` : '')}
+        ${ar?`<a class="p2" href="${esc(ar)}" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg>Ver na agenda da AR</a>`:''}
+        ${!x._hist && !f ? pedirVarr(x).replace('class="pedir lig"', 'class="p2"') : ''}
+      </div>`;
+    res.hidden = true; det.hidden = false; det.scrollTop = 0;
+  }
+  document.addEventListener('click', e => {
+    if (e.target.closest('[data-hd-voltar]')) { detalheHero(null); return; }
+    const v = e.target.closest('[data-hd-ver]'); if (v) { abrir(v.dataset.hdVer); return; }
+    const l = e.target.closest('[data-hd-lista]'); if (l) { abrirLista(l.dataset.hdLista); return; }
+  });
   // os filtros (unidade, pertinência, pesquisa) e os dias selecionados aplicam-se também ao hemiciclo
   function filtrarHemi(){
     const svg = $('#hemi'); let n = 0, nv = 0;
@@ -732,7 +785,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     const svg = $('#hemi'); const cx=400, cy=400, R0=150, R1=372;
     const semSel = st.semana && st.semana !== segDe(iniSem) ? st.semana : null;
     if (hemiSemana === (semSel || 'cur') && svg.childElementCount) return;   // só se a semana mudou
-    hemiSemana = semSel || 'cur';
+    hemiSemana = semSel || 'cur'; detalheHero(null);
     const diasSem = semSel ? diasDe(semSel) : [...semanaIso].sort(); const nD = diasSem.length;
     const todos = semSel ? pool.filter(x => x.data >= diasSem[0] && x.data <= diasSem[6]) : todosSemana;   // matérias da semana mostrada
     const edSel = semSel ? edDe(diasSem[0]) : null;
@@ -766,7 +819,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
           const n = lista.length, a = a0 + 0.015 + (span - 0.03) * (n === 1 ? .5 : j / (n - 1));
           const [px, py] = pol(rf, a); const cls = (PERT[x.pertinencia] || ['reg'])[0];
           const rr = cls === 'ime' ? 7 : cls === 'vig' ? 6 : 4.5;
-          seats += `<g class="seat ${cls} ${x.varrimento ? 'var' : ''}" style="animation-delay:${(k++) * 28}ms" data-seat="${esc(x.data + '|' + x.tema)}" data-ver="${esc(x.varrimento || '')}" data-pert="${esc(x.pertinencia)}"><circle class="p" cx="${px}" cy="${py}" r="6" style="animation-delay:${(i * 400 + j * 150)}ms"/><circle class="c" cx="${px}" cy="${py}" r="${rr}"/></g>`;
+          seats += `<g class="seat ${cls} ${x.varrimento ? 'var' : ''}" style="animation-delay:${(k++) * 28}ms" data-seat="${esc(x.data + '|' + x.tema)}" data-pert="${esc(x.pertinencia)}"><circle class="p" cx="${px}" cy="${py}" r="6" style="animation-delay:${(i * 400 + j * 150)}ms"/><circle class="c" cx="${px}" cy="${py}" r="${rr}"/></g>`;
         }));
       });
     });
@@ -788,12 +841,12 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     // interação: dica, clique no lugar (abre varrimento ou salta ao cartão), clique no setor (seleciona o dia)
     const tip = $('#tip');
     svg.addEventListener('mousemove', e => { const g = e.target.closest('[data-seat]'); if (!g){ tip.classList.remove('on'); return; } const x = pool.find(t=>t.data+'|'+t.tema===g.dataset.seat); if(!x) return;
-      tip.innerHTML = `<b>${esc(x.tema)}</b>${esc(x.dataLabel)}${x.hora?' · '+esc(x.hora):''} · <span class="pert p-${(PERT[x.pertinencia]||['reg'])[0]}" style="font-size:10px">${esc(x.pertinencia)}</span><br><small>${esc(x.tipoLabel||'')}${(x.uo||[]).length?' · '+x.uo.join(' · '):''}${x.varrimento?' · clique para abrir o varrimento':''}</small>`;
+      tip.innerHTML = `<b>${esc(x.tema)}</b>${esc(x.dataLabel)}${x.hora?' · '+esc(x.hora):''} · <span class="pert p-${(PERT[x.pertinencia]||['reg'])[0]}" style="font-size:10px">${esc(x.pertinencia)}</span><br><small>${esc(x.tipoLabel||'')}${(x.uo||[]).length?' · '+x.uo.join(' · '):''} · clique para ver a matéria</small>`;
       tip.style.left = Math.min(innerWidth-340, e.clientX+14)+'px'; tip.style.top = (e.clientY+16)+'px'; tip.classList.add('on'); });
     svg.addEventListener('mouseleave', () => tip.classList.remove('on'));
     svg.addEventListener('click', e => {
       const g = e.target.closest('[data-seat]');
-      if (g){ tip.classList.remove('on'); const x = pool.find(t=>t.data+'|'+t.tema===g.dataset.seat); if (x && x._hist){ location.href = BASE_ED + x._hist.ficheiro + (x.varrimento ? '#' + x.varrimento : ''); return; } if (g.dataset.ver && D.fichas[g.dataset.ver]){ abrir(g.dataset.ver); return; } abrirCartao(g.dataset.seat); return; }
+      if (g){ tip.classList.remove('on'); const x = pool.find(t=>t.data+'|'+t.tema===g.dataset.seat); if (x) detalheHero(x); return; }
       const sct = e.target.closest('[data-sd]'); if (sct && !sct.classList.contains('vazio')){ st.dias = new Set([sct.dataset.sd]); render(); $('.cal-wrap').scrollIntoView({behavior:'smooth'}); }
     });
   })();

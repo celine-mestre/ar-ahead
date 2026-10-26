@@ -44,21 +44,18 @@ def pelo_google(lig, tempo=12):
             m = re.search(p, pag, re.I)
             if m and plausivel(html.unescape(m.group(1))): return html.unescape(m.group(1))
         return None
-    req = json.dumps([[['Fbv4je', json.dumps(['garturlreq', [['pt-PT', 'PT', ['FINANCE_TOP_INDICES', 'WEB_TEST_1_0_0'], None, None, 1, 1, 'PT:pt', None, 180, None, None, None, None, None, 0, None, None, [1608992183, 723341000]], 'pt-PT', 'PT', 1, [2, 3, 4, 8], 1, 0, '655000234', 0, 0, None, 0], ident, int(ts.group(1)), sg.group(1)]), None, 'generic']]])
-    dados = urllib.parse.urlencode({'f.req': req}).encode()
-    r = urllib.request.urlopen(urllib.request.Request('https://news.google.com/_/DotsSplashUi/data/batchexecute', data=dados, headers={**UA, 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}), timeout=tempo)
+    # pedido no formato que o próprio Google usa (o mesmo do pacote googlenewsdecoder)
+    art = ["Fbv4je", f'["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{ident}",{ts.group(1)},"{sg.group(1)}"]']
+    dados = ('f.req=' + urllib.parse.quote(json.dumps([[art]]))).encode()
+    r = urllib.request.urlopen(urllib.request.Request('https://news.google.com/_/DotsSplashUi/data/batchexecute', data=dados,
+        headers={**UA, 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}), timeout=tempo)
     txt = r.read().decode('utf-8', 'replace')
-    for linha in txt.split('\n'):
-        if '"garturlres"' in linha or 'Fbv4je' in linha:
-            try:
-                ext = json.loads(linha)
-                for bloco in ext:
-                    if isinstance(bloco, list) and len(bloco) > 2 and isinstance(bloco[2], str):
-                        interior = json.loads(bloco[2])
-                        if isinstance(interior, list) and len(interior) > 1 and plausivel(interior[1]): return interior[1]
-            except Exception: pass
-    for m in re.findall(r'https?://[^"\\\s]{20,}', txt):
-        if plausivel(m): return m
+    try:
+        bloco = json.loads(txt.split('\n\n')[1])[:-2]
+        u = json.loads(bloco[0][2])[1]
+        if plausivel(u): return u
+    except Exception:
+        if len(AMOSTRA) < 3: AMOSTRA.append('batchexecute: ' + re.sub(r'\s+', ' ', txt)[:300])
     return None
 
 def seguindo(lig, tempo=12):
