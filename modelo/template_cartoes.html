@@ -634,14 +634,14 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     const nHist = Object.values(dias).reduce((s,v)=>s+v.length,0);
     return `<details class="todas" ${aberta?'open':''}><summary><svg class="ic"><use href="#i-news"/></svg>Notícias encontradas (${c.n}${nHist<L.length?` · ${nHist} histórias`:''})</summary>
       <p class="ln-nota">${cobTxt(c)}${c.n > L.length ? ` · mostram-se as ${L.length} mais recentes` : ''}. Lista automática, sem análise; a mesma notícia publicada em vários órgãos aparece uma só vez.</p>
-      <div class="ln-acoes"><button type="button" data-exportar="${esc(c._titulo||'')}">Exportar para Excel (CSV)</button><button type="button" data-imprimir>Imprimir / PDF</button></div>
+      <div class="ln-acoes"><button type="button" data-exportar="${esc(c._titulo||'')}">Exportar para Excel (CSV)</button><span class="ln-nota" style="margin:0 0 0 6px;align-self:center">(para imprimir, use o botão no rodapé)</span></div>
       <input class="ln-q" type="search" placeholder="Filtrar por órgão ou palavra do título…"><div class="ln-lista">${corpo}</div></details>`;
   }
   let atual = null;
   function abrir(k){
     const f = D.fichas[k]; if (!f) return; atual = k;
     $('#g-titulo').innerHTML = esc(f.titulo) + (f.gerado_por ? `<span class="nivel">${f.nivel==='curta'?'ficha curta':'ficha'} · ${esc(f.revista_por ? 'revista por '+f.revista_por : f.gerado_por)}</span>` : ''); $('#g-meta').textContent = f.meta;
-    const c = coberturaDe(k); if (c) { c._titulo = f.titulo; } listaAtual = c || null;
+    const c = coberturaDe(k); if (c) { c._titulo = f.titulo; } listaAtual = c || null; listaMateria = pool.find(y => !y._hist && y.varrimento===k) || null;
     const amostra = f.amostra && f.origem!=='radar' ? `<div class="g-amostra">${f.origem==='radar'?'Seleção automática':'Amostra'} de <b>${f.amostra.analisadas}</b> notícias${f.origem==='radar'?'':' analisadas'}, de <b>${f.amostra.encontradas}</b> encontradas em 60 dias no Radar de Notícias, escolhidas ao longo do período (dias de maior cobertura, variedade de órgãos e as mais recentes).</div>` : '';
     const novas = f.novas ? `<div class="g-novas"><svg class="ic"><use href="#i-alert"/></svg> <b>${f.novas} ${f.novas===1?'notícia nova':'notícias novas'}</b> desde ${f.revista_por ? 'a revisão desta ficha' : 'que esta ficha foi feita'}${f.base && f.base.em ? ` (${esc(fmtD(f.base.em))})` : ''}. Veja-as na lista completa, no fim.</div>` : '';
     // sem análise do Amália, a seleção é redundante com a lista: mostra-se só a lista completa, aberta
@@ -653,7 +653,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
   }
   // cartão de uma matéria na gaveta (a partir da agenda hora a hora ou do hemiciclo)
   function abrirCartao(id){
-    const x = pool.find(y => y.data+'|'+y.tema===id); if (!x) return; atual = null; if (x.cobertura) { x.cobertura._titulo = x.tema; listaAtual = x.cobertura; }
+    const x = pool.find(y => y.data+'|'+y.tema===id); if (!x) return; atual = null; if (x.cobertura) { x.cobertura._titulo = x.tema; listaAtual = x.cobertura; listaMateria = x; }
     const [cls,pc] = PERT[x.pertinencia]||['reg','p-reg'];
     $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">${esc(x.pertinencia)}</span>`;
     $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''}${x.uo&&x.uo.length?' · UO de referência: '+x.uo.join(' · '):''}`;
@@ -663,7 +663,7 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
   function abrirLista(id){
-    const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null; x.cobertura._titulo = x.tema; listaAtual = x.cobertura;
+    const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null; x.cobertura._titulo = x.tema; listaAtual = x.cobertura; listaMateria = x;
     $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">notícias · sem ficha</span>`;
     $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''} · Radar de Notícias, últimos ${x.cobertura.dias} dias`;
     $('#g-corpo').innerHTML = `<div class="g-amostra">Esta matéria não tem ficha de varrimento. Abaixo, todas as notícias que o Radar de Notícias encontrou sobre o assunto, sem análise. ${pedirVarr(x)}</div>` + (listaHTML(x.cobertura, true) || '<p class="ln-nota">Sem notícias encontradas.</p>');
@@ -671,13 +671,25 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
   // exportação: todas as notícias da lista aberta (uma linha por notícia e órgão), CSV com BOM e «;» para o Excel em português
-  let listaAtual = null;
+  let listaAtual = null, listaMateria = null;
   $('#g-corpo').addEventListener('click', e => {
-    const bx = e.target.closest('[data-exportar]'); const bp = e.target.closest('[data-imprimir]');
-    if (bp) { document.body.classList.add('imprimir-gaveta'); window.print(); setTimeout(()=>document.body.classList.remove('imprimir-gaveta'), 1000); return; }
+    const bx = e.target.closest('[data-exportar]');
     if (!bx || !listaAtual) return;
-    const L = listaAtual.todas || []; const q = s => '"' + String(s||'').replace(/"/g,'""') + '"';
-    const linhas = [['Data','Hora','Órgão','Título','Ligação'].map(q).join(';')].concat(L.map(n => [n[0].slice(0,10), n[0].slice(11,16), n[1], n[2], n[3]].map(q).join(';')));
+    const L = listaAtual.todas || []; const c = listaAtual; const x = listaMateria || {}; const q = s => '"' + String(s||'').replace(/"/g,'""') + '"';
+    const agora = new Date(); const dt = `${agora.getFullYear()}-${String(agora.getMonth()+1).padStart(2,'0')}-${String(agora.getDate()).padStart(2,'0')} ${String(agora.getHours()).padStart(2,'0')}:${String(agora.getMinutes()).padStart(2,'0')}`;
+    const exps = (x.expressoes || x.expressoes_auto || []).join(' | ') || 'palavras do assunto (contagem indicativa)';
+    const meta = [
+      ['AR Preview — notícias sobre uma matéria da agenda da Assembleia da República'],
+      ['Matéria', x.tema || c._titulo || ''], ['Data da reunião', `${x.dataLabel||x.data||''}${x.hora?' · '+x.hora:''}`], ['Tipo / órgão', x.tipoLabel || ''],
+      ['Unidade(s) de referência', (x.uo||[]).join(', ') || '—'], ['Pertinência', x.pertinencia || ''], ['Ligação à reunião na AR', arUrl(x) || ''],
+      ['Edição', `n.º ${D.edicao.numero} · ${D.edicao.semana}`],
+      ['Fonte das notícias', 'Radar de Notícias por área governativa (UPE / Suporte à Decisão, SGGov): órgãos de comunicação social nacionais acompanhados pelo Radar'],
+      ['Janela', `últimos ${c.dias||60} dias até ${c.ref||''}`], ['Expressões de pesquisa', exps],
+      ['Notícias encontradas', `${c.n||L.length} em ${c.dias||60} dias · ${c.n7||0} nos últimos 7 dias · ${c.n7ant||0} nos 7 dias anteriores${c.n>L.length?` · exportadas as ${L.length} mais recentes`:''}`],
+      ['Ligações', 'endereço do próprio órgão de comunicação social; quando o reencaminhamento do Google Notícias ainda não foi resolvido, a ligação do Google abre o mesmo artigo'],
+      ['Exportado em', dt], []
+    ].map(r => r.map(q).join(';'));
+    const linhas = meta.concat([['Data','Hora','Órgão','Título','Ligação'].map(q).join(';')], L.map(n => [n[0].slice(0,10), n[0].slice(11,16), n[1], n[2], n[3]].map(q).join(';')));
     const nome = (listaAtual._titulo||'noticias').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
     const blob = new Blob(['\ufeff' + linhas.join('\r\n')], {type:'text/csv;charset=utf-8'}); const a = document.createElement('a');
     a.href = URL.createObjectURL(blob); a.download = `ar-preview-noticias-${nome}.csv`; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); }, 500);

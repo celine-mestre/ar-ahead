@@ -32,7 +32,8 @@ Os horários estão em UTC no workflow. No horário de verão (de março a outub
 6. scripts/amalia_varrimento.py Amália: fichas completas («Imediato») e curtas («Vigilância»)
 7. scripts/gerar.py             modelo + dados + histórico   → saida/ar-preview.html
 8. scripts/pdf.js               Chromium                      → saida/ar-preview.pdf
-9. scripts/indice_edicoes.py    lista de edições              → docs/edicoes/indice.json
+9. scripts/resolver_ligacoes.py ligações diretas às notícias (reencaminhamentos do Google Notícias → endereço do jornal; cache em dados/ligacoes.json)
+10. scripts/indice_edicoes.py   lista de edições              → docs/edicoes/indice.json
    scripts/email_resumo.py      corpo do email de segunda-feira
 ```
 
@@ -90,7 +91,7 @@ ar-123456;DCIRI|UPE;Vigilância;Conselho das Comunidades Portuguesas;Conselho da
 - Também se aplica às matérias das semanas seguintes (por exemplo, para marcar já como «Imediato» uma grande matéria de novembro).
 - As expressões de pesquisa tornam a contagem de notícias precisa.
 
-Matérias acrescentadas à mão (por exemplo, prazos de pareceres) têm `"manual": true` e nunca são retiradas automaticamente.
+A agenda vem exclusivamente da Assembleia da República: não se acrescentam matérias à mão (prazos ou lembretes que não constem da agenda da AR ficam de fora).
 
 ---
 

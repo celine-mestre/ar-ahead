@@ -62,6 +62,9 @@ jobs:
             if [ ! -f modelos/amalia.gguf ]; then curl -L -o modelos/amalia.gguf "$AMALIA_GGUF_URL"; fi
             python scripts/amalia_varrimento.py
           else echo "fichas em dia: nenhuma matéria precisa de ficha nova ou atualizada"; fi
+      - name: Ligações diretas às notícias (resolve os reencaminhamentos do Google Notícias; cache em dados/ligacoes.json)
+        timeout-minutes: 25
+        run: python scripts/resolver_ligacoes.py || echo "resolução de ligações falhou; ficam as do Google"
       - name: Verificar se a página precisa de ser refeita
         id: muda
         run: |
