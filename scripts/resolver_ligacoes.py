@@ -15,6 +15,9 @@ from concurrent.futures import ThreadPoolExecutor
 
 CACHE = pathlib.Path('dados/ligacoes.json')
 UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'}
+# sem estes cookies o Google responde com a página de consentimento (consent.google.com) e nada se resolve
+UA['Cookie'] = 'CONSENT=YES+cb.20240101-00-p0.pt+FX+000; SOCS=CAESHAgBEhJnd3NfMjAyNDAxMDEtMF9SQzIaAnB0IAEaBgiA_LyaBg'
+UA['Accept-Language'] = 'pt-PT,pt;q=0.9,en;q=0.6'
 MAX = int(sys.argv[sys.argv.index('--max') + 1]) if '--max' in sys.argv else 1200
 
 def plausivel(u):
@@ -35,6 +38,7 @@ def pelo_google(lig, tempo=12):
     ident = lig.split('/articles/')[-1].split('?')[0]
     pag = urllib.request.urlopen(urllib.request.Request(f'https://news.google.com/articles/{ident}', headers=UA), timeout=tempo).read().decode('utf-8', 'replace')
     sg = re.search(r'data-n-a-sg="([^"]+)"', pag); ts = re.search(r'data-n-a-ts="([^"]+)"', pag)
+    if not sg and len(AMOSTRA) < 2: AMOSTRA.append(re.sub(r'\s+', ' ', re.sub(r'<script.*?</script>|<style.*?</style>', '', pag, flags=re.S))[:400])
     if not sg or not ts:
         for p in (r'data-n-au="([^"]+)"', r'<link[^>]+rel="canonical"[^>]+href="([^"]+)"'):
             m = re.search(p, pag, re.I)
@@ -68,6 +72,7 @@ def seguindo(lig, tempo=12):
             if plausivel(c): return c
     return None
 
+AMOSTRA = []
 DIAG = []   # diagnóstico das primeiras tentativas (gravado em dados/ligacoes_diag.json)
 def resolver(lig):
     if not lig or 'news.google.' not in lig: return lig
@@ -107,7 +112,7 @@ if __name__ == '__main__':
         CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding='utf-8')
         ok = sum(1 for u in pend if u in cache)
         print(f'{ok} resolvidas nesta corrida; {len(cache)} em cache')
-        pathlib.Path('dados/ligacoes_diag.json').write_text(json.dumps({'tentadas': len(pend), 'resolvidas': ok, 'exemplos_falhados': DIAG}, ensure_ascii=False, indent=1), encoding='utf-8')
+        pathlib.Path('dados/ligacoes_diag.json').write_text(json.dumps({'tentadas': len(pend), 'resolvidas': ok, 'exemplos_falhados': DIAG, 'pagina_recebida': AMOSTRA}, ensure_ascii=False, indent=1), encoding='utf-8')
     # aplica a cache a toda a edição
     n = 0
     def troca(u):
