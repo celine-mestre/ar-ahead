@@ -87,6 +87,8 @@ else:
         if a:
             vistos.add(x['chave'])
             y = dict(a); y.pop('retirado', None)
+            if not a.get('uo') and not a.get('validado') and not a.get('amalia') and x.get('uo'):   # sem unidade: as regras (atualizadas) voltam a propor
+                y['uo'], y['pertinencia'] = x['uo'], x['pertinencia']
             for k in ('hora', 'interveniente', 'tipoLabel', 'ligacoes'):
                 y[k] = x[k] or a.get(k, '')
             if x['ordemTrabalhos'] and x['ordemTrabalhos'] != a.get('ordemTrabalhos'):
