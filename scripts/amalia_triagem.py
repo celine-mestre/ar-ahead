@@ -34,6 +34,7 @@ Devolve: {{"assunto": "título curto com o ASSUNTO principal (não o nome da com
     if not x.get('validado') and not x['uo']:
         x['uo'] = [u for u in (r.get('uo') or []) if u in ('DACDP', 'DAPL', 'UPE', 'DCIRI', 'Transversal')]
         if r.get('pertinencia') in ('Imediato', 'Vigilância', 'Registo'): x['pertinencia'] = r['pertinencia']
+        x['criterio'] = ['Amália: ' + (r.get('justificacao') or 'proposta do modelo')[:120]]
     if r.get('assunto'): x['orgao'] = x.get('orgao') or x['tema']; x['tema'] = r['assunto']
     if r.get('resumo'): x['resumo'] = r['resumo']
     n += 1

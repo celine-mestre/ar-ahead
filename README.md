@@ -63,6 +63,18 @@ Secções lidas: Plenário, Comissões Parlamentares, Grupo de Trabalho, Grupo d
 
 ---
 
+## Quem decide «Imediato», «Vigilância» e «Registo»
+
+Por esta ordem, e cada passo prevalece sobre o anterior:
+
+1. **Regras (`dados/regras_uo.json`)** — listas de termos por unidade (DACDP, DAPL, UPE, DCIRI), validadas pelos dirigentes. Um termo da lista `termos` dá **Vigilância** e atribui a unidade; um termo da lista `imediato` dá **Imediato**, mas só quando aparece no assunto principal (o tema, ou toda a ordem do dia no Plenário). Os termos `transversal` marcam a matéria para todas as unidades. A lista `governo` (audições de ministros, comissões de inquérito, interpelações) dá pelo menos Vigilância e DACDP. Sem nenhum termo, fica **Registo**.
+2. **Amália** (quando ativo) — só para as matérias que as regras deixaram sem unidade: propõe unidade, pertinência, assunto e expressões de pesquisa, com uma justificação.
+3. **Revisão humana (`dados/correcoes.csv`)** — prevalece sempre e marca a matéria como validada.
+
+Cada cartão mostra a linha «Classificação: …» com o termo ou a justificação que decidiu, para a revisão perceber o porquê e corrigir a regra, não só o caso.
+
+---
+
 ## Revisão humana
 
 Para corrigir a classificação de uma matéria, acrescenta-se uma linha a `dados/correcoes.csv`:

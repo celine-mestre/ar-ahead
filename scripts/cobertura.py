@@ -44,7 +44,7 @@ def corpus(local=None):
         k = (a.get('ligacao') or '', norm(a.get('titulo'))[:90] + '|' + (a.get('fonte') or ''))
         if (a.get('data') or '')[:10] < limite or k[0] in vistos or k[1] in vistos: continue
         dom, fonte = (a.get('dominio') or ''), (a.get('fonte') or '')
-        if '(' in fonte or dom.endswith(ESTRANGEIROS) or 'brasil' in dom: continue   # só OCS nacionais
+        if '(' in fonte or dom.endswith(ESTRANGEIROS) or any(s in (dom + ' ' + norm(fonte)) for s in ('brasil', 'mocambique', 'cartamz', 'angola', 'macau')): continue   # só OCS nacionais
         vistos.update(k); t = norm((a.get('titulo') or '') + ' ' + (a.get('resumo') or ''))
         a['_t'] = t; a['_w'] = set(re.findall(r'[a-z0-9]+', t)); out.append(a)
     return out

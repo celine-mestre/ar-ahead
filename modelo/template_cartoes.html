@@ -181,8 +181,10 @@ a.ev{color:inherit;text-decoration:none} .ev.arq .t b{color:#444} .ev.cal-ev .d{
 details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px} details.todas summary{cursor:pointer;color:var(--azul);font-weight:600;font-size:14px;display:flex;align-items:center;gap:7px}
 .ln-nota{font-size:11.5px;color:var(--suave);margin:6px 0} .ln-q{width:100%;border:1px solid var(--borda);border-radius:8px;padding:7px 10px;font:inherit;font-size:12.5px;margin:4px 0 8px}
 .ln-dia{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--suave);margin:10px 0 3px;padding-bottom:2px;border-bottom:1px solid var(--borda)}
-.ln{font-size:12.5px;padding:3px 0;line-height:1.35} .ln-f{display:inline-block;min-width:120px;color:var(--suave);font-size:11.5px}
+.ln{font-size:12.5px;padding:4px 0;line-height:1.35;border-bottom:1px dotted #eee} .ln-f{display:block;color:var(--suave);font-size:11px;margin-top:1px} .ln-f a{color:var(--suave)} .ln-f i{font-style:normal;color:#999}
 .ver.sec{background:#fff;color:var(--azul);border:1px solid var(--azul)}
+.gaveta-cartao .cartao{max-width:none;margin-bottom:12px} .gaveta-cartao .c-resumo.clamp{-webkit-line-clamp:unset;display:block}
+.c-crit{font-size:11px;color:var(--suave);margin-top:4px} .c-crit b{font-weight:600;color:#666}
 .nivel{display:inline-block;font-size:10.5px;font-weight:600;border-radius:4px;padding:1px 7px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);margin-left:8px;vertical-align:2px}
 .tag.novo{background:#fff4c2;color:#6b5200;border-color:#f0d77a}
 .tag.alt{background:#eef3f7;color:var(--azul);border-color:#d9e3ec}
@@ -490,8 +492,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   $('#ad-lista').addEventListener('click', e => {
     if (e.target.closest('[data-ver]')) return; // tratado globalmente
     const ev = e.target.closest('[data-ir-cartao]'); if (!ev) return;
-    const c = document.querySelector(`.cartao[data-id="${CSS.escape(ev.dataset.irCartao)}"]`);
-    if (c){ c.scrollIntoView({behavior:'smooth',block:'center'}); c.style.boxShadow='0 0 0 3px var(--amarelo)'; setTimeout(()=>c.style.boxShadow='',1600); }
+    abrirCartao(ev.dataset.irCartao);
   });
   // «Mais à frente»: o que a AR já publicou para as semanas seguintes + calendarização mensal
   if (futuros.length || (D.calendarizacao||[]).length) {
@@ -543,6 +544,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
       <p class="c-resumo ${longo?'clamp':''}">${esc(x.ordemTrabalhos||res)}</p>
       ${longo?`<button class="c-mais" data-mais>Ver tudo</button>`:''}
       ${x.cobertura ? `<div class="c-cob"><span>${cobTxt(x.cobertura)}</span>${x.cobertura.ultimas&&x.cobertura.ultimas.length?`<details><summary>notícias mais recentes</summary><ul>${x.cobertura.ultimas.map(u=>`<li>${esc(u.data)} · <a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.fonte)}</a> — ${esc(u.titulo)}</li>`).join('')}</ul></details>`:''}</div>` : ''}
+      ${(x.criterio||[]).length?`<div class="c-crit"><b>Classificação:</b> ${x.criterio.map(esc).join(' · ')}${x.validado?' · validada':''}</div>`:''}
       <div class="c-uo">${uos}${x._hist?`<span class="tag arq">arquivo · ${esc(nomeEd(x._hist).replace('Edição ',''))}</span>`:''}${x._fut?`<span class="tag futt">semana seguinte</span>`:''}${x.novo?`<span class="tag novo">novo · ${esc(fmtD(x.novo))}</span>`:''}${x.alterado && !x.novo?`<span class="tag alt">alterado · ${esc(fmtD(x.alterado))}</span>`:''}</div>
       <div class="c-foot">${foot}</div>
     </article>`;
@@ -570,6 +572,8 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     if (st.dias.size) { ds.sort(ordem); ag.sort(ordem); }
     $('#n-destaques').textContent = `${ds.length} de ${C.filter(ehDestaque).length}`; $('#n-agenda').textContent = `${ag.length} de ${C.filter(x=>!ehDestaque(x)).length}`;
     $('#g-destaques').innerHTML = ds.length ? ds.map(cartao).join('') : `<div class="vazio-msg">${st.dias.size?'Sem destaques com varrimento nos dias selecionados.':'Nenhum destaque corresponde aos filtros.'}</div>`;
+    const semSec = !st.pert.has('Vigilância') && !st.pert.has('Registo');
+    ['#t-agenda','#aviso','#g-agenda'].forEach(s => $(s).hidden = semSec);
     $('#g-agenda').innerHTML = ag.length ? ag.map(cartao).join('') : `<div class="vazio-msg">Nenhuma matéria corresponde aos filtros${st.pert.has('Registo')?'':' · as matérias de «Registo» estão ocultas'}.</div>`;
   }
   document.body.addEventListener('click', e => {
@@ -592,10 +596,16 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   const coberturaDe = k => pool.filter(x => !x._hist && x.varrimento===k && x.cobertura).map(x=>x.cobertura).sort((a,b)=>(b.todas||[]).length-(a.todas||[]).length)[0];
   function listaHTML(c, aberta){
     const L = (c && c.todas) || []; if (!L.length) return '';
-    const dias = {}; L.forEach(n => (dias[n[0].slice(0,10)] = dias[n[0].slice(0,10)] || []).push(n));
-    const corpo = Object.keys(dias).sort().reverse().map(dk => `<div class="ln-dia">${esc(fmtD(dk))} · ${dias[dk].length}</div>` + dias[dk].map(n => `<div class="ln" data-t="${esc((n[1]+' '+n[2]).toLowerCase())}"><span class="ln-f">${esc(n[1])}</span> ${n[3]?`<a href="${esc(n[3])}" target="_blank" rel="noopener">${esc(n[2])}</a>`:esc(n[2])}</div>`).join('')).join('');
-    return `<details class="todas" ${aberta?'open':''}><summary><svg class="ic"><use href="#i-news"/></svg>Todas as notícias encontradas (${c.n})</summary>
-      <p class="ln-nota">${cobTxt(c)}${c.n > L.length ? ` · mostram-se as ${L.length} mais recentes` : ''}. Lista automática, sem análise; inclui notícias apenas de contexto.</p>
+    // a mesma notícia (despacho da Lusa) sai em vários órgãos: agrupa-se por título normalizado, uma linha com todos os órgãos
+    const chaveT = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/["“”'«»]/g,'').replace(/\s*[-–—:,]\s*(diz|afirma|garante|alerta|avisa|admite)?\s*(o\s+)?(governo|ministro|ministra|pm|tdc)\s*$/,'').replace(/[^a-z0-9]+/g,' ').trim().split(' ').slice(0,9).join(' ');
+    const dias = {}; const vistas = new Map();
+    L.forEach(n => { const dk = n[0].slice(0,10), k = chaveT(n[2]); const j = vistas.get(k);
+      if (j && j.dk === dk) { if (!j.fontes.some(f=>f[0]===n[1])) j.fontes.push([n[1], n[3]]); return; }
+      const g = {dk, titulo:n[2], url:n[3], fontes:[[n[1], n[3]]]}; vistas.set(k, g); (dias[dk] = dias[dk] || []).push(g); });
+    const corpo = Object.keys(dias).sort().reverse().map(dk => `<div class="ln-dia">${esc(fmtD(dk))} · ${dias[dk].length}</div>` + dias[dk].map(g => `<div class="ln" data-t="${esc((g.fontes.map(f=>f[0]).join(' ')+' '+g.titulo).toLowerCase())}">${g.url?`<a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.titulo)}</a>`:esc(g.titulo)}<span class="ln-f">${g.fontes.map(f=>f[1]?`<a href="${esc(f[1])}" target="_blank" rel="noopener">${esc(f[0])}</a>`:esc(f[0])).join(' · ')}${g.fontes.length>1?` <i>(${g.fontes.length} órgãos)</i>`:''}</span></div>`).join('')).join('');
+    const nHist = Object.values(dias).reduce((s,v)=>s+v.length,0);
+    return `<details class="todas" ${aberta?'open':''}><summary><svg class="ic"><use href="#i-news"/></svg>Notícias encontradas (${c.n}${nHist<L.length?` · ${nHist} histórias`:''})</summary>
+      <p class="ln-nota">${cobTxt(c)}${c.n > L.length ? ` · mostram-se as ${L.length} mais recentes` : ''}. Lista automática, sem análise; a mesma notícia publicada em vários órgãos aparece uma só vez.</p>
       <input class="ln-q" type="search" placeholder="Filtrar por órgão ou palavra do título…"><div class="ln-lista">${corpo}</div></details>`;
   }
   let atual = null;
@@ -605,11 +615,23 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     const c = coberturaDe(k);
     const amostra = f.amostra && f.origem!=='radar' ? `<div class="g-amostra">${f.origem==='radar'?'Seleção automática':'Amostra'} de <b>${f.amostra.analisadas}</b> notícias${f.origem==='radar'?'':' analisadas'}, de <b>${f.amostra.encontradas}</b> encontradas em 60 dias no Radar de Notícias, escolhidas ao longo do período (dias de maior cobertura, variedade de órgãos e as mais recentes).</div>` : '';
     const novas = f.novas ? `<div class="g-novas"><svg class="ic"><use href="#i-alert"/></svg> <b>${f.novas} ${f.novas===1?'notícia nova':'notícias novas'}</b> desde ${f.revista_por ? 'a revisão desta ficha' : 'que esta ficha foi feita'}${f.base && f.base.em ? ` (${esc(fmtD(f.base.em))})` : ''}. Veja-as na lista completa, no fim.</div>` : '';
-    $('#g-corpo').innerHTML = novas + amostra + fichaHTML(f, f.origem!=='radar') + listaHTML(c, false); $('#g-corpo').scrollTop = 0;
+    // sem análise do Amália, a seleção é redundante com a lista: mostra-se só a lista completa, aberta
+    $('#g-corpo').innerHTML = novas + amostra + (f.origem==='radar' ? `<div class="enq">${esc(f.enquadramento)}</div>` + listaHTML(c, true) : fichaHTML(f, true) + listaHTML(c, false)); $('#g-corpo').scrollTop = 0;
     const i = ORD.indexOf(k);
     $('#g-nav').innerHTML = `${i>0?`<a href="#" data-ver="${ORD[i-1]}">‹ ${esc(D.fichas[ORD[i-1]].titulo)}</a>`:''}${i>0&&i<ORD.length-1?' · ':''}${i<ORD.length-1?`<a href="#" data-ver="${ORD[i+1]}">${esc(D.fichas[ORD[i+1]].titulo)} ›</a>`:''}`;
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
     history.replaceState(null,'','#'+k);
+  }
+  // cartão de uma matéria na gaveta (a partir da agenda hora a hora ou do hemiciclo)
+  function abrirCartao(id){
+    const x = pool.find(y => y.data+'|'+y.tema===id); if (!x) return; atual = null;
+    const [cls,pc] = PERT[x.pertinencia]||['reg','p-reg'];
+    $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">${esc(x.pertinencia)}</span>`;
+    $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''}${x.uo&&x.uo.length?' · UO de referência: '+x.uo.join(' · '):''}`;
+    const crit = (x.criterio||[]).length ? `<div class="g-amostra">Classificação: ${x.criterio.map(esc).join(' · ')}${x.validado?' · validada':' · automática, a validar'}</div>` : '';
+    $('#g-corpo').innerHTML = crit + `<div class="gaveta-cartao">${cartao(x)}</div>` + (x.cobertura ? listaHTML(x.cobertura, false) : '');
+    $('#g-corpo').scrollTop = 0; $('#g-nav').innerHTML = '';
+    $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
   function abrirLista(id){
     const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null;
@@ -687,8 +709,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     svg.addEventListener('mouseleave', () => tip.classList.remove('on'));
     svg.addEventListener('click', e => {
       const g = e.target.closest('[data-seat]');
-      if (g){ tip.classList.remove('on'); if (g.dataset.ver){ abrir(g.dataset.ver); return; } st.pert.add(g.dataset.pert); st.dias.clear(); render();
-        const c = document.querySelector(`.cartao[data-id="${CSS.escape(g.dataset.seat)}"]`); if (c){ c.scrollIntoView({behavior:'smooth',block:'center'}); c.style.boxShadow='0 0 0 3px var(--amarelo)'; setTimeout(()=>c.style.boxShadow='',1600); } return; }
+      if (g){ tip.classList.remove('on'); if (g.dataset.ver){ abrir(g.dataset.ver); return; } abrirCartao(g.dataset.seat); return; }
       const sct = e.target.closest('[data-sd]'); if (sct && !sct.classList.contains('vazio')){ st.dias = new Set([sct.dataset.sd]); st.semana = null; render(); $('.cal-wrap').scrollIntoView({behavior:'smooth'}); }
     });
   })();

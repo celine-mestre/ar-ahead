@@ -41,7 +41,7 @@ preliminar = bool(ant) and not nova_semana and ant['edicao'].get('estado') == 'p
 
 def base(i):
     x = {k: i.get(k, '') for k in ('tema', 'data', 'hora', 'interveniente', 'tipoLabel', 'resumo', 'ordemTrabalhos', 'orgao', 'id_ar')}
-    x.update(chave=chave(i), dataLabel=rotulo(i['data']), tipo=i.get('tipo', []), uo=i.get('uo', []), pertinencia=i.get('pertinencia', 'Registo'),
+    x.update(chave=chave(i), dataLabel=rotulo(i['data']), tipo=i.get('tipo', []), uo=i.get('uo', []), pertinencia=i.get('pertinencia', 'Registo'), criterio=i.get('criterio', []),
              periodo='Manhã' if (i.get('hora') or '99')[:2] < '13' else 'Tarde',
              ligacoes=[{'titulo': 'Agenda parlamentar', 'url': i['ligacao']}] if i.get('ligacao') else [])
     return x
@@ -89,6 +89,8 @@ else:
             y = dict(a); y.pop('retirado', None)
             if not a.get('uo') and not a.get('validado') and not a.get('amalia') and x.get('uo'):   # sem unidade: as regras (atualizadas) voltam a propor
                 y['uo'], y['pertinencia'] = x['uo'], x['pertinencia']
+            if not a.get('validado') and not a.get('amalia') and y.get('uo') == x.get('uo') and y.get('pertinencia') == x.get('pertinencia'):
+                y['criterio'] = x.get('criterio', [])          # classificação vinda das regras: regista o porquê
             for k in ('hora', 'interveniente', 'tipoLabel', 'ligacoes'):
                 y[k] = x[k] or a.get(k, '')
             if x['ordemTrabalhos'] and x['ordemTrabalhos'] != a.get('ordemTrabalhos'):
@@ -130,6 +132,7 @@ if cor_p.exists():
                 if (r.get('assunto') or '').strip(): x['tema'] = r['assunto'].strip()
                 if (r.get('expressoes') or '').strip(): x['expressoes'] = [e.strip() for e in r['expressoes'].split('|') if e.strip()]
                 x['validado'] = True
+                x['criterio'] = ['revisão humana (correcoes.csv)']
 
 ed.update(atualizado=agora.isoformat(timespec='minutes'), atualizadoLabel=f"{extenso(agora.date(), False)}, {agora:%Hh%M}")
 primeira = (ed.get('alteracoes') or [{}])[0].get('data') if ed.get('alteracoes') else None
