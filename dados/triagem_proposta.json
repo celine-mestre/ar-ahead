@@ -1,7 +1,7 @@
 {
  "inicio": "2026-10-26",
  "fim": "2026-11-01",
- "recolha": "2026-10-26T17:02",
+ "recolha": "2026-10-26T17:37",
  "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
   {
@@ -22,6 +22,9 @@
     "DACDP"
    ],
    "pertinencia": "Vigilância",
+   "criterio": [
+    "«audição do ministro» (Governo na AR → DACDP)"
+   ],
    "validado": false
   },
   {
@@ -42,6 +45,9 @@
     "DACDP"
    ],
    "pertinencia": "Vigilância",
+   "criterio": [
+    "«comissão parlamentar de inquérito» (Governo na AR → DACDP)"
+   ],
    "validado": false
   },
   {
@@ -62,9 +68,17 @@
     "DACDP",
     "DAPL",
     "DCIRI",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
    "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«cooperação» (DCIRI)",
+    "«orçamento do estado» (transversal)",
+    "«audição da ministra» (Governo na AR → DACDP)"
+   ],
    "validado": false
   },
   {
@@ -84,9 +98,16 @@
    "uo": [
     "DACDP",
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
    "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição da ministra» (Governo na AR → DACDP)"
+   ],
    "validado": false
   },
   {
@@ -100,13 +121,16 @@
     "Comissões Parlamentares"
    ],
    "tipoLabel": "Comissões Parlamentares · Reunião n.º 14 · Sala 6",
-   "resumo": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro",
-   "ordemTrabalhos": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro",
+   "resumo": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro\n Conselheiros  \nFlávio Martins (Brasil), Rui Marcelo (Macau), Vasco Abreu (África do Sul), Fernando Campos (Venezuela), Manuel Coelho (Namíbia), Daniel Loureiro (Canadá), Beatriz ",
+   "ordemTrabalhos": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro\n Conselheiros  \nFlávio Martins (Brasil), Rui Marcelo (Macau), Vasco Abreu (África do Sul), Fernando Campos (Venezuela), Manuel Coelho (Namíbia), Daniel Loureiro (Canadá), Beatriz Pereira (Brasil), Manuel Viegas (EUA), António Iria (Suíça) e António Cunha (Reino Unido).",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx",
    "uo": [
     "DCIRI"
    ],
    "pertinencia": "Vigilância",
+   "criterio": [
+    "«comunidades portuguesas» (DCIRI)"
+   ],
    "validado": false
   },
   {
@@ -125,9 +149,15 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx",
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
    "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
    "validado": false
   },
   {
@@ -146,9 +176,15 @@
    "ligacao": "",
    "uo": [
     "DACDP",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
    "pertinencia": "Vigilância",
+   "criterio": [
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«comissão parlamentar de inquérito» (Governo na AR → DACDP)"
+   ],
    "validado": false
   },
   {
@@ -167,6 +203,7 @@
    "ligacao": "",
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "validado": false
   },
   {
@@ -187,6 +224,9 @@
     "DACDP"
    ],
    "pertinencia": "Vigilância",
+   "criterio": [
+    "«comissão parlamentar de inquérito» (Governo na AR → DACDP)"
+   ],
    "validado": false
   },
   {
@@ -205,6 +245,7 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx",
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "validado": false
   },
   {
@@ -223,6 +264,7 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.aspx",
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "validado": false
   },
   {
@@ -241,6 +283,7 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.aspx",
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "validado": false
   },
   {
@@ -259,9 +302,15 @@
    "ligacao": "",
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "validado": false
   },
   {
@@ -280,6 +329,7 @@
    "ligacao": "",
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "validado": false
   },
   {
@@ -298,9 +348,15 @@
    "ligacao": "",
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "validado": false
   },
   {
@@ -321,6 +377,10 @@
     "DCIRI"
    ],
    "pertinencia": "Vigilância",
+   "criterio": [
+    "«negócios estrangeiros» (DCIRI)",
+    "«comunidades portuguesas» (DCIRI)"
+   ],
    "validado": false
   },
   {
@@ -339,6 +399,7 @@
    "ligacao": "",
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "validado": false
   },
   {
@@ -357,6 +418,7 @@
    "ligacao": "",
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "validado": false
   }
  ],
@@ -377,9 +439,15 @@
    "ligacao": "",
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "validado": false
   },
   {
@@ -398,9 +466,15 @@
    "ligacao": "",
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "validado": false
   },
   {
@@ -419,9 +493,15 @@
    "ligacao": "",
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "validado": false
   },
   {
@@ -440,9 +520,15 @@
    "ligacao": "",
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "validado": false
   },
   {
@@ -461,9 +547,15 @@
    "ligacao": "",
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "validado": false
   },
   {
@@ -482,6 +574,7 @@
    "ligacao": "",
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "validado": false
   },
   {
@@ -500,6 +593,7 @@
    "ligacao": "",
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "validado": false
   }
  ],

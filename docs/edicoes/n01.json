@@ -32,9 +32,15 @@
    ],
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "periodo": "Manhã",
    "ligacoes": [],
    "cobertura": {
@@ -2472,7 +2478,8 @@
     "Orçamento do Estado para 2027",
     "OE2027",
     "OE 2027"
-   ]
+   ],
+   "varrimento": "2026-11-18-plen-rio-debate-na-especialidade-do-or"
   },
   {
    "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
@@ -2491,9 +2498,15 @@
    ],
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "periodo": "Manhã",
    "ligacoes": [],
    "cobertura": {
@@ -4950,9 +4963,15 @@
    ],
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "periodo": "Manhã",
    "ligacoes": [],
    "cobertura": {
@@ -7409,9 +7428,15 @@
    ],
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "periodo": "Manhã",
    "ligacoes": [],
    "cobertura": {
@@ -9868,9 +9893,15 @@
    ],
    "uo": [
     "DAPL",
-    "Transversal"
+    "Transversal",
+    "UPE"
    ],
-   "pertinencia": "Vigilância",
+   "pertinencia": "Imediato",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE) → Imediato",
+    "«orçamento do estado» (transversal)"
+   ],
    "periodo": "Manhã",
    "ligacoes": [],
    "cobertura": {
@@ -12327,6 +12358,7 @@
    ],
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "periodo": "Manhã",
    "ligacoes": [],
    "cobertura": {
@@ -12358,6 +12390,7 @@
    ],
    "uo": [],
    "pertinencia": "Registo",
+   "criterio": [],
    "periodo": "Manhã",
    "ligacoes": [],
    "cobertura": {
@@ -12511,10 +12544,16 @@
     "novos": 3,
     "alterados": 1,
     "retirados": 0
+   },
+   {
+    "data": "2026-10-26",
+    "novos": 0,
+    "alterados": 1,
+    "retirados": 0
    }
   ],
-  "atualizado": "2026-10-26T17:02+00:00",
-  "atualizadoLabel": "26 de outubro, 17h02",
+  "atualizado": "2026-10-26T17:37+00:00",
+  "atualizadoLabel": "26 de outubro, 17h37",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
   "aviso": "13 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
@@ -13709,6 +13748,208 @@
    },
    "novas": 0,
    "enquadramento": "Seleção automática de 20 das 339 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (46 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+  },
+  "2026-11-18-plen-rio-debate-na-especialidade-do-or": {
+   "titulo": "Plenário — Debate na especialidade do Orçamento do Estado para 2027",
+   "meta": "Plenário · Reunião n.º 17 · Plenário · quarta, 18 nov, 10h00 · UO de referência: DAPL · Transversal · UPE",
+   "nivel": "completa",
+   "origem": "radar",
+   "gerado_por": "Radar de Notícias — seleção automática, sem análise",
+   "atencao": [],
+   "blocos": [],
+   "tabelas": [],
+   "fundo": [
+    {
+     "data": "2026-09-07",
+     "fonte": "Diário de Notícias da Madeira",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE90WlRwRDdtRVRfY29peXB4VGxHS0thODVHTHRtem1ZZ2kyNjNqaldfaEE2aUZSTlhDeWotTkx4emljanZOTGNweFlnOWFxclJWU3dCeA?oc=5",
+     "sintese": "OE2027",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-24",
+     "fonte": "Correio da Manhã",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQelU4aVg1Tjk3bDRmQmlqa1g3Q21WN1NscHNTRTJUbHVFajZuTWNsTHExWHhVTTJJVXkwVDJJVC14Q0ptRnQ5ckZ4dHdyeGFUTEEwYnMtRWkxM1czS2RnTWdSUTBLcmpYdXNwQi1zcjhvU214OXJhVHRseWpjeDJFa2FGMVh2YzhGWHFrc29Bdl9VN2N1aUZFT2NhRkI5cmxTMW5VSUVTeGUyQWRoUFJETGlzV0dLT0lmbkVNay04bTZNYmEwSVBZSllSTU43NmJCbDFNZ3RhMFlTSVo2VzF30gHfAUFVX3lxTFB6VThpWDVOOTdsNGZCaWprWDdDbVY3U2xwc1NFMlRsdUVqNm5NY2xMcTFYeFVNMklVeTBUMklULXhDSm1GdDlyRnh0d3J4YVRMQTBicy1FaTEzVzNLZGdNZ1JRMEtyalh1c3BCLXNyOG9TbXg5cmFUdGx5amN4MkVrYUYxWHZjOEZYcWtzb0F2X1U3Y3VpRkVPY2FGQjlybFMxblVJRVN4ZTJBZGhQUkRMaXNXR0tPSWZuRU1rLThtNk1iYTBJUFlKWVJNTjc2YkJsMU1ndGEwWVNJWjZXMXc?oc=5",
+     "sintese": "Ministro da Presidência avisa que margem negocial do OE2027 é muito limitada e critica \"pessimistas alertantes\"",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-29",
+     "fonte": "Lusa",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcW9qZVIxU1Q4Uk1LTTE0SWlybDRvSk04ZkJoLUtIRXZsSFpEanhnal94LURzNkx4UHZzSC1KTFBobTNDUWV4WGQ4T0VERGlUcDg2OVFFbUIzNks2Wm1Rdk5DTE5xTEI3UjI0VS1uaVlTaElrTkhiSnNRaWJaZ2x6a1dfdE1xU3lJSWRsdGxPaHUwb1FET3BuelpwMGN3S0lPVEdxUlliZnY0UE0yRndYOE4zMlVGRmMzckdaMmdCUDZMSXJlX2o5TUlLVmxtX2tzckpkZTQ4dEhTblJjQ01SZERXV2gxbGptS0NTSHFUeGlvZDI1dkUxNjN3?oc=5",
+     "sintese": "OE2027: Albuquerque recebe garantia de verbas do PM e não antecipa qualquer problema na votação",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-02",
+     "fonte": "Nascer do SOL",
+     "url": "https://sol.iol.pt/politica/noticias/pcp-anuncia-voto-contra-o-orcamento-do-estado-para-2027/20261002/6abfdb860cf22b9f8904da6e",
+     "sintese": "PCP anuncia voto contra o Orçamento do Estado para 2027",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-06",
+     "fonte": "Público",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNjRNSjVCMkNYQ2ZHMlJMM2FvNDdnWmthY3RpWU1vZDdyaXM3V1AtbnY2V1pfa0YzZEFsZ1ctSC1jWENDTkJyaGc5QTAyakdpeXdfQmVkMjVueW9nOWhRaXozMktBeFQxMUZWUEFnMkwycU55ZDFtN3NtQW5nRURaX3k3R0I0RGRyMGVIVG12cXNCZEVOM3pQYUw0X29WV210cC1wc1VOemhJQlcyRDF4d29MZURhb0lLMHhIaw?oc=5",
+     "sintese": "PS admite mudar viabilização do OE2027 se este tiver “medidas surpresa” gravosas | Orçamento do Estado 2027",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-07",
+     "fonte": "Renascença",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmN4VGVPZXpPT2p5S0hNdmNJZ00weXhYcVU5YVFJT3lsTV9QQ0RxaHh5UkkwMUU1ak44X0stWGFHeFFuYXd0NXJUQnl1bHlPdU1Hci1DWW1DbUtyTEVNUEIwMTBnbER1b0c5QV9QVkdvZmQzYU9Lb3pzc3RqdXcydEhWNUt1T21acGZYTzNKLTVqTVlDSnNmRFA3dXNLWFBmWlJ5OEpVbVJLNDdicHVDYUwzc1AwY0piZXBHTg?oc=5",
+     "sintese": "OE2027. Governo entrega proposta no parlamento quinta-feira à tarde",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-08",
+     "fonte": "Expresso",
+     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZkxSMGtPbUF1bmxna3pmSFdYSTgzMlhnWDJ5Nkg1S3lORGZLNmRwSVZfTjhzQWU4c1RvWldoN1psSFFYaFJ1VVdRcGkxenJBQzJhcU9ONENSbDlyMXd0RlVSWnh5UmZhVWJNbW53dk9LbGxhOHZIVExiTXQ1a2tiLTNXcXZ1Qk12NDRhUUtJMWxSU0M3SmVWTmVXLTI2RklXMjJGZl92dnFUd293Q1JnVFZBQ1FKbkN2RWFQTkJSeXRnTFhXUFdzN3l4ajBYb1lnS2NkSmd2T3ZwRGtjWWF4LXVoWTk4VS16UklqVGx4bzAxNUlZbzNtbTNDSnZldEVlckFzVDN1UENOQ2FjYlU0SGdvV2Z0Zw?oc=5",
+     "sintese": "PSD espera \"tranquilidade\" e \"previsibilidade\" com o OE2027, mas PS avisa que \"compromissos são para cumprir\"",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-08",
+     "fonte": "CNN Portugal",
+     "url": "https://cnnportugal.iol.pt/videos/orcamento-do-estado-para-2027-e-minimalista-e-tenta-passar-entre-os-pingos-da-chuva/6ac817700cf20dc52779187d",
+     "sintese": "Orçamento do Estado para 2027 \"é minimalista e tenta passar entre os pingos da chuva\"",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-09",
+     "fonte": "Sábado",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcFRRN0Q4YnpWSVFtREFZc3E2aFJDTnc3Z1huYlpKZ1QxMkR5UUl3TzVUeWxleVFUYzZVWFA0SjRLZENhS0tuMk9rSHRhMmxxTTZ2WEJ3bndkeC16SzhSU041azdnekV2bTl3c2VkUmJNbE5JLVQ2LVRTdS1uYVZvSGlyUm5zZEZtVWRmd3Z1V2tBSHMwREdQdlFOMUdMS194WXl2OHUyVFozejFKNjlOVklOY1lwZDBtbGJ30gG2AUFVX3lxTE54Mzc3RmxsSGJpR0pHX0pQZjVLSE5iOGlLRk44ZjdyVGNRakpxMHhaSUd6eFNCTGJIbVBBaE54N19KOVFGRTNfZmlJbW1MeU4zYVlaUUZ3MDlyRXI0dFZsM0ZvdzRHRGtzVXcxek4tSnhjeGVGWkFrZ0J1eXVSMHFPdHQ5Qzhsczh1QS1uX1c3SG5nOG82NEE1MWFSdkZxcy1mcmZVM0dHYkJJRW9UeHBpVHIzampn?oc=5",
+     "sintese": "OE2027: Professores pedem mais investimento na Educação e valorização da carreira",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-10",
+     "fonte": "Jornal de Notícias",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTmJfeGFtbW5hdEo2WVJfQVcxMmxiMFU2MFhoWFQ3QmYtVTRIX0lvMnF2S2FkMDh4ZWVTbkV6NEZFcUR2YVpmMThZdlFkaU5FT0NZWmc4dEs0SjFnV2Q1Y0tUNHB0OGprUUxjc2NlOW9EV283QThOSUJES05ydUtBeThuZWNHTHFhQmxuMFphU3pNTzJLTjJqTEZoUUhpSEM3ejZieDE3OGVucUxOeW9JdkU2MFBrbW5aQTBtLVdvUWxiOXF5UlFfUlphbHBxaWRYd0hrLUFyOHJWdw?oc=5",
+     "sintese": "Carneiro propõe abstenção ao OE2027 mas admite que \"convicções mais profundas\" levariam a voto contra",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-11",
+     "fonte": "SIC Notícias",
+     "url": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxNdXlYRFpnX1JrXzRfTm5helJCLUwwYmgtVE9LYWtMR295czZJQ2hnYXNMUjkzQzRfbXhOblZsMTFLbWlxSjByRnRITnVmU1dpMnFIdmNWX0NWRWJZak1aWGtQbGd5bHhpaGJPU1pMTktzbHdUVktTVjVLdmlRVXdlaFpjZDFBTmVxZ25SWUdEMWZlSEtXQTdZQng4YkEwNjJNZS1FUG5ZUTZKN2JhdW9MR1BQbjBLZ2lNWGQ3a3ZydVM2cGoyc3BNcEpqWUM5UXZNbWRHNGY1VURWalpGTlA0T19FbDdJTlFreUVJZVBwcnRRalpzd1ZNdndBREJCcFJRd0JOWlEwY3d5LVlMUmVLSGxNcERaa0lTekR6QWRoelRia0RFU3V0Y2tyR2VuWXVLdTFpZWZiVWdRTy1QS01FSzZ0WVVNeVBkcHEwWWZuWlFTYWticEFrMk9ZZTRGY3d6NVZ4ZEEwVkx6NGctQkl2QmFVd0E4aDV0cHRUS2RXVjlabHN5WHo5RFNQV0hQMnBZbGtNbFhKSnBsSTdkbC1qXzdtUVpFWThkdzV3R3JoMTVQYjk2NlFXeDlGMA?oc=5",
+     "sintese": "Quais são os seis mitos sobre o Orçamento do Estado para 2027?",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-13",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/economia/oe2027-carneiro-garante-que-ps-nao-estara-na-origem-de-qualquer-crise-politica_n1771510",
+     "sintese": "OE2027. Carneiro garante que PS \"não estará na origem de qualquer crise política\"",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "TSF",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbk52LUJMU1ZsX0daUzNDUXNkbnJ6dEZPY3I1ZXVYTTBRVDBUMm9icTJTUkNPTFg5LVVaN0xnRHRZVkk3ekJUYmpPM0pzV20zdGxTWmx6N3FfQ2ctNEtxZFhtRk03dUZkX1RhNDZIektKN2l6Uk9hVnB4eWxsN0hjQjVpVE1RTFRJ?oc=5",
+     "sintese": "Protestos, OE 2027 e Lei das Rendas",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "Notícias ao Minuto",
+     "url": "https://www.noticiasaominuto.com/politica/3070770/inquerito-aos-negocios-dos-incendios-suspenso-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+     "sintese": "Inquérito aos negócios dos incêndios suspenso durante debate do OE2027",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-22",
+     "fonte": "Executive Digest",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGl5Vk1LN3F1ZXBGc0YtTERPVzV6LWVXRkVReHdpQXpRVXVpVUQzdDFTa21nOUZBay1DbUhySDVmeVVBQnhhZ1phb1N2UzFMemFnMjI4Zm1ONEc2N09FNkNqUGY2MlNPMFFpcjE4UDRKTmZqTV9fRFdHSjVUZ19OdFN6LUNMZHJWZldvNmgwY1VYYzV4SVZBdk1JZGNLbm93S1RscHJHNA?oc=5",
+     "sintese": "OE2027: Financiamento às corporações de bomberios vai aumentar mais de 5%",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-22",
+     "fonte": "Diário de Notícias",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlJqWGQyUkM1TEtZOXo1U2F5aXJEQ3dMa2lEQXRocm45ejNCTTduVEZOUVJDTXNsOFRIN2Z1OXQ0TUZHZmg3TVlLM3VWMjhGZFhIRU1rUVZsRnVaX3NiVFJUUkh6ZnF0SHI0TFZaZnV6eHF6bmlqQ1luNlhDbVJzckVHNzJnMGhtNG9OcFgzSlotYWszaktGUTJySQ?oc=5",
+     "sintese": "OE2027: Raimundo diz que Chega “está todo contente” com “frete” do PS",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-23",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro",
+     "sintese": "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-23",
+     "fonte": "Observador",
+     "url": "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/",
+     "sintese": "OE2027. Carneiro justifica viabilização com crises mundiais",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-25",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/",
+     "sintese": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "ECO",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUmIxVTlPQjRld3NmQ0EwZF9STHFFa1RQYzNxY2Vqa1BmSm1SY0ltOUJCdDVaZ0tuSThvWlVwOWxhWmNuQ1REUHcwQTZleDZUZlNwXzVmY2FTbW9mb2Z5bGRyUlFYdU9XdFNQMUlPVTRUME1NTzZNUFo2V3R2R2N2bGp6dXI1OUc1akxiNXZEVnNGVWxYNmM3UEJOYl96YkhLdjFPbmlwQldpWVpEMHhXeU92d2lfU2ZKUk5z?oc=5",
+     "sintese": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
+   "amostra": {
+    "analisadas": 20,
+    "encontradas": 979
+   },
+   "base": {
+    "ultima": "2026-10-26 06:38",
+    "em": "2026-10-26"
+   },
+   "novas": 0,
+   "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   }
  },
  "destaques": [
@@ -18681,7 +18922,10 @@
     "ultimas": [],
     "todas": []
    },
-   "varrimento": "2026-10-26-comiss-o-de-infraestruturas-mobilidade"
+   "varrimento": "2026-10-26-comiss-o-de-infraestruturas-mobilidade",
+   "criterio": [
+    "«audição do ministro» (Governo na AR → DACDP)"
+   ]
   },
   {
    "tema": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
@@ -20770,7 +21014,10 @@
      ]
     ]
    },
-   "varrimento": "2026-10-26-comiss-o-parlamentar-de-inqu-rito-para"
+   "varrimento": "2026-10-26-comiss-o-parlamentar-de-inqu-rito-para",
+   "criterio": [
+    "«comissão parlamentar de inquérito» (Governo na AR → DACDP)"
+   ]
   },
   {
    "tema": "Iniciativas europeias de segurança social: Passaporte Europeu de Segurança Social e Autoridade Europeia do Trabalho",
@@ -23455,8 +23702,8 @@
    "hora": "11h00",
    "interveniente": "",
    "tipoLabel": "Comissões Parlamentares · Reunião n.º 14 · Sala 6",
-   "resumo": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro",
-   "ordemTrabalhos": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro",
+   "resumo": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro\n Conselheiros  \nFlávio Martins (Brasil), Rui Marcelo (Macau), Vasco Abreu (África do Sul), Fernando Campos (Venezuela), Manuel Coelho (Namíbia), Daniel Loureiro (Canadá), Beatriz ",
+   "ordemTrabalhos": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro\n Conselheiros  \nFlávio Martins (Brasil), Rui Marcelo (Macau), Vasco Abreu (África do Sul), Fernando Campos (Venezuela), Manuel Coelho (Namíbia), Daniel Loureiro (Canadá), Beatriz Pereira (Brasil), Manuel Viegas (EUA), António Iria (Suíça) e António Cunha (Reino Unido).",
    "orgao": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
    "id_ar": 48520,
    "chave": "ar-48520",
@@ -23527,7 +23774,11 @@
      ]
     ]
    },
-   "varrimento": "2026-10-27-conselho-das-comunidades-portuguesas-di"
+   "varrimento": "2026-10-27-conselho-das-comunidades-portuguesas-di",
+   "criterio": [
+    "«comunidades portuguesas» (DCIRI)"
+   ],
+   "alterado": "2026-10-26"
   },
   {
    "tema": "Comissão de Orçamento, Finanças e Administração Pública",
@@ -24317,7 +24568,8 @@
       "https://observador.pt/opiniao/a-esfera-publica-e-as-leis-gerais-da-governacao-politica/"
      ]
     ]
-   }
+   },
+   "criterio": []
   },
   {
    "tema": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
@@ -26406,7 +26658,10 @@
      ]
     ]
    },
-   "varrimento": "2026-10-27-comiss-o-parlamentar-de-inqu-rito-para"
+   "varrimento": "2026-10-27-comiss-o-parlamentar-de-inqu-rito-para",
+   "criterio": [
+    "«comissão parlamentar de inquérito» (Governo na AR → DACDP)"
+   ]
   },
   {
    "tema": "Comissão de Educação e Ciência",
@@ -26443,7 +26698,8 @@
     "ultima": "",
     "ultimas": [],
     "todas": []
-   }
+   },
+   "criterio": []
   },
   {
    "tema": "Comissão de Transparência e Estatuto dos Deputados",
@@ -26480,7 +26736,8 @@
     "ultima": "",
     "ultimas": [],
     "todas": []
-   }
+   },
+   "criterio": []
   },
   {
    "tema": "Comissão de Transparência e Estatuto dos Deputados",
@@ -26518,7 +26775,8 @@
     "ultimas": [],
     "todas": []
    },
-   "alterado": "2026-10-26"
+   "alterado": "2026-10-26",
+   "criterio": []
   },
   {
    "tema": "COM(2026)560 — simplificação da fiscalidade direta na UE: prazo do parecer da CAE",
@@ -26582,7 +26840,8 @@
     "ultima": "",
     "ultimas": [],
     "todas": []
-   }
+   },
+   "criterio": []
   },
   {
    "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
@@ -26648,7 +26907,11 @@
      ]
     ]
    },
-   "varrimento": "2026-10-28-comiss-o-de-neg-cios-estrangeiros-e-com"
+   "varrimento": "2026-10-28-comiss-o-de-neg-cios-estrangeiros-e-com",
+   "criterio": [
+    "«negócios estrangeiros» (DCIRI)",
+    "«comunidades portuguesas» (DCIRI)"
+   ]
   },
   {
    "tema": "COM(2026)600 — faturas de eletricidade na União: prazo do parecer da CAE",
@@ -26712,7 +26975,8 @@
     "ultima": "",
     "ultimas": [],
     "todas": []
-   }
+   },
+   "criterio": []
   },
   {
    "tema": "Grupo de Trabalho - Parlamento dos Jovens",
@@ -26776,7 +27040,8 @@
     "ultima": "",
     "ultimas": [],
     "todas": []
-   }
+   },
+   "criterio": []
   },
   {
    "tema": "Agência Lusa — fim do prazo de reapreciação dos projetos de estatutos",
