@@ -62,7 +62,7 @@ print(f'''<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <table cellpadding="0" cellspacing="0" style="width:100%;max-width:680px;border:1px solid #e3e6ea">
 <tr><td style="background:#1a3f6f;border-bottom:3px solid #D02117;padding:14px 18px">
   <table cellpadding="0" cellspacing="0"><tr>{logo}<td style="vertical-align:middle">
-    <div style="{F}color:#dfe6ee;font-size:10.5px;letter-spacing:.06em">SECRETARIA-GERAL DO GOVERNO · DSSD</div>
+    <div style="{F}color:#dfe6ee;font-size:10.5px;letter-spacing:.06em">SECRETARIA-GERAL DO GOVERNO · SUPORTE À DECISÃO</div>
     <div style="{F}color:#fff;font-size:20px;font-weight:bold;margin-top:2px">AR Preview</div>
   </td></tr></table>
   <div style="{F}color:#FFD200;font-size:14px;font-weight:bold;margin-top:8px">{e(ed["semana"])}</div>
@@ -73,7 +73,7 @@ print(f'''<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </td></tr>
 <tr><td style="padding:0 18px"><table cellpadding="0" cellspacing="0" style="width:100%">{corpo}</table></td></tr>
 <tr><td style="padding:16px 18px">{b_preview}{b_ar}
-  <div style="{F}font-size:11.5px;color:#666;margin-top:10px">Calendário, cartões e fichas de varrimento na página do AR Preview, atualizada diariamente; o PDF segue em anexo. A agenda da Assembleia da República pode mudar depois desta edição. Pedidos de varrimento adicionais: Chefe da Unidade de Pesquisa e Estatísticas.</div>
+  <div style="{F}font-size:11.5px;color:#666;margin-top:10px">Calendário, cartões e fichas de varrimento na página do AR Preview, atualizada diariamente; o PDF segue em anexo. A agenda da Assembleia da República pode mudar depois desta edição. Pedidos de varrimento adicionais: <a href="mailto:upe@sggoverno.gov.pt?subject=AR%20Preview%20%E2%80%94%20pedido%20de%20varrimento" style="color:#2B5683">upe@sggoverno.gov.pt</a>.</div>
 </td></tr>
-<tr><td style="background:#0E7433;border-top:3px solid #D02117;padding:8px 18px;{F}font-size:11px;color:#e9f2ec">Secretaria-Geral do Governo · Direção de Serviços de Suporte à Decisão · Unidade de Pesquisa e Estatísticas</td></tr>
+<tr><td style="background:#0E7433;border-top:3px solid #D02117;padding:8px 18px;{F}font-size:11px;color:#e9f2ec">Secretaria-Geral do Governo · Suporte à Decisão</td></tr>
 </table>''')

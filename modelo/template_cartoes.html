@@ -183,6 +183,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
 .ln-dia{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--suave);margin:10px 0 3px;padding-bottom:2px;border-bottom:1px solid var(--borda)}
 .ln{font-size:12.5px;padding:4px 0;line-height:1.35;border-bottom:1px dotted #eee} .ln-f{display:block;color:var(--suave);font-size:11px;margin-top:1px} .ln-f a{color:var(--suave)} .ln-f i{font-style:normal;color:#999}
 .ver.sec{background:#fff;color:var(--azul);border:1px solid var(--azul)}
+a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-size:12px}
 .cartoes-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:#fff;border:1px solid var(--borda);border-radius:10px;padding:8px 14px;margin:14px 0 6px;font-size:12.5px;color:var(--suave)}
 .btn.sec{background:#fff;color:var(--azul);border:1px solid var(--azul)}
 @media screen{ body.sem-cartoes #t-destaques, body.sem-cartoes #g-destaques, body.sem-cartoes #t-agenda, body.sem-cartoes #aviso, body.sem-cartoes #g-agenda{display:none} }
@@ -291,7 +292,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
 </svg>
 
 <header><div class="hdr">
-<div class="brand"><img src="data:image/png;base64,__LOGO__" alt="Secretaria-Geral do Governo"><div class="brand-txt"><strong>SECRETARIA-GERAL DO GOVERNO</strong>Direção de Serviços de Suporte à Decisão<br>Unidade de Pesquisa e Estatísticas</div></div>
+<div class="brand"><img src="data:image/png;base64,__LOGO__" alt="Secretaria-Geral do Governo"><div class="brand-txt"><strong>SECRETARIA-GERAL DO GOVERNO</strong>Suporte à Decisão</div></div>
 <div class="titulo"><h1 id="h-titulo">AR Preview</h1><p class="semana" id="h-semana"></p><p class="fecho" id="h-fecho"></p></div>
 <div class="hdr-side"><span class="badge-int">Uso interno · dirigentes DSSD</span><small id="h-edicao"></small></div>
 </div></header>
@@ -345,7 +346,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   <div class="g-foot"><span>Fontes com data e ligação. Varrimento amostral, não exaustivo.</span><span class="g-acoes"><button type="button" data-imprimir-gaveta>Imprimir / PDF</button></span><span id="g-nav"></span></div>
 </aside>
 
-<footer><div class="ftr"><span><strong>Secretaria-Geral do Governo</strong> · Direção de Serviços de Suporte à Decisão · Unidade de Pesquisa e Estatísticas</span><span id="f-edicao"></span><span>Pedidos de varrimento: Chefe da Unidade de Pesquisa e Estatísticas</span></div></footer>
+<footer><div class="ftr"><span><strong>Secretaria-Geral do Governo</strong> · Suporte à Decisão</span><span id="f-edicao"></span><span>Pedidos de varrimento: <a href="mailto:upe@sggoverno.gov.pt?subject=AR%20Preview%20%E2%80%94%20pedido%20de%20varrimento" style="color:#fff">upe@sggoverno.gov.pt</a></span></div></footer>
 
 <script id="dados" type="application/json">__DATA__</script>
 <script>
@@ -363,6 +364,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   const todosComRetiradas = [...D.destaques.map(x=>({...x,_d:true})), ...D.agenda.map(x=>({...x,_d:false}))];
   const todos = todosComRetiradas.filter(x=>!x.retirado);
   const retiradas = todosComRetiradas.filter(x=>x.retirado);
+  const todosSemana = todos;
   const fmtD = iso => { if(!iso) return ''; const d=new Date(iso.slice(0,10)+'T00:00:00'); return `${d.getDate()} ${['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'][d.getMonth()]}`; };
 
   // cabeçalho
@@ -373,7 +375,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   $('#h-fecho').innerHTML = `<svg class="ic"><use href="#i-clock"/></svg> ${D.edicao.atualizadoLabel ? `Atualizado a ${esc(D.edicao.atualizadoLabel)}` : `Data de fecho: ${esc(D.edicao.fechoLabel)}`} · Atualização automática diária; a agenda do Parlamento pode sofrer alterações.`;
   $('#h-edicao').textContent = `Edição semanal n.º ${D.edicao.numero} · ${D.edicao.ano}${D.edicao.estado==='piloto'?' · piloto':''}`;
   $('#f-edicao').textContent = `${D.produto} · ${D.edicao.semana} · fecho a ${D.edicao.fechoLabel}`;
-  $('#aviso-txt').innerHTML = `<strong>Nesta secção não há fichas completas.</strong> As matérias em vigilância podem ter ficha curta automática e todas têm a lista das notícias encontradas no Radar de Notícias. ${esc(D.pedidos)}`;
+  $('#aviso-txt').innerHTML = `<strong>Nesta secção não há fichas completas.</strong> As matérias em vigilância podem ter ficha curta automática e todas têm a lista das notícias encontradas no Radar de Notícias. O varrimento das restantes faz-se a pedido, pelo botão «Pedir varrimento» de cada cartão ou por email para <a href="mailto:upe@sggoverno.gov.pt?subject=AR%20Preview%20%E2%80%94%20pedido%20de%20varrimento">upe@sggoverno.gov.pt</a>.`;
   if (retiradas.length) { const r=$('#retiradas'); r.hidden=false; r.innerHTML = `<b>Deixaram de constar da agenda da AR (${retiradas.length})</b><ul>${retiradas.map(x=>`<li><s>${esc(x.tema)}</s> · ${esc(x.dataLabel)}${x.hora?' '+esc(x.hora):''} · retirada a ${esc(fmtD(x.retirado))}</li>`).join('')}</ul>`; }
   $('#disc').textContent = D.disclaimer; $('#metod').innerHTML = D.metodologia.map(m=>`<li>${esc(m)}</li>`).join('');
 
@@ -528,6 +530,10 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     const tend = c.n7||c.n7ant ? ` <span class="tend ${t[2]}" title="${c.n7ant} nos 7 dias anteriores">${t[0]} ${t[1]}</span>` : '';
     return `<b>${c.n7}</b> ${c.n7===1?'notícia':'notícias'} nos últimos 7 dias${tend} · ${c.n} em ${c.dias} dias · ${fonte}${ind}`;
   };
+  const PEDIDO = 'upe@sggoverno.gov.pt';
+  const pedirVarr = x => { const ass = encodeURIComponent(`AR Preview — pedido de varrimento: ${x.tema}`.slice(0,150));
+    const corpo = encodeURIComponent(`Solicito varrimento mediático da seguinte matéria do AR Preview:\n\nMatéria: ${x.tema}\nData: ${x.dataLabel||x.data}${x.hora?', '+x.hora:''}\nTipo: ${x.tipoLabel||''}\nUnidade(s): ${(x.uo||[]).join(', ')||'—'}\nEdição: n.º ${D.edicao.numero} (${D.edicao.semana})\n\nMotivo / enquadramento do pedido:\n\n`);
+    return `<a class="pedir lig" href="mailto:${PEDIDO}?subject=${ass}&body=${corpo}" title="Abre um email para ${PEDIDO} com a matéria preenchida">Pedir varrimento</a>`; };
   const listaBtn = x => x.cobertura && x.cobertura.n && (x.cobertura.todas||[]).length ? `<button class="ver sec" data-lista="${esc(idDe(x))}"><svg class="ic"><use href="#i-news"/></svg>Notícias (${x.cobertura.n})</button>` : '';
   const icTipo = t => /Audi/.test(t)?'i-mic':/Debate|Plenário/.test(t)?'i-users':/vota|Vota/.test(t)?'i-vote':'i-file';
   function cartao(x){
@@ -537,7 +543,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     const ligs = (x.ligacoes||[]).map(l=>`<a class="lig" href="${esc(l.url)}" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg>${esc(l.titulo)}</a>`).join('');
     const foot = x._hist ? `<a class="ver" href="${esc(BASE_ED+x._hist.ficheiro)}"><svg class="ic"><use href="#i-layers"/></svg>${x.varrimento?'Ver varrimento na ':'Abrir a '}${esc(nomeEd(x._hist).toLowerCase())}</a>${ligs}`
       : x._fut && !x.varrimento ? `<span class="pedir">Semana seguinte · triagem provisória, sem varrimento</span>${listaBtn(x)}${ligs}`
-      : x.varrimento ? `<button class="ver" data-ver="${esc(x.varrimento)}"><svg class="ic"><use href="#i-news"/></svg>${D.fichas[x.varrimento] && D.fichas[x.varrimento].nivel==='curta' ? 'Ver varrimento (curto)' : 'Ver varrimento'}</button>${ligs}` : (x._d ? listaBtn(x)+ligs : `${listaBtn(x)}<span class="pedir">Varrimento a pedido</span>`);
+      : x.varrimento ? `<button class="ver" data-ver="${esc(x.varrimento)}"><svg class="ic"><use href="#i-news"/></svg>${D.fichas[x.varrimento] && D.fichas[x.varrimento].nivel==='curta' ? 'Ver varrimento (curto)' : 'Ver varrimento'}</button>${ligs}` : (x._d ? listaBtn(x)+ligs : `${listaBtn(x)}${pedirVarr(x)}${ligs}`);
     return `<article class="cartao ${cls}" data-id="${esc(x.data+'|'+x.tema)}">
       <div class="c-top"><span class="quando"><svg class="ic"><use href="#i-cal"/></svg>${esc(x.dataLabel)}${x.hora?` · ${esc(x.hora)}`:''}</span><span class="pert ${pc}">${esc(x.pertinencia)}</span></div>
       <h3 class="c-tema">${esc(x.tema)}</h3>
@@ -567,7 +573,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     const n = k => base.filter(x=>x.pertinencia===k).length;
     const nNov = C.filter(x=>x.novo||x.alterado).length;
     $('#kpis').innerHTML = `<div class="kpi var" data-kpi="varr"><b>${base.filter(ehDestaque).length}</b><span>destaques com varrimento</span></div><div class="kpi ime" data-kpi="Imediato"><b>${n('Imediato')}</b><span>imediato${st.uo?' · '+esc(st.uo):''}</span></div><div class="kpi vig" data-kpi="Vigilância"><b>${n('Vigilância')}</b><span>em vigilância</span></div><div class="kpi reg" data-kpi="Registo"><b>${n('Registo')}</b><span>registo</span></div><div class="kpi" data-kpi="varr"><b>${C.filter(x=>!x.uo.length).length}</b><span>sem unidade atribuída</span></div>${nNov?`<div class="kpi nov ${st.novidades?'on':''}" data-kpi="nov"><b>${nNov}</b><span>novas ou alteradas${D.edicao.desdeLabel?' desde '+esc(D.edicao.desdeLabel):''}</span></div>`:''}`;
-    renderSemanas(); renderCal(); renderAgendaDia();
+    renderSemanas(); renderCal(); renderAgendaDia(); desenharHemi();
     // grelhas
     const ds = C.filter(x=>ehDestaque(x) && passa(x)), ag = C.filter(x=>!ehDestaque(x) && passa(x));
     const ordem = (a,b) => (a.data+String(horaNum(a.hora)).padStart(4,'0')).localeCompare(b.data+String(horaNum(b.hora)).padStart(4,'0'));
@@ -640,7 +646,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null; x.cobertura._titulo = x.tema; listaAtual = x.cobertura;
     $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">notícias · sem ficha</span>`;
     $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''} · Radar de Notícias, últimos ${x.cobertura.dias} dias`;
-    $('#g-corpo').innerHTML = `<div class="g-amostra">Esta matéria não tem ficha de varrimento. Abaixo, todas as notícias que o Radar de Notícias encontrou sobre o assunto, sem análise.${x.pertinencia==='Registo'?' O varrimento das matérias de registo carece de pedido à Chefe da Unidade de Pesquisa e Estatísticas.':''}</div>` + (listaHTML(x.cobertura, true) || '<p class="ln-nota">Sem notícias encontradas.</p>');
+    $('#g-corpo').innerHTML = `<div class="g-amostra">Esta matéria não tem ficha de varrimento. Abaixo, todas as notícias que o Radar de Notícias encontrou sobre o assunto, sem análise. ${pedirVarr(x)}</div>` + (listaHTML(x.cobertura, true) || '<p class="ln-nota">Sem notícias encontradas.</p>');
     $('#g-corpo').scrollTop = 0; $('#g-nav').innerHTML = '';
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
@@ -670,9 +676,15 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
 
 
   // ---------- página de entrada: hemiciclo
-  (function(){
+  let hemiSemana = null, hemiAnimado = false;
+  function desenharHemi(){
     const svg = $('#hemi'); const cx=400, cy=400, R0=150, R1=372;
-    const diasSem = [...semanaIso].sort(); const nD = diasSem.length;
+    const semSel = st.semana && st.semana !== segDe(iniSem) ? st.semana : null;
+    if (hemiSemana === (semSel || 'cur') && svg.childElementCount) return;   // só se a semana mudou
+    hemiSemana = semSel || 'cur';
+    const diasSem = semSel ? diasDe(semSel) : [...semanaIso].sort(); const nD = diasSem.length;
+    const todos = semSel ? pool.filter(x => x.data >= diasSem[0] && x.data <= diasSem[6]) : todosSemana;   // matérias da semana mostrada
+    const edSel = semSel ? edDe(diasSem[0]) : null;
     const gap = 0.025, span = (Math.PI - gap*(nD-1)) / nD;      // 7 setores da esquerda (seg) para a direita (dom)
     const pol = (r,a) => [cx + r*Math.cos(Math.PI - a), cy - r*Math.sin(Math.PI - a)];
     const arcPath = (r0,r1,a0,a1) => { const [x0,y0]=pol(r1,a0),[x1,y1]=pol(r1,a1),[x2,y2]=pol(r0,a1),[x3,y3]=pol(r0,a0); return `M${x0},${y0} A${r1},${r1} 0 0 1 ${x1},${y1} L${x2},${y2} A${r0},${r0} 0 0 0 ${x3},${y3} Z`; };
@@ -707,26 +719,31 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
         }));
       });
     });
-    const tot = todos.length, nVar = D.destaques.length, nIme = todos.filter(x=>x.pertinencia==='Imediato').length;
+    const tot = todos.length, nVar = todos.filter(x=>x.varrimento).length, nIme = todos.filter(x=>x.pertinencia==='Imediato').length;
     h += seats + labels + `<text class="centro" x="${cx}" y="${cy-44}"><tspan class="n">${tot}</tspan></text><text class="centro t" x="${cx}" y="${cy-22}">matérias na semana</text><text class="centro t" x="${cx}" y="${cy-4}">${nVar} com varrimento · ${nIme} imediatas</text>`;
     svg.innerHTML = h;
     // texto e contadores
-    $('#hero-lead').textContent = `${D.edicao.semana}. O que a Assembleia da República tem marcado para a semana que vem, triado para as unidades da DSSD, com o fundo mediático preparado para as matérias imediatas.`;
-    const kp = [[nVar,'var','com varrimento'],[nIme,'ime','imediatas'],[todos.filter(x=>x.pertinencia==='Vigilância').length,'vig','em vigilância'],[Object.keys(D.fichas).length,'','fichas de leitura'],[diasSem.filter(d=>datasComAgenda.has(d)).length,'','dias com agenda'],[new Set(todos.flatMap(x=>x.uo).filter(u=>u!=='Transversal')).size,'','unidades servidas']];
+    $('#hero-lead').textContent = !semSel ? `${D.edicao.semana}. O que a Assembleia da República tem marcado para a semana que vem, triado para as unidades da DSSD, com o fundo mediático preparado para as matérias imediatas.`
+      : edSel ? `Arquivo · ${edSel.semana} (${nomeEd(edSel).toLowerCase()}). A semana tal como foi acompanhada na altura; a edição completa abre a partir da agenda.`
+      : `Semana de ${rotSem(semSel)}. O que a Assembleia da República já publicou para esta semana, com triagem provisória; o varrimento entra na sexta-feira anterior.`;
+    const kp = [[nVar,'var','com varrimento'],[nIme,'ime','imediatas'],[todos.filter(x=>x.pertinencia==='Vigilância').length,'vig','em vigilância'],[semSel ? nVar : Object.keys(D.fichas).length,'','fichas de leitura'],[diasSem.filter(d=>datasComAgenda.has(d)).length,'','dias com agenda'],[new Set(todos.flatMap(x=>x.uo||[]).filter(u=>u!=='Transversal')).size,'','unidades servidas']];
     $('#hero-kpis').innerHTML = kp.map(([n,c,l])=>`<div><b class="${c}" data-n="${n}">0</b><span>${l}</span></div>`).join('');
-    const reduzido = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const reduzido = matchMedia('(prefers-reduced-motion: reduce)').matches || hemiAnimado; hemiAnimado = true;
     $('#hero-kpis').querySelectorAll('b').forEach(b => { const alvo=+b.dataset.n; if (reduzido||!alvo){ b.textContent=alvo; return; } const t0=performance.now(); const f=t=>{ const p=Math.min(1,(t-t0)/900); b.textContent=Math.round(alvo*(1-Math.pow(1-p,3))); if(p<1) requestAnimationFrame(f); }; requestAnimationFrame(f); });
+  }
+  (function(){
+    const svg = $('#hemi');
     $('#hero-cta').addEventListener('click', () => $('.barra').scrollIntoView({behavior:'smooth'}));
     // interação: dica, clique no lugar (abre varrimento ou salta ao cartão), clique no setor (seleciona o dia)
     const tip = $('#tip');
-    svg.addEventListener('mousemove', e => { const g = e.target.closest('[data-seat]'); if (!g){ tip.classList.remove('on'); return; } const x = todos.find(t=>t.data+'|'+t.tema===g.dataset.seat); if(!x) return;
-      tip.innerHTML = `<b>${esc(x.tema)}</b>${esc(x.dataLabel)}${x.hora?' · '+esc(x.hora):''} · <span class="pert p-${(PERT[x.pertinencia]||['reg'])[0]}" style="font-size:10px">${esc(x.pertinencia)}</span><br><small>${esc(x.tipoLabel)}${x.uo.length?' · '+x.uo.join(' · '):''}${x.varrimento?' · clique para abrir o varrimento':''}</small>`;
+    svg.addEventListener('mousemove', e => { const g = e.target.closest('[data-seat]'); if (!g){ tip.classList.remove('on'); return; } const x = pool.find(t=>t.data+'|'+t.tema===g.dataset.seat); if(!x) return;
+      tip.innerHTML = `<b>${esc(x.tema)}</b>${esc(x.dataLabel)}${x.hora?' · '+esc(x.hora):''} · <span class="pert p-${(PERT[x.pertinencia]||['reg'])[0]}" style="font-size:10px">${esc(x.pertinencia)}</span><br><small>${esc(x.tipoLabel||'')}${(x.uo||[]).length?' · '+x.uo.join(' · '):''}${x.varrimento?' · clique para abrir o varrimento':''}</small>`;
       tip.style.left = Math.min(innerWidth-340, e.clientX+14)+'px'; tip.style.top = (e.clientY+16)+'px'; tip.classList.add('on'); });
     svg.addEventListener('mouseleave', () => tip.classList.remove('on'));
     svg.addEventListener('click', e => {
       const g = e.target.closest('[data-seat]');
-      if (g){ tip.classList.remove('on'); if (g.dataset.ver){ abrir(g.dataset.ver); return; } abrirCartao(g.dataset.seat); return; }
-      const sct = e.target.closest('[data-sd]'); if (sct && !sct.classList.contains('vazio')){ st.dias = new Set([sct.dataset.sd]); st.semana = null; render(); $('.cal-wrap').scrollIntoView({behavior:'smooth'}); }
+      if (g){ tip.classList.remove('on'); const x = pool.find(t=>t.data+'|'+t.tema===g.dataset.seat); if (x && x._hist){ location.href = BASE_ED + x._hist.ficheiro + (x.varrimento ? '#' + x.varrimento : ''); return; } if (g.dataset.ver && D.fichas[g.dataset.ver]){ abrir(g.dataset.ver); return; } abrirCartao(g.dataset.seat); return; }
+      const sct = e.target.closest('[data-sd]'); if (sct && !sct.classList.contains('vazio')){ st.dias = new Set([sct.dataset.sd]); render(); $('.cal-wrap').scrollIntoView({behavior:'smooth'}); }
     });
   })();
 
