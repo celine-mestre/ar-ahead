@@ -52,13 +52,13 @@ Secções lidas: Plenário, Comissões Parlamentares, Grupo de Trabalho, Grupo d
 
 ## A página
 
-- **Edição em curso:** cartões por matéria, filtros por unidade e pertinência, calendário mensal e agenda hora a hora.
+- **Edição em curso:** calendário mensal, agenda hora a hora e hemiciclo; ao clicar numa matéria abre-se o cartão na gaveta lateral, com a classificação, a cobertura e a lista de notícias (exportável para Excel e imprimível). Os cartões completos ficam ocultos por defeito e mostram-se com um botão; o PDF inclui-os sempre.
 - **Seletor «Semanas»**, por cima do calendário:
   - edições anteriores, a cinzento, com ligação para a edição completa;
   - a semana em curso;
   - as semanas seguintes já publicadas pela AR, a verde, ainda sem triagem completa nem varrimento.
 - **«Mais à frente»:** reuniões futuras e calendarização da AR.
-- **Histórico:** cada edição fica em `docs/edicoes/nNN.html` (a piloto, de 19 a 25 de outubro de 2026, em `piloto.html`). O menu «Edições» do cabeçalho e o seletor de semanas leem esse arquivo.
+- **Histórico:** cada edição fica em `docs/edicoes/nNN.html` e `.json`. A n.º 1 é a edição piloto (19 a 25 de outubro de 2026), a n.º 2 a primeira automática. O seletor de semanas lê esse arquivo.
 - **Modelo e dados separados:** `modelo/template_cartoes.html` não tem conteúdo, só desenha o `dados/agenda.json`. Para mudar o aspeto, muda-se o modelo; para mudar o conteúdo, muda-se o JSON.
 
 ---

@@ -183,6 +183,13 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
 .ln-dia{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--suave);margin:10px 0 3px;padding-bottom:2px;border-bottom:1px solid var(--borda)}
 .ln{font-size:12.5px;padding:4px 0;line-height:1.35;border-bottom:1px dotted #eee} .ln-f{display:block;color:var(--suave);font-size:11px;margin-top:1px} .ln-f a{color:var(--suave)} .ln-f i{font-style:normal;color:#999}
 .ver.sec{background:#fff;color:var(--azul);border:1px solid var(--azul)}
+.cartoes-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:#fff;border:1px solid var(--borda);border-radius:10px;padding:8px 14px;margin:14px 0 6px;font-size:12.5px;color:var(--suave)}
+.btn.sec{background:#fff;color:var(--azul);border:1px solid var(--azul)}
+@media screen{ body.sem-cartoes #t-destaques, body.sem-cartoes #g-destaques, body.sem-cartoes #t-agenda, body.sem-cartoes #aviso, body.sem-cartoes #g-agenda{display:none} }
+@media print{ .cartoes-bar{display:none} }
+.g-foot .g-acoes{display:flex;gap:8px} .g-foot .g-acoes button{font:inherit;font-size:12px;border:1px solid var(--azul);background:#fff;color:var(--azul);border-radius:6px;padding:4px 10px;cursor:pointer}
+.ln-acoes{display:flex;gap:8px;margin:4px 0 8px} .ln-acoes button{font:inherit;font-size:11.5px;border:1px solid var(--borda);background:#fff;color:var(--azul);border-radius:6px;padding:3px 9px;cursor:pointer}
+@media print{ body.imprimir-gaveta > *:not(.gaveta){display:none!important} body.imprimir-gaveta .gaveta{display:block!important;position:static;transform:none;width:auto;box-shadow:none;height:auto} body.imprimir-gaveta .g-corpo{overflow:visible;padding:0} body.imprimir-gaveta .g-top .fechar{display:none} body.imprimir-gaveta details.todas{display:block} body.imprimir-gaveta .ln-acoes,body.imprimir-gaveta .ln-q,body.imprimir-gaveta .g-acoes{display:none} }
 .gaveta-cartao .cartao{max-width:none;margin-bottom:12px} .gaveta-cartao .c-resumo.clamp{-webkit-line-clamp:unset;display:block}
 .c-crit{font-size:11px;color:var(--suave);margin-top:4px} .c-crit b{font-weight:600;color:#666}
 .nivel{display:inline-block;font-size:10.5px;font-weight:600;border-radius:4px;padding:1px 7px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);margin-left:8px;vertical-align:2px}
@@ -286,7 +293,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
 <header><div class="hdr">
 <div class="brand"><img src="data:image/png;base64,__LOGO__" alt="Secretaria-Geral do Governo"><div class="brand-txt"><strong>SECRETARIA-GERAL DO GOVERNO</strong>Direção de Serviços de Suporte à Decisão<br>Unidade de Pesquisa e Estatísticas</div></div>
 <div class="titulo"><h1 id="h-titulo">AR Preview</h1><p class="semana" id="h-semana"></p><p class="fecho" id="h-fecho"></p></div>
-<div class="hdr-side"><span class="badge-int">Uso interno · dirigentes DSSD</span><small id="h-edicao"></small><select class="edicoes" id="h-edicoes" hidden aria-label="Edições anteriores"></select></div>
+<div class="hdr-side"><span class="badge-int">Uso interno · dirigentes DSSD</span><small id="h-edicao"></small></div>
 </div></header>
 
 
@@ -318,6 +325,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     <div class="cal"><div class="cal-top"><button id="cal-ant" aria-label="Mês anterior">‹</button><b id="cal-mes"></b><button id="cal-seg" aria-label="Mês seguinte">›</button></div><div class="cal-g" id="cal-g"></div><div class="cal-leg"><span><i class="ime"></i>imediato</span><span><i class="vig"></i>vigilância</span><span><i></i>registo</span><span><b class="sq hist"></b>edições anteriores</span><span><b class="sq fut"></b>semanas seguintes</span><button class="limpar" id="cal-limpar" hidden>Limpar seleção</button></div></div>
     <div class="ad"><div class="ad-top"><b id="ad-titulo">Agenda da semana</b><span id="ad-sub"></span></div><div id="ad-lista"></div></div>
   </div>
+  <div class="cartoes-bar" id="cartoes-bar"><span>Os cartões abrem ao lado, a partir da agenda hora a hora ou do hemiciclo.</span><button class="btn sec" id="btn-cartoes">Mostrar todos os cartões</button></div>
   <h2 id="t-destaques"><svg class="ic"><use href="#i-layers"/></svg>Destaques com varrimento mediático<small id="n-destaques"></small></h2>
   <div class="grelha" id="g-destaques"></div>
   <h2 id="t-agenda"><svg class="ic"><use href="#i-list"/></svg>Mais na agenda<small id="n-agenda"></small></h2>
@@ -334,7 +342,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
 <aside class="gaveta" id="gaveta" aria-hidden="true">
   <div class="g-top"><div><h2 id="g-titulo"></h2><p class="meta" id="g-meta"></p></div><button class="fechar" id="g-fechar" aria-label="Fechar"><svg class="ic"><use href="#i-x"/></svg></button></div>
   <div class="g-corpo" id="g-corpo"></div>
-  <div class="g-foot"><span>Fontes com data e ligação. Varrimento amostral, não exaustivo.</span><span id="g-nav"></span></div>
+  <div class="g-foot"><span>Fontes com data e ligação. Varrimento amostral, não exaustivo.</span><span class="g-acoes"><button type="button" data-imprimir-gaveta>Imprimir / PDF</button></span><span id="g-nav"></span></div>
 </aside>
 
 <footer><div class="ftr"><span><strong>Secretaria-Geral do Governo</strong> · Direção de Serviços de Suporte à Decisão · Unidade de Pesquisa e Estatísticas</span><span id="f-edicao"></span><span>Pedidos de varrimento: Chefe da Unidade de Pesquisa e Estatísticas</span></div></footer>
@@ -363,17 +371,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   $('#h-semana').textContent = D.edicao.semana;
   if (D.edicao.aviso) { const a=document.createElement('div'); a.className='aviso'; a.id='aviso-edicao'; a.innerHTML=`<svg class="ic"><use href="#i-alert"/></svg><div><strong>Edição ${esc(D.edicao.estado||'')}.</strong> ${esc(D.edicao.aviso)}</div>`; $('main').prepend(a); }
   $('#h-fecho').innerHTML = `<svg class="ic"><use href="#i-clock"/></svg> ${D.edicao.atualizadoLabel ? `Atualizado a ${esc(D.edicao.atualizadoLabel)}` : `Data de fecho: ${esc(D.edicao.fechoLabel)}`} · Atualização automática diária; a agenda do Parlamento pode sofrer alterações.`;
-  $('#h-edicao').textContent = D.edicao.numero ? `Edição semanal n.º ${D.edicao.numero} · ${D.edicao.ano}` : `Edição piloto · ${D.edicao.ano}`;
-  // histórico: lista de edições publicada pelo workflow em edicoes/indice.json (só quando servido pela Web)
-  if (location.protocol.startsWith('http')) {
-    const base = /\/edicoes\/[^/]*$/.test(location.pathname) ? '../' : './';
-    fetch(base + 'edicoes/indice.json', {cache:'no-store'}).then(r => r.ok ? r.json() : null).then(ix => {
-      if (!ix || !ix.length) return;
-      const sel = $('#h-edicoes'); sel.hidden = false;
-      sel.innerHTML = `<option value="">Edições (${ix.length})</option>` + ix.map(e => `<option value="${esc(base + 'edicoes/' + e.ficheiro)}" ${e.numero===D.edicao.numero && e.semana===D.edicao.semana ? 'selected' : ''}>${e.numero ? 'N.º ' + e.numero : 'Piloto'} · ${esc(e.semana)}</option>`).join('') + `<option value="${esc(base)}">Edição em curso</option>`;
-      sel.addEventListener('change', () => { if (sel.value) location.href = sel.value; });
-    }).catch(() => {});
-  }
+  $('#h-edicao').textContent = `Edição semanal n.º ${D.edicao.numero} · ${D.edicao.ano}${D.edicao.estado==='piloto'?' · piloto':''}`;
   $('#f-edicao').textContent = `${D.produto} · ${D.edicao.semana} · fecho a ${D.edicao.fechoLabel}`;
   $('#aviso-txt').innerHTML = `<strong>Nesta secção não há fichas completas.</strong> As matérias em vigilância podem ter ficha curta automática e todas têm a lista das notícias encontradas no Radar de Notícias. ${esc(D.pedidos)}`;
   if (retiradas.length) { const r=$('#retiradas'); r.hidden=false; r.innerHTML = `<b>Deixaram de constar da agenda da AR (${retiradas.length})</b><ul>${retiradas.map(x=>`<li><s>${esc(x.tema)}</s> · ${esc(x.dataLabel)}${x.hora?' '+esc(x.hora):''} · retirada a ${esc(fmtD(x.retirado))}</li>`).join('')}</ul>`; }
@@ -394,6 +392,10 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   cP.addEventListener('click', e => { const b = e.target.closest('[data-pert]'); if (!b) return; const k=b.dataset.pert; st.pert.has(k)?st.pert.delete(k):st.pert.add(k); guardar(); render(); });
   $('#q').addEventListener('input', e => { st.q = e.target.value.trim().toLowerCase(); render(); });
   $('#btn-print').addEventListener('click', () => window.print());
+  // cartões: escondidos por defeito no ecrã (abrem na gaveta); o estado fica guardado
+  const cartoesVis = v => { document.body.classList.toggle('sem-cartoes', !v); $('#btn-cartoes').textContent = v ? 'Ocultar os cartões' : 'Mostrar todos os cartões'; try { localStorage.setItem('ar-preview-cartoes', v ? '1' : '0'); } catch(e){} };
+  let cv = false; try { cv = localStorage.getItem('ar-preview-cartoes') === '1'; } catch(e){} cartoesVis(cv);
+  $('#btn-cartoes').addEventListener('click', () => cartoesVis(document.body.classList.contains('sem-cartoes')));
 
   // calendário (mês) + agenda do dia
   const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
@@ -406,7 +408,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   // histórico: edições anteriores embebidas pelo gerar.py (D.historico), navegáveis no calendário
   const HIST = (D.historico||[]).slice().sort((a,b)=>a.inicio.localeCompare(b.inicio));
   const BASE_ED = /\/edicoes\/[^/]*$/.test(location.pathname) ? './' : 'edicoes/';
-  const nomeEd = e => e.numero ? `Edição n.º ${e.numero}` : 'Edição piloto';
+  const nomeEd = e => `Edição n.º ${e.numero}${e.estado==='piloto'?' (piloto)':''}`;
   const hist = HIST.flatMap(e => (e.itens||[]).map(x => ({...x, uo:x.uo||[], dataLabel:fmtD(x.data), _hist:e})));
   const edDe = k => HIST.find(e => k>=e.inicio && k<=e.fim);
   const pool = todos.concat(futuros, hist);
@@ -420,8 +422,8 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   const rotSem = k => { const a=new Date(k+'T00:00:00'), b=new Date(a); b.setDate(a.getDate()+6); const m=['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez']; return a.getMonth()===b.getMonth() ? `${a.getDate()}–${b.getDate()} ${m[b.getMonth()]}` : `${a.getDate()} ${m[a.getMonth()]}–${b.getDate()} ${m[b.getMonth()]}`; };
   const SEMANAS = (() => {
     const s = {};
-    HIST.forEach(e => { s[segDe(e.inicio)] = {tipo:'hist', sub: nomeEd(e).replace('Edição ',''), ed:e}; });
-    s[segDe(iniSem)] = {tipo:'cur', sub: `${D.edicao.numero ? 'n.º '+D.edicao.numero : 'piloto'} · esta edição`};
+    HIST.forEach(e => { s[segDe(e.inicio)] = {tipo:'hist', sub: nomeEd(e).replace('Edição ','').replace(' (piloto)',' · piloto'), ed:e}; });
+    s[segDe(iniSem)] = {tipo:'cur', sub: `n.º ${D.edicao.numero}${D.edicao.estado==='piloto'?' (piloto)':''} · esta edição`};
     futuros.forEach(x => { const k=segDe(x.data); if (k>fimSemAtual) { s[k] = s[k] || {tipo:'fut', n:0}; s[k].n = (s[k].n||0)+1; } });
     Object.keys(calAR).forEach(d => { const k=segDe(d); if (k>fimSemAtual && !s[k]) s[k] = {tipo:'fut', n:0}; });
     Object.values(s).forEach(v => { if (v.tipo==='fut') v.sub = v.n ? `${v.n} ${v.n===1?'reunião':'reuniões'} publicada${v.n===1?'':'s'}` : 'calendarização AR'; });
@@ -507,7 +509,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     $('#n-frente').textContent = `${futuros.length} reuniões já publicadas pela AR`;
   }
   // KPIs
-  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='nov'){ st.novidades=!st.novidades; render(); return; } if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); st.semana=null; $('#t-destaques').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
+  $('#kpis').addEventListener('click', e => { const b = e.target.closest('[data-kpi]'); if (!b) return; const k=b.dataset.kpi; if (k==='nov'){ st.novidades=!st.novidades; render(); return; } if (k==='varr'){ st.pert=new Set(['Imediato','Vigilância','Registo']); st.uo=null; st.dias.clear(); st.semana=null; cartoesVis(true); $('#t-destaques').scrollIntoView({behavior:'smooth'}); } else { st.pert = new Set([k]); } guardar(); render(); });
 
   function passa(x){
     if (st.uo){ const ok = st.uo==='Transversal' ? x.uo.includes('Transversal') : x.uo.includes(st.uo); if(!ok) return false; }
@@ -606,13 +608,14 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     const nHist = Object.values(dias).reduce((s,v)=>s+v.length,0);
     return `<details class="todas" ${aberta?'open':''}><summary><svg class="ic"><use href="#i-news"/></svg>Notícias encontradas (${c.n}${nHist<L.length?` · ${nHist} histórias`:''})</summary>
       <p class="ln-nota">${cobTxt(c)}${c.n > L.length ? ` · mostram-se as ${L.length} mais recentes` : ''}. Lista automática, sem análise; a mesma notícia publicada em vários órgãos aparece uma só vez.</p>
+      <div class="ln-acoes"><button type="button" data-exportar="${esc(c._titulo||'')}">Exportar para Excel (CSV)</button><button type="button" data-imprimir>Imprimir / PDF</button></div>
       <input class="ln-q" type="search" placeholder="Filtrar por órgão ou palavra do título…"><div class="ln-lista">${corpo}</div></details>`;
   }
   let atual = null;
   function abrir(k){
     const f = D.fichas[k]; if (!f) return; atual = k;
     $('#g-titulo').innerHTML = esc(f.titulo) + (f.gerado_por ? `<span class="nivel">${f.nivel==='curta'?'ficha curta':'ficha'} · ${esc(f.revista_por ? 'revista por '+f.revista_por : f.gerado_por)}</span>` : ''); $('#g-meta').textContent = f.meta;
-    const c = coberturaDe(k);
+    const c = coberturaDe(k); if (c) { c._titulo = f.titulo; } listaAtual = c || null;
     const amostra = f.amostra && f.origem!=='radar' ? `<div class="g-amostra">${f.origem==='radar'?'Seleção automática':'Amostra'} de <b>${f.amostra.analisadas}</b> notícias${f.origem==='radar'?'':' analisadas'}, de <b>${f.amostra.encontradas}</b> encontradas em 60 dias no Radar de Notícias, escolhidas ao longo do período (dias de maior cobertura, variedade de órgãos e as mais recentes).</div>` : '';
     const novas = f.novas ? `<div class="g-novas"><svg class="ic"><use href="#i-alert"/></svg> <b>${f.novas} ${f.novas===1?'notícia nova':'notícias novas'}</b> desde ${f.revista_por ? 'a revisão desta ficha' : 'que esta ficha foi feita'}${f.base && f.base.em ? ` (${esc(fmtD(f.base.em))})` : ''}. Veja-as na lista completa, no fim.</div>` : '';
     // sem análise do Amália, a seleção é redundante com a lista: mostra-se só a lista completa, aberta
@@ -624,7 +627,7 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
   }
   // cartão de uma matéria na gaveta (a partir da agenda hora a hora ou do hemiciclo)
   function abrirCartao(id){
-    const x = pool.find(y => y.data+'|'+y.tema===id); if (!x) return; atual = null;
+    const x = pool.find(y => y.data+'|'+y.tema===id); if (!x) return; atual = null; if (x.cobertura) { x.cobertura._titulo = x.tema; listaAtual = x.cobertura; }
     const [cls,pc] = PERT[x.pertinencia]||['reg','p-reg'];
     $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">${esc(x.pertinencia)}</span>`;
     $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''}${x.uo&&x.uo.length?' · UO de referência: '+x.uo.join(' · '):''}`;
@@ -634,18 +637,31 @@ details.todas{margin-top:18px;border-top:1px solid var(--borda);padding-top:10px
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
   function abrirLista(id){
-    const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null;
+    const x = pool.find(y => idDe(y)===id); if (!x || !x.cobertura) return; atual = null; x.cobertura._titulo = x.tema; listaAtual = x.cobertura;
     $('#g-titulo').innerHTML = esc(x.tema) + `<span class="nivel">notícias · sem ficha</span>`;
     $('#g-meta').textContent = `${x.tipoLabel||''} · ${x.dataLabel||''}${x.hora?', '+x.hora:''} · Radar de Notícias, últimos ${x.cobertura.dias} dias`;
     $('#g-corpo').innerHTML = `<div class="g-amostra">Esta matéria não tem ficha de varrimento. Abaixo, todas as notícias que o Radar de Notícias encontrou sobre o assunto, sem análise.${x.pertinencia==='Registo'?' O varrimento das matérias de registo carece de pedido à Chefe da Unidade de Pesquisa e Estatísticas.':''}</div>` + (listaHTML(x.cobertura, true) || '<p class="ln-nota">Sem notícias encontradas.</p>');
     $('#g-corpo').scrollTop = 0; $('#g-nav').innerHTML = '';
     $('#gaveta').classList.add('on'); $('#veu').classList.add('on'); $('#gaveta').setAttribute('aria-hidden','false'); document.body.style.overflow='hidden';
   }
+  // exportação: todas as notícias da lista aberta (uma linha por notícia e órgão), CSV com BOM e «;» para o Excel em português
+  let listaAtual = null;
+  $('#g-corpo').addEventListener('click', e => {
+    const bx = e.target.closest('[data-exportar]'); const bp = e.target.closest('[data-imprimir]');
+    if (bp) { document.body.classList.add('imprimir-gaveta'); window.print(); setTimeout(()=>document.body.classList.remove('imprimir-gaveta'), 1000); return; }
+    if (!bx || !listaAtual) return;
+    const L = listaAtual.todas || []; const q = s => '"' + String(s||'').replace(/"/g,'""') + '"';
+    const linhas = [['Data','Hora','Órgão','Título','Ligação'].map(q).join(';')].concat(L.map(n => [n[0].slice(0,10), n[0].slice(11,16), n[1], n[2], n[3]].map(q).join(';')));
+    const nome = (listaAtual._titulo||'noticias').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
+    const blob = new Blob(['\ufeff' + linhas.join('\r\n')], {type:'text/csv;charset=utf-8'}); const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob); a.download = `ar-preview-noticias-${nome}.csv`; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); }, 500);
+  });
   $('#g-corpo').addEventListener('input', e => { if (!e.target.classList.contains('ln-q')) return; const q = e.target.value.trim().toLowerCase(); const box = e.target.nextElementSibling;
     box.querySelectorAll('.ln').forEach(l => l.style.display = !q || l.dataset.t.includes(q) ? '' : 'none');
     box.querySelectorAll('.ln-dia').forEach(h => { let n = h.nextElementSibling, v = false; while (n && n.classList.contains('ln')) { if (n.style.display !== 'none') v = true; n = n.nextElementSibling; } h.style.display = v ? '' : 'none'; }); });
   function fechar(){ $('#gaveta').classList.remove('on'); $('#veu').classList.remove('on'); $('#gaveta').setAttribute('aria-hidden','true'); document.body.style.overflow=''; history.replaceState(null,'',location.pathname+location.search); }
-  $('#g-fechar').addEventListener('click', fechar); $('#veu').addEventListener('click', fechar);
+  $('#g-fechar').addEventListener('click', fechar);
+  document.querySelector('[data-imprimir-gaveta]').addEventListener('click', () => { document.body.classList.add('imprimir-gaveta'); window.print(); setTimeout(()=>document.body.classList.remove('imprimir-gaveta'), 1000); }); $('#veu').addEventListener('click', fechar);
   document.addEventListener('keydown', e => { if (e.key==='Escape') fechar(); });
   $('#g-corpo').addEventListener('click', e => { const b = e.target.closest('[data-nat]'); if (!b || !b.classList.contains('chip')) return; b.classList.toggle('on'); const on=[...$('#g-corpo').querySelectorAll('.chip[data-nat]')].filter(c=>c.classList.contains('on')).map(c=>c.dataset.nat); $('#g-corpo').querySelectorAll('.not').forEach(n=>n.style.display=on.includes(n.dataset.nat)?'':'none'); });
   $('#g-nav').addEventListener('click', e => { const a=e.target.closest('[data-ver]'); if(a){ e.preventDefault(); abrir(a.dataset.ver);} });

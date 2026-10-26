@@ -1,14 +1,16 @@
 [
  {
-  "numero": 1,
+  "numero": 2,
+  "estado": "com triagem automática",
   "semana": "26 de outubro a 1 de novembro de 2026",
   "inicio": "2026-10-26",
-  "ficheiro": "n01.html"
+  "ficheiro": "n02.html"
  },
  {
-  "numero": 0,
+  "numero": 1,
+  "estado": "piloto",
   "semana": "19 a 25 de outubro de 2026",
   "inicio": "2026-10-19",
-  "ficheiro": "piloto.html"
+  "ficheiro": "n01.html"
  }
 ]

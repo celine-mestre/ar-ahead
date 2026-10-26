@@ -51,7 +51,7 @@ if not corpo:
     corpo = f'<tr><td style="{F}font-size:13px;color:#555;padding:12px 0">Sem matérias imediatas ou em vigilância à data desta edição.</td></tr>'
 n_ime = sum(1 for x in todos if x['pertinencia'] == 'Imediato'); n_vig = len(todos) - n_ime
 quando = ed.get('atualizadoLabel') or ed.get('fechoLabel', '')
-n_ed = f'edição n.º {ed["numero"]}' if ed.get('numero') else 'edição piloto'
+n_ed = f'edição n.º {ed["numero"]}' + (' (piloto)' if ed.get('estado') == 'piloto' else '')
 
 logo = (f'<td style="width:46px;padding:0 12px 0 0;vertical-align:middle"><div style="background:#ffffff;border-radius:50%;width:46px;height:46px;text-align:center;line-height:46px">'
         f'<img src="{e(url)}logo-sggov.png" width="38" height="38" alt="SGGov" style="display:inline-block;vertical-align:middle;border:0;width:38px;height:38px"></div></td>') if url else ''
