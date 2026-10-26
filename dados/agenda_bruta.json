@@ -1,13 +1,13 @@
 {
  "inicio": "2026-10-26",
  "fim": "2026-11-01",
- "recolha": "2026-10-25T20:45",
+ "recolha": "2026-10-26T14:10",
  "fonte": "Dados abertos da Assembleia da República — AgendaParlamentar_json.txt",
  "itens": [
   {
    "id_ar": 48525,
    "data": "2026-10-26",
-   "hora": "11h00",
+   "hora": "10h00",
    "tema": "Comissão de Infraestruturas, Mobilidade e Habitação",
    "orgao": "Comissão de Infraestruturas, Mobilidade e Habitação",
    "interveniente": "",
@@ -20,9 +20,24 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.aspx"
   },
   {
+   "id_ar": 48552,
+   "data": "2026-10-26",
+   "hora": "14h00",
+   "tema": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
+   "orgao": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2",
+   "resumo": "1. Eventual suspensão de trabalhos durante o OE.\n 2. Apreciação das propostas de alteração ao regulamento.\n 3. Apreciação dos requerimentos para solicitação de documentos e realização de audições.\n 4. Análise dos procedimentos de acesso a documentação classificada.\n 5. Outros assuntos.",
+   "ordemTrabalhos": "1. Eventual suspensão de trabalhos durante o OE.\n 2. Apreciação das propostas de alteração ao regulamento.\n 3. Apreciação dos requerimentos para solicitação de documentos e realização de audições.\n 4. Análise dos procedimentos de acesso a documentação classificada.\n 5. Outros assuntos.",
+   "ligacao": ""
+  },
+  {
    "id_ar": 48517,
    "data": "2026-10-26",
-   "hora": "15h30",
+   "hora": "14h30",
    "tema": "Comissão de Trabalho, Segurança Social e Inclusão",
    "orgao": "Comissão de Trabalho, Segurança Social e Inclusão",
    "interveniente": "",
@@ -37,7 +52,7 @@
   {
    "id_ar": 48539,
    "data": "2026-10-26",
-   "hora": "16h00",
+   "hora": "15h00",
    "tema": "Comissão de Orçamento, Finanças e Administração Pública",
    "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
    "interveniente": "",
@@ -52,7 +67,7 @@
   {
    "id_ar": 48520,
    "data": "2026-10-27",
-   "hora": "12h00",
+   "hora": "11h00",
    "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
    "orgao": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
    "interveniente": "",
@@ -67,7 +82,7 @@
   {
    "id_ar": 48522,
    "data": "2026-10-27",
-   "hora": "13h00",
+   "hora": "12h00",
    "tema": "Comissão Parlamentar de Inquérito relativa às decisões, contratações e responsabilidades na conceção e execução da classificação digital dos exames nacionais de 2025 e 2026",
    "orgao": "Comissão Parlamentar de Inquérito relativa às decisões, contratações e responsabilidades na conceção e execução da classificação digital dos exames nacionais de 2025 e 2026",
    "interveniente": "",
@@ -82,7 +97,7 @@
   {
    "id_ar": 48473,
    "data": "2026-10-27",
-   "hora": "13h00",
+   "hora": "12h00",
    "tema": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
    "orgao": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
    "interveniente": "",
@@ -95,9 +110,24 @@
    "ligacao": ""
   },
   {
+   "id_ar": 48551,
+   "data": "2026-10-27",
+   "hora": "13h30",
+   "tema": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
+   "orgao": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2",
+   "resumo": "1. Validação das deliberações da reunião de Mesa e Coordenadores.\n 2. Outros assuntos.",
+   "ordemTrabalhos": "1. Validação das deliberações da reunião de Mesa e Coordenadores.\n 2. Outros assuntos.",
+   "ligacao": ""
+  },
+  {
    "id_ar": 48533,
    "data": "2026-10-27",
-   "hora": "15h00",
+   "hora": "14h00",
    "tema": "Comissão de Educação e Ciência",
    "orgao": "Comissão de Educação e Ciência",
    "interveniente": "",
@@ -105,14 +135,14 @@
     "Comissões Parlamentares"
    ],
    "tipoLabel": "Comissões Parlamentares · Reunião n.º 58",
-   "resumo": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
-   "ordemTrabalhos": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
+   "resumo": "",
+   "ordemTrabalhos": "",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx"
   },
   {
    "id_ar": 48546,
    "data": "2026-10-27",
-   "hora": "15h15",
+   "hora": "14h15",
    "tema": "Comissão de Transparência e Estatuto dos Deputados",
    "orgao": "Comissão de Transparência e Estatuto dos Deputados",
    "interveniente": "",
@@ -127,7 +157,7 @@
   {
    "id_ar": 48527,
    "data": "2026-10-27",
-   "hora": "15h30",
+   "hora": "14h30",
    "tema": "Comissão de Transparência e Estatuto dos Deputados",
    "orgao": "Comissão de Transparência e Estatuto dos Deputados",
    "interveniente": "",
@@ -170,24 +200,24 @@
    "ligacao": ""
   },
   {
-   "id_ar": 48540,
-   "data": "2026-10-29",
-   "hora": "10h30",
-   "tema": "Grupo de Trabalho - Parlamento dos Jovens",
-   "orgao": "Grupo de Trabalho - Parlamento dos Jovens",
+   "id_ar": 48550,
+   "data": "2026-10-28",
+   "hora": "14h00",
+   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "orgao": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
    "interveniente": "",
    "tipo": [
-    "Grupo de Trabalho"
+    "Comissões Parlamentares"
    ],
-   "tipoLabel": "Grupo de Trabalho · Reunião n.º 8",
-   "resumo": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
-   "ordemTrabalhos": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
-   "ligacao": ""
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 46",
+   "resumo": "Audição do Conselho Permanente do Conselho das Comunidades Portuguesas (CP-CCP).",
+   "ordemTrabalhos": "Audição do Conselho Permanente do Conselho das Comunidades Portuguesas (CP-CCP).",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
   },
   {
    "id_ar": 48521,
    "data": "2026-10-30",
-   "hora": "15h00",
+   "hora": "14h00",
    "tema": "Grupo de Trabalho - Júri do Prémio Mário Soares 2026",
    "orgao": "Grupo de Trabalho - Júri do Prémio Mário Soares 2026",
    "interveniente": "",
@@ -279,7 +309,7 @@
   {
    "id_ar": 48394,
    "data": "2026-11-25",
-   "hora": "12h00",
+   "hora": "11h00",
    "tema": "Plenário — Sessão Solene Evocativa do 25 de novembro de 1975 Tempos: 2m30s para cada DURP e 5m30s para cada Grupo Parlam",
    "orgao": "Plenário",
    "interveniente": "",
@@ -294,7 +324,7 @@
   {
    "id_ar": 48396,
    "data": "2026-12-11",
-   "hora": "11h00",
+   "hora": "10h00",
    "tema": "Plenário — Sessão Plenária alusiva às Comemorações dos 50 anos das Primeiras Eleições Autárquicas Tempos: A definir.",
    "orgao": "Plenário",
    "interveniente": "",
