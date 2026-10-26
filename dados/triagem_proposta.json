@@ -1,8 +1,8 @@
 {
  "inicio": "2026-10-26",
  "fim": "2026-11-01",
- "recolha": "2026-10-26T14:10",
- "fonte": "Dados abertos da Assembleia da República — AgendaParlamentar_json.txt",
+ "recolha": "2026-10-26T16:24",
+ "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
   {
    "id_ar": 48525,
@@ -14,7 +14,7 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 70",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 70 · Sala 1",
    "resumo": "Audição do Ministro das Infraestruturas e Habitação, Miguel Pinto Luz, sobre um alegado conflito de interesses na aprovação das alterações ao Regime Jurídico da Urbanização e da Edificação e ao Regime Jurídico da Reabilitação Urbana",
    "ordemTrabalhos": "Audição do Ministro das Infraestruturas e Habitação, Miguel Pinto Luz, sobre um alegado conflito de interesses na aprovação das alterações ao Regime Jurídico da Urbanização e da Edificação e ao Regime Jurídico da Reabilitação Urbana",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.aspx",
@@ -32,7 +32,7 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2 · Sala 6",
    "resumo": "1. Eventual suspensão de trabalhos durante o OE.\n 2. Apreciação das propostas de alteração ao regulamento.\n 3. Apreciação dos requerimentos para solicitação de documentos e realização de audições.\n 4. Análise dos procedimentos de acesso a documentação classificada.\n 5. Outros assuntos.",
    "ordemTrabalhos": "1. Eventual suspensão de trabalhos durante o OE.\n 2. Apreciação das propostas de alteração ao regulamento.\n 3. Apreciação dos requerimentos para solicitação de documentos e realização de audições.\n 4. Análise dos procedimentos de acesso a documentação classificada.\n 5. Outros assuntos.",
    "ligacao": "",
@@ -50,7 +50,7 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 75",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 75 · Sala 8",
    "resumo": "I Parte \n 1. Discussão e votação dos relatórios sobre as seguintes iniciativas europeias:\n A. COM(2026)980 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO relativo à digitalização da coordenação dos sistemas de segurança social, que estabelece um quadro para o Passaporte Europeu de Seg",
    "ordemTrabalhos": "I Parte \n 1. Discussão e votação dos relatórios sobre as seguintes iniciativas europeias:\n A. COM(2026)980 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO relativo à digitalização da coordenação dos sistemas de segurança social, que estabelece um quadro para o Passaporte Europeu de Segurança Social (PESS) e que altera os Regulamentos (CE) n.º 883/2004, (CE) n.º 987/2009 e (UE) 2018/1724 ;\n Relatora: Deputada Sónia Margarida Fernandes (PSD)\n B. COM(2026)985 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que altera o Regulamento (UE) 2019/1149 que institui uma Autoridade Europeia do Trabalho, o Regulamento (UE) 2016/589 relativo a uma rede europeia de serviços de emprego (EURES), ao acesso dos trabalhadores a serviços de mobilidade e ao desenvolvimento da integração dos mercados de trabalho e o Regulamento (UE) n.º 1024/2012 relativo à cooperação administrativa através do Sistema de Informação do Mercado Interno, e revoga as Decisões de Execução (UE) 2017/1256, (UE) 2018/170, (UE) 2018/1020 e (UE) 2018/1021 da Comissão ;\n Relatora: Deputada Catarina Salgueiro (CH)\n 2. Discussão e votação do parecer setorial, a enviar à Comissão de Orçamento, Finanças e Administração Pública (5.ª- COFAP), sobre a Proposta de Lei n.º 110/XVII/2.ª (GOV) — Orçamento do Estado para 2027 ;\n Relatora: Deputada Ana Bernardo (PS)\n II Parte \n Audição da Ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, no âmbito da apreciação, na generalidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Orçamento do Estado para 2027 , ao abrigo do disposto no n.º 6 do artigo 206.º do Regimento.\n [Audição conjunta com a Comissão Orçamento, Finanças e Administração Pública (5.ª – COFAP)]",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx",
@@ -93,12 +93,33 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 14",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 14 · Sala 6",
    "resumo": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro",
    "ordemTrabalhos": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx",
    "uo": [
     "DCIRI"
+   ],
+   "pertinencia": "Vigilância",
+   "validado": false
+  },
+  {
+   "id_ar": 48556,
+   "data": "2026-10-27",
+   "hora": "11h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 124 · Sala 3",
+   "resumo": "Discussão e votação do parecer final da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027;\nDeputada relatora: Marina Gonçalves (PS)\n Discussão e votação do requerimento apresentado pelo GP PS solicitando, à UTAO, estudo sobre a evolução e comparação internacional das reservas de",
+   "ordemTrabalhos": "Discussão e votação do parecer final da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027;\nDeputada relatora: Marina Gonçalves (PS)\n Discussão e votação do requerimento apresentado pelo GP PS solicitando, à UTAO, estudo sobre a evolução e comparação internacional das reservas de liquidez do Estado e do perfil de maturidades da dívida pública portuguesa;\n Definição de prazo para propostas de alteração ao Projeto de Lei n.º 295/XVII/1.ª (PS) – Estabelece um regime fiscal de apoio ao regresso de pensionistas emigrantes, alterando o Código do IRS e ao Projeto de Lei n.º 681/XVII/1.ª (CH) – Prevê a isenção de 50% dos rendimentos em sede de IRS sobre os rendimentos da Categoria A, B e H, referentes a emigrantes portugueses que regressem e se tornem residentes em Portugal;\n Definição de metodologia de apreciação, na especialidade, do Projeto de Lei 712/XVII/1.ª (IL) – Procede à interpretação autêntica da isenção de mais-valias no reinvestimento imobiliário para habitação própria e permanente;\n Definição de metodologia de apreciação, na especialidade, do Projeto de Lei 793/XVII/2.ª (L) – Isenta de mais valia o investimento em habitação em cooperativa de propriedade coletiva;\n Discussão e votação do Relatório do Projeto de Lei n.º 676XVII/1.ª (PAN) – Possibilita a recuperação do IVA pelas associações zoófilas e pelos centros de recolha oficial de animais, alterando o Decreto-Lei n.º 84/2017, de 21 de julho;\nDeputado relator: Almiro Moreira (PSD)\n Outros assuntos.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx",
+   "uo": [
+    "DAPL",
+    "Transversal"
    ],
    "pertinencia": "Vigilância",
    "validado": false
@@ -113,7 +134,7 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2 · Sala 1",
    "resumo": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Reg",
    "ordemTrabalhos": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Regime Jurídico dos Inquéritos Parlamentares;\n Deliberação sobre as diligências instrutórias solicitadas pelos Grupos Parlamentares e pelo Deputado Único Representante do BE;\n Outros Assuntos.",
    "ligacao": "",
@@ -133,7 +154,7 @@
    "tipo": [
     "Grupo de Trabalho"
    ],
-   "tipoLabel": "Grupo de Trabalho · Reunião n.º 15",
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 15 · Sala 5",
    "resumo": "Preparação da apresentação pública da plataforma;\n Apresentação de projeto de resolução que aprova a regulamentação interna da AR para representação de interesses e Pegada Legislativa;\n Outros assuntos.",
    "ordemTrabalhos": "Preparação da apresentação pública da plataforma;\n Apresentação de projeto de resolução que aprova a regulamentação interna da AR para representação de interesses e Pegada Legislativa;\n Outros assuntos.",
    "ligacao": "",
@@ -151,7 +172,7 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2 · Sala 6",
    "resumo": "1. Validação das deliberações da reunião de Mesa e Coordenadores.\n 2. Outros assuntos.",
    "ordemTrabalhos": "1. Validação das deliberações da reunião de Mesa e Coordenadores.\n 2. Outros assuntos.",
    "ligacao": "",
@@ -169,9 +190,9 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 58",
-   "resumo": "",
-   "ordemTrabalhos": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 58 · Sala 2",
+   "resumo": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
+   "ordemTrabalhos": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx",
    "uo": [],
    "pertinencia": "Registo",
@@ -187,7 +208,7 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 9",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 9 · Sala 5",
    "resumo": "1 – Deliberação sobre a admissibilidade de participação(ões) e denúncia(s) enviadas à Comissão (matéria reservada);\n 2 – Outros assuntos.",
    "ordemTrabalhos": "1 – Deliberação sobre a admissibilidade de participação(ões) e denúncia(s) enviadas à Comissão (matéria reservada);\n 2 – Outros assuntos.",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.aspx",
@@ -205,9 +226,9 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 56",
-   "resumo": "1 – Apreciação e votação de parecer relativo a verificação de poderes;\n 2 – Outros assuntos.",
-   "ordemTrabalhos": "1 – Apreciação e votação de parecer relativo a verificação de poderes;\n 2 – Outros assuntos.",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 56 · Sala 5",
+   "resumo": "1 – Apreciação e votação de parecer relativo a verificação de poderes;\n 2 – Fixação da redação final, nos termos do disposto nos artigos 156.º e 128.º, n.º 8 do RAR, do Projeto de Resolução n.º 1238/XVII/2.ª (BE) - Recomenda ao Governo o reforço urgente dos meios humanos, técnicos e financeiros da E",
+   "ordemTrabalhos": "1 – Apreciação e votação de parecer relativo a verificação de poderes;\n 2 – Fixação da redação final, nos termos do disposto nos artigos 156.º e 128.º, n.º 8 do RAR, do Projeto de Resolução n.º 1238/XVII/2.ª (BE) - Recomenda ao Governo o reforço urgente dos meios humanos, técnicos e financeiros da Entidade para a Transparência; \n 3 – Outros assuntos.",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.aspx",
    "uo": [],
    "pertinencia": "Registo",
@@ -232,6 +253,24 @@
     "Transversal"
    ],
    "pertinencia": "Vigilância",
+   "validado": false
+  },
+  {
+   "id_ar": 48545,
+   "data": "2026-10-28",
+   "hora": "9h00",
+   "tema": "Grupo de Trabalho para os Assuntos Culturais",
+   "orgao": "Grupo de Trabalho para os Assuntos Culturais",
+   "interveniente": "",
+   "tipo": [
+    "Grupo de Trabalho AR"
+   ],
+   "tipoLabel": "Grupo de Trabalho AR · Reunião n.º 5 · Sala 7",
+   "resumo": "I. Aprovação da ata da reunião anterior; \n II. Programação Cultural 2027; \n III. Apreciação de iniciativas; \n IV. Apreciação de publicações; \n V. Outros assuntos.",
+   "ordemTrabalhos": "I. Aprovação da ata da reunião anterior; \n II. Programação Cultural 2027; \n III. Apreciação de iniciativas; \n IV. Apreciação de publicações; \n V. Outros assuntos.",
+   "ligacao": "",
+   "uo": [],
+   "pertinencia": "Registo",
    "validado": false
   },
   {
@@ -276,6 +315,24 @@
    "validado": false
   },
   {
+   "id_ar": 48555,
+   "data": "2026-10-29",
+   "hora": "9h30",
+   "tema": "Grupo de Trabalho - Parlamento dos Jovens",
+   "orgao": "Grupo de Trabalho - Parlamento dos Jovens",
+   "interveniente": "",
+   "tipo": [
+    "Grupo de Trabalho"
+   ],
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 8 · Sala 1",
+   "resumo": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
+   "ordemTrabalhos": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
+   "ligacao": "",
+   "uo": [],
+   "pertinencia": "Registo",
+   "validado": false
+  },
+  {
    "id_ar": 48521,
    "data": "2026-10-30",
    "hora": "14h00",
@@ -285,7 +342,7 @@
    "tipo": [
     "Grupo de Trabalho"
    ],
-   "tipoLabel": "Grupo de Trabalho · Reunião n.º 3",
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 3 · Sala 6",
    "resumo": "Ponto único: Conclusão da apreciação das candidaturas ao Prémio Mário Soares 2026",
    "ordemTrabalhos": "Ponto único: Conclusão da apreciação das candidaturas ao Prémio Mário Soares 2026",
    "ligacao": "",
@@ -438,132 +495,6 @@
   }
  ],
  "calendarizacao": [
-  {
-   "data": "2026-10-01",
-   "diaSemana": "Quinta-feira",
-   "atividade": "Jornadas Parlamentares do PCP",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-02",
-   "diaSemana": "Sexta-feira",
-   "atividade": "Jornadas Parlamentares do PCP",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-05",
-   "diaSemana": "Segunda-feira",
-   "atividade": "Feriado",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-06",
-   "diaSemana": "Terça-feira",
-   "atividade": "Comissões",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-07",
-   "diaSemana": "Quarta-feira",
-   "atividade": "Conferência de Líderes Reunião Plenária",
-   "horas": "10h30 · 15h00"
-  },
-  {
-   "data": "2026-10-08",
-   "diaSemana": "Quinta-feira",
-   "atividade": "Reunião Plenária",
-   "horas": "14h30"
-  },
-  {
-   "data": "2026-10-09",
-   "diaSemana": "Sexta-feira",
-   "atividade": "Reunião Plenária",
-   "horas": "10h00"
-  },
-  {
-   "data": "2026-10-12",
-   "diaSemana": "Segunda-feira",
-   "atividade": "Contacto com o Eleitorado",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-13",
-   "diaSemana": "Terça-feira",
-   "atividade": "Comissões",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-14",
-   "diaSemana": "Quarta-feira",
-   "atividade": "Reunião Plenária",
-   "horas": "15h00"
-  },
-  {
-   "data": "2026-10-15",
-   "diaSemana": "Quinta-feira",
-   "atividade": "Reunião Plenária",
-   "horas": "15h00"
-  },
-  {
-   "data": "2026-10-16",
-   "diaSemana": "Sexta-feira",
-   "atividade": "Reunião Plenária",
-   "horas": "10h00"
-  },
-  {
-   "data": "2026-10-19",
-   "diaSemana": "Segunda-feira",
-   "atividade": "Contacto com o Eleitorado",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-20",
-   "diaSemana": "Terça-feira",
-   "atividade": "Comissões",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-21",
-   "diaSemana": "Quarta-feira",
-   "atividade": "Reunião Plenária",
-   "horas": "15h00"
-  },
-  {
-   "data": "2026-10-23",
-   "diaSemana": "Sexta-feira",
-   "atividade": "OE 2027",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-26",
-   "diaSemana": "Segunda-feira",
-   "atividade": "OE 2027",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-27",
-   "diaSemana": "Terça-feira",
-   "atividade": "Reunião Plenária (OE 2027)",
-   "horas": "15h00"
-  },
-  {
-   "data": "2026-10-28",
-   "diaSemana": "Quarta-feira",
-   "atividade": "Reunião Plenária (OE 2027)",
-   "horas": "10h00 · 15h00"
-  },
-  {
-   "data": "2026-10-29",
-   "diaSemana": "Quinta-feira",
-   "atividade": "OE 2027",
-   "horas": ""
-  },
-  {
-   "data": "2026-10-30",
-   "diaSemana": "Sexta-feira",
-   "atividade": "OE 2027",
-   "horas": ""
-  },
   {
    "data": "2026-11-18",
    "diaSemana": "Quarta-feira",
