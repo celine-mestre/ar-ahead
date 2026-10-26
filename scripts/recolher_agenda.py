@@ -93,9 +93,9 @@ def texto(h):
 def hora(x, txt):
     if x.get('Section') == 'Plenário':                      # no Plenário, a hora certa vem na ordem do dia
         m = re.search(r'\b(\d{1,2})H(\d{2})\b', txt)
-        if m: return f"{int(m.group(1))}h{m.group(2)}"
+        if m: return f"{int(m.group(1)):02d}h{m.group(2)}"
     t = x.get('EventStartTime') or ''
-    return f"{int(t[:2])}h{t[3:5]}" if re.match(r'\d{2}:\d{2}', t) else ''
+    return f"{int(t[:2]):02d}h{t[3:5]}" if re.match(r'\d{2}:\d{2}', t) else ''   # 09h00, como no site da AR (e para ordenar bem)
 
 def tema(x, txt):
     if x.get('Section') == 'Plenário':
