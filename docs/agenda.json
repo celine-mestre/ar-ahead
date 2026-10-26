@@ -12513,11 +12513,11 @@
     "retirados": 0
    }
   ],
-  "atualizado": "2026-10-26T16:35+00:00",
-  "atualizadoLabel": "26 de outubro, 16h35",
+  "atualizado": "2026-10-26T16:38+00:00",
+  "atualizadoLabel": "26 de outubro, 16h38",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
-  "aviso": "10 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
+  "aviso": "13 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
  },
  "fichas": {
   "2026-10-27-plen-rio-debate-na-generalidade-do-or-a": {
@@ -13284,6 +13284,431 @@
    },
    "novas": 0,
    "enquadramento": "Seleção automática de 4 das 4 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (2 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+  },
+  "2026-10-26-comiss-o-de-infraestruturas-mobilidade": {
+   "titulo": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "meta": "Comissões Parlamentares · Reunião n.º 70 · Sala 1 · segunda, 26 out, 10h00 · UO de referência: DACDP",
+   "nivel": "curta",
+   "origem": "radar",
+   "gerado_por": "Radar de Notícias — seleção automática, sem análise",
+   "atencao": [],
+   "blocos": [],
+   "tabelas": [],
+   "fundo": [],
+   "amostra": {
+    "analisadas": 0,
+    "encontradas": 0
+   },
+   "base": {
+    "ultima": "",
+    "em": "2026-10-26"
+   },
+   "novas": 0,
+   "enquadramento": "Sem notícias sobre esta matéria nos órgãos de comunicação social acompanhados pelo Radar de Notícias nos últimos 60 dias (expressões usadas: palavras do assunto). A ficha é refeita automaticamente quando surgirem notícias."
+  },
+  "2026-10-26-comiss-o-parlamentar-de-inqu-rito-para": {
+   "titulo": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
+   "meta": "Comissões Parlamentares · Reunião n.º 2 · Sala 6 · segunda, 26 out, 14h00 · UO de referência: DACDP",
+   "nivel": "completa",
+   "origem": "radar",
+   "gerado_por": "Radar de Notícias — seleção automática, sem análise",
+   "atencao": [],
+   "blocos": [],
+   "tabelas": [],
+   "fundo": [
+    {
+     "data": "2026-08-27",
+     "fonte": "Observador",
+     "url": "https://observador.pt/2026/08/27/carro-que-luis-neves-usa-foi-apreendido-ao-traficante-de-droga-xuxas/",
+     "sintese": "Carro que Luís Neves usa é do traficante \"Xuxas\"",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-03",
+     "fonte": "Nascer do SOL",
+     "url": "https://sol.iol.pt/politica/noticias/auditoria-a-policia-judiciaria-devido-a-casos-de-luis-neves-concluida-ate-ao-final-do-ano/20260903/6a99bd470cf2b42132dbfff0",
+     "sintese": "Auditoria à Polícia Judiciária devido a casos de Luís Neves concluída até ao final do ano",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-08",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/ministro-da-administracao-interna-diz-nao-estar-afetado-pelas-polemicas/",
+     "sintese": "Ministro da Administração Interna diz não estar afetado pelas polémicas",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-10",
+     "fonte": "Jornal de Notícias",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeGNoYjc1ZXJMdC1URXJZTC1BdzZhVHdaampuVTUtbXdSemVqRGV0amljbTdoVE5uZVFUYU9oYkJ5cHRsSGNIcmxuQnhTZGpIeWZWY0lnRjZuR2w5NGM4Ymd1WDVGak9PWER0NkNsM1BpOEVxa01VSEMxNkRpOGZ2ZENEOUc0QnNHUlFRc0JYeVE5UV8wT1YtSWJ3dUZiMDcwbmRuY3N3M2Mxa2pCU2VwQXQwSWpvRDFkLW5XdmZfR2VZcGQ2VDZSNERR?oc=5",
+     "sintese": "Chega faz alterações pontuais à proposta de inquérito a Luís Neves e quer início dia 15",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-16",
+     "fonte": "SIC Notícias",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNaVZwWloyQzZiVUliSXJuWW1IQTN5Wl84SmdHZ0h5N1VQWHY4WkUzNUtWWkdPZEN5MWhGM0lrYTBrSHdEenZuSHNlUloyeC00SWN6Z09adTVzTzQtbVhTa21QeVhmbER0NXFLalVEYXo4MXhHQTJld3FYWVk0elU5OEV1aUFFWC04RmhfSzBsbkNBbUE3QUVxQUkxRDZQejdNUzN0MWljUW94Y2RubnlZc0swY2lnSW1ySENWSkNtek1IWEVRYV9nenRhUDhuOWgxMlR3UGY0VFl0WC11MzVzbEcwX3Yzc1JQejFrbGlRU24yWEZqR2JmMVNUU0Eyb3A5NkpOdHhfbGpEQ0ttNU95V252aGNteV9C?oc=5",
+     "sintese": "20 minutos: Presidente da Assembleia da República recusa comissão de inquérito a Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-18",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/politica/detalhe/barometro-luis-neves-passa-de-melhor-a-pior-ministro-e-afunda-prestigio-de-montenegro",
+     "sintese": "Barómetro: Luís Neves passa de melhor a pior ministro e afunda \"prestígio\" de Montenegro",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-19",
+     "fonte": "Diário de Notícias",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMzNyZ3d1ZGVtOUNEZzVvNFB6LUFvZ3Joc0p2ZzN3OUc2RndZNEhGTFBLRXVWeW83YjdudlhueFU1ZnZUanZ0T1hOUzZ1cDVNNm5nckNab0REVk1LdldKdTloc1pVLUR3VnZYR2ZGdUtiSEhsYk5oSUVDaGlSbjBWTVZCTkdWbmVOWTJ5bVlOQnRtSm9SWGdBZVVOT3pJcGtCUTdFc3E3LTNRSTVuaWhzR2dDeFVDWGlmWmY1dFVrTi0?oc=5",
+     "sintese": "Chega entregou nova proposta para constituição de comissão parlamentar de inquérito a Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-23",
+     "fonte": "Sábado",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN29Vdm9walpER1hVd21vOFFGRlBRQlRwcmdyZjg2a3JTandYRVBQUl9PVFQzel84V1NYaEo3Xy1STnhDWndaQWwzR3RURUZDbkI3S2NIVnJILS12ZHNINHFnaDFLa1g1ZFpIdmsxVDROOEVkRDl0enFaNWpiOVJ1TUszQWR6Y2hpREtnWEFOOUJvc1QyLWg2ME5sRXJhS0ZaaGRheC1veHhGdEZyTFNfaTVyd3hzRHB1UnfSAboBQVVfeXFMUDdvVXZvcGpaREdYVXdtbzhRRkZQUUJUcHJncmY4NmtyU2p3WEVQUFJfT1RUM3pfOFdTWGhKN18tUk54Q1p3WkFsM0d0VEVGQ25CN0tjSFZySC0tdmRzSDRxZ2gxS2tYNWRaSHZrMVQ0TjhFZEQ5dHpxWjVqYjlSdU1LM0FkemNoaURLZ1hBTjlCb3NUMi1oNjBObEVyYUtGWmhkYXgtb3h4RnRGckxTX2k1cnd4c0RwdVJ3?oc=5",
+     "sintese": "Chega aceita condições de Aguiar-Branco para comissão de inquérito sobre Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-26",
+     "fonte": "Renascença",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQN3pDTE03SXI2dWJZT0wzZENhWm13QWg2WnBjYm81QW9XVGJqaG1ELXdyR0dYWVhDeUpKZmdkbDlsMm9UQ3Z3WlNWeE1HenJpc2x2cDk4WUZGcE1KTmZ1eFJyNVFmZFNnbUZpb2xXaTA1M1p6VWlNTERrYUlWWnpoajBCZzA1NHVraW1qemhLUmlZd0pUVWMxRHoyRlNYWU1Kc0FRYjlrVmxVaG1MUHZxeFUweG5WckRJZVhuYlF0ZnduWk9CRXVpSnlRX01LeTBlYzhrZDBENlh4eUFvMVlOMnZmOA?oc=5",
+     "sintese": "Ventura quer comissão de inquérito a Luís Neves a funcionar antes do Orçamento",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-03",
+     "fonte": "Correio da Manhã",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNW8yYWpiVDRDSGpNUVJPTVhoODc2NXFCNE00ejVCdGhsUU5YVmdJZ0NIWlJpeFNxTjNtLXI1TzZtUUNLNzdhVW9vcnlFVzlrSnZ6ZVI1OTNyeVdib1ktU3ZiV09kZlBMTDNlZkxlX0stelFJbjdUSGRpczFnWkJraTR2T1plUlkxaU4wN3VjLVdoRDRCWWFLQWpJa3ZJRG9CTHfSAaIBQVVfeXFMTTVvMmFqYlQ0Q0hqTVFST01YaDg3NjVxQjRNNHo1QnRobFFOWFZnSWdDSFpSaXhTcU4zbS1yNU82bVFDSzc3YVVvb3J5RVc5a0p2emVSNTkzcnlXYm9ZLVN2YldPZGZQTEwzZWZMZV9LLXpRSW43VEhkaXMxZ1pCa2k0dk9aZVJZMWlOMDd1Yy1XaEQ0QllhS0FqSWt2SURvQkx3?oc=5",
+     "sintese": "André Ventura vai presidir à comissão de inquérito a Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-07",
+     "fonte": "Executive Digest",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQUoxc1ZBRlVqNURmWnhSdTdZZVBNOHJWYW5mX05lOTR3d3FWNmNCTEhNTnFNTUd0dGFWWGhNTmNkek96WUxlSkk5UDkxd01hNkllWlI4b2ZVb2xFQllzNS01LTBnUnNCTVVoRlkweVlpOHA5djZYdXhDQnBuWmNfNnlSMkZ1Vzl1bmFiN2JiWlY2NEtKc21jTkZXbWRlNVdGZ3B0RXdvV3VibUZUQThzXzRJTUx3dV9XdE5LcUpDSWpXWHlPaUYwQTlkWUY5ckZa?oc=5",
+     "sintese": "Parlamento marca data: comissões de inquérito aos exames nacionais e a Luís Neves arrancam no mesmo dia",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-14",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/pais/ventura-assume-lideranca-da-cpi-a-luis-neves-e-denuncia-bloqueios_v1771728",
+     "sintese": "Ventura assume liderança da CPI a Luís Neves e denuncia bloqueios",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-20",
+     "fonte": "ECO",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWWVzVnlfMnV0WC1vd19KSmRFdEk5ZzNqNkJaSk04Nm5MYWdTOVNyeTJkZElVbVMwUjRHU2xCZkpzcWN1TDdNYlpMNnpaYUpsbThKRlVHVWgwUEJFaFY5Vk0xUTVxS0RHLWt0RzNBeXJWa2hkdjlmdER3QjBlWElMU3pvQk1yaU1ocVZ4RmpDNTlRbDlfcmRfOUxWak5ub211MUg4?oc=5",
+     "sintese": "MAI elogia “diálogo e persuasão” da PSP para desmobilizar manifestantes",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/politica/luis-neves-podera-ter-de-ir-mais-do-que-uma-vez-a-comissao-parlamentar_v1773357",
+     "sintese": "Luís Neves poderá ter de ir mais do que uma vez à comissão parlamentar",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-23",
+     "fonte": "TSF",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYmtLRUdMc0xGZmVoZEoxQkVqWU5vS2w4VGczX1k5MFdwLU1WWUNQaV9jVGF4U0o2b0Q5Uk9NTHhTc0F0b1dabW55TDJEb081Sk5pQ3lhdGdwTkdzS1FlQ3NuZDdvS1Zoam9hNmJtZGRINHhhcVJhaVBhVWVUeW0zUG9xMmNQRkFwZEY0alptMHJFZ0ZlR0N5X0tpcUNtdHRLbjlXRGdhTEpxREJNaGctXzNXNnM4bXBncklCODhFSmY?oc=5",
+     "sintese": "Livre quer ouvir Luís Neves, Ventura e empreiteiro na comissão de inquérito à PJ",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-24",
+     "fonte": "Expresso",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPa2FwdE9nT2E0TE1BcWxfMDhsa1Z5RmZSRjZlMjFOcEdkT2dpSEthVHE0eXpId0lnd3JwYVNIQnpNSWdFZzR6YTlKQ1d2Rmo3dkRjcHFZSDNCcjRvdDlrVDlKMndFdmx5R1JvVGpNMjgtZi1RUUJzLTJfWW1wc29HWGxPalJZNnZ3bVhxQjd1UnUyX3F0Yk81eHlMVzV3ODNOWWFJdUxBeFExYVpqTC1tYWhjUnRhUVNQaHdwNk1aalRTRDJEMnBhaFJ2YWFxNDZGS2NpcUJCdFE1M2NVYWlndWpCblNJejVLemJWdjRySQ?oc=5",
+     "sintese": "Comissão de Inquérito: Ventura diz que está “absolutamente disponível” para ser ouvido na CPI sobre Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-25",
+     "fonte": "Público",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYWJLMFJ5YXo1MGswdGI2dmhyaHNRQWlRcFVZYzA2d0NlWlMwbkNnRzRCREViQmlwQVlEbFdPbnZpSk5XYzVBQXBHaGIyQWJnV1JWVlBYSHZzTW95bTNHQV9BWkVCUE9qbVdTQ3BuaUJ2OGdQY0RHOEVaWXMyZnMyQnN0UHlCTDZQWlYybkt0THVhMklCaDhpOWtsOFAwWC1PTUlndjZJMnZ1RW00eE5SZ0t3NUVqQmdLUERCMU92WkdfRzBLNU5QZGZDeTNZeUJQT09QZg?oc=5",
+     "sintese": "PS quer chamar a depor Montenegro, Costa, Lucília Gago e Amadeu Guerra na CPI sobre Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-25",
+     "fonte": "CNN Portugal",
+     "url": "https://cnnportugal.iol.pt/videos/neste-momento-luis-neves-nao-e-propriamente-o-melhor-defensor-da-policia/6ade79530cf23b0ed4fdf638",
+     "sintese": "\"Neste momento, Luís Neves não é propriamente o melhor defensor da polícia\"",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "Notícias ao Minuto",
+     "url": "https://www.noticiasaominuto.com/pais/3073064/psd-quer-ouvir-20-personalidades-na-cpi-a-neves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+     "sintese": "PSD quer ouvir António Costa e Luís Neves na comissão de inquérito",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "Observador",
+     "url": "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/",
+     "sintese": "14h. Detidos nos protestos chegam ao Campus de Justiça",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
+   "amostra": {
+    "analisadas": 20,
+    "encontradas": 339
+   },
+   "base": {
+    "ultima": "2026-10-26 14:24",
+    "em": "2026-10-26"
+   },
+   "novas": 0,
+   "enquadramento": "Seleção automática de 20 das 339 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (46 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+  },
+  "2026-10-27-comiss-o-parlamentar-de-inqu-rito-para": {
+   "titulo": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
+   "meta": "Comissões Parlamentares · Reunião n.º 2 · Sala 6 · terça, 27 out, 13h30 · UO de referência: DACDP",
+   "nivel": "completa",
+   "origem": "radar",
+   "gerado_por": "Radar de Notícias — seleção automática, sem análise",
+   "atencao": [],
+   "blocos": [],
+   "tabelas": [],
+   "fundo": [
+    {
+     "data": "2026-08-27",
+     "fonte": "Observador",
+     "url": "https://observador.pt/2026/08/27/carro-que-luis-neves-usa-foi-apreendido-ao-traficante-de-droga-xuxas/",
+     "sintese": "Carro que Luís Neves usa é do traficante \"Xuxas\"",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-03",
+     "fonte": "Nascer do SOL",
+     "url": "https://sol.iol.pt/politica/noticias/auditoria-a-policia-judiciaria-devido-a-casos-de-luis-neves-concluida-ate-ao-final-do-ano/20260903/6a99bd470cf2b42132dbfff0",
+     "sintese": "Auditoria à Polícia Judiciária devido a casos de Luís Neves concluída até ao final do ano",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-08",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/ministro-da-administracao-interna-diz-nao-estar-afetado-pelas-polemicas/",
+     "sintese": "Ministro da Administração Interna diz não estar afetado pelas polémicas",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-10",
+     "fonte": "Jornal de Notícias",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeGNoYjc1ZXJMdC1URXJZTC1BdzZhVHdaampuVTUtbXdSemVqRGV0amljbTdoVE5uZVFUYU9oYkJ5cHRsSGNIcmxuQnhTZGpIeWZWY0lnRjZuR2w5NGM4Ymd1WDVGak9PWER0NkNsM1BpOEVxa01VSEMxNkRpOGZ2ZENEOUc0QnNHUlFRc0JYeVE5UV8wT1YtSWJ3dUZiMDcwbmRuY3N3M2Mxa2pCU2VwQXQwSWpvRDFkLW5XdmZfR2VZcGQ2VDZSNERR?oc=5",
+     "sintese": "Chega faz alterações pontuais à proposta de inquérito a Luís Neves e quer início dia 15",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-16",
+     "fonte": "SIC Notícias",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNaVZwWloyQzZiVUliSXJuWW1IQTN5Wl84SmdHZ0h5N1VQWHY4WkUzNUtWWkdPZEN5MWhGM0lrYTBrSHdEenZuSHNlUloyeC00SWN6Z09adTVzTzQtbVhTa21QeVhmbER0NXFLalVEYXo4MXhHQTJld3FYWVk0elU5OEV1aUFFWC04RmhfSzBsbkNBbUE3QUVxQUkxRDZQejdNUzN0MWljUW94Y2RubnlZc0swY2lnSW1ySENWSkNtek1IWEVRYV9nenRhUDhuOWgxMlR3UGY0VFl0WC11MzVzbEcwX3Yzc1JQejFrbGlRU24yWEZqR2JmMVNUU0Eyb3A5NkpOdHhfbGpEQ0ttNU95V252aGNteV9C?oc=5",
+     "sintese": "20 minutos: Presidente da Assembleia da República recusa comissão de inquérito a Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-18",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/politica/detalhe/barometro-luis-neves-passa-de-melhor-a-pior-ministro-e-afunda-prestigio-de-montenegro",
+     "sintese": "Barómetro: Luís Neves passa de melhor a pior ministro e afunda \"prestígio\" de Montenegro",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-19",
+     "fonte": "Diário de Notícias",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMzNyZ3d1ZGVtOUNEZzVvNFB6LUFvZ3Joc0p2ZzN3OUc2RndZNEhGTFBLRXVWeW83YjdudlhueFU1ZnZUanZ0T1hOUzZ1cDVNNm5nckNab0REVk1LdldKdTloc1pVLUR3VnZYR2ZGdUtiSEhsYk5oSUVDaGlSbjBWTVZCTkdWbmVOWTJ5bVlOQnRtSm9SWGdBZVVOT3pJcGtCUTdFc3E3LTNRSTVuaWhzR2dDeFVDWGlmWmY1dFVrTi0?oc=5",
+     "sintese": "Chega entregou nova proposta para constituição de comissão parlamentar de inquérito a Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-23",
+     "fonte": "Sábado",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN29Vdm9walpER1hVd21vOFFGRlBRQlRwcmdyZjg2a3JTandYRVBQUl9PVFQzel84V1NYaEo3Xy1STnhDWndaQWwzR3RURUZDbkI3S2NIVnJILS12ZHNINHFnaDFLa1g1ZFpIdmsxVDROOEVkRDl0enFaNWpiOVJ1TUszQWR6Y2hpREtnWEFOOUJvc1QyLWg2ME5sRXJhS0ZaaGRheC1veHhGdEZyTFNfaTVyd3hzRHB1UnfSAboBQVVfeXFMUDdvVXZvcGpaREdYVXdtbzhRRkZQUUJUcHJncmY4NmtyU2p3WEVQUFJfT1RUM3pfOFdTWGhKN18tUk54Q1p3WkFsM0d0VEVGQ25CN0tjSFZySC0tdmRzSDRxZ2gxS2tYNWRaSHZrMVQ0TjhFZEQ5dHpxWjVqYjlSdU1LM0FkemNoaURLZ1hBTjlCb3NUMi1oNjBObEVyYUtGWmhkYXgtb3h4RnRGckxTX2k1cnd4c0RwdVJ3?oc=5",
+     "sintese": "Chega aceita condições de Aguiar-Branco para comissão de inquérito sobre Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-26",
+     "fonte": "Renascença",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQN3pDTE03SXI2dWJZT0wzZENhWm13QWg2WnBjYm81QW9XVGJqaG1ELXdyR0dYWVhDeUpKZmdkbDlsMm9UQ3Z3WlNWeE1HenJpc2x2cDk4WUZGcE1KTmZ1eFJyNVFmZFNnbUZpb2xXaTA1M1p6VWlNTERrYUlWWnpoajBCZzA1NHVraW1qemhLUmlZd0pUVWMxRHoyRlNYWU1Kc0FRYjlrVmxVaG1MUHZxeFUweG5WckRJZVhuYlF0ZnduWk9CRXVpSnlRX01LeTBlYzhrZDBENlh4eUFvMVlOMnZmOA?oc=5",
+     "sintese": "Ventura quer comissão de inquérito a Luís Neves a funcionar antes do Orçamento",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-03",
+     "fonte": "Correio da Manhã",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNW8yYWpiVDRDSGpNUVJPTVhoODc2NXFCNE00ejVCdGhsUU5YVmdJZ0NIWlJpeFNxTjNtLXI1TzZtUUNLNzdhVW9vcnlFVzlrSnZ6ZVI1OTNyeVdib1ktU3ZiV09kZlBMTDNlZkxlX0stelFJbjdUSGRpczFnWkJraTR2T1plUlkxaU4wN3VjLVdoRDRCWWFLQWpJa3ZJRG9CTHfSAaIBQVVfeXFMTTVvMmFqYlQ0Q0hqTVFST01YaDg3NjVxQjRNNHo1QnRobFFOWFZnSWdDSFpSaXhTcU4zbS1yNU82bVFDSzc3YVVvb3J5RVc5a0p2emVSNTkzcnlXYm9ZLVN2YldPZGZQTEwzZWZMZV9LLXpRSW43VEhkaXMxZ1pCa2k0dk9aZVJZMWlOMDd1Yy1XaEQ0QllhS0FqSWt2SURvQkx3?oc=5",
+     "sintese": "André Ventura vai presidir à comissão de inquérito a Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-07",
+     "fonte": "Executive Digest",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQUoxc1ZBRlVqNURmWnhSdTdZZVBNOHJWYW5mX05lOTR3d3FWNmNCTEhNTnFNTUd0dGFWWGhNTmNkek96WUxlSkk5UDkxd01hNkllWlI4b2ZVb2xFQllzNS01LTBnUnNCTVVoRlkweVlpOHA5djZYdXhDQnBuWmNfNnlSMkZ1Vzl1bmFiN2JiWlY2NEtKc21jTkZXbWRlNVdGZ3B0RXdvV3VibUZUQThzXzRJTUx3dV9XdE5LcUpDSWpXWHlPaUYwQTlkWUY5ckZa?oc=5",
+     "sintese": "Parlamento marca data: comissões de inquérito aos exames nacionais e a Luís Neves arrancam no mesmo dia",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-14",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/pais/ventura-assume-lideranca-da-cpi-a-luis-neves-e-denuncia-bloqueios_v1771728",
+     "sintese": "Ventura assume liderança da CPI a Luís Neves e denuncia bloqueios",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-20",
+     "fonte": "ECO",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWWVzVnlfMnV0WC1vd19KSmRFdEk5ZzNqNkJaSk04Nm5MYWdTOVNyeTJkZElVbVMwUjRHU2xCZkpzcWN1TDdNYlpMNnpaYUpsbThKRlVHVWgwUEJFaFY5Vk0xUTVxS0RHLWt0RzNBeXJWa2hkdjlmdER3QjBlWElMU3pvQk1yaU1ocVZ4RmpDNTlRbDlfcmRfOUxWak5ub211MUg4?oc=5",
+     "sintese": "MAI elogia “diálogo e persuasão” da PSP para desmobilizar manifestantes",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/politica/luis-neves-podera-ter-de-ir-mais-do-que-uma-vez-a-comissao-parlamentar_v1773357",
+     "sintese": "Luís Neves poderá ter de ir mais do que uma vez à comissão parlamentar",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-23",
+     "fonte": "TSF",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYmtLRUdMc0xGZmVoZEoxQkVqWU5vS2w4VGczX1k5MFdwLU1WWUNQaV9jVGF4U0o2b0Q5Uk9NTHhTc0F0b1dabW55TDJEb081Sk5pQ3lhdGdwTkdzS1FlQ3NuZDdvS1Zoam9hNmJtZGRINHhhcVJhaVBhVWVUeW0zUG9xMmNQRkFwZEY0alptMHJFZ0ZlR0N5X0tpcUNtdHRLbjlXRGdhTEpxREJNaGctXzNXNnM4bXBncklCODhFSmY?oc=5",
+     "sintese": "Livre quer ouvir Luís Neves, Ventura e empreiteiro na comissão de inquérito à PJ",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-24",
+     "fonte": "Expresso",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPa2FwdE9nT2E0TE1BcWxfMDhsa1Z5RmZSRjZlMjFOcEdkT2dpSEthVHE0eXpId0lnd3JwYVNIQnpNSWdFZzR6YTlKQ1d2Rmo3dkRjcHFZSDNCcjRvdDlrVDlKMndFdmx5R1JvVGpNMjgtZi1RUUJzLTJfWW1wc29HWGxPalJZNnZ3bVhxQjd1UnUyX3F0Yk81eHlMVzV3ODNOWWFJdUxBeFExYVpqTC1tYWhjUnRhUVNQaHdwNk1aalRTRDJEMnBhaFJ2YWFxNDZGS2NpcUJCdFE1M2NVYWlndWpCblNJejVLemJWdjRySQ?oc=5",
+     "sintese": "Comissão de Inquérito: Ventura diz que está “absolutamente disponível” para ser ouvido na CPI sobre Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-25",
+     "fonte": "Público",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYWJLMFJ5YXo1MGswdGI2dmhyaHNRQWlRcFVZYzA2d0NlWlMwbkNnRzRCREViQmlwQVlEbFdPbnZpSk5XYzVBQXBHaGIyQWJnV1JWVlBYSHZzTW95bTNHQV9BWkVCUE9qbVdTQ3BuaUJ2OGdQY0RHOEVaWXMyZnMyQnN0UHlCTDZQWlYybkt0THVhMklCaDhpOWtsOFAwWC1PTUlndjZJMnZ1RW00eE5SZ0t3NUVqQmdLUERCMU92WkdfRzBLNU5QZGZDeTNZeUJQT09QZg?oc=5",
+     "sintese": "PS quer chamar a depor Montenegro, Costa, Lucília Gago e Amadeu Guerra na CPI sobre Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-25",
+     "fonte": "CNN Portugal",
+     "url": "https://cnnportugal.iol.pt/videos/neste-momento-luis-neves-nao-e-propriamente-o-melhor-defensor-da-policia/6ade79530cf23b0ed4fdf638",
+     "sintese": "\"Neste momento, Luís Neves não é propriamente o melhor defensor da polícia\"",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "Notícias ao Minuto",
+     "url": "https://www.noticiasaominuto.com/pais/3073064/psd-quer-ouvir-20-personalidades-na-cpi-a-neves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+     "sintese": "PSD quer ouvir António Costa e Luís Neves na comissão de inquérito",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "Observador",
+     "url": "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/",
+     "sintese": "14h. Detidos nos protestos chegam ao Campus de Justiça",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
+   "amostra": {
+    "analisadas": 20,
+    "encontradas": 339
+   },
+   "base": {
+    "ultima": "2026-10-26 14:24",
+    "em": "2026-10-26"
+   },
+   "novas": 0,
+   "enquadramento": "Seleção automática de 20 das 339 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (46 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   }
  },
  "destaques": [
@@ -18233,8 +18658,10 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "uo": [],
-   "pertinencia": "Registo",
+   "uo": [
+    "DACDP"
+   ],
+   "pertinencia": "Vigilância",
    "periodo": "Manhã",
    "ligacoes": [
     {
@@ -18253,7 +18680,8 @@
     "ultima": "",
     "ultimas": [],
     "todas": []
-   }
+   },
+   "varrimento": "2026-10-26-comiss-o-de-infraestruturas-mobilidade"
   },
   {
    "tema": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
@@ -18270,8 +18698,10 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "uo": [],
-   "pertinencia": "Registo",
+   "uo": [
+    "DACDP"
+   ],
+   "pertinencia": "Vigilância",
    "periodo": "Tarde",
    "ligacoes": [],
    "novo": "2026-10-26",
@@ -20339,7 +20769,8 @@
       "https://news.google.com/rss/articles/CBMikwJBVV95cUxPcmlUMWRMSGVJWEhOZnpaUVNLS0paODZUVzdJWUN1clh1YkwtM3cwTFlHbnh0SG4wTlBOdFRQc3VTcWRVN1ZIeWhJOGhDNE9KVE52NlZZTXJPU1NkVXFEUVhheHdEZmptQjIwZGZCdHpHUzlnLW04d2dBWm5mX21fclJwd1VxdUVQTTlYclNfQVFCV3IwUVZybkEzRHdfRXJCYUdrTHZyT1lXWmVzVnRKeHVGdUlUOTl4bDg2X2RvRUxOX0taWmlmaVEwMTVKTFRCU2ZZZTRTSUZEd19xU1RGNDY0T3lVd3FabS1Sdm5Tb0lBeVJjMUxCNXFFaG5raFpGMTJiOEVkQlNWb29zaF85Z1Fncw?oc=5"
      ]
     ]
-   }
+   },
+   "varrimento": "2026-10-26-comiss-o-parlamentar-de-inqu-rito-para"
   },
   {
    "tema": "Iniciativas europeias de segurança social: Passaporte Europeu de Segurança Social e Autoridade Europeia do Trabalho",
@@ -23903,8 +24334,10 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "uo": [],
-   "pertinencia": "Registo",
+   "uo": [
+    "DACDP"
+   ],
+   "pertinencia": "Vigilância",
    "periodo": "Tarde",
    "ligacoes": [],
    "novo": "2026-10-26",
@@ -25972,7 +26405,8 @@
       "https://news.google.com/rss/articles/CBMikwJBVV95cUxPcmlUMWRMSGVJWEhOZnpaUVNLS0paODZUVzdJWUN1clh1YkwtM3cwTFlHbnh0SG4wTlBOdFRQc3VTcWRVN1ZIeWhJOGhDNE9KVE52NlZZTXJPU1NkVXFEUVhheHdEZmptQjIwZGZCdHpHUzlnLW04d2dBWm5mX21fclJwd1VxdUVQTTlYclNfQVFCV3IwUVZybkEzRHdfRXJCYUdrTHZyT1lXWmVzVnRKeHVGdUlUOTl4bDg2X2RvRUxOX0taWmlmaVEwMTVKTFRCU2ZZZTRTSUZEd19xU1RGNDY0T3lVd3FabS1Sdm5Tb0lBeVJjMUxCNXFFaG5raFpGMTJiOEVkQlNWb29zaF85Z1Fncw?oc=5"
      ]
     ]
-   }
+   },
+   "varrimento": "2026-10-27-comiss-o-parlamentar-de-inqu-rito-para"
   },
   {
    "tema": "Comissão de Educação e Ciência",
