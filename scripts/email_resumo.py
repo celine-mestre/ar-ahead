@@ -17,8 +17,9 @@ F = "font-family:Arial,Helvetica,sans-serif;"
 LIG = "color:#2B5683;text-decoration:underline"
 
 def ligacao_ar(x):
-    """Página da AR para a matéria: a indicada pela AR (comissão, plenário, iniciativa); senão, a agenda parlamentar.
-    Prazos acrescentados à mão não têm ligação à agenda."""
+    """Página da matéria no site da Agenda Parlamentar (abre e expande a reunião); senão, a página que a AR indica;
+    senão, a agenda. Prazos acrescentados à mão não têm ligação à agenda."""
+    if x.get('id_ar'): return f'https://agenda.parlamento.pt/?contentAnchor={x["id_ar"]}'
     for l in (x.get('ligacoes') or []):
         if 'parlamento.pt' in (l.get('url') or ''): return l['url']
     if x.get('ligacao'): return x['ligacao']
