@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48395@ar-preview
+DTSTAMP:20261027T162824Z
+DTSTART:20261124T100000Z
+DTEND:20261124T120000Z
+SUMMARY:AR · Plenário — Discussão de artigos remetidos a Plenário e 
+ normas avocadas Tempos 5 minutos ao Governo\, a cada GP e DURP
+LOCATION:Assembleia da República
+DESCRIPTION:Plenário · Reunião n.º 21 · Plenário\nGoverno: Governo (
+ intervenção prevista)\nSíntese: Votações\; Encerramento do debate na
+  especialidade do Orçamento do Estado para 2027\nUnidades DSSD: DAPL\, T
+ ransversal\, UPE\nEmissões em direto (quando houver): https://canal.parl
+ amento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora d
+ e fim indicativa\; a agenda da AR pode mudar.
+URL:https://canal.parlamento.pt/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

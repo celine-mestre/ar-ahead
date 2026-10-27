@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48517@ar-preview
+DTSTAMP:20261027T162824Z
+DTSTART:20261026T143000Z
+DTEND:20261026T163000Z
+SUMMARY:AR · Iniciativas europeias de segurança social: Passaporte Europ
+ eu de Segurança Social e Autoridade Europeia do Trabalho
+LOCATION:Assembleia da República · Sala 8
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 75 · Sala 8\nGovern
+ o: Ministra do Trabalho\, Solidariedade e Segurança Social\, Maria do Ro
+ sário Palma Ramalho\nSíntese: Discussão e votação dos relatórios so
+ bre as seguintes iniciativas europeias\; COM(2026)980 - Proposta de REGUL
+ AMENTO DO PARLAMENTO EUROPEU E DO CONSELHO relativo à…\nUnidades DSSD:
+  DCIRI\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/
+ 10CTSSI/Paginas/default.aspx\nEmissões em direto (quando houver): https:
+ //canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ah
+ ead/\nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

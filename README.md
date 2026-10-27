@@ -34,7 +34,9 @@ Os horários estão em UTC no workflow. No horário de verão (de março a outub
 8. scripts/pdf.js               Chromium                      → saida/ar-preview.pdf
 9. scripts/resolver_ligacoes.py ligações diretas às notícias (reencaminhamentos do Google Notícias → endereço do jornal; cache em dados/ligacoes.json)
 10. scripts/indice_edicoes.py   lista de edições              → docs/edicoes/indice.json
-   scripts/email_resumo.py      corpo do email de segunda-feira
+   scripts/calendario.py        ficheiros de calendário (.ics) → docs/cal/<id>.ics e docs/cal/semana.ics
+   scripts/email_resumo.py      corpo e assunto do email de segunda-feira
+   scripts/sintese.py           membro do Governo, síntese curta e página na AR de cada matéria (usado pelo email e pelos calendários)
 ```
 
 Tudo corre em `.github/workflows/ar-preview.yml`.
@@ -122,7 +124,7 @@ Criam-se em Settings › Secrets and variables › Actions › New repository se
 | `SMTP_PORT` | `465` |
 | `SMTP_USER` | endereço remetente |
 | `SMTP_PASS` | palavra-passe de aplicação do Google (16 letras, sem espaços) |
-| `SMTP_FROM` | `AR Preview <endereço remetente>` |
+| `SMTP_FROM` | já não é usado: o remetente aparece como «AR Preview», com o endereço de `SMTP_USER` |
 | `DIRIGENTES_DSSD` | destinatários do email de segunda-feira, separados por vírgulas |
 | `EMAIL_TRIAGEM` | destinatário do aviso de semana nova |
 | `AMALIA_GGUF_URL` | opcional: endereço do modelo Amália |
@@ -141,5 +143,11 @@ Actions › AR Preview › Run workflow, com o passo `atualizar` (recolha e publ
 
 - O repositório é **público**. A página tem `noindex`, para não aparecer nos motores de pesquisa, mas abre para qualquer pessoa com o endereço, e todo o conteúdo do repositório (dados, regras, histórico) é legível.
 - A atribuição às unidades e o varrimento são indicativos e estão sujeitos a validação. O varrimento é amostral e não exaustivo.
-- O email usa o logótipo publicado em `docs/logo-sggov.png`: os programas de email não mostram imagens embebidas no próprio HTML.
+- **Email de segunda-feira.** Remetente «AR Preview»; assunto «AR Preview n.º N · semana — agenda da Assembleia da República». Lista única por data e hora (sem secções por unidade); cada matéria leva:
+  - a etiqueta da unidade ou «Transversal»;
+  - o membro do Governo presente e uma síntese muito curta, tirados da ordem de trabalhos publicada pela AR (nada é inferido; no Plenário, quando a AR atribui tempo ao Governo, aparece «Governo (intervenção prevista)»);
+  - a página da comissão ou da matéria na AR, só quando existe — a agenda geral não, porque o conteúdo dela já vai no email;
+  - «adicionar ao calendário», um ficheiro .ics que o Outlook abre como evento (hora de fim indicativa: 2 horas); o botão «Todas no calendário» junta as matérias da semana.
+  As emissões não têm ligação própria antecipada: o email indica o Canal Parlamento (canal.parlamento.pt).
+- O email usa o logótipo publicado em `docs/logo-sggov-email.png` (com o disco branco desenhado na imagem, para ficar redondo também no Outlook): os programas de email não mostram imagens embebidas no próprio HTML.
 - `scripts/importar_html_antigo.py` converteu a edição piloto (HTML original) para JSON.

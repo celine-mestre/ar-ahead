@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48522@ar-preview
+DTSTAMP:20261027T162824Z
+DTSTART:20261027T120000Z
+DTEND:20261027T140000Z
+SUMMARY:AR · Comissão Parlamentar de Inquérito relativa às decisões\,
+  contratações e responsabilidades na conceção e execução da classif
+ icação digital dos exames nacionais de 2025 e 2026
+LOCATION:Assembleia da República · Sala 1
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 2 · Sala 1\nSíntes
+ e: Apreciação e votação do Regulamento da Comissão\; Deliberação s
+ obre a suspensão dos trabalhos da Comissão durante o período de discus
+ são do Orçamento do Estado para 2027\nUnidades DSSD: Transversal\nEmiss
+ ões em direto (quando houver): https://canal.parlamento.pt/\nAR Preview:
+  https://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a ag
+ enda da AR pode mudar.
+URL:https://canal.parlamento.pt/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

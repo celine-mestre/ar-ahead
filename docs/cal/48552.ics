@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48552@ar-preview
+DTSTAMP:20261027T162824Z
+DTSTART:20261026T140000Z
+DTEND:20261026T160000Z
+SUMMARY:AR · Comissão Parlamentar de Inquérito para avaliação da inte
+ rvenção de Luís Neves enquanto diretor da Polícia Judiciária durante
+  todos os seus mandatos (2018-2026) e eventual responsabilidade de membro
+ s do Governo que o nomearam e tutelaram
+LOCATION:Assembleia da República · Sala 6
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 2 · Sala 6\nSíntes
+ e: Eventual suspensão de trabalhos durante o OE\; Apreciação das propo
+ stas de alteração ao regulamento\nUnidades DSSD: DACDP\nEmissões em di
+ reto (quando houver): https://canal.parlamento.pt/\nAR Preview: https://c
+ eline-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR
+  pode mudar.
+URL:https://canal.parlamento.pt/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

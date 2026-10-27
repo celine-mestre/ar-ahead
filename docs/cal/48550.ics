@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48550@ar-preview
+DTSTAMP:20261027T162824Z
+DTSTART:20261028T140000Z
+DTEND:20261028T160000Z
+SUMMARY:AR · Comissão de Negócios Estrangeiros e Comunidades Portuguesa
+ s
+LOCATION:Assembleia da República
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 46\nSíntese: Audiç
+ ão do Conselho Permanente do Conselho das Comunidades Portuguesas (CP-CC
+ P)\nUnidades DSSD: DCIRI\nPágina na AR: https://www.parlamento.pt/sites/
+ com/XVIILeg/2CNECP/Paginas/default.aspx\nEmissões em direto (quando houv
+ er): https://canal.parlamento.pt/\nAR Preview: https://celine-mestre.gith
+ ub.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

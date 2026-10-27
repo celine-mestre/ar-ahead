@@ -68,7 +68,7 @@ jobs:
       - name: Verificar se a página precisa de ser refeita
         id: muda
         run: |
-          H=$(cat dados/agenda.json modelo/template_cartoes.html scripts/gerar.py scripts/email_resumo.py $(ls docs/edicoes/*.json 2>/dev/null | grep -v indice.json) | sha256sum | cut -c1-16)
+          H=$(cat dados/agenda.json modelo/template_cartoes.html scripts/gerar.py scripts/email_resumo.py scripts/sintese.py scripts/calendario.py $(ls docs/edicoes/*.json 2>/dev/null | grep -v indice.json) | sha256sum | cut -c1-16)
           if [ -f docs/.fonte ] && [ "$(cat docs/.fonte)" = "$H" ]; then echo "muda=nao" >> $GITHUB_OUTPUT; echo "sem alterações"; else echo "muda=sim" >> $GITHUB_OUTPUT; echo "$H" > .fonte_nova; fi
       - uses: actions/setup-node@v4
         if: steps.muda.outputs.muda == 'sim'
@@ -84,6 +84,7 @@ jobs:
           cp saida/ar-preview.html docs/index.html
           cp saida/ar-preview.pdf docs/ar-preview.pdf
           cp dados/agenda.json docs/agenda.json
+          PAGINA_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/ python scripts/calendario.py dados/agenda.json docs/cal
           N=$(python -c "import json;print(json.load(open('dados/agenda.json',encoding='utf-8'))['edicao']['numero'])")
           cp saida/ar-preview.html "docs/edicoes/n$(printf %02d $N).html"
           cp dados/agenda.json "docs/edicoes/n$(printf %02d $N).json"
@@ -104,7 +105,7 @@ jobs:
           server_port: ${{ secrets.SMTP_PORT }}
           username: ${{ secrets.SMTP_USER }}
           password: ${{ secrets.SMTP_PASS }}
-          from: ${{ secrets.SMTP_FROM }}
+          from: AR Preview
           to: ${{ secrets.EMAIL_TRIAGEM }}
           subject: "AR Preview — nova semana em preparação: triagem para rever"
           body: "A edição da semana seguinte já está na página e será atualizada duas vezes por dia. Para corrigir uma unidade, uma pertinência ou o assunto, acrescente uma linha a dados/correcoes.csv (chave;uo;pertinencia;assunto), copiando a chave da lista em anexo. As correções entram na atualização seguinte. Envio aos dirigentes: segunda-feira, 9h07."
@@ -120,8 +121,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - name: Preparar o corpo do email (resumo por unidade)
-        run: python scripts/email_resumo.py dados/agenda.json > email.html
+      - name: Preparar o corpo e o assunto do email (lista única, com unidade, Governo e síntese)
+        id: corpo
+        run: |
+          python scripts/email_resumo.py dados/agenda.json assunto.txt > email.html
+          echo "assunto=$(cat assunto.txt)" >> $GITHUB_OUTPUT
       - name: Enviar aos dirigentes
         if: env.SMTP_OK == 'sim'
         uses: dawidd6/action-send-mail@v3
@@ -130,9 +134,9 @@ jobs:
           server_port: ${{ secrets.SMTP_PORT }}
           username: ${{ secrets.SMTP_USER }}
           password: ${{ secrets.SMTP_PASS }}
-          from: ${{ secrets.SMTP_FROM }}
+          from: AR Preview      # nome que aparece como remetente; o endereço é o da conta SMTP (SMTP_USER)
           to: ${{ secrets.DIRIGENTES_DSSD }}
-          subject: "AR Preview — a semana na Assembleia da República"
+          subject: ${{ steps.corpo.outputs.assunto }}
           html_body: file://email.html
           attachments: docs/ar-preview.pdf
       - name: Sem segredos SMTP

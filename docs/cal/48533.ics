@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48533@ar-preview
+DTSTAMP:20261027T162824Z
+DTSTART:20261027T140000Z
+DTEND:20261027T160000Z
+SUMMARY:AR · Comissão de Educação e Ciência
+LOCATION:Assembleia da República · Sala 2
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 58 · Sala 2\nSínte
+ se: Discussão e votação do Plano de Atividades e do Orçamento da Comi
+ ssão respeitante à 2.ª Sessão Legislativa\nPágina na AR: https://www
+ .parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx\nEmissões em 
+ direto (quando houver): https://canal.parlamento.pt/\nAR Preview: https:/
+ /celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da 
+ AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

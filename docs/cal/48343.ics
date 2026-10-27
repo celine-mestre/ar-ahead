@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48343@ar-preview
+DTSTAMP:20261027T162824Z
+DTSTART:20261028T100000Z
+DTEND:20261028T120000Z
+SUMMARY:AR · Plenário — Continuação do debate na generalidade do Or
+ çamento do Estado para 2027
+LOCATION:Assembleia da República
+DESCRIPTION:Plenário · Reunião n.º 16 · Plenário\nGoverno: Governo (
+ intervenção prevista)\nSíntese: Proposta de Lei n.º 110/XVII/2.ª (GO
+ V)\; Encerramento do debate na generalidade do Orçamento do Estado para 
+ 2027\nUnidades DSSD: Transversal\, DACDP\, UPE\, DAPL\nEmissões em diret
+ o (quando houver): https://canal.parlamento.pt/\nAR Preview: https://celi
+ ne-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR po
+ de mudar.
+URL:https://canal.parlamento.pt/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

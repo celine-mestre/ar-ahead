@@ -816,6 +816,8 @@ a.pedir.lig{font-style:normal;color:var(--azul);text-decoration:underline;font-s
           : f ? `<button class="p1" data-hd-ver="${esc(x.varrimento)}">${f.origem==='radar'?'Ver notícias':'Ver varrimento'}${c&&c.n?` (${c.n})`:''}</button>`
           : (c && c.n ? `<button class="p1" data-hd-lista="${esc(idDe(x))}">Ver notícias (${c.n})</button>` : '')}
         ${ar?`<a class="p2" href="${esc(ar)}" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ext"/></svg>Ver na agenda da AR</a>`:''}
+        ${x.id_ar && !x._hist && x.data >= hojeIso ? `<a class="p2" href="cal/${esc(x.id_ar)}.ics" download title="Abre o evento no Outlook (ou noutro calendário); hora de fim indicativa">Adicionar ao calendário</a>` : ''}
+        <a class="p2" href="https://canal.parlamento.pt/" target="_blank" rel="noopener" title="Emissões em direto da AR, quando as há; escolha a emissão pretendida">Canal Parlamento</a>
         ${!x._hist && !f ? pedirVarr(x).replace('class="pedir lig"', 'class="p2"') : ''}
       </div>`;
     res.hidden = true; det.hidden = false; det.scrollTop = 0;

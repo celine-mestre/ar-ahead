@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48560@ar-preview
+DTSTAMP:20261027T162824Z
+DTSTART:20261030T093000Z
+DTEND:20261030T113000Z
+SUMMARY:AR · Comissão de Assuntos Europeus
+LOCATION:Assembleia da República
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 62\nSíntese: Audiç
+ ão com o Vice-Primeiro Ministro da Ucrânia para a Integração Europeia
+  e Euro-Atlântica\, Vsevolod Chentsov\nUnidades DSSD: DACDP\, DAPL\, DCI
+ RI\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Pagin
+ as/default.aspx\nEmissões em direto (quando houver): https://canal.parla
+ mento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora de
+  fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Paginas/default.aspx
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
