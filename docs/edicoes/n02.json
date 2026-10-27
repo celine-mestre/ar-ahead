@@ -45,13 +45,13 @@
    "ligacoes": [],
    "varrimento": "2026-11-18-plen-rio-debate-na-especialidade-do-or",
    "cobertura": {
-    "n": 1009,
-    "n7": 84,
+    "n": 1023,
+    "n7": 98,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 11:54",
+    "ultima": "2026-10-27 16:07",
     "ultimas": [
      {
       "data": "2026-10-27",
@@ -61,23 +61,95 @@
      },
      {
       "data": "2026-10-27",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
-      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+      "fonte": "RTP Notícias",
+      "titulo": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
      },
      {
       "data": "2026-10-27",
-      "fonte": "TSF",
-      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
-      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+      "fonte": "Jornal Económico",
+      "titulo": "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "url": "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
      }
     ],
     "todas": [
      [
-      "2026-10-27 11:54",
+      "2026-10-27 16:07",
       "RTP Notícias",
       "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 15:56",
+      "RTP Notícias",
+      "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
+     ],
+     [
+      "2026-10-27 15:31",
+      "Jornal Económico",
+      "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
+     ],
+     [
+      "2026-10-27 15:27",
+      "CNN Portugal",
+      "\"Não aumenta um único imposto\": Montenegro defende Orçamento do Estado para 2027",
+      "https://cnnportugal.iol.pt/videos/nao-aumenta-um-unico-imposto-montenegro-defende-orcamento-do-estado-para-2027/6ae0c13a0cf23b0ed4fdf9a3"
+     ],
+     [
+      "2026-10-27 15:24",
+      "Notícias ao Minuto",
+      "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 15:18",
+      "Jornal Económico",
+      "Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://jornaleconomico.sapo.pt/noticias/mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar-2/"
+     ],
+     [
+      "2026-10-27 15:16",
+      "Diário de Notícias",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à Assembleia da República",
+      "https://www.dn.pt/sociedade/oe2027-mais-de-100-sindicalistas-contestam-oramento-em-frente-assembleia-da-repblica"
+     ],
+     [
+      "2026-10-27 14:59",
+      "ECO",
+      "“Onde é que o primeiro-ministro andou? Andou a trabalhar”, responde Montenegro. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
+     ],
+     [
+      "2026-10-27 14:12",
+      "Executive Digest",
+      "OE2027: Montenegro elogia PSP \"cuidadosa e competente\" em ação nos protestos antes de defender \"bom orçamento para portugueses, famílias e empresa\"",
+      "https://executivedigest.sapo.pt/oe2027-montenegro-elogia-psp-cuidadosa-e-competente-em-acao-nos-protestos-antes-de-defender-bom-orcamento-para-portugueses-familias-e-empresa/"
+     ],
+     [
+      "2026-10-27 13:38",
+      "RTP Notícias",
+      "Partidos antecipam debate do OE 2027",
+      "https://www.rtp.pt/noticias/pais/partidos-antecipam-debate-do-oe-2027_v1774710"
+     ],
+     [
+      "2026-10-27 12:19",
+      "CNN Portugal",
+      "“Este orçamento não serve para os portugueses\": em dia de debate do OE2027, manifestantes protestam em frente à Assembleia da República",
+      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/este-orcamento-nao-serve-para-os-portugueses-em-dia-de-debate-do-oe2027-manifestantes-protestam-em-frente-a-assembleia-da-republica/20261027/6ae096c8d34e9a786e75dfb8"
+     ],
+     [
+      "2026-10-27 12:09",
+      "Notícias ao Minuto",
+      "Sindicalistas protestam contra OE2027 em frente à Assembleia da República",
+      "https://www.noticiasaominuto.com/pais/3073663/sindicalistas-protestam-contra-oe2027-em-frente-a-assembleia-da-republica#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 11:05",
+      "Correio da Manhã",
+      "Mais de 100 sindicalistas contestam Orçamento do Estado para 2027 em frente à Assembleia da República",
+      "https://www.cmjornal.pt/politica/amp/mais-de-100-sindicalistas-contestam-orcamento-do-estado-para-2027-em-frente-a-assembleia-da-republica"
      ],
      [
       "2026-10-27 10:42",
@@ -122,12 +194,6 @@
       "https://www.tsf.pt/politica/artigo/parlamento-inicia-debate-de-oe2027-com-protestos-pela-habitacao-em-fundo/18141477"
      ],
      [
-      "2026-10-27 07:20",
-      "Observador",
-      "7h.PM e PR pressionados a falar sobre protestos da habitação",
-      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
       "2026-10-27 06:52",
       "CNN Portugal",
       "Do início da discussão do OE2027 às eleições imprevisíveis em Israel: estas são \"as 5 notícias\" que vão marcar o dia",
@@ -140,7 +206,7 @@
       "https://www.publico.pt/2026/10/27/politica/noticia/impasse-mantemse-atira-eleicao-fiscalizacao-secretas-oe2027-2192719"
      ],
      [
-      "2026-10-27 06:35",
+      "2026-10-27 06:40",
       "ECO",
       "Sob ‘fogo cruzado’ da habitação, debate do OE2027 obriga Montenegro a quebrar o silêncio",
       "https://eco.sapo.pt/2026/10/27/sob-fogo-cruzado-da-habitacao-debate-do-oe2027-obriga-montenegro-a-quebrar-o-silencio/"
@@ -152,10 +218,28 @@
       "https://rr.pt/noticia/amp/politica/2026/10/27/montenegro-volta-a-falar-ao-fim-de-10-dias-primeiro-ministro-no-inicio-do-debate-do-oe2027/490864/"
      ],
      [
+      "2026-10-27 06:20",
+      "Observador",
+      "7h.PM e PR pressionados a falar sobre protestos da habitação",
+      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
+     ],
+     [
+      "2026-10-27 06:11",
+      "Lusa",
+      "Parlamento inicia hoje debate da proposta de OE2027 do Governo com protestos pela habitação em fundo",
+      "https://www.lusa.pt/article/48014147/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habita%C3%A7%C3%A3o-em-fundo"
+     ],
+     [
       "2026-10-27 06:08",
       "Notícias ao Minuto",
       "Parlamento inicia debate da proposta do OE2027 (com protestos em fundo)",
       "https://www.noticiasaominuto.com/politica/3073480/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habitacao-em-fundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 05:37",
+      "ECO",
+      "Parlamento começa a debater OE2027 com ‘ruído’ de protestos na habitação. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
      ],
      [
       "2026-10-27 05:16",
@@ -2388,90 +2472,6 @@
       "Jornal Económico",
       "OE2027: Novo IRS devolve 307 euros num salário de 970 euros e 37 euros num de 1.500 euros",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-novo-irs-devolve-307-euros-num-salario-de-970-euros-e-37-euros-num-de-1-500-euros/"
-     ],
-     [
-      "2026-10-08 19:47",
-      "Dinheiro Vivo",
-      "OE2027 prevê início da rede de centros para vítimas de violência sexual",
-      "http://dinheirovivo.dn.pt/economia/oe2027-prev-incio-da-rede-de-centros-para-vtimas-de-violncia-sexual-anunciada-em-janeiro-de-2026"
-     ],
-     [
-      "2026-10-08 19:44",
-      "RTP Notícias",
-      "Entidades intermunicipais recebem 13,2 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/entidades-intermunicipais-recebem-132-milhoes-de-euros_n1770424"
-     ],
-     [
-      "2026-10-08 19:43",
-      "RTP Notícias",
-      "Verba para segurança interna aumenta 9,3% para 3.164 ME",
-      "https://www.rtp.pt/noticias/economia/verba-para-seguranca-interna-aumenta-93-para-3164-me_n1770418"
-     ],
-     [
-      "2026-10-08 19:43",
-      "Executive Digest",
-      "OE2027: Governo açoriano já esperava proposta mas quer reforço para continuidade territorial",
-      "https://executivedigest.sapo.pt/oe2027-governo-acoriano-ja-esperava-proposta-mas-quer-reforco-para-continuidade-territorial/"
-     ],
-     [
-      "2026-10-08 19:41",
-      "Jornal de Negócios",
-      "PS duvida de duas condições para viabilizar OE. Chega recusa ser \"muleta\"",
-      "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/miranda-sarmento-ja-entregou-proposta-de-orcamento-do-estado-no-parlamento"
-     ],
-     [
-      "2026-10-08 19:39",
-      "CNN Portugal",
-      "OE2027 é um orçamento \"de quem está a governar uma bolha e que não percebe o que está a acontecer no país\"",
-      "https://cnnportugal.iol.pt/videos/oe2027-e-um-orcamento-de-quem-esta-a-governar-uma-bolha-e-que-nao-percebe-o-que-esta-a-acontecer-no-pais/6ac7dffd0cf23b0ed4fdd9c4"
-     ],
-     [
-      "2026-10-08 19:38",
-      "Jornal Económico",
-      "OE2027: Verba do MNE sobe 7,7% para 512 milhões em ano no Conselho de Segurança da ONU",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-do-mne-sobe-77-para-512-milhoes-em-ano-no-conselho-de-seguranca-da-onu/"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Diário de Notícias",
-      "OE2027 confirma política de habitação do Governo mesmo com quebra de receitas de IMI e IMT",
-      "http://dinheirovivo.dn.pt/economia/oe2027-confirma-poltica-de-habitao-do-governo-mesmo-com-quebra-de-receitas-de-imi-e-imt"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Notícias ao Minuto",
-      "CGTP acusa OE2027 de beneficiar grandes grupos económicos",
-      "https://www.noticiasaominuto.com/pais/3063773/oe2027-cgtp-considera-que-orcamento-favorece-grandes-grupos-economicos-e-prejudica-populacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 19:34",
-      "ECO",
-      "OE 2027. Despesa fiscal com isenções para os seguros de vida aumentam 180 milhões",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-despesa-fiscal-com-isencoes-para-os-seguros-de-vida-aumentam-180-milhoes/"
-     ],
-     [
-      "2026-10-08 19:34",
-      "CNN Portugal",
-      "\"Pensões e salários são mais de dois terços de todo o dinheiro que o Estado gasta\". Por dentro do Orçamento do Estado para 2027",
-      "https://cnnportugal.iol.pt/videos/pensoes-e-salarios-sao-mais-de-dois-tercos-de-todo-o-dinheiro-que-o-estado-gasta-por-dentro-do-orcamento-do-estado-para-2027/6ac7d8b90cf20dc52779183a"
-     ],
-     [
-      "2026-10-08 19:27",
-      "Expresso",
-      "O que prevê o Governo para a habitação no OE 2027, onde a palavra é mencionada 167 vezes",
-      "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34?utm_source=expresso&utm_medium=content&utm_campaign=WEB&utm_content=/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34"
-     ],
-     [
-      "2026-10-08 19:21",
-      "Dinheiro Vivo",
-      "OE2027. Verbas para a Defesa sobem 1,4% para 3798,8 milhões",
-      "http://dinheirovivo.dn.pt/economia/oe2027-verbas-para-a-defesa-sobem-14-para-37988-milhes"
-     ],
-     [
-      "2026-10-08 19:20",
-      "Executive Digest",
-      "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
-      "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
      ]
     ]
    },
@@ -2511,13 +2511,13 @@
    "ligacoes": [],
    "varrimento": "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1009,
-    "n7": 84,
+    "n": 1023,
+    "n7": 98,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 11:54",
+    "ultima": "2026-10-27 16:07",
     "ultimas": [
      {
       "data": "2026-10-27",
@@ -2527,23 +2527,95 @@
      },
      {
       "data": "2026-10-27",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
-      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+      "fonte": "RTP Notícias",
+      "titulo": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
      },
      {
       "data": "2026-10-27",
-      "fonte": "TSF",
-      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
-      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+      "fonte": "Jornal Económico",
+      "titulo": "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "url": "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
      }
     ],
     "todas": [
      [
-      "2026-10-27 11:54",
+      "2026-10-27 16:07",
       "RTP Notícias",
       "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 15:56",
+      "RTP Notícias",
+      "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
+     ],
+     [
+      "2026-10-27 15:31",
+      "Jornal Económico",
+      "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
+     ],
+     [
+      "2026-10-27 15:27",
+      "CNN Portugal",
+      "\"Não aumenta um único imposto\": Montenegro defende Orçamento do Estado para 2027",
+      "https://cnnportugal.iol.pt/videos/nao-aumenta-um-unico-imposto-montenegro-defende-orcamento-do-estado-para-2027/6ae0c13a0cf23b0ed4fdf9a3"
+     ],
+     [
+      "2026-10-27 15:24",
+      "Notícias ao Minuto",
+      "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 15:18",
+      "Jornal Económico",
+      "Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://jornaleconomico.sapo.pt/noticias/mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar-2/"
+     ],
+     [
+      "2026-10-27 15:16",
+      "Diário de Notícias",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à Assembleia da República",
+      "https://www.dn.pt/sociedade/oe2027-mais-de-100-sindicalistas-contestam-oramento-em-frente-assembleia-da-repblica"
+     ],
+     [
+      "2026-10-27 14:59",
+      "ECO",
+      "“Onde é que o primeiro-ministro andou? Andou a trabalhar”, responde Montenegro. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
+     ],
+     [
+      "2026-10-27 14:12",
+      "Executive Digest",
+      "OE2027: Montenegro elogia PSP \"cuidadosa e competente\" em ação nos protestos antes de defender \"bom orçamento para portugueses, famílias e empresa\"",
+      "https://executivedigest.sapo.pt/oe2027-montenegro-elogia-psp-cuidadosa-e-competente-em-acao-nos-protestos-antes-de-defender-bom-orcamento-para-portugueses-familias-e-empresa/"
+     ],
+     [
+      "2026-10-27 13:38",
+      "RTP Notícias",
+      "Partidos antecipam debate do OE 2027",
+      "https://www.rtp.pt/noticias/pais/partidos-antecipam-debate-do-oe-2027_v1774710"
+     ],
+     [
+      "2026-10-27 12:19",
+      "CNN Portugal",
+      "“Este orçamento não serve para os portugueses\": em dia de debate do OE2027, manifestantes protestam em frente à Assembleia da República",
+      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/este-orcamento-nao-serve-para-os-portugueses-em-dia-de-debate-do-oe2027-manifestantes-protestam-em-frente-a-assembleia-da-republica/20261027/6ae096c8d34e9a786e75dfb8"
+     ],
+     [
+      "2026-10-27 12:09",
+      "Notícias ao Minuto",
+      "Sindicalistas protestam contra OE2027 em frente à Assembleia da República",
+      "https://www.noticiasaominuto.com/pais/3073663/sindicalistas-protestam-contra-oe2027-em-frente-a-assembleia-da-republica#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 11:05",
+      "Correio da Manhã",
+      "Mais de 100 sindicalistas contestam Orçamento do Estado para 2027 em frente à Assembleia da República",
+      "https://www.cmjornal.pt/politica/amp/mais-de-100-sindicalistas-contestam-orcamento-do-estado-para-2027-em-frente-a-assembleia-da-republica"
      ],
      [
       "2026-10-27 10:42",
@@ -2588,12 +2660,6 @@
       "https://www.tsf.pt/politica/artigo/parlamento-inicia-debate-de-oe2027-com-protestos-pela-habitacao-em-fundo/18141477"
      ],
      [
-      "2026-10-27 07:20",
-      "Observador",
-      "7h.PM e PR pressionados a falar sobre protestos da habitação",
-      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
       "2026-10-27 06:52",
       "CNN Portugal",
       "Do início da discussão do OE2027 às eleições imprevisíveis em Israel: estas são \"as 5 notícias\" que vão marcar o dia",
@@ -2606,7 +2672,7 @@
       "https://www.publico.pt/2026/10/27/politica/noticia/impasse-mantemse-atira-eleicao-fiscalizacao-secretas-oe2027-2192719"
      ],
      [
-      "2026-10-27 06:35",
+      "2026-10-27 06:40",
       "ECO",
       "Sob ‘fogo cruzado’ da habitação, debate do OE2027 obriga Montenegro a quebrar o silêncio",
       "https://eco.sapo.pt/2026/10/27/sob-fogo-cruzado-da-habitacao-debate-do-oe2027-obriga-montenegro-a-quebrar-o-silencio/"
@@ -2618,10 +2684,28 @@
       "https://rr.pt/noticia/amp/politica/2026/10/27/montenegro-volta-a-falar-ao-fim-de-10-dias-primeiro-ministro-no-inicio-do-debate-do-oe2027/490864/"
      ],
      [
+      "2026-10-27 06:20",
+      "Observador",
+      "7h.PM e PR pressionados a falar sobre protestos da habitação",
+      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
+     ],
+     [
+      "2026-10-27 06:11",
+      "Lusa",
+      "Parlamento inicia hoje debate da proposta de OE2027 do Governo com protestos pela habitação em fundo",
+      "https://www.lusa.pt/article/48014147/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habita%C3%A7%C3%A3o-em-fundo"
+     ],
+     [
       "2026-10-27 06:08",
       "Notícias ao Minuto",
       "Parlamento inicia debate da proposta do OE2027 (com protestos em fundo)",
       "https://www.noticiasaominuto.com/politica/3073480/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habitacao-em-fundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 05:37",
+      "ECO",
+      "Parlamento começa a debater OE2027 com ‘ruído’ de protestos na habitação. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
      ],
      [
       "2026-10-27 05:16",
@@ -4854,90 +4938,6 @@
       "Jornal Económico",
       "OE2027: Novo IRS devolve 307 euros num salário de 970 euros e 37 euros num de 1.500 euros",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-novo-irs-devolve-307-euros-num-salario-de-970-euros-e-37-euros-num-de-1-500-euros/"
-     ],
-     [
-      "2026-10-08 19:47",
-      "Dinheiro Vivo",
-      "OE2027 prevê início da rede de centros para vítimas de violência sexual",
-      "http://dinheirovivo.dn.pt/economia/oe2027-prev-incio-da-rede-de-centros-para-vtimas-de-violncia-sexual-anunciada-em-janeiro-de-2026"
-     ],
-     [
-      "2026-10-08 19:44",
-      "RTP Notícias",
-      "Entidades intermunicipais recebem 13,2 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/entidades-intermunicipais-recebem-132-milhoes-de-euros_n1770424"
-     ],
-     [
-      "2026-10-08 19:43",
-      "RTP Notícias",
-      "Verba para segurança interna aumenta 9,3% para 3.164 ME",
-      "https://www.rtp.pt/noticias/economia/verba-para-seguranca-interna-aumenta-93-para-3164-me_n1770418"
-     ],
-     [
-      "2026-10-08 19:43",
-      "Executive Digest",
-      "OE2027: Governo açoriano já esperava proposta mas quer reforço para continuidade territorial",
-      "https://executivedigest.sapo.pt/oe2027-governo-acoriano-ja-esperava-proposta-mas-quer-reforco-para-continuidade-territorial/"
-     ],
-     [
-      "2026-10-08 19:41",
-      "Jornal de Negócios",
-      "PS duvida de duas condições para viabilizar OE. Chega recusa ser \"muleta\"",
-      "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/miranda-sarmento-ja-entregou-proposta-de-orcamento-do-estado-no-parlamento"
-     ],
-     [
-      "2026-10-08 19:39",
-      "CNN Portugal",
-      "OE2027 é um orçamento \"de quem está a governar uma bolha e que não percebe o que está a acontecer no país\"",
-      "https://cnnportugal.iol.pt/videos/oe2027-e-um-orcamento-de-quem-esta-a-governar-uma-bolha-e-que-nao-percebe-o-que-esta-a-acontecer-no-pais/6ac7dffd0cf23b0ed4fdd9c4"
-     ],
-     [
-      "2026-10-08 19:38",
-      "Jornal Económico",
-      "OE2027: Verba do MNE sobe 7,7% para 512 milhões em ano no Conselho de Segurança da ONU",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-do-mne-sobe-77-para-512-milhoes-em-ano-no-conselho-de-seguranca-da-onu/"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Diário de Notícias",
-      "OE2027 confirma política de habitação do Governo mesmo com quebra de receitas de IMI e IMT",
-      "http://dinheirovivo.dn.pt/economia/oe2027-confirma-poltica-de-habitao-do-governo-mesmo-com-quebra-de-receitas-de-imi-e-imt"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Notícias ao Minuto",
-      "CGTP acusa OE2027 de beneficiar grandes grupos económicos",
-      "https://www.noticiasaominuto.com/pais/3063773/oe2027-cgtp-considera-que-orcamento-favorece-grandes-grupos-economicos-e-prejudica-populacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 19:34",
-      "ECO",
-      "OE 2027. Despesa fiscal com isenções para os seguros de vida aumentam 180 milhões",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-despesa-fiscal-com-isencoes-para-os-seguros-de-vida-aumentam-180-milhoes/"
-     ],
-     [
-      "2026-10-08 19:34",
-      "CNN Portugal",
-      "\"Pensões e salários são mais de dois terços de todo o dinheiro que o Estado gasta\". Por dentro do Orçamento do Estado para 2027",
-      "https://cnnportugal.iol.pt/videos/pensoes-e-salarios-sao-mais-de-dois-tercos-de-todo-o-dinheiro-que-o-estado-gasta-por-dentro-do-orcamento-do-estado-para-2027/6ac7d8b90cf20dc52779183a"
-     ],
-     [
-      "2026-10-08 19:27",
-      "Expresso",
-      "O que prevê o Governo para a habitação no OE 2027, onde a palavra é mencionada 167 vezes",
-      "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34?utm_source=expresso&utm_medium=content&utm_campaign=WEB&utm_content=/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34"
-     ],
-     [
-      "2026-10-08 19:21",
-      "Dinheiro Vivo",
-      "OE2027. Verbas para a Defesa sobem 1,4% para 3798,8 milhões",
-      "http://dinheirovivo.dn.pt/economia/oe2027-verbas-para-a-defesa-sobem-14-para-37988-milhes"
-     ],
-     [
-      "2026-10-08 19:20",
-      "Executive Digest",
-      "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
-      "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
      ]
     ]
    },
@@ -4977,13 +4977,13 @@
    "ligacoes": [],
    "varrimento": "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1009,
-    "n7": 84,
+    "n": 1023,
+    "n7": 98,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 11:54",
+    "ultima": "2026-10-27 16:07",
     "ultimas": [
      {
       "data": "2026-10-27",
@@ -4993,23 +4993,95 @@
      },
      {
       "data": "2026-10-27",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
-      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+      "fonte": "RTP Notícias",
+      "titulo": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
      },
      {
       "data": "2026-10-27",
-      "fonte": "TSF",
-      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
-      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+      "fonte": "Jornal Económico",
+      "titulo": "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "url": "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
      }
     ],
     "todas": [
      [
-      "2026-10-27 11:54",
+      "2026-10-27 16:07",
       "RTP Notícias",
       "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 15:56",
+      "RTP Notícias",
+      "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
+     ],
+     [
+      "2026-10-27 15:31",
+      "Jornal Económico",
+      "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
+     ],
+     [
+      "2026-10-27 15:27",
+      "CNN Portugal",
+      "\"Não aumenta um único imposto\": Montenegro defende Orçamento do Estado para 2027",
+      "https://cnnportugal.iol.pt/videos/nao-aumenta-um-unico-imposto-montenegro-defende-orcamento-do-estado-para-2027/6ae0c13a0cf23b0ed4fdf9a3"
+     ],
+     [
+      "2026-10-27 15:24",
+      "Notícias ao Minuto",
+      "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 15:18",
+      "Jornal Económico",
+      "Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://jornaleconomico.sapo.pt/noticias/mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar-2/"
+     ],
+     [
+      "2026-10-27 15:16",
+      "Diário de Notícias",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à Assembleia da República",
+      "https://www.dn.pt/sociedade/oe2027-mais-de-100-sindicalistas-contestam-oramento-em-frente-assembleia-da-repblica"
+     ],
+     [
+      "2026-10-27 14:59",
+      "ECO",
+      "“Onde é que o primeiro-ministro andou? Andou a trabalhar”, responde Montenegro. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
+     ],
+     [
+      "2026-10-27 14:12",
+      "Executive Digest",
+      "OE2027: Montenegro elogia PSP \"cuidadosa e competente\" em ação nos protestos antes de defender \"bom orçamento para portugueses, famílias e empresa\"",
+      "https://executivedigest.sapo.pt/oe2027-montenegro-elogia-psp-cuidadosa-e-competente-em-acao-nos-protestos-antes-de-defender-bom-orcamento-para-portugueses-familias-e-empresa/"
+     ],
+     [
+      "2026-10-27 13:38",
+      "RTP Notícias",
+      "Partidos antecipam debate do OE 2027",
+      "https://www.rtp.pt/noticias/pais/partidos-antecipam-debate-do-oe-2027_v1774710"
+     ],
+     [
+      "2026-10-27 12:19",
+      "CNN Portugal",
+      "“Este orçamento não serve para os portugueses\": em dia de debate do OE2027, manifestantes protestam em frente à Assembleia da República",
+      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/este-orcamento-nao-serve-para-os-portugueses-em-dia-de-debate-do-oe2027-manifestantes-protestam-em-frente-a-assembleia-da-republica/20261027/6ae096c8d34e9a786e75dfb8"
+     ],
+     [
+      "2026-10-27 12:09",
+      "Notícias ao Minuto",
+      "Sindicalistas protestam contra OE2027 em frente à Assembleia da República",
+      "https://www.noticiasaominuto.com/pais/3073663/sindicalistas-protestam-contra-oe2027-em-frente-a-assembleia-da-republica#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 11:05",
+      "Correio da Manhã",
+      "Mais de 100 sindicalistas contestam Orçamento do Estado para 2027 em frente à Assembleia da República",
+      "https://www.cmjornal.pt/politica/amp/mais-de-100-sindicalistas-contestam-orcamento-do-estado-para-2027-em-frente-a-assembleia-da-republica"
      ],
      [
       "2026-10-27 10:42",
@@ -5054,12 +5126,6 @@
       "https://www.tsf.pt/politica/artigo/parlamento-inicia-debate-de-oe2027-com-protestos-pela-habitacao-em-fundo/18141477"
      ],
      [
-      "2026-10-27 07:20",
-      "Observador",
-      "7h.PM e PR pressionados a falar sobre protestos da habitação",
-      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
       "2026-10-27 06:52",
       "CNN Portugal",
       "Do início da discussão do OE2027 às eleições imprevisíveis em Israel: estas são \"as 5 notícias\" que vão marcar o dia",
@@ -5072,7 +5138,7 @@
       "https://www.publico.pt/2026/10/27/politica/noticia/impasse-mantemse-atira-eleicao-fiscalizacao-secretas-oe2027-2192719"
      ],
      [
-      "2026-10-27 06:35",
+      "2026-10-27 06:40",
       "ECO",
       "Sob ‘fogo cruzado’ da habitação, debate do OE2027 obriga Montenegro a quebrar o silêncio",
       "https://eco.sapo.pt/2026/10/27/sob-fogo-cruzado-da-habitacao-debate-do-oe2027-obriga-montenegro-a-quebrar-o-silencio/"
@@ -5084,10 +5150,28 @@
       "https://rr.pt/noticia/amp/politica/2026/10/27/montenegro-volta-a-falar-ao-fim-de-10-dias-primeiro-ministro-no-inicio-do-debate-do-oe2027/490864/"
      ],
      [
+      "2026-10-27 06:20",
+      "Observador",
+      "7h.PM e PR pressionados a falar sobre protestos da habitação",
+      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
+     ],
+     [
+      "2026-10-27 06:11",
+      "Lusa",
+      "Parlamento inicia hoje debate da proposta de OE2027 do Governo com protestos pela habitação em fundo",
+      "https://www.lusa.pt/article/48014147/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habita%C3%A7%C3%A3o-em-fundo"
+     ],
+     [
       "2026-10-27 06:08",
       "Notícias ao Minuto",
       "Parlamento inicia debate da proposta do OE2027 (com protestos em fundo)",
       "https://www.noticiasaominuto.com/politica/3073480/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habitacao-em-fundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 05:37",
+      "ECO",
+      "Parlamento começa a debater OE2027 com ‘ruído’ de protestos na habitação. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
      ],
      [
       "2026-10-27 05:16",
@@ -7320,90 +7404,6 @@
       "Jornal Económico",
       "OE2027: Novo IRS devolve 307 euros num salário de 970 euros e 37 euros num de 1.500 euros",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-novo-irs-devolve-307-euros-num-salario-de-970-euros-e-37-euros-num-de-1-500-euros/"
-     ],
-     [
-      "2026-10-08 19:47",
-      "Dinheiro Vivo",
-      "OE2027 prevê início da rede de centros para vítimas de violência sexual",
-      "http://dinheirovivo.dn.pt/economia/oe2027-prev-incio-da-rede-de-centros-para-vtimas-de-violncia-sexual-anunciada-em-janeiro-de-2026"
-     ],
-     [
-      "2026-10-08 19:44",
-      "RTP Notícias",
-      "Entidades intermunicipais recebem 13,2 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/entidades-intermunicipais-recebem-132-milhoes-de-euros_n1770424"
-     ],
-     [
-      "2026-10-08 19:43",
-      "RTP Notícias",
-      "Verba para segurança interna aumenta 9,3% para 3.164 ME",
-      "https://www.rtp.pt/noticias/economia/verba-para-seguranca-interna-aumenta-93-para-3164-me_n1770418"
-     ],
-     [
-      "2026-10-08 19:43",
-      "Executive Digest",
-      "OE2027: Governo açoriano já esperava proposta mas quer reforço para continuidade territorial",
-      "https://executivedigest.sapo.pt/oe2027-governo-acoriano-ja-esperava-proposta-mas-quer-reforco-para-continuidade-territorial/"
-     ],
-     [
-      "2026-10-08 19:41",
-      "Jornal de Negócios",
-      "PS duvida de duas condições para viabilizar OE. Chega recusa ser \"muleta\"",
-      "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/miranda-sarmento-ja-entregou-proposta-de-orcamento-do-estado-no-parlamento"
-     ],
-     [
-      "2026-10-08 19:39",
-      "CNN Portugal",
-      "OE2027 é um orçamento \"de quem está a governar uma bolha e que não percebe o que está a acontecer no país\"",
-      "https://cnnportugal.iol.pt/videos/oe2027-e-um-orcamento-de-quem-esta-a-governar-uma-bolha-e-que-nao-percebe-o-que-esta-a-acontecer-no-pais/6ac7dffd0cf23b0ed4fdd9c4"
-     ],
-     [
-      "2026-10-08 19:38",
-      "Jornal Económico",
-      "OE2027: Verba do MNE sobe 7,7% para 512 milhões em ano no Conselho de Segurança da ONU",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-do-mne-sobe-77-para-512-milhoes-em-ano-no-conselho-de-seguranca-da-onu/"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Diário de Notícias",
-      "OE2027 confirma política de habitação do Governo mesmo com quebra de receitas de IMI e IMT",
-      "http://dinheirovivo.dn.pt/economia/oe2027-confirma-poltica-de-habitao-do-governo-mesmo-com-quebra-de-receitas-de-imi-e-imt"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Notícias ao Minuto",
-      "CGTP acusa OE2027 de beneficiar grandes grupos económicos",
-      "https://www.noticiasaominuto.com/pais/3063773/oe2027-cgtp-considera-que-orcamento-favorece-grandes-grupos-economicos-e-prejudica-populacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 19:34",
-      "ECO",
-      "OE 2027. Despesa fiscal com isenções para os seguros de vida aumentam 180 milhões",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-despesa-fiscal-com-isencoes-para-os-seguros-de-vida-aumentam-180-milhoes/"
-     ],
-     [
-      "2026-10-08 19:34",
-      "CNN Portugal",
-      "\"Pensões e salários são mais de dois terços de todo o dinheiro que o Estado gasta\". Por dentro do Orçamento do Estado para 2027",
-      "https://cnnportugal.iol.pt/videos/pensoes-e-salarios-sao-mais-de-dois-tercos-de-todo-o-dinheiro-que-o-estado-gasta-por-dentro-do-orcamento-do-estado-para-2027/6ac7d8b90cf20dc52779183a"
-     ],
-     [
-      "2026-10-08 19:27",
-      "Expresso",
-      "O que prevê o Governo para a habitação no OE 2027, onde a palavra é mencionada 167 vezes",
-      "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34?utm_source=expresso&utm_medium=content&utm_campaign=WEB&utm_content=/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34"
-     ],
-     [
-      "2026-10-08 19:21",
-      "Dinheiro Vivo",
-      "OE2027. Verbas para a Defesa sobem 1,4% para 3798,8 milhões",
-      "http://dinheirovivo.dn.pt/economia/oe2027-verbas-para-a-defesa-sobem-14-para-37988-milhes"
-     ],
-     [
-      "2026-10-08 19:20",
-      "Executive Digest",
-      "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
-      "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
      ]
     ]
    },
@@ -7443,13 +7443,13 @@
    "ligacoes": [],
    "varrimento": "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1009,
-    "n7": 84,
+    "n": 1023,
+    "n7": 98,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 11:54",
+    "ultima": "2026-10-27 16:07",
     "ultimas": [
      {
       "data": "2026-10-27",
@@ -7459,23 +7459,95 @@
      },
      {
       "data": "2026-10-27",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
-      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+      "fonte": "RTP Notícias",
+      "titulo": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
      },
      {
       "data": "2026-10-27",
-      "fonte": "TSF",
-      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
-      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+      "fonte": "Jornal Económico",
+      "titulo": "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "url": "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
      }
     ],
     "todas": [
      [
-      "2026-10-27 11:54",
+      "2026-10-27 16:07",
       "RTP Notícias",
       "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 15:56",
+      "RTP Notícias",
+      "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
+     ],
+     [
+      "2026-10-27 15:31",
+      "Jornal Económico",
+      "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
+     ],
+     [
+      "2026-10-27 15:27",
+      "CNN Portugal",
+      "\"Não aumenta um único imposto\": Montenegro defende Orçamento do Estado para 2027",
+      "https://cnnportugal.iol.pt/videos/nao-aumenta-um-unico-imposto-montenegro-defende-orcamento-do-estado-para-2027/6ae0c13a0cf23b0ed4fdf9a3"
+     ],
+     [
+      "2026-10-27 15:24",
+      "Notícias ao Minuto",
+      "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 15:18",
+      "Jornal Económico",
+      "Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://jornaleconomico.sapo.pt/noticias/mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar-2/"
+     ],
+     [
+      "2026-10-27 15:16",
+      "Diário de Notícias",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à Assembleia da República",
+      "https://www.dn.pt/sociedade/oe2027-mais-de-100-sindicalistas-contestam-oramento-em-frente-assembleia-da-repblica"
+     ],
+     [
+      "2026-10-27 14:59",
+      "ECO",
+      "“Onde é que o primeiro-ministro andou? Andou a trabalhar”, responde Montenegro. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
+     ],
+     [
+      "2026-10-27 14:12",
+      "Executive Digest",
+      "OE2027: Montenegro elogia PSP \"cuidadosa e competente\" em ação nos protestos antes de defender \"bom orçamento para portugueses, famílias e empresa\"",
+      "https://executivedigest.sapo.pt/oe2027-montenegro-elogia-psp-cuidadosa-e-competente-em-acao-nos-protestos-antes-de-defender-bom-orcamento-para-portugueses-familias-e-empresa/"
+     ],
+     [
+      "2026-10-27 13:38",
+      "RTP Notícias",
+      "Partidos antecipam debate do OE 2027",
+      "https://www.rtp.pt/noticias/pais/partidos-antecipam-debate-do-oe-2027_v1774710"
+     ],
+     [
+      "2026-10-27 12:19",
+      "CNN Portugal",
+      "“Este orçamento não serve para os portugueses\": em dia de debate do OE2027, manifestantes protestam em frente à Assembleia da República",
+      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/este-orcamento-nao-serve-para-os-portugueses-em-dia-de-debate-do-oe2027-manifestantes-protestam-em-frente-a-assembleia-da-republica/20261027/6ae096c8d34e9a786e75dfb8"
+     ],
+     [
+      "2026-10-27 12:09",
+      "Notícias ao Minuto",
+      "Sindicalistas protestam contra OE2027 em frente à Assembleia da República",
+      "https://www.noticiasaominuto.com/pais/3073663/sindicalistas-protestam-contra-oe2027-em-frente-a-assembleia-da-republica#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 11:05",
+      "Correio da Manhã",
+      "Mais de 100 sindicalistas contestam Orçamento do Estado para 2027 em frente à Assembleia da República",
+      "https://www.cmjornal.pt/politica/amp/mais-de-100-sindicalistas-contestam-orcamento-do-estado-para-2027-em-frente-a-assembleia-da-republica"
      ],
      [
       "2026-10-27 10:42",
@@ -7520,12 +7592,6 @@
       "https://www.tsf.pt/politica/artigo/parlamento-inicia-debate-de-oe2027-com-protestos-pela-habitacao-em-fundo/18141477"
      ],
      [
-      "2026-10-27 07:20",
-      "Observador",
-      "7h.PM e PR pressionados a falar sobre protestos da habitação",
-      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
       "2026-10-27 06:52",
       "CNN Portugal",
       "Do início da discussão do OE2027 às eleições imprevisíveis em Israel: estas são \"as 5 notícias\" que vão marcar o dia",
@@ -7538,7 +7604,7 @@
       "https://www.publico.pt/2026/10/27/politica/noticia/impasse-mantemse-atira-eleicao-fiscalizacao-secretas-oe2027-2192719"
      ],
      [
-      "2026-10-27 06:35",
+      "2026-10-27 06:40",
       "ECO",
       "Sob ‘fogo cruzado’ da habitação, debate do OE2027 obriga Montenegro a quebrar o silêncio",
       "https://eco.sapo.pt/2026/10/27/sob-fogo-cruzado-da-habitacao-debate-do-oe2027-obriga-montenegro-a-quebrar-o-silencio/"
@@ -7550,10 +7616,28 @@
       "https://rr.pt/noticia/amp/politica/2026/10/27/montenegro-volta-a-falar-ao-fim-de-10-dias-primeiro-ministro-no-inicio-do-debate-do-oe2027/490864/"
      ],
      [
+      "2026-10-27 06:20",
+      "Observador",
+      "7h.PM e PR pressionados a falar sobre protestos da habitação",
+      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
+     ],
+     [
+      "2026-10-27 06:11",
+      "Lusa",
+      "Parlamento inicia hoje debate da proposta de OE2027 do Governo com protestos pela habitação em fundo",
+      "https://www.lusa.pt/article/48014147/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habita%C3%A7%C3%A3o-em-fundo"
+     ],
+     [
       "2026-10-27 06:08",
       "Notícias ao Minuto",
       "Parlamento inicia debate da proposta do OE2027 (com protestos em fundo)",
       "https://www.noticiasaominuto.com/politica/3073480/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habitacao-em-fundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 05:37",
+      "ECO",
+      "Parlamento começa a debater OE2027 com ‘ruído’ de protestos na habitação. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
      ],
      [
       "2026-10-27 05:16",
@@ -9786,90 +9870,6 @@
       "Jornal Económico",
       "OE2027: Novo IRS devolve 307 euros num salário de 970 euros e 37 euros num de 1.500 euros",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-novo-irs-devolve-307-euros-num-salario-de-970-euros-e-37-euros-num-de-1-500-euros/"
-     ],
-     [
-      "2026-10-08 19:47",
-      "Dinheiro Vivo",
-      "OE2027 prevê início da rede de centros para vítimas de violência sexual",
-      "http://dinheirovivo.dn.pt/economia/oe2027-prev-incio-da-rede-de-centros-para-vtimas-de-violncia-sexual-anunciada-em-janeiro-de-2026"
-     ],
-     [
-      "2026-10-08 19:44",
-      "RTP Notícias",
-      "Entidades intermunicipais recebem 13,2 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/entidades-intermunicipais-recebem-132-milhoes-de-euros_n1770424"
-     ],
-     [
-      "2026-10-08 19:43",
-      "RTP Notícias",
-      "Verba para segurança interna aumenta 9,3% para 3.164 ME",
-      "https://www.rtp.pt/noticias/economia/verba-para-seguranca-interna-aumenta-93-para-3164-me_n1770418"
-     ],
-     [
-      "2026-10-08 19:43",
-      "Executive Digest",
-      "OE2027: Governo açoriano já esperava proposta mas quer reforço para continuidade territorial",
-      "https://executivedigest.sapo.pt/oe2027-governo-acoriano-ja-esperava-proposta-mas-quer-reforco-para-continuidade-territorial/"
-     ],
-     [
-      "2026-10-08 19:41",
-      "Jornal de Negócios",
-      "PS duvida de duas condições para viabilizar OE. Chega recusa ser \"muleta\"",
-      "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/miranda-sarmento-ja-entregou-proposta-de-orcamento-do-estado-no-parlamento"
-     ],
-     [
-      "2026-10-08 19:39",
-      "CNN Portugal",
-      "OE2027 é um orçamento \"de quem está a governar uma bolha e que não percebe o que está a acontecer no país\"",
-      "https://cnnportugal.iol.pt/videos/oe2027-e-um-orcamento-de-quem-esta-a-governar-uma-bolha-e-que-nao-percebe-o-que-esta-a-acontecer-no-pais/6ac7dffd0cf23b0ed4fdd9c4"
-     ],
-     [
-      "2026-10-08 19:38",
-      "Jornal Económico",
-      "OE2027: Verba do MNE sobe 7,7% para 512 milhões em ano no Conselho de Segurança da ONU",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-do-mne-sobe-77-para-512-milhoes-em-ano-no-conselho-de-seguranca-da-onu/"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Diário de Notícias",
-      "OE2027 confirma política de habitação do Governo mesmo com quebra de receitas de IMI e IMT",
-      "http://dinheirovivo.dn.pt/economia/oe2027-confirma-poltica-de-habitao-do-governo-mesmo-com-quebra-de-receitas-de-imi-e-imt"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Notícias ao Minuto",
-      "CGTP acusa OE2027 de beneficiar grandes grupos económicos",
-      "https://www.noticiasaominuto.com/pais/3063773/oe2027-cgtp-considera-que-orcamento-favorece-grandes-grupos-economicos-e-prejudica-populacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 19:34",
-      "ECO",
-      "OE 2027. Despesa fiscal com isenções para os seguros de vida aumentam 180 milhões",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-despesa-fiscal-com-isencoes-para-os-seguros-de-vida-aumentam-180-milhoes/"
-     ],
-     [
-      "2026-10-08 19:34",
-      "CNN Portugal",
-      "\"Pensões e salários são mais de dois terços de todo o dinheiro que o Estado gasta\". Por dentro do Orçamento do Estado para 2027",
-      "https://cnnportugal.iol.pt/videos/pensoes-e-salarios-sao-mais-de-dois-tercos-de-todo-o-dinheiro-que-o-estado-gasta-por-dentro-do-orcamento-do-estado-para-2027/6ac7d8b90cf20dc52779183a"
-     ],
-     [
-      "2026-10-08 19:27",
-      "Expresso",
-      "O que prevê o Governo para a habitação no OE 2027, onde a palavra é mencionada 167 vezes",
-      "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34?utm_source=expresso&utm_medium=content&utm_campaign=WEB&utm_content=/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34"
-     ],
-     [
-      "2026-10-08 19:21",
-      "Dinheiro Vivo",
-      "OE2027. Verbas para a Defesa sobem 1,4% para 3798,8 milhões",
-      "http://dinheirovivo.dn.pt/economia/oe2027-verbas-para-a-defesa-sobem-14-para-37988-milhes"
-     ],
-     [
-      "2026-10-08 19:20",
-      "Executive Digest",
-      "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
-      "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
      ]
     ]
    },
@@ -9909,13 +9909,13 @@
    "ligacoes": [],
    "varrimento": "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1009,
-    "n7": 84,
+    "n": 1023,
+    "n7": 98,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 11:54",
+    "ultima": "2026-10-27 16:07",
     "ultimas": [
      {
       "data": "2026-10-27",
@@ -9925,23 +9925,95 @@
      },
      {
       "data": "2026-10-27",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
-      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+      "fonte": "RTP Notícias",
+      "titulo": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
      },
      {
       "data": "2026-10-27",
-      "fonte": "TSF",
-      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
-      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+      "fonte": "Jornal Económico",
+      "titulo": "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "url": "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
      }
     ],
     "todas": [
      [
-      "2026-10-27 11:54",
+      "2026-10-27 16:07",
       "RTP Notícias",
       "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 15:56",
+      "RTP Notícias",
+      "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
+     ],
+     [
+      "2026-10-27 15:31",
+      "Jornal Económico",
+      "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
+     ],
+     [
+      "2026-10-27 15:27",
+      "CNN Portugal",
+      "\"Não aumenta um único imposto\": Montenegro defende Orçamento do Estado para 2027",
+      "https://cnnportugal.iol.pt/videos/nao-aumenta-um-unico-imposto-montenegro-defende-orcamento-do-estado-para-2027/6ae0c13a0cf23b0ed4fdf9a3"
+     ],
+     [
+      "2026-10-27 15:24",
+      "Notícias ao Minuto",
+      "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 15:18",
+      "Jornal Económico",
+      "Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://jornaleconomico.sapo.pt/noticias/mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar-2/"
+     ],
+     [
+      "2026-10-27 15:16",
+      "Diário de Notícias",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à Assembleia da República",
+      "https://www.dn.pt/sociedade/oe2027-mais-de-100-sindicalistas-contestam-oramento-em-frente-assembleia-da-repblica"
+     ],
+     [
+      "2026-10-27 14:59",
+      "ECO",
+      "“Onde é que o primeiro-ministro andou? Andou a trabalhar”, responde Montenegro. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
+     ],
+     [
+      "2026-10-27 14:12",
+      "Executive Digest",
+      "OE2027: Montenegro elogia PSP \"cuidadosa e competente\" em ação nos protestos antes de defender \"bom orçamento para portugueses, famílias e empresa\"",
+      "https://executivedigest.sapo.pt/oe2027-montenegro-elogia-psp-cuidadosa-e-competente-em-acao-nos-protestos-antes-de-defender-bom-orcamento-para-portugueses-familias-e-empresa/"
+     ],
+     [
+      "2026-10-27 13:38",
+      "RTP Notícias",
+      "Partidos antecipam debate do OE 2027",
+      "https://www.rtp.pt/noticias/pais/partidos-antecipam-debate-do-oe-2027_v1774710"
+     ],
+     [
+      "2026-10-27 12:19",
+      "CNN Portugal",
+      "“Este orçamento não serve para os portugueses\": em dia de debate do OE2027, manifestantes protestam em frente à Assembleia da República",
+      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/este-orcamento-nao-serve-para-os-portugueses-em-dia-de-debate-do-oe2027-manifestantes-protestam-em-frente-a-assembleia-da-republica/20261027/6ae096c8d34e9a786e75dfb8"
+     ],
+     [
+      "2026-10-27 12:09",
+      "Notícias ao Minuto",
+      "Sindicalistas protestam contra OE2027 em frente à Assembleia da República",
+      "https://www.noticiasaominuto.com/pais/3073663/sindicalistas-protestam-contra-oe2027-em-frente-a-assembleia-da-republica#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 11:05",
+      "Correio da Manhã",
+      "Mais de 100 sindicalistas contestam Orçamento do Estado para 2027 em frente à Assembleia da República",
+      "https://www.cmjornal.pt/politica/amp/mais-de-100-sindicalistas-contestam-orcamento-do-estado-para-2027-em-frente-a-assembleia-da-republica"
      ],
      [
       "2026-10-27 10:42",
@@ -9986,12 +10058,6 @@
       "https://www.tsf.pt/politica/artigo/parlamento-inicia-debate-de-oe2027-com-protestos-pela-habitacao-em-fundo/18141477"
      ],
      [
-      "2026-10-27 07:20",
-      "Observador",
-      "7h.PM e PR pressionados a falar sobre protestos da habitação",
-      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
       "2026-10-27 06:52",
       "CNN Portugal",
       "Do início da discussão do OE2027 às eleições imprevisíveis em Israel: estas são \"as 5 notícias\" que vão marcar o dia",
@@ -10004,7 +10070,7 @@
       "https://www.publico.pt/2026/10/27/politica/noticia/impasse-mantemse-atira-eleicao-fiscalizacao-secretas-oe2027-2192719"
      ],
      [
-      "2026-10-27 06:35",
+      "2026-10-27 06:40",
       "ECO",
       "Sob ‘fogo cruzado’ da habitação, debate do OE2027 obriga Montenegro a quebrar o silêncio",
       "https://eco.sapo.pt/2026/10/27/sob-fogo-cruzado-da-habitacao-debate-do-oe2027-obriga-montenegro-a-quebrar-o-silencio/"
@@ -10016,10 +10082,28 @@
       "https://rr.pt/noticia/amp/politica/2026/10/27/montenegro-volta-a-falar-ao-fim-de-10-dias-primeiro-ministro-no-inicio-do-debate-do-oe2027/490864/"
      ],
      [
+      "2026-10-27 06:20",
+      "Observador",
+      "7h.PM e PR pressionados a falar sobre protestos da habitação",
+      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
+     ],
+     [
+      "2026-10-27 06:11",
+      "Lusa",
+      "Parlamento inicia hoje debate da proposta de OE2027 do Governo com protestos pela habitação em fundo",
+      "https://www.lusa.pt/article/48014147/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habita%C3%A7%C3%A3o-em-fundo"
+     ],
+     [
       "2026-10-27 06:08",
       "Notícias ao Minuto",
       "Parlamento inicia debate da proposta do OE2027 (com protestos em fundo)",
       "https://www.noticiasaominuto.com/politica/3073480/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habitacao-em-fundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 05:37",
+      "ECO",
+      "Parlamento começa a debater OE2027 com ‘ruído’ de protestos na habitação. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
      ],
      [
       "2026-10-27 05:16",
@@ -12252,90 +12336,6 @@
       "Jornal Económico",
       "OE2027: Novo IRS devolve 307 euros num salário de 970 euros e 37 euros num de 1.500 euros",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-novo-irs-devolve-307-euros-num-salario-de-970-euros-e-37-euros-num-de-1-500-euros/"
-     ],
-     [
-      "2026-10-08 19:47",
-      "Dinheiro Vivo",
-      "OE2027 prevê início da rede de centros para vítimas de violência sexual",
-      "http://dinheirovivo.dn.pt/economia/oe2027-prev-incio-da-rede-de-centros-para-vtimas-de-violncia-sexual-anunciada-em-janeiro-de-2026"
-     ],
-     [
-      "2026-10-08 19:44",
-      "RTP Notícias",
-      "Entidades intermunicipais recebem 13,2 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/entidades-intermunicipais-recebem-132-milhoes-de-euros_n1770424"
-     ],
-     [
-      "2026-10-08 19:43",
-      "RTP Notícias",
-      "Verba para segurança interna aumenta 9,3% para 3.164 ME",
-      "https://www.rtp.pt/noticias/economia/verba-para-seguranca-interna-aumenta-93-para-3164-me_n1770418"
-     ],
-     [
-      "2026-10-08 19:43",
-      "Executive Digest",
-      "OE2027: Governo açoriano já esperava proposta mas quer reforço para continuidade territorial",
-      "https://executivedigest.sapo.pt/oe2027-governo-acoriano-ja-esperava-proposta-mas-quer-reforco-para-continuidade-territorial/"
-     ],
-     [
-      "2026-10-08 19:41",
-      "Jornal de Negócios",
-      "PS duvida de duas condições para viabilizar OE. Chega recusa ser \"muleta\"",
-      "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/miranda-sarmento-ja-entregou-proposta-de-orcamento-do-estado-no-parlamento"
-     ],
-     [
-      "2026-10-08 19:39",
-      "CNN Portugal",
-      "OE2027 é um orçamento \"de quem está a governar uma bolha e que não percebe o que está a acontecer no país\"",
-      "https://cnnportugal.iol.pt/videos/oe2027-e-um-orcamento-de-quem-esta-a-governar-uma-bolha-e-que-nao-percebe-o-que-esta-a-acontecer-no-pais/6ac7dffd0cf23b0ed4fdd9c4"
-     ],
-     [
-      "2026-10-08 19:38",
-      "Jornal Económico",
-      "OE2027: Verba do MNE sobe 7,7% para 512 milhões em ano no Conselho de Segurança da ONU",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-do-mne-sobe-77-para-512-milhoes-em-ano-no-conselho-de-seguranca-da-onu/"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Diário de Notícias",
-      "OE2027 confirma política de habitação do Governo mesmo com quebra de receitas de IMI e IMT",
-      "http://dinheirovivo.dn.pt/economia/oe2027-confirma-poltica-de-habitao-do-governo-mesmo-com-quebra-de-receitas-de-imi-e-imt"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Notícias ao Minuto",
-      "CGTP acusa OE2027 de beneficiar grandes grupos económicos",
-      "https://www.noticiasaominuto.com/pais/3063773/oe2027-cgtp-considera-que-orcamento-favorece-grandes-grupos-economicos-e-prejudica-populacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 19:34",
-      "ECO",
-      "OE 2027. Despesa fiscal com isenções para os seguros de vida aumentam 180 milhões",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-despesa-fiscal-com-isencoes-para-os-seguros-de-vida-aumentam-180-milhoes/"
-     ],
-     [
-      "2026-10-08 19:34",
-      "CNN Portugal",
-      "\"Pensões e salários são mais de dois terços de todo o dinheiro que o Estado gasta\". Por dentro do Orçamento do Estado para 2027",
-      "https://cnnportugal.iol.pt/videos/pensoes-e-salarios-sao-mais-de-dois-tercos-de-todo-o-dinheiro-que-o-estado-gasta-por-dentro-do-orcamento-do-estado-para-2027/6ac7d8b90cf20dc52779183a"
-     ],
-     [
-      "2026-10-08 19:27",
-      "Expresso",
-      "O que prevê o Governo para a habitação no OE 2027, onde a palavra é mencionada 167 vezes",
-      "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34?utm_source=expresso&utm_medium=content&utm_campaign=WEB&utm_content=/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34"
-     ],
-     [
-      "2026-10-08 19:21",
-      "Dinheiro Vivo",
-      "OE2027. Verbas para a Defesa sobem 1,4% para 3798,8 milhões",
-      "http://dinheirovivo.dn.pt/economia/oe2027-verbas-para-a-defesa-sobem-14-para-37988-milhes"
-     ],
-     [
-      "2026-10-08 19:20",
-      "Executive Digest",
-      "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
-      "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
      ]
     ]
    },
@@ -12574,8 +12574,8 @@
     "retirados": 5
    }
   ],
-  "atualizado": "2026-10-27T13:07+00:00",
-  "atualizadoLabel": "27 de outubro, 13h07",
+  "atualizado": "2026-10-27T16:31+00:00",
+  "atualizadoLabel": "27 de outubro, 16h31",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
   "aviso": "12 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
@@ -12780,7 +12780,7 @@
     "ultima": "2026-10-26 16:46",
     "em": "2026-10-26"
    },
-   "novas": 28,
+   "novas": 42,
    "enquadramento": "Seleção automática de 20 das 982 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (64 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-26-iniciativas-europeias-de-seguran-a-soci": {
@@ -13414,7 +13414,7 @@
     "ultima": "2026-10-26 14:24",
     "em": "2026-10-26"
    },
-   "novas": 2,
+   "novas": 6,
    "enquadramento": "Seleção automática de 20 das 339 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (46 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-27-comiss-o-parlamentar-de-inqu-rito-para": {
@@ -13616,7 +13616,7 @@
     "ultima": "2026-10-26 14:24",
     "em": "2026-10-26"
    },
-   "novas": 2,
+   "novas": 6,
    "enquadramento": "Seleção automática de 20 das 339 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (46 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-18-plen-rio-debate-na-especialidade-do-or": {
@@ -13640,18 +13640,18 @@
     },
     {
      "data": "2026-09-24",
-     "fonte": "Correio da Manhã",
-     "url": "https://www.cmjornal.pt/politica/amp/ministro-da-presidencia-avisa-que-margem-negocial-do-oe2027-e-muito-limitada-e-critica-pessimistas-alertantes",
-     "sintese": "Ministro da Presidência avisa que margem negocial do OE2027 é muito limitada e critica \"pessimistas alertantes\"",
+     "fonte": "Nascer do SOL",
+     "url": "https://sol.iol.pt/economia/noticias/ahresp-apresenta-27-propostas-para-o-oe2027-para-estimular-o-investimento-e-travar-a-pressao-sobre-as-empresas/20260924/6ab565360cf23b0ed4fd94e8",
+     "sintese": "AHRESP apresenta 27 propostas para o OE2027 para estimular o investimento e travar a pressão sobre as empresas",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-09-29",
-     "fonte": "Lusa",
-     "url": "https://www.lusa.pt/economia/article/2026-09-29/47858717/oe2027-albuquerque-recebe-garantia-de-verbas-do-pm-e-n%C3%A3o-antecipa-qualquer-problema-na-vota%C3%A7%C3%A3o",
-     "sintese": "OE2027: Albuquerque recebe garantia de verbas do PM e não antecipa qualquer problema na votação",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/detalhe/oe2027-primeiro-ministro-pede-responsabilidade-a-oposicao-para-manter-estabilidade-politica",
+     "sintese": "OE2027: Primeiro-ministro pede responsabilidade à oposição para manter estabilidade política",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13685,18 +13685,18 @@
     },
     {
      "data": "2026-10-08",
-     "fonte": "Expresso",
-     "url": "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-psd-espera-tranquilidade-e-previsibilidade-com-o-oe2027-mas-ps-avisa-que-compromissos-sao-para-cumprir-ab421b1d",
-     "sintese": "PSD espera \"tranquilidade\" e \"previsibilidade\" com o OE2027, mas PS avisa que \"compromissos são para cumprir\"",
+     "fonte": "Correio da Manhã",
+     "url": "https://www.cmjornal.pt/politica/amp/governo-estima-arrecadar-mais-166-milhoes-de-euros-com-impostos-sobre-tabaco-e-alcool-no-oe2027",
+     "sintese": "Governo estima arrecadar mais 166 milhões de euros com impostos sobre tabaco e álcool no OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-08",
-     "fonte": "CNN Portugal",
-     "url": "https://cnnportugal.iol.pt/videos/orcamento-do-estado-para-2027-e-minimalista-e-tenta-passar-entre-os-pingos-da-chuva/6ac817700cf20dc52779187d",
-     "sintese": "Orçamento do Estado para 2027 \"é minimalista e tenta passar entre os pingos da chuva\"",
+     "fonte": "Expresso",
+     "url": "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-psd-espera-tranquilidade-e-previsibilidade-com-o-oe2027-mas-ps-avisa-que-compromissos-sao-para-cumprir-ab421b1d",
+     "sintese": "PSD espera \"tranquilidade\" e \"previsibilidade\" com o OE2027, mas PS avisa que \"compromissos são para cumprir\"",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13757,15 +13757,6 @@
     },
     {
      "data": "2026-10-23",
-     "fonte": "Jornal de Negócios",
-     "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro",
-     "sintese": "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-23",
      "fonte": "Observador",
      "url": "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/",
      "sintese": "OE2027. Carneiro justifica viabilização com crises mundiais",
@@ -13784,6 +13775,15 @@
     },
     {
      "data": "2026-10-26",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/",
+     "sintese": "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
      "fonte": "Diário de Notícias",
      "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal",
      "sintese": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
@@ -13793,9 +13793,9 @@
     },
     {
      "data": "2026-10-27",
-     "fonte": "Executive Digest",
-     "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/",
-     "sintese": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+     "fonte": "CNN Portugal",
+     "url": "https://cnnportugal.iol.pt/videos/nao-aumenta-um-unico-imposto-montenegro-defende-orcamento-do-estado-para-2027/6ae0c13a0cf23b0ed4fdf9a3",
+     "sintese": "\"Não aumenta um único imposto\": Montenegro defende Orçamento do Estado para 2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13812,14 +13812,14 @@
    ],
    "amostra": {
     "analisadas": 20,
-    "encontradas": 1009
+    "encontradas": 1023
    },
    "base": {
-    "ultima": "2026-10-27 11:54",
+    "ultima": "2026-10-27 16:07",
     "em": "2026-10-27"
    },
    "novas": 0,
-   "enquadramento": "Seleção automática de 20 das 1009 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (84 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "enquadramento": "Seleção automática de 20 das 1023 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (98 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos": {
    "titulo": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
@@ -14020,7 +14020,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 30,
+   "novas": 44,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-30-comiss-o-de-assuntos-europeus": {
@@ -14243,7 +14243,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 30,
+   "novas": 44,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -14445,7 +14445,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 30,
+   "novas": 44,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -14647,7 +14647,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 30,
+   "novas": 44,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   }
  },
@@ -14687,13 +14687,13 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 1009,
-    "n7": 84,
+    "n": 1023,
+    "n7": 98,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 11:54",
+    "ultima": "2026-10-27 16:07",
     "ultimas": [
      {
       "data": "2026-10-27",
@@ -14703,23 +14703,95 @@
      },
      {
       "data": "2026-10-27",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
-      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+      "fonte": "RTP Notícias",
+      "titulo": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
      },
      {
       "data": "2026-10-27",
-      "fonte": "TSF",
-      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
-      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+      "fonte": "Jornal Económico",
+      "titulo": "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "url": "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
      }
     ],
     "todas": [
      [
-      "2026-10-27 11:54",
+      "2026-10-27 16:07",
       "RTP Notícias",
       "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 15:56",
+      "RTP Notícias",
+      "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
+     ],
+     [
+      "2026-10-27 15:31",
+      "Jornal Económico",
+      "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
+     ],
+     [
+      "2026-10-27 15:27",
+      "CNN Portugal",
+      "\"Não aumenta um único imposto\": Montenegro defende Orçamento do Estado para 2027",
+      "https://cnnportugal.iol.pt/videos/nao-aumenta-um-unico-imposto-montenegro-defende-orcamento-do-estado-para-2027/6ae0c13a0cf23b0ed4fdf9a3"
+     ],
+     [
+      "2026-10-27 15:24",
+      "Notícias ao Minuto",
+      "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 15:18",
+      "Jornal Económico",
+      "Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://jornaleconomico.sapo.pt/noticias/mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar-2/"
+     ],
+     [
+      "2026-10-27 15:16",
+      "Diário de Notícias",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à Assembleia da República",
+      "https://www.dn.pt/sociedade/oe2027-mais-de-100-sindicalistas-contestam-oramento-em-frente-assembleia-da-repblica"
+     ],
+     [
+      "2026-10-27 14:59",
+      "ECO",
+      "“Onde é que o primeiro-ministro andou? Andou a trabalhar”, responde Montenegro. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
+     ],
+     [
+      "2026-10-27 14:12",
+      "Executive Digest",
+      "OE2027: Montenegro elogia PSP \"cuidadosa e competente\" em ação nos protestos antes de defender \"bom orçamento para portugueses, famílias e empresa\"",
+      "https://executivedigest.sapo.pt/oe2027-montenegro-elogia-psp-cuidadosa-e-competente-em-acao-nos-protestos-antes-de-defender-bom-orcamento-para-portugueses-familias-e-empresa/"
+     ],
+     [
+      "2026-10-27 13:38",
+      "RTP Notícias",
+      "Partidos antecipam debate do OE 2027",
+      "https://www.rtp.pt/noticias/pais/partidos-antecipam-debate-do-oe-2027_v1774710"
+     ],
+     [
+      "2026-10-27 12:19",
+      "CNN Portugal",
+      "“Este orçamento não serve para os portugueses\": em dia de debate do OE2027, manifestantes protestam em frente à Assembleia da República",
+      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/este-orcamento-nao-serve-para-os-portugueses-em-dia-de-debate-do-oe2027-manifestantes-protestam-em-frente-a-assembleia-da-republica/20261027/6ae096c8d34e9a786e75dfb8"
+     ],
+     [
+      "2026-10-27 12:09",
+      "Notícias ao Minuto",
+      "Sindicalistas protestam contra OE2027 em frente à Assembleia da República",
+      "https://www.noticiasaominuto.com/pais/3073663/sindicalistas-protestam-contra-oe2027-em-frente-a-assembleia-da-republica#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 11:05",
+      "Correio da Manhã",
+      "Mais de 100 sindicalistas contestam Orçamento do Estado para 2027 em frente à Assembleia da República",
+      "https://www.cmjornal.pt/politica/amp/mais-de-100-sindicalistas-contestam-orcamento-do-estado-para-2027-em-frente-a-assembleia-da-republica"
      ],
      [
       "2026-10-27 10:42",
@@ -14764,12 +14836,6 @@
       "https://www.tsf.pt/politica/artigo/parlamento-inicia-debate-de-oe2027-com-protestos-pela-habitacao-em-fundo/18141477"
      ],
      [
-      "2026-10-27 07:20",
-      "Observador",
-      "7h.PM e PR pressionados a falar sobre protestos da habitação",
-      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
       "2026-10-27 06:52",
       "CNN Portugal",
       "Do início da discussão do OE2027 às eleições imprevisíveis em Israel: estas são \"as 5 notícias\" que vão marcar o dia",
@@ -14782,7 +14848,7 @@
       "https://www.publico.pt/2026/10/27/politica/noticia/impasse-mantemse-atira-eleicao-fiscalizacao-secretas-oe2027-2192719"
      ],
      [
-      "2026-10-27 06:35",
+      "2026-10-27 06:40",
       "ECO",
       "Sob ‘fogo cruzado’ da habitação, debate do OE2027 obriga Montenegro a quebrar o silêncio",
       "https://eco.sapo.pt/2026/10/27/sob-fogo-cruzado-da-habitacao-debate-do-oe2027-obriga-montenegro-a-quebrar-o-silencio/"
@@ -14794,10 +14860,28 @@
       "https://rr.pt/noticia/amp/politica/2026/10/27/montenegro-volta-a-falar-ao-fim-de-10-dias-primeiro-ministro-no-inicio-do-debate-do-oe2027/490864/"
      ],
      [
+      "2026-10-27 06:20",
+      "Observador",
+      "7h.PM e PR pressionados a falar sobre protestos da habitação",
+      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
+     ],
+     [
+      "2026-10-27 06:11",
+      "Lusa",
+      "Parlamento inicia hoje debate da proposta de OE2027 do Governo com protestos pela habitação em fundo",
+      "https://www.lusa.pt/article/48014147/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habita%C3%A7%C3%A3o-em-fundo"
+     ],
+     [
       "2026-10-27 06:08",
       "Notícias ao Minuto",
       "Parlamento inicia debate da proposta do OE2027 (com protestos em fundo)",
       "https://www.noticiasaominuto.com/politica/3073480/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habitacao-em-fundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 05:37",
+      "ECO",
+      "Parlamento começa a debater OE2027 com ‘ruído’ de protestos na habitação. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
      ],
      [
       "2026-10-27 05:16",
@@ -17030,90 +17114,6 @@
       "Jornal Económico",
       "OE2027: Novo IRS devolve 307 euros num salário de 970 euros e 37 euros num de 1.500 euros",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-novo-irs-devolve-307-euros-num-salario-de-970-euros-e-37-euros-num-de-1-500-euros/"
-     ],
-     [
-      "2026-10-08 19:47",
-      "Dinheiro Vivo",
-      "OE2027 prevê início da rede de centros para vítimas de violência sexual",
-      "http://dinheirovivo.dn.pt/economia/oe2027-prev-incio-da-rede-de-centros-para-vtimas-de-violncia-sexual-anunciada-em-janeiro-de-2026"
-     ],
-     [
-      "2026-10-08 19:44",
-      "RTP Notícias",
-      "Entidades intermunicipais recebem 13,2 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/entidades-intermunicipais-recebem-132-milhoes-de-euros_n1770424"
-     ],
-     [
-      "2026-10-08 19:43",
-      "RTP Notícias",
-      "Verba para segurança interna aumenta 9,3% para 3.164 ME",
-      "https://www.rtp.pt/noticias/economia/verba-para-seguranca-interna-aumenta-93-para-3164-me_n1770418"
-     ],
-     [
-      "2026-10-08 19:43",
-      "Executive Digest",
-      "OE2027: Governo açoriano já esperava proposta mas quer reforço para continuidade territorial",
-      "https://executivedigest.sapo.pt/oe2027-governo-acoriano-ja-esperava-proposta-mas-quer-reforco-para-continuidade-territorial/"
-     ],
-     [
-      "2026-10-08 19:41",
-      "Jornal de Negócios",
-      "PS duvida de duas condições para viabilizar OE. Chega recusa ser \"muleta\"",
-      "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/miranda-sarmento-ja-entregou-proposta-de-orcamento-do-estado-no-parlamento"
-     ],
-     [
-      "2026-10-08 19:39",
-      "CNN Portugal",
-      "OE2027 é um orçamento \"de quem está a governar uma bolha e que não percebe o que está a acontecer no país\"",
-      "https://cnnportugal.iol.pt/videos/oe2027-e-um-orcamento-de-quem-esta-a-governar-uma-bolha-e-que-nao-percebe-o-que-esta-a-acontecer-no-pais/6ac7dffd0cf23b0ed4fdd9c4"
-     ],
-     [
-      "2026-10-08 19:38",
-      "Jornal Económico",
-      "OE2027: Verba do MNE sobe 7,7% para 512 milhões em ano no Conselho de Segurança da ONU",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-do-mne-sobe-77-para-512-milhoes-em-ano-no-conselho-de-seguranca-da-onu/"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Diário de Notícias",
-      "OE2027 confirma política de habitação do Governo mesmo com quebra de receitas de IMI e IMT",
-      "http://dinheirovivo.dn.pt/economia/oe2027-confirma-poltica-de-habitao-do-governo-mesmo-com-quebra-de-receitas-de-imi-e-imt"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Notícias ao Minuto",
-      "CGTP acusa OE2027 de beneficiar grandes grupos económicos",
-      "https://www.noticiasaominuto.com/pais/3063773/oe2027-cgtp-considera-que-orcamento-favorece-grandes-grupos-economicos-e-prejudica-populacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 19:34",
-      "ECO",
-      "OE 2027. Despesa fiscal com isenções para os seguros de vida aumentam 180 milhões",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-despesa-fiscal-com-isencoes-para-os-seguros-de-vida-aumentam-180-milhoes/"
-     ],
-     [
-      "2026-10-08 19:34",
-      "CNN Portugal",
-      "\"Pensões e salários são mais de dois terços de todo o dinheiro que o Estado gasta\". Por dentro do Orçamento do Estado para 2027",
-      "https://cnnportugal.iol.pt/videos/pensoes-e-salarios-sao-mais-de-dois-tercos-de-todo-o-dinheiro-que-o-estado-gasta-por-dentro-do-orcamento-do-estado-para-2027/6ac7d8b90cf20dc52779183a"
-     ],
-     [
-      "2026-10-08 19:27",
-      "Expresso",
-      "O que prevê o Governo para a habitação no OE 2027, onde a palavra é mencionada 167 vezes",
-      "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34?utm_source=expresso&utm_medium=content&utm_campaign=WEB&utm_content=/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34"
-     ],
-     [
-      "2026-10-08 19:21",
-      "Dinheiro Vivo",
-      "OE2027. Verbas para a Defesa sobem 1,4% para 3798,8 milhões",
-      "http://dinheirovivo.dn.pt/economia/oe2027-verbas-para-a-defesa-sobem-14-para-37988-milhes"
-     ],
-     [
-      "2026-10-08 19:20",
-      "Executive Digest",
-      "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
-      "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
      ]
     ]
    },
@@ -17149,13 +17149,13 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 1009,
-    "n7": 84,
+    "n": 1023,
+    "n7": 98,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 11:54",
+    "ultima": "2026-10-27 16:07",
     "ultimas": [
      {
       "data": "2026-10-27",
@@ -17165,23 +17165,95 @@
      },
      {
       "data": "2026-10-27",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
-      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+      "fonte": "RTP Notícias",
+      "titulo": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
      },
      {
       "data": "2026-10-27",
-      "fonte": "TSF",
-      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
-      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+      "fonte": "Jornal Económico",
+      "titulo": "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "url": "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
      }
     ],
     "todas": [
      [
-      "2026-10-27 11:54",
+      "2026-10-27 16:07",
       "RTP Notícias",
       "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 15:56",
+      "RTP Notícias",
+      "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
+     ],
+     [
+      "2026-10-27 15:31",
+      "Jornal Económico",
+      "Luís Montenegro: “A PSP tem sido especialmente cuidadosa e competente” a lidar com protestos",
+      "https://jornaleconomico.sapo.pt/noticias/luis-montenegro-a-psp-tem-sido-especialmente-cuidadosa-e-competente-a-lidar-com-protestos/"
+     ],
+     [
+      "2026-10-27 15:27",
+      "CNN Portugal",
+      "\"Não aumenta um único imposto\": Montenegro defende Orçamento do Estado para 2027",
+      "https://cnnportugal.iol.pt/videos/nao-aumenta-um-unico-imposto-montenegro-defende-orcamento-do-estado-para-2027/6ae0c13a0cf23b0ed4fdf9a3"
+     ],
+     [
+      "2026-10-27 15:24",
+      "Notícias ao Minuto",
+      "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 15:18",
+      "Jornal Económico",
+      "Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://jornaleconomico.sapo.pt/noticias/mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar-2/"
+     ],
+     [
+      "2026-10-27 15:16",
+      "Diário de Notícias",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à Assembleia da República",
+      "https://www.dn.pt/sociedade/oe2027-mais-de-100-sindicalistas-contestam-oramento-em-frente-assembleia-da-repblica"
+     ],
+     [
+      "2026-10-27 14:59",
+      "ECO",
+      "“Onde é que o primeiro-ministro andou? Andou a trabalhar”, responde Montenegro. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
+     ],
+     [
+      "2026-10-27 14:12",
+      "Executive Digest",
+      "OE2027: Montenegro elogia PSP \"cuidadosa e competente\" em ação nos protestos antes de defender \"bom orçamento para portugueses, famílias e empresa\"",
+      "https://executivedigest.sapo.pt/oe2027-montenegro-elogia-psp-cuidadosa-e-competente-em-acao-nos-protestos-antes-de-defender-bom-orcamento-para-portugueses-familias-e-empresa/"
+     ],
+     [
+      "2026-10-27 13:38",
+      "RTP Notícias",
+      "Partidos antecipam debate do OE 2027",
+      "https://www.rtp.pt/noticias/pais/partidos-antecipam-debate-do-oe-2027_v1774710"
+     ],
+     [
+      "2026-10-27 12:19",
+      "CNN Portugal",
+      "“Este orçamento não serve para os portugueses\": em dia de debate do OE2027, manifestantes protestam em frente à Assembleia da República",
+      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/este-orcamento-nao-serve-para-os-portugueses-em-dia-de-debate-do-oe2027-manifestantes-protestam-em-frente-a-assembleia-da-republica/20261027/6ae096c8d34e9a786e75dfb8"
+     ],
+     [
+      "2026-10-27 12:09",
+      "Notícias ao Minuto",
+      "Sindicalistas protestam contra OE2027 em frente à Assembleia da República",
+      "https://www.noticiasaominuto.com/pais/3073663/sindicalistas-protestam-contra-oe2027-em-frente-a-assembleia-da-republica#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 11:05",
+      "Correio da Manhã",
+      "Mais de 100 sindicalistas contestam Orçamento do Estado para 2027 em frente à Assembleia da República",
+      "https://www.cmjornal.pt/politica/amp/mais-de-100-sindicalistas-contestam-orcamento-do-estado-para-2027-em-frente-a-assembleia-da-republica"
      ],
      [
       "2026-10-27 10:42",
@@ -17226,12 +17298,6 @@
       "https://www.tsf.pt/politica/artigo/parlamento-inicia-debate-de-oe2027-com-protestos-pela-habitacao-em-fundo/18141477"
      ],
      [
-      "2026-10-27 07:20",
-      "Observador",
-      "7h.PM e PR pressionados a falar sobre protestos da habitação",
-      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
       "2026-10-27 06:52",
       "CNN Portugal",
       "Do início da discussão do OE2027 às eleições imprevisíveis em Israel: estas são \"as 5 notícias\" que vão marcar o dia",
@@ -17244,7 +17310,7 @@
       "https://www.publico.pt/2026/10/27/politica/noticia/impasse-mantemse-atira-eleicao-fiscalizacao-secretas-oe2027-2192719"
      ],
      [
-      "2026-10-27 06:35",
+      "2026-10-27 06:40",
       "ECO",
       "Sob ‘fogo cruzado’ da habitação, debate do OE2027 obriga Montenegro a quebrar o silêncio",
       "https://eco.sapo.pt/2026/10/27/sob-fogo-cruzado-da-habitacao-debate-do-oe2027-obriga-montenegro-a-quebrar-o-silencio/"
@@ -17256,10 +17322,28 @@
       "https://rr.pt/noticia/amp/politica/2026/10/27/montenegro-volta-a-falar-ao-fim-de-10-dias-primeiro-ministro-no-inicio-do-debate-do-oe2027/490864/"
      ],
      [
+      "2026-10-27 06:20",
+      "Observador",
+      "7h.PM e PR pressionados a falar sobre protestos da habitação",
+      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
+     ],
+     [
+      "2026-10-27 06:11",
+      "Lusa",
+      "Parlamento inicia hoje debate da proposta de OE2027 do Governo com protestos pela habitação em fundo",
+      "https://www.lusa.pt/article/48014147/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habita%C3%A7%C3%A3o-em-fundo"
+     ],
+     [
       "2026-10-27 06:08",
       "Notícias ao Minuto",
       "Parlamento inicia debate da proposta do OE2027 (com protestos em fundo)",
       "https://www.noticiasaominuto.com/politica/3073480/parlamento-inicia-hoje-debate-da-proposta-de-oe2027-do-governo-com-protestos-pela-habitacao-em-fundo#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 05:37",
+      "ECO",
+      "Parlamento começa a debater OE2027 com ‘ruído’ de protestos na habitação. Siga aqui",
+      "https://eco.sapo.pt/2026/10/27/parlamento-comeca-a-debater-oe2027-com-ruido-de-protestos-na-habitacao-siga-aqui/"
      ],
      [
       "2026-10-27 05:16",
@@ -19492,90 +19576,6 @@
       "Jornal Económico",
       "OE2027: Novo IRS devolve 307 euros num salário de 970 euros e 37 euros num de 1.500 euros",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-novo-irs-devolve-307-euros-num-salario-de-970-euros-e-37-euros-num-de-1-500-euros/"
-     ],
-     [
-      "2026-10-08 19:47",
-      "Dinheiro Vivo",
-      "OE2027 prevê início da rede de centros para vítimas de violência sexual",
-      "http://dinheirovivo.dn.pt/economia/oe2027-prev-incio-da-rede-de-centros-para-vtimas-de-violncia-sexual-anunciada-em-janeiro-de-2026"
-     ],
-     [
-      "2026-10-08 19:44",
-      "RTP Notícias",
-      "Entidades intermunicipais recebem 13,2 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/entidades-intermunicipais-recebem-132-milhoes-de-euros_n1770424"
-     ],
-     [
-      "2026-10-08 19:43",
-      "RTP Notícias",
-      "Verba para segurança interna aumenta 9,3% para 3.164 ME",
-      "https://www.rtp.pt/noticias/economia/verba-para-seguranca-interna-aumenta-93-para-3164-me_n1770418"
-     ],
-     [
-      "2026-10-08 19:43",
-      "Executive Digest",
-      "OE2027: Governo açoriano já esperava proposta mas quer reforço para continuidade territorial",
-      "https://executivedigest.sapo.pt/oe2027-governo-acoriano-ja-esperava-proposta-mas-quer-reforco-para-continuidade-territorial/"
-     ],
-     [
-      "2026-10-08 19:41",
-      "Jornal de Negócios",
-      "PS duvida de duas condições para viabilizar OE. Chega recusa ser \"muleta\"",
-      "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/miranda-sarmento-ja-entregou-proposta-de-orcamento-do-estado-no-parlamento"
-     ],
-     [
-      "2026-10-08 19:39",
-      "CNN Portugal",
-      "OE2027 é um orçamento \"de quem está a governar uma bolha e que não percebe o que está a acontecer no país\"",
-      "https://cnnportugal.iol.pt/videos/oe2027-e-um-orcamento-de-quem-esta-a-governar-uma-bolha-e-que-nao-percebe-o-que-esta-a-acontecer-no-pais/6ac7dffd0cf23b0ed4fdd9c4"
-     ],
-     [
-      "2026-10-08 19:38",
-      "Jornal Económico",
-      "OE2027: Verba do MNE sobe 7,7% para 512 milhões em ano no Conselho de Segurança da ONU",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-do-mne-sobe-77-para-512-milhoes-em-ano-no-conselho-de-seguranca-da-onu/"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Diário de Notícias",
-      "OE2027 confirma política de habitação do Governo mesmo com quebra de receitas de IMI e IMT",
-      "http://dinheirovivo.dn.pt/economia/oe2027-confirma-poltica-de-habitao-do-governo-mesmo-com-quebra-de-receitas-de-imi-e-imt"
-     ],
-     [
-      "2026-10-08 19:37",
-      "Notícias ao Minuto",
-      "CGTP acusa OE2027 de beneficiar grandes grupos económicos",
-      "https://www.noticiasaominuto.com/pais/3063773/oe2027-cgtp-considera-que-orcamento-favorece-grandes-grupos-economicos-e-prejudica-populacao#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-08 19:34",
-      "ECO",
-      "OE 2027. Despesa fiscal com isenções para os seguros de vida aumentam 180 milhões",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-despesa-fiscal-com-isencoes-para-os-seguros-de-vida-aumentam-180-milhoes/"
-     ],
-     [
-      "2026-10-08 19:34",
-      "CNN Portugal",
-      "\"Pensões e salários são mais de dois terços de todo o dinheiro que o Estado gasta\". Por dentro do Orçamento do Estado para 2027",
-      "https://cnnportugal.iol.pt/videos/pensoes-e-salarios-sao-mais-de-dois-tercos-de-todo-o-dinheiro-que-o-estado-gasta-por-dentro-do-orcamento-do-estado-para-2027/6ac7d8b90cf20dc52779183a"
-     ],
-     [
-      "2026-10-08 19:27",
-      "Expresso",
-      "O que prevê o Governo para a habitação no OE 2027, onde a palavra é mencionada 167 vezes",
-      "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34?utm_source=expresso&utm_medium=content&utm_campaign=WEB&utm_content=/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-o-que-preve-o-governo-para-a-habitacao-no-oe-2027-onde-a-palavra-e-mencionada-167-vezes-4f404c34"
-     ],
-     [
-      "2026-10-08 19:21",
-      "Dinheiro Vivo",
-      "OE2027. Verbas para a Defesa sobem 1,4% para 3798,8 milhões",
-      "http://dinheirovivo.dn.pt/economia/oe2027-verbas-para-a-defesa-sobem-14-para-37988-milhes"
-     ],
-     [
-      "2026-10-08 19:20",
-      "Executive Digest",
-      "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
-      "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
      ]
     ]
    },
@@ -19649,34 +19649,58 @@
    "ligacoes": [],
    "novo": "2026-10-26",
    "cobertura": {
-    "n": 331,
-    "n7": 42,
+    "n": 335,
+    "n7": 46,
     "n7ant": 28,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "palavras",
-    "ultima": "2026-10-27 00:30",
+    "ultima": "2026-10-27 15:56",
     "ultimas": [
      {
       "data": "2026-10-27",
-      "fonte": "Correio da Manhã",
-      "titulo": "Montenegro e Marcelo chamados à comissão de inquérito a Luís Neves",
-      "url": "https://www.cmjornal.pt/politica/amp/montenegro-e-marcelo-chamados-a-comissao-de-inquerito-a-luis-neves"
-     },
-     {
-      "data": "2026-10-26",
       "fonte": "RTP Notícias",
-      "titulo": "CPI a Luís Neves. Partidos pedem mais de uma centena de audições",
-      "url": "https://www.rtp.pt/noticias/pais/cpi-a-luis-neves-partidos-pedem-mais-de-uma-centena-de-audicoes_v1774554"
+      "titulo": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
      },
      {
-      "data": "2026-10-26",
+      "data": "2026-10-27",
+      "fonte": "Expresso",
+      "titulo": "Comissão de inquérito a Luís Neves suspensa durante debate do Orçamento e audição a Ventura aprovada",
+      "url": "https://expresso.pt/parlamento/2026-10-27-comissao-de-inquerito-a-luis-neves-suspensa-durante-debate-do-orcamento-e-audicao-a-ventura-aprovada-d13220ba"
+     },
+     {
+      "data": "2026-10-27",
       "fonte": "Notícias ao Minuto",
-      "titulo": "PSD quer ouvir António Costa e Luís Neves na comissão de inquérito",
-      "url": "https://www.noticiasaominuto.com/pais/3073064/psd-quer-ouvir-20-personalidades-na-cpi-a-neves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+      "titulo": "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 15:56",
+      "RTP Notícias",
+      "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
+     ],
+     [
+      "2026-10-27 15:39",
+      "Expresso",
+      "Comissão de inquérito a Luís Neves suspensa durante debate do Orçamento e audição a Ventura aprovada",
+      "https://expresso.pt/parlamento/2026-10-27-comissao-de-inquerito-a-luis-neves-suspensa-durante-debate-do-orcamento-e-audicao-a-ventura-aprovada-d13220ba"
+     ],
+     [
+      "2026-10-27 15:24",
+      "Notícias ao Minuto",
+      "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 14:39",
+      "ECO",
+      "CPI a Luís Neves: Chega pede 50 audições, PS quer ouvir Montenegro e PSD centra pedidos na Operação Influencer",
+      "https://eco.sapo.pt/2026/10/27/cpi-a-luis-neves-chega-pede-50-audicoes-ps-quer-ouvir-montenegro-e-psd-centra-pedidos-na-operacao-influencer/"
+     ],
      [
       "2026-10-27 00:30",
       "Correio da Manhã",
@@ -22784,34 +22808,58 @@
    "ligacoes": [],
    "novo": "2026-10-26",
    "cobertura": {
-    "n": 331,
-    "n7": 42,
+    "n": 335,
+    "n7": 46,
     "n7ant": 28,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "palavras",
-    "ultima": "2026-10-27 00:30",
+    "ultima": "2026-10-27 15:56",
     "ultimas": [
      {
       "data": "2026-10-27",
-      "fonte": "Correio da Manhã",
-      "titulo": "Montenegro e Marcelo chamados à comissão de inquérito a Luís Neves",
-      "url": "https://www.cmjornal.pt/politica/amp/montenegro-e-marcelo-chamados-a-comissao-de-inquerito-a-luis-neves"
-     },
-     {
-      "data": "2026-10-26",
       "fonte": "RTP Notícias",
-      "titulo": "CPI a Luís Neves. Partidos pedem mais de uma centena de audições",
-      "url": "https://www.rtp.pt/noticias/pais/cpi-a-luis-neves-partidos-pedem-mais-de-uma-centena-de-audicoes_v1774554"
+      "titulo": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
      },
      {
-      "data": "2026-10-26",
+      "data": "2026-10-27",
+      "fonte": "Expresso",
+      "titulo": "Comissão de inquérito a Luís Neves suspensa durante debate do Orçamento e audição a Ventura aprovada",
+      "url": "https://expresso.pt/parlamento/2026-10-27-comissao-de-inquerito-a-luis-neves-suspensa-durante-debate-do-orcamento-e-audicao-a-ventura-aprovada-d13220ba"
+     },
+     {
+      "data": "2026-10-27",
       "fonte": "Notícias ao Minuto",
-      "titulo": "PSD quer ouvir António Costa e Luís Neves na comissão de inquérito",
-      "url": "https://www.noticiasaominuto.com/pais/3073064/psd-quer-ouvir-20-personalidades-na-cpi-a-neves#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+      "titulo": "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "url": "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 15:56",
+      "RTP Notícias",
+      "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738"
+     ],
+     [
+      "2026-10-27 15:39",
+      "Expresso",
+      "Comissão de inquérito a Luís Neves suspensa durante debate do Orçamento e audição a Ventura aprovada",
+      "https://expresso.pt/parlamento/2026-10-27-comissao-de-inquerito-a-luis-neves-suspensa-durante-debate-do-orcamento-e-audicao-a-ventura-aprovada-d13220ba"
+     ],
+     [
+      "2026-10-27 15:24",
+      "Notícias ao Minuto",
+      "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
+      "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-27 14:39",
+      "ECO",
+      "CPI a Luís Neves: Chega pede 50 audições, PS quer ouvir Montenegro e PSD centra pedidos na Operação Influencer",
+      "https://eco.sapo.pt/2026/10/27/cpi-a-luis-neves-chega-pede-50-audicoes-ps-quer-ouvir-montenegro-e-psd-centra-pedidos-na-operacao-influencer/"
+     ],
      [
       "2026-10-27 00:30",
       "Correio da Manhã",
@@ -25083,7 +25131,7 @@
    "data": "2026-10-30",
    "hora": "09h00",
    "interveniente": "",
-   "tipoLabel": "Grupo de Trabalho · Reunião n.º 27",
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 27 · Sala 7",
    "resumo": "Informações;\n Propostas de deliberação;\n Outros assuntos.",
    "ordemTrabalhos": "Informações;\n Propostas de deliberação;\n Outros assuntos.",
    "orgao": "Grupo de Trabalho de Escrutínio de Iniciativas Europeias",
@@ -25116,7 +25164,7 @@
    "data": "2026-10-30",
    "hora": "09h30",
    "interveniente": "",
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 62",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 62 · Sala 7",
    "resumo": "Parte I \n Audição com o Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica, Vsevolod Chentsov\n Parte II \n Informações\n Grupo de Trabalho – Escrutínio de Iniciativas Europeias\n Apreciação e votação de pareceres da CAE no âmbito do escrutínio de iniciativas europeias:\n a) CO",
    "ordemTrabalhos": "Parte I \n Audição com o Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica, Vsevolod Chentsov\n Parte II \n Informações\n Grupo de Trabalho – Escrutínio de Iniciativas Europeias\n Apreciação e votação de pareceres da CAE no âmbito do escrutínio de iniciativas europeias:\n a) COM(2026)570 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que cria a Agência da União Europeia para a Cooperação Judiciária Penal (Eurojust) e que revoga o Regulamento (UE) 2018 – Relatório da 1.ª CACDLG\n Autor de Parecer: Deputado António Rodrigues (PSD)\n Iniciativa sinalizada pela CAE: Prazo de envio – 09/11/2026\n b) COM(2026)580 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que cria a Agência da União Europeia para a Cooperação Policial (Europol), altera o Regulamento (UE) 2018/1726 e o Regulamento (UE) 2024/982, e revoga – Relatório da 1.ª CACDLG\n Autor de Parecer: Deputado Rodrigo Alves Taxa (CH)\n Iniciativa sinalizada pela CAE: Prazo de envio – 09/11/2026\n c) COM(2026)616 - Proposta de DIRETIVA DO PARLAMENTO EUROPEU E DO CONSELHO que altera a Diretiva 2003/87/CE e a Decisão (UE) 2015/1814 no que diz respeito à promoção da competitividade e da descarbonização eficaz em termos de custos\n Autor de Parecer: Deputado Pedro Correia (CH)\n Iniciativa sinalizada pela CAE: Prazo de envio – 09/11/2026\n d) COM(2026)502 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que estabelece um quadro de medidas para reforçar o ecossistema europeu da computação em nuvem e da IA (Regulamento Desenvolvimento da Nuvem e da IA) – Relatório da 6.ª CECT\n Autor de Parecer: Deputado Luís Dias (PS)\n Iniciativa sinalizada pela CAE: Prazo de envio – 12/11/2026\n Outros assuntos",
    "orgao": "Comissão de Assuntos Europeus",

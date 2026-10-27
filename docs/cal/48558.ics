@@ -6,15 +6,15 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48558@ar-preview
-DTSTAMP:20261027T162824Z
+DTSTAMP:20261027T163202Z
 DTSTART:20261030T090000Z
 DTEND:20261030T110000Z
 SUMMARY:AR · Grupo de Trabalho de Escrutínio de Iniciativas Europeias
-LOCATION:Assembleia da República
-DESCRIPTION:Grupo de Trabalho · Reunião n.º 27\nSíntese: Propostas de 
- deliberação\nEmissões em direto (quando houver): https://canal.parlame
- nto.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora de f
- im indicativa\; a agenda da AR pode mudar.
+LOCATION:Assembleia da República · Sala 7
+DESCRIPTION:Grupo de Trabalho · Reunião n.º 27 · Sala 7\nSíntese: Pro
+ postas de deliberação\nEmissões em direto (quando houver): https://can
+ al.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\
+ nHora de fim indicativa\; a agenda da AR pode mudar.
 URL:https://canal.parlamento.pt/
 TRANSP:TRANSPARENT
 END:VEVENT

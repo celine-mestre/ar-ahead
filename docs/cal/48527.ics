@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48527@ar-preview
-DTSTAMP:20261027T162824Z
+DTSTAMP:20261027T163202Z
 DTSTART:20261027T143000Z
 DTEND:20261027T163000Z
 SUMMARY:AR · Comissão de Transparência e Estatuto dos Deputados
@@ -14,11 +14,10 @@ LOCATION:Assembleia da República · Sala 5
 DESCRIPTION:Comissões Parlamentares · Reunião n.º 56 · Sala 5\nSínte
  se: Apreciação e votação de parecer relativo a verificação de poder
  es\; Fixação da redação final\, nos termos do disposto nos artigos 15
- 6.º e 128.º\, n.º 8 do RAR\, do Projeto…\nPágina na AR: https://www
- .parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.aspx\nEmissões e
- m direto (quando houver): https://canal.parlamento.pt/\nAR Preview: https
- ://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda d
- a AR pode mudar.
+ 6.º e…\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/15C
+ TED/Paginas/default.aspx\nEmissões em direto (quando houver): https://ca
+ nal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/
+ \nHora de fim indicativa\; a agenda da AR pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.asp
  x
 TRANSP:TRANSPARENT

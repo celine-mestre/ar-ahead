@@ -6,20 +6,20 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48525@ar-preview
-DTSTAMP:20261027T162824Z
+DTSTAMP:20261027T163202Z
 DTSTART:20261026T100000Z
 DTEND:20261026T120000Z
 SUMMARY:AR · Comissão de Infraestruturas\, Mobilidade e Habitação
 LOCATION:Assembleia da República · Sala 1
 DESCRIPTION:Comissões Parlamentares · Reunião n.º 70 · Sala 1\nGovern
  o: Ministro das Infraestruturas e Habitação\, Miguel Pinto Luz\nSíntes
- e: Audição do Ministro das Infraestruturas e Habitação\, Miguel Pinto
-  Luz\, sobre um alegado conflito de interesses na aprovação das altera
- ções ao Regime Jurídico da…\nUnidades DSSD: DACDP\nPágina na AR: ht
- tps://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.aspx\nEm
- issões em direto (quando houver): https://canal.parlamento.pt/\nAR Previ
- ew: https://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a
-  agenda da AR pode mudar.
+ e: Audição sobre um alegado conflito de interesses na aprovação das a
+ lterações ao Regime Jurídico da Urbanização e da Edificação e ao R
+ egime…\nUnidades DSSD: DACDP\nPágina na AR: https://www.parlamento.pt/
+ sites/com/XVIILeg/14CIMH/Paginas/default.aspx\nEmissões em direto (quand
+ o houver): https://canal.parlamento.pt/\nAR Preview: https://celine-mestr
+ e.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar
+ .
 URL:https://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.asp
  x
 TRANSP:TRANSPARENT

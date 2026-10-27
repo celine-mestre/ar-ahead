@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48473@ar-preview
-DTSTAMP:20261027T162824Z
+DTSTAMP:20261027T163202Z
 DTSTART:20261027T120000Z
 DTEND:20261027T140000Z
 SUMMARY:AR · Grupo de Trabalho para a Implementação da Lei n.º 5-A 202
@@ -14,10 +14,10 @@ SUMMARY:AR · Grupo de Trabalho para a Implementação da Lei n.º 5-A 202
 LOCATION:Assembleia da República · Sala 5
 DESCRIPTION:Grupo de Trabalho · Reunião n.º 15 · Sala 5\nSíntese: Pre
  paração da apresentação pública da plataforma\; Apresentação de pr
- ojeto de resolução que aprova a regulamentação interna da AR para rep
- resentação de interesses e…\nEmissões em direto (quando houver): htt
- ps://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar
- -ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
+ ojeto de resolução que aprova a regulamentação interna da AR para…\
+ nEmissões em direto (quando houver): https://canal.parlamento.pt/\nAR Pr
+ eview: https://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\
+ ; a agenda da AR pode mudar.
 URL:https://canal.parlamento.pt/
 TRANSP:TRANSPARENT
 END:VEVENT

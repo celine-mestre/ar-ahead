@@ -6,12 +6,12 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48390@ar-preview
-DTSTAMP:20261027T162824Z
+DTSTAMP:20261027T163202Z
 DTSTART:20261123T100000Z
 DTEND:20261123T120000Z
 SUMMARY:AR · Plenário — Discussão de artigos remetidos a Plenário e 
  normas avocadas Tempos 5 minutos ao Governo\, a cada GP e DURP
-LOCATION:Assembleia da República
+LOCATION:Assembleia da República · Sala das Sessões
 DESCRIPTION:Plenário · Reunião n.º 20 · Plenário\nGoverno: Governo (
  intervenção prevista)\nSíntese: Votações\; Continuação do debate n
  a especialidade do Orçamento do Estado para 2027\nUnidades DSSD: DAPL\, 
