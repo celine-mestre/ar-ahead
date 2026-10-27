@@ -45,34 +45,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-18-plen-rio-debate-na-especialidade-do-or",
    "cobertura": {
-    "n": 1008,
-    "n7": 83,
+    "n": 1009,
+    "n7": 84,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 08:00",
+    "ultima": "2026-10-27 11:54",
     "ultimas": [
-     {
-      "data": "2026-10-27",
-      "fonte": "Healthnews",
-      "titulo": "Parlamento começa hoje a discutir o Orçamento de 2027, com a Saúde a perder 1,5% após o fim do PRR",
-      "url": "https://healthnews.pt/2026/10/27/parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr/#utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr"
-     },
-     {
-      "data": "2026-10-27",
-      "fonte": "Visão",
-      "titulo": "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
-      "url": "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     },
      {
       "data": "2026-10-27",
       "fonte": "RTP Notícias",
       "titulo": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "TSF",
+      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 11:54",
+      "RTP Notícias",
+      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
+      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 10:42",
+      "Executive Digest",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     ],
+     [
+      "2026-10-27 08:39",
+      "TSF",
+      "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+     ],
      [
       "2026-10-27 08:00",
       "Healthnews",
@@ -84,12 +102,6 @@
       "Visão",
       "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
       "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     ],
-     [
-      "2026-10-27 07:37",
-      "RTP Notícias",
-      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
-      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
      ],
      [
       "2026-10-27 07:37",
@@ -114,12 +126,6 @@
       "Observador",
       "7h.PM e PR pressionados a falar sobre protestos da habitação",
       "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
-      "2026-10-27 06:53",
-      "Observador",
-      "Manifestantes detidos conhecem hoje decisão do MP",
-      "https://observador.pt/liveblogs/manifestantes-detidos-conhecem-hoje-decisao-do-mp-protestos-pela-habitacao-marcados-para-junto-ao-parlamento/"
      ],
      [
       "2026-10-27 06:52",
@@ -191,7 +197,7 @@
       "2026-10-26 22:02",
       "TSF",
       "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
-      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+      "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027/18141431"
      ],
      [
       "2026-10-26 22:00",
@@ -2466,12 +2472,6 @@
       "Executive Digest",
       "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
       "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
-     ],
-     [
-      "2026-10-08 19:13",
-      "Observador",
-      "19h. OE 2027. PSD acusa PS de ser contraditório",
-      "https://observador.pt/programas/noticiario/as-noticias-das-19h-2187/"
      ]
     ]
    },
@@ -2511,34 +2511,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1008,
-    "n7": 83,
+    "n": 1009,
+    "n7": 84,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 08:00",
+    "ultima": "2026-10-27 11:54",
     "ultimas": [
-     {
-      "data": "2026-10-27",
-      "fonte": "Healthnews",
-      "titulo": "Parlamento começa hoje a discutir o Orçamento de 2027, com a Saúde a perder 1,5% após o fim do PRR",
-      "url": "https://healthnews.pt/2026/10/27/parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr/#utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr"
-     },
-     {
-      "data": "2026-10-27",
-      "fonte": "Visão",
-      "titulo": "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
-      "url": "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     },
      {
       "data": "2026-10-27",
       "fonte": "RTP Notícias",
       "titulo": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "TSF",
+      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 11:54",
+      "RTP Notícias",
+      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
+      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 10:42",
+      "Executive Digest",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     ],
+     [
+      "2026-10-27 08:39",
+      "TSF",
+      "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+     ],
      [
       "2026-10-27 08:00",
       "Healthnews",
@@ -2550,12 +2568,6 @@
       "Visão",
       "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
       "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     ],
-     [
-      "2026-10-27 07:37",
-      "RTP Notícias",
-      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
-      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
      ],
      [
       "2026-10-27 07:37",
@@ -2580,12 +2592,6 @@
       "Observador",
       "7h.PM e PR pressionados a falar sobre protestos da habitação",
       "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
-      "2026-10-27 06:53",
-      "Observador",
-      "Manifestantes detidos conhecem hoje decisão do MP",
-      "https://observador.pt/liveblogs/manifestantes-detidos-conhecem-hoje-decisao-do-mp-protestos-pela-habitacao-marcados-para-junto-ao-parlamento/"
      ],
      [
       "2026-10-27 06:52",
@@ -2657,7 +2663,7 @@
       "2026-10-26 22:02",
       "TSF",
       "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
-      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+      "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027/18141431"
      ],
      [
       "2026-10-26 22:00",
@@ -4932,12 +4938,6 @@
       "Executive Digest",
       "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
       "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
-     ],
-     [
-      "2026-10-08 19:13",
-      "Observador",
-      "19h. OE 2027. PSD acusa PS de ser contraditório",
-      "https://observador.pt/programas/noticiario/as-noticias-das-19h-2187/"
      ]
     ]
    },
@@ -4977,34 +4977,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1008,
-    "n7": 83,
+    "n": 1009,
+    "n7": 84,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 08:00",
+    "ultima": "2026-10-27 11:54",
     "ultimas": [
-     {
-      "data": "2026-10-27",
-      "fonte": "Healthnews",
-      "titulo": "Parlamento começa hoje a discutir o Orçamento de 2027, com a Saúde a perder 1,5% após o fim do PRR",
-      "url": "https://healthnews.pt/2026/10/27/parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr/#utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr"
-     },
-     {
-      "data": "2026-10-27",
-      "fonte": "Visão",
-      "titulo": "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
-      "url": "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     },
      {
       "data": "2026-10-27",
       "fonte": "RTP Notícias",
       "titulo": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "TSF",
+      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 11:54",
+      "RTP Notícias",
+      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
+      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 10:42",
+      "Executive Digest",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     ],
+     [
+      "2026-10-27 08:39",
+      "TSF",
+      "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+     ],
      [
       "2026-10-27 08:00",
       "Healthnews",
@@ -5016,12 +5034,6 @@
       "Visão",
       "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
       "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     ],
-     [
-      "2026-10-27 07:37",
-      "RTP Notícias",
-      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
-      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
      ],
      [
       "2026-10-27 07:37",
@@ -5046,12 +5058,6 @@
       "Observador",
       "7h.PM e PR pressionados a falar sobre protestos da habitação",
       "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
-      "2026-10-27 06:53",
-      "Observador",
-      "Manifestantes detidos conhecem hoje decisão do MP",
-      "https://observador.pt/liveblogs/manifestantes-detidos-conhecem-hoje-decisao-do-mp-protestos-pela-habitacao-marcados-para-junto-ao-parlamento/"
      ],
      [
       "2026-10-27 06:52",
@@ -5123,7 +5129,7 @@
       "2026-10-26 22:02",
       "TSF",
       "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
-      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+      "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027/18141431"
      ],
      [
       "2026-10-26 22:00",
@@ -7398,12 +7404,6 @@
       "Executive Digest",
       "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
       "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
-     ],
-     [
-      "2026-10-08 19:13",
-      "Observador",
-      "19h. OE 2027. PSD acusa PS de ser contraditório",
-      "https://observador.pt/programas/noticiario/as-noticias-das-19h-2187/"
      ]
     ]
    },
@@ -7443,34 +7443,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1008,
-    "n7": 83,
+    "n": 1009,
+    "n7": 84,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 08:00",
+    "ultima": "2026-10-27 11:54",
     "ultimas": [
-     {
-      "data": "2026-10-27",
-      "fonte": "Healthnews",
-      "titulo": "Parlamento começa hoje a discutir o Orçamento de 2027, com a Saúde a perder 1,5% após o fim do PRR",
-      "url": "https://healthnews.pt/2026/10/27/parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr/#utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr"
-     },
-     {
-      "data": "2026-10-27",
-      "fonte": "Visão",
-      "titulo": "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
-      "url": "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     },
      {
       "data": "2026-10-27",
       "fonte": "RTP Notícias",
       "titulo": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "TSF",
+      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 11:54",
+      "RTP Notícias",
+      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
+      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 10:42",
+      "Executive Digest",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     ],
+     [
+      "2026-10-27 08:39",
+      "TSF",
+      "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+     ],
      [
       "2026-10-27 08:00",
       "Healthnews",
@@ -7482,12 +7500,6 @@
       "Visão",
       "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
       "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     ],
-     [
-      "2026-10-27 07:37",
-      "RTP Notícias",
-      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
-      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
      ],
      [
       "2026-10-27 07:37",
@@ -7512,12 +7524,6 @@
       "Observador",
       "7h.PM e PR pressionados a falar sobre protestos da habitação",
       "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
-      "2026-10-27 06:53",
-      "Observador",
-      "Manifestantes detidos conhecem hoje decisão do MP",
-      "https://observador.pt/liveblogs/manifestantes-detidos-conhecem-hoje-decisao-do-mp-protestos-pela-habitacao-marcados-para-junto-ao-parlamento/"
      ],
      [
       "2026-10-27 06:52",
@@ -7589,7 +7595,7 @@
       "2026-10-26 22:02",
       "TSF",
       "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
-      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+      "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027/18141431"
      ],
      [
       "2026-10-26 22:00",
@@ -9864,12 +9870,6 @@
       "Executive Digest",
       "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
       "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
-     ],
-     [
-      "2026-10-08 19:13",
-      "Observador",
-      "19h. OE 2027. PSD acusa PS de ser contraditório",
-      "https://observador.pt/programas/noticiario/as-noticias-das-19h-2187/"
      ]
     ]
    },
@@ -9909,34 +9909,52 @@
    "ligacoes": [],
    "varrimento": "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1008,
-    "n7": 83,
+    "n": 1009,
+    "n7": 84,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 08:00",
+    "ultima": "2026-10-27 11:54",
     "ultimas": [
-     {
-      "data": "2026-10-27",
-      "fonte": "Healthnews",
-      "titulo": "Parlamento começa hoje a discutir o Orçamento de 2027, com a Saúde a perder 1,5% após o fim do PRR",
-      "url": "https://healthnews.pt/2026/10/27/parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr/#utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr"
-     },
-     {
-      "data": "2026-10-27",
-      "fonte": "Visão",
-      "titulo": "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
-      "url": "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     },
      {
       "data": "2026-10-27",
       "fonte": "RTP Notícias",
       "titulo": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "TSF",
+      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 11:54",
+      "RTP Notícias",
+      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
+      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 10:42",
+      "Executive Digest",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     ],
+     [
+      "2026-10-27 08:39",
+      "TSF",
+      "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+     ],
      [
       "2026-10-27 08:00",
       "Healthnews",
@@ -9948,12 +9966,6 @@
       "Visão",
       "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
       "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     ],
-     [
-      "2026-10-27 07:37",
-      "RTP Notícias",
-      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
-      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
      ],
      [
       "2026-10-27 07:37",
@@ -9978,12 +9990,6 @@
       "Observador",
       "7h.PM e PR pressionados a falar sobre protestos da habitação",
       "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
-      "2026-10-27 06:53",
-      "Observador",
-      "Manifestantes detidos conhecem hoje decisão do MP",
-      "https://observador.pt/liveblogs/manifestantes-detidos-conhecem-hoje-decisao-do-mp-protestos-pela-habitacao-marcados-para-junto-ao-parlamento/"
      ],
      [
       "2026-10-27 06:52",
@@ -10055,7 +10061,7 @@
       "2026-10-26 22:02",
       "TSF",
       "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
-      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+      "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027/18141431"
      ],
      [
       "2026-10-26 22:00",
@@ -12330,12 +12336,6 @@
       "Executive Digest",
       "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
       "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
-     ],
-     [
-      "2026-10-08 19:13",
-      "Observador",
-      "19h. OE 2027. PSD acusa PS de ser contraditório",
-      "https://observador.pt/programas/noticiario/as-noticias-das-19h-2187/"
      ]
     ]
    },
@@ -12574,8 +12574,8 @@
     "retirados": 5
    }
   ],
-  "atualizado": "2026-10-27T09:53+00:00",
-  "atualizadoLabel": "27 de outubro, 09h53",
+  "atualizado": "2026-10-27T13:07+00:00",
+  "atualizadoLabel": "27 de outubro, 13h07",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
   "aviso": "12 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
@@ -12780,7 +12780,7 @@
     "ultima": "2026-10-26 16:46",
     "em": "2026-10-26"
    },
-   "novas": 26,
+   "novas": 28,
    "enquadramento": "Seleção automática de 20 das 982 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (64 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-26-iniciativas-europeias-de-seguran-a-soci": {
@@ -13730,9 +13730,9 @@
     },
     {
      "data": "2026-10-13",
-     "fonte": "Executive Digest",
-     "url": "https://executivedigest.sapo.pt/oe2027-divida-publica-deve-continuar-a-ser-a-nossa-preocupacao-ministro/",
-     "sintese": "OE2027: Dívida pública deve continuar a ser a nossa preocupação — Ministro",
+     "fonte": "Renascença",
+     "url": "https://rr.pt/artigo/convidado/2026/10/13/o-oe-2027-em-perspetiva/489028/",
+     "sintese": "O OE 2027 em perspetiva",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13793,18 +13793,18 @@
     },
     {
      "data": "2026-10-27",
-     "fonte": "RTP Notícias",
-     "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610",
-     "sintese": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/",
+     "sintese": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-27",
-     "fonte": "Visão",
-     "url": "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo",
-     "sintese": "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610",
+     "sintese": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13812,14 +13812,14 @@
    ],
    "amostra": {
     "analisadas": 20,
-    "encontradas": 1008
+    "encontradas": 1009
    },
    "base": {
-    "ultima": "2026-10-27 08:00",
+    "ultima": "2026-10-27 11:54",
     "em": "2026-10-27"
    },
    "novas": 0,
-   "enquadramento": "Seleção automática de 20 das 1008 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (83 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "enquadramento": "Seleção automática de 20 das 1009 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (84 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos": {
    "titulo": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
@@ -14020,7 +14020,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 28,
+   "novas": 30,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-30-comiss-o-de-assuntos-europeus": {
@@ -14243,7 +14243,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 28,
+   "novas": 30,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -14445,7 +14445,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 28,
+   "novas": 30,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -14647,7 +14647,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 28,
+   "novas": 30,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   }
  },
@@ -14687,34 +14687,52 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 1008,
-    "n7": 83,
+    "n": 1009,
+    "n7": 84,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 08:00",
+    "ultima": "2026-10-27 11:54",
     "ultimas": [
-     {
-      "data": "2026-10-27",
-      "fonte": "Healthnews",
-      "titulo": "Parlamento começa hoje a discutir o Orçamento de 2027, com a Saúde a perder 1,5% após o fim do PRR",
-      "url": "https://healthnews.pt/2026/10/27/parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr/#utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr"
-     },
-     {
-      "data": "2026-10-27",
-      "fonte": "Visão",
-      "titulo": "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
-      "url": "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     },
      {
       "data": "2026-10-27",
       "fonte": "RTP Notícias",
       "titulo": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "TSF",
+      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 11:54",
+      "RTP Notícias",
+      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
+      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 10:42",
+      "Executive Digest",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     ],
+     [
+      "2026-10-27 08:39",
+      "TSF",
+      "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+     ],
      [
       "2026-10-27 08:00",
       "Healthnews",
@@ -14726,12 +14744,6 @@
       "Visão",
       "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
       "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     ],
-     [
-      "2026-10-27 07:37",
-      "RTP Notícias",
-      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
-      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
      ],
      [
       "2026-10-27 07:37",
@@ -14756,12 +14768,6 @@
       "Observador",
       "7h.PM e PR pressionados a falar sobre protestos da habitação",
       "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
-      "2026-10-27 06:53",
-      "Observador",
-      "Manifestantes detidos conhecem hoje decisão do MP",
-      "https://observador.pt/liveblogs/manifestantes-detidos-conhecem-hoje-decisao-do-mp-protestos-pela-habitacao-marcados-para-junto-ao-parlamento/"
      ],
      [
       "2026-10-27 06:52",
@@ -14833,7 +14839,7 @@
       "2026-10-26 22:02",
       "TSF",
       "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
-      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+      "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027/18141431"
      ],
      [
       "2026-10-26 22:00",
@@ -17108,12 +17114,6 @@
       "Executive Digest",
       "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
       "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
-     ],
-     [
-      "2026-10-08 19:13",
-      "Observador",
-      "19h. OE 2027. PSD acusa PS de ser contraditório",
-      "https://observador.pt/programas/noticiario/as-noticias-das-19h-2187/"
      ]
     ]
    },
@@ -17149,34 +17149,52 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 1008,
-    "n7": 83,
+    "n": 1009,
+    "n7": 84,
     "n7ant": 48,
     "dias": 60,
     "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-27 08:00",
+    "ultima": "2026-10-27 11:54",
     "ultimas": [
-     {
-      "data": "2026-10-27",
-      "fonte": "Healthnews",
-      "titulo": "Parlamento começa hoje a discutir o Orçamento de 2027, com a Saúde a perder 1,5% após o fim do PRR",
-      "url": "https://healthnews.pt/2026/10/27/parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr/#utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-discutir-o-orcamento-de-2027-com-a-saude-a-perder-15-apos-o-fim-do-prr"
-     },
-     {
-      "data": "2026-10-27",
-      "fonte": "Visão",
-      "titulo": "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
-      "url": "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     },
      {
       "data": "2026-10-27",
       "fonte": "RTP Notícias",
       "titulo": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
       "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "url": "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "TSF",
+      "titulo": "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "url": "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 11:54",
+      "RTP Notícias",
+      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
+      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
+     ],
+     [
+      "2026-10-27 10:42",
+      "Executive Digest",
+      "OE2027: Mais de 100 sindicalistas contestam orçamento em frente à AR",
+      "https://executivedigest.sapo.pt/oe2027-mais-de-100-sindicalistas-contestam-orcamento-em-frente-a-ar/"
+     ],
+     [
+      "2026-10-27 08:39",
+      "TSF",
+      "Arranque do debate do OE 2027 e eleições legislativas em Israel",
+      "https://www.tsf.pt/programa/cafe-duplo-jose-manuel-pureza-e-teresa-leal-coelho?ep=18141494"
+     ],
      [
       "2026-10-27 08:00",
       "Healthnews",
@@ -17188,12 +17206,6 @@
       "Visão",
       "Parlamento começa hoje a debater da proposta de OE2027 do Governo",
       "https://visao.pt/atualidade/economia/2026-10-27-parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo/?utm_source=rss&utm_medium=rss&utm_campaign=parlamento-comeca-hoje-a-debater-da-proposta-de-oe2027-do-governo"
-     ],
-     [
-      "2026-10-27 07:37",
-      "RTP Notícias",
-      "Debate na generalidade da proposta de Orçamento do Estado para 2027",
-      "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610"
      ],
      [
       "2026-10-27 07:37",
@@ -17218,12 +17230,6 @@
       "Observador",
       "7h.PM e PR pressionados a falar sobre protestos da habitação",
       "https://observador.pt/programas/noticiario/as-noticias-das-7h-2545/"
-     ],
-     [
-      "2026-10-27 06:53",
-      "Observador",
-      "Manifestantes detidos conhecem hoje decisão do MP",
-      "https://observador.pt/liveblogs/manifestantes-detidos-conhecem-hoje-decisao-do-mp-protestos-pela-habitacao-marcados-para-junto-ao-parlamento/"
      ],
      [
       "2026-10-27 06:52",
@@ -17295,7 +17301,7 @@
       "2026-10-26 22:02",
       "TSF",
       "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
-      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+      "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027/18141431"
      ],
      [
       "2026-10-26 22:00",
@@ -19570,12 +19576,6 @@
       "Executive Digest",
       "OE2027: Investimento previsto para expansão de redes de metros de Lisboa e Porto é de 174 ME",
       "https://executivedigest.sapo.pt/oe2027-investimento-previsto-para-expansao-de-redes-de-metros-de-lisboa-e-porto-e-de-174-me/"
-     ],
-     [
-      "2026-10-08 19:13",
-      "Observador",
-      "19h. OE 2027. PSD acusa PS de ser contraditório",
-      "https://observador.pt/programas/noticiario/as-noticias-das-19h-2187/"
      ]
     ]
    },
