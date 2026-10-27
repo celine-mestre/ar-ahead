@@ -45,34 +45,100 @@
    "ligacoes": [],
    "varrimento": "2026-11-18-plen-rio-debate-na-especialidade-do-or",
    "cobertura": {
-    "n": 982,
-    "n7": 64,
-    "n7ant": 69,
+    "n": 993,
+    "n7": 68,
+    "n7ant": 48,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 16:46",
+    "ultima": "2026-10-27 00:37",
     "ultimas": [
      {
-      "data": "2026-10-26",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
-     },
-     {
-      "data": "2026-10-26",
+      "data": "2026-10-27",
       "fonte": "Jornal de Negócios",
-      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
-      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+      "titulo": "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Observador",
+      "titulo": "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "url": "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
      },
      {
       "data": "2026-10-26",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
-      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 00:37",
+      "Jornal de Negócios",
+      "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     ],
+     [
+      "2026-10-27 00:20",
+      "Observador",
+      "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
+     ],
+     [
+      "2026-10-26 22:48",
+      "Diário de Notícias",
+      "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
+     ],
+     [
+      "2026-10-26 22:36",
+      "Diário de Notícias",
+      "OE 2027: Finanças têm na mão 2,4 mil milhões de euros em despesa cativada",
+      "https://www.dn.pt/economia/oe-2027-finanas-tm-na-mo-24-mil-milhes-de-euros-em-despesa-cativada"
+     ],
+     [
+      "2026-10-26 22:22",
+      "Executive Digest",
+      "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+      "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/"
+     ],
+     [
+      "2026-10-26 22:02",
+      "TSF",
+      "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
+      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 22:00",
+      "Sábado",
+      "Habitação: Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.sabado.pt/portugal/amp/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:56",
+      "Jornal de Negócios",
+      "Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:44",
+      "Notícias ao Minuto",
+      "Acampada de Lisboa vai montar tendas junto à AR após discussão do OE2027",
+      "https://www.noticiasaominuto.com/pais/3073384/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 20:54",
+      "Correio da Manhã",
+      "Acampada de Lisboa vai montar tendas em frente à Assembleia da República após discussão do OE2027",
+      "https://www.cmjornal.pt/sociedade/amp/acampada-de-lisboa-vai-montar-tendas-em-frente-a-assembleia-da-republica-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 20:47",
+      "Sábado",
+      "OE2027: Ministra insiste que revisão da lei laboral é inevitável mesmo que por outro governo",
+      "https://www.sabado.pt/portugal/amp/oe2027-ministra-insiste-que-revisao-da-lei-laboral-e-inevitavel-mesmo-que-por-outro-governo"
+     ],
      [
       "2026-10-26 16:46",
       "RTP Notícias",
@@ -458,10 +524,10 @@
       "https://observador.pt/2026/10/20/oe2027-carneiro-diz-que-proposta-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais/"
      ],
      [
-      "2026-10-19 23:57",
+      "2026-10-19 23:46",
       "Jornal de Negócios",
       "Carneiro diz que proposta de OE 2027 merecia voto contra mas dever do PS é \"servir o país\"",
-      "https://www.jornaldenegocios.pt/economia/amp/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
       "2026-10-19 22:50",
@@ -470,7 +536,7 @@
       "https://www.cmjornal.pt/politica/amp/carneiro-diz-que-proposta-de-oe2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
-      "2026-10-19 20:00",
+      "2026-10-19 19:58",
       "ECO",
       "UTAO duvida da previsão de crescimento do emprego na proposta de OE2027",
       "https://eco.sapo.pt/2026/10/19/utao-duvida-da-previsao-de-crescimento-do-emprego-na-proposta-de-oe2027/"
@@ -482,7 +548,7 @@
       "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/oe-2027-utao-duvida-do-otimismo-para-o-emprego-e-questiona-receita-do-combate-a-fraude-dos-combustiveis"
      ],
      [
-      "2026-10-19 12:45",
+      "2026-10-19 12:41",
       "ECO",
       "Fitch satisfeita com redução da dívida prevista no OE2027. Antecipa défice de 0,3%",
       "https://eco.sapo.pt/2026/10/19/fitch-satisfeita-com-reducao-da-divida-prevista-no-oe2027-antecipa-defice-de-03/"
@@ -2406,72 +2472,6 @@
       "Executive Digest",
       "OE2027: Madeira recebe 308,6 M€ ao abrigo da Lei das Finanças Regionais",
       "https://executivedigest.sapo.pt/oe2027-madeira-recebe-3086-me-ao-abrigo-da-lei-das-financas-regionais/"
-     ],
-     [
-      "2026-10-08 18:42",
-      "Observador",
-      "OE 2027. Defesa terá 2,15% do PIB com novos aviões KC-390",
-      "https://observador.pt/2026/10/08/orcamento-da-defesa-na-ordem-dos-215-do-pib-com-novos-avioes-kc-390-e-super-tucano/"
-     ],
-     [
-      "2026-10-08 18:41",
-      "Público",
-      "Despesa com juros dispara, vão ser mais 1548 milhões de euros",
-      "https://www.publico.pt/2026/10/08/economia/noticia/despesa-juros-dispara-vao-1548-milhoes-euros-2190732"
-     ],
-     [
-      "2026-10-08 18:38",
-      "RTP Notícias",
-      "Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros_n1770408"
-     ],
-     [
-      "2026-10-08 18:36",
-      "RTP Notícias",
-      "Freguesias vão ter subvenção geral de 440,1 ME",
-      "https://www.rtp.pt/noticias/economia/freguesias-vao-ter-subvencao-geral-de-4401-me_n1770403"
-     ],
-     [
-      "2026-10-08 18:35",
-      "ECO",
-      "Saldo da Segurança Social engorda 1,8 mil milhões em 2027 e entra em défice na década de 2040",
-      "https://eco.sapo.pt/2026/10/08/saldo-da-seguranca-social-engorda-18-mil-milhoes-em-2027-e-entra-em-defice-na-decada-de-2040/"
-     ],
-     [
-      "2026-10-08 18:30",
-      "SIC Notícias",
-      "OE2027: o Governo está a ser demasiado otimista nas previsões para o próximo ano?",
-      "https://sicnoticias.pt/podcasts/economia-dia-a-dia/2026-10-08-oe2027-o-governo-esta-a-ser-demasiado-otimista-nas-previsoes-para-o-proximo-ano--aa48590e"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h.OE 2027. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h. Orçamento do Estado para 2027 apresentado. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "Executive Digest",
-      "OE2027: Governo investe 2 mil milhões de euros em habitação pública e acessível",
-      "https://executivedigest.sapo.pt/oe2027-governo-investe-2-mil-milhoes-de-euros-em-habitacao-publica-e-acessivel/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "ECO",
-      "OE 2027. Defesa vai atingir 2,15% do PIB",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-defesa-vai-atingir-215-do-pib/"
-     ],
-     [
-      "2026-10-08 18:20",
-      "Expresso",
-      "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
-      "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
      ]
     ]
    },
@@ -2511,34 +2511,100 @@
    "ligacoes": [],
    "varrimento": "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 982,
-    "n7": 64,
-    "n7ant": 69,
+    "n": 993,
+    "n7": 68,
+    "n7ant": 48,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 16:46",
+    "ultima": "2026-10-27 00:37",
     "ultimas": [
      {
-      "data": "2026-10-26",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
-     },
-     {
-      "data": "2026-10-26",
+      "data": "2026-10-27",
       "fonte": "Jornal de Negócios",
-      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
-      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+      "titulo": "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Observador",
+      "titulo": "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "url": "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
      },
      {
       "data": "2026-10-26",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
-      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 00:37",
+      "Jornal de Negócios",
+      "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     ],
+     [
+      "2026-10-27 00:20",
+      "Observador",
+      "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
+     ],
+     [
+      "2026-10-26 22:48",
+      "Diário de Notícias",
+      "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
+     ],
+     [
+      "2026-10-26 22:36",
+      "Diário de Notícias",
+      "OE 2027: Finanças têm na mão 2,4 mil milhões de euros em despesa cativada",
+      "https://www.dn.pt/economia/oe-2027-finanas-tm-na-mo-24-mil-milhes-de-euros-em-despesa-cativada"
+     ],
+     [
+      "2026-10-26 22:22",
+      "Executive Digest",
+      "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+      "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/"
+     ],
+     [
+      "2026-10-26 22:02",
+      "TSF",
+      "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
+      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 22:00",
+      "Sábado",
+      "Habitação: Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.sabado.pt/portugal/amp/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:56",
+      "Jornal de Negócios",
+      "Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:44",
+      "Notícias ao Minuto",
+      "Acampada de Lisboa vai montar tendas junto à AR após discussão do OE2027",
+      "https://www.noticiasaominuto.com/pais/3073384/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 20:54",
+      "Correio da Manhã",
+      "Acampada de Lisboa vai montar tendas em frente à Assembleia da República após discussão do OE2027",
+      "https://www.cmjornal.pt/sociedade/amp/acampada-de-lisboa-vai-montar-tendas-em-frente-a-assembleia-da-republica-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 20:47",
+      "Sábado",
+      "OE2027: Ministra insiste que revisão da lei laboral é inevitável mesmo que por outro governo",
+      "https://www.sabado.pt/portugal/amp/oe2027-ministra-insiste-que-revisao-da-lei-laboral-e-inevitavel-mesmo-que-por-outro-governo"
+     ],
      [
       "2026-10-26 16:46",
       "RTP Notícias",
@@ -2924,10 +2990,10 @@
       "https://observador.pt/2026/10/20/oe2027-carneiro-diz-que-proposta-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais/"
      ],
      [
-      "2026-10-19 23:57",
+      "2026-10-19 23:46",
       "Jornal de Negócios",
       "Carneiro diz que proposta de OE 2027 merecia voto contra mas dever do PS é \"servir o país\"",
-      "https://www.jornaldenegocios.pt/economia/amp/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
       "2026-10-19 22:50",
@@ -2936,7 +3002,7 @@
       "https://www.cmjornal.pt/politica/amp/carneiro-diz-que-proposta-de-oe2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
-      "2026-10-19 20:00",
+      "2026-10-19 19:58",
       "ECO",
       "UTAO duvida da previsão de crescimento do emprego na proposta de OE2027",
       "https://eco.sapo.pt/2026/10/19/utao-duvida-da-previsao-de-crescimento-do-emprego-na-proposta-de-oe2027/"
@@ -2948,7 +3014,7 @@
       "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/oe-2027-utao-duvida-do-otimismo-para-o-emprego-e-questiona-receita-do-combate-a-fraude-dos-combustiveis"
      ],
      [
-      "2026-10-19 12:45",
+      "2026-10-19 12:41",
       "ECO",
       "Fitch satisfeita com redução da dívida prevista no OE2027. Antecipa défice de 0,3%",
       "https://eco.sapo.pt/2026/10/19/fitch-satisfeita-com-reducao-da-divida-prevista-no-oe2027-antecipa-defice-de-03/"
@@ -4872,72 +4938,6 @@
       "Executive Digest",
       "OE2027: Madeira recebe 308,6 M€ ao abrigo da Lei das Finanças Regionais",
       "https://executivedigest.sapo.pt/oe2027-madeira-recebe-3086-me-ao-abrigo-da-lei-das-financas-regionais/"
-     ],
-     [
-      "2026-10-08 18:42",
-      "Observador",
-      "OE 2027. Defesa terá 2,15% do PIB com novos aviões KC-390",
-      "https://observador.pt/2026/10/08/orcamento-da-defesa-na-ordem-dos-215-do-pib-com-novos-avioes-kc-390-e-super-tucano/"
-     ],
-     [
-      "2026-10-08 18:41",
-      "Público",
-      "Despesa com juros dispara, vão ser mais 1548 milhões de euros",
-      "https://www.publico.pt/2026/10/08/economia/noticia/despesa-juros-dispara-vao-1548-milhoes-euros-2190732"
-     ],
-     [
-      "2026-10-08 18:38",
-      "RTP Notícias",
-      "Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros_n1770408"
-     ],
-     [
-      "2026-10-08 18:36",
-      "RTP Notícias",
-      "Freguesias vão ter subvenção geral de 440,1 ME",
-      "https://www.rtp.pt/noticias/economia/freguesias-vao-ter-subvencao-geral-de-4401-me_n1770403"
-     ],
-     [
-      "2026-10-08 18:35",
-      "ECO",
-      "Saldo da Segurança Social engorda 1,8 mil milhões em 2027 e entra em défice na década de 2040",
-      "https://eco.sapo.pt/2026/10/08/saldo-da-seguranca-social-engorda-18-mil-milhoes-em-2027-e-entra-em-defice-na-decada-de-2040/"
-     ],
-     [
-      "2026-10-08 18:30",
-      "SIC Notícias",
-      "OE2027: o Governo está a ser demasiado otimista nas previsões para o próximo ano?",
-      "https://sicnoticias.pt/podcasts/economia-dia-a-dia/2026-10-08-oe2027-o-governo-esta-a-ser-demasiado-otimista-nas-previsoes-para-o-proximo-ano--aa48590e"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h.OE 2027. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h. Orçamento do Estado para 2027 apresentado. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "Executive Digest",
-      "OE2027: Governo investe 2 mil milhões de euros em habitação pública e acessível",
-      "https://executivedigest.sapo.pt/oe2027-governo-investe-2-mil-milhoes-de-euros-em-habitacao-publica-e-acessivel/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "ECO",
-      "OE 2027. Defesa vai atingir 2,15% do PIB",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-defesa-vai-atingir-215-do-pib/"
-     ],
-     [
-      "2026-10-08 18:20",
-      "Expresso",
-      "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
-      "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
      ]
     ]
    },
@@ -4977,34 +4977,100 @@
    "ligacoes": [],
    "varrimento": "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 982,
-    "n7": 64,
-    "n7ant": 69,
+    "n": 993,
+    "n7": 68,
+    "n7ant": 48,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 16:46",
+    "ultima": "2026-10-27 00:37",
     "ultimas": [
      {
-      "data": "2026-10-26",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
-     },
-     {
-      "data": "2026-10-26",
+      "data": "2026-10-27",
       "fonte": "Jornal de Negócios",
-      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
-      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+      "titulo": "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Observador",
+      "titulo": "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "url": "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
      },
      {
       "data": "2026-10-26",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
-      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 00:37",
+      "Jornal de Negócios",
+      "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     ],
+     [
+      "2026-10-27 00:20",
+      "Observador",
+      "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
+     ],
+     [
+      "2026-10-26 22:48",
+      "Diário de Notícias",
+      "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
+     ],
+     [
+      "2026-10-26 22:36",
+      "Diário de Notícias",
+      "OE 2027: Finanças têm na mão 2,4 mil milhões de euros em despesa cativada",
+      "https://www.dn.pt/economia/oe-2027-finanas-tm-na-mo-24-mil-milhes-de-euros-em-despesa-cativada"
+     ],
+     [
+      "2026-10-26 22:22",
+      "Executive Digest",
+      "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+      "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/"
+     ],
+     [
+      "2026-10-26 22:02",
+      "TSF",
+      "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
+      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 22:00",
+      "Sábado",
+      "Habitação: Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.sabado.pt/portugal/amp/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:56",
+      "Jornal de Negócios",
+      "Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:44",
+      "Notícias ao Minuto",
+      "Acampada de Lisboa vai montar tendas junto à AR após discussão do OE2027",
+      "https://www.noticiasaominuto.com/pais/3073384/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 20:54",
+      "Correio da Manhã",
+      "Acampada de Lisboa vai montar tendas em frente à Assembleia da República após discussão do OE2027",
+      "https://www.cmjornal.pt/sociedade/amp/acampada-de-lisboa-vai-montar-tendas-em-frente-a-assembleia-da-republica-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 20:47",
+      "Sábado",
+      "OE2027: Ministra insiste que revisão da lei laboral é inevitável mesmo que por outro governo",
+      "https://www.sabado.pt/portugal/amp/oe2027-ministra-insiste-que-revisao-da-lei-laboral-e-inevitavel-mesmo-que-por-outro-governo"
+     ],
      [
       "2026-10-26 16:46",
       "RTP Notícias",
@@ -5390,10 +5456,10 @@
       "https://observador.pt/2026/10/20/oe2027-carneiro-diz-que-proposta-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais/"
      ],
      [
-      "2026-10-19 23:57",
+      "2026-10-19 23:46",
       "Jornal de Negócios",
       "Carneiro diz que proposta de OE 2027 merecia voto contra mas dever do PS é \"servir o país\"",
-      "https://www.jornaldenegocios.pt/economia/amp/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
       "2026-10-19 22:50",
@@ -5402,7 +5468,7 @@
       "https://www.cmjornal.pt/politica/amp/carneiro-diz-que-proposta-de-oe2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
-      "2026-10-19 20:00",
+      "2026-10-19 19:58",
       "ECO",
       "UTAO duvida da previsão de crescimento do emprego na proposta de OE2027",
       "https://eco.sapo.pt/2026/10/19/utao-duvida-da-previsao-de-crescimento-do-emprego-na-proposta-de-oe2027/"
@@ -5414,7 +5480,7 @@
       "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/oe-2027-utao-duvida-do-otimismo-para-o-emprego-e-questiona-receita-do-combate-a-fraude-dos-combustiveis"
      ],
      [
-      "2026-10-19 12:45",
+      "2026-10-19 12:41",
       "ECO",
       "Fitch satisfeita com redução da dívida prevista no OE2027. Antecipa défice de 0,3%",
       "https://eco.sapo.pt/2026/10/19/fitch-satisfeita-com-reducao-da-divida-prevista-no-oe2027-antecipa-defice-de-03/"
@@ -7338,72 +7404,6 @@
       "Executive Digest",
       "OE2027: Madeira recebe 308,6 M€ ao abrigo da Lei das Finanças Regionais",
       "https://executivedigest.sapo.pt/oe2027-madeira-recebe-3086-me-ao-abrigo-da-lei-das-financas-regionais/"
-     ],
-     [
-      "2026-10-08 18:42",
-      "Observador",
-      "OE 2027. Defesa terá 2,15% do PIB com novos aviões KC-390",
-      "https://observador.pt/2026/10/08/orcamento-da-defesa-na-ordem-dos-215-do-pib-com-novos-avioes-kc-390-e-super-tucano/"
-     ],
-     [
-      "2026-10-08 18:41",
-      "Público",
-      "Despesa com juros dispara, vão ser mais 1548 milhões de euros",
-      "https://www.publico.pt/2026/10/08/economia/noticia/despesa-juros-dispara-vao-1548-milhoes-euros-2190732"
-     ],
-     [
-      "2026-10-08 18:38",
-      "RTP Notícias",
-      "Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros_n1770408"
-     ],
-     [
-      "2026-10-08 18:36",
-      "RTP Notícias",
-      "Freguesias vão ter subvenção geral de 440,1 ME",
-      "https://www.rtp.pt/noticias/economia/freguesias-vao-ter-subvencao-geral-de-4401-me_n1770403"
-     ],
-     [
-      "2026-10-08 18:35",
-      "ECO",
-      "Saldo da Segurança Social engorda 1,8 mil milhões em 2027 e entra em défice na década de 2040",
-      "https://eco.sapo.pt/2026/10/08/saldo-da-seguranca-social-engorda-18-mil-milhoes-em-2027-e-entra-em-defice-na-decada-de-2040/"
-     ],
-     [
-      "2026-10-08 18:30",
-      "SIC Notícias",
-      "OE2027: o Governo está a ser demasiado otimista nas previsões para o próximo ano?",
-      "https://sicnoticias.pt/podcasts/economia-dia-a-dia/2026-10-08-oe2027-o-governo-esta-a-ser-demasiado-otimista-nas-previsoes-para-o-proximo-ano--aa48590e"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h.OE 2027. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h. Orçamento do Estado para 2027 apresentado. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "Executive Digest",
-      "OE2027: Governo investe 2 mil milhões de euros em habitação pública e acessível",
-      "https://executivedigest.sapo.pt/oe2027-governo-investe-2-mil-milhoes-de-euros-em-habitacao-publica-e-acessivel/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "ECO",
-      "OE 2027. Defesa vai atingir 2,15% do PIB",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-defesa-vai-atingir-215-do-pib/"
-     ],
-     [
-      "2026-10-08 18:20",
-      "Expresso",
-      "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
-      "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
      ]
     ]
    },
@@ -7443,34 +7443,100 @@
    "ligacoes": [],
    "varrimento": "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 982,
-    "n7": 64,
-    "n7ant": 69,
+    "n": 993,
+    "n7": 68,
+    "n7ant": 48,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 16:46",
+    "ultima": "2026-10-27 00:37",
     "ultimas": [
      {
-      "data": "2026-10-26",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
-     },
-     {
-      "data": "2026-10-26",
+      "data": "2026-10-27",
       "fonte": "Jornal de Negócios",
-      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
-      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+      "titulo": "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Observador",
+      "titulo": "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "url": "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
      },
      {
       "data": "2026-10-26",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
-      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 00:37",
+      "Jornal de Negócios",
+      "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     ],
+     [
+      "2026-10-27 00:20",
+      "Observador",
+      "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
+     ],
+     [
+      "2026-10-26 22:48",
+      "Diário de Notícias",
+      "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
+     ],
+     [
+      "2026-10-26 22:36",
+      "Diário de Notícias",
+      "OE 2027: Finanças têm na mão 2,4 mil milhões de euros em despesa cativada",
+      "https://www.dn.pt/economia/oe-2027-finanas-tm-na-mo-24-mil-milhes-de-euros-em-despesa-cativada"
+     ],
+     [
+      "2026-10-26 22:22",
+      "Executive Digest",
+      "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+      "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/"
+     ],
+     [
+      "2026-10-26 22:02",
+      "TSF",
+      "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
+      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 22:00",
+      "Sábado",
+      "Habitação: Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.sabado.pt/portugal/amp/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:56",
+      "Jornal de Negócios",
+      "Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:44",
+      "Notícias ao Minuto",
+      "Acampada de Lisboa vai montar tendas junto à AR após discussão do OE2027",
+      "https://www.noticiasaominuto.com/pais/3073384/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 20:54",
+      "Correio da Manhã",
+      "Acampada de Lisboa vai montar tendas em frente à Assembleia da República após discussão do OE2027",
+      "https://www.cmjornal.pt/sociedade/amp/acampada-de-lisboa-vai-montar-tendas-em-frente-a-assembleia-da-republica-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 20:47",
+      "Sábado",
+      "OE2027: Ministra insiste que revisão da lei laboral é inevitável mesmo que por outro governo",
+      "https://www.sabado.pt/portugal/amp/oe2027-ministra-insiste-que-revisao-da-lei-laboral-e-inevitavel-mesmo-que-por-outro-governo"
+     ],
      [
       "2026-10-26 16:46",
       "RTP Notícias",
@@ -7856,10 +7922,10 @@
       "https://observador.pt/2026/10/20/oe2027-carneiro-diz-que-proposta-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais/"
      ],
      [
-      "2026-10-19 23:57",
+      "2026-10-19 23:46",
       "Jornal de Negócios",
       "Carneiro diz que proposta de OE 2027 merecia voto contra mas dever do PS é \"servir o país\"",
-      "https://www.jornaldenegocios.pt/economia/amp/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
       "2026-10-19 22:50",
@@ -7868,7 +7934,7 @@
       "https://www.cmjornal.pt/politica/amp/carneiro-diz-que-proposta-de-oe2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
-      "2026-10-19 20:00",
+      "2026-10-19 19:58",
       "ECO",
       "UTAO duvida da previsão de crescimento do emprego na proposta de OE2027",
       "https://eco.sapo.pt/2026/10/19/utao-duvida-da-previsao-de-crescimento-do-emprego-na-proposta-de-oe2027/"
@@ -7880,7 +7946,7 @@
       "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/oe-2027-utao-duvida-do-otimismo-para-o-emprego-e-questiona-receita-do-combate-a-fraude-dos-combustiveis"
      ],
      [
-      "2026-10-19 12:45",
+      "2026-10-19 12:41",
       "ECO",
       "Fitch satisfeita com redução da dívida prevista no OE2027. Antecipa défice de 0,3%",
       "https://eco.sapo.pt/2026/10/19/fitch-satisfeita-com-reducao-da-divida-prevista-no-oe2027-antecipa-defice-de-03/"
@@ -9804,72 +9870,6 @@
       "Executive Digest",
       "OE2027: Madeira recebe 308,6 M€ ao abrigo da Lei das Finanças Regionais",
       "https://executivedigest.sapo.pt/oe2027-madeira-recebe-3086-me-ao-abrigo-da-lei-das-financas-regionais/"
-     ],
-     [
-      "2026-10-08 18:42",
-      "Observador",
-      "OE 2027. Defesa terá 2,15% do PIB com novos aviões KC-390",
-      "https://observador.pt/2026/10/08/orcamento-da-defesa-na-ordem-dos-215-do-pib-com-novos-avioes-kc-390-e-super-tucano/"
-     ],
-     [
-      "2026-10-08 18:41",
-      "Público",
-      "Despesa com juros dispara, vão ser mais 1548 milhões de euros",
-      "https://www.publico.pt/2026/10/08/economia/noticia/despesa-juros-dispara-vao-1548-milhoes-euros-2190732"
-     ],
-     [
-      "2026-10-08 18:38",
-      "RTP Notícias",
-      "Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros_n1770408"
-     ],
-     [
-      "2026-10-08 18:36",
-      "RTP Notícias",
-      "Freguesias vão ter subvenção geral de 440,1 ME",
-      "https://www.rtp.pt/noticias/economia/freguesias-vao-ter-subvencao-geral-de-4401-me_n1770403"
-     ],
-     [
-      "2026-10-08 18:35",
-      "ECO",
-      "Saldo da Segurança Social engorda 1,8 mil milhões em 2027 e entra em défice na década de 2040",
-      "https://eco.sapo.pt/2026/10/08/saldo-da-seguranca-social-engorda-18-mil-milhoes-em-2027-e-entra-em-defice-na-decada-de-2040/"
-     ],
-     [
-      "2026-10-08 18:30",
-      "SIC Notícias",
-      "OE2027: o Governo está a ser demasiado otimista nas previsões para o próximo ano?",
-      "https://sicnoticias.pt/podcasts/economia-dia-a-dia/2026-10-08-oe2027-o-governo-esta-a-ser-demasiado-otimista-nas-previsoes-para-o-proximo-ano--aa48590e"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h.OE 2027. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h. Orçamento do Estado para 2027 apresentado. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "Executive Digest",
-      "OE2027: Governo investe 2 mil milhões de euros em habitação pública e acessível",
-      "https://executivedigest.sapo.pt/oe2027-governo-investe-2-mil-milhoes-de-euros-em-habitacao-publica-e-acessivel/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "ECO",
-      "OE 2027. Defesa vai atingir 2,15% do PIB",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-defesa-vai-atingir-215-do-pib/"
-     ],
-     [
-      "2026-10-08 18:20",
-      "Expresso",
-      "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
-      "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
      ]
     ]
    },
@@ -9909,34 +9909,100 @@
    "ligacoes": [],
    "varrimento": "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 982,
-    "n7": 64,
-    "n7ant": 69,
+    "n": 993,
+    "n7": 68,
+    "n7ant": 48,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 16:46",
+    "ultima": "2026-10-27 00:37",
     "ultimas": [
      {
-      "data": "2026-10-26",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
-     },
-     {
-      "data": "2026-10-26",
+      "data": "2026-10-27",
       "fonte": "Jornal de Negócios",
-      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
-      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+      "titulo": "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Observador",
+      "titulo": "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "url": "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
      },
      {
       "data": "2026-10-26",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
-      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 00:37",
+      "Jornal de Negócios",
+      "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     ],
+     [
+      "2026-10-27 00:20",
+      "Observador",
+      "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
+     ],
+     [
+      "2026-10-26 22:48",
+      "Diário de Notícias",
+      "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
+     ],
+     [
+      "2026-10-26 22:36",
+      "Diário de Notícias",
+      "OE 2027: Finanças têm na mão 2,4 mil milhões de euros em despesa cativada",
+      "https://www.dn.pt/economia/oe-2027-finanas-tm-na-mo-24-mil-milhes-de-euros-em-despesa-cativada"
+     ],
+     [
+      "2026-10-26 22:22",
+      "Executive Digest",
+      "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+      "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/"
+     ],
+     [
+      "2026-10-26 22:02",
+      "TSF",
+      "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
+      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 22:00",
+      "Sábado",
+      "Habitação: Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.sabado.pt/portugal/amp/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:56",
+      "Jornal de Negócios",
+      "Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:44",
+      "Notícias ao Minuto",
+      "Acampada de Lisboa vai montar tendas junto à AR após discussão do OE2027",
+      "https://www.noticiasaominuto.com/pais/3073384/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 20:54",
+      "Correio da Manhã",
+      "Acampada de Lisboa vai montar tendas em frente à Assembleia da República após discussão do OE2027",
+      "https://www.cmjornal.pt/sociedade/amp/acampada-de-lisboa-vai-montar-tendas-em-frente-a-assembleia-da-republica-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 20:47",
+      "Sábado",
+      "OE2027: Ministra insiste que revisão da lei laboral é inevitável mesmo que por outro governo",
+      "https://www.sabado.pt/portugal/amp/oe2027-ministra-insiste-que-revisao-da-lei-laboral-e-inevitavel-mesmo-que-por-outro-governo"
+     ],
      [
       "2026-10-26 16:46",
       "RTP Notícias",
@@ -10322,10 +10388,10 @@
       "https://observador.pt/2026/10/20/oe2027-carneiro-diz-que-proposta-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais/"
      ],
      [
-      "2026-10-19 23:57",
+      "2026-10-19 23:46",
       "Jornal de Negócios",
       "Carneiro diz que proposta de OE 2027 merecia voto contra mas dever do PS é \"servir o país\"",
-      "https://www.jornaldenegocios.pt/economia/amp/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
       "2026-10-19 22:50",
@@ -10334,7 +10400,7 @@
       "https://www.cmjornal.pt/politica/amp/carneiro-diz-que-proposta-de-oe2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
-      "2026-10-19 20:00",
+      "2026-10-19 19:58",
       "ECO",
       "UTAO duvida da previsão de crescimento do emprego na proposta de OE2027",
       "https://eco.sapo.pt/2026/10/19/utao-duvida-da-previsao-de-crescimento-do-emprego-na-proposta-de-oe2027/"
@@ -10346,7 +10412,7 @@
       "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/oe-2027-utao-duvida-do-otimismo-para-o-emprego-e-questiona-receita-do-combate-a-fraude-dos-combustiveis"
      ],
      [
-      "2026-10-19 12:45",
+      "2026-10-19 12:41",
       "ECO",
       "Fitch satisfeita com redução da dívida prevista no OE2027. Antecipa défice de 0,3%",
       "https://eco.sapo.pt/2026/10/19/fitch-satisfeita-com-reducao-da-divida-prevista-no-oe2027-antecipa-defice-de-03/"
@@ -12270,72 +12336,6 @@
       "Executive Digest",
       "OE2027: Madeira recebe 308,6 M€ ao abrigo da Lei das Finanças Regionais",
       "https://executivedigest.sapo.pt/oe2027-madeira-recebe-3086-me-ao-abrigo-da-lei-das-financas-regionais/"
-     ],
-     [
-      "2026-10-08 18:42",
-      "Observador",
-      "OE 2027. Defesa terá 2,15% do PIB com novos aviões KC-390",
-      "https://observador.pt/2026/10/08/orcamento-da-defesa-na-ordem-dos-215-do-pib-com-novos-avioes-kc-390-e-super-tucano/"
-     ],
-     [
-      "2026-10-08 18:41",
-      "Público",
-      "Despesa com juros dispara, vão ser mais 1548 milhões de euros",
-      "https://www.publico.pt/2026/10/08/economia/noticia/despesa-juros-dispara-vao-1548-milhoes-euros-2190732"
-     ],
-     [
-      "2026-10-08 18:38",
-      "RTP Notícias",
-      "Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros_n1770408"
-     ],
-     [
-      "2026-10-08 18:36",
-      "RTP Notícias",
-      "Freguesias vão ter subvenção geral de 440,1 ME",
-      "https://www.rtp.pt/noticias/economia/freguesias-vao-ter-subvencao-geral-de-4401-me_n1770403"
-     ],
-     [
-      "2026-10-08 18:35",
-      "ECO",
-      "Saldo da Segurança Social engorda 1,8 mil milhões em 2027 e entra em défice na década de 2040",
-      "https://eco.sapo.pt/2026/10/08/saldo-da-seguranca-social-engorda-18-mil-milhoes-em-2027-e-entra-em-defice-na-decada-de-2040/"
-     ],
-     [
-      "2026-10-08 18:30",
-      "SIC Notícias",
-      "OE2027: o Governo está a ser demasiado otimista nas previsões para o próximo ano?",
-      "https://sicnoticias.pt/podcasts/economia-dia-a-dia/2026-10-08-oe2027-o-governo-esta-a-ser-demasiado-otimista-nas-previsoes-para-o-proximo-ano--aa48590e"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h.OE 2027. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h. Orçamento do Estado para 2027 apresentado. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "Executive Digest",
-      "OE2027: Governo investe 2 mil milhões de euros em habitação pública e acessível",
-      "https://executivedigest.sapo.pt/oe2027-governo-investe-2-mil-milhoes-de-euros-em-habitacao-publica-e-acessivel/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "ECO",
-      "OE 2027. Defesa vai atingir 2,15% do PIB",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-defesa-vai-atingir-215-do-pib/"
-     ],
-     [
-      "2026-10-08 18:20",
-      "Expresso",
-      "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
-      "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
      ]
     ]
    },
@@ -12370,7 +12370,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -12402,7 +12402,7 @@
     "n7": 1,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "2026-10-23 16:47",
     "ultimas": [
@@ -12566,13 +12566,19 @@
     "novos": 1,
     "alterados": 0,
     "retirados": 0
+   },
+   {
+    "data": "2026-10-27",
+    "novos": 0,
+    "alterados": 0,
+    "retirados": 5
    }
   ],
-  "atualizado": "2026-10-26T22:31+00:00",
-  "atualizadoLabel": "26 de outubro, 22h31",
+  "atualizado": "2026-10-27T09:46+00:00",
+  "atualizadoLabel": "27 de outubro, 09h46",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
-  "aviso": "12 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
+  "aviso": "8 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
  },
  "fichas": {
   "2026-10-27-plen-rio-debate-na-generalidade-do-or-a": {
@@ -12774,7 +12780,7 @@
     "ultima": "2026-10-26 16:46",
     "em": "2026-10-26"
    },
-   "novas": 0,
+   "novas": 11,
    "enquadramento": "Seleção automática de 20 das 982 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (64 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-26-iniciativas-europeias-de-seguran-a-soci": {
@@ -13610,7 +13616,7 @@
     "ultima": "2026-10-26 14:24",
     "em": "2026-10-26"
    },
-   "novas": 0,
+   "novas": 1,
    "enquadramento": "Seleção automática de 20 das 339 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (46 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-18-plen-rio-debate-na-especialidade-do-or": {
@@ -13634,9 +13640,9 @@
     },
     {
      "data": "2026-09-24",
-     "fonte": "Correio da Manhã",
-     "url": "https://www.cmjornal.pt/politica/amp/ministro-da-presidencia-avisa-que-margem-negocial-do-oe2027-e-muito-limitada-e-critica-pessimistas-alertantes",
-     "sintese": "Ministro da Presidência avisa que margem negocial do OE2027 é muito limitada e critica \"pessimistas alertantes\"",
+     "fonte": "Nascer do SOL",
+     "url": "https://sol.iol.pt/economia/noticias/ahresp-apresenta-27-propostas-para-o-oe2027-para-estimular-o-investimento-e-travar-a-pressao-sobre-as-empresas/20260924/6ab565360cf23b0ed4fd94e8",
+     "sintese": "AHRESP apresenta 27 propostas para o OE2027 para estimular o investimento e travar a pressão sobre as empresas",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13670,9 +13676,18 @@
     },
     {
      "data": "2026-10-07",
-     "fonte": "Renascença",
-     "url": "https://rr.pt/noticia/amp/economia/2026/10/07/oe2027-governo-entrega-proposta-no-parlamento-quinta-feira-a-tarde/488243/",
-     "sintese": "OE2027. Governo entrega proposta no parlamento quinta-feira à tarde",
+     "fonte": "TSF",
+     "url": "https://www.tsf.pt/economia/artigo/oe2027-governo-entrega-proposta-no-parlamento-esta-quinta-feira-a-tarde/18134613",
+     "sintese": "OE2027: Governo entrega proposta no Parlamento esta quinta-feira à tarde",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-08",
+     "fonte": "Correio da Manhã",
+     "url": "https://www.cmjornal.pt/politica/amp/governo-estima-arrecadar-mais-166-milhoes-de-euros-com-impostos-sobre-tabaco-e-alcool-no-oe2027",
+     "sintese": "Governo estima arrecadar mais 166 milhões de euros com impostos sobre tabaco e álcool no OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13682,15 +13697,6 @@
      "fonte": "Expresso",
      "url": "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-psd-espera-tranquilidade-e-previsibilidade-com-o-oe2027-mas-ps-avisa-que-compromissos-sao-para-cumprir-ab421b1d",
      "sintese": "PSD espera \"tranquilidade\" e \"previsibilidade\" com o OE2027, mas PS avisa que \"compromissos são para cumprir\"",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-08",
-     "fonte": "CNN Portugal",
-     "url": "https://cnnportugal.iol.pt/videos/orcamento-do-estado-para-2027-e-minimalista-e-tenta-passar-entre-os-pingos-da-chuva/6ac817700cf20dc52779187d",
-     "sintese": "Orçamento do Estado para 2027 \"é minimalista e tenta passar entre os pingos da chuva\"",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13733,15 +13739,6 @@
     },
     {
      "data": "2026-10-21",
-     "fonte": "TSF",
-     "url": "https://www.tsf.pt/programa/cafe-duplo-ribau-esteves-e-frederico-rosa?ep=18139326",
-     "sintese": "Protestos, OE 2027 e Lei das Rendas",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-21",
      "fonte": "Notícias ao Minuto",
      "url": "https://www.noticiasaominuto.com/politica/3070770/inquerito-aos-negocios-dos-incendios-suspenso-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
      "sintese": "Inquérito aos negócios dos incêndios suspenso durante debate do OE2027",
@@ -13751,27 +13748,18 @@
     },
     {
      "data": "2026-10-22",
-     "fonte": "Executive Digest",
-     "url": "https://executivedigest.sapo.pt/oe2027-financiamento-as-corporacoes-de-bomberios-vai-aumentar-mais-de-5/",
-     "sintese": "OE2027: Financiamento às corporações de bomberios vai aumentar mais de 5%",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-22",
-     "fonte": "Diário de Notícias",
-     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-raimundo-diz-que-chega-est-todo-contente-com-frete-do-ps",
-     "sintese": "OE2027: Raimundo diz que Chega “está todo contente” com “frete” do PS",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/",
+     "sintese": "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-23",
-     "fonte": "Jornal de Negócios",
-     "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro",
-     "sintese": "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
+     "fonte": "CNN Portugal",
+     "url": "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b",
+     "sintese": "José Luís Carneiro justifica viabilização do \"mau\" OE2027 com crises em Portugal e no estrangeiro",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13796,9 +13784,27 @@
     },
     {
      "data": "2026-10-26",
-     "fonte": "ECO",
-     "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/",
-     "sintese": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/",
+     "sintese": "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "Diário de Notícias",
+     "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal",
+     "sintese": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-27",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027",
+     "sintese": "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13806,14 +13812,14 @@
    ],
    "amostra": {
     "analisadas": 20,
-    "encontradas": 979
+    "encontradas": 993
    },
    "base": {
-    "ultima": "2026-10-26 06:38",
-    "em": "2026-10-26"
+    "ultima": "2026-10-27 00:37",
+    "em": "2026-10-27"
    },
-   "novas": 3,
-   "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "novas": 0,
+   "enquadramento": "Seleção automática de 20 das 993 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (68 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos": {
    "titulo": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
@@ -14014,7 +14020,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 3,
+   "novas": 14,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-30-comiss-o-de-assuntos-europeus": {
@@ -14237,7 +14243,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 3,
+   "novas": 14,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -14439,7 +14445,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 3,
+   "novas": 14,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -14641,7 +14647,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 3,
+   "novas": 14,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   }
  },
@@ -14681,34 +14687,100 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 982,
-    "n7": 64,
-    "n7ant": 69,
+    "n": 993,
+    "n7": 68,
+    "n7ant": 48,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 16:46",
+    "ultima": "2026-10-27 00:37",
     "ultimas": [
      {
-      "data": "2026-10-26",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
-     },
-     {
-      "data": "2026-10-26",
+      "data": "2026-10-27",
       "fonte": "Jornal de Negócios",
-      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
-      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+      "titulo": "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Observador",
+      "titulo": "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "url": "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
      },
      {
       "data": "2026-10-26",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
-      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 00:37",
+      "Jornal de Negócios",
+      "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     ],
+     [
+      "2026-10-27 00:20",
+      "Observador",
+      "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
+     ],
+     [
+      "2026-10-26 22:48",
+      "Diário de Notícias",
+      "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
+     ],
+     [
+      "2026-10-26 22:36",
+      "Diário de Notícias",
+      "OE 2027: Finanças têm na mão 2,4 mil milhões de euros em despesa cativada",
+      "https://www.dn.pt/economia/oe-2027-finanas-tm-na-mo-24-mil-milhes-de-euros-em-despesa-cativada"
+     ],
+     [
+      "2026-10-26 22:22",
+      "Executive Digest",
+      "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+      "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/"
+     ],
+     [
+      "2026-10-26 22:02",
+      "TSF",
+      "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
+      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 22:00",
+      "Sábado",
+      "Habitação: Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.sabado.pt/portugal/amp/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:56",
+      "Jornal de Negócios",
+      "Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:44",
+      "Notícias ao Minuto",
+      "Acampada de Lisboa vai montar tendas junto à AR após discussão do OE2027",
+      "https://www.noticiasaominuto.com/pais/3073384/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 20:54",
+      "Correio da Manhã",
+      "Acampada de Lisboa vai montar tendas em frente à Assembleia da República após discussão do OE2027",
+      "https://www.cmjornal.pt/sociedade/amp/acampada-de-lisboa-vai-montar-tendas-em-frente-a-assembleia-da-republica-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 20:47",
+      "Sábado",
+      "OE2027: Ministra insiste que revisão da lei laboral é inevitável mesmo que por outro governo",
+      "https://www.sabado.pt/portugal/amp/oe2027-ministra-insiste-que-revisao-da-lei-laboral-e-inevitavel-mesmo-que-por-outro-governo"
+     ],
      [
       "2026-10-26 16:46",
       "RTP Notícias",
@@ -15094,10 +15166,10 @@
       "https://observador.pt/2026/10/20/oe2027-carneiro-diz-que-proposta-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais/"
      ],
      [
-      "2026-10-19 23:57",
+      "2026-10-19 23:46",
       "Jornal de Negócios",
       "Carneiro diz que proposta de OE 2027 merecia voto contra mas dever do PS é \"servir o país\"",
-      "https://www.jornaldenegocios.pt/economia/amp/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
       "2026-10-19 22:50",
@@ -15106,7 +15178,7 @@
       "https://www.cmjornal.pt/politica/amp/carneiro-diz-que-proposta-de-oe2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
-      "2026-10-19 20:00",
+      "2026-10-19 19:58",
       "ECO",
       "UTAO duvida da previsão de crescimento do emprego na proposta de OE2027",
       "https://eco.sapo.pt/2026/10/19/utao-duvida-da-previsao-de-crescimento-do-emprego-na-proposta-de-oe2027/"
@@ -15118,7 +15190,7 @@
       "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/oe-2027-utao-duvida-do-otimismo-para-o-emprego-e-questiona-receita-do-combate-a-fraude-dos-combustiveis"
      ],
      [
-      "2026-10-19 12:45",
+      "2026-10-19 12:41",
       "ECO",
       "Fitch satisfeita com redução da dívida prevista no OE2027. Antecipa défice de 0,3%",
       "https://eco.sapo.pt/2026/10/19/fitch-satisfeita-com-reducao-da-divida-prevista-no-oe2027-antecipa-defice-de-03/"
@@ -17042,72 +17114,6 @@
       "Executive Digest",
       "OE2027: Madeira recebe 308,6 M€ ao abrigo da Lei das Finanças Regionais",
       "https://executivedigest.sapo.pt/oe2027-madeira-recebe-3086-me-ao-abrigo-da-lei-das-financas-regionais/"
-     ],
-     [
-      "2026-10-08 18:42",
-      "Observador",
-      "OE 2027. Defesa terá 2,15% do PIB com novos aviões KC-390",
-      "https://observador.pt/2026/10/08/orcamento-da-defesa-na-ordem-dos-215-do-pib-com-novos-avioes-kc-390-e-super-tucano/"
-     ],
-     [
-      "2026-10-08 18:41",
-      "Público",
-      "Despesa com juros dispara, vão ser mais 1548 milhões de euros",
-      "https://www.publico.pt/2026/10/08/economia/noticia/despesa-juros-dispara-vao-1548-milhoes-euros-2190732"
-     ],
-     [
-      "2026-10-08 18:38",
-      "RTP Notícias",
-      "Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros_n1770408"
-     ],
-     [
-      "2026-10-08 18:36",
-      "RTP Notícias",
-      "Freguesias vão ter subvenção geral de 440,1 ME",
-      "https://www.rtp.pt/noticias/economia/freguesias-vao-ter-subvencao-geral-de-4401-me_n1770403"
-     ],
-     [
-      "2026-10-08 18:35",
-      "ECO",
-      "Saldo da Segurança Social engorda 1,8 mil milhões em 2027 e entra em défice na década de 2040",
-      "https://eco.sapo.pt/2026/10/08/saldo-da-seguranca-social-engorda-18-mil-milhoes-em-2027-e-entra-em-defice-na-decada-de-2040/"
-     ],
-     [
-      "2026-10-08 18:30",
-      "SIC Notícias",
-      "OE2027: o Governo está a ser demasiado otimista nas previsões para o próximo ano?",
-      "https://sicnoticias.pt/podcasts/economia-dia-a-dia/2026-10-08-oe2027-o-governo-esta-a-ser-demasiado-otimista-nas-previsoes-para-o-proximo-ano--aa48590e"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h.OE 2027. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h. Orçamento do Estado para 2027 apresentado. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "Executive Digest",
-      "OE2027: Governo investe 2 mil milhões de euros em habitação pública e acessível",
-      "https://executivedigest.sapo.pt/oe2027-governo-investe-2-mil-milhoes-de-euros-em-habitacao-publica-e-acessivel/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "ECO",
-      "OE 2027. Defesa vai atingir 2,15% do PIB",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-defesa-vai-atingir-215-do-pib/"
-     ],
-     [
-      "2026-10-08 18:20",
-      "Expresso",
-      "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
-      "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
      ]
     ]
    },
@@ -17143,34 +17149,100 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 982,
-    "n7": 64,
-    "n7ant": 69,
+    "n": 993,
+    "n7": 68,
+    "n7ant": 48,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "expressoes",
-    "ultima": "2026-10-26 16:46",
+    "ultima": "2026-10-27 00:37",
     "ultimas": [
      {
-      "data": "2026-10-26",
-      "fonte": "RTP Notícias",
-      "titulo": "OE2027. Conselho de Finanças Publicas considera excedente plausível mas alerta para riscos",
-      "url": "https://www.rtp.pt/noticias/economia/oe2027-conselho-de-financas-publicas-considera-excedente-plausivel-mas-alerta-para-riscos_n1774504"
-     },
-     {
-      "data": "2026-10-26",
+      "data": "2026-10-27",
       "fonte": "Jornal de Negócios",
-      "titulo": "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
-      "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+      "titulo": "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     },
+     {
+      "data": "2026-10-27",
+      "fonte": "Observador",
+      "titulo": "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "url": "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
      },
      {
       "data": "2026-10-26",
-      "fonte": "Executive Digest",
-      "titulo": "OE2027: CFP considera excedente plausível mas apela a gestão mais eficiente",
-      "url": "https://executivedigest.sapo.pt/oe2027-cfp-considera-excedente-plausivel-mas-apela-a-gestao-mais-eficiente/"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
      }
     ],
     "todas": [
+     [
+      "2026-10-27 00:37",
+      "Jornal de Negócios",
+      "Carneiro leva habitação e custo de vida como temas principais ao debate do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-do-oe2027"
+     ],
+     [
+      "2026-10-27 00:20",
+      "Observador",
+      "Carneiro desafia Montenegro a \"deixar cair\" a lei das rendas",
+      "https://observador.pt/2026/10/27/carneiro-desafia-montenegro-a-deixar-cair-a-lei-das-rendas-no-debate-do-orcamento-e-diz-que-ps-esta-disponivel-para-rever-lei-de-manifestacoes/"
+     ],
+     [
+      "2026-10-26 22:48",
+      "Diário de Notícias",
+      "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+      "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal"
+     ],
+     [
+      "2026-10-26 22:36",
+      "Diário de Notícias",
+      "OE 2027: Finanças têm na mão 2,4 mil milhões de euros em despesa cativada",
+      "https://www.dn.pt/economia/oe-2027-finanas-tm-na-mo-24-mil-milhes-de-euros-em-despesa-cativada"
+     ],
+     [
+      "2026-10-26 22:22",
+      "Executive Digest",
+      "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+      "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/"
+     ],
+     [
+      "2026-10-26 22:02",
+      "TSF",
+      "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
+      "https://www.tsf.pt/amp/18141431/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 22:00",
+      "Sábado",
+      "Habitação: Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.sabado.pt/portugal/amp/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:56",
+      "Jornal de Negócios",
+      "Acampada de Lisboa vai montar tendas em frente à AR após discussão do OE2027",
+      "https://www.jornaldenegocios.pt/economia/detalhe/acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 21:44",
+      "Notícias ao Minuto",
+      "Acampada de Lisboa vai montar tendas junto à AR após discussão do OE2027",
+      "https://www.noticiasaominuto.com/pais/3073384/habitacao-acampada-de-lisboa-vai-montar-tendas-em-frente-a-ar-apos-discussao-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 20:54",
+      "Correio da Manhã",
+      "Acampada de Lisboa vai montar tendas em frente à Assembleia da República após discussão do OE2027",
+      "https://www.cmjornal.pt/sociedade/amp/acampada-de-lisboa-vai-montar-tendas-em-frente-a-assembleia-da-republica-apos-discussao-do-oe2027"
+     ],
+     [
+      "2026-10-26 20:47",
+      "Sábado",
+      "OE2027: Ministra insiste que revisão da lei laboral é inevitável mesmo que por outro governo",
+      "https://www.sabado.pt/portugal/amp/oe2027-ministra-insiste-que-revisao-da-lei-laboral-e-inevitavel-mesmo-que-por-outro-governo"
+     ],
      [
       "2026-10-26 16:46",
       "RTP Notícias",
@@ -17556,10 +17628,10 @@
       "https://observador.pt/2026/10/20/oe2027-carneiro-diz-que-proposta-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais/"
      ],
      [
-      "2026-10-19 23:57",
+      "2026-10-19 23:46",
       "Jornal de Negócios",
       "Carneiro diz que proposta de OE 2027 merecia voto contra mas dever do PS é \"servir o país\"",
-      "https://www.jornaldenegocios.pt/economia/amp/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
+      "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-diz-que-proposta-de-oe-2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
       "2026-10-19 22:50",
@@ -17568,7 +17640,7 @@
       "https://www.cmjornal.pt/politica/amp/carneiro-diz-que-proposta-de-oe2027-merecia-voto-contra-mas-dever-do-ps-e-servir-o-pais"
      ],
      [
-      "2026-10-19 20:00",
+      "2026-10-19 19:58",
       "ECO",
       "UTAO duvida da previsão de crescimento do emprego na proposta de OE2027",
       "https://eco.sapo.pt/2026/10/19/utao-duvida-da-previsao-de-crescimento-do-emprego-na-proposta-de-oe2027/"
@@ -17580,7 +17652,7 @@
       "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/oe-2027-utao-duvida-do-otimismo-para-o-emprego-e-questiona-receita-do-combate-a-fraude-dos-combustiveis"
      ],
      [
-      "2026-10-19 12:45",
+      "2026-10-19 12:41",
       "ECO",
       "Fitch satisfeita com redução da dívida prevista no OE2027. Antecipa défice de 0,3%",
       "https://eco.sapo.pt/2026/10/19/fitch-satisfeita-com-reducao-da-divida-prevista-no-oe2027-antecipa-defice-de-03/"
@@ -19504,72 +19576,6 @@
       "Executive Digest",
       "OE2027: Madeira recebe 308,6 M€ ao abrigo da Lei das Finanças Regionais",
       "https://executivedigest.sapo.pt/oe2027-madeira-recebe-3086-me-ao-abrigo-da-lei-das-financas-regionais/"
-     ],
-     [
-      "2026-10-08 18:42",
-      "Observador",
-      "OE 2027. Defesa terá 2,15% do PIB com novos aviões KC-390",
-      "https://observador.pt/2026/10/08/orcamento-da-defesa-na-ordem-dos-215-do-pib-com-novos-avioes-kc-390-e-super-tucano/"
-     ],
-     [
-      "2026-10-08 18:41",
-      "Público",
-      "Despesa com juros dispara, vão ser mais 1548 milhões de euros",
-      "https://www.publico.pt/2026/10/08/economia/noticia/despesa-juros-dispara-vao-1548-milhoes-euros-2190732"
-     ],
-     [
-      "2026-10-08 18:38",
-      "RTP Notícias",
-      "Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
-      "https://www.rtp.pt/noticias/economia/verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros_n1770408"
-     ],
-     [
-      "2026-10-08 18:36",
-      "RTP Notícias",
-      "Freguesias vão ter subvenção geral de 440,1 ME",
-      "https://www.rtp.pt/noticias/economia/freguesias-vao-ter-subvencao-geral-de-4401-me_n1770403"
-     ],
-     [
-      "2026-10-08 18:35",
-      "ECO",
-      "Saldo da Segurança Social engorda 1,8 mil milhões em 2027 e entra em défice na década de 2040",
-      "https://eco.sapo.pt/2026/10/08/saldo-da-seguranca-social-engorda-18-mil-milhoes-em-2027-e-entra-em-defice-na-decada-de-2040/"
-     ],
-     [
-      "2026-10-08 18:30",
-      "SIC Notícias",
-      "OE2027: o Governo está a ser demasiado otimista nas previsões para o próximo ano?",
-      "https://sicnoticias.pt/podcasts/economia-dia-a-dia/2026-10-08-oe2027-o-governo-esta-a-ser-demasiado-otimista-nas-previsoes-para-o-proximo-ano--aa48590e"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h.OE 2027. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:24",
-      "Observador",
-      "18h. Orçamento do Estado para 2027 apresentado. Governo prevê crescimento económico acima de 2%",
-      "https://observador.pt/programas/noticiario/as-noticias-das-18h-2157/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "Executive Digest",
-      "OE2027: Governo investe 2 mil milhões de euros em habitação pública e acessível",
-      "https://executivedigest.sapo.pt/oe2027-governo-investe-2-mil-milhoes-de-euros-em-habitacao-publica-e-acessivel/"
-     ],
-     [
-      "2026-10-08 18:23",
-      "ECO",
-      "OE 2027. Defesa vai atingir 2,15% do PIB",
-      "https://eco.sapo.pt/2026/10/08/oe-2027-defesa-vai-atingir-215-do-pib/"
-     ],
-     [
-      "2026-10-08 18:20",
-      "Expresso",
-      "Orçamento do Estado para 2027: as previsões do Governo são demasiado otimistas?",
-      "https://expresso.pt/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/podcasts/economia-dia-a-dia/2026-10-08-orcamento-do-estado-para-2027-as-previsoes-do-governo-sao-demasiado-otimistas--465a749d"
      ]
     ]
    },
@@ -19618,7 +19624,8 @@
    "varrimento": "2026-10-26-comiss-o-de-infraestruturas-mobilidade",
    "criterio": [
     "«audição do ministro» (Governo na AR → DACDP)"
-   ]
+   ],
+   "retirado": "2026-10-27"
   },
   {
    "tema": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
@@ -21710,7 +21717,8 @@
    "varrimento": "2026-10-26-comiss-o-parlamentar-de-inqu-rito-para",
    "criterio": [
     "«comissão parlamentar de inquérito» (Governo na AR → DACDP)"
-   ]
+   ],
+   "retirado": "2026-10-27"
   },
   {
    "tema": "Iniciativas europeias de segurança social: Passaporte Europeu de Segurança Social e Autoridade Europeia do Trabalho",
@@ -21781,7 +21789,8 @@
      ]
     ]
    },
-   "varrimento": "2026-10-26-iniciativas-europeias-de-seguran-a-soci"
+   "varrimento": "2026-10-26-iniciativas-europeias-de-seguran-a-soci",
+   "retirado": "2026-10-27"
   },
   {
    "tema": "Comissão de Orçamento, Finanças e Administração Pública",
@@ -21926,7 +21935,8 @@
      ]
     ]
    },
-   "varrimento": "2026-10-26-comiss-o-de-or-amento-finan-as-e-admini"
+   "varrimento": "2026-10-26-comiss-o-de-or-amento-finan-as-e-admini",
+   "retirado": "2026-10-27"
   },
   {
    "tema": "Conselho das Comunidades Portuguesas: direitos e garantias das comunidades no estrangeiro",
@@ -21962,7 +21972,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "expressoes",
     "ultima": "2026-10-08 16:42",
     "ultimas": [
@@ -22042,10 +22052,10 @@
    "novo": "2026-10-26",
    "cobertura": {
     "n": 14,
-    "n7": 1,
-    "n7ant": 1,
+    "n7": 0,
+    "n7ant": 2,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "2026-10-20 12:09",
     "ultimas": [
@@ -22184,7 +22194,7 @@
     "n7": 0,
     "n7ant": 2,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "2026-10-14 12:07",
     "ultimas": [
@@ -22781,7 +22791,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "expressoes",
     "ultima": "2026-09-20 00:13",
     "ultimas": [
@@ -22826,14 +22836,20 @@
    "ligacoes": [],
    "novo": "2026-10-26",
    "cobertura": {
-    "n": 339,
-    "n7": 46,
-    "n7ant": 30,
+    "n": 330,
+    "n7": 41,
+    "n7ant": 28,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
-    "ultima": "2026-10-26 14:10",
+    "ultima": "2026-10-26 20:56",
     "ultimas": [
+     {
+      "data": "2026-10-26",
+      "fonte": "RTP Notícias",
+      "titulo": "CPI a Luís Neves. Partidos pedem mais de uma centena de audições",
+      "url": "https://www.rtp.pt/noticias/pais/cpi-a-luis-neves-partidos-pedem-mais-de-uma-centena-de-audicoes_v1774554"
+     },
      {
       "data": "2026-10-26",
       "fonte": "Notícias ao Minuto",
@@ -22845,15 +22861,15 @@
       "fonte": "Observador",
       "titulo": "14h. Detidos nos protestos chegam ao Campus de Justiça",
       "url": "https://observador.pt/programas/noticiario/as-noticias-das-14h-2515/"
-     },
-     {
-      "data": "2026-10-26",
-      "fonte": "Jornal Económico",
-      "titulo": "CPI a Luís Neves: PS quer ouvir Montenegro, Costa, Lucília Gago e Amadeu Guerra",
-      "url": "https://jornaleconomico.sapo.pt/noticias/cpi-a-luis-neves-ps-quer-ouvir-montenegro-costa-lucilia-gago-e-amadeu-guerra/"
      }
     ],
     "todas": [
+     [
+      "2026-10-26 20:56",
+      "RTP Notícias",
+      "CPI a Luís Neves. Partidos pedem mais de uma centena de audições",
+      "https://www.rtp.pt/noticias/pais/cpi-a-luis-neves-partidos-pedem-mais-de-uma-centena-de-audicoes_v1774554"
+     ],
      [
       "2026-10-26 14:10",
       "Notícias ao Minuto",
@@ -24827,66 +24843,6 @@
       "Jornal de Negócios",
       "Diretor da Polícia Judiciária denunciado por mentir em tribunal",
       "https://www.jornaldenegocios.pt/economia/justica/amp/diretor-da-policia-judiciaria-denunciado-por-mentir-em-tribunal"
-     ],
-     [
-      "2026-08-27 22:37",
-      "Observador",
-      "Carro que Luís Neves usa é do traficante \"Xuxas\"",
-      "https://observador.pt/2026/08/27/carro-que-luis-neves-usa-foi-apreendido-ao-traficante-de-droga-xuxas/"
-     ],
-     [
-      "2026-08-27 19:39",
-      "RTP Notícias",
-      "Escutas não autorizadas. Diretor da PJ nega ter mentido em tribunal no processo Football Leaks",
-      "https://www.rtp.pt/noticias/pais/escutas-nao-autorizadas-diretor-da-pj-nega-ter-mentido-em-tribunal-no-processo-football-leaks_n1761923"
-     ],
-     [
-      "2026-08-27 18:39",
-      "CNN Portugal",
-      "Ministra da Justiça reitera que \"mantém a confiança no diretor nacional da Polícia Judiciária\"",
-      "https://cnnportugal.iol.pt/pj/queixa-pj/ministra-da-justica-reitera-que-mantem-a-confianca-no-diretor-nacional-da-policia-judiciaria/20260827/6a9059c1d34e511da0b359ec"
-     ],
-     [
-      "2026-08-27 18:13",
-      "Expresso",
-      "Diretor da Polícia Judiciária nega ter mentido em tribunal",
-      "https://expresso.pt/sociedade/2026-08-27-diretor-da-policia-judiciaria-nega-ter-mentido-em-tribunal-4bb02b38"
-     ],
-     [
-      "2026-08-27 17:28",
-      "ECO",
-      "Procuradoria-Geral da República recebeu denúncia contra diretor da Polícia Judiciária",
-      "https://eco.sapo.pt/2026/08/27/procuradoria-geral-da-republica-recebeu-denuncia-contra-diretor-da-policia-judiciaria/"
-     ],
-     [
-      "2026-08-27 17:00",
-      "Jornal de Negócios",
-      "PGR recebeu denúncia contra diretor da Polícia Judiciária",
-      "https://www.jornaldenegocios.pt/economia/justica/detalhe/pgr-recebeu-denuncia-contra-diretor-da-policia-judiciaria"
-     ],
-     [
-      "2026-08-27 16:25",
-      "Notícias ao Minuto",
-      "Ministra da Justiça \"mantém confiança\" no diretor da Polícia Judiciária",
-      "https://www.noticiasaominuto.com/pais/3042395/ministra-da-justica-mantem-confianca-no-diretor-da-pj#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-08-27 16:01",
-      "Público",
-      "Luís Neves continua a utilizar carro requisitado à PJ",
-      "https://www.publico.pt/2026/08/27/politica/noticia/luis-neves-continua-utilizar-carro-requisitado-pj-2186254"
-     ],
-     [
-      "2026-08-27 14:57",
-      "Renascença",
-      "PGR recebeu denúncia contra diretor da Polícia Judiciária por mentir em tribunal",
-      "https://rr.pt/noticia/pais/2026/08/27/pgr-recebeu-denuncia-contra-diretor-da-policia-judiciaria-por-mentir-em-tribunal/483242/"
-     ],
-     [
-      "2026-08-27 14:09",
-      "Expresso",
-      "Diretor nacional da Polícia Judiciária denunciado por mentir em tribunal e por ter ordenado uma escuta proibida pelo Ministério Público",
-      "https://expresso.pt/sociedade/2026-08-27-diretor-nacional-da-policia-judiciaria-denunciado-por-mentir-em-tribunal-e-por-ter-ordenado-uma-escuta-proibida-pelo-ministerio-publico-5402702b"
      ]
     ]
    },
@@ -24925,7 +24881,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -24969,7 +24925,8 @@
     "ultimas": [],
     "todas": []
    },
-   "criterio": []
+   "criterio": [],
+   "retirado": "2026-10-27"
   },
   {
    "tema": "Comissão de Transparência e Estatuto dos Deputados",
@@ -25001,7 +24958,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -25035,7 +24992,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -25071,11 +25028,11 @@
    ],
    "novo": "2026-10-26",
    "cobertura": {
-    "n": 2,
+    "n": 1,
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "2026-09-02 19:25",
     "ultimas": [
@@ -25084,12 +25041,6 @@
       "fonte": "RTP Notícias",
       "titulo": "Portugal está a identificar equipamento energético não utilizado para doar a Kiev indicou Rangel",
       "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/portugal-esta-a-identificar-equipamento-energetico-nao-utilizado-para-doar-a-kiev-indicou-rangel_n1763015"
-     },
-     {
-      "data": "2026-08-27",
-      "fonte": "RTP Notícias",
-      "titulo": "Tragédia no Nepal. Autoridades portuguesas não descartam hipótese de haver mais desaparecidos",
-      "url": "https://www.rtp.pt/noticias/mundo/tragedia-no-nepal-autoridades-portuguesas-nao-descartam-hipotese-de-haver-mais-desaparecidos_n1761900"
      }
     ],
     "todas": [
@@ -25098,12 +25049,6 @@
       "RTP Notícias",
       "Portugal está a identificar equipamento energético não utilizado para doar a Kiev indicou Rangel",
       "https://www.rtp.pt/noticias/guerra-na-ucrania/portugal-esta-a-identificar-equipamento-energetico-nao-utilizado-para-doar-a-kiev-indicou-rangel_n1763015"
-     ],
-     [
-      "2026-08-27 17:48",
-      "RTP Notícias",
-      "Tragédia no Nepal. Autoridades portuguesas não descartam hipótese de haver mais desaparecidos",
-      "https://www.rtp.pt/noticias/mundo/tragedia-no-nepal-autoridades-portuguesas-nao-descartam-hipotese-de-haver-mais-desaparecidos_n1761900"
      ]
     ]
    },
@@ -25138,7 +25083,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -25205,7 +25150,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -25252,7 +25197,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
@@ -25284,7 +25229,7 @@
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
-    "ref": "2026-10-26",
+    "ref": "2026-10-27",
     "metodo": "palavras",
     "ultima": "",
     "ultimas": [],
