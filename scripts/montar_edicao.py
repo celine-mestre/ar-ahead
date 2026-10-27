@@ -105,6 +105,11 @@ else:
     for k, a in antigos.items():
         if k not in vistos and a.get('manual'):
             itens.append(a)                                  # acrescentados à mão: a AR não os publica, não se retiram
+        elif k not in vistos and (a.get('data') or '9999') < hoje:
+            # já aconteceu: o sítio da AR só publica de hoje em diante, por isso desaparecer da fonte não é ser retirado
+            y = dict(a)
+            if y.get('retirado') and y['retirado'] > y.get('data', ''): y.pop('retirado')   # desfaz retiradas por este motivo
+            itens.append(y)
         elif k not in vistos:
             y = dict(a)
             if not y.get('retirado'): y['retirado'] = hoje; n_ret += 1
