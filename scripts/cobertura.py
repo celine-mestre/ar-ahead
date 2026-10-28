@@ -4,7 +4,9 @@ x['cobertura'] = {n7, n7ant, n, dias, ref, metodo, ultimas:[{data, fonte, titulo
   n7 = notícias nos últimos 7 dias; n7ant = nos 7 dias anteriores (tendência); n = total em 60 dias.
 É também o «cesto» de notícias que o Amália usa nas fichas.
 Uso: python scripts/cobertura.py [--local pasta_com_ficheiros_do_radar]"""
-import json, gzip, re, sys, io, pathlib, datetime, unicodedata, urllib.request
+import json, gzip, re, sys, io, os, pathlib, datetime, unicodedata, urllib.request
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from sintese import sintese, membro_governo
 
 RADAR = 'https://raw.githubusercontent.com/upe-sggov/radar-noticias/main/'
 ESTRANGEIROS = ('.br', '.cv', '.ao', '.mz', '.gw', '.st', '.tl', '.mo', '.es', '.fr', '.it', '.de', '.uk', '.com.br')
@@ -49,14 +51,40 @@ def corpus(local=None):
         a['_t'] = t; a['_w'] = set(re.findall(r'[a-z0-9]+', t)); out.append(a)
     return out
 
-def termos(x):
-    """Termos de pesquisa a partir do ASSUNTO (tema e assunto do Amália; o resumo fica de fora):
-    palavras significativas e expressões de 2 palavras seguidas."""
-    base = ' '.join(filter(None, [(x.get('amalia') or {}).get('assunto'), x.get('tema')]))
-    ws = [w for w in re.findall(r'[a-z0-9]+', norm(base)) if len(w) >= 4 and w not in VAZIAS and not w.isdigit()]
+def so_orgao(x):
+    """O tema é só o nome do órgão («Comissão de Infraestruturas, Mobilidade e Habitação»): o assunto está na ordem de trabalhos."""
+    t = (x.get('tema') or '').strip()
+    # comissões permanentes; as de inquérito e os grupos de trabalho já trazem o assunto no próprio nome
+    return bool(re.match(r'(Comissão|Subcomissão)\b', t)) and 'Inquérito' not in t and not re.search(r'[:—]', t) and len(t) <= 80
+
+def nomes_governo(x):
+    """Apelidos dos membros do Governo ouvidos («Pinto Luz»), tal como a AR os escreve."""
+    out = []
+    for parte in (membro_governo(x, maximo=9) or '').split(' · '):
+        if ', ' not in parte: continue
+        nome = [w for w in parte.rsplit(', ', 1)[1].split() if w[:1].isupper()]
+        if len(nome) >= 2: out.append(norm(' '.join(nome[-2:])))
+    return out
+
+def assunto(x):
+    """Texto do assunto: o do Amália, se houver; senão o tema; nas reuniões de comissão cujo tema é só o nome do órgão,
+    a síntese da ordem de trabalhos (sem o nome do membro do Governo, que entra à parte)."""
+    if (x.get('amalia') or {}).get('assunto'): return x['amalia']['assunto']
+    return sintese(x, limite=200) if so_orgao(x) else (x.get('tema') or '')
+
+def termos(texto):
+    """Termos de pesquisa a partir do ASSUNTO: palavras significativas e pares de palavras seguidas
+    (no texto das notícias podem ter até duas palavras curtas no meio: «conflito de interesses»)."""
+    if isinstance(texto, dict): texto = assunto(texto)
+    ws = [w for w in re.findall(r'[a-z0-9]+', norm(texto)) if len(w) >= 4 and w not in VAZIAS and not w.isdigit()]
     sig = list(dict.fromkeys(ws))[:12]
     pares = list(dict.fromkeys(f'{a} {b}' for a, b in zip(ws, ws[1:])))[:10]
     return sig, pares
+
+def _par_rx(par, folga=True):
+    a, b = par.split(' ', 1)
+    if not folga: return re.compile(rf'\b{re.escape(a)} {re.escape(b)}\b')     # como antes: palavras seguidas
+    return re.compile(rf'\b{re.escape(a)}\W+(?:[a-z]{{1,3}}\W+){{0,2}}{re.escape(b)}\b')
 
 # matérias recorrentes reconhecidas no texto da AR: expressões de pesquisa automáticas, quando ninguém as definiu
 PADROES = [
@@ -80,6 +108,16 @@ def expressoes_auto(x):
     return out
 
 def procurar(x, arts):
+    if so_orgao(x) and not x.get('expressoes') and not (x.get('amalia') or {}).get('assunto'):
+        # reunião de comissão: o assunto está na ordem de trabalhos; junta-se ao que o nome da comissão já encontrava
+        vistos, out = set(), []
+        for a in _procurar(x, arts, assunto(x)) + _procurar(x, arts, x.get('tema') or '', nomes=False, folga=False):
+            if id(a) not in vistos: vistos.add(id(a)); out.append(a)
+        out.sort(key=lambda a: a.get('data', ''), reverse=True)
+        return out
+    return _procurar(x, arts, assunto(x), nomes=False)
+
+def _procurar(x, arts, texto, nomes=True, folga=True):
     if not x.get('expressoes'):
         auto = expressoes_auto(x)
         if auto: x['expressoes_auto'] = auto
@@ -89,13 +127,17 @@ def procurar(x, arts):
         res = [a for a in arts if rx.search(a['_t'])]
         res.sort(key=lambda a: a.get('data', ''), reverse=True)
         return res
-    sig, pares = termos(x)
-    if len(sig) < 2 or not pares: return []
-    res, sigs = [], set(sig)
+    sig, pares = termos(texto)
+    nomes = nomes_governo(x) if nomes else []
+    extra = {norm(e) for p_, f in PADROES for m in [re.search(p_, texto, re.I)] if m for e in f(m)}   # «Orçamento do Estado para 2027», «OE2027»…
+    if (len(sig) < 2 or not pares) and not nomes: return []
+    res, sigs, prx = [], set(sig), [_par_rx(e, folga) for e in pares]
     for a in arts:
         s = len(sigs & a['_w'])
-        if s < 2: continue
-        p = sum(1 for e in pares if e in a['_t'])
+        if nomes and any(n in a['_t'] for n in nomes) and (s >= 2 or any(e in a['_t'] for e in extra)):   # membro do Governo ouvido + o assunto
+            res.append((10 + s, a)); continue
+        if s < 2 or not prx: continue
+        p = sum(1 for r in prx if r.search(a['_t']))
         if p >= 1 and s >= min(3, len(sigs)):   # exige uma expressão do assunto e quase todas as palavras
             res.append((p * 3 + s, a))
     res.sort(key=lambda r: (r[0], r[1].get('data', '')), reverse=True)
@@ -136,7 +178,8 @@ if __name__ == '__main__':
     # nota de metodologia (substitui a versão anterior, se existir)
     NOTA = ('Cobertura mediática: contagem das notícias dos órgãos de comunicação social nacionais acompanhados pelo Radar de Notícias '
             'da UPE cujo título ou resumo refere o assunto (pelas expressões de pesquisa da matéria ou, na sua falta, pelas palavras do assunto, '
-            'contagem indicativa). Mostra-se o número dos últimos 7 dias, a comparação com os 7 dias anteriores e o total em 60 dias; '
+            'contagem indicativa; nas reuniões de comissão, cujo tema é só o nome da comissão, o assunto é o da ordem de trabalhos e conta '
+            'também o nome do membro do Governo ouvido). Mostra-se o número dos últimos 7 dias, a comparação com os 7 dias anteriores e o total em 60 dias; '
             'a lista completa das notícias encontradas está disponível em cada matéria. As fichas de varrimento analisam uma amostra '
             'escolhida ao longo dos 60 dias (dias de maior cobertura, diversidade de órgãos e notícias mais recentes).')
     d['metodologia'] = [m for m in d.get('metodologia', []) if not m.startswith('Cobertura mediática:')] + [NOTA]
