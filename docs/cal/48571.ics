@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48571@ar-preview
+DTSTAMP:20261028T222714Z
+DTSTART:20261102T150000Z
+DTEND:20261102T170000Z
+SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
+ s e Garantias
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 107 · Plenário\nGo
+ verno: Ministra da Cultura\, Juventude e Desporto\nSíntese: Audição no
+  âmbito da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª
+  – Orçamento do Estado para 2027 \, nos termos conjugados do…\nUnida
+ des DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.pa
+ rlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx\nEmissões em 
+ direto (quando houver): https://canal.parlamento.pt/\nAR Preview: https:/
+ /celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da 
+ AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

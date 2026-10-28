@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48580@ar-preview
+DTSTAMP:20261028T222714Z
+DTSTART:20261029T140000Z
+DTEND:20261029T160000Z
+SUMMARY:AR · Comissão de Assuntos Europeus
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 61 · Plenário\nGov
+ erno: Ministro de Estado e dos Negócios Estrangeiros\, Paulo Rangel\nSí
+ ntese: Audição do Senhor Ministro de Estado e dos Negócios Estrangeiro
+ s\, Paulo Rangel no âmbito da apreciação\, na especialidade\, da Propo
+ sta de…\nUnidades DSSD: DACDP\, DAPL\, DCIRI\, Transversal\, UPE\nPági
+ na na AR: https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Paginas/defaul
+ t.aspx\nEmissões em direto (quando houver): https://canal.parlamento.pt/
+ \nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora de fim indi
+ cativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Paginas/default.aspx
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

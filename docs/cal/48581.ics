@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48581@ar-preview
+DTSTAMP:20261028T222714Z
+DTSTART:20261029T180000Z
+DTEND:20261029T200000Z
+SUMMARY:AR · Comissão de Agricultura e Pescas
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 69 · Plenário\nGov
+ erno: Ministro da Economia e da Coesão Territorial\, Manuel Castro Almei
+ da · Secretário de Estado do Planeamento e Desenvolvimento Regional\, H
+ élder Reis e mais 3 membros do Governo\nSíntese: Audição no âmbito d
+ a apreciação\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª
+  (GOV) – Orçamento do Estado para 2027 (conjunta com…\nUnidades DSSD
+ : DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlamento
+ .pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx\nEmissões em direto (q
+ uando houver): https://canal.parlamento.pt/\nAR Preview: https://celine-m
+ estre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode m
+ udar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

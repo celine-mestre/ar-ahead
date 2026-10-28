@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48576@ar-preview
+DTSTAMP:20261028T222714Z
+DTSTART:20261029T140000Z
+DTEND:20261029T160000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 126 · Plenário\nGo
+ verno: Ministro de Estado e dos Negócios Estrangeiros\, Paulo Rangel · 
+ Secretária de Estado dos Assuntos Europeus\, Inês Domingos e mais 2 mem
+ bros do Governo\nSíntese: Audição no âmbito da apreciação\, na espe
+ cialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do
+  Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, DCIRI\, Transversal\, UP
+ E\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Pagi
+ nas/default.aspx\nEmissões em direto (quando houver): https://canal.parl
+ amento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora d
+ e fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

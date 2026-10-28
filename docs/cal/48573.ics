@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48573@ar-preview
+DTSTAMP:20261028T222714Z
+DTSTART:20261029T180000Z
+DTEND:20261029T200000Z
+SUMMARY:AR · Comissão da Reforma do Estado e Poder Local
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 60 · Plenário\nGov
+ erno: Ministro da Economia e da Coesão Territorial\, Manuel Castro Almei
+ da · Secretário de Estado do Planeamento e Desenvolvimento Regional\, H
+ élder Reis e mais 3 membros do Governo\nSíntese: Audição no âmbito d
+ a apreciação\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª
+  (GOV) – Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, 
+ Transversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVI
+ ILeg/13CREPL/Paginas/default.aspx\nEmissões em direto (quando houver): h
+ ttps://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/
+ ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/13CREPL/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
