@@ -11,7 +11,7 @@
  "metodologia": [
   "Varrimento amostral e ilustrativo, não exaustivo, com fontes originais e números confrontados com as fontes primárias: parecer do Tribunal de Contas, notificação do INE e comunicação oficial do Governo.",
   "Ordem cronológica crescente. Natureza: vermelho = crítica / muito relevante; dourado = muito relevante; verde = contextual / positivo; cinzento = contextual.",
-  "Cobertura mediática: contagem das notícias dos órgãos de comunicação social nacionais acompanhados pelo Radar de Notícias da UPE cujo título ou resumo refere o assunto (pelas expressões de pesquisa da matéria ou, na sua falta, pelas palavras do assunto, contagem indicativa). Mostra-se o número dos últimos 7 dias, a comparação com os 7 dias anteriores e o total em 60 dias; a lista completa das notícias encontradas está disponível em cada matéria. As fichas de varrimento analisam uma amostra escolhida ao longo dos 60 dias (dias de maior cobertura, diversidade de órgãos e notícias mais recentes)."
+  "Cobertura mediática: contagem das notícias dos órgãos de comunicação social nacionais acompanhados pelo Radar de Notícias da UPE cujo título ou resumo refere o assunto (pelas expressões de pesquisa da matéria ou, na sua falta, pelas palavras do assunto, contagem indicativa; nas reuniões de comissão, cujo tema é só o nome da comissão, o assunto é o da ordem de trabalhos e conta também o nome do membro do Governo ouvido). Mostra-se o número dos últimos 7 dias, a comparação com os 7 dias anteriores e o total em 60 dias; a lista completa das notícias encontradas está disponível em cada matéria. As fichas de varrimento analisam uma amostra escolhida ao longo dos 60 dias (dias de maior cobertura, diversidade de órgãos e notícias mais recentes)."
  ],
  "pedidos": "O varrimento mediático das matérias sem ficha faz-se a pedido, por email para upe@sggoverno.gov.pt (botão «Pedir varrimento» em cada cartão).",
  "futuro": [
@@ -12586,8 +12586,8 @@
     "retirados": 0
    }
   ],
-  "atualizado": "2026-10-28T13:57+00:00",
-  "atualizadoLabel": "28 de outubro, 13h57",
+  "atualizado": "2026-10-28T16:48+00:00",
+  "atualizadoLabel": "28 de outubro, 16h48",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
   "aviso": "13 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
@@ -12926,7 +12926,7 @@
     "ultima": "2026-10-20 12:09",
     "em": "2026-10-26"
    },
-   "novas": 0,
+   "novas": 1,
    "enquadramento": "Seleção automática de 8 das 14 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-27-conselho-das-comunidades-portuguesas-di": {
@@ -13163,7 +13163,7 @@
     "ultima": "2026-10-14 12:07",
     "em": "2026-10-26"
    },
-   "novas": 1,
+   "novas": 2,
    "enquadramento": "Seleção automática de 8 das 90 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (0 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-28-comiss-o-de-neg-cios-estrangeiros-e-com": {
@@ -13203,29 +13203,210 @@
     "ultima": "2026-09-02 19:25",
     "em": "2026-10-26"
    },
-   "novas": 0,
+   "novas": 3,
    "enquadramento": "Seleção automática de 2 das 2 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (0 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-26-comiss-o-de-infraestruturas-mobilidade": {
    "titulo": "Comissão de Infraestruturas, Mobilidade e Habitação",
    "meta": "Comissões Parlamentares · Reunião n.º 70 · Sala 1 · segunda, 26 out, 10h00 · UO de referência: DACDP",
-   "nivel": "curta",
+   "nivel": "completa",
    "origem": "radar",
    "gerado_por": "Radar de Notícias — seleção automática, sem análise",
    "atencao": [],
    "blocos": [],
    "tabelas": [],
-   "fundo": [],
+   "fundo": [
+    {
+     "data": "2026-10-01",
+     "fonte": "Observador",
+     "url": "https://observador.pt/especiais/responsabilizar-promotores-e-limitar-atrasos-nas-camaras-o-que-muda-na-nova-lei-urbanistica-que-e-um-pacto-de-confianca-com-quem-constroi/",
+     "sintese": "\"Pacto de confiança\" para construir. O que muda com nova lei",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-08",
+     "fonte": "Público",
+     "url": "https://www.publico.pt/2026/10/08/politica/noticia/livre-quer-parecer-possivel-conflito-interesses-ventura-inquerito-luis-neves-2190703",
+     "sintese": "Livre quer parecer sobre possível conflito de interesses de Ventura no inquérito a Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-13",
+     "fonte": "Público",
+     "url": "https://www.publico.pt/2026/10/13/politica/noticia/aguiarbranco-rejeita-conflito-interesses-ventura-comissao-inquerito-luis-neves-2191196",
+     "sintese": "Aguiar-Branco rejeita conflito de interesses de Ventura na comissão de inquérito a Luís Neves",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-14",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/politica/ps-quer-ouvir-pinto-luz-por-suspeitas-de-conflito-de-interesses-em-regime-de-reabilitacao-urbana_n1771624",
+     "sintese": "PS quer ouvir Pinto Luz por suspeitas de conflito de interesses em regime de reabilitação urbana",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-14",
+     "fonte": "Público",
+     "url": "https://www.publico.pt/2026/10/14/politica/noticia/ps-bloco-querem-pinto-luz-explicar-lei-saida-ministerio-iliba-cascais-2191344",
+     "sintese": "PS e Bloco querem Pinto Luz a explicar lei saída do seu ministério que o iliba em Cascais",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-14",
+     "fonte": "Correio da Manhã",
+     "url": "https://www.cmjornal.pt/politica/amp/livre-requer-audicao-urgente-de-pinto-luz-sobre-novo-regime-de-reabilitacao-urbana",
+     "sintese": "Livre requer audição urgente de Pinto Luz sobre novo regime de reabilitação urbana",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-14",
+     "fonte": "Notícias ao Minuto",
+     "url": "https://www.noticiasaominuto.com/pais/3066968/livre-requer-audicao-urgente-de-pinto-luz-sobre-novo-regime-de-reabilitacao-urbana#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+     "sintese": "Livre requer audição de Pinto Luz sobre novo regime de reabilitação urbana",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-14",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/vereadores-da-oposicao-em-cascais-apontam-conflitos-de-interesses-na-alteracao-legislativa-de-pinto-luz/",
+     "sintese": "Vereadores da oposição em Cascais apontam conflitos de interesses na alteração legislativa de Pinto Luz",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-14",
+     "fonte": "Observador",
+     "url": "https://observador.pt/2026/10/14/livre-pede-audicao-urgente-de-miguel-pinto-luz-por-suspeita-de-conflito-de-interesses-em-lei-de-reabilitacao-urbana/",
+     "sintese": "Livre requer audição de Pinto Luz sobre reabilitação urbana",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "Notícias ao Minuto",
+     "url": "https://www.noticiasaominuto.com/pais/3070629/ps-vai-forcar-audicao-de-pinto-luz-por-suspeita-de-conflito-de-interesses#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+     "sintese": "PS vai forçar audição de Pinto Luz por suspeita de conflito de interesses",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "Observador",
+     "url": "https://observador.pt/2026/10/21/ps-vai-forcar-audicao-de-miguel-pinto-luz-por-suspeita-de-conflito-de-interesses/",
+     "sintese": "PS vai forçar audição de Miguel Pinto Luz",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "Lusa",
+     "url": "https://www.lusa.pt/article/47983489/pinto-luz-pede-para-ser-ouvido-com-urg%C3%AAncia-no-parlamento-sobre-acusa%C3%A7%C3%B5es-de-conflito-de-interesses",
+     "sintese": "Pinto Luz pede para ser ouvido “com urgência” no Parlamento sobre acusações de conflito de interesses",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-22",
+     "fonte": "Ambiente Magazine",
+     "url": "https://www.ambientemagazine.com/mobi-e-quer-assegurar-continuidade-da-interoperabilidade-no-carregamento-eletrico-a-partir-de-2028/",
+     "sintese": "MOBI.E quer assegurar continuidade da interoperabilidade no carregamento elétrico a partir de 2028",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-23",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/noticiario-antena1/0h-miguel-pinto-luz-ja-pediu-esclarecimentos-ao-presidente-do-instituto-da-habitacao-e-da-reabilitacao-urbana_a1_1773627",
+     "sintese": "0h Miguel Pinto Luz já pediu esclarecimentos ao presidente do Instituto da Habitação e da Reabilitação Urbana",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-23",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/23/ministro-da-habitacao-considera-infelizes-declaracoes-do-presidente-do-ihru/",
+     "sintese": "Ministro da Habitação considera infelizes declarações do presidente do IHRU",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-rjue/",
+     "sintese": "Pinto Luz nega conflito de interesses na aprovação do RJUE",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "SIC Notícias",
+     "url": "https://sicnoticias.pt/pais/politica/2026-10-26-pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-novo-regime-da-reabilitacao-urbana-228db68b",
+     "sintese": "Pinto Luz nega conflito de interesses na aprovação do novo regime da reabilitação urbana",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "TSF",
+     "url": "https://www.tsf.pt/politica/artigo/pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-novo-regime-juridico-da-urbanizacao-e-edificacao/18141226",
+     "sintese": "Pinto Luz nega conflito de interesses na aprovação do novo Regime Jurídico da Urbanização e Edificação",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/politica/amp/pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-novo-regime-juridico-da-urbanizacao-e-edificacao",
+     "sintese": "Pinto Luz nega conflito de interesses na aprovação do novo Regime Jurídico da Urbanização e Edificação",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-26",
+     "fonte": "Expresso",
+     "url": "https://expresso.pt/economia/economia_imobiliario/2026-10-26-ninguem-sai-impune-com-esta-nova-legislacao-pinto-luz-rejeita-conflito-de-interesses-nas-alteracoes-ao-regime-urbanistico-dfe7d291",
+     "sintese": "“Ninguém sai impune com esta nova legislação”: Pinto Luz rejeita conflito de interesses nas alterações ao regime urbanístico",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
    "amostra": {
-    "analisadas": 0,
-    "encontradas": 0
+    "analisadas": 20,
+    "encontradas": 38
    },
    "base": {
-    "ultima": "",
-    "em": "2026-10-26"
+    "ultima": "2026-10-26 13:53",
+    "em": "2026-10-28"
    },
    "novas": 0,
-   "enquadramento": "Sem notícias sobre esta matéria nos órgãos de comunicação social acompanhados pelo Radar de Notícias nos últimos 60 dias (expressões usadas: palavras do assunto). A ficha é refeita automaticamente quando surgirem notícias."
+   "enquadramento": "Seleção automática de 20 das 38 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (10 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-26-comiss-o-parlamentar-de-inqu-rito-para": {
    "titulo": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
@@ -13890,9 +14071,9 @@
     },
     {
      "data": "2026-10-07",
-     "fonte": "Renascença",
-     "url": "https://rr.pt/noticia/amp/economia/2026/10/07/oe2027-governo-entrega-proposta-no-parlamento-quinta-feira-a-tarde/488243/",
-     "sintese": "OE2027. Governo entrega proposta no parlamento quinta-feira à tarde",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/orcamento-do-estado-para-2027-vai-ser-apresentado-esta-quinta-feira",
+     "sintese": "Orçamento do Estado para 2027 vai ser apresentado esta quinta-feira",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -13944,54 +14125,18 @@
     },
     {
      "data": "2026-10-13",
-     "fonte": "RTP Notícias",
-     "url": "https://www.rtp.pt/noticias/economia/oe2027-carneiro-garante-que-ps-nao-estara-na-origem-de-qualquer-crise-politica_n1771510",
-     "sintese": "OE2027. Carneiro garante que PS \"não estará na origem de qualquer crise política\"",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-21",
-     "fonte": "TSF",
-     "url": "https://www.tsf.pt/programa/cafe-duplo-ribau-esteves-e-frederico-rosa?ep=18139326",
-     "sintese": "Protestos, OE 2027 e Lei das Rendas",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-21",
-     "fonte": "Notícias ao Minuto",
-     "url": "https://www.noticiasaominuto.com/politica/3070770/inquerito-aos-negocios-dos-incendios-suspenso-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-     "sintese": "Inquérito aos negócios dos incêndios suspenso durante debate do OE2027",
+     "fonte": "Renascença",
+     "url": "https://rr.pt/artigo/convidado/2026/10/13/o-oe-2027-em-perspetiva/489028/",
+     "sintese": "O OE 2027 em perspetiva",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-22",
-     "fonte": "Executive Digest",
-     "url": "https://executivedigest.sapo.pt/oe2027-financiamento-as-corporacoes-de-bomberios-vai-aumentar-mais-de-5/",
-     "sintese": "OE2027: Financiamento às corporações de bomberios vai aumentar mais de 5%",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-22",
-     "fonte": "Diário de Notícias",
-     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-raimundo-diz-que-chega-est-todo-contente-com-frete-do-ps",
-     "sintese": "OE2027: Raimundo diz que Chega “está todo contente” com “frete” do PS",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-23",
-     "fonte": "Jornal de Negócios",
-     "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro",
-     "sintese": "Carneiro justifica viabilização do OE2027 com crises em Portugal e no estrangeiro",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/",
+     "sintese": "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -14006,19 +14151,55 @@
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-25",
-     "fonte": "Jornal Económico",
-     "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/",
-     "sintese": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
+     "data": "2026-10-26",
+     "fonte": "TSF",
+     "url": "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027/18141431",
+     "sintese": "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-26",
-     "fonte": "ECO",
-     "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/",
-     "sintese": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
+     "fonte": "Diário de Notícias",
+     "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal",
+     "sintese": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-27",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/politica/debate-na-generalidade-da-proposta-de-orcamento-do-estado-para-2027_e1774610",
+     "sintese": "Debate na generalidade da proposta de Orçamento do Estado para 2027",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-27",
+     "fonte": "Notícias ao Minuto",
+     "url": "https://www.noticiasaominuto.com/politica/3074083/oe2027-carneiro-recusa-alterar-posicao-do-ps-e-desafia-governo-a-entregar-imoveis-do-ihru-aos-municipios#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+     "sintese": "Carneiro reafirma abstenção no OE2027 (e deixa desafio ao Governo)",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-28",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/oe2027-chega-anuncia-voto-contra-na-generalidade/",
+     "sintese": "OE2027: Chega anuncia voto contra na generalidade",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-28",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/chega-anuncia-voto-contra-o-oe2027-na-generalidade/",
+     "sintese": "Chega anuncia voto contra o OE2027 na generalidade",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -14026,14 +14207,14 @@
    ],
    "amostra": {
     "analisadas": 20,
-    "encontradas": 979
+    "encontradas": 1059
    },
    "base": {
-    "ultima": "2026-10-26 06:38",
-    "em": "2026-10-26"
+    "ultima": "2026-10-28 12:37",
+    "em": "2026-10-28"
    },
-   "novas": 82,
-   "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "novas": 0,
+   "enquadramento": "Seleção automática de 20 das 1059 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (125 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-30-comiss-o-de-assuntos-europeus": {
    "titulo": "Comissão de Assuntos Europeus",
@@ -19655,15 +19836,263 @@
    ],
    "novo": "2026-10-23",
    "cobertura": {
-    "n": 0,
-    "n7": 0,
-    "n7ant": 0,
+    "n": 38,
+    "n7": 10,
+    "n7ant": 8,
     "dias": 60,
     "ref": "2026-10-28",
     "metodo": "palavras",
-    "ultima": "",
-    "ultimas": [],
-    "todas": []
+    "ultima": "2026-10-26 13:53",
+    "ultimas": [
+     {
+      "data": "2026-10-26",
+      "fonte": "Expresso",
+      "titulo": "“Ninguém sai impune com esta nova legislação”: Pinto Luz rejeita conflito de interesses nas alterações ao regime urbanístico",
+      "url": "https://expresso.pt/economia/economia_imobiliario/2026-10-26-ninguem-sai-impune-com-esta-nova-legislacao-pinto-luz-rejeita-conflito-de-interesses-nas-alteracoes-ao-regime-urbanistico-dfe7d291"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Pinto Luz nega conflito de interesses na aprovação do novo Regime Jurídico da Urbanização e Edificação",
+      "url": "https://www.jornaldenegocios.pt/economia/politica/amp/pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-novo-regime-juridico-da-urbanizacao-e-edificacao"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "TSF",
+      "titulo": "Pinto Luz nega conflito de interesses na aprovação do novo Regime Jurídico da Urbanização e Edificação",
+      "url": "https://www.tsf.pt/politica/artigo/pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-novo-regime-juridico-da-urbanizacao-e-edificacao/18141226"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-26 13:53",
+      "Expresso",
+      "“Ninguém sai impune com esta nova legislação”: Pinto Luz rejeita conflito de interesses nas alterações ao regime urbanístico",
+      "https://expresso.pt/economia/economia_imobiliario/2026-10-26-ninguem-sai-impune-com-esta-nova-legislacao-pinto-luz-rejeita-conflito-de-interesses-nas-alteracoes-ao-regime-urbanistico-dfe7d291"
+     ],
+     [
+      "2026-10-26 13:25",
+      "Jornal de Negócios",
+      "Pinto Luz nega conflito de interesses na aprovação do novo Regime Jurídico da Urbanização e Edificação",
+      "https://www.jornaldenegocios.pt/economia/politica/amp/pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-novo-regime-juridico-da-urbanizacao-e-edificacao"
+     ],
+     [
+      "2026-10-26 12:23",
+      "TSF",
+      "Pinto Luz nega conflito de interesses na aprovação do novo Regime Jurídico da Urbanização e Edificação",
+      "https://www.tsf.pt/politica/artigo/pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-novo-regime-juridico-da-urbanizacao-e-edificacao/18141226"
+     ],
+     [
+      "2026-10-26 12:06",
+      "SIC Notícias",
+      "Pinto Luz nega conflito de interesses na aprovação do novo regime da reabilitação urbana",
+      "https://sicnoticias.pt/pais/politica/2026-10-26-pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-novo-regime-da-reabilitacao-urbana-228db68b"
+     ],
+     [
+      "2026-10-26 11:42",
+      "Jornal Económico",
+      "Pinto Luz nega conflito de interesses na aprovação do RJUE",
+      "https://jornaleconomico.sapo.pt/noticias/pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-rjue/"
+     ],
+     [
+      "2026-10-26 11:29",
+      "Notícias ao Minuto",
+      "Pinto Luz nega conflito de interesses na aprovação do RJUE",
+      "https://www.noticiasaominuto.com/pais/3072988/pinto-luz-nega-conflito-de-interesses-na-aprovacao-do-rjue#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-26 08:42",
+      "ECO",
+      "“Acusação falsa”. Pinto Luz nega conflito de interesses no novo regime da reabilitação urbana",
+      "https://eco.sapo.pt/2026/10/26/acusacao-falsa-pinto-luz-nega-conflito-de-interesses-no-novo-regime-da-reabilitacao-urbana/"
+     ],
+     [
+      "2026-10-23 06:04",
+      "ECO",
+      "Ministro da Habitação considera infelizes declarações do presidente do IHRU",
+      "https://eco.sapo.pt/2026/10/23/ministro-da-habitacao-considera-infelizes-declaracoes-do-presidente-do-ihru/"
+     ],
+     [
+      "2026-10-23 01:39",
+      "RTP Notícias",
+      "0h Miguel Pinto Luz já pediu esclarecimentos ao presidente do Instituto da Habitação e da Reabilitação Urbana",
+      "https://www.rtp.pt/noticias/noticiario-antena1/0h-miguel-pinto-luz-ja-pediu-esclarecimentos-ao-presidente-do-instituto-da-habitacao-e-da-reabilitacao-urbana_a1_1773627"
+     ],
+     [
+      "2026-10-22 09:57",
+      "Ambiente Magazine",
+      "MOBI.E quer assegurar continuidade da interoperabilidade no carregamento elétrico a partir de 2028",
+      "https://www.ambientemagazine.com/mobi-e-quer-assegurar-continuidade-da-interoperabilidade-no-carregamento-eletrico-a-partir-de-2028/"
+     ],
+     [
+      "2026-10-21 19:56",
+      "SIC Notícias",
+      "Conflito de interesses na legislação urbanística? Pinto Luz quer ser ouvido \"com urgência\" no Parlamento",
+      "https://sicnoticias.pt/pais/politica/2026-10-21-pinto-luz-pede-para-ser-ouvido-com-urgencia-no-parlamento-sobre-acusacoes-de-conflito-de-interesses-49343327"
+     ],
+     [
+      "2026-10-21 19:43",
+      "Jornal de Negócios",
+      "Pinto Luz pede para ser ouvido \"com urgência\" no Parlamento sobre acusações de conflito de interesses",
+      "https://www.jornaldenegocios.pt/economia/detalhe/pinto-luz-pede-para-ser-ouvido-com-urgencia-no-parlamento-sobre-acusacoes-de-conflito-de-interesses"
+     ],
+     [
+      "2026-10-21 19:37",
+      "Expresso",
+      "Pinto Luz pede para ser ouvido \"com urgência\" no Parlamento sobre acusações de conflito de interesses",
+      "https://expresso.pt/politica/2026-10-21-pinto-luz-pede-para-ser-ouvido-com-urgencia-no-parlamento-sobre-acusacoes-de-conflito-de-interesses-3d9a9edc"
+     ],
+     [
+      "2026-10-21 19:36",
+      "ECO",
+      "Pinto Luz pede para ser ouvido “com urgência” no Parlamento sobre acusações de conflito de interesses",
+      "https://eco.sapo.pt/2026/10/21/pinto-luz-pede-para-ser-ouvido-com-urgencia-no-parlamento-sobre-acusacoes-de-conflito-de-interesses/"
+     ],
+     [
+      "2026-10-21 19:15",
+      "Lusa",
+      "Pinto Luz pede para ser ouvido “com urgência” no Parlamento sobre acusações de conflito de interesses",
+      "https://www.lusa.pt/article/47983489/pinto-luz-pede-para-ser-ouvido-com-urg%C3%AAncia-no-parlamento-sobre-acusa%C3%A7%C3%B5es-de-conflito-de-interesses"
+     ],
+     [
+      "2026-10-21 19:00",
+      "Observador",
+      "PS vai forçar audição de Miguel Pinto Luz",
+      "https://observador.pt/2026/10/21/ps-vai-forcar-audicao-de-miguel-pinto-luz-por-suspeita-de-conflito-de-interesses/"
+     ],
+     [
+      "2026-10-21 17:27",
+      "ECO",
+      "PS vai forçar audição de Pinto Luz por suspeita de conflito de interesses",
+      "https://eco.sapo.pt/2026/10/21/ps-vai-forcar-audicao-de-pinto-luz-por-suspeita-de-conflito-de-interesses/"
+     ],
+     [
+      "2026-10-21 16:56",
+      "Notícias ao Minuto",
+      "PS vai forçar audição de Pinto Luz por suspeita de conflito de interesses",
+      "https://www.noticiasaominuto.com/pais/3070629/ps-vai-forcar-audicao-de-pinto-luz-por-suspeita-de-conflito-de-interesses#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-14 22:56",
+      "Observador",
+      "Livre requer audição de Pinto Luz sobre reabilitação urbana",
+      "https://observador.pt/2026/10/14/livre-pede-audicao-urgente-de-miguel-pinto-luz-por-suspeita-de-conflito-de-interesses-em-lei-de-reabilitacao-urbana/"
+     ],
+     [
+      "2026-10-14 22:00",
+      "Jornal Económico",
+      "Vereadores da oposição em Cascais apontam conflitos de interesses na alteração legislativa de Pinto Luz",
+      "https://jornaleconomico.sapo.pt/noticias/vereadores-da-oposicao-em-cascais-apontam-conflitos-de-interesses-na-alteracao-legislativa-de-pinto-luz/"
+     ],
+     [
+      "2026-10-14 19:16",
+      "Notícias ao Minuto",
+      "Livre requer audição de Pinto Luz sobre novo regime de reabilitação urbana",
+      "https://www.noticiasaominuto.com/pais/3066968/livre-requer-audicao-urgente-de-pinto-luz-sobre-novo-regime-de-reabilitacao-urbana#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-14 18:55",
+      "Correio da Manhã",
+      "Livre requer audição urgente de Pinto Luz sobre novo regime de reabilitação urbana",
+      "https://www.cmjornal.pt/politica/amp/livre-requer-audicao-urgente-de-pinto-luz-sobre-novo-regime-de-reabilitacao-urbana"
+     ],
+     [
+      "2026-10-14 15:38",
+      "Observador",
+      "Eventual conflito de interesses. PS quer ouvir Pinto Luz",
+      "https://observador.pt/2026/10/14/ps-quer-ouvir-pinto-luz-por-suspeitas-de-conflito-de-interesses-em-regime-de-reabilitacao-urbana/"
+     ],
+     [
+      "2026-10-14 15:18",
+      "Observador",
+      "15h. PS quer ouvir Pinto Luz sobre as alterações ao Regime Jurídico da Reabilitação Urbana",
+      "https://observador.pt/programas/noticiario/as-noticias-das-15h-2485/"
+     ],
+     [
+      "2026-10-14 15:10",
+      "Jornal Económico",
+      "PS quer ouvir Pinto Luz por suspeitas de conflito de interesses em regime de reabilitação urbana",
+      "https://jornaleconomico.sapo.pt/noticias/ps-quer-ouvir-pinto-luz-por-suspeitas-de-conflito-de-interesses-em-regime-de-reabilitacao-urbana/"
+     ],
+     [
+      "2026-10-14 15:09",
+      "Público",
+      "PS e Bloco querem Pinto Luz a explicar lei saída do seu ministério que o iliba em Cascais",
+      "https://www.publico.pt/2026/10/14/politica/noticia/ps-bloco-querem-pinto-luz-explicar-lei-saida-ministerio-iliba-cascais-2191344"
+     ],
+     [
+      "2026-10-14 14:55",
+      "RTP Notícias",
+      "PS quer ouvir Pinto Luz por suspeitas de conflito de interesses em regime de reabilitação urbana",
+      "https://www.rtp.pt/noticias/politica/ps-quer-ouvir-pinto-luz-por-suspeitas-de-conflito-de-interesses-em-regime-de-reabilitacao-urbana_n1771624"
+     ],
+     [
+      "2026-10-14 13:43",
+      "Notícias ao Minuto",
+      "PS pede audição de Pinto Luz por suspeitas de conflito de interesses",
+      "https://www.noticiasaominuto.com/pais/3066710/ps-pede-audicao-urgente-de-pinto-luz-por-suspeitas-de-conflito-de-interesses#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-14 13:20",
+      "Observador",
+      "BE quer ouvir Pinto Luz sobre regime de reabilitação urbana",
+      "https://observador.pt/2026/10/14/be-quer-ouvir-pinto-luz-no-parlamento-sobre-novo-regime-de-reabilitacao-urbana/"
+     ],
+     [
+      "2026-10-14 13:05",
+      "Notícias ao Minuto",
+      "BE pede audição de Pinto Luz sobre novo regime de reabilitação urbana",
+      "https://www.noticiasaominuto.com/pais/3066649/be-pede-audicao-de-pinto-luz-sobre-novo-regime-de-reabilitacao-urbana#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-14 12:33",
+      "Jornal Económico",
+      "BE quer ouvir Pinto Luz no parlamento sobre novo regime de reabilitação urbana",
+      "https://jornaleconomico.sapo.pt/noticias/be-quer-ouvir-pinto-luz-no-parlamento-sobre-novo-regime-de-reabilitacao-urbana/"
+     ],
+     [
+      "2026-10-14 08:14",
+      "ECO",
+      "Nova lei do urbanismo encurta prazo para contestar decisões de Pinto Luz em Cascais",
+      "https://eco.sapo.pt/2026/10/14/nova-lei-do-urbanismo-encurta-prazo-para-contestar-decisoes-de-pinto-luz-em-cascais/"
+     ],
+     [
+      "2026-10-14 06:41",
+      "Público",
+      "“Conflito de interesses” e “silêncio” de Ventura: o caso do alegado assalto",
+      "https://www.publico.pt/2026/10/14/politica/noticia/conflito-interesses-silencio-ventura-caso-alegado-assalto-2191053"
+     ],
+     [
+      "2026-10-13 12:05",
+      "Público",
+      "Aguiar-Branco rejeita conflito de interesses de Ventura na comissão de inquérito a Luís Neves",
+      "https://www.publico.pt/2026/10/13/politica/noticia/aguiarbranco-rejeita-conflito-interesses-ventura-comissao-inquerito-luis-neves-2191196"
+     ],
+     [
+      "2026-10-08 18:38",
+      "Público",
+      "Livre quer parecer sobre possível conflito de interesses de Ventura no inquérito a Luís Neves",
+      "https://www.publico.pt/2026/10/08/politica/noticia/livre-quer-parecer-possivel-conflito-interesses-ventura-inquerito-luis-neves-2190703"
+     ],
+     [
+      "2026-10-05 08:25",
+      "Jornal Económico",
+      "Simplex 2.0 ou o assobio do amolador",
+      "https://jornaleconomico.sapo.pt/noticias/simplex-2-0-ou-o-assobio-do-amolador/"
+     ],
+     [
+      "2026-10-01 15:10",
+      "Observador",
+      "\"Pacto de confiança\" para construir. O que muda com nova lei",
+      "https://observador.pt/especiais/responsabilizar-promotores-e-limitar-atrasos-nas-camaras-o-que-muda-na-nova-lei-urbanistica-que-e-um-pacto-de-confianca-com-quem-constroi/"
+     ],
+     [
+      "2026-09-09 17:20",
+      "Jornal Económico",
+      "Governo propõe novo regime jurídico para o associativismo jovem",
+      "https://jornaleconomico.sapo.pt/noticias/governo-propoe-novo-regime-juridico-para-o-associativismo-jovem/"
+     ]
+    ]
    },
    "varrimento": "2026-10-26-comiss-o-de-infraestruturas-mobilidade",
    "criterio": [
@@ -19693,9 +20122,9 @@
    "ligacoes": [],
    "novo": "2026-10-26",
    "cobertura": {
-    "n": 341,
+    "n": 342,
     "n7": 46,
-    "n7ant": 23,
+    "n7ant": 24,
     "dias": 60,
     "ref": "2026-10-28",
     "metodo": "palavras",
@@ -20116,6 +20545,12 @@
       "SIC Notícias",
       "\"Necessidade de repor a ordem\": Luís Neves considera legitima a intervenção policial no Porto",
       "https://sicnoticias.pt/pais/2026-10-15-video-necessidade-de-repor-a-ordem-luis-neves-considera-legitima-a-intervencao-policial-no-porto-59b9adf8"
+     ],
+     [
+      "2026-10-15 16:17",
+      "RTP Notícias",
+      "Confrontos no Porto. Diretor da PSP justifica \"intervenção policial devidamente proporcional\"",
+      "https://www.rtp.pt/noticias/pais/confrontos-no-porto-diretor-da-psp-justifica-intervencao-policial-devidamente-proporcional_n1771896"
      ],
      [
       "2026-10-15 16:06",
@@ -21874,14 +22309,20 @@
    ],
    "novo": "2026-10-24",
    "cobertura": {
-    "n": 14,
-    "n7": 0,
+    "n": 15,
+    "n7": 1,
     "n7ant": 2,
     "dias": 60,
     "ref": "2026-10-28",
     "metodo": "palavras",
-    "ultima": "2026-10-20 12:09",
+    "ultima": "2026-10-26 06:38",
     "ultimas": [
+     {
+      "data": "2026-10-26",
+      "fonte": "ECO",
+      "titulo": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
+      "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
+     },
      {
       "data": "2026-10-20",
       "fonte": "Açoriano Oriental",
@@ -21893,15 +22334,15 @@
       "fonte": "Jornal Económico",
       "titulo": "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
       "url": "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
-     },
-     {
-      "data": "2026-10-08",
-      "fonte": "ECO",
-      "titulo": "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
-      "url": "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
      }
     ],
     "todas": [
+     [
+      "2026-10-26 06:38",
+      "ECO",
+      "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
+      "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
+     ],
      [
       "2026-10-20 12:09",
       "Açoriano Oriental",
@@ -22242,7 +22683,7 @@
    "ligacoes": [],
    "novo": "2026-10-23",
    "cobertura": {
-    "n": 91,
+    "n": 93,
     "n7": 1,
     "n7ant": 0,
     "dias": 60,
@@ -22258,15 +22699,15 @@
      },
      {
       "data": "2026-10-14",
-      "fonte": "CNN Portugal",
-      "titulo": "Aguiar-Branco quer comissão de inquérito aos exames nacionais livre de jogos partidários",
-      "url": "https://cnnportugal.iol.pt/aguiar-branco/comissao-de-inquerito/aguiar-branco-quer-comissao-de-inquerito-aos-exames-nacionais-livre-de-jogos-partidarios/20261014/6acf6278d34e9a786e75c1b1"
+      "fonte": "Observador",
+      "titulo": "Aguiar-Branco pede inquérito livre de jogos paridários",
+      "url": "https://observador.pt/2026/10/14/aguiar-branco-pede-inquerito-parlamentar-sobre-os-exames-livre-de-jogos-partidarios/"
      },
      {
       "data": "2026-10-14",
-      "fonte": "RTP Notícias",
-      "titulo": "Parlamento tem pela primeira vez quatro comissões de inquérito",
-      "url": "https://www.rtp.pt/noticias/politica/parlamento-tem-pela-primeira-vez-quatro-comissoes-de-inquerito_n1771556"
+      "fonte": "CNN Portugal",
+      "titulo": "Aguiar-Branco quer comissão de inquérito aos exames nacionais livre de jogos partidários",
+      "url": "https://cnnportugal.iol.pt/aguiar-branco/comissao-de-inquerito/aguiar-branco-quer-comissao-de-inquerito-aos-exames-nacionais-livre-de-jogos-partidarios/20261014/6acf6278d34e9a786e75c1b1"
      }
     ],
     "todas": [
@@ -22275,6 +22716,12 @@
       "CNN Portugal",
       "Comissão parlamentar de inquérito sobre exames nacionais suspensa até 2 de dezembro",
       "https://cnnportugal.iol.pt/comissao-parlamentar-de-inquerito/cpi/comissao-parlamentar-de-inquerito-sobre-exames-nacionais-suspensa-ate-2-de-dezembro/20261027/6ae0dd81d34e9a786e75e0f4"
+     ],
+     [
+      "2026-10-14 13:18",
+      "Observador",
+      "Aguiar-Branco pede inquérito livre de jogos paridários",
+      "https://observador.pt/2026/10/14/aguiar-branco-pede-inquerito-parlamentar-sobre-os-exames-livre-de-jogos-partidarios/"
      ],
      [
       "2026-10-14 12:07",
@@ -22757,6 +23204,12 @@
       "https://www.sabado.pt/ultima-hora/detalhe/mp-abre-inquerito-a-processo-de-classificacao-de-exames-nacionais-a-pedido-da-fenprof"
      ],
      [
+      "2026-09-01 10:18",
+      "Observador",
+      "10h. MP abre inquérito à correção digital dos exames",
+      "https://observador.pt/programas/noticiario/as-noticias-das-10h-2454/"
+     ],
+     [
       "2026-09-01 10:17",
       "Expresso",
       "Ministério Público abre inquérito a falhas na correção digital dos exames nacionais",
@@ -22894,9 +23347,9 @@
    "ligacoes": [],
    "novo": "2026-10-26",
    "cobertura": {
-    "n": 341,
+    "n": 342,
     "n7": 46,
-    "n7ant": 23,
+    "n7ant": 24,
     "dias": 60,
     "ref": "2026-10-28",
     "metodo": "palavras",
@@ -23317,6 +23770,12 @@
       "SIC Notícias",
       "\"Necessidade de repor a ordem\": Luís Neves considera legitima a intervenção policial no Porto",
       "https://sicnoticias.pt/pais/2026-10-15-video-necessidade-de-repor-a-ordem-luis-neves-considera-legitima-a-intervencao-policial-no-porto-59b9adf8"
+     ],
+     [
+      "2026-10-15 16:17",
+      "RTP Notícias",
+      "Confrontos no Porto. Diretor da PSP justifica \"intervenção policial devidamente proporcional\"",
+      "https://www.rtp.pt/noticias/pais/confrontos-no-porto-diretor-da-psp-justifica-intervencao-policial-devidamente-proporcional_n1771896"
      ],
      [
       "2026-10-15 16:06",
@@ -25152,22 +25611,52 @@
    ],
    "novo": "2026-10-26",
    "cobertura": {
-    "n": 1,
+    "n": 4,
     "n7": 0,
     "n7ant": 0,
     "dias": 60,
     "ref": "2026-10-28",
     "metodo": "palavras",
-    "ultima": "2026-09-02 19:25",
+    "ultima": "2026-10-08 16:42",
     "ultimas": [
      {
-      "data": "2026-09-02",
-      "fonte": "RTP Notícias",
-      "titulo": "Portugal está a identificar equipamento energético não utilizado para doar a Kiev indicou Rangel",
-      "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/portugal-esta-a-identificar-equipamento-energetico-nao-utilizado-para-doar-a-kiev-indicou-rangel_n1763015"
+      "data": "2026-10-08",
+      "fonte": "Jornal Económico",
+      "titulo": "OE2027: Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
+      "url": "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros/"
+     },
+     {
+      "data": "2026-09-14",
+      "fonte": "Observador",
+      "titulo": "Autarcas defendem independência editorial da Lusa",
+      "url": "https://observador.pt/2026/09/14/autarcas-defendem-independencia-editorial-da-lusa/"
+     },
+     {
+      "data": "2026-09-07",
+      "fonte": "Observador",
+      "titulo": "Conselheiro por Cabo Verde pede ajuda à Cruz Vermelha",
+      "url": "https://observador.pt/2026/09/07/cabo-verde-conselheiro-por-cabo-verde-pediu-ajuda-a-cruz-vermelha-portuguesa/"
      }
     ],
     "todas": [
+     [
+      "2026-10-08 16:42",
+      "Jornal Económico",
+      "OE2027: Verba para promoção da lusofonia desce 2,38% para 41 milhões de euros",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-verba-para-promocao-da-lusofonia-desce-238-para-41-milhoes-de-euros/"
+     ],
+     [
+      "2026-09-14 10:17",
+      "Observador",
+      "Autarcas defendem independência editorial da Lusa",
+      "https://observador.pt/2026/09/14/autarcas-defendem-independencia-editorial-da-lusa/"
+     ],
+     [
+      "2026-09-07 14:00",
+      "Observador",
+      "Conselheiro por Cabo Verde pede ajuda à Cruz Vermelha",
+      "https://observador.pt/2026/09/07/cabo-verde-conselheiro-por-cabo-verde-pediu-ajuda-a-cruz-vermelha-portuguesa/"
+     ],
      [
       "2026-09-02 19:25",
       "RTP Notícias",
