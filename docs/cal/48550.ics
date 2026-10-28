@@ -6,18 +6,19 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48550@ar-preview
-DTSTAMP:20261027T220149Z
+DTSTAMP:20261028T135829Z
 DTSTART:20261028T140000Z
 DTEND:20261028T160000Z
 SUMMARY:AR · Comissão de Negócios Estrangeiros e Comunidades Portuguesa
  s
-LOCATION:Assembleia da República
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 46\nSíntese: Audiç
- ão do Conselho Permanente do Conselho das Comunidades Portuguesas (CP-CC
- P)\nUnidades DSSD: DCIRI\nPágina na AR: https://www.parlamento.pt/sites/
- com/XVIILeg/2CNECP/Paginas/default.aspx\nEmissões em direto (quando houv
- er): https://canal.parlamento.pt/\nAR Preview: https://celine-mestre.gith
- ub.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
+LOCATION:Assembleia da República · Sala 7
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 46 · Sala 7\nSínte
+ se: Audição do Conselho Permanente do Conselho das Comunidades Portugue
+ sas (CP-CCP)\nUnidades DSSD: DCIRI\nPágina na AR: https://www.parlamento
+ .pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx\nEmissões em direto (q
+ uando houver): https://canal.parlamento.pt/\nAR Preview: https://celine-m
+ estre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode m
+ udar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.asp
  x
 TRANSP:TRANSPARENT

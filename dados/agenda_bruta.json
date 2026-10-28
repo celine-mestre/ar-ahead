@@ -1,129 +1,9 @@
 {
  "inicio": "2026-10-26",
  "fim": "2026-11-01",
- "recolha": "2026-10-27T22:00",
+ "recolha": "2026-10-28T13:57",
  "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
-  {
-   "id_ar": 48520,
-   "data": "2026-10-27",
-   "hora": "11h00",
-   "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
-   "orgao": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 14 · Sala 6",
-   "resumo": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro\n Conselheiros  \nFlávio Martins (Brasil), Rui Marcelo (Macau), Vasco Abreu (África do Sul), Fernando Campos (Venezuela), Manuel Coelho (Namíbia), Daniel Loureiro (Canadá), Beatriz ",
-   "ordemTrabalhos": "Audiência do Conselho das Comunidades Portuguesas, sobre direitos e garantias das comunidades portuguesas no estrangeiro\n Conselheiros  \nFlávio Martins (Brasil), Rui Marcelo (Macau), Vasco Abreu (África do Sul), Fernando Campos (Venezuela), Manuel Coelho (Namíbia), Daniel Loureiro (Canadá), Beatriz Pereira (Brasil), Manuel Viegas (EUA), António Iria (Suíça) e António Cunha (Reino Unido).",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48556,
-   "data": "2026-10-27",
-   "hora": "11h00",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 124 · Sala 3",
-   "resumo": "Discussão e votação do parecer final da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027;\nDeputada relatora: Marina Gonçalves (PS)\n Discussão e votação do requerimento apresentado pelo GP PS solicitando, à UTAO, estudo sobre a evolução e comparação internacional das reservas de",
-   "ordemTrabalhos": "Discussão e votação do parecer final da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027;\nDeputada relatora: Marina Gonçalves (PS)\n Discussão e votação do requerimento apresentado pelo GP PS solicitando, à UTAO, estudo sobre a evolução e comparação internacional das reservas de liquidez do Estado e do perfil de maturidades da dívida pública portuguesa;\n Definição de prazo para propostas de alteração ao Projeto de Lei n.º 295/XVII/1.ª (PS) – Estabelece um regime fiscal de apoio ao regresso de pensionistas emigrantes, alterando o Código do IRS e ao Projeto de Lei n.º 681/XVII/1.ª (CH) – Prevê a isenção de 50% dos rendimentos em sede de IRS sobre os rendimentos da Categoria A, B e H, referentes a emigrantes portugueses que regressem e se tornem residentes em Portugal;\n Definição de metodologia de apreciação, na especialidade, do Projeto de Lei 712/XVII/1.ª (IL) – Procede à interpretação autêntica da isenção de mais-valias no reinvestimento imobiliário para habitação própria e permanente;\n Definição de metodologia de apreciação, na especialidade, do Projeto de Lei 793/XVII/2.ª (L) – Isenta de mais valia o investimento em habitação em cooperativa de propriedade coletiva;\n Discussão e votação do Relatório do Projeto de Lei n.º 676XVII/1.ª (PAN) – Possibilita a recuperação do IVA pelas associações zoófilas e pelos centros de recolha oficial de animais, alterando o Decreto-Lei n.º 84/2017, de 21 de julho;\nDeputado relator: Almiro Moreira (PSD)\n Outros assuntos.",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48522,
-   "data": "2026-10-27",
-   "hora": "12h00",
-   "tema": "Comissão Parlamentar de Inquérito relativa às decisões, contratações e responsabilidades na conceção e execução da classificação digital dos exames nacionais de 2025 e 2026",
-   "orgao": "Comissão Parlamentar de Inquérito relativa às decisões, contratações e responsabilidades na conceção e execução da classificação digital dos exames nacionais de 2025 e 2026",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2 · Sala 1",
-   "resumo": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Reg",
-   "ordemTrabalhos": "Apreciação e votação da ata da reunião n.º 1, de 14 de outubro de 2026;\n Apreciação e votação do Regulamento da Comissão;\n Deliberação sobre a suspensão dos trabalhos da Comissão durante o período de discussão do Orçamento do Estado para 2027;\n Designação de relator, nos termos do artigo 10.º do Regime Jurídico dos Inquéritos Parlamentares;\n Deliberação sobre as diligências instrutórias solicitadas pelos Grupos Parlamentares e pelo Deputado Único Representante do BE;\n Outros Assuntos.",
-   "ligacao": ""
-  },
-  {
-   "id_ar": 48473,
-   "data": "2026-10-27",
-   "hora": "12h00",
-   "tema": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
-   "orgao": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
-   "interveniente": "",
-   "tipo": [
-    "Grupo de Trabalho"
-   ],
-   "tipoLabel": "Grupo de Trabalho · Reunião n.º 15 · Sala 5",
-   "resumo": "Preparação da apresentação pública da plataforma;\n Apresentação de projeto de resolução que aprova a regulamentação interna da AR para representação de interesses e Pegada Legislativa;\n Outros assuntos.",
-   "ordemTrabalhos": "Preparação da apresentação pública da plataforma;\n Apresentação de projeto de resolução que aprova a regulamentação interna da AR para representação de interesses e Pegada Legislativa;\n Outros assuntos.",
-   "ligacao": ""
-  },
-  {
-   "id_ar": 48551,
-   "data": "2026-10-27",
-   "hora": "13h30",
-   "tema": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
-   "orgao": "Comissão Parlamentar de Inquérito para avaliação da intervenção de Luís Neves enquanto diretor da Polícia Judiciária durante todos os seus mandatos (2018-2026) e eventual responsabilidade de membros do Governo que o nomearam e tutelaram",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 2 · Sala 6",
-   "resumo": "1. Validação das deliberações da reunião de Mesa e Coordenadores.\n 2. Outros assuntos.",
-   "ordemTrabalhos": "1. Validação das deliberações da reunião de Mesa e Coordenadores.\n 2. Outros assuntos.",
-   "ligacao": ""
-  },
-  {
-   "id_ar": 48533,
-   "data": "2026-10-27",
-   "hora": "14h00",
-   "tema": "Comissão de Educação e Ciência",
-   "orgao": "Comissão de Educação e Ciência",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 58 · Sala 2",
-   "resumo": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
-   "ordemTrabalhos": "Aprovação da proposta de Ordem do Dia\n Aprovação das atas das reuniões anteriores\n Comunicações da Presidente\n Discussão e votação do Plano de Atividades e do Orçamento da Comissão respeitante à 2.ª Sessão Legislativa\n Outros assuntos\n Datas das próximas reuniões",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48527,
-   "data": "2026-10-27",
-   "hora": "14h30",
-   "tema": "Comissão de Transparência e Estatuto dos Deputados",
-   "orgao": "Comissão de Transparência e Estatuto dos Deputados",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 56 · Sala 5",
-   "resumo": "1 – Apreciação e votação de parecer relativo a verificação de poderes;\n 2 – Fixação da redação final, nos termos do disposto nos artigos 156.º e 128.º, n.º 8 do RAR, do Projeto de Resolução n.º 1238/XVII/2.ª (BE) - Recomenda ao Governo o reforço urgente dos meios humanos, técnicos e financeiros da E",
-   "ordemTrabalhos": "1 – Apreciação e votação de parecer relativo a verificação de poderes;\n 2 – Fixação da redação final, nos termos do disposto nos artigos 156.º e 128.º, n.º 8 do RAR, do Projeto de Resolução n.º 1238/XVII/2.ª (BE) - Recomenda ao Governo o reforço urgente dos meios humanos, técnicos e financeiros da Entidade para a Transparência; \n 3 – Outros assuntos.",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/15CTED/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48339,
-   "data": "2026-10-27",
-   "hora": "15h00",
-   "tema": "Plenário — Debate na generalidade do Orçamento do Estado para 2027",
-   "orgao": "Plenário",
-   "interveniente": "",
-   "tipo": [
-    "Plenário"
-   ],
-   "tipoLabel": "Plenário · Reunião n.º 15 · Plenário",
-   "resumo": "ORDEM DO DIA \n 15H00 \n Debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 1.º Dia \n GOV \n 70 m \n PSD \n 44 m \n CH \n 37 m \n PS \n 35 m 30 \n IL \n 19 m 30 \n L \n 13  \n PCP \n 9 m 30 \n CDSP-PP \n 9 m \n BE ",
-   "ordemTrabalhos": "ORDEM DO DIA \n 15H00 \n Debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 1.º Dia \n GOV \n 70 m \n PSD \n 44 m \n CH \n 37 m \n PS \n 35 m 30 \n IL \n 19 m 30 \n L \n 13  \n PCP \n 9 m 30 \n CDSP-PP \n 9 m \n BE \n 4 m \n PAN \n 4 m \n JPP \n 4 m \n Total \n 249 m 30 \n Notas: \n O Governo, o PSD, o CH e o PS podem transferir para o dia seguinte ou antecipar até ao máximo de 30% do tempo que lhes foi atribuído. Os restantes partidos podem gerir livremente os seus tempos. \n Os pedidos de esclarecimento, com resposta individual, iniciam-se pelo maior partido da oposição, a que se seguem os restantes partidos, por ordem decrescente de dimensão, com um máximo de 5 minutos.",
-   "ligacao": ""
-  },
   {
    "id_ar": 48545,
    "data": "2026-10-28",
@@ -151,7 +31,7 @@
    ],
    "tipoLabel": "Plenário · Reunião n.º 16 · Plenário",
    "resumo": "ORDEM DO DIA \n 10H00 \n 15H00 (sujeito a alteração)\n 1 - Continuação do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 2.º Dia \n GOV \n 65 m \n PSD \n 45 m 46  \n CH \n 38 m 23 \n PS \n 30 m 27 \n IL \n",
-   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 15H00 (sujeito a alteração)\n 1 - Continuação do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 2.º Dia \n GOV \n 65 m \n PSD \n 45 m 46  \n CH \n 38 m 23 \n PS \n 30 m 27 \n IL \n 25 m 21 \n L \n 12 m 45  \n PCP \n 11 m 36 \n CDS-PP \n 12 m 45 \n BE \n 3 m 45 \n PAN \n 3 m 45 \n JPP \n 3 m 55 \n Total \n 253 m 28 \n 2 - Encerramento do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n ENCERRAMENTO \n JPP \n 3 m \n PAN \n 3 m \n BE \n 3 m \n CDS-PP \n 6 m  \n PCP \n 6 m 30 \n L \n 7 m 30 \n IL \n 8 m 30 \n PS \n 12 m 30 \n CH \n 13 m 30 \n PSD \n 16 m \n GOV \n 30 m \n Total \n 109 m 30 \n 3- Projeto de Resolução n.º 1334/XVII/2.ª (PS, PSD, CH, PAN, JPP, CDS-PP, IL) \n Regulamento de registo e publicitação das audiências e interações realizadas no quadro da representação legítima de interesses junto da Assembleia da República\n Sem tempos \n 4 - Votações",
+   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 15H00 (sujeito a alteração)\n 1 - Continuação do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 2.º Dia \n GOV \n 65 m \n PSD \n 45 m 46  \n CH \n 38 m 23 \n PS \n 30 m 27 \n IL \n 25 m 21 \n L \n 13 m  \n PCP \n 11 m 36 \n CDS-PP \n 12 m 45 \n BE \n 4 m \n PAN \n 4 m \n JPP \n 4 m \n Total \n 254 m 18 \n 2 - Encerramento do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n ENCERRAMENTO \n JPP \n 3 m \n PAN \n 3 m \n BE \n 3 m \n CDS-PP \n 6 m  \n PCP \n 6 m 30 \n L \n 7 m 30 \n IL \n 8 m 30 \n PS \n 12 m 30 \n CH \n 13 m 30 \n PSD \n 16 m \n GOV \n 30 m \n Total \n 109 m 30 \n 3- Projeto de Resolução n.º 1334/XVII/2.ª (PS, PSD, CH, PAN, JPP, CDS-PP, IL) \n Regulamento de registo e publicitação das audiências e interações realizadas no quadro da representação legítima de interesses junto da Assembleia da República\n Sem tempos \n 4 - Votações",
    "ligacao": ""
   },
   {
@@ -164,7 +44,7 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 46",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 46 · Sala 7",
    "resumo": "Audição do Conselho Permanente do Conselho das Comunidades Portuguesas (CP-CCP).",
    "ordemTrabalhos": "Audição do Conselho Permanente do Conselho das Comunidades Portuguesas (CP-CCP).",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
@@ -183,6 +63,21 @@
    "resumo": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
    "ordemTrabalhos": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
    "ligacao": ""
+  },
+  {
+   "id_ar": 48564,
+   "data": "2026-10-29",
+   "hora": "13h45",
+   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "orgao": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 47 · Sala 7",
+   "resumo": "Informações",
+   "ordemTrabalhos": "Informações",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
   },
   {
    "id_ar": 48558,
