@@ -16,6 +16,53 @@
  "pedidos": "O varrimento mediático das matérias sem ficha faz-se a pedido, por email para upe@sggoverno.gov.pt (botão «Pedir varrimento» em cada cartão).",
  "futuro": [
   {
+   "tema": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "data": "2026-11-02",
+   "hora": "09h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 71 · Plenário",
+   "resumo": "Audição do Ministro das Infraestruturas e Habitação, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – «Orçamento do Estado para 2027.»",
+   "ordemTrabalhos": "Audição do Ministro das Infraestruturas e Habitação, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – «Orçamento do Estado para 2027.»",
+   "orgao": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "id_ar": 48600,
+   "chave": "ar-48600",
+   "dataLabel": "segunda, 2 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DACDP",
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição do ministro» (Governo na AR → DACDP)"
+   ],
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.aspx"
+    }
+   ],
+   "cobertura": {
+    "n": 0,
+    "n7": 0,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-29",
+    "metodo": "palavras",
+    "ultima": "",
+    "ultimas": [],
+    "todas": []
+   }
+  },
+  {
    "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
    "data": "2026-11-02",
    "hora": "15h00",
@@ -67,7 +114,7 @@
    "data": "2026-11-02",
    "hora": "15h00",
    "interveniente": "",
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 56",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 56 · Plenário",
    "resumo": "Audição da Ministra da Cultura, Juventude e Desporto no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "ordemTrabalhos": "Audição da Ministra da Cultura, Juventude e Desporto no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "orgao": "Comissão de Cultura, Comunicação, Juventude e Desporto",
@@ -250,7 +297,7 @@
    "data": "2026-11-03",
    "hora": "15h00",
    "interveniente": "",
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 57",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 57 · Plenário",
    "resumo": "Audição do Ministro da Presidência no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "ordemTrabalhos": "Audição do Ministro da Presidência no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "orgao": "Comissão de Cultura, Comunicação, Juventude e Desporto",
@@ -778,34 +825,82 @@
    "ligacoes": [],
    "varrimento": "2026-11-18-plen-rio-debate-na-especialidade-do-or",
    "cobertura": {
-    "n": 1107,
-    "n7": 162,
+    "n": 1115,
+    "n7": 170,
     "n7ant": 49,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "expressoes",
-    "ultima": "2026-10-29 12:03",
+    "ultima": "2026-10-29 18:27",
     "ultimas": [
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "O Estado que ajuda os jovens a pagar mais pela casa",
-      "url": "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
+      "fonte": "Observador",
+      "titulo": "Rangel pretende reestruturar Instituto Camões em 2027",
+      "url": "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "url": "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "fonte": "ECO",
+      "titulo": "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "url": "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Healthnews",
-      "titulo": "Montenegro aponta despesa controlada e critica “alarmismo” de Centeno no debate do OE2027",
-      "url": "https://healthnews.pt/2026/10/29/montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027/#utm_source=rss&utm_medium=rss&utm_campaign=montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027"
+      "fonte": "Observador",
+      "titulo": "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "url": "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:27",
+      "Observador",
+      "Rangel pretende reestruturar Instituto Camões em 2027",
+      "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
+     ],
+     [
+      "2026-10-29 17:36",
+      "ECO",
+      "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
+     ],
+     [
+      "2026-10-29 16:31",
+      "Observador",
+      "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     ],
+     [
+      "2026-10-29 16:24",
+      "Executive Digest",
+      "OE2027: Governo avisa que se oposição for irresponsável \"quem paga são os portugueses\"",
+      "https://executivedigest.sapo.pt/oe2027-governo-avisa-que-se-oposicao-for-irresponsavel-quem-paga-sao-os-portugueses/"
+     ],
+     [
+      "2026-10-29 15:10",
+      "Notícias ao Minuto",
+      "OE2027? Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://www.noticiasaominuto.com/economia/3075145/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-29 14:37",
+      "ECO",
+      "OE2027, não chega ter contas equilibradas para sustentar a economia",
+      "https://eco.sapo.pt/especiais/oe-2027-nao-chega-ter-contas-equilibradas-para-sustentar-a-economia/"
+     ],
+     [
+      "2026-10-29 14:02",
+      "Executive Digest",
+      "OE2027: Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://executivedigest.sapo.pt/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne/"
+     ],
+     [
+      "2026-10-29 13:04",
+      "Notícias ao Minuto",
+      "IL desafia partidos a mostrarem vontade de consenso no OE2027",
+      "https://www.noticiasaominuto.com/politica/3075060/habitacao-il-diz-se-sempre-disponivel-para-dialogar-e-desafia-partidos-a-materializar-consensos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
      [
       "2026-10-29 12:03",
       "Público",
@@ -813,10 +908,10 @@
       "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
      ],
      [
-      "2026-10-29 06:55",
+      "2026-10-29 06:54",
       "Público",
       "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877?ref=hp&cx=ultimas_1"
      ],
      [
       "2026-10-29 06:13",
@@ -3157,54 +3252,6 @@
       "Dinheiro Vivo",
       "OE2027: Debate quinzenal em ritmo de dança lenta pré-orçamental e com referências a Mário Centeno",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 09:58",
-      "Diário de Notícias",
-      "OE2027: Siga o debate com o primeiro-ministro na Assembleia da República",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-siga-o-debate-com-o-primeiro-ministro-na-assembleia-da-repblica"
-     ],
-     [
-      "2026-10-09 09:41",
-      "SIC Notícias",
-      "Dos passes gratuitos à habitação: as medidas do OE2027 para os jovens",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7?utm_source=sicnot&utm_medium=content&utm_campaign=WEB&utm_content=/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7"
-     ],
-     [
-      "2026-10-09 09:01",
-      "Jornal Económico",
-      "Despesas com pessoal crescem 4% e representam 85,1% do Orçamento da Educação",
-      "https://jornaleconomico.sapo.pt/noticias/despesas-com-pessoal-crescem-4-e-representam-851-do-orcamento-da-educacao/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal Económico",
-      "OE2027 mexe na carteira das empresas: prémios isentos, incentivos à habitação e SAF-T adiado",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-mexe-na-carteira-das-empresas-premios-isentos-incentivos-a-habitacao-e-saf-t-adiado/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal de Negócios",
-      "Qual o alívio que vai sentir no IRS? Veja o que muda no seu caso",
-      "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/qual-o-alivio-que-vai-sentir-no-irs-veja-o-que-muda-no-seu-caso"
-     ],
-     [
-      "2026-10-09 08:41",
-      "Notícias ao Minuto",
-      "OE2027. Das \"contas sólidas\" às \"sem certezas\", o que dizem os partidos",
-      "https://www.noticiasaominuto.com/politica/3063950/oe2027-das-contas-solidas-as-sem-certezas-o-que-dizem-os-partidos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 08:40",
-      "Observador",
-      "Um Orçamento do Estado sem novidades e sem emoção",
-      "https://observador.pt/programas/contra-corrente/um-orcamento-do-estado-sem-novidades-e-sem-emocao/"
-     ],
-     [
-      "2026-10-09 08:29",
-      "CNN Portugal",
-      "OE2027. Estudantes do Ensino Superior Técnico pedem ao parlamento que mantenha o valor das propinas",
-      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/oe2027-estudantes-do-ensino-superior-tecnico-pedem-ao-parlamento-que-mantenha-o-valor-das-propinas/20261009/6ac89828d34e53c759c75a66"
      ]
     ]
    },
@@ -3244,34 +3291,82 @@
    "ligacoes": [],
    "varrimento": "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1107,
-    "n7": 162,
+    "n": 1115,
+    "n7": 170,
     "n7ant": 49,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "expressoes",
-    "ultima": "2026-10-29 12:03",
+    "ultima": "2026-10-29 18:27",
     "ultimas": [
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "O Estado que ajuda os jovens a pagar mais pela casa",
-      "url": "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
+      "fonte": "Observador",
+      "titulo": "Rangel pretende reestruturar Instituto Camões em 2027",
+      "url": "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "url": "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "fonte": "ECO",
+      "titulo": "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "url": "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Healthnews",
-      "titulo": "Montenegro aponta despesa controlada e critica “alarmismo” de Centeno no debate do OE2027",
-      "url": "https://healthnews.pt/2026/10/29/montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027/#utm_source=rss&utm_medium=rss&utm_campaign=montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027"
+      "fonte": "Observador",
+      "titulo": "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "url": "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:27",
+      "Observador",
+      "Rangel pretende reestruturar Instituto Camões em 2027",
+      "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
+     ],
+     [
+      "2026-10-29 17:36",
+      "ECO",
+      "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
+     ],
+     [
+      "2026-10-29 16:31",
+      "Observador",
+      "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     ],
+     [
+      "2026-10-29 16:24",
+      "Executive Digest",
+      "OE2027: Governo avisa que se oposição for irresponsável \"quem paga são os portugueses\"",
+      "https://executivedigest.sapo.pt/oe2027-governo-avisa-que-se-oposicao-for-irresponsavel-quem-paga-sao-os-portugueses/"
+     ],
+     [
+      "2026-10-29 15:10",
+      "Notícias ao Minuto",
+      "OE2027? Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://www.noticiasaominuto.com/economia/3075145/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-29 14:37",
+      "ECO",
+      "OE2027, não chega ter contas equilibradas para sustentar a economia",
+      "https://eco.sapo.pt/especiais/oe-2027-nao-chega-ter-contas-equilibradas-para-sustentar-a-economia/"
+     ],
+     [
+      "2026-10-29 14:02",
+      "Executive Digest",
+      "OE2027: Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://executivedigest.sapo.pt/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne/"
+     ],
+     [
+      "2026-10-29 13:04",
+      "Notícias ao Minuto",
+      "IL desafia partidos a mostrarem vontade de consenso no OE2027",
+      "https://www.noticiasaominuto.com/politica/3075060/habitacao-il-diz-se-sempre-disponivel-para-dialogar-e-desafia-partidos-a-materializar-consensos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
      [
       "2026-10-29 12:03",
       "Público",
@@ -3279,10 +3374,10 @@
       "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
      ],
      [
-      "2026-10-29 06:55",
+      "2026-10-29 06:54",
       "Público",
       "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877?ref=hp&cx=ultimas_1"
      ],
      [
       "2026-10-29 06:13",
@@ -5623,54 +5718,6 @@
       "Dinheiro Vivo",
       "OE2027: Debate quinzenal em ritmo de dança lenta pré-orçamental e com referências a Mário Centeno",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 09:58",
-      "Diário de Notícias",
-      "OE2027: Siga o debate com o primeiro-ministro na Assembleia da República",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-siga-o-debate-com-o-primeiro-ministro-na-assembleia-da-repblica"
-     ],
-     [
-      "2026-10-09 09:41",
-      "SIC Notícias",
-      "Dos passes gratuitos à habitação: as medidas do OE2027 para os jovens",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7?utm_source=sicnot&utm_medium=content&utm_campaign=WEB&utm_content=/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7"
-     ],
-     [
-      "2026-10-09 09:01",
-      "Jornal Económico",
-      "Despesas com pessoal crescem 4% e representam 85,1% do Orçamento da Educação",
-      "https://jornaleconomico.sapo.pt/noticias/despesas-com-pessoal-crescem-4-e-representam-851-do-orcamento-da-educacao/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal Económico",
-      "OE2027 mexe na carteira das empresas: prémios isentos, incentivos à habitação e SAF-T adiado",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-mexe-na-carteira-das-empresas-premios-isentos-incentivos-a-habitacao-e-saf-t-adiado/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal de Negócios",
-      "Qual o alívio que vai sentir no IRS? Veja o que muda no seu caso",
-      "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/qual-o-alivio-que-vai-sentir-no-irs-veja-o-que-muda-no-seu-caso"
-     ],
-     [
-      "2026-10-09 08:41",
-      "Notícias ao Minuto",
-      "OE2027. Das \"contas sólidas\" às \"sem certezas\", o que dizem os partidos",
-      "https://www.noticiasaominuto.com/politica/3063950/oe2027-das-contas-solidas-as-sem-certezas-o-que-dizem-os-partidos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 08:40",
-      "Observador",
-      "Um Orçamento do Estado sem novidades e sem emoção",
-      "https://observador.pt/programas/contra-corrente/um-orcamento-do-estado-sem-novidades-e-sem-emocao/"
-     ],
-     [
-      "2026-10-09 08:29",
-      "CNN Portugal",
-      "OE2027. Estudantes do Ensino Superior Técnico pedem ao parlamento que mantenha o valor das propinas",
-      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/oe2027-estudantes-do-ensino-superior-tecnico-pedem-ao-parlamento-que-mantenha-o-valor-das-propinas/20261009/6ac89828d34e53c759c75a66"
      ]
     ]
    },
@@ -5710,34 +5757,82 @@
    "ligacoes": [],
    "varrimento": "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1107,
-    "n7": 162,
+    "n": 1115,
+    "n7": 170,
     "n7ant": 49,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "expressoes",
-    "ultima": "2026-10-29 12:03",
+    "ultima": "2026-10-29 18:27",
     "ultimas": [
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "O Estado que ajuda os jovens a pagar mais pela casa",
-      "url": "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
+      "fonte": "Observador",
+      "titulo": "Rangel pretende reestruturar Instituto Camões em 2027",
+      "url": "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "url": "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "fonte": "ECO",
+      "titulo": "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "url": "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Healthnews",
-      "titulo": "Montenegro aponta despesa controlada e critica “alarmismo” de Centeno no debate do OE2027",
-      "url": "https://healthnews.pt/2026/10/29/montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027/#utm_source=rss&utm_medium=rss&utm_campaign=montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027"
+      "fonte": "Observador",
+      "titulo": "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "url": "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:27",
+      "Observador",
+      "Rangel pretende reestruturar Instituto Camões em 2027",
+      "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
+     ],
+     [
+      "2026-10-29 17:36",
+      "ECO",
+      "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
+     ],
+     [
+      "2026-10-29 16:31",
+      "Observador",
+      "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     ],
+     [
+      "2026-10-29 16:24",
+      "Executive Digest",
+      "OE2027: Governo avisa que se oposição for irresponsável \"quem paga são os portugueses\"",
+      "https://executivedigest.sapo.pt/oe2027-governo-avisa-que-se-oposicao-for-irresponsavel-quem-paga-sao-os-portugueses/"
+     ],
+     [
+      "2026-10-29 15:10",
+      "Notícias ao Minuto",
+      "OE2027? Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://www.noticiasaominuto.com/economia/3075145/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-29 14:37",
+      "ECO",
+      "OE2027, não chega ter contas equilibradas para sustentar a economia",
+      "https://eco.sapo.pt/especiais/oe-2027-nao-chega-ter-contas-equilibradas-para-sustentar-a-economia/"
+     ],
+     [
+      "2026-10-29 14:02",
+      "Executive Digest",
+      "OE2027: Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://executivedigest.sapo.pt/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne/"
+     ],
+     [
+      "2026-10-29 13:04",
+      "Notícias ao Minuto",
+      "IL desafia partidos a mostrarem vontade de consenso no OE2027",
+      "https://www.noticiasaominuto.com/politica/3075060/habitacao-il-diz-se-sempre-disponivel-para-dialogar-e-desafia-partidos-a-materializar-consensos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
      [
       "2026-10-29 12:03",
       "Público",
@@ -5745,10 +5840,10 @@
       "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
      ],
      [
-      "2026-10-29 06:55",
+      "2026-10-29 06:54",
       "Público",
       "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877?ref=hp&cx=ultimas_1"
      ],
      [
       "2026-10-29 06:13",
@@ -8089,54 +8184,6 @@
       "Dinheiro Vivo",
       "OE2027: Debate quinzenal em ritmo de dança lenta pré-orçamental e com referências a Mário Centeno",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 09:58",
-      "Diário de Notícias",
-      "OE2027: Siga o debate com o primeiro-ministro na Assembleia da República",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-siga-o-debate-com-o-primeiro-ministro-na-assembleia-da-repblica"
-     ],
-     [
-      "2026-10-09 09:41",
-      "SIC Notícias",
-      "Dos passes gratuitos à habitação: as medidas do OE2027 para os jovens",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7?utm_source=sicnot&utm_medium=content&utm_campaign=WEB&utm_content=/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7"
-     ],
-     [
-      "2026-10-09 09:01",
-      "Jornal Económico",
-      "Despesas com pessoal crescem 4% e representam 85,1% do Orçamento da Educação",
-      "https://jornaleconomico.sapo.pt/noticias/despesas-com-pessoal-crescem-4-e-representam-851-do-orcamento-da-educacao/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal Económico",
-      "OE2027 mexe na carteira das empresas: prémios isentos, incentivos à habitação e SAF-T adiado",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-mexe-na-carteira-das-empresas-premios-isentos-incentivos-a-habitacao-e-saf-t-adiado/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal de Negócios",
-      "Qual o alívio que vai sentir no IRS? Veja o que muda no seu caso",
-      "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/qual-o-alivio-que-vai-sentir-no-irs-veja-o-que-muda-no-seu-caso"
-     ],
-     [
-      "2026-10-09 08:41",
-      "Notícias ao Minuto",
-      "OE2027. Das \"contas sólidas\" às \"sem certezas\", o que dizem os partidos",
-      "https://www.noticiasaominuto.com/politica/3063950/oe2027-das-contas-solidas-as-sem-certezas-o-que-dizem-os-partidos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 08:40",
-      "Observador",
-      "Um Orçamento do Estado sem novidades e sem emoção",
-      "https://observador.pt/programas/contra-corrente/um-orcamento-do-estado-sem-novidades-e-sem-emocao/"
-     ],
-     [
-      "2026-10-09 08:29",
-      "CNN Portugal",
-      "OE2027. Estudantes do Ensino Superior Técnico pedem ao parlamento que mantenha o valor das propinas",
-      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/oe2027-estudantes-do-ensino-superior-tecnico-pedem-ao-parlamento-que-mantenha-o-valor-das-propinas/20261009/6ac89828d34e53c759c75a66"
      ]
     ]
    },
@@ -8176,34 +8223,82 @@
    "ligacoes": [],
    "varrimento": "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1107,
-    "n7": 162,
+    "n": 1115,
+    "n7": 170,
     "n7ant": 49,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "expressoes",
-    "ultima": "2026-10-29 12:03",
+    "ultima": "2026-10-29 18:27",
     "ultimas": [
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "O Estado que ajuda os jovens a pagar mais pela casa",
-      "url": "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
+      "fonte": "Observador",
+      "titulo": "Rangel pretende reestruturar Instituto Camões em 2027",
+      "url": "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "url": "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "fonte": "ECO",
+      "titulo": "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "url": "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Healthnews",
-      "titulo": "Montenegro aponta despesa controlada e critica “alarmismo” de Centeno no debate do OE2027",
-      "url": "https://healthnews.pt/2026/10/29/montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027/#utm_source=rss&utm_medium=rss&utm_campaign=montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027"
+      "fonte": "Observador",
+      "titulo": "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "url": "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:27",
+      "Observador",
+      "Rangel pretende reestruturar Instituto Camões em 2027",
+      "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
+     ],
+     [
+      "2026-10-29 17:36",
+      "ECO",
+      "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
+     ],
+     [
+      "2026-10-29 16:31",
+      "Observador",
+      "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     ],
+     [
+      "2026-10-29 16:24",
+      "Executive Digest",
+      "OE2027: Governo avisa que se oposição for irresponsável \"quem paga são os portugueses\"",
+      "https://executivedigest.sapo.pt/oe2027-governo-avisa-que-se-oposicao-for-irresponsavel-quem-paga-sao-os-portugueses/"
+     ],
+     [
+      "2026-10-29 15:10",
+      "Notícias ao Minuto",
+      "OE2027? Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://www.noticiasaominuto.com/economia/3075145/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-29 14:37",
+      "ECO",
+      "OE2027, não chega ter contas equilibradas para sustentar a economia",
+      "https://eco.sapo.pt/especiais/oe-2027-nao-chega-ter-contas-equilibradas-para-sustentar-a-economia/"
+     ],
+     [
+      "2026-10-29 14:02",
+      "Executive Digest",
+      "OE2027: Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://executivedigest.sapo.pt/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne/"
+     ],
+     [
+      "2026-10-29 13:04",
+      "Notícias ao Minuto",
+      "IL desafia partidos a mostrarem vontade de consenso no OE2027",
+      "https://www.noticiasaominuto.com/politica/3075060/habitacao-il-diz-se-sempre-disponivel-para-dialogar-e-desafia-partidos-a-materializar-consensos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
      [
       "2026-10-29 12:03",
       "Público",
@@ -8211,10 +8306,10 @@
       "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
      ],
      [
-      "2026-10-29 06:55",
+      "2026-10-29 06:54",
       "Público",
       "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877?ref=hp&cx=ultimas_1"
      ],
      [
       "2026-10-29 06:13",
@@ -10555,54 +10650,6 @@
       "Dinheiro Vivo",
       "OE2027: Debate quinzenal em ritmo de dança lenta pré-orçamental e com referências a Mário Centeno",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 09:58",
-      "Diário de Notícias",
-      "OE2027: Siga o debate com o primeiro-ministro na Assembleia da República",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-siga-o-debate-com-o-primeiro-ministro-na-assembleia-da-repblica"
-     ],
-     [
-      "2026-10-09 09:41",
-      "SIC Notícias",
-      "Dos passes gratuitos à habitação: as medidas do OE2027 para os jovens",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7?utm_source=sicnot&utm_medium=content&utm_campaign=WEB&utm_content=/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7"
-     ],
-     [
-      "2026-10-09 09:01",
-      "Jornal Económico",
-      "Despesas com pessoal crescem 4% e representam 85,1% do Orçamento da Educação",
-      "https://jornaleconomico.sapo.pt/noticias/despesas-com-pessoal-crescem-4-e-representam-851-do-orcamento-da-educacao/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal Económico",
-      "OE2027 mexe na carteira das empresas: prémios isentos, incentivos à habitação e SAF-T adiado",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-mexe-na-carteira-das-empresas-premios-isentos-incentivos-a-habitacao-e-saf-t-adiado/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal de Negócios",
-      "Qual o alívio que vai sentir no IRS? Veja o que muda no seu caso",
-      "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/qual-o-alivio-que-vai-sentir-no-irs-veja-o-que-muda-no-seu-caso"
-     ],
-     [
-      "2026-10-09 08:41",
-      "Notícias ao Minuto",
-      "OE2027. Das \"contas sólidas\" às \"sem certezas\", o que dizem os partidos",
-      "https://www.noticiasaominuto.com/politica/3063950/oe2027-das-contas-solidas-as-sem-certezas-o-que-dizem-os-partidos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 08:40",
-      "Observador",
-      "Um Orçamento do Estado sem novidades e sem emoção",
-      "https://observador.pt/programas/contra-corrente/um-orcamento-do-estado-sem-novidades-e-sem-emocao/"
-     ],
-     [
-      "2026-10-09 08:29",
-      "CNN Portugal",
-      "OE2027. Estudantes do Ensino Superior Técnico pedem ao parlamento que mantenha o valor das propinas",
-      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/oe2027-estudantes-do-ensino-superior-tecnico-pedem-ao-parlamento-que-mantenha-o-valor-das-propinas/20261009/6ac89828d34e53c759c75a66"
      ]
     ]
    },
@@ -10642,34 +10689,82 @@
    "ligacoes": [],
    "varrimento": "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1107,
-    "n7": 162,
+    "n": 1115,
+    "n7": 170,
     "n7ant": 49,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "expressoes",
-    "ultima": "2026-10-29 12:03",
+    "ultima": "2026-10-29 18:27",
     "ultimas": [
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "O Estado que ajuda os jovens a pagar mais pela casa",
-      "url": "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
+      "fonte": "Observador",
+      "titulo": "Rangel pretende reestruturar Instituto Camões em 2027",
+      "url": "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "url": "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "fonte": "ECO",
+      "titulo": "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "url": "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Healthnews",
-      "titulo": "Montenegro aponta despesa controlada e critica “alarmismo” de Centeno no debate do OE2027",
-      "url": "https://healthnews.pt/2026/10/29/montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027/#utm_source=rss&utm_medium=rss&utm_campaign=montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027"
+      "fonte": "Observador",
+      "titulo": "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "url": "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:27",
+      "Observador",
+      "Rangel pretende reestruturar Instituto Camões em 2027",
+      "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
+     ],
+     [
+      "2026-10-29 17:36",
+      "ECO",
+      "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
+     ],
+     [
+      "2026-10-29 16:31",
+      "Observador",
+      "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     ],
+     [
+      "2026-10-29 16:24",
+      "Executive Digest",
+      "OE2027: Governo avisa que se oposição for irresponsável \"quem paga são os portugueses\"",
+      "https://executivedigest.sapo.pt/oe2027-governo-avisa-que-se-oposicao-for-irresponsavel-quem-paga-sao-os-portugueses/"
+     ],
+     [
+      "2026-10-29 15:10",
+      "Notícias ao Minuto",
+      "OE2027? Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://www.noticiasaominuto.com/economia/3075145/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-29 14:37",
+      "ECO",
+      "OE2027, não chega ter contas equilibradas para sustentar a economia",
+      "https://eco.sapo.pt/especiais/oe-2027-nao-chega-ter-contas-equilibradas-para-sustentar-a-economia/"
+     ],
+     [
+      "2026-10-29 14:02",
+      "Executive Digest",
+      "OE2027: Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://executivedigest.sapo.pt/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne/"
+     ],
+     [
+      "2026-10-29 13:04",
+      "Notícias ao Minuto",
+      "IL desafia partidos a mostrarem vontade de consenso no OE2027",
+      "https://www.noticiasaominuto.com/politica/3075060/habitacao-il-diz-se-sempre-disponivel-para-dialogar-e-desafia-partidos-a-materializar-consensos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
      [
       "2026-10-29 12:03",
       "Público",
@@ -10677,10 +10772,10 @@
       "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
      ],
      [
-      "2026-10-29 06:55",
+      "2026-10-29 06:54",
       "Público",
       "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877?ref=hp&cx=ultimas_1"
      ],
      [
       "2026-10-29 06:13",
@@ -13021,54 +13116,6 @@
       "Dinheiro Vivo",
       "OE2027: Debate quinzenal em ritmo de dança lenta pré-orçamental e com referências a Mário Centeno",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 09:58",
-      "Diário de Notícias",
-      "OE2027: Siga o debate com o primeiro-ministro na Assembleia da República",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-siga-o-debate-com-o-primeiro-ministro-na-assembleia-da-repblica"
-     ],
-     [
-      "2026-10-09 09:41",
-      "SIC Notícias",
-      "Dos passes gratuitos à habitação: as medidas do OE2027 para os jovens",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7?utm_source=sicnot&utm_medium=content&utm_campaign=WEB&utm_content=/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7"
-     ],
-     [
-      "2026-10-09 09:01",
-      "Jornal Económico",
-      "Despesas com pessoal crescem 4% e representam 85,1% do Orçamento da Educação",
-      "https://jornaleconomico.sapo.pt/noticias/despesas-com-pessoal-crescem-4-e-representam-851-do-orcamento-da-educacao/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal Económico",
-      "OE2027 mexe na carteira das empresas: prémios isentos, incentivos à habitação e SAF-T adiado",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-mexe-na-carteira-das-empresas-premios-isentos-incentivos-a-habitacao-e-saf-t-adiado/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal de Negócios",
-      "Qual o alívio que vai sentir no IRS? Veja o que muda no seu caso",
-      "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/qual-o-alivio-que-vai-sentir-no-irs-veja-o-que-muda-no-seu-caso"
-     ],
-     [
-      "2026-10-09 08:41",
-      "Notícias ao Minuto",
-      "OE2027. Das \"contas sólidas\" às \"sem certezas\", o que dizem os partidos",
-      "https://www.noticiasaominuto.com/politica/3063950/oe2027-das-contas-solidas-as-sem-certezas-o-que-dizem-os-partidos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 08:40",
-      "Observador",
-      "Um Orçamento do Estado sem novidades e sem emoção",
-      "https://observador.pt/programas/contra-corrente/um-orcamento-do-estado-sem-novidades-e-sem-emocao/"
-     ],
-     [
-      "2026-10-09 08:29",
-      "CNN Portugal",
-      "OE2027. Estudantes do Ensino Superior Técnico pedem ao parlamento que mantenha o valor das propinas",
-      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/oe2027-estudantes-do-ensino-superior-tecnico-pedem-ao-parlamento-que-mantenha-o-valor-das-propinas/20261009/6ac89828d34e53c759c75a66"
      ]
     ]
    },
@@ -13323,13 +13370,19 @@
     "novos": 17,
     "alterados": 0,
     "retirados": 0
+   },
+   {
+    "data": "2026-10-29",
+    "novos": 3,
+    "alterados": 0,
+    "retirados": 1
    }
   ],
-  "atualizado": "2026-10-29T14:08+00:00",
-  "atualizadoLabel": "29 de outubro, 14h08",
+  "atualizado": "2026-10-29T22:38+00:00",
+  "atualizadoLabel": "29 de outubro, 22h38",
   "desdeLabel": "22 de outubro",
   "estado": "com triagem automática",
-  "aviso": "30 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
+  "aviso": "33 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
  },
  "fichas": {
   "2026-10-27-plen-rio-debate-na-generalidade-do-or-a": {
@@ -13531,7 +13584,7 @@
     "ultima": "2026-10-26 16:46",
     "em": "2026-10-26"
    },
-   "novas": 123,
+   "novas": 131,
    "enquadramento": "Seleção automática de 20 das 982 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (64 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-26-iniciativas-europeias-de-seguran-a-soci": {
@@ -13665,7 +13718,7 @@
     "ultima": "2026-10-20 12:09",
     "em": "2026-10-26"
    },
-   "novas": 2,
+   "novas": 3,
    "enquadramento": "Seleção automática de 8 das 14 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-27-conselho-das-comunidades-portuguesas-di": {
@@ -13808,7 +13861,7 @@
     "ultima": "2026-10-20 12:09",
     "em": "2026-10-26"
    },
-   "novas": 1,
+   "novas": 2,
    "enquadramento": "Seleção automática de 8 das 14 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-27-comiss-o-parlamentar-de-inqu-rito-relat": {
@@ -13942,7 +13995,7 @@
     "ultima": "2026-09-02 19:25",
     "em": "2026-10-26"
    },
-   "novas": 3,
+   "novas": 4,
    "enquadramento": "Seleção automática de 2 das 2 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (0 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-26-comiss-o-de-infraestruturas-mobilidade": {
@@ -14626,9 +14679,9 @@
     },
     {
      "data": "2026-10-09",
-     "fonte": "Sábado",
-     "url": "https://www.sabado.pt/portugal/detalhe/oe2027-professores-pedem-mais-investimento-na-educacao-e-valorizacao-da-carreira",
-     "sintese": "OE2027: Professores pedem mais investimento na Educação e valorização da carreira",
+     "fonte": "Agroportal",
+     "url": "https://www.agroportal.pt/categoria/oe2027/",
+     "sintese": "Arquivo de OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -14644,9 +14697,9 @@
     },
     {
      "data": "2026-10-11",
-     "fonte": "SIC Notícias",
-     "url": "https://sicnoticias.pt/programas/visto-assim/2026-10-11-video-quais-sao-os-seis-mitos-sobre-o-orcamento-do-estado-para-2027--3ff9f953?utm_source=sicnot&utm_medium=content&utm_campaign=WEB&utm_content=/programas/visto-assim/2026-10-11-video-quais-sao-os-seis-mitos-sobre-o-orcamento-do-estado-para-2027--3ff9f953",
-     "sintese": "Quais são os seis mitos sobre o Orçamento do Estado para 2027?",
+     "fonte": "Sábado",
+     "url": "https://www.sabado.pt/portugal/amp/oe2027-policia-diz-que-aumentos-salariais-previstos-nao-recuperam-perdas-deste-ano",
+     "sintese": "OE2027. Polícia diz que aumentos salariais previstos não recuperam perdas deste ano",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -14662,9 +14715,9 @@
     },
     {
      "data": "2026-10-22",
-     "fonte": "Executive Digest",
-     "url": "https://executivedigest.sapo.pt/oe2027-financiamento-as-corporacoes-de-bomberios-vai-aumentar-mais-de-5/",
-     "sintese": "OE2027: Financiamento às corporações de bomberios vai aumentar mais de 5%",
+     "fonte": "SIC Notícias",
+     "url": "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-22-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao-no-orcamento-do-estado-a45c8633",
+     "sintese": "Comissão Política do PS manifestou \"consenso total\" sobre abstenção no OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -14725,18 +14778,18 @@
     },
     {
      "data": "2026-10-29",
-     "fonte": "Healthnews",
-     "url": "https://healthnews.pt/2026/10/29/montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027/#utm_source=rss&utm_medium=rss&utm_campaign=montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027",
-     "sintese": "Montenegro aponta despesa controlada e critica “alarmismo” de Centeno no debate do OE2027",
+     "fonte": "Público",
+     "url": "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877?ref=hp&cx=ultimas_1",
+     "sintese": "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-29",
-     "fonte": "Público",
-     "url": "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877",
-     "sintese": "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/oe2027-governo-avisa-que-se-oposicao-for-irresponsavel-quem-paga-sao-os-portugueses/",
+     "sintese": "OE2027: Governo avisa que se oposição for irresponsável \"quem paga são os portugueses\"",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -14744,14 +14797,14 @@
    ],
    "amostra": {
     "analisadas": 20,
-    "encontradas": 1107
+    "encontradas": 1115
    },
    "base": {
-    "ultima": "2026-10-29 12:03",
+    "ultima": "2026-10-29 18:27",
     "em": "2026-10-29"
    },
    "novas": 0,
-   "enquadramento": "Seleção automática de 20 das 1107 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (162 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "enquadramento": "Seleção automática de 20 das 1115 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (170 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos": {
    "titulo": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
@@ -14952,7 +15005,7 @@
     "ultima": "2026-10-28 12:37",
     "em": "2026-10-28"
    },
-   "novas": 39,
+   "novas": 47,
    "enquadramento": "Seleção automática de 20 das 1059 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (125 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-30-comiss-o-de-assuntos-europeus": {
@@ -15175,7 +15228,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 125,
+   "novas": 133,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -15377,7 +15430,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 125,
+   "novas": 133,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -15579,7 +15632,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 125,
+   "novas": 133,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-29-comiss-o-de-neg-cios-estrangeiros-e-com": {
@@ -15610,7 +15663,7 @@
     "ultima": "2026-09-02 19:25",
     "em": "2026-10-28"
    },
-   "novas": 0,
+   "novas": 1,
    "enquadramento": "Seleção automática de 1 das 1 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (0 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-29-comiss-o-de-or-amento-finan-as-e-admini": {
@@ -15704,7 +15757,7 @@
     "ultima": "2026-10-22 16:05",
     "em": "2026-10-28"
    },
-   "novas": 1,
+   "novas": 3,
    "enquadramento": "Seleção automática de 8 das 15 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-29-comiss-o-de-assuntos-europeus": {
@@ -15906,7 +15959,7 @@
     "ultima": "2026-10-27 18:39",
     "em": "2026-10-28"
    },
-   "novas": 0,
+   "novas": 8,
    "enquadramento": "Seleção automática de 20 das 68 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (7 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-29-comiss-o-da-reforma-do-estado-e-poder-l": {
@@ -16260,7 +16313,7 @@
     "ultima": "2026-10-22 16:05",
     "em": "2026-10-28"
    },
-   "novas": 0,
+   "novas": 1,
    "enquadramento": "Seleção automática de 8 das 19 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-30-comiss-o-de-assuntos-constitucionais-di": {
@@ -16286,8 +16339,8 @@
   },
   "2026-10-30-comiss-o-de-or-amento-finan-as-e-admini": {
    "titulo": "Comissão de Orçamento, Finanças e Administração Pública",
-   "meta": "Comissões Parlamentares · Reunião n.º 128 · Plenário · sexta, 30 out, 09h00 · UO de referência: DACDP · DAPL · Transversal · UPE",
-   "nivel": "completa",
+   "meta": "Comissões Parlamentares · Reunião n.º 30 · Sala 1 · sexta, 30 out, 14h00 · UO de referência: DAPL · Transversal · UPE",
+   "nivel": "curta",
    "origem": "radar",
    "gerado_por": "Radar de Notícias — seleção automática, sem análise",
    "atencao": [],
@@ -16295,28 +16348,10 @@
    "tabelas": [],
    "fundo": [
     {
-     "data": "2026-09-02",
-     "fonte": "RTP Notícias",
-     "url": "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011",
-     "sintese": "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
      "data": "2026-09-22",
      "fonte": "Açoriano Oriental",
      "url": "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515",
      "sintese": "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-09-29",
-     "fonte": "ECO",
-     "url": "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/",
-     "sintese": "IGCP tem atualizadas apenas 22% das contas de aforro",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -16331,28 +16366,10 @@
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-09-30",
-     "fonte": "ECO",
-     "url": "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/",
-     "sintese": "Governo já tem proposta da CMVM para contas de poupança e investimento",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
      "data": "2026-10-02",
      "fonte": "Executive Digest",
      "url": "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/",
      "sintese": "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-02",
-     "fonte": "RTP Notícias",
-     "url": "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257",
-     "sintese": "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -16385,33 +16402,6 @@
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-08",
-     "fonte": "ECO",
-     "url": "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/",
-     "sintese": "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-19",
-     "fonte": "Jornal Económico",
-     "url": "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/",
-     "sintese": "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-20",
-     "fonte": "Açoriano Oriental",
-     "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280",
-     "sintese": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
      "data": "2026-10-21",
      "fonte": "ECO",
      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/",
@@ -16421,75 +16411,30 @@
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-27",
-     "fonte": "Correio da Manhã",
-     "url": "https://www.cmjornal.pt/politica/amp/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027",
-     "sintese": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-27",
-     "fonte": "Notícias ao Minuto",
-     "url": "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-     "sintese": "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-27",
-     "fonte": "RTP Notícias",
-     "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738",
-     "sintese": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-27",
-     "fonte": "ECO",
-     "url": "https://eco.sapo.pt/2026/10/27/cpi-a-mandatos-de-luis-neves-na-pj-suspensa-durante-debate-do-orcamento/",
-     "sintese": "CPI a mandatos de Luís Neves na PJ suspensa durante debate do Orçamento",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-28",
-     "fonte": "Correio da Manhã",
-     "url": "https://www.cmjornal.pt/politica/amp/parlamento-confirma-suspensao-do-inquerito-a-luis-neves-durante-discussao-do-oe2027",
-     "sintese": "Parlamento confirma suspensão do inquérito a Luís Neves durante discussão do OE2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-28",
-     "fonte": "Sábado",
-     "url": "https://www.sabado.pt/portugal/detalhe/parlamento-confirma-suspensao-do-inquerito-a-luis-neves-durante-discussao-do-oe2027",
-     "sintese": "Parlamento confirma suspensão do inquérito a Luís Neves durante discussão do OE2027",
+     "data": "2026-10-29",
+     "fonte": "Açoriano Oriental",
+     "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602",
+     "sintese": "Serviço de estatística dos Açores vai transformar-se em instituto público",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     }
    ],
    "amostra": {
-    "analisadas": 20,
-    "encontradas": 21
+    "analisadas": 8,
+    "encontradas": 17
    },
    "base": {
-    "ultima": "2026-10-28 21:12",
+    "ultima": "2026-10-29 16:14",
     "em": "2026-10-29"
    },
    "novas": 0,
-   "enquadramento": "Seleção automática de 20 das 21 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (6 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "enquadramento": "Seleção automática de 8 das 17 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-30-comiss-o-de-agricultura-e-pescas": {
    "titulo": "Comissão de Agricultura e Pescas",
-   "meta": "Comissões Parlamentares · Reunião n.º 70 · Plenário · sexta, 30 out, 09h00 · UO de referência: DACDP · DAPL · Transversal · UPE",
-   "nivel": "completa",
+   "meta": "Comissões Parlamentares · Reunião n.º 71 · Sala 1 · sexta, 30 out, 14h00 · UO de referência: DAPL · Transversal · UPE",
+   "nivel": "curta",
    "origem": "radar",
    "gerado_por": "Radar de Notícias — seleção automática, sem análise",
    "atencao": [],
@@ -16497,52 +16442,25 @@
    "tabelas": [],
    "fundo": [
     {
-     "data": "2026-10-27",
-     "fonte": "Correio da Manhã",
-     "url": "https://www.cmjornal.pt/politica/amp/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027",
-     "sintese": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-27",
-     "fonte": "Notícias ao Minuto",
-     "url": "https://www.noticiasaominuto.com/politica/3073809/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-     "sintese": "CPI a mandatos de Luís Neves suspensa durante debate do OE2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-27",
-     "fonte": "RTP Notícias",
-     "url": "https://www.rtp.pt/noticias/politica/comissao-de-inquerito-a-mandatos-de-luis-neves-suspensa-durante-debate-do-oe2027_n1774738",
-     "sintese": "Comissão de inquérito a mandatos de Luís Neves suspensa durante debate do OE2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-27",
-     "fonte": "ECO",
-     "url": "https://eco.sapo.pt/2026/10/27/cpi-a-mandatos-de-luis-neves-na-pj-suspensa-durante-debate-do-orcamento/",
-     "sintese": "CPI a mandatos de Luís Neves na PJ suspensa durante debate do Orçamento",
+     "data": "2026-09-30",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/producao-de-amendoa-em-portugal-podera-aumentar-40-este-ano/",
+     "sintese": "Produção de amêndoa em Portugal poderá aumentar 40% este ano",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     }
    ],
    "amostra": {
-    "analisadas": 4,
-    "encontradas": 4
+    "analisadas": 1,
+    "encontradas": 1
    },
    "base": {
-    "ultima": "2026-10-27 16:15",
-    "em": "2026-10-28"
+    "ultima": "2026-09-30 19:10",
+    "em": "2026-10-29"
    },
-   "novas": 2,
-   "enquadramento": "Seleção automática de 4 das 4 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (4 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "novas": 0,
+   "enquadramento": "Seleção automática de 1 das 1 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (0 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-10-30-comiss-o-da-reforma-do-estado-e-poder-l": {
    "titulo": "Comissão da Reforma do Estado e Poder Local",
@@ -16651,34 +16569,82 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 1107,
-    "n7": 162,
+    "n": 1115,
+    "n7": 170,
     "n7ant": 49,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "expressoes",
-    "ultima": "2026-10-29 12:03",
+    "ultima": "2026-10-29 18:27",
     "ultimas": [
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "O Estado que ajuda os jovens a pagar mais pela casa",
-      "url": "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
+      "fonte": "Observador",
+      "titulo": "Rangel pretende reestruturar Instituto Camões em 2027",
+      "url": "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "url": "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "fonte": "ECO",
+      "titulo": "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "url": "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Healthnews",
-      "titulo": "Montenegro aponta despesa controlada e critica “alarmismo” de Centeno no debate do OE2027",
-      "url": "https://healthnews.pt/2026/10/29/montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027/#utm_source=rss&utm_medium=rss&utm_campaign=montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027"
+      "fonte": "Observador",
+      "titulo": "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "url": "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:27",
+      "Observador",
+      "Rangel pretende reestruturar Instituto Camões em 2027",
+      "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
+     ],
+     [
+      "2026-10-29 17:36",
+      "ECO",
+      "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
+     ],
+     [
+      "2026-10-29 16:31",
+      "Observador",
+      "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     ],
+     [
+      "2026-10-29 16:24",
+      "Executive Digest",
+      "OE2027: Governo avisa que se oposição for irresponsável \"quem paga são os portugueses\"",
+      "https://executivedigest.sapo.pt/oe2027-governo-avisa-que-se-oposicao-for-irresponsavel-quem-paga-sao-os-portugueses/"
+     ],
+     [
+      "2026-10-29 15:10",
+      "Notícias ao Minuto",
+      "OE2027? Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://www.noticiasaominuto.com/economia/3075145/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-29 14:37",
+      "ECO",
+      "OE2027, não chega ter contas equilibradas para sustentar a economia",
+      "https://eco.sapo.pt/especiais/oe-2027-nao-chega-ter-contas-equilibradas-para-sustentar-a-economia/"
+     ],
+     [
+      "2026-10-29 14:02",
+      "Executive Digest",
+      "OE2027: Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://executivedigest.sapo.pt/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne/"
+     ],
+     [
+      "2026-10-29 13:04",
+      "Notícias ao Minuto",
+      "IL desafia partidos a mostrarem vontade de consenso no OE2027",
+      "https://www.noticiasaominuto.com/politica/3075060/habitacao-il-diz-se-sempre-disponivel-para-dialogar-e-desafia-partidos-a-materializar-consensos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
      [
       "2026-10-29 12:03",
       "Público",
@@ -16686,10 +16652,10 @@
       "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
      ],
      [
-      "2026-10-29 06:55",
+      "2026-10-29 06:54",
       "Público",
       "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877?ref=hp&cx=ultimas_1"
      ],
      [
       "2026-10-29 06:13",
@@ -19030,54 +18996,6 @@
       "Dinheiro Vivo",
       "OE2027: Debate quinzenal em ritmo de dança lenta pré-orçamental e com referências a Mário Centeno",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 09:58",
-      "Diário de Notícias",
-      "OE2027: Siga o debate com o primeiro-ministro na Assembleia da República",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-siga-o-debate-com-o-primeiro-ministro-na-assembleia-da-repblica"
-     ],
-     [
-      "2026-10-09 09:41",
-      "SIC Notícias",
-      "Dos passes gratuitos à habitação: as medidas do OE2027 para os jovens",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7?utm_source=sicnot&utm_medium=content&utm_campaign=WEB&utm_content=/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7"
-     ],
-     [
-      "2026-10-09 09:01",
-      "Jornal Económico",
-      "Despesas com pessoal crescem 4% e representam 85,1% do Orçamento da Educação",
-      "https://jornaleconomico.sapo.pt/noticias/despesas-com-pessoal-crescem-4-e-representam-851-do-orcamento-da-educacao/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal Económico",
-      "OE2027 mexe na carteira das empresas: prémios isentos, incentivos à habitação e SAF-T adiado",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-mexe-na-carteira-das-empresas-premios-isentos-incentivos-a-habitacao-e-saf-t-adiado/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal de Negócios",
-      "Qual o alívio que vai sentir no IRS? Veja o que muda no seu caso",
-      "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/qual-o-alivio-que-vai-sentir-no-irs-veja-o-que-muda-no-seu-caso"
-     ],
-     [
-      "2026-10-09 08:41",
-      "Notícias ao Minuto",
-      "OE2027. Das \"contas sólidas\" às \"sem certezas\", o que dizem os partidos",
-      "https://www.noticiasaominuto.com/politica/3063950/oe2027-das-contas-solidas-as-sem-certezas-o-que-dizem-os-partidos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 08:40",
-      "Observador",
-      "Um Orçamento do Estado sem novidades e sem emoção",
-      "https://observador.pt/programas/contra-corrente/um-orcamento-do-estado-sem-novidades-e-sem-emocao/"
-     ],
-     [
-      "2026-10-09 08:29",
-      "CNN Portugal",
-      "OE2027. Estudantes do Ensino Superior Técnico pedem ao parlamento que mantenha o valor das propinas",
-      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/oe2027-estudantes-do-ensino-superior-tecnico-pedem-ao-parlamento-que-mantenha-o-valor-das-propinas/20261009/6ac89828d34e53c759c75a66"
      ]
     ]
    },
@@ -19113,34 +19031,82 @@
     "OE 2027"
    ],
    "cobertura": {
-    "n": 1107,
-    "n7": 162,
+    "n": 1115,
+    "n7": 170,
     "n7ant": 49,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "expressoes",
-    "ultima": "2026-10-29 12:03",
+    "ultima": "2026-10-29 18:27",
     "ultimas": [
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "O Estado que ajuda os jovens a pagar mais pela casa",
-      "url": "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
+      "fonte": "Observador",
+      "titulo": "Rangel pretende reestruturar Instituto Camões em 2027",
+      "url": "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Público",
-      "titulo": "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "url": "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "fonte": "ECO",
+      "titulo": "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "url": "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
      },
      {
       "data": "2026-10-29",
-      "fonte": "Healthnews",
-      "titulo": "Montenegro aponta despesa controlada e critica “alarmismo” de Centeno no debate do OE2027",
-      "url": "https://healthnews.pt/2026/10/29/montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027/#utm_source=rss&utm_medium=rss&utm_campaign=montenegro-aponta-despesa-controlada-e-critica-alarmismo-de-centeno-no-debate-do-oe2027"
+      "fonte": "Observador",
+      "titulo": "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "url": "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:27",
+      "Observador",
+      "Rangel pretende reestruturar Instituto Camões em 2027",
+      "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-anuncia-que-pretende-reestruturar-instituto-camoes-em-2027/"
+     ],
+     [
+      "2026-10-29 17:36",
+      "ECO",
+      "Governo alerta para “margem estreita” no OE e pede “maturidade” ao PS",
+      "https://eco.sapo.pt/2026/10/29/governo-alerta-para-margem-estreita-no-oe-e-pede-maturidade-ao-ps/"
+     ],
+     [
+      "2026-10-29 16:31",
+      "Observador",
+      "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     ],
+     [
+      "2026-10-29 16:24",
+      "Executive Digest",
+      "OE2027: Governo avisa que se oposição for irresponsável \"quem paga são os portugueses\"",
+      "https://executivedigest.sapo.pt/oe2027-governo-avisa-que-se-oposicao-for-irresponsavel-quem-paga-sao-os-portugueses/"
+     ],
+     [
+      "2026-10-29 15:10",
+      "Notícias ao Minuto",
+      "OE2027? Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://www.noticiasaominuto.com/economia/3075145/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
+     [
+      "2026-10-29 14:37",
+      "ECO",
+      "OE2027, não chega ter contas equilibradas para sustentar a economia",
+      "https://eco.sapo.pt/especiais/oe-2027-nao-chega-ter-contas-equilibradas-para-sustentar-a-economia/"
+     ],
+     [
+      "2026-10-29 14:02",
+      "Executive Digest",
+      "OE2027: Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://executivedigest.sapo.pt/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-mne/"
+     ],
+     [
+      "2026-10-29 13:04",
+      "Notícias ao Minuto",
+      "IL desafia partidos a mostrarem vontade de consenso no OE2027",
+      "https://www.noticiasaominuto.com/politica/3075060/habitacao-il-diz-se-sempre-disponivel-para-dialogar-e-desafia-partidos-a-materializar-consensos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+     ],
      [
       "2026-10-29 12:03",
       "Público",
@@ -19148,10 +19114,10 @@
       "https://www.publico.pt/2026/10/29/p3/cronica/estado-ajuda-jovens-pagar-casa-2193037"
      ],
      [
-      "2026-10-29 06:55",
+      "2026-10-29 06:54",
       "Público",
       "Habitação, IVA zero, combustíveis: os temas de confronto na especialidade do OE2027",
-      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877"
+      "https://www.publico.pt/2026/10/29/politica/noticia/habitacao-iva-zero-combustiveis-temas-confronto-especialidade-oe2027-2192877?ref=hp&cx=ultimas_1"
      ],
      [
       "2026-10-29 06:13",
@@ -21492,54 +21458,6 @@
       "Dinheiro Vivo",
       "OE2027: Debate quinzenal em ritmo de dança lenta pré-orçamental e com referências a Mário Centeno",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 09:58",
-      "Diário de Notícias",
-      "OE2027: Siga o debate com o primeiro-ministro na Assembleia da República",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-siga-o-debate-com-o-primeiro-ministro-na-assembleia-da-repblica"
-     ],
-     [
-      "2026-10-09 09:41",
-      "SIC Notícias",
-      "Dos passes gratuitos à habitação: as medidas do OE2027 para os jovens",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7?utm_source=sicnot&utm_medium=content&utm_campaign=WEB&utm_content=/especiais/orcamento-do-estado/2026-10-09-dos-passes-gratuitos-a-habitacao-as-medidas-do-oe2027-para-os-jovens-9cc07ad7"
-     ],
-     [
-      "2026-10-09 09:01",
-      "Jornal Económico",
-      "Despesas com pessoal crescem 4% e representam 85,1% do Orçamento da Educação",
-      "https://jornaleconomico.sapo.pt/noticias/despesas-com-pessoal-crescem-4-e-representam-851-do-orcamento-da-educacao/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal Económico",
-      "OE2027 mexe na carteira das empresas: prémios isentos, incentivos à habitação e SAF-T adiado",
-      "https://jornaleconomico.sapo.pt/noticias/oe2027-mexe-na-carteira-das-empresas-premios-isentos-incentivos-a-habitacao-e-saf-t-adiado/"
-     ],
-     [
-      "2026-10-09 09:00",
-      "Jornal de Negócios",
-      "Qual o alívio que vai sentir no IRS? Veja o que muda no seu caso",
-      "https://www.jornaldenegocios.pt/economia/impostos/irs/detalhe/qual-o-alivio-que-vai-sentir-no-irs-veja-o-que-muda-no-seu-caso"
-     ],
-     [
-      "2026-10-09 08:41",
-      "Notícias ao Minuto",
-      "OE2027. Das \"contas sólidas\" às \"sem certezas\", o que dizem os partidos",
-      "https://www.noticiasaominuto.com/politica/3063950/oe2027-das-contas-solidas-as-sem-certezas-o-que-dizem-os-partidos#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 08:40",
-      "Observador",
-      "Um Orçamento do Estado sem novidades e sem emoção",
-      "https://observador.pt/programas/contra-corrente/um-orcamento-do-estado-sem-novidades-e-sem-emocao/"
-     ],
-     [
-      "2026-10-09 08:29",
-      "CNN Portugal",
-      "OE2027. Estudantes do Ensino Superior Técnico pedem ao parlamento que mantenha o valor das propinas",
-      "https://cnnportugal.iol.pt/oe2027/orcamento-do-estado/oe2027-estudantes-do-ensino-superior-tecnico-pedem-ao-parlamento-que-mantenha-o-valor-das-propinas/20261009/6ac89828d34e53c759c75a66"
      ]
     ]
    },
@@ -24049,14 +23967,20 @@
    ],
    "novo": "2026-10-24",
    "cobertura": {
-    "n": 16,
-    "n7": 1,
+    "n": 17,
+    "n7": 2,
     "n7ant": 3,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-26 06:38",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-26",
       "fonte": "ECO",
@@ -24068,15 +23992,15 @@
       "fonte": "ECO",
       "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
       "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
-     },
-     {
-      "data": "2026-10-20",
-      "fonte": "Açoriano Oriental",
-      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
-      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-26 06:38",
       "ECO",
@@ -24290,14 +24214,20 @@
    ],
    "novo": "2026-10-26",
    "cobertura": {
-    "n": 15,
-    "n7": 0,
+    "n": 16,
+    "n7": 1,
     "n7ant": 3,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-21 11:41",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-21",
       "fonte": "ECO",
@@ -24309,15 +24239,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
       "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
-     },
-     {
-      "data": "2026-10-19",
-      "fonte": "Jornal Económico",
-      "titulo": "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
-      "url": "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-21 11:41",
       "ECO",
@@ -27375,14 +27305,20 @@
    ],
    "novo": "2026-10-26",
    "cobertura": {
-    "n": 4,
-    "n7": 0,
+    "n": 5,
+    "n7": 1,
     "n7ant": 0,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-08 16:42",
+    "ultima": "2026-10-29 18:46",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "RTP Notícias",
+      "titulo": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "url": "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     },
      {
       "data": "2026-10-08",
       "fonte": "Jornal Económico",
@@ -27394,15 +27330,15 @@
       "fonte": "Observador",
       "titulo": "Autarcas defendem independência editorial da Lusa",
       "url": "https://observador.pt/2026/09/14/autarcas-defendem-independencia-editorial-da-lusa/"
-     },
-     {
-      "data": "2026-09-07",
-      "fonte": "Observador",
-      "titulo": "Conselheiro por Cabo Verde pede ajuda à Cruz Vermelha",
-      "url": "https://observador.pt/2026/09/07/cabo-verde-conselheiro-por-cabo-verde-pediu-ajuda-a-cruz-vermelha-portuguesa/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:46",
+      "RTP Notícias",
+      "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     ],
      [
       "2026-10-08 16:42",
       "Jornal Económico",
@@ -27470,14 +27406,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 15,
-    "n7": 0,
+    "n": 16,
+    "n7": 1,
     "n7ant": 3,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-21 11:41",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-21",
       "fonte": "ECO",
@@ -27489,15 +27431,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
       "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
-     },
-     {
-      "data": "2026-10-19",
-      "fonte": "Jornal Económico",
-      "titulo": "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
-      "url": "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-21 11:41",
       "ECO",
@@ -27660,14 +27602,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 21,
-    "n7": 1,
+    "n": 22,
+    "n7": 2,
     "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-28 12:06",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-28",
       "fonte": "Executive Digest",
@@ -27679,15 +27627,15 @@
       "fonte": "Healthnews",
       "titulo": "Adexo e médicos de família contestam comparticipação de 15% para medicamentos da obesidade",
       "url": "https://healthnews.pt/2026/10/22/adexo-e-medicos-de-familia-contestam-comparticipacao-de-15-para-medicamentos-da-obesidade/#utm_source=rss&utm_medium=rss&utm_campaign=adexo-e-medicos-de-familia-contestam-comparticipacao-de-15-para-medicamentos-da-obesidade"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-28 12:06",
       "Executive Digest",
@@ -27853,14 +27801,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 16,
-    "n7": 0,
+    "n": 17,
+    "n7": 1,
     "n7ant": 3,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-21 11:41",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-21",
       "fonte": "ECO",
@@ -27872,15 +27826,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
       "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
-     },
-     {
-      "data": "2026-10-19",
-      "fonte": "Jornal Económico",
-      "titulo": "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
-      "url": "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-21 11:41",
       "ECO",
@@ -28046,14 +28000,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 1,
-    "n7": 0,
+    "n": 2,
+    "n7": 1,
     "n7ant": 0,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-09-02 19:25",
+    "ultima": "2026-10-29 18:46",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "RTP Notícias",
+      "titulo": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "url": "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     },
      {
       "data": "2026-09-02",
       "fonte": "RTP Notícias",
@@ -28062,6 +28022,12 @@
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:46",
+      "RTP Notícias",
+      "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     ],
      [
       "2026-09-02 19:25",
       "RTP Notícias",
@@ -28104,14 +28070,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 1,
-    "n7": 0,
+    "n": 2,
+    "n7": 1,
     "n7ant": 0,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-09-02 19:25",
+    "ultima": "2026-10-29 18:46",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "RTP Notícias",
+      "titulo": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "url": "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     },
      {
       "data": "2026-09-02",
       "fonte": "RTP Notícias",
@@ -28120,6 +28092,12 @@
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:46",
+      "RTP Notícias",
+      "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     ],
      [
       "2026-09-02 19:25",
       "RTP Notícias",
@@ -28171,34 +28149,46 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 15,
-    "n7": 0,
+    "n": 17,
+    "n7": 2,
     "n7ant": 3,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-21 11:41",
+    "ultima": "2026-10-29 16:31",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Observador",
+      "titulo": "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "url": "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     },
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-21",
       "fonte": "ECO",
       "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
       "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
-     },
-     {
-      "data": "2026-10-20",
-      "fonte": "Açoriano Oriental",
-      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
-      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
-     },
-     {
-      "data": "2026-10-19",
-      "fonte": "Jornal Económico",
-      "titulo": "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
-      "url": "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:31",
+      "Observador",
+      "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     ],
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-21 11:41",
       "ECO",
@@ -28333,34 +28323,82 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 68,
-    "n7": 7,
+    "n": 76,
+    "n7": 15,
     "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-27 18:39",
+    "ultima": "2026-10-29 18:46",
     "ultimas": [
      {
-      "data": "2026-10-27",
-      "fonte": "SIC Notícias",
-      "titulo": "Parque de campismo falso surge no Google Maps com contacto privado de Paulo Rangel",
-      "url": "https://sicnoticias.pt/pais/2026-10-27-parque-campismo-falso-surge-no-google-maps-com-contacto-privado-de-paulo-rangel-5732cfcb"
+      "data": "2026-10-29",
+      "fonte": "RTP Notícias",
+      "titulo": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "url": "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
      },
      {
-      "data": "2026-10-27",
-      "fonte": "Nascer do SOL",
-      "titulo": "\"Camping Lisboa\": protestos pela habitação chegam ao Google Maps e expõem contacto de Paulo Rangel",
-      "url": "https://sol.iol.pt/sociedade/noticias/camping-lisboa-protestos-pela-habitacao-chegam-ao-google-maps-e-expoem-contacto-de-paulo-rangel/20261027/6ae07ad70cf2e5e7f37cb168"
+      "data": "2026-10-29",
+      "fonte": "CNN Portugal",
+      "titulo": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas, garante Paulo Rangel",
+      "url": "https://cnnportugal.iol.pt/paulo-rangel/ministro-dos-negocios-estrangeiros/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-garante-paulo-rangel/20261029/6ae39220d34e9a786e75e6e2"
      },
      {
-      "data": "2026-10-27",
-      "fonte": "Executive Digest",
-      "titulo": "Telemóvel de Paulo Rangel exposto no Google Maps: gabinete soube pela imprensa e alertou PSP",
-      "url": "https://executivedigest.sapo.pt/830732-2/"
+      "data": "2026-10-29",
+      "fonte": "Jornal de Notícias",
+      "titulo": "Paulo Rangel: Governo nunca defenderá reparações históricas às antigas colónias",
+      "url": "https://www.jn.pt/nacional/artigo/paulo-rangel-governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias/18142435"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 18:46",
+      "RTP Notícias",
+      "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     ],
+     [
+      "2026-10-29 18:41",
+      "CNN Portugal",
+      "Governo nunca defenderá reparações históricas às antigas colónias portuguesas, garante Paulo Rangel",
+      "https://cnnportugal.iol.pt/paulo-rangel/ministro-dos-negocios-estrangeiros/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-garante-paulo-rangel/20261029/6ae39220d34e9a786e75e6e2"
+     ],
+     [
+      "2026-10-29 18:14",
+      "Jornal de Notícias",
+      "Paulo Rangel: Governo nunca defenderá reparações históricas às antigas colónias",
+      "https://www.jn.pt/nacional/artigo/paulo-rangel-governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias/18142435"
+     ],
+     [
+      "2026-10-29 16:31",
+      "Observador",
+      "Rangel destaca \"sinal político\" do aumento da verba do MNE",
+      "https://observador.pt/2026/10/29/oe2027-rangel-destaca-sinal-politico-do-aumento-da-verba-do-ministerio-dos-negocios-estrangeiros/"
+     ],
+     [
+      "2026-10-29 16:14",
+      "Observador",
+      "16h. Paulo Rangel pede a Carneiro que não seja \"queixinhas\"",
+      "https://observador.pt/programas/noticiario/as-noticias-das-16h-2401/"
+     ],
+     [
+      "2026-10-29 15:39",
+      "Observador",
+      "Rangel assegura defesa da liberdade de navegação",
+      "https://observador.pt/2026/10/29/ministro-dos-negocios-estrangeiros-garante-que-portugal-vai-continuar-a-defender-liberdade-de-navegacao/"
+     ],
+     [
+      "2026-10-29 15:19",
+      "Observador",
+      "15h. MNE confirma possível cidadão português desaparecido",
+      "https://observador.pt/programas/noticiario/as-noticias-das-15h-2500/"
+     ],
+     [
+      "2026-10-29 14:10",
+      "RTP Notícias",
+      "Acidente Espanha. MNE confirma que há reporte de um português desaparecido",
+      "https://www.rtp.pt/noticias/mundo/acidente-espanha-mne-confirma-que-ha-reporte-de-um-portugues-desaparecido_n1775342"
+     ],
      [
       "2026-10-27 18:39",
       "SIC Notícias",
@@ -29168,14 +29206,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 16,
-    "n7": 0,
+    "n": 17,
+    "n7": 1,
     "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-22 16:05",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-22",
       "fonte": "Diário de Notícias",
@@ -29187,15 +29231,15 @@
       "fonte": "ECO",
       "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
       "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
-     },
-     {
-      "data": "2026-10-20",
-      "fonte": "Açoriano Oriental",
-      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
-      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-22 16:05",
       "Diário de Notícias",
@@ -29299,7 +29343,7 @@
   {
    "tema": "Comissão de Agricultura e Pescas",
    "data": "2026-10-29",
-   "hora": "18h00",
+   "hora": "20h00",
    "interveniente": "",
    "tipoLabel": "Comissões Parlamentares · Reunião n.º 69 · Plenário",
    "resumo": "Audição do Ministro da Economia e da Coesão Territorial no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027 (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Ministro da Economia e da Coesão Territorial – Manue",
@@ -29333,14 +29377,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 20,
-    "n7": 0,
+    "n": 21,
+    "n7": 1,
     "n7ant": 6,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-22 16:05",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-22",
       "fonte": "Diário de Notícias",
@@ -29352,15 +29402,15 @@
       "fonte": "Jornal Económico",
       "titulo": "PR promulga Decreto-Lei que valoriza carreiras de Conservadores e Oficiais de Registos do IRN",
       "url": "https://jornaleconomico.sapo.pt/noticias/pr-promulga-decreto-lei-que-valoriza-carreiras-de-conservadores-e-oficiais-de-registos-do-irn/"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-22 16:05",
       "Diário de Notícias",
@@ -29571,14 +29621,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 21,
-    "n7": 6,
+    "n": 22,
+    "n7": 7,
     "n7ant": 3,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-28 21:12",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-28",
       "fonte": "Sábado",
@@ -29590,15 +29646,15 @@
       "fonte": "Correio da Manhã",
       "titulo": "Parlamento confirma suspensão do inquérito a Luís Neves durante discussão do OE2027",
       "url": "https://www.cmjornal.pt/politica/amp/parlamento-confirma-suspensao-do-inquerito-a-luis-neves-durante-discussao-do-oe2027"
-     },
-     {
-      "data": "2026-10-27",
-      "fonte": "ECO",
-      "titulo": "CPI a mandatos de Luís Neves na PJ suspensa durante debate do Orçamento",
-      "url": "https://eco.sapo.pt/2026/10/27/cpi-a-mandatos-de-luis-neves-na-pj-suspensa-durante-debate-do-orcamento/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-28 21:12",
       "Sábado",
@@ -29865,7 +29921,8 @@
     "ultima": "",
     "ultimas": [],
     "todas": []
-   }
+   },
+   "retirado": "2026-10-29"
   },
   {
    "tema": "Comissão de Assuntos Europeus",
@@ -29914,6 +29971,489 @@
     "todas": []
    },
    "varrimento": "2026-10-30-comiss-o-de-assuntos-europeus"
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-10-30",
+   "hora": "12h45",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 29 · Sala 1",
+   "resumo": "Audiência da EQUALMED – Associação Portuguesa de Medicamentos pela Equidade em Saúde , no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Dr. João Paulo Nascimento - Presidente da direção;\n Dra. Maria do Carmo Neves - Vice-presidente",
+   "ordemTrabalhos": "Audiência da EQUALMED – Associação Portuguesa de Medicamentos pela Equidade em Saúde , no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Dr. João Paulo Nascimento - Presidente da direção;\n Dra. Maria do Carmo Neves - Vice-presidente da direção;\n Dra. Ana Valente - Diretora executiva.",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48599,
+   "chave": "ar-48599",
+   "dataLabel": "sexta, 30 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-29",
+   "cobertura": {
+    "n": 31,
+    "n7": 3,
+    "n7ant": 5,
+    "dias": 60,
+    "ref": "2026-10-29",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-29",
+      "fonte": "Healthnews",
+      "titulo": "Informar não basta, especialistas pedem um ecossistema de literacia em saúde",
+      "url": "https://healthnews.pt/2026/10/29/informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude"
+     },
+     {
+      "data": "2026-10-23",
+      "fonte": "Healthnews",
+      "titulo": "APDI leva microbiota e eixo cérebro-intestino ao centro do debate sobre DII",
+      "url": "https://healthnews.pt/2026/10/23/apdi-leva-microbiota-e-eixo-cerebro-intestino-ao-centro-do-debate-sobre-dii/"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-29 12:50",
+      "Healthnews",
+      "Informar não basta, especialistas pedem um ecossistema de literacia em saúde",
+      "https://healthnews.pt/2026/10/29/informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude"
+     ],
+     [
+      "2026-10-23 12:39",
+      "Healthnews",
+      "APDI leva microbiota e eixo cérebro-intestino ao centro do debate sobre DII",
+      "https://healthnews.pt/2026/10/23/apdi-leva-microbiota-e-eixo-cerebro-intestino-ao-centro-do-debate-sobre-dii/"
+     ],
+     [
+      "2026-10-22 13:46",
+      "Healthnews",
+      "Adexo e médicos de família contestam comparticipação de 15% para medicamentos da obesidade",
+      "https://healthnews.pt/2026/10/22/adexo-e-medicos-de-familia-contestam-comparticipacao-de-15-para-medicamentos-da-obesidade/#utm_source=rss&utm_medium=rss&utm_campaign=adexo-e-medicos-de-familia-contestam-comparticipacao-de-15-para-medicamentos-da-obesidade"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-16 14:00",
+      "Healthnews",
+      "Xavier Barreto alerta para corte de 400 milhões e avisa que pôr o SNS a concorrer subfinanciado é “condenar-nos à extinção”",
+      "https://healthnews.pt/2026/10/16/xavier-barreto-alerta-para-corte-de-400-milhoes-e-avisa-que-por-o-sns-a-concorrer-subfinanciado-e-condenar-nos-a-extincao/#utm_source=rss&utm_medium=rss&utm_campaign=xavier-barreto-alerta-para-corte-de-400-milhoes-e-avisa-que-por-o-sns-a-concorrer-subfinanciado-e-condenar-nos-a-extincao"
+     ],
+     [
+      "2026-10-13 09:46",
+      "Observador",
+      "Associação alerta sobre alterações do preço dos genéricos",
+      "https://observador.pt/2026/10/13/alteracao-do-preco-dos-genericos-deve-ser-acompanhada-do-reforco-da-oferta-diz-associacao/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-08 09:34",
+      "RTP Notícias",
+      "Associação de Medicamentos pela Equidade em Saúde quer aumento de 5% para genéricos",
+      "https://www.rtp.pt/noticias/pais/associacao-de-medicamentos-pela-equidade-em-saude-quer-aumento-de-5-para-genericos_n1770244"
+     ],
+     [
+      "2026-10-08 09:19",
+      "Healthnews",
+      "Genéricos e biossimilares: associação pede medidas de apoio ao setor",
+      "https://healthnews.pt/2026/10/08/genericos-e-biossimilares-associacao-pede-medidas-de-apoio-ao-setor/#utm_source=rss&utm_medium=rss&utm_campaign=genericos-e-biossimilares-associacao-pede-medidas-de-apoio-ao-setor"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-05 09:00",
+      "Expresso",
+      "Céu Mateus, presidente da Associação Portuguesa de Economia da Saúde, no podcast “45 Graus”: veja a primeira parte desta conversa",
+      "https://expresso.pt/multimedia/video/2026-10-05-video-ceu-mateus-presidente-da-associacao-portuguesa-de-economia-da-saude-no-podcast-45-graus-veja-a-primeira-parte-desta-conversa-45d80372"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-10-02 08:48",
+      "Jornal de Negócios",
+      "Hospitais privados com recorde de faturação têm mais de 1.000 milhões para investir",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/hospitais-privados-com-recorde-de-faturacao-tem-mais-de-1-000-milhoes-para-investir"
+     ],
+     [
+      "2026-10-02 07:12",
+      "Healthnews",
+      "Infertilidade: tratamento pago a 100%? Proposta no OE2027",
+      "https://healthnews.pt/2026/10/02/infertilidade-tratamento-pago-a-100-proposta-no-oe2027/#utm_source=rss&utm_medium=rss&utm_campaign=infertilidade-tratamento-pago-a-100-proposta-no-oe2027"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-30 07:37",
+      "Healthnews",
+      "Fertilidade: associação pede programa nacional e tempos máximos de resposta na PMA",
+      "https://healthnews.pt/2026/09/30/fertilidade-associacao-pede-programa-nacional-e-tempos-maximos-de-resposta-na-pma/#utm_source=rss&utm_medium=rss&utm_campaign=fertilidade-associacao-pede-programa-nacional-e-tempos-maximos-de-resposta-na-pma"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-21 09:57",
+      "Healthnews",
+      "Residência Farmacêutica: APFR pede cinco medidas urgentes após inquérito",
+      "https://healthnews.pt/2026/09/21/residencia-farmaceutica-apfr-pede-cinco-medidas-urgentes-apos-inquerito/#utm_source=rss&utm_medium=rss&utm_campaign=residencia-farmaceutica-apfr-pede-cinco-medidas-urgentes-apos-inquerito"
+     ],
+     [
+      "2026-09-17 15:06",
+      "Ambiente Magazine",
+      "Mobilidade elétrica: “o carregamento em casa é fundamental para complementar a rede pública”",
+      "https://www.ambientemagazine.com/mobilidade-eletrica-o-carregamento-em-casa-e-fundamental-para-complementar-a-rede-publica/"
+     ],
+     [
+      "2026-09-14 14:49",
+      "Healthnews",
+      "Pacto para a Saúde em debate: visão de longo prazo para um sistema sustentável",
+      "https://healthnews.pt/2026/09/14/pacto-para-a-saude-em-debate-visao-de-longo-prazo-para-um-sistema-sustentavel/#utm_source=rss&utm_medium=rss&utm_campaign=pacto-para-a-saude-em-debate-visao-de-longo-prazo-para-um-sistema-sustentavel"
+     ],
+     [
+      "2026-09-14 11:02",
+      "Healthnews",
+      "Conversas em Rede: Webinar “Pacto para a Saúde: Da Visão Estratégica ao Compromisso Nacional”",
+      "https://healthnews.pt/2026/09/14/medicos-e-governantes-sentam-se-a-mesma-mesa-sera-desta-que-a-saude-para-de-andar-para-tras/#utm_source=rss&utm_medium=rss&utm_campaign=medicos-e-governantes-sentam-se-a-mesma-mesa-sera-desta-que-a-saude-para-de-andar-para-tras"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-10-30-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-10-30",
+   "hora": "14h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 30 · Sala 1",
+   "resumo": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Filipe Rosa – Diretor da Portugal Nuts e Representante da Empresa Associada Veracruz Veracruz Almonds;\n Nuno Rus",
+   "ordemTrabalhos": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Filipe Rosa – Diretor da Portugal Nuts e Representante da Empresa Associada Veracruz Veracruz Almonds;\n Nuno Russo – Diretor Executivo da Portugal Nuts;\n Rita Godinho – Gestora de Projetos da Portugal Nuts.",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48598,
+   "chave": "ar-48598",
+   "dataLabel": "sexta, 30 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-29",
+   "cobertura": {
+    "n": 17,
+    "n7": 1,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-29",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     },
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 19:10",
+      "Jornal Económico",
+      "Produção de amêndoa em Portugal poderá aumentar 40% este ano",
+      "https://jornaleconomico.sapo.pt/noticias/producao-de-amendoa-em-portugal-podera-aumentar-40-este-ano/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-10-30-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
+   "tema": "Comissão de Agricultura e Pescas",
+   "data": "2026-10-30",
+   "hora": "14h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 71 · Sala 1",
+   "resumo": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027 (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Filipe Rosa – Diretor da Portugal Nuts ",
+   "ordemTrabalhos": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027 (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Filipe Rosa – Diretor da Portugal Nuts e Representante da Empresa Associada Veracruz Veracruz Almonds;\n Nuno Russo – Diretor Executivo da Portugal Nuts;\n Rita Godinho – Gestora de Projetos da Portugal Nuts.",
+   "orgao": "Comissão de Agricultura e Pescas",
+   "id_ar": 48601,
+   "chave": "ar-48601",
+   "dataLabel": "sexta, 30 out",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-29",
+   "cobertura": {
+    "n": 1,
+    "n7": 0,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-29",
+    "metodo": "palavras",
+    "ultima": "2026-09-30 19:10",
+    "ultimas": [
+     {
+      "data": "2026-09-30",
+      "fonte": "Jornal Económico",
+      "titulo": "Produção de amêndoa em Portugal poderá aumentar 40% este ano",
+      "url": "https://jornaleconomico.sapo.pt/noticias/producao-de-amendoa-em-portugal-podera-aumentar-40-este-ano/"
+     }
+    ],
+    "todas": [
+     [
+      "2026-09-30 19:10",
+      "Jornal Económico",
+      "Produção de amêndoa em Portugal poderá aumentar 40% este ano",
+      "https://jornaleconomico.sapo.pt/noticias/producao-de-amendoa-em-portugal-podera-aumentar-40-este-ano/"
+     ]
+    ]
+   },
+   "varrimento": "2026-10-30-comiss-o-de-agricultura-e-pescas"
   },
   {
    "tema": "Grupo de Trabalho - Júri do Prémio Mário Soares 2026",
@@ -29984,14 +30524,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 15,
-    "n7": 0,
+    "n": 16,
+    "n7": 1,
     "n7ant": 3,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-21 11:41",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-21",
       "fonte": "ECO",
@@ -30003,15 +30549,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
       "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
-     },
-     {
-      "data": "2026-10-19",
-      "fonte": "Jornal Económico",
-      "titulo": "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
-      "url": "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-21 11:41",
       "ECO",
@@ -30279,14 +30825,20 @@
    ],
    "novo": "2026-10-28",
    "cobertura": {
-    "n": 15,
-    "n7": 0,
+    "n": 16,
+    "n7": 1,
     "n7ant": 3,
     "dias": 60,
     "ref": "2026-10-29",
     "metodo": "palavras",
-    "ultima": "2026-10-21 11:41",
+    "ultima": "2026-10-29 16:14",
     "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
      {
       "data": "2026-10-21",
       "fonte": "ECO",
@@ -30298,15 +30850,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
       "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
-     },
-     {
-      "data": "2026-10-19",
-      "fonte": "Jornal Económico",
-      "titulo": "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
-      "url": "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
      }
     ],
     "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
      [
       "2026-10-21 11:41",
       "ECO",

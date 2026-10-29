@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48601@ar-preview
+DTSTAMP:20261029T224011Z
+DTSTART:20261030T140000Z
+DTEND:20261030T160000Z
+SUMMARY:AR · Comissão de Agricultura e Pescas
+LOCATION:Assembleia da República · Sala 1
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 71 · Sala 1\nSínte
+ se: Audiência da Associação Promoção Frutos Secos (APFS) - Portugal 
+ Nuts no âmbito da apreciação\, na especialidade da Proposta de Lei n.
+ º…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://ww
+ w.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx\nEmissões 
+ em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: http
+ s://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda 
+ da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

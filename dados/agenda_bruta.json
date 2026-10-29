@@ -1,7 +1,7 @@
 {
  "inicio": "2026-10-26",
  "fim": "2026-11-01",
- "recolha": "2026-10-29T14:08",
+ "recolha": "2026-10-29T22:38",
  "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
   {
@@ -172,7 +172,7 @@
   {
    "id_ar": 48581,
    "data": "2026-10-29",
-   "hora": "18h00",
+   "hora": "20h00",
    "tema": "Comissão de Agricultura e Pescas",
    "orgao": "Comissão de Agricultura e Pescas",
    "interveniente": "",
@@ -230,21 +230,6 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx"
   },
   {
-   "id_ar": 48558,
-   "data": "2026-10-30",
-   "hora": "09h00",
-   "tema": "Grupo de Trabalho de Escrutínio de Iniciativas Europeias",
-   "orgao": "Grupo de Trabalho de Escrutínio de Iniciativas Europeias",
-   "interveniente": "",
-   "tipo": [
-    "Grupo de Trabalho"
-   ],
-   "tipoLabel": "Grupo de Trabalho · Reunião n.º 27 · Sala 7",
-   "resumo": "Informações;\n Propostas de deliberação;\n Outros assuntos.",
-   "ordemTrabalhos": "Informações;\n Propostas de deliberação;\n Outros assuntos.",
-   "ligacao": ""
-  },
-  {
    "id_ar": 48560,
    "data": "2026-10-30",
    "hora": "09h30",
@@ -258,6 +243,51 @@
    "resumo": "Parte I \n Audição com o Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica, Vsevolod Chentsov\n Parte II \n Informações\n Grupo de Trabalho – Escrutínio de Iniciativas Europeias\n Apreciação e votação de pareceres da CAE no âmbito do escrutínio de iniciativas europeias:\n a) CO",
    "ordemTrabalhos": "Parte I \n Audição com o Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica, Vsevolod Chentsov\n Parte II \n Informações\n Grupo de Trabalho – Escrutínio de Iniciativas Europeias\n Apreciação e votação de pareceres da CAE no âmbito do escrutínio de iniciativas europeias:\n a) COM(2026)570 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que cria a Agência da União Europeia para a Cooperação Judiciária Penal (Eurojust) e que revoga o Regulamento (UE) 2018 – Relatório da 1.ª CACDLG\n Autor de Parecer: Deputado António Rodrigues (PSD)\n Iniciativa sinalizada pela CAE: Prazo de envio – 09/11/2026\n b) COM(2026)580 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que cria a Agência da União Europeia para a Cooperação Policial (Europol), altera o Regulamento (UE) 2018/1726 e o Regulamento (UE) 2024/982, e revoga – Relatório da 1.ª CACDLG\n Autor de Parecer: Deputado Rodrigo Alves Taxa (CH)\n Iniciativa sinalizada pela CAE: Prazo de envio – 09/11/2026\n c) COM(2026)616 - Proposta de DIRETIVA DO PARLAMENTO EUROPEU E DO CONSELHO que altera a Diretiva 2003/87/CE e a Decisão (UE) 2015/1814 no que diz respeito à promoção da competitividade e da descarbonização eficaz em termos de custos\n Autor de Parecer: Deputado Pedro Correia (CH)\n Iniciativa sinalizada pela CAE: Prazo de envio – 09/11/2026\n d) COM(2026)502 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que estabelece um quadro de medidas para reforçar o ecossistema europeu da computação em nuvem e da IA (Regulamento Desenvolvimento da Nuvem e da IA) – Relatório da 6.ª CECT\n Autor de Parecer: Deputado Luís Dias (PS)\n Iniciativa sinalizada pela CAE: Prazo de envio – 12/11/2026\n Outros assuntos",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48599,
+   "data": "2026-10-30",
+   "hora": "12h45",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 29 · Sala 1",
+   "resumo": "Audiência da EQUALMED – Associação Portuguesa de Medicamentos pela Equidade em Saúde , no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Dr. João Paulo Nascimento - Presidente da direção;\n Dra. Maria do Carmo Neves - Vice-presidente",
+   "ordemTrabalhos": "Audiência da EQUALMED – Associação Portuguesa de Medicamentos pela Equidade em Saúde , no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Dr. João Paulo Nascimento - Presidente da direção;\n Dra. Maria do Carmo Neves - Vice-presidente da direção;\n Dra. Ana Valente - Diretora executiva.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48598,
+   "data": "2026-10-30",
+   "hora": "14h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 30 · Sala 1",
+   "resumo": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Filipe Rosa – Diretor da Portugal Nuts e Representante da Empresa Associada Veracruz Veracruz Almonds;\n Nuno Rus",
+   "ordemTrabalhos": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Filipe Rosa – Diretor da Portugal Nuts e Representante da Empresa Associada Veracruz Veracruz Almonds;\n Nuno Russo – Diretor Executivo da Portugal Nuts;\n Rita Godinho – Gestora de Projetos da Portugal Nuts.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48601,
+   "data": "2026-10-30",
+   "hora": "14h00",
+   "tema": "Comissão de Agricultura e Pescas",
+   "orgao": "Comissão de Agricultura e Pescas",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 71 · Sala 1",
+   "resumo": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027 (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Filipe Rosa – Diretor da Portugal Nuts ",
+   "ordemTrabalhos": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027 (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Filipe Rosa – Diretor da Portugal Nuts e Representante da Empresa Associada Veracruz Veracruz Almonds;\n Nuno Russo – Diretor Executivo da Portugal Nuts;\n Rita Godinho – Gestora de Projetos da Portugal Nuts.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx"
   },
   {
    "id_ar": 48521,
@@ -337,6 +367,21 @@
  ],
  "futuro": [
   {
+   "id_ar": 48600,
+   "data": "2026-11-02",
+   "hora": "09h00",
+   "tema": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "orgao": "Comissão de Infraestruturas, Mobilidade e Habitação",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 71 · Plenário",
+   "resumo": "Audição do Ministro das Infraestruturas e Habitação, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – «Orçamento do Estado para 2027.»",
+   "ordemTrabalhos": "Audição do Ministro das Infraestruturas e Habitação, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – «Orçamento do Estado para 2027.»",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.aspx"
+  },
+  {
    "id_ar": 48571,
    "data": "2026-11-02",
    "hora": "15h00",
@@ -361,7 +406,7 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 56",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 56 · Plenário",
    "resumo": "Audição da Ministra da Cultura, Juventude e Desporto no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "ordemTrabalhos": "Audição da Ministra da Cultura, Juventude e Desporto no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/12CCCJD/Paginas/default.aspx"
@@ -421,7 +466,7 @@
    "tipo": [
     "Comissões Parlamentares"
    ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 57",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 57 · Plenário",
    "resumo": "Audição do Ministro da Presidência no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "ordemTrabalhos": "Audição do Ministro da Presidência no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/12CCCJD/Paginas/default.aspx"
