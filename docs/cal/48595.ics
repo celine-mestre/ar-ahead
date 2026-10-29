@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48595@ar-preview
+DTSTAMP:20261029T141147Z
+DTSTART:20261103T090000Z
+DTEND:20261103T110000Z
+SUMMARY:AR · Comissão de Ambiente e Energia
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 61 · Plenário\nGov
+ erno: Ministra do Ambiente e Energia\, Maria da Graça Carvalho\nSíntese
+ : Audição no âmbito da apreciação na especialidade da Proposta de Le
+ i n.º 110/XVII/2.ª (GOV) — Orçamento do Estado para 2027 \, nos term
+ os…\nUnidades DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: ht
+ tps://www.parlamento.pt/sites/com/XVIILeg/11CAEne/Paginas/default.aspx\nE
+ missões em direto (quando houver): https://canal.parlamento.pt/\nAR Prev
+ iew: https://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; 
+ a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/11CAEne/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

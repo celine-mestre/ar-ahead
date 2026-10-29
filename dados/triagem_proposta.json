@@ -1,79 +1,9 @@
 {
  "inicio": "2026-10-26",
  "fim": "2026-11-01",
- "recolha": "2026-10-28T22:25",
+ "recolha": "2026-10-29T14:08",
  "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
-  {
-   "id_ar": 48545,
-   "data": "2026-10-28",
-   "hora": "09h00",
-   "tema": "Grupo de Trabalho para os Assuntos Culturais",
-   "orgao": "Grupo de Trabalho para os Assuntos Culturais",
-   "interveniente": "",
-   "tipo": [
-    "Grupo de Trabalho AR"
-   ],
-   "tipoLabel": "Grupo de Trabalho AR · Reunião n.º 5 · Sala 7",
-   "resumo": "I. Aprovação da ata da reunião anterior; \n II. Programação Cultural 2027; \n III. Apreciação de iniciativas; \n IV. Apreciação de publicações; \n V. Outros assuntos.",
-   "ordemTrabalhos": "I. Aprovação da ata da reunião anterior; \n II. Programação Cultural 2027; \n III. Apreciação de iniciativas; \n IV. Apreciação de publicações; \n V. Outros assuntos.",
-   "ligacao": "",
-   "uo": [],
-   "pertinencia": "Registo",
-   "criterio": [],
-   "validado": false
-  },
-  {
-   "id_ar": 48343,
-   "data": "2026-10-28",
-   "hora": "10h00",
-   "tema": "Plenário — Continuação do debate na generalidade do Orçamento do Estado para 2027",
-   "orgao": "Plenário",
-   "interveniente": "",
-   "tipo": [
-    "Plenário"
-   ],
-   "tipoLabel": "Plenário · Reunião n.º 16 · Plenário",
-   "resumo": "ORDEM DO DIA \n 10H00 \n 15H00 (sujeito a alteração)\n 1 - Continuação do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 2.º Dia \n GOV \n 65 m \n PSD \n 45 m 46  \n CH \n 38 m 23 \n PS \n 30 m 27 \n IL \n",
-   "ordemTrabalhos": "ORDEM DO DIA \n 10H00 \n 15H00 (sujeito a alteração)\n 1 - Continuação do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n 2.º Dia \n GOV \n 65 m \n PSD \n 45 m 46  \n CH \n 38 m 23 \n PS \n 30 m 27 \n IL \n 25 m 21 \n L \n 13 m  \n PCP \n 11 m 36 \n CDS-PP \n 12 m 45 \n BE \n 4 m \n PAN \n 4 m \n JPP \n 4 m \n Total \n 254 m 18 \n 2 - Encerramento do debate na generalidade do Orçamento do Estado para 2027 \n Proposta de Lei n.º 110/XVII/2.ª (GOV) \n Orçamento do Estado para 2027\n Debate na Generalidade \n ENCERRAMENTO \n JPP \n 3 m \n PAN \n 3 m \n BE \n 3 m \n CDS-PP \n 6 m  \n PCP \n 6 m 30 \n L \n 7 m 30 \n IL \n 8 m 30 \n PS \n 12 m 30 \n CH \n 13 m 30 \n PSD \n 16 m \n GOV \n 30 m \n Total \n 109 m 30 \n 3- Projeto de Resolução n.º 1334/XVII/2.ª (PS, PSD, CH, PAN, JPP, CDS-PP, IL) \n Regulamento de registo e publicitação das audiências e interações realizadas no quadro da representação legítima de interesses junto da Assembleia da República\n Sem tempos \n 4 - Votações",
-   "ligacao": "",
-   "uo": [
-    "DAPL",
-    "Transversal",
-    "UPE"
-   ],
-   "pertinencia": "Imediato",
-   "criterio": [
-    "«proposta de lei» (DAPL)",
-    "«orçamento do estado» (UPE) → Imediato",
-    "«orçamento do estado» (transversal)"
-   ],
-   "validado": false
-  },
-  {
-   "id_ar": 48550,
-   "data": "2026-10-28",
-   "hora": "14h00",
-   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
-   "orgao": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 46 · Sala 7",
-   "resumo": "Audição do Conselho Permanente do Conselho das Comunidades Portuguesas (CP-CCP).",
-   "ordemTrabalhos": "Audição do Conselho Permanente do Conselho das Comunidades Portuguesas (CP-CCP).",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx",
-   "uo": [
-    "DCIRI"
-   ],
-   "pertinencia": "Vigilância",
-   "criterio": [
-    "«negócios estrangeiros» (DCIRI)",
-    "«comunidades portuguesas» (DCIRI)"
-   ],
-   "validado": false
-  },
   {
    "id_ar": 48579,
    "data": "2026-10-29",
@@ -702,6 +632,64 @@
    "validado": false
   },
   {
+   "id_ar": 48588,
+   "data": "2026-11-02",
+   "hora": "15h00",
+   "tema": "Comissão de Cultura, Comunicação, Juventude e Desporto",
+   "orgao": "Comissão de Cultura, Comunicação, Juventude e Desporto",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 56",
+   "resumo": "Audição da Ministra da Cultura, Juventude e Desporto no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
+   "ordemTrabalhos": "Audição da Ministra da Cultura, Juventude e Desporto no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/12CCCJD/Paginas/default.aspx",
+   "uo": [
+    "DACDP",
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição da ministra» (Governo na AR → DACDP)"
+   ],
+   "validado": false
+  },
+  {
+   "id_ar": 48595,
+   "data": "2026-11-03",
+   "hora": "09h00",
+   "tema": "Comissão de Ambiente e Energia",
+   "orgao": "Comissão de Ambiente e Energia",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 61 · Plenário",
+   "resumo": "Audição da Ministra do Ambiente e Energia, Maria da Graça Carvalho, no âmbito da apreciação na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Orçamento do Estado para 2027 , nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República (",
+   "ordemTrabalhos": "Audição da Ministra do Ambiente e Energia, Maria da Graça Carvalho, no âmbito da apreciação na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Orçamento do Estado para 2027 , nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/11CAEne/Paginas/default.aspx",
+   "uo": [
+    "DACDP",
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição da ministra» (Governo na AR → DACDP)"
+   ],
+   "validado": false
+  },
+  {
    "id_ar": 48570,
    "data": "2026-11-03",
    "hora": "14h30",
@@ -712,8 +700,8 @@
     "Comissões Parlamentares"
    ],
    "tipoLabel": "Comissões Parlamentares · Reunião n.º 108",
-   "resumo": "1. Distribuição de iniciativas e nomeação de relatores;\n 2. Apreciação e votação dos pareceres sobre as seguintes iniciativas europeias:\n a) COM(2026)681 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO EU KIDS ACT — Salvaguarda da Responsabilização e da Fiabilidade nos Espaços Digitais",
-   "ordemTrabalhos": "1. Distribuição de iniciativas e nomeação de relatores;\n 2. Apreciação e votação dos pareceres sobre as seguintes iniciativas europeias:\n a) COM(2026)681 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO EU KIDS ACT — Salvaguarda da Responsabilização e da Fiabilidade nos Espaços Digitais da Internet na UE – Relator: Dep. Paulo Lopes Marcelo (PSD);\n b) COM(2026)484 Proposta de DECISÃO DO CONSELHO relativa à assinatura e à aplicação provisória do Acordo-Quadro entre a União Europeia e os Estados Unidos da América sobre o intercâmbio recíproco de informações para efeitos de verificação da identidade, controlo e investigações de segurança, no que respeita aos procedimentos na fronteira e aos pedidos de autorização de viagem e COM(2026)485 Proposta de DECISÃO DO CONSELHO relativa à celebração do Acordo-Quadro entre a União Europeia e os Estados Unidos da América sobre o intercâmbio recíproco de informações para efeitos de verificação da identidade, controlo e investigações de segurança, no que respeita aos procedimentos na fronteira e aos pedidos de autorização e de vistos - Relator: Dep. António Rodrigues (PSD).",
+   "resumo": "1. Distribuição de iniciativas e nomeação de relatores;\n 2. Distribuição de iniciativas europeias;\n 3. Apreciação e votação dos pareceres sobre as seguintes iniciativas europeias:\n a) COM(2026)681 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO EU KIDS ACT — Salvaguarda da Responsabili",
+   "ordemTrabalhos": "1. Distribuição de iniciativas e nomeação de relatores;\n 2. Distribuição de iniciativas europeias;\n 3. Apreciação e votação dos pareceres sobre as seguintes iniciativas europeias:\n a) COM(2026)681 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO EU KIDS ACT — Salvaguarda da Responsabilização e da Fiabilidade nos Espaços Digitais da Internet na UE – Relator: Dep. Paulo Lopes Marcelo (PSD);\n b) COM(2026)484 Proposta de DECISÃO DO CONSELHO relativa à assinatura e à aplicação provisória do Acordo-Quadro entre a União Europeia e os Estados Unidos da América sobre o intercâmbio recíproco de informações para efeitos de verificação da identidade, controlo e investigações de segurança, no que respeita aos procedimentos na fronteira e aos pedidos de autorização de viagem e COM(2026)485 Proposta de DECISÃO DO CONSELHO relativa à celebração do Acordo-Quadro entre a União Europeia e os Estados Unidos da América sobre o intercâmbio recíproco de informações para efeitos de verificação da identidade, controlo e investigações de segurança, no que respeita aos procedimentos na fronteira e aos pedidos de autorização e de vistos - Relator: Dep. António Rodrigues (PSD).",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx",
    "uo": [
     "DCIRI"
@@ -739,6 +727,35 @@
    "resumo": "Audição do Ministro da Presidência, no âmbito da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª – Orçamento do Estado para 2027 , nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçamento, Finan",
    "ordemTrabalhos": "Audição do Ministro da Presidência, no âmbito da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª – Orçamento do Estado para 2027 , nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçamento, Finanças e Administração Pública).",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx",
+   "uo": [
+    "DACDP",
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição do ministro» (Governo na AR → DACDP)"
+   ],
+   "validado": false
+  },
+  {
+   "id_ar": 48587,
+   "data": "2026-11-03",
+   "hora": "15h00",
+   "tema": "Comissão de Cultura, Comunicação, Juventude e Desporto",
+   "orgao": "Comissão de Cultura, Comunicação, Juventude e Desporto",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 57",
+   "resumo": "Audição do Ministro da Presidência no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
+   "ordemTrabalhos": "Audição do Ministro da Presidência no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/12CCCJD/Paginas/default.aspx",
    "uo": [
     "DACDP",
     "DAPL",
@@ -784,6 +801,33 @@
    "validado": false
   },
   {
+   "id_ar": 48591,
+   "data": "2026-11-05",
+   "hora": "09h00",
+   "tema": "Comissão de Trabalho, Segurança Social e Inclusão",
+   "orgao": "Comissão de Trabalho, Segurança Social e Inclusão",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 76",
+   "resumo": "Audição do Conselho Económico e Social, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 .\n [Em conjunto com a Comissão de Orçamento, Finanças e Administração Pública e a Comissão de Economia e Coesão Territorial]",
+   "ordemTrabalhos": "Audição do Conselho Económico e Social, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 .\n [Em conjunto com a Comissão de Orçamento, Finanças e Administração Pública e a Comissão de Economia e Coesão Territorial]",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx",
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "validado": false
+  },
+  {
    "id_ar": 48566,
    "data": "2026-11-05",
    "hora": "14h00",
@@ -809,6 +853,35 @@
     "«orçamento do estado» (UPE)",
     "«orçamento do estado» (transversal)",
     "«audição do ministro» (Governo na AR → DACDP)"
+   ],
+   "validado": false
+  },
+  {
+   "id_ar": 48590,
+   "data": "2026-11-06",
+   "hora": "09h00",
+   "tema": "Comissão de Trabalho, Segurança Social e Inclusão",
+   "orgao": "Comissão de Trabalho, Segurança Social e Inclusão",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 77",
+   "resumo": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 , ao abrigo do disposto no n.º 2 do artigo 211.º do RAR.\n [Em conjunto com ",
+   "ordemTrabalhos": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 , ao abrigo do disposto no n.º 2 do artigo 211.º do RAR.\n [Em conjunto com a Comissão de Orçamento, Finanças e Administração Pública]",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx",
+   "uo": [
+    "DACDP",
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição da ministra» (Governo na AR → DACDP)"
    ],
    "validado": false
   },

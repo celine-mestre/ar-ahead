@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48590@ar-preview
+DTSTAMP:20261029T141147Z
+DTSTART:20261106T090000Z
+DTEND:20261106T110000Z
+SUMMARY:AR · Comissão de Trabalho\, Segurança Social e Inclusão
+LOCATION:Assembleia da República
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 77\nGoverno: Ministr
+ a do Trabalho\, Solidariedade e Segurança Social\, Maria do Rosário Pal
+ ma Ramalho\nSíntese: Audição no âmbito da apreciação\, na especiali
+ dade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçament
+ o do Estado para 2027 \, ao…\nUnidades DSSD: DACDP\, DAPL\, Transversal
+ \, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/10CTSS
+ I/Paginas/default.aspx\nEmissões em direto (quando houver): https://cana
+ l.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\n
+ Hora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
