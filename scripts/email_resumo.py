@@ -1,12 +1,9 @@
-"""Corpo do email de segunda-feira: lista única das matérias imediatas e em vigilância, por ordem cronológica, gerada do mesmo
-dados/agenda.json que a página. Cada matéria leva:
-  - a etiqueta da unidade (ou «Transversal») a que se aplica;
-  - o membro do Governo presente e uma síntese muito curta da sessão (scripts/sintese.py; só texto publicado pela AR);
-  - ligação à página própria na AR (da matéria ou da comissão) só quando existe — a agenda geral não, porque o conteúdo
-    dela já vai no email;
-  - «adicionar ao calendário» (ficheiro .ics que o Outlook abre como evento) e, se houver ficha, o varrimento.
-As emissões não têm ligação própria antecipada: indica-se o Canal Parlamento.
-Logótipo da SGGov servido pela própria página (docs/logo-sggov-email.png); HTML simples com estilos em linha (Outlook).
+"""Corpo do email de segunda-feira do AR Preview, com o mesmo desenho do email do Radar de Notícias
+(cartão branco de 640 px, cabeçalho azul com o logótipo de anel branco fino, contagem em destaque,
+matérias agrupadas por dia e rodapé escuro). Gerado do mesmo dados/agenda.json que a página.
+Cada matéria leva: hora, comissão/tema, membro do Governo, síntese curta, etiquetas das unidades
+e as ligações que existirem (página na AR, varrimento, adicionar ao calendário).
+Logótipo servido pela própria página (docs/logo-sggov-email.png); HTML simples com estilos em linha (Outlook).
 Uso: PAGINA_URL=https://… python scripts/email_resumo.py dados/agenda.json [assunto.txt] > email.html"""
 import json, sys, html, os
 sys.path.insert(0, os.path.dirname(__file__))
@@ -19,74 +16,125 @@ ed = d['edicao']
 todos = [x for x in d['destaques'] + d['agenda'] if not x.get('retirado') and x['pertinencia'] in ('Imediato', 'Vigilância')]
 todos.sort(key=lambda x: (x['data'], x.get('hora') or '99'))
 e = html.escape
-F = "font-family:Arial,Helvetica,sans-serif;"
-LIG = "color:#2B5683;text-decoration:underline"
+nomes = d.get('unidades', {})
+DIAS = ['segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado', 'domingo']
+MESES = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
+
+def dia_extenso(iso):
+    import datetime
+    t = datetime.date.fromisoformat(iso)
+    return f'{DIAS[t.weekday()]}, {t.day} de {MESES[t.month - 1]}'
+
+def etiqueta(txt, cor, titulo=''):
+    return (f'<span title="{e(titulo)}" style="font:600 9px Arial,sans-serif;color:{cor};letter-spacing:.6px;text-transform:uppercase;'
+            f'border:1px solid {cor};border-radius:3px;padding:1px 5px;margin-right:5px">{e(txt)}</span>')
+
+def etiquetas(x):
+    """Etiqueta de cada unidade (ou «Transversal», que serve todas) a que a matéria se aplica."""
+    if 'Transversal' in x['uo']:
+        return etiqueta('Transversal', '#2B5683', 'todas as unidades da DSSD')
+    return ''.join(etiqueta(u, '#0E7433', nomes.get(u, '')) for u in ('DACDP', 'DAPL', 'UPE', 'DCIRI') if u in x['uo'])
 
 def linha(x):
     cor = '#D02117' if x['pertinencia'] == 'Imediato' else '#BE9C54'
     pag, rotulo = pagina_ar(x)
-    tema = f'<a href="{e(pag)}" style="color:#171715;text-decoration:none;font-weight:bold">{e(x["tema"])}</a>' if pag else f'<b>{e(x["tema"])}</b>'
+    tema = (f'<a href="{e(pag)}" style="font:600 14px Arial,sans-serif;color:#171715;text-decoration:none;line-height:1.4">{e(x["tema"])}</a>'
+            if pag else f'<span style="font:600 14px Arial,sans-serif;color:#171715;line-height:1.4">{e(x["tema"])}</span>')
+    novo = (' <span style="font:600 9px Arial,sans-serif;color:#6b5200;background:#fff4c2;border-radius:3px;padding:1px 5px;'
+            'letter-spacing:.6px;text-transform:uppercase">novo</span>') if x.get('novo') else ''
     gov, sin = membro_governo(x), sintese(x)
     info = ''
-    if gov: info += f'<br><span style="{F}font-size:12px;color:#171715"><span style="color:#666">Governo:</span> {e(gov)}</span>'
-    if sin: info += f'<br><span style="{F}font-size:12px;color:#555">{e(sin)}</span>'
+    if gov: info += f'<div style="font:400 12px Arial,sans-serif;color:#171715;padding-top:3px;line-height:1.45"><span style="color:#8a9098">Governo:</span> {e(gov)}</div>'
+    if sin: info += f'<div style="font:400 12px Arial,sans-serif;color:#5b6068;padding-top:3px;line-height:1.45">{e(sin)}</div>'
     extras = []
-    if pag: extras.append(f'<a href="{e(pag)}" style="{LIG}">{rotulo}</a>')
-    if x.get('varrimento') and url: extras.append(f'<a href="{e(url)}#{e(x["varrimento"])}" style="{LIG}">varrimento</a>')
+    L = 'color:#2B5683;text-decoration:underline'
+    if pag: extras.append(f'<a href="{e(pag)}" style="{L}">{rotulo}</a>')
+    if x.get('varrimento') and url: extras.append(f'<a href="{e(url)}#{e(x["varrimento"])}" style="{L}">varrimento</a>')
     elif x.get('varrimento'): extras.append('com varrimento')
-    if url and x.get('data'): extras.append(f'<a href="{e(url)}cal/{e(cal_nome(x))}" style="{LIG}">adicionar ao calendário</a>')
-    novo = ' <span style="background:#fff4c2;color:#6b5200;font-size:11px;padding:0 4px">novo</span>' if x.get('novo') else ''
-    mais = f'<br><span style="{F}font-size:11.5px;color:#666">{" · ".join(extras)}</span>' if extras else ''
-    return (f'<tr><td style="{F}font-size:12px;color:#555;padding:8px 10px 8px 0;white-space:nowrap;vertical-align:top;border-bottom:1px solid #eef0f3">{e(x["dataLabel"])}{" · " + e(x["hora"]) if x.get("hora") else ""}</td>'
-            f'<td style="{F}font-size:13px;padding:8px 0;vertical-align:top;border-bottom:1px solid #eef0f3"><span style="color:{cor};font-size:14px">&#9679;</span> {tema}{novo}{info}<br>{etiquetas(x)}{mais}</td></tr>')
+    if url and x.get('data'): extras.append(f'<a href="{e(url)}cal/{e(cal_nome(x))}" style="{L}">adicionar ao calendário</a>')
+    mais = f'<div style="font:400 11px Arial,sans-serif;color:#8a9098;padding-top:5px">{" · ".join(extras)}</div>' if extras else ''
+    return f'''    <tr><td style="padding:9px 24px;border-bottom:1px solid #f1f4f7">
+      <table width="100%" cellpadding="0" cellspacing="0" role="presentation"><tr>
+        <td width="52" valign="top" style="font:400 12px Arial,sans-serif;color:#5b6068;padding-top:2px">{e(x.get("hora") or "—")}</td>
+        <td width="14" valign="top" style="font:400 14px Arial,sans-serif;color:{cor};line-height:1.4">&#9679;</td>
+        <td valign="top">{tema}{novo}{info}
+          <div style="padding-top:5px">{etiquetas(x)}</div>{mais}
+        </td>
+      </tr></table>
+    </td></tr>'''
 
-nomes = d.get('unidades', {})
-def etiquetas(x):
-    """Etiqueta de cada unidade (ou «Transversal», que serve todas) a que a matéria se aplica."""
-    uos = ['Transversal'] if 'Transversal' in x['uo'] else [u for u in ('DACDP', 'DAPL', 'UPE', 'DCIRI') if u in x['uo']]
-    est = f'{F}display:inline-block;font-size:10.5px;font-weight:bold;padding:1px 6px;margin:3px 4px 0 0;border-radius:3px;'
-    return ''.join(
-        f'<span style="{est}background:#2B5683;color:#ffffff" title="todas as unidades da DSSD">Transversal</span>' if u == 'Transversal'
-        else f'<span style="{est}background:#e8eef5;color:#2B5683" title="{e(nomes.get(u, ""))}">{e(u)}</span>' for u in uos)
+def cab_dia(iso, n):
+    return f'''    <tr><td style="padding:16px 24px 4px">
+      <div style="font:600 10px Arial,sans-serif;color:#5b6068;letter-spacing:1.2px;text-transform:uppercase;border-bottom:1px solid #e2e8f0;padding-bottom:5px">{e(dia_extenso(iso))} · {n}</div>
+    </td></tr>'''
 
-# lista única, por ordem cronológica; a unidade de cada matéria vai em etiqueta
-corpo = (f'<tr><td><table cellpadding="0" cellspacing="0" style="width:100%">{"".join(linha(x) for x in todos)}</table></td></tr>') if todos else ''
-if not corpo:
-    corpo = f'<tr><td style="{F}font-size:13px;color:#555;padding:12px 0">Sem matérias imediatas ou em vigilância à data desta edição.</td></tr>'
+corpo = []
+for dia in sorted({x['data'] for x in todos}):
+    da = [x for x in todos if x['data'] == dia]
+    corpo.append(cab_dia(dia, len(da)))
+    corpo.extend(linha(x) for x in da)
+corpo = '\n'.join(corpo) if corpo else (
+    '    <tr><td style="padding:16px 24px;font:400 13px Arial,sans-serif;color:#5b6068">Sem matérias imediatas ou em vigilância à data desta edição.</td></tr>')
+
 n_ime = sum(1 for x in todos if x['pertinencia'] == 'Imediato'); n_vig = len(todos) - n_ime
 quando = ed.get('atualizadoLabel') or ed.get('fechoLabel', '')
 n_ed = f'edição n.º {ed["numero"]}' + (' (piloto)' if ed.get('estado') == 'piloto' else '')
+legenda = ' · '.join(f'<b style="color:#5b6068">{e(u)}</b> {e(nomes[u])}' for u in ('DACDP', 'DAPL', 'UPE', 'DCIRI') if nomes.get(u))
 
-# disco branco já desenhado na imagem (transparente à volta): fica redondo também no Outlook, que ignora border-radius
-logo = (f'<td style="width:46px;padding:0 12px 0 0;vertical-align:middle">'
-        f'<img src="{e(url)}logo-sggov-email.png" width="46" height="46" alt="SGGov" style="display:block;border:0;width:46px;height:46px"></td>') if url else ''
-legenda = ' · '.join(f'<b>{e(u)}</b> {e(nomes[u])}' for u in ('DACDP', 'DAPL', 'UPE', 'DCIRI') if nomes.get(u))
-b_preview = (f'<a href="{e(url)}" style="{F}display:inline-block;background:#FFD200;color:#171715;text-decoration:none;font-weight:bold;font-size:13px;padding:9px 16px;border-radius:6px;margin:0 8px 6px 0">Abrir o AR Preview</a>') if url else ''
-BT = f'{F}display:inline-block;background:#ffffff;color:#2B5683;text-decoration:none;font-weight:bold;font-size:13px;padding:8px 15px;border-radius:6px;border:1px solid #2B5683;margin:0 8px 6px 0'
-b_ar = f'<a href="{AGENDA_AR}" style="{BT}">Agenda parlamentar</a>'
-b_canal = f'<a href="{CANAL}" style="{BT}">Canal Parlamento (emissões)</a>'
-b_cal = f'<a href="{e(url)}cal/semana.ics" style="{BT}">Todas no calendário</a>' if url and todos else ''
+logo = (f'<td valign="middle" style="padding-right:14px"><img src="{e(url)}logo-sggov-email.png" width="40" height="40" '
+        f'alt="Secretaria-Geral do Governo" style="display:block;border:0"></td>') if url else ''
+BS = 'display:inline-block;font:600 13px Arial,sans-serif;text-decoration:none;padding:9px 16px;border-radius:6px;margin:0 6px 8px 0'
+botoes = ''
+if url: botoes += f'<a href="{e(url)}" style="{BS};background:#0E7433;color:#ffffff">Abrir o AR Preview</a>'
+if url and todos: botoes += f'<a href="{e(url)}cal/semana.ics" style="{BS};background:#ffffff;color:#2B5683;border:1px solid #2B5683">Todas no calendário</a>'
+botoes += f'<a href="{AGENDA_AR}" style="{BS};background:#ffffff;color:#2B5683;border:1px solid #2B5683">Agenda parlamentar</a>'
+botoes += f'<a href="{CANAL}" style="{BS};background:#ffffff;color:#2B5683;border:1px solid #2B5683">Canal Parlamento</a>'
 
 print(f'''<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<table cellpadding="0" cellspacing="0" style="width:100%;max-width:680px;border:1px solid #e3e6ea">
-<tr><td style="background:#1a3f6f;border-bottom:3px solid #D02117;padding:14px 18px">
-  <table cellpadding="0" cellspacing="0"><tr>{logo}<td style="vertical-align:middle">
-    <div style="{F}color:#dfe6ee;font-size:10.5px;letter-spacing:.06em">SECRETARIA-GERAL DO GOVERNO · SUPORTE À DECISÃO</div>
-    <div style="{F}color:#fff;font-size:20px;font-weight:bold;margin-top:2px">AR Preview</div>
-  </td></tr></table>
-  <div style="{F}color:#FFD200;font-size:14px;font-weight:bold;margin-top:8px">{e(ed["semana"])}</div>
-  <div style="{F}color:#dfe6ee;font-size:11.5px;margin-top:4px">A semana na Assembleia da República · {n_ed} · atualizada a {e(quando)}</div>
-</td></tr>
-<tr><td style="padding:12px 18px 4px">
-  <div style="{F}font-size:13px;color:#171715"><b style="color:#D02117">{n_ime}</b> matérias imediatas e <b style="color:#BE9C54">{n_vig}</b> em vigilância para as unidades da DSSD; {len(d.get("fichas", {}))} com ficha de varrimento.</div>
-  {f'<div style="{F}font-size:11px;color:#666;margin-top:6px">{legenda}</div>' if legenda else ''}
-</td></tr>
-<tr><td style="padding:0 18px"><table cellpadding="0" cellspacing="0" style="width:100%">{corpo}</table></td></tr>
-<tr><td style="padding:16px 18px">{b_preview}{b_cal}{b_ar}{b_canal}
-  <div style="{F}font-size:11.5px;color:#666;margin-top:10px">Calendário, cartões e fichas de varrimento na página do AR Preview, atualizada diariamente; o PDF segue em anexo. «Adicionar ao calendário» abre o evento no Outlook (hora de fim indicativa). As emissões em direto, quando as há, estão no Canal Parlamento. A agenda da Assembleia da República pode mudar depois desta edição. Pedidos de varrimento adicionais: <a href="mailto:upe@sggoverno.gov.pt?subject=AR%20Preview%20%E2%80%94%20pedido%20de%20varrimento" style="color:#2B5683">upe@sggoverno.gov.pt</a>.</div>
-</td></tr>
-<tr><td style="background:#0E7433;border-top:3px solid #D02117;padding:8px 18px;{F}font-size:11px;color:#e9f2ec">Secretaria-Geral do Governo · Suporte à Decisão</td></tr>
-</table>''')
+<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#f4f6f8">
+<tr><td align="center" style="padding:24px 12px">
+
+<table width="640" cellpadding="0" cellspacing="0" role="presentation" style="max-width:640px;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(23,23,21,.08)">
+
+  <tr><td style="background:#2B5683;padding:20px 24px">
+    <table cellpadding="0" cellspacing="0" role="presentation"><tr>
+      {logo}
+      <td valign="middle">
+        <div style="font:600 10px Arial,sans-serif;color:#ffffff;opacity:.8;letter-spacing:1.4px;text-transform:uppercase">Secretaria-Geral do Governo</div>
+        <div style="font:600 20px Arial,sans-serif;color:#ffffff;padding-top:5px">AR Preview</div>
+        <div style="font:400 13px Arial,sans-serif;color:#ffffff;opacity:.85;padding-top:4px">{e(ed["semana"])} · {n_ed} · atualizada a {e(quando)}</div>
+      </td>
+    </tr></table>
+  </td></tr>
+
+  <tr><td style="padding:16px 24px 12px;background:#fbfcfd;border-bottom:1px solid #e2e8f0">
+    <span style="font:600 24px Arial,sans-serif;color:#0E7433">{len(todos)}</span>
+    <span style="font:400 13px Arial,sans-serif;color:#5b6068">matérias para as unidades da DSSD:
+      <b style="color:#D02117">{n_ime}</b> imediatas, <b style="color:#BE9C54">{n_vig}</b> em vigilância; {len(d.get("fichas", {}))} com ficha de varrimento</span>
+    {f'<div style="font:400 11px Arial,sans-serif;color:#8a9098;padding-top:6px;line-height:1.5">{legenda}</div>' if legenda else ''}
+  </td></tr>
+
+{corpo}
+
+  <tr><td align="center" style="padding:22px 24px 18px">
+    <div style="font:400 13px Arial,sans-serif;color:#5b6068;line-height:1.55;padding-bottom:12px">
+      Calendário, cartões e fichas de varrimento estão na página do AR Preview, atualizada diariamente; o PDF segue em anexo.</div>
+    {botoes}
+    <div style="font:400 11px Arial,sans-serif;color:#8a9098;padding-top:6px;line-height:1.5">«Adicionar ao calendário» descarrega o evento para o Outlook (hora de fim indicativa).
+      As emissões em direto, quando as há, estão no Canal Parlamento. A agenda da Assembleia da República pode mudar depois desta edição.</div>
+  </td></tr>
+
+  <tr><td style="padding:18px 24px;background:#171715">
+    <div style="font:400 11px Arial,sans-serif;color:#ffffff;opacity:.85;line-height:1.6">
+      Direção de Serviços de Suporte à Decisão · Unidade de Pesquisa e Estatísticas<br>
+      Pedidos de varrimento adicionais:
+      <a href="mailto:upe@sggoverno.gov.pt?subject=AR%20Preview%20%E2%80%94%20pedido%20de%20varrimento" style="color:#ffffff;text-decoration:underline">upe@sggoverno.gov.pt</a><br>
+      Agenda recolhida dos dados publicados pela Assembleia da República. A leitura e a verificação são de quem recebe.
+    </div>
+  </td></tr>
+
+</table>
+</td></tr></table>''')
 
 # assunto do email (usado pelo envio): «AR Preview n.º N · semana»
 if len(sys.argv) > 2:

@@ -143,11 +143,11 @@ Actions › AR Preview › Run workflow, com o passo `atualizar` (recolha e publ
 
 - O repositório é **público**. A página tem `noindex`, para não aparecer nos motores de pesquisa, mas abre para qualquer pessoa com o endereço, e todo o conteúdo do repositório (dados, regras, histórico) é legível.
 - A atribuição às unidades e o varrimento são indicativos e estão sujeitos a validação. O varrimento é amostral e não exaustivo.
-- **Email de segunda-feira.** Remetente «AR Preview»; assunto «AR Preview n.º N · semana — agenda da Assembleia da República». Lista única por data e hora (sem secções por unidade); cada matéria leva:
+- **Email de segunda-feira.** Remetente «AR Preview»; assunto «AR Preview n.º N · semana — agenda da Assembleia da República». Mesmo desenho do email do Radar de Notícias (cartão branco, cabeçalho azul, contagem em destaque, rodapé escuro); matérias agrupadas por dia e ordenadas por hora (sem secções por unidade); cada matéria leva:
   - a etiqueta da unidade ou «Transversal»;
   - o membro do Governo presente e uma síntese muito curta, tirados da ordem de trabalhos publicada pela AR (nada é inferido; no Plenário, quando a AR atribui tempo ao Governo, aparece «Governo (intervenção prevista)»);
   - a página da comissão ou da matéria na AR, só quando existe — a agenda geral não, porque o conteúdo dela já vai no email;
   - «adicionar ao calendário», um ficheiro .ics que o Outlook abre como evento (hora de fim indicativa: 2 horas); o botão «Todas no calendário» junta as matérias da semana.
   As emissões não têm ligação própria antecipada: o email indica o Canal Parlamento (canal.parlamento.pt).
-- O email usa o logótipo publicado em `docs/logo-sggov-email.png` (com o disco branco desenhado na imagem, para ficar redondo também no Outlook): os programas de email não mostram imagens embebidas no próprio HTML.
+- O email usa o logótipo publicado em `docs/logo-sggov-email.png` (o mesmo do Radar de Notícias, com anel branco fino desenhado na imagem, para ficar redondo também no Outlook): os programas de email não mostram imagens embebidas no próprio HTML.
 - `scripts/importar_html_antigo.py` converteu a edição piloto (HTML original) para JSON.
