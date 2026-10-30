@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48587@ar-preview
-DTSTAMP:20261030T140050Z
+DTSTAMP:20261030T171952Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Cultura\, Comunicação\, Juventude e Desporto
@@ -17,8 +17,8 @@ DESCRIPTION:Comissões Parlamentares · Reunião n.º 57 · Plenário\nGov
  Aprova o Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Tr
  ansversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIIL
  eg/12CCCJD/Paginas/default.aspx\nEmissões em direto (quando houver): htt
- ps://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar
- -ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
+ ps://canal.parlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-pre
+ view/\nHora de fim indicativa\; a agenda da AR pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/12CCCJD/Paginas/default.as
  px
 TRANSP:TRANSPARENT

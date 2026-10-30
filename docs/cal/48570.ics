@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48570@ar-preview
-DTSTAMP:20261030T140050Z
+DTSTAMP:20261030T171952Z
 DTSTART:20261103T143000Z
 DTEND:20261103T163000Z
 SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
@@ -17,8 +17,8 @@ DESCRIPTION:Comissões Parlamentares · Reunião n.º 108\nSíntese: Distr
  iciativas europeias\nUnidades DSSD: DCIRI\nPágina na AR: https://www.par
  lamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx\nEmissões em d
  ireto (quando houver): https://canal.parlamento.pt/\nAR Preview: https://
- celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da A
- R pode mudar.
+ upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda da AR 
+ pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.as
  px
 TRANSP:TRANSPARENT

@@ -1,7 +1,7 @@
 {
  "inicio": "2026-11-02",
  "fim": "2026-11-08",
- "recolha": "2026-10-30T13:59",
+ "recolha": "2026-10-30T17:18",
  "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
   {
@@ -65,6 +65,21 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/11CAEne/Paginas/default.aspx"
   },
   {
+   "id_ar": 48611,
+   "data": "2026-11-03",
+   "hora": "09h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 133 · Plenário",
+   "resumo": "Audição da Ministra do Ambiente e Energia no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Ambiente e Energia – Maria da Graça Carvalho\n Secretário de Estado Adjunto e da Energia – Jean Barroca\n Secretário de Estado do",
+   "ordemTrabalhos": "Audição da Ministra do Ambiente e Energia no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Ambiente e Energia – Maria da Graça Carvalho\n Secretário de Estado Adjunto e da Energia – Jean Barroca\n Secretário de Estado do Ambiente – João Manuel Esteves",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
    "id_ar": 48570,
    "data": "2026-11-03",
    "hora": "14h30",
@@ -108,6 +123,51 @@
    "resumo": "Audição do Ministro da Presidência no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "ordemTrabalhos": "Audição do Ministro da Presidência no âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027.\n (conjunta com a Comissão de Orçamento, Finanças e Administração Pública)",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/12CCCJD/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48605,
+   "data": "2026-11-03",
+   "hora": "15h00",
+   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "orgao": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 49",
+   "resumo": "Audição do Primeiro Vice-Presidente do Parlamento Iraquiano, Senhor Adnan Fayhan Al-Dulaimi e da sua delegação.",
+   "ordemTrabalhos": "Audição do Primeiro Vice-Presidente do Parlamento Iraquiano, Senhor Adnan Fayhan Al-Dulaimi e da sua delegação.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48610,
+   "data": "2026-11-03",
+   "hora": "15h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 134 · Plenário",
+   "resumo": "Audição do Ministro da Presidência no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Presidência – Margarida Balseiro Lopes\n Secretário de Estado Adjunto e da Presidência e Imigração – Rui Armindo Freitas\n Secretário de",
+   "ordemTrabalhos": "Audição do Ministro da Presidência no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Presidência – Margarida Balseiro Lopes\n Secretário de Estado Adjunto e da Presidência e Imigração – Rui Armindo Freitas\n Secretário de Estado da Presidência do Conselho de Ministros – Tiago Macieirinha\n Secretário de Estado da Presidência – João Valle e Azevedo",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48606,
+   "data": "2026-11-03",
+   "hora": "16h00",
+   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "orgao": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 50",
+   "resumo": "Audição do Grupo Parlamentar de Amizade México-Portugal.",
+   "ordemTrabalhos": "Audição do Grupo Parlamentar de Amizade México-Portugal.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
   },
   {
    "id_ar": 48568,

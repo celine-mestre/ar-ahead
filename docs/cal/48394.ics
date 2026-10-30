@@ -6,16 +6,16 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48394@ar-preview
-DTSTAMP:20261030T140050Z
+DTSTAMP:20261030T171952Z
 DTSTART:20261125T110000Z
 DTEND:20261125T130000Z
 SUMMARY:AR · Plenário — Sessão Solene Evocativa do 25 de novembro de 
  1975 Tempos: 2m30s para cada DURP e 5m30s para cada Grupo Parlam
 LOCATION:Assembleia da República · Sala das Sessões
 DESCRIPTION:Plenário · Reunião n.º 22 · Plenário\nEmissões em diret
- o (quando houver): https://canal.parlamento.pt/\nAR Preview: https://celi
- ne-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR po
- de mudar.
+ o (quando houver): https://canal.parlamento.pt/\nAR Preview: https://upe-
+ sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda da AR pode
+  mudar.
 URL:https://canal.parlamento.pt/
 TRANSP:TRANSPARENT
 END:VEVENT

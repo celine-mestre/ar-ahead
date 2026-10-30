@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48595@ar-preview
-DTSTAMP:20261030T140050Z
+DTSTAMP:20261030T171952Z
 DTSTART:20261103T090000Z
 DTEND:20261103T110000Z
 SUMMARY:AR · Comissão de Ambiente e Energia
@@ -18,8 +18,8 @@ DESCRIPTION:Comissões Parlamentares · Reunião n.º 61 · Plenário\nGov
  os…\nUnidades DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: ht
  tps://www.parlamento.pt/sites/com/XVIILeg/11CAEne/Paginas/default.aspx\nE
  missões em direto (quando houver): https://canal.parlamento.pt/\nAR Prev
- iew: https://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; 
- a agenda da AR pode mudar.
+ iew: https://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a 
+ agenda da AR pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/11CAEne/Paginas/default.as
  px
 TRANSP:TRANSPARENT

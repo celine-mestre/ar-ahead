@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48566@ar-preview
-DTSTAMP:20261030T140050Z
+DTSTAMP:20261030T171952Z
 DTSTART:20261105T140000Z
 DTEND:20261105T160000Z
 SUMMARY:AR · Comissão de Defesa Nacional
@@ -17,8 +17,8 @@ DESCRIPTION:Comissões Parlamentares · Reunião n.º 50\nGoverno: Ministr
   Orçamento do Estado para 2027\, nos…\nUnidades DSSD: DACDP\, DAPL\, T
  ransversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVII
  Leg/3CDN/Paginas/default.aspx\nEmissões em direto (quando houver): https
- ://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-a
- head/\nHora de fim indicativa\; a agenda da AR pode mudar.
+ ://canal.parlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-previ
+ ew/\nHora de fim indicativa\; a agenda da AR pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/3CDN/Paginas/default.aspx
 TRANSP:TRANSPARENT
 END:VEVENT

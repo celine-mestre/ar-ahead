@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48590@ar-preview
-DTSTAMP:20261030T140050Z
+DTSTAMP:20261030T171952Z
 DTSTART:20261106T090000Z
 DTEND:20261106T110000Z
 SUMMARY:AR · Comissão de Trabalho\, Segurança Social e Inclusão
@@ -18,8 +18,8 @@ DESCRIPTION:Comissões Parlamentares · Reunião n.º 77\nGoverno: Ministr
  o do Estado para 2027 \, ao…\nUnidades DSSD: DACDP\, DAPL\, Transversal
  \, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/10CTSS
  I/Paginas/default.aspx\nEmissões em direto (quando houver): https://cana
- l.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\n
- Hora de fim indicativa\; a agenda da AR pode mudar.
+ l.parlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-preview/\nHo
+ ra de fim indicativa\; a agenda da AR pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.as
  px
 TRANSP:TRANSPARENT

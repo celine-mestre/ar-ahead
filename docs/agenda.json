@@ -45,34 +45,58 @@
    "ligacoes": [],
    "varrimento": "2026-11-18-plen-rio-debate-na-especialidade-do-or",
    "cobertura": {
-    "n": 1132,
-    "n7": 159,
+    "n": 1136,
+    "n7": 163,
     "n7ant": 71,
     "dias": 60,
     "ref": "2026-10-30",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 10:53",
+    "ultima": "2026-10-30 15:47",
     "ultimas": [
      {
       "data": "2026-10-30",
-      "fonte": "Notícias ao Minuto",
-      "titulo": "PCP acusa Governo de agravar crise da saúde e da habitação com OE2027",
-      "url": "https://www.noticiasaominuto.com/politica/3075663/pcp-acusa-governo-de-agravar-crise-da-saude-e-da-habitacao-com-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
      },
      {
       "data": "2026-10-30",
-      "fonte": "RTP Notícias",
-      "titulo": "Situação de freguesias com corte no financiamento deve ficar corrigida na especialidade",
-      "url": "https://www.rtp.pt/noticias/politica/situacao-de-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-na-especialidade_n1775502"
+      "fonte": "Público",
+      "titulo": "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "url": "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      },
      {
       "data": "2026-10-30",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Situação das freguesias com corte no financiamento deve ficar corrigida – Ministro",
-      "url": "https://executivedigest.sapo.pt/oe2027-situacao-das-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-ministro/"
+      "titulo": "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "url": "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 15:47",
+      "Diário de Notícias",
+      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
+     ],
+     [
+      "2026-10-30 13:34",
+      "Público",
+      "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, garante MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-mai/"
+     ],
      [
       "2026-10-30 10:53",
       "Notícias ao Minuto",
@@ -2448,30 +2472,6 @@
       "Jornal Económico",
       "OE2027: Propinas finalmente descongeladas, mas há diferenças",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-propinas-finalmente-descongeladas/"
-     ],
-     [
-      "2026-10-09 12:50",
-      "Executive Digest",
-      "OE2027: Primeiro-ministro anuncia aumento de exportações e afasta problema com despesa",
-      "https://executivedigest.sapo.pt/oe2027-primeiro-ministro-anuncia-aumento-de-exportacoes-e-afasta-problema-com-despesa/"
-     ],
-     [
-      "2026-10-09 12:32",
-      "Notícias ao Minuto",
-      "Livre propõe reduzir IVA de 23% para 21% no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064124/oe2027-livre-vai-propor-baixa-do-iva-para-21-montenegro-diz-que-agudizara-problemas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Críticas a Mário Centeno assumidas pela voz de Paulo Núncio",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Estado deve ser o \"primeiro cliente das startups\", diz associação de empresários",
-      "http://dinheirovivo.dn.pt/economia/oe2027-estado-deve-ser-o-primeiro-cliente-das-startups-diz-associao-de-empresrios"
      ]
     ]
    },
@@ -2511,34 +2511,58 @@
    "ligacoes": [],
    "varrimento": "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1132,
-    "n7": 159,
+    "n": 1136,
+    "n7": 163,
     "n7ant": 71,
     "dias": 60,
     "ref": "2026-10-30",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 10:53",
+    "ultima": "2026-10-30 15:47",
     "ultimas": [
      {
       "data": "2026-10-30",
-      "fonte": "Notícias ao Minuto",
-      "titulo": "PCP acusa Governo de agravar crise da saúde e da habitação com OE2027",
-      "url": "https://www.noticiasaominuto.com/politica/3075663/pcp-acusa-governo-de-agravar-crise-da-saude-e-da-habitacao-com-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
      },
      {
       "data": "2026-10-30",
-      "fonte": "RTP Notícias",
-      "titulo": "Situação de freguesias com corte no financiamento deve ficar corrigida na especialidade",
-      "url": "https://www.rtp.pt/noticias/politica/situacao-de-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-na-especialidade_n1775502"
+      "fonte": "Público",
+      "titulo": "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "url": "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      },
      {
       "data": "2026-10-30",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Situação das freguesias com corte no financiamento deve ficar corrigida – Ministro",
-      "url": "https://executivedigest.sapo.pt/oe2027-situacao-das-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-ministro/"
+      "titulo": "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "url": "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 15:47",
+      "Diário de Notícias",
+      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
+     ],
+     [
+      "2026-10-30 13:34",
+      "Público",
+      "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, garante MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-mai/"
+     ],
      [
       "2026-10-30 10:53",
       "Notícias ao Minuto",
@@ -4914,30 +4938,6 @@
       "Jornal Económico",
       "OE2027: Propinas finalmente descongeladas, mas há diferenças",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-propinas-finalmente-descongeladas/"
-     ],
-     [
-      "2026-10-09 12:50",
-      "Executive Digest",
-      "OE2027: Primeiro-ministro anuncia aumento de exportações e afasta problema com despesa",
-      "https://executivedigest.sapo.pt/oe2027-primeiro-ministro-anuncia-aumento-de-exportacoes-e-afasta-problema-com-despesa/"
-     ],
-     [
-      "2026-10-09 12:32",
-      "Notícias ao Minuto",
-      "Livre propõe reduzir IVA de 23% para 21% no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064124/oe2027-livre-vai-propor-baixa-do-iva-para-21-montenegro-diz-que-agudizara-problemas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Críticas a Mário Centeno assumidas pela voz de Paulo Núncio",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Estado deve ser o \"primeiro cliente das startups\", diz associação de empresários",
-      "http://dinheirovivo.dn.pt/economia/oe2027-estado-deve-ser-o-primeiro-cliente-das-startups-diz-associao-de-empresrios"
      ]
     ]
    },
@@ -4977,34 +4977,58 @@
    "ligacoes": [],
    "varrimento": "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1132,
-    "n7": 159,
+    "n": 1136,
+    "n7": 163,
     "n7ant": 71,
     "dias": 60,
     "ref": "2026-10-30",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 10:53",
+    "ultima": "2026-10-30 15:47",
     "ultimas": [
      {
       "data": "2026-10-30",
-      "fonte": "Notícias ao Minuto",
-      "titulo": "PCP acusa Governo de agravar crise da saúde e da habitação com OE2027",
-      "url": "https://www.noticiasaominuto.com/politica/3075663/pcp-acusa-governo-de-agravar-crise-da-saude-e-da-habitacao-com-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
      },
      {
       "data": "2026-10-30",
-      "fonte": "RTP Notícias",
-      "titulo": "Situação de freguesias com corte no financiamento deve ficar corrigida na especialidade",
-      "url": "https://www.rtp.pt/noticias/politica/situacao-de-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-na-especialidade_n1775502"
+      "fonte": "Público",
+      "titulo": "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "url": "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      },
      {
       "data": "2026-10-30",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Situação das freguesias com corte no financiamento deve ficar corrigida – Ministro",
-      "url": "https://executivedigest.sapo.pt/oe2027-situacao-das-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-ministro/"
+      "titulo": "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "url": "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 15:47",
+      "Diário de Notícias",
+      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
+     ],
+     [
+      "2026-10-30 13:34",
+      "Público",
+      "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, garante MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-mai/"
+     ],
      [
       "2026-10-30 10:53",
       "Notícias ao Minuto",
@@ -7380,30 +7404,6 @@
       "Jornal Económico",
       "OE2027: Propinas finalmente descongeladas, mas há diferenças",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-propinas-finalmente-descongeladas/"
-     ],
-     [
-      "2026-10-09 12:50",
-      "Executive Digest",
-      "OE2027: Primeiro-ministro anuncia aumento de exportações e afasta problema com despesa",
-      "https://executivedigest.sapo.pt/oe2027-primeiro-ministro-anuncia-aumento-de-exportacoes-e-afasta-problema-com-despesa/"
-     ],
-     [
-      "2026-10-09 12:32",
-      "Notícias ao Minuto",
-      "Livre propõe reduzir IVA de 23% para 21% no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064124/oe2027-livre-vai-propor-baixa-do-iva-para-21-montenegro-diz-que-agudizara-problemas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Críticas a Mário Centeno assumidas pela voz de Paulo Núncio",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Estado deve ser o \"primeiro cliente das startups\", diz associação de empresários",
-      "http://dinheirovivo.dn.pt/economia/oe2027-estado-deve-ser-o-primeiro-cliente-das-startups-diz-associao-de-empresrios"
      ]
     ]
    },
@@ -7443,34 +7443,58 @@
    "ligacoes": [],
    "varrimento": "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1132,
-    "n7": 159,
+    "n": 1136,
+    "n7": 163,
     "n7ant": 71,
     "dias": 60,
     "ref": "2026-10-30",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 10:53",
+    "ultima": "2026-10-30 15:47",
     "ultimas": [
      {
       "data": "2026-10-30",
-      "fonte": "Notícias ao Minuto",
-      "titulo": "PCP acusa Governo de agravar crise da saúde e da habitação com OE2027",
-      "url": "https://www.noticiasaominuto.com/politica/3075663/pcp-acusa-governo-de-agravar-crise-da-saude-e-da-habitacao-com-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
      },
      {
       "data": "2026-10-30",
-      "fonte": "RTP Notícias",
-      "titulo": "Situação de freguesias com corte no financiamento deve ficar corrigida na especialidade",
-      "url": "https://www.rtp.pt/noticias/politica/situacao-de-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-na-especialidade_n1775502"
+      "fonte": "Público",
+      "titulo": "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "url": "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      },
      {
       "data": "2026-10-30",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Situação das freguesias com corte no financiamento deve ficar corrigida – Ministro",
-      "url": "https://executivedigest.sapo.pt/oe2027-situacao-das-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-ministro/"
+      "titulo": "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "url": "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 15:47",
+      "Diário de Notícias",
+      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
+     ],
+     [
+      "2026-10-30 13:34",
+      "Público",
+      "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, garante MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-mai/"
+     ],
      [
       "2026-10-30 10:53",
       "Notícias ao Minuto",
@@ -9846,30 +9870,6 @@
       "Jornal Económico",
       "OE2027: Propinas finalmente descongeladas, mas há diferenças",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-propinas-finalmente-descongeladas/"
-     ],
-     [
-      "2026-10-09 12:50",
-      "Executive Digest",
-      "OE2027: Primeiro-ministro anuncia aumento de exportações e afasta problema com despesa",
-      "https://executivedigest.sapo.pt/oe2027-primeiro-ministro-anuncia-aumento-de-exportacoes-e-afasta-problema-com-despesa/"
-     ],
-     [
-      "2026-10-09 12:32",
-      "Notícias ao Minuto",
-      "Livre propõe reduzir IVA de 23% para 21% no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064124/oe2027-livre-vai-propor-baixa-do-iva-para-21-montenegro-diz-que-agudizara-problemas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Críticas a Mário Centeno assumidas pela voz de Paulo Núncio",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Estado deve ser o \"primeiro cliente das startups\", diz associação de empresários",
-      "http://dinheirovivo.dn.pt/economia/oe2027-estado-deve-ser-o-primeiro-cliente-das-startups-diz-associao-de-empresrios"
      ]
     ]
    },
@@ -9909,34 +9909,58 @@
    "ligacoes": [],
    "varrimento": "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1132,
-    "n7": 159,
+    "n": 1136,
+    "n7": 163,
     "n7ant": 71,
     "dias": 60,
     "ref": "2026-10-30",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 10:53",
+    "ultima": "2026-10-30 15:47",
     "ultimas": [
      {
       "data": "2026-10-30",
-      "fonte": "Notícias ao Minuto",
-      "titulo": "PCP acusa Governo de agravar crise da saúde e da habitação com OE2027",
-      "url": "https://www.noticiasaominuto.com/politica/3075663/pcp-acusa-governo-de-agravar-crise-da-saude-e-da-habitacao-com-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
+      "fonte": "Diário de Notícias",
+      "titulo": "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
      },
      {
       "data": "2026-10-30",
-      "fonte": "RTP Notícias",
-      "titulo": "Situação de freguesias com corte no financiamento deve ficar corrigida na especialidade",
-      "url": "https://www.rtp.pt/noticias/politica/situacao-de-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-na-especialidade_n1775502"
+      "fonte": "Público",
+      "titulo": "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "url": "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      },
      {
       "data": "2026-10-30",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Situação das freguesias com corte no financiamento deve ficar corrigida – Ministro",
-      "url": "https://executivedigest.sapo.pt/oe2027-situacao-das-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-ministro/"
+      "titulo": "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "url": "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 15:47",
+      "Diário de Notícias",
+      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
+     ],
+     [
+      "2026-10-30 13:34",
+      "Público",
+      "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, diz MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-diz-mai/"
+     ],
+     [
+      "2026-10-30 13:10",
+      "Executive Digest",
+      "OE2027: Brigada de Trânsito deverá começar nos primeiros meses de 2027, garante MAI",
+      "https://executivedigest.sapo.pt/oe2027-brigada-de-transito-devera-comecar-nos-primeiros-meses-de-2027-mai/"
+     ],
      [
       "2026-10-30 10:53",
       "Notícias ao Minuto",
@@ -12312,30 +12336,6 @@
       "Jornal Económico",
       "OE2027: Propinas finalmente descongeladas, mas há diferenças",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-propinas-finalmente-descongeladas/"
-     ],
-     [
-      "2026-10-09 12:50",
-      "Executive Digest",
-      "OE2027: Primeiro-ministro anuncia aumento de exportações e afasta problema com despesa",
-      "https://executivedigest.sapo.pt/oe2027-primeiro-ministro-anuncia-aumento-de-exportacoes-e-afasta-problema-com-despesa/"
-     ],
-     [
-      "2026-10-09 12:32",
-      "Notícias ao Minuto",
-      "Livre propõe reduzir IVA de 23% para 21% no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064124/oe2027-livre-vai-propor-baixa-do-iva-para-21-montenegro-diz-que-agudizara-problemas#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Críticas a Mário Centeno assumidas pela voz de Paulo Núncio",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-ventura-diz-que-montenegro-no-tem-grande-qualidade-para-ser-primeiro-ministro"
-     ],
-     [
-      "2026-10-09 12:25",
-      "Diário de Notícias",
-      "OE2027: Estado deve ser o \"primeiro cliente das startups\", diz associação de empresários",
-      "http://dinheirovivo.dn.pt/economia/oe2027-estado-deve-ser-o-primeiro-cliente-das-startups-diz-associao-de-empresrios"
      ]
     ]
    },
@@ -12524,11 +12524,19 @@
   "fim": "2026-11-08",
   "fecho": "2026-10-30",
   "fechoLabel": "30 de outubro de 2026",
-  "alteracoes": [],
-  "atualizado": "2026-10-30T13:59+00:00",
-  "atualizadoLabel": "30 de outubro, 13h59",
+  "alteracoes": [
+   {
+    "data": "2026-10-30",
+    "novos": 4,
+    "alterados": 0,
+    "retirados": 0
+   }
+  ],
+  "atualizado": "2026-10-30T17:18+00:00",
+  "atualizadoLabel": "30 de outubro, 17h18",
   "estado": "com triagem automática",
-  "aviso": "12 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números."
+  "aviso": "16 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números.",
+  "desdeLabel": "30 de outubro"
  },
  "fichas": {
   "2026-11-18-plen-rio-debate-na-especialidade-do-or": {
@@ -12570,9 +12578,9 @@
     },
     {
      "data": "2026-10-06",
-     "fonte": "Público",
-     "url": "https://www.publico.pt/2026/10/06/politica/noticia/ps-admite-mudar-viabilizacao-oe2027-medidas-surpresa-gravosas-2190485",
-     "sintese": "PS admite mudar viabilização do OE2027 se este tiver “medidas surpresa” gravosas | Orçamento do Estado 2027",
+     "fonte": "Expresso",
+     "url": "https://expresso.pt/iniciativaseprodutos/projetos-expresso/2026-10-06-o-que-pode-mudar-no-irs-com-o-orcamento-do-estado-para-2027--e827c5aa",
+     "sintese": "O que pode mudar no IRS com o Orçamento do Estado para 2027?",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12597,9 +12605,9 @@
     },
     {
      "data": "2026-10-08",
-     "fonte": "Expresso",
-     "url": "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-psd-espera-tranquilidade-e-previsibilidade-com-o-oe2027-mas-ps-avisa-que-compromissos-sao-para-cumprir-ab421b1d",
-     "sintese": "PSD espera \"tranquilidade\" e \"previsibilidade\" com o OE2027, mas PS avisa que \"compromissos são para cumprir\"",
+     "fonte": "CNN Portugal",
+     "url": "https://cnnportugal.iol.pt/videos/orcamento-do-estado-para-2027-e-minimalista-e-tenta-passar-entre-os-pingos-da-chuva/6ac817700cf20dc52779187d",
+     "sintese": "Orçamento do Estado para 2027 \"é minimalista e tenta passar entre os pingos da chuva\"",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12642,9 +12650,9 @@
     },
     {
      "data": "2026-10-23",
-     "fonte": "CNN Portugal",
-     "url": "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b",
-     "sintese": "José Luís Carneiro justifica viabilização do \"mau\" OE2027 com crises em Portugal e no estrangeiro",
+     "fonte": "Observador",
+     "url": "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/",
+     "sintese": "OE2027. Carneiro justifica viabilização com crises mundiais",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12660,9 +12668,9 @@
     },
     {
      "data": "2026-10-26",
-     "fonte": "Diário de Notícias",
-     "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal",
-     "sintese": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/",
+     "sintese": "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12696,27 +12704,27 @@
     },
     {
      "data": "2026-10-29",
-     "fonte": "Observador",
-     "url": "https://observador.pt/2026/10/29/oe2027-governo-nega-turismo-em-excesso-e-diz-que-aumento-em-valor-e-necessario/",
-     "sintese": "OE2027: Governo nega turismo em excesso e diz que aumento em valor é necessário",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-30",
-     "fonte": "Executive Digest",
-     "url": "https://executivedigest.sapo.pt/oe2027-situacao-das-freguesias-com-corte-no-financiamento-deve-ficar-corrigida-ministro/",
-     "sintese": "OE2027: Situação das freguesias com corte no financiamento deve ficar corrigida – Ministro",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
-     "data": "2026-10-30",
      "fonte": "Notícias ao Minuto",
-     "url": "https://www.noticiasaominuto.com/politica/3075663/pcp-acusa-governo-de-agravar-crise-da-saude-e-da-habitacao-com-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-     "sintese": "PCP acusa Governo de agravar crise da saúde e da habitação com OE2027",
+     "url": "https://www.noticiasaominuto.com/pais/3075446/oe2027-decisao-da-galp-e-soberana-e-governo-cumpriu-o-seu-papel-castro-almeida#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+     "sintese": "OE2027: Decisão da Galp \"é soberana\" e Governo cumpriu o seu papel",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-30",
+     "fonte": "Público",
+     "url": "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193",
+     "sintese": "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-30",
+     "fonte": "Diário de Notícias",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories",
+     "sintese": "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12724,14 +12732,14 @@
    ],
    "amostra": {
     "analisadas": 20,
-    "encontradas": 1132
+    "encontradas": 1136
    },
    "base": {
-    "ultima": "2026-10-30 10:53",
+    "ultima": "2026-10-30 15:47",
     "em": "2026-10-30"
    },
    "novas": 0,
-   "enquadramento": "Seleção automática de 20 das 1132 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (159 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "enquadramento": "Seleção automática de 20 das 1136 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (163 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos": {
    "titulo": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
@@ -12932,7 +12940,7 @@
     "ultima": "2026-10-28 12:37",
     "em": "2026-10-28"
    },
-   "novas": 64,
+   "novas": 67,
    "enquadramento": "Seleção automática de 20 das 1059 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (125 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -13134,7 +13142,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 150,
+   "novas": 153,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -13336,7 +13344,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 150,
+   "novas": 153,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -13538,7 +13546,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 150,
+   "novas": 153,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-02-comiss-o-de-infraestruturas-mobilidade": {
@@ -14035,6 +14043,140 @@
    },
    "novas": 0,
    "enquadramento": "Seleção automática de 1 das 1 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+  },
+  "2026-11-03-comiss-o-de-or-amento-finan-as-e-admini": {
+   "titulo": "Comissão de Orçamento, Finanças e Administração Pública",
+   "meta": "Comissões Parlamentares · Reunião n.º 134 · Plenário · terça, 3 nov, 15h00 · UO de referência: DACDP · DAPL · Transversal · UPE",
+   "nivel": "curta",
+   "origem": "radar",
+   "gerado_por": "Radar de Notícias — seleção automática, sem análise",
+   "atencao": [],
+   "blocos": [],
+   "tabelas": [],
+   "fundo": [
+    {
+     "data": "2026-09-22",
+     "fonte": "Açoriano Oriental",
+     "url": "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515",
+     "sintese": "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-29",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/",
+     "sintese": "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-02",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/",
+     "sintese": "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-03",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/",
+     "sintese": "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-04",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao",
+     "sintese": "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-06",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941",
+     "sintese": "Agendada nova reunião entre Governo e sindicatos da função pública",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/",
+     "sintese": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "Açoriano Oriental",
+     "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602",
+     "sintese": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
+   "amostra": {
+    "analisadas": 8,
+    "encontradas": 17
+   },
+   "base": {
+    "ultima": "2026-10-29 16:14",
+    "em": "2026-10-30"
+   },
+   "novas": 0,
+   "enquadramento": "Seleção automática de 8 das 17 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+  },
+  "2026-11-03-comiss-o-de-neg-cios-estrangeiros-e-com": {
+   "titulo": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "meta": "Comissões Parlamentares · Reunião n.º 50 · terça, 3 nov, 16h00 · UO de referência: DCIRI",
+   "nivel": "curta",
+   "origem": "radar",
+   "gerado_por": "Radar de Notícias — seleção automática, sem análise",
+   "atencao": [],
+   "blocos": [],
+   "tabelas": [],
+   "fundo": [
+    {
+     "data": "2026-09-02",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/portugal-esta-a-identificar-equipamento-energetico-nao-utilizado-para-doar-a-kiev-indicou-rangel_n1763015",
+     "sintese": "Portugal está a identificar equipamento energético não utilizado para doar a Kiev indicou Rangel",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409",
+     "sintese": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
+   "amostra": {
+    "analisadas": 2,
+    "encontradas": 2
+   },
+   "base": {
+    "ultima": "2026-10-29 18:46",
+    "em": "2026-10-30"
+   },
+   "novas": 0,
+   "enquadramento": "Seleção automática de 2 das 2 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   }
  },
  "destaques": [],
@@ -14232,6 +14374,171 @@
    "varrimento": "2026-11-03-comiss-o-de-ambiente-e-energia"
   },
   {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-03",
+   "hora": "09h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 133 · Plenário",
+   "resumo": "Audição da Ministra do Ambiente e Energia no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Ambiente e Energia – Maria da Graça Carvalho\n Secretário de Estado Adjunto e da Energia – Jean Barroca\n Secretário de Estado do",
+   "ordemTrabalhos": "Audição da Ministra do Ambiente e Energia no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Ambiente e Energia – Maria da Graça Carvalho\n Secretário de Estado Adjunto e da Energia – Jean Barroca\n Secretário de Estado do Ambiente – João Manuel Esteves",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48611,
+   "chave": "ar-48611",
+   "dataLabel": "terça, 3 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DACDP",
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição da ministra» (Governo na AR → DACDP)"
+   ],
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 16,
+    "n7": 1,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     },
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-03-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
    "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
    "data": "2026-11-03",
    "hora": "14h30",
@@ -14369,6 +14676,408 @@
     "todas": []
    },
    "varrimento": "2026-11-03-comiss-o-de-cultura-comunica-o-juventud"
+  },
+  {
+   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "data": "2026-11-03",
+   "hora": "15h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 49",
+   "resumo": "Audição do Primeiro Vice-Presidente do Parlamento Iraquiano, Senhor Adnan Fayhan Al-Dulaimi e da sua delegação.",
+   "ordemTrabalhos": "Audição do Primeiro Vice-Presidente do Parlamento Iraquiano, Senhor Adnan Fayhan Al-Dulaimi e da sua delegação.",
+   "orgao": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "id_ar": 48605,
+   "chave": "ar-48605",
+   "dataLabel": "terça, 3 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DCIRI"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«negócios estrangeiros» (DCIRI)",
+    "«comunidades portuguesas» (DCIRI)"
+   ],
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 16,
+    "n7": 2,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 18:46",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "RTP Notícias",
+      "titulo": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "url": "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     },
+     {
+      "data": "2026-10-26",
+      "fonte": "Executive Digest",
+      "titulo": "Delegação empresarial chinesa liderada por vice-presidente de Changsha vem a Portugal para reforçar relações económicas",
+      "url": "https://executivedigest.sapo.pt/delegacao-empresarial-chinesa-liderada-por-vice-presidente-de-changsha-vem-a-portugal-para-reforcar-relacoes-economicas/"
+     },
+     {
+      "data": "2026-10-22",
+      "fonte": "Jornal Económico",
+      "titulo": "Habitação: PS diz que a sua legislação foi “altamente enviesada” pelo atual Governo",
+      "url": "https://jornaleconomico.sapo.pt/noticias/habitacao-ps-diz-que-a-sua-legislacao-foi-altamente-enviesada-pelo-atual-governo/"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 18:46",
+      "RTP Notícias",
+      "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     ],
+     [
+      "2026-10-26 11:47",
+      "Executive Digest",
+      "Delegação empresarial chinesa liderada por vice-presidente de Changsha vem a Portugal para reforçar relações económicas",
+      "https://executivedigest.sapo.pt/delegacao-empresarial-chinesa-liderada-por-vice-presidente-de-changsha-vem-a-portugal-para-reforcar-relacoes-economicas/"
+     ],
+     [
+      "2026-10-22 19:09",
+      "Jornal Económico",
+      "Habitação: PS diz que a sua legislação foi “altamente enviesada” pelo atual Governo",
+      "https://jornaleconomico.sapo.pt/noticias/habitacao-ps-diz-que-a-sua-legislacao-foi-altamente-enviesada-pelo-atual-governo/"
+     ],
+     [
+      "2026-10-21 18:36",
+      "Diário de Notícias",
+      "Ana Catarina Mendes reeleita vice-presidente do grupo dos socialistas no Parlamento Europeu",
+      "https://www.dn.pt/pol%C3%ADtica/ana-catarina-mendes-reeleita-vice-presidente-do-grupo-dos-socialistas-no-parlamento-europeu"
+     ],
+     [
+      "2026-10-20 14:17",
+      "Jornal de Negócios",
+      "PSD defende proposta do Governo para as rendas e acusa PS de “falta de decoro”",
+      "https://www.jornaldenegocios.pt/economia/detalhe/psd-defende-proposta-do-governo-para-as-rendas-e-acusa-ps-de-falta-de-decoro"
+     ],
+     [
+      "2026-10-16 16:59",
+      "JM Madeira",
+      "Delegação do Estado de Gangwon recebida pelo vice-presidente nos Paços do Concelho",
+      "https://www.jm-madeira.pt/not%C3%ADcias/regi-o/30007265/delegacao-do-estado-de-gangwon-recebida-pelo-vice-presidente-nos-pacos-do-concelho.html"
+     ],
+     [
+      "2026-09-25 12:58",
+      "JM Madeira",
+      "Jorge Carvalho recebe vice-presidente do Parlamento Europeu no Funchal",
+      "https://www.jm-madeira.pt/not%C3%ADcias/regi-o/30005795/jorge-carvalho-recebe-vice-presidente-do-parlamento-europeu-no-funchal.html"
+     ],
+     [
+      "2026-09-21 19:23",
+      "Observador",
+      "PE avisa: Portugal não tem de centralizar fundos europeus",
+      "https://observador.pt/2026/09/21/portugal-nao-e-obrigado-a-centralizar-fundos-europeus-avisa-vice-presidente-do-parlamento-europeu-na-madeira/"
+     ],
+     [
+      "2026-09-21 19:23",
+      "Observador",
+      "Portugal não é obrigado a centralizar fundos europeus, avisa vice-presidente do Parlamento Europeu na Madeira",
+      "https://observador.pt/2026/09/21/portugal-nao-e-obrigado-a-centralizar-fundos-europeus-avisa-vice-presidente-do-parlamento-europeu-na-madeira/"
+     ],
+     [
+      "2026-09-21 15:15",
+      "JM Madeira",
+      "Paulo Barreto recebeu Vice-Presidente do Parlamento Europeu",
+      "https://www.jm-madeira.pt/not%C3%ADcias/regi-o/30005500/paulo-barreto-recebeu-vice-presidente-do-parlamento-europeu.html"
+     ],
+     [
+      "2026-09-19 07:13",
+      "Observador",
+      "7h. Passos Coelho pede ousadia ao Governo de Luís Montenegro",
+      "https://observador.pt/programas/noticiario/as-noticias-das-7h-2510/"
+     ],
+     [
+      "2026-09-19 01:58",
+      "RTP Notícias",
+      "Passos Coelho quer Governo a \"ousar mais\" e desvaloriza críticas dentro do PSD",
+      "https://www.rtp.pt/noticias/politica/passos-coelho-quer-governo-a-ousar-mais-e-desvaloriza-criticas-dentro-do-psd_v1766423"
+     ],
+     [
+      "2026-09-19 01:03",
+      "RTP Notícias",
+      "Passos Coelho quer Governo a “ousar mais” e desvaloriza críticas dentro do PSD",
+      "https://www.rtp.pt/noticias/politica/passos-coelho-quer-governo-a-u201cousar-maisu201d-e-desvaloriza-criticas-de-leonor-beleza_v1766423"
+     ],
+     [
+      "2026-09-17 08:12",
+      "Observador",
+      "8h. Leonor Beleza não compreende críticas de Passos Coelho",
+      "https://observador.pt/programas/noticiario/as-noticias-das-8h-2521/"
+     ],
+     [
+      "2026-09-09 22:59",
+      "Observador",
+      "Morreu antigo ministro da Guiné-Bissau Orlando Mendes Viegas",
+      "https://observador.pt/2026/09/09/morreu-orlando-mendes-viegas-antigo-ministro-da-guine-bissau-tinha-66-anos/"
+     ],
+     [
+      "2026-09-02 19:25",
+      "RTP Notícias",
+      "Portugal está a identificar equipamento energético não utilizado para doar a Kiev indicou Rangel",
+      "https://www.rtp.pt/noticias/guerra-na-ucrania/portugal-esta-a-identificar-equipamento-energetico-nao-utilizado-para-doar-a-kiev-indicou-rangel_n1763015"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-03-comiss-o-de-neg-cios-estrangeiros-e-com"
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-03",
+   "hora": "15h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 134 · Plenário",
+   "resumo": "Audição do Ministro da Presidência no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Presidência – Margarida Balseiro Lopes\n Secretário de Estado Adjunto e da Presidência e Imigração – Rui Armindo Freitas\n Secretário de",
+   "ordemTrabalhos": "Audição do Ministro da Presidência no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Presidência – Margarida Balseiro Lopes\n Secretário de Estado Adjunto e da Presidência e Imigração – Rui Armindo Freitas\n Secretário de Estado da Presidência do Conselho de Ministros – Tiago Macieirinha\n Secretário de Estado da Presidência – João Valle e Azevedo",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48610,
+   "chave": "ar-48610",
+   "dataLabel": "terça, 3 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DACDP",
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«conselho de ministros» (DACDP)",
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição do ministro» (Governo na AR → DACDP)"
+   ],
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 17,
+    "n7": 1,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     },
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-28 18:11",
+      "Jornal Económico",
+      "OE2027: Apoio às artes vai ter reforço de 10 milhões de euros",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-apoio-as-artes-vai-ter-reforco-de-10-milhoes-de-euros/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-03-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
+   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "data": "2026-11-03",
+   "hora": "16h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 50",
+   "resumo": "Audição do Grupo Parlamentar de Amizade México-Portugal.",
+   "ordemTrabalhos": "Audição do Grupo Parlamentar de Amizade México-Portugal.",
+   "orgao": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "id_ar": 48606,
+   "chave": "ar-48606",
+   "dataLabel": "terça, 3 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DCIRI"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«negócios estrangeiros» (DCIRI)",
+    "«comunidades portuguesas» (DCIRI)"
+   ],
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 2,
+    "n7": 1,
+    "n7ant": 0,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 18:46",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "RTP Notícias",
+      "titulo": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "url": "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     },
+     {
+      "data": "2026-09-02",
+      "fonte": "RTP Notícias",
+      "titulo": "Portugal está a identificar equipamento energético não utilizado para doar a Kiev indicou Rangel",
+      "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/portugal-esta-a-identificar-equipamento-energetico-nao-utilizado-para-doar-a-kiev-indicou-rangel_n1763015"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 18:46",
+      "RTP Notícias",
+      "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+      "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409"
+     ],
+     [
+      "2026-09-02 19:25",
+      "RTP Notícias",
+      "Portugal está a identificar equipamento energético não utilizado para doar a Kiev indicou Rangel",
+      "https://www.rtp.pt/noticias/guerra-na-ucrania/portugal-esta-a-identificar-equipamento-energetico-nao-utilizado-para-doar-a-kiev-indicou-rangel_n1763015"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-03-comiss-o-de-neg-cios-estrangeiros-e-com"
   },
   {
    "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",

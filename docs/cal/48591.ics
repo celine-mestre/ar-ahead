@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48591@ar-preview
-DTSTAMP:20261030T140050Z
+DTSTAMP:20261030T171952Z
 DTSTART:20261105T090000Z
 DTEND:20261105T110000Z
 SUMMARY:AR · Comissão de Trabalho\, Segurança Social e Inclusão
@@ -16,9 +16,9 @@ DESCRIPTION:Comissões Parlamentares · Reunião n.º 76\nSíntese: Audiç
  ialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o…\nU
  nidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlam
  ento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx\nEmissões em dire
- to (quando houver): https://canal.parlamento.pt/\nAR Preview: https://cel
- ine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR p
- ode mudar.
+ to (quando houver): https://canal.parlamento.pt/\nAR Preview: https://upe
+ -sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda da AR pod
+ e mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.as
  px
 TRANSP:TRANSPARENT

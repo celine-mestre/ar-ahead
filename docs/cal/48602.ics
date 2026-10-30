@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48602@ar-preview
-DTSTAMP:20261030T140050Z
+DTSTAMP:20261030T171952Z
 DTSTART:20261104T180000Z
 DTEND:20261104T200000Z
 SUMMARY:AR · Comissão de Educação e Ciência
@@ -17,9 +17,9 @@ DESCRIPTION:Comissões Parlamentares · Reunião n.º 59 · Plenário\nGov
  XVII/2.ª (GOV) - «Aprova o Orçamento do Estado para 2027»…\nUnidade
  s DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.parl
  amento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx\nEmissões em diret
- o (quando houver): https://canal.parlamento.pt/\nAR Preview: https://celi
- ne-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR po
- de mudar.
+ o (quando houver): https://canal.parlamento.pt/\nAR Preview: https://upe-
+ sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda da AR pode
+  mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48600@ar-preview
-DTSTAMP:20261030T140050Z
+DTSTAMP:20261030T171952Z
 DTSTART:20261102T090000Z
 DTEND:20261102T110000Z
 SUMMARY:AR · Comissão de Infraestruturas\, Mobilidade e Habitação
@@ -17,9 +17,8 @@ DESCRIPTION:Comissões Parlamentares · Reunião n.º 71 · Plenário\nGov
  XVII/2.ª (GOV) – «Orçamento do Estado para 2027.»\nUnidades DSSD: D
  ACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlamento.pt
  /sites/com/XVIILeg/14CIMH/Paginas/default.aspx\nEmissões em direto (quan
- do houver): https://canal.parlamento.pt/\nAR Preview: https://celine-mest
- re.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode muda
- r.
+ do houver): https://canal.parlamento.pt/\nAR Preview: https://upe-sggov.g
+ ithub.io/ar-preview/\nHora de fim indicativa\; a agenda da AR pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.asp
  x
 TRANSP:TRANSPARENT
