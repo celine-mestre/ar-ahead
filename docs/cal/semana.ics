@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview · 2 a 8 de novembro de 2026
 BEGIN:VEVENT
 UID:ar-48600@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261102T090000Z
 DTEND:20261102T110000Z
 SUMMARY:AR · Comissão de Infraestruturas\, Mobilidade e Habitação
@@ -25,7 +25,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48620@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261102T090000Z
 DTEND:20261102T110000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -47,7 +47,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48619@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261102T123000Z
 DTEND:20261102T143000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -67,7 +67,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48618@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261102T140000Z
 DTEND:20261102T160000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -87,7 +87,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48571@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261102T150000Z
 DTEND:20261102T170000Z
 SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
@@ -108,7 +108,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48588@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261102T150000Z
 DTEND:20261102T170000Z
 SUMMARY:AR · Comissão de Cultura\, Comunicação\, Juventude e Desporto
@@ -128,7 +128,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48617@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261102T150000Z
 DTEND:20261102T170000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -150,7 +150,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48595@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T090000Z
 DTEND:20261103T110000Z
 SUMMARY:AR · Comissão de Ambiente e Energia
@@ -170,7 +170,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48611@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T090000Z
 DTEND:20261103T110000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -192,7 +192,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48616@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T123000Z
 DTEND:20261103T143000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -212,7 +212,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48615@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T140000Z
 DTEND:20261103T160000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -232,7 +232,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48570@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T143000Z
 DTEND:20261103T163000Z
 SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
@@ -251,7 +251,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48569@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
@@ -271,7 +271,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48587@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Cultura\, Comunicação\, Juventude e Desporto
@@ -290,7 +290,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48605@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Negócios Estrangeiros e Comunidades Portuguesa
@@ -309,29 +309,29 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48610@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
  ca
 LOCATION:Assembleia da República · Sala das Sessões
 DESCRIPTION:Comissões Parlamentares · Reunião n.º 134 · Plenário\nGo
- verno: Ministro da Presidência\, Margarida Balseiro Lopes · Secretário
-  de Estado Adjunto e da Presidência e Imigração\, Rui Armindo Freitas 
- e mais 2 membros do Governo\nSíntese: Audição no âmbito da apreciaç
- ão\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – 
- Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Transversal
- \, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP
- /Paginas/default.aspx\nEmissões em direto (quando houver): https://canal
- .parlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-preview/\nHor
- a de fim indicativa\; a agenda da AR pode mudar.
+ verno: Ministro da Presidência\, António Leitão Amaro · Secretário d
+ e Estado Adjunto e da Presidência e Imigração\, Rui Armindo Freitas e 
+ mais 2 membros do Governo\nSíntese: Audição no âmbito da apreciação
+ \, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Or
+ çamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Transversal\,
+  UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/P
+ aginas/default.aspx\nEmissões em direto (quando houver): https://canal.p
+ arlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-preview/\nHora 
+ de fim indicativa\; a agenda da AR pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
  x
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48606@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T160000Z
 DTEND:20261103T180000Z
 SUMMARY:AR · Comissão de Negócios Estrangeiros e Comunidades Portuguesa
@@ -348,8 +348,48 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.asp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48625@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261104T090000Z
+DTEND:20261104T110000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 135 · Plenário\nS
+ íntese: Audição da ANMP – Associação Nacional Municípios Portugue
+ ses no âmbito da apreciação\, na especialidade\, da Proposta de Lei n.
+ º 110/XVII/2.ª…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na 
+ AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.as
+ px\nEmissões em direto (quando houver): https://canal.parlamento.pt/\nAR
+  Preview: https://upe-sggov.github.io/ar-preview/\nHora de fim indicativa
+ \; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48624@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261104T110000Z
+DTEND:20261104T130000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 136 · Plenário\nS
+ íntese: Audição da ANAFRE – Associação Nacional de Freguesias no 
+ âmbito da apreciação\, na especialidade\, da Proposta de Lei n.º 110/
+ XVII/2.ª (GOV)…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na A
+ R: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x\nEmissões em direto (quando houver): https://canal.parlamento.pt/\nAR 
+ Preview: https://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\
+ ; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48613@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261104T123000Z
 DTEND:20261104T143000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -369,7 +409,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48612@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261104T131500Z
 DTEND:20261104T151500Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -389,7 +429,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48568@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261104T140000Z
 DTEND:20261104T160000Z
 SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
@@ -408,8 +448,30 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.as
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48623@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261104T140000Z
+DTEND:20261104T160000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 137 · Plenário\nGo
+ verno: Ministra da Justiça\, Rita Alarcão Júdice · Secretário de Est
+ ado Adjunto e da Justiça\, Gonçalo da Cunha Pires e mais 1 membro do Go
+ verno\nSíntese: Audição no âmbito da apreciação\, na especialidade\
+ , da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado pa
+ ra 2027\nUnidades DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: 
+ https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\n
+ Emissões em direto (quando houver): https://canal.parlamento.pt/\nAR Pre
+ view: https://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a
+  agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48602@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261104T180000Z
 DTEND:20261104T200000Z
 SUMMARY:AR · Comissão de Educação e Ciência
@@ -427,8 +489,30 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48622@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261104T180000Z
+DTEND:20261104T200000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 138 · Plenário\nGo
+ verno: Ministro da Educação\, Ciência e Inovação\, Fernando Alexandr
+ e · Secretário de Estado Adjunto e da Educação\, Alexandre Homem Cris
+ to e mais 3 membros do Governo\nSíntese: Audição no âmbito da aprecia
+ ção\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) 
+ – Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Transve
+ rsal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5C
+ OFAP/Paginas/default.aspx\nEmissões em direto (quando houver): https://c
+ anal.parlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-preview/\
+ nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48591@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261105T090000Z
 DTEND:20261105T110000Z
 SUMMARY:AR · Comissão de Trabalho\, Segurança Social e Inclusão
@@ -446,8 +530,66 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.as
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48621@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261105T090000Z
+DTEND:20261105T110000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 139 · Plenário\nS
+ íntese: Audição do Conselho Económico e Social no âmbito da aprecia
+ ção\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) 
+ – Orçamento do…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na
+  AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.a
+ spx\nEmissões em direto (quando houver): https://canal.parlamento.pt/\nA
+ R Preview: https://upe-sggov.github.io/ar-preview/\nHora de fim indicativ
+ a\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48626@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261105T090000Z
+DTEND:20261105T110000Z
+SUMMARY:AR · Comissão de Economia e Coesão Territorial
+LOCATION:Assembleia da República
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 21\nSíntese: Audiç
+ ão do Conselho Económico e Social no âmbito da apreciação\, na espec
+ ialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do
+ …\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://www.
+ parlamento.pt/sites/com/XVIILeg/6CECT/Paginas/default.aspx\nEmissões em 
+ direto (quando houver): https://canal.parlamento.pt/\nAR Preview: https:/
+ /upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda da AR
+  pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/6CECT/Paginas/default.aspx
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48627@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261105T110000Z
+DTEND:20261105T130000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 140 · Plenário\nS
+ íntese: Audição do Conselho das Finanças Públicas no âmbito da apre
+ ciação\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV)
+  – Orçamento…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na A
+ R: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x\nEmissões em direto (quando houver): https://canal.parlamento.pt/\nAR 
+ Preview: https://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\
+ ; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48614@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261105T123000Z
 DTEND:20261105T143000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -467,7 +609,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48566@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261105T140000Z
 DTEND:20261105T160000Z
 SUMMARY:AR · Comissão de Defesa Nacional
@@ -484,8 +626,52 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/3CDN/Paginas/default.aspx
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48629@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261105T140000Z
+DTEND:20261105T160000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 141 · Plenário\nGo
+ verno: Ministro da Defesa Nacional\, Nuno Melo · Secretário de Estado A
+ djunto e da Defesa Nacional\, Álvaro Castelo Branco e mais 1 membro do G
+ overno\nSíntese: Audição no âmbito da apreciação\, na especialidade
+ \, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado p
+ ara 2027\nUnidades DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR:
+  https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\
+ nEmissões em direto (quando houver): https://canal.parlamento.pt/\nAR Pr
+ eview: https://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; 
+ a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48628@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261105T180000Z
+DTEND:20261105T200000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 142 · Plenário\nGo
+ verno: Ministro da Agricultura e Mar\, José Manuel Fernandes · Secretá
+ rio de Estado das Pescas e do Mar\, Salvador Malheiro e mais 2 membros do
+  Governo\nSíntese: Audição no âmbito da apreciação\, na especialida
+ de\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado
+  para 2027\nUnidades DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na A
+ R: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x\nEmissões em direto (quando houver): https://canal.parlamento.pt/\nAR 
+ Preview: https://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\
+ ; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48590@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261106T090000Z
 DTEND:20261106T110000Z
 SUMMARY:AR · Comissão de Trabalho\, Segurança Social e Inclusão
@@ -501,6 +687,50 @@ DESCRIPTION:Comissões Parlamentares · Reunião n.º 77\nGoverno: Ministr
  ra de fim indicativa\; a agenda da AR pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.as
  px
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48631@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261106T090000Z
+DTEND:20261106T110000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 143 · Plenário\nGo
+ verno: Ministra do Trabalho\, Solidariedade e Segurança Social\, Maria d
+ o Rosário Palma Ramalho · Secretário de Estado Adjunto e do Trabalho\,
+  Adriano Rafael Moreira e mais 2 membros do Governo\nSíntese: Audição 
+ no âmbito da apreciação\, na especialidade\, da Proposta de Lei n.º 1
+ 10/XVII/2.ª (GOV) – Orçamento do Estado para 2027\nUnidades DSSD: DAC
+ DP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlamento.pt/s
+ ites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmissões em direto (quando
+  houver): https://canal.parlamento.pt/\nAR Preview: https://upe-sggov.git
+ hub.io/ar-preview/\nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48630@ar-preview
+DTSTAMP:20261030T220914Z
+DTSTART:20261106T150000Z
+DTEND:20261106T170000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 144 · Plenário\nGo
+ verno: Ministro de Estado e das Finanças\, Joaquim Miranda Sarmento · S
+ ecretário de Estado Adjunto e do Orçamento\, José Maria Brandão de Br
+ ito e mais 3 membros do Governo\nSíntese: Audição no âmbito da apreci
+ ação\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) 
+ – Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Transve
+ rsal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5C
+ OFAP/Paginas/default.aspx\nEmissões em direto (quando houver): https://c
+ anal.parlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-preview/\
+ nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

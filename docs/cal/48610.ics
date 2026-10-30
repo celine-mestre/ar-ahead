@@ -6,22 +6,22 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview
 BEGIN:VEVENT
 UID:ar-48610@ar-preview
-DTSTAMP:20261030T172158Z
+DTSTAMP:20261030T220914Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
  ca
 LOCATION:Assembleia da República · Sala das Sessões
 DESCRIPTION:Comissões Parlamentares · Reunião n.º 134 · Plenário\nGo
- verno: Ministro da Presidência\, Margarida Balseiro Lopes · Secretário
-  de Estado Adjunto e da Presidência e Imigração\, Rui Armindo Freitas 
- e mais 2 membros do Governo\nSíntese: Audição no âmbito da apreciaç
- ão\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – 
- Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Transversal
- \, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP
- /Paginas/default.aspx\nEmissões em direto (quando houver): https://canal
- .parlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-preview/\nHor
- a de fim indicativa\; a agenda da AR pode mudar.
+ verno: Ministro da Presidência\, António Leitão Amaro · Secretário d
+ e Estado Adjunto e da Presidência e Imigração\, Rui Armindo Freitas e 
+ mais 2 membros do Governo\nSíntese: Audição no âmbito da apreciação
+ \, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Or
+ çamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Transversal\,
+  UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/P
+ aginas/default.aspx\nEmissões em direto (quando houver): https://canal.p
+ arlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-preview/\nHora 
+ de fim indicativa\; a agenda da AR pode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
  x
 TRANSP:TRANSPARENT

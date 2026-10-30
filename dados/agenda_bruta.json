@@ -1,7 +1,7 @@
 {
  "inicio": "2026-11-02",
  "fim": "2026-11-08",
- "recolha": "2026-10-30T17:20",
+ "recolha": "2026-10-30T22:08",
  "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
   {
@@ -240,8 +240,8 @@
     "Comissões Parlamentares"
    ],
    "tipoLabel": "Comissões Parlamentares · Reunião n.º 134 · Plenário",
-   "resumo": "Audição do Ministro da Presidência no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Presidência – Margarida Balseiro Lopes\n Secretário de Estado Adjunto e da Presidência e Imigração – Rui Armindo Freitas\n Secretário de",
-   "ordemTrabalhos": "Audição do Ministro da Presidência no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Presidência – Margarida Balseiro Lopes\n Secretário de Estado Adjunto e da Presidência e Imigração – Rui Armindo Freitas\n Secretário de Estado da Presidência do Conselho de Ministros – Tiago Macieirinha\n Secretário de Estado da Presidência – João Valle e Azevedo",
+   "resumo": "Audição do Ministro da Presidência no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Presidência – António Leitão Amaro\n Secretário de Estado Adjunto e da Presidência e Imigração – Rui Armindo Freitas\n Secretário de Est",
+   "ordemTrabalhos": "Audição do Ministro da Presidência no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Presidência – António Leitão Amaro\n Secretário de Estado Adjunto e da Presidência e Imigração – Rui Armindo Freitas\n Secretário de Estado da Presidência do Conselho de Ministros – Tiago Macieirinha\n Secretário de Estado da Presidência – João Valle e Azevedo",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
   },
   {
@@ -258,6 +258,36 @@
    "resumo": "Audição do Grupo Parlamentar de Amizade México-Portugal.",
    "ordemTrabalhos": "Audição do Grupo Parlamentar de Amizade México-Portugal.",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48625,
+   "data": "2026-11-04",
+   "hora": "09h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 135 · Plenário",
+   "resumo": "Audição da ANMP – Associação Nacional Municípios Portugueses no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.",
+   "ordemTrabalhos": "Audição da ANMP – Associação Nacional Municípios Portugueses no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48624,
+   "data": "2026-11-04",
+   "hora": "11h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 136 · Plenário",
+   "resumo": "Audição da ANAFRE – Associação Nacional de Freguesias no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+   "ordemTrabalhos": "Audição da ANAFRE – Associação Nacional de Freguesias no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
   },
   {
    "id_ar": 48613,
@@ -285,8 +315,8 @@
     "Comissões Parlamentares"
    ],
    "tipoLabel": "Comissões Parlamentares · Reunião n.º 36 · Sala 1",
-   "resumo": "Audiência da Ordem dos Contabilistas Certificados - OCC, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Paula Franco - Bastonária da Ordem dos Contabilistas Certificados;\n Amândio Silva",
-   "ordemTrabalhos": "Audiência da Ordem dos Contabilistas Certificados - OCC, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Paula Franco - Bastonária da Ordem dos Contabilistas Certificados;\n Amândio Silva",
+   "resumo": "Audiência da Ordem dos Contabilistas Certificados - OCC, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Paula Franco - Bastonária da Ordem dos Contabilistas Certificados;\n Amândio Silva.",
+   "ordemTrabalhos": "Audiência da Ordem dos Contabilistas Certificados - OCC, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Paula Franco - Bastonária da Ordem dos Contabilistas Certificados;\n Amândio Silva.",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
   },
   {
@@ -305,6 +335,21 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx"
   },
   {
+   "id_ar": 48623,
+   "data": "2026-11-04",
+   "hora": "14h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 137 · Plenário",
+   "resumo": "Audição da Ministra da Justiça no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra da Justiça – Rita Alarcão Júdice\n Secretário de Estado Adjunto e da Justiça – Gonçalo da Cunha Pires\n Secretária de Estado da Justiça – Ana L",
+   "ordemTrabalhos": "Audição da Ministra da Justiça no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra da Justiça – Rita Alarcão Júdice\n Secretário de Estado Adjunto e da Justiça – Gonçalo da Cunha Pires\n Secretária de Estado da Justiça – Ana Luísa Machado",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
    "id_ar": 48602,
    "data": "2026-11-04",
    "hora": "18h00",
@@ -318,6 +363,21 @@
    "resumo": "Audição do Ministro da Educação, Ciência e Inovação , no âmbito da apreciação na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) - «Aprova o Orçamento do Estado para 2027» (conjunta com a Comissão de Orçamento, Finanças e Administração Pública )",
    "ordemTrabalhos": "Audição do Ministro da Educação, Ciência e Inovação , no âmbito da apreciação na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) - «Aprova o Orçamento do Estado para 2027» (conjunta com a Comissão de Orçamento, Finanças e Administração Pública )",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48622,
+   "data": "2026-11-04",
+   "hora": "18h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 138 · Plenário",
+   "resumo": "Audição do Ministro da Educação, Ciência e Inovação no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Educação, Ciência e Inovação – Fernando Alexandre\n Secretário de Estado Adjunto e da Educação – Alexandre Homem Crist",
+   "ordemTrabalhos": "Audição do Ministro da Educação, Ciência e Inovação no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Educação, Ciência e Inovação – Fernando Alexandre\n Secretário de Estado Adjunto e da Educação – Alexandre Homem Cristo\n Secretária de Estado da Administração Escolar – Maria Luísa Oliveira\n Secretária de Estado da Ciência e Inovação – Helena Canhão\n Secretária de Estado do Ensino Superior – Claúdia Sarrico",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
   },
   {
    "id_ar": 48591,
@@ -335,6 +395,36 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx"
   },
   {
+   "id_ar": 48621,
+   "data": "2026-11-05",
+   "hora": "09h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 139 · Plenário",
+   "resumo": "Audição do Conselho Económico e Social no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.",
+   "ordemTrabalhos": "Audição do Conselho Económico e Social no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48626,
+   "data": "2026-11-05",
+   "hora": "09h00",
+   "tema": "Comissão de Economia e Coesão Territorial",
+   "orgao": "Comissão de Economia e Coesão Territorial",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 21",
+   "resumo": "Audição do Conselho Económico e Social no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.",
+   "ordemTrabalhos": "Audição do Conselho Económico e Social no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/6CECT/Paginas/default.aspx"
+  },
+  {
    "id_ar": 48604,
    "data": "2026-11-05",
    "hora": "10h30",
@@ -348,6 +438,21 @@
    "resumo": "Sessão pública de apresentação da plataforma informática - Registo de Transparência da Representação de Interesses (RTRI)",
    "ordemTrabalhos": "Sessão pública de apresentação da plataforma informática - Registo de Transparência da Representação de Interesses (RTRI)",
    "ligacao": ""
+  },
+  {
+   "id_ar": 48627,
+   "data": "2026-11-05",
+   "hora": "11h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 140 · Plenário",
+   "resumo": "Audição do Conselho das Finanças Públicas no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Prof.ª Nazaré da Costa Cabral, Presidente\n Prof. Lorenzo Forni, Vice-Presidente\n Dra. Patrícia Semião, Vogal Executiva\n Dra. Noémia Goulart",
+   "ordemTrabalhos": "Audição do Conselho das Finanças Públicas no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Prof.ª Nazaré da Costa Cabral, Presidente\n Prof. Lorenzo Forni, Vice-Presidente\n Dra. Patrícia Semião, Vogal Executiva\n Dra. Noémia Goulart, Vogal não executiva\n Prof. Evi Pappa (Vogal Não Executiva) (videoconferência)",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
   },
   {
    "id_ar": 48614,
@@ -380,6 +485,36 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/3CDN/Paginas/default.aspx"
   },
   {
+   "id_ar": 48629,
+   "data": "2026-11-05",
+   "hora": "14h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 141 · Plenário",
+   "resumo": "Audição do Ministro da Defesa Nacional no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Defesa Nacional – Nuno Melo\n Secretário de Estado Adjunto e da Defesa Nacional – Álvaro Castelo Branco\n Secretário de Estado Adjun",
+   "ordemTrabalhos": "Audição do Ministro da Defesa Nacional no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Defesa Nacional – Nuno Melo\n Secretário de Estado Adjunto e da Defesa Nacional – Álvaro Castelo Branco\n Secretário de Estado Adjunto e da Política da Defesa Nacional – Nuno Pinheiro Torres",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48628,
+   "data": "2026-11-05",
+   "hora": "18h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 142 · Plenário",
+   "resumo": "Audição do Ministro da Agricultura e Mar no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Agricultura e Mar – José Manuel Fernandes\n Secretário de Estado das Pescas e do Mar – Salvador Malheiro\n Secretário de Estado da",
+   "ordemTrabalhos": "Audição do Ministro da Agricultura e Mar no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Agricultura e Mar – José Manuel Fernandes\n Secretário de Estado das Pescas e do Mar – Salvador Malheiro\n Secretário de Estado da Agricultura – João Moura\n Secretário de Estado das Florestas – Rui Ladeira",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
    "id_ar": 48590,
    "data": "2026-11-06",
    "hora": "09h00",
@@ -393,6 +528,36 @@
    "resumo": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 , ao abrigo do disposto no n.º 2 do artigo 211.º do RAR.\n [Em conjunto com ",
    "ordemTrabalhos": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 , ao abrigo do disposto no n.º 2 do artigo 211.º do RAR.\n [Em conjunto com a Comissão de Orçamento, Finanças e Administração Pública]",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48631,
+   "data": "2026-11-06",
+   "hora": "09h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 143 · Plenário",
+   "resumo": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Trabalho, Solidariedade e Segurança Social – Maria do Rosário Palma Ramalho\n Secretário de Estado Adjun",
+   "ordemTrabalhos": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra do Trabalho, Solidariedade e Segurança Social – Maria do Rosário Palma Ramalho\n Secretário de Estado Adjunto e do Trabalho – Adriano Rafael Moreira\n Secretária de Estado da Segurança Social – Susana Filipa Lima\n Secretária de Estado da Ação Social e da Inclusão – Clara Marques Mendes",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48630,
+   "data": "2026-11-06",
+   "hora": "15h00",
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 144 · Plenário",
+   "resumo": "Audição do Ministro de Estado e das Finanças no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro de Estado e das Finanças – Joaquim Miranda Sarmento\n Secretário de Estado Adjunto e do Orçamento – José Maria Brandão de Brito\n",
+   "ordemTrabalhos": "Audição do Ministro de Estado e das Finanças no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro de Estado e das Finanças – Joaquim Miranda Sarmento\n Secretário de Estado Adjunto e do Orçamento – José Maria Brandão de Brito\n Secretária de Estado dos Assuntos Fiscais – Cláudia Reis Duarte\n Secretário de Estado do Tesouro e Finanças – João Silva Lopes\n Secretária de Estado da Administração Pública – Marisa Garrido",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
   }
  ],
  "futuro": [
