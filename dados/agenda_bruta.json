@@ -1,371 +1,9 @@
 {
- "inicio": "2026-10-26",
- "fim": "2026-11-01",
- "recolha": "2026-10-29T22:38",
+ "inicio": "2026-11-02",
+ "fim": "2026-11-08",
+ "recolha": "2026-10-30T13:59",
  "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
-  {
-   "id_ar": 48579,
-   "data": "2026-10-29",
-   "hora": "09h00",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 27 · Sala 3",
-   "resumo": "Audiência da Angelini Pharma Portugal, Unipessoal, Lda., no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Nuno Brás – Country Manager Portugal;\n Inês Melo - Responsável de assuntos externos;\n Consultoras externas de Public Affairs.",
-   "ordemTrabalhos": "Audiência da Angelini Pharma Portugal, Unipessoal, Lda., no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Nuno Brás – Country Manager Portugal;\n Inês Melo - Responsável de assuntos externos;\n Consultoras externas de Public Affairs.",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48555,
-   "data": "2026-10-29",
-   "hora": "09h30",
-   "tema": "Grupo de Trabalho - Parlamento dos Jovens",
-   "orgao": "Grupo de Trabalho - Parlamento dos Jovens",
-   "interveniente": "",
-   "tipo": [
-    "Grupo de Trabalho"
-   ],
-   "tipoLabel": "Grupo de Trabalho · Reunião n.º 8 · Sala 1",
-   "resumo": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
-   "ordemTrabalhos": "Informações\n Distribuição dos convites para de bate na Escola co m a participação de Deputado",
-   "ligacao": ""
-  },
-  {
-   "id_ar": 48578,
-   "data": "2026-10-29",
-   "hora": "09h45",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 28 · Sala 3",
-   "resumo": "Audiência da APORMED - Associação Portuguesa das Empresas de Dispositivos Médicos, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n João Gonçalves - Diretor Executivo\n Pedro Moutinho - Vogal da Direção;\n Luís Pereira - Vogal da Dir",
-   "ordemTrabalhos": "Audiência da APORMED - Associação Portuguesa das Empresas de Dispositivos Médicos, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n João Gonçalves - Diretor Executivo\n Pedro Moutinho - Vogal da Direção;\n Luís Pereira - Vogal da Direção.",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48577,
-   "data": "2026-10-29",
-   "hora": "10h30",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 125 · Plenário",
-   "resumo": "Audição do Tribunal de Contas no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Conselheira Filipa Urbano Calvão – Presidente do Tribunal de Contas;\n Juíza Conselheira Ana Furtado;\n Maria João Caldas – Auditora-Coordenadora;",
-   "ordemTrabalhos": "Audição do Tribunal de Contas no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Conselheira Filipa Urbano Calvão – Presidente do Tribunal de Contas;\n Juíza Conselheira Ana Furtado;\n Maria João Caldas – Auditora-Coordenadora;",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48564,
-   "data": "2026-10-29",
-   "hora": "13h45",
-   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
-   "orgao": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 47 · Sala 7",
-   "resumo": "Informações",
-   "ordemTrabalhos": "Informações",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48567,
-   "data": "2026-10-29",
-   "hora": "14h00",
-   "tema": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
-   "orgao": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 48 · Plenário",
-   "resumo": "Audição regimental do Ministro de Estado e dos Negócios Estrangeiros no âmbito da discussão do OE 2027.",
-   "ordemTrabalhos": "Audição regimental do Ministro de Estado e dos Negócios Estrangeiros no âmbito da discussão do OE 2027.",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48576,
-   "data": "2026-10-29",
-   "hora": "14h00",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 126 · Plenário",
-   "resumo": "Audição do Ministro de Estado e dos Negócios Estrangeiros no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro de Estado e dos Negócios Estrangeiros – Paulo Rangel\n Secretária de Estado dos Assuntos Europeus – Inês Domingos\n ",
-   "ordemTrabalhos": "Audição do Ministro de Estado e dos Negócios Estrangeiros no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro de Estado e dos Negócios Estrangeiros – Paulo Rangel\n Secretária de Estado dos Assuntos Europeus – Inês Domingos\n Secretária de Estado dos Negócios Estrangeiros e Cooperação – Ana Isabel Xavier\n Secretário de Estado das Comunidades Portuguesas – Emídio Sousa",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48580,
-   "data": "2026-10-29",
-   "hora": "14h00",
-   "tema": "Comissão de Assuntos Europeus",
-   "orgao": "Comissão de Assuntos Europeus",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 61 · Plenário",
-   "resumo": "Audição do Senhor Ministro de Estado e dos Negócios Estrangeiros, Paulo Rangel, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027, nos termos do n.º 2 do artigo 211.º do Regimento da Assembleia da República.\n [em conjunto co",
-   "ordemTrabalhos": "Audição do Senhor Ministro de Estado e dos Negócios Estrangeiros, Paulo Rangel, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027, nos termos do n.º 2 do artigo 211.º do Regimento da Assembleia da República.\n [em conjunto com a Comissão de Orçamento, Finanças e Administração Pública e\n a Comissão de Negócios Estrangeiros e Comunidades Portuguesas]",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48573,
-   "data": "2026-10-29",
-   "hora": "18h00",
-   "tema": "Comissão da Reforma do Estado e Poder Local",
-   "orgao": "Comissão da Reforma do Estado e Poder Local",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 60 · Plenário",
-   "resumo": "Audição do Ministro da Economia e da Coesão Territorial no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Economia e da Coesão Territorial – Manuel Castro Almeida\n Secretário de Estado do Planeamento e Desenvolvimento R",
-   "ordemTrabalhos": "Audição do Ministro da Economia e da Coesão Territorial no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Economia e da Coesão Territorial – Manuel Castro Almeida\n Secretário de Estado do Planeamento e Desenvolvimento Regional – Hélder Reis\n Secretário de Estado da Economia – João Rui Ferreira\n Secretário de Estado da Administração Local e Ordenamento do Território – Silvério Regalado\n Secretário de Estado do Turismo, Comércio e Serviços – Pedro Machado",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/13CREPL/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48574,
-   "data": "2026-10-29",
-   "hora": "18h00",
-   "tema": "Comissão de Economia e Coesão Territorial",
-   "orgao": "Comissão de Economia e Coesão Territorial",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 55 · Plenário",
-   "resumo": "Audição, do Ministro da Economia e da Coesão Territorial no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) - Orçamento do Estado para 2027.\n Ministro da Economia e da Coesão Territorial – Manuel Castro Almeida\n Secretário de Estado do Planeamento e Desenvolvimento ",
-   "ordemTrabalhos": "Audição, do Ministro da Economia e da Coesão Territorial no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) - Orçamento do Estado para 2027.\n Ministro da Economia e da Coesão Territorial – Manuel Castro Almeida\n Secretário de Estado do Planeamento e Desenvolvimento Regional – Hélder Reis\n Secretário de Estado da Economia – João Rui Ferreira\n Secretário de Estado da Administração Local e Ordenamento do Território – Silvério Regalado\n Secretário de Estado do Turismo, Comércio e Serviços – Pedro Machado",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/6CECT/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48575,
-   "data": "2026-10-29",
-   "hora": "18h00",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 127 · Plenário",
-   "resumo": "Audição do Ministro da Economia e da Coesão Territorial no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Economia e da Coesão Territorial – Manuel Castro Almeida\n Secretário de Estado do Planeamento e Desenvolvimento R",
-   "ordemTrabalhos": "Audição do Ministro da Economia e da Coesão Territorial no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Economia e da Coesão Territorial – Manuel Castro Almeida\n Secretário de Estado do Planeamento e Desenvolvimento Regional – Hélder Reis\n Secretário de Estado da Economia – João Rui Ferreira\n Secretário de Estado da Administração Local e Ordenamento do Território – Silvério Regalado\n Secretário de Estado do Turismo, Comércio e Serviços – Pedro Machado",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48581,
-   "data": "2026-10-29",
-   "hora": "20h00",
-   "tema": "Comissão de Agricultura e Pescas",
-   "orgao": "Comissão de Agricultura e Pescas",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 69 · Plenário",
-   "resumo": "Audição do Ministro da Economia e da Coesão Territorial no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027 (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Ministro da Economia e da Coesão Territorial – Manue",
-   "ordemTrabalhos": "Audição do Ministro da Economia e da Coesão Territorial no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027 (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Ministro da Economia e da Coesão Territorial – Manuel Castro Almeida\n Secretário de Estado do Planeamento e Desenvolvimento Regional – Hélder Reis\n Secretário de Estado da Economia – João Rui Ferreira\n Secretário de Estado da Administração Local e Ordenamento do Território – Silvério Regalado\n Secretário de Estado do Turismo, Comércio e Serviços – Pedro Machado",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48572,
-   "data": "2026-10-30",
-   "hora": "09h00",
-   "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
-   "orgao": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 106 · Plenário",
-   "resumo": "Audição do Ministro da Administração Interna, no âmbito da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª – Orçamento do Estado para 2027 , nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçame",
-   "ordemTrabalhos": "Audição do Ministro da Administração Interna, no âmbito da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª – Orçamento do Estado para 2027 , nos termos conjugados do n.º 5 do artigo 104.º e do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçamento, Finanças e Administração Pública).",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48584,
-   "data": "2026-10-30",
-   "hora": "09h00",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 128 · Plenário",
-   "resumo": "Audição do Ministro da Administração Interna no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Administração Interna – Luís Neves\n Secretário de Estado Adjunto e da Administração Interna – Paulo Simões Ribeiro\n Secretár",
-   "ordemTrabalhos": "Audição do Ministro da Administração Interna no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro da Administração Interna – Luís Neves\n Secretário de Estado Adjunto e da Administração Interna – Paulo Simões Ribeiro\n Secretário de Estado da Administração Interna – Telmo Correia\n Secretário de Estado da Proteção Civil – Rui Rocha",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48586,
-   "data": "2026-10-30",
-   "hora": "09h00",
-   "tema": "Comissão de Agricultura e Pescas",
-   "orgao": "Comissão de Agricultura e Pescas",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 70 · Plenário",
-   "resumo": "Audição da Ministra da Administração Interna no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027, nos termos do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçamento, Finanças e Administraç",
-   "ordemTrabalhos": "Audição da Ministra da Administração Interna no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027, nos termos do n.º 2 do artigo 211.º do Regimento da Assembleia da República (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Ministro da Administração Interna – Luís Neves\n Secretário de Estado Adjunto e da Administração Interna – Paulo Simões Ribeiro\n Secretário de Estado da Administração Interna – Telmo Correia\n Secretário de Estado da Proteção Civil – Rui Rocha",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48560,
-   "data": "2026-10-30",
-   "hora": "09h30",
-   "tema": "Comissão de Assuntos Europeus",
-   "orgao": "Comissão de Assuntos Europeus",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 62 · Sala 7",
-   "resumo": "Parte I \n Audição com o Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica, Vsevolod Chentsov\n Parte II \n Informações\n Grupo de Trabalho – Escrutínio de Iniciativas Europeias\n Apreciação e votação de pareceres da CAE no âmbito do escrutínio de iniciativas europeias:\n a) CO",
-   "ordemTrabalhos": "Parte I \n Audição com o Vice-Primeiro Ministro da Ucrânia para a Integração Europeia e Euro-Atlântica, Vsevolod Chentsov\n Parte II \n Informações\n Grupo de Trabalho – Escrutínio de Iniciativas Europeias\n Apreciação e votação de pareceres da CAE no âmbito do escrutínio de iniciativas europeias:\n a) COM(2026)570 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que cria a Agência da União Europeia para a Cooperação Judiciária Penal (Eurojust) e que revoga o Regulamento (UE) 2018 – Relatório da 1.ª CACDLG\n Autor de Parecer: Deputado António Rodrigues (PSD)\n Iniciativa sinalizada pela CAE: Prazo de envio – 09/11/2026\n b) COM(2026)580 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que cria a Agência da União Europeia para a Cooperação Policial (Europol), altera o Regulamento (UE) 2018/1726 e o Regulamento (UE) 2024/982, e revoga – Relatório da 1.ª CACDLG\n Autor de Parecer: Deputado Rodrigo Alves Taxa (CH)\n Iniciativa sinalizada pela CAE: Prazo de envio – 09/11/2026\n c) COM(2026)616 - Proposta de DIRETIVA DO PARLAMENTO EUROPEU E DO CONSELHO que altera a Diretiva 2003/87/CE e a Decisão (UE) 2015/1814 no que diz respeito à promoção da competitividade e da descarbonização eficaz em termos de custos\n Autor de Parecer: Deputado Pedro Correia (CH)\n Iniciativa sinalizada pela CAE: Prazo de envio – 09/11/2026\n d) COM(2026)502 - Proposta de REGULAMENTO DO PARLAMENTO EUROPEU E DO CONSELHO que estabelece um quadro de medidas para reforçar o ecossistema europeu da computação em nuvem e da IA (Regulamento Desenvolvimento da Nuvem e da IA) – Relatório da 6.ª CECT\n Autor de Parecer: Deputado Luís Dias (PS)\n Iniciativa sinalizada pela CAE: Prazo de envio – 12/11/2026\n Outros assuntos",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48599,
-   "data": "2026-10-30",
-   "hora": "12h45",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 29 · Sala 1",
-   "resumo": "Audiência da EQUALMED – Associação Portuguesa de Medicamentos pela Equidade em Saúde , no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Dr. João Paulo Nascimento - Presidente da direção;\n Dra. Maria do Carmo Neves - Vice-presidente",
-   "ordemTrabalhos": "Audiência da EQUALMED – Associação Portuguesa de Medicamentos pela Equidade em Saúde , no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Dr. João Paulo Nascimento - Presidente da direção;\n Dra. Maria do Carmo Neves - Vice-presidente da direção;\n Dra. Ana Valente - Diretora executiva.",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48598,
-   "data": "2026-10-30",
-   "hora": "14h00",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 30 · Sala 1",
-   "resumo": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Filipe Rosa – Diretor da Portugal Nuts e Representante da Empresa Associada Veracruz Veracruz Almonds;\n Nuno Rus",
-   "ordemTrabalhos": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Filipe Rosa – Diretor da Portugal Nuts e Representante da Empresa Associada Veracruz Veracruz Almonds;\n Nuno Russo – Diretor Executivo da Portugal Nuts;\n Rita Godinho – Gestora de Projetos da Portugal Nuts.",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48601,
-   "data": "2026-10-30",
-   "hora": "14h00",
-   "tema": "Comissão de Agricultura e Pescas",
-   "orgao": "Comissão de Agricultura e Pescas",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 71 · Sala 1",
-   "resumo": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027 (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Filipe Rosa – Diretor da Portugal Nuts ",
-   "ordemTrabalhos": "Audiência da Associação Promoção Frutos Secos (APFS) - Portugal Nuts, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027 (conjunta com a Comissão de Orçamento, Finanças e Administração Pública):\n Filipe Rosa – Diretor da Portugal Nuts e Representante da Empresa Associada Veracruz Veracruz Almonds;\n Nuno Russo – Diretor Executivo da Portugal Nuts;\n Rita Godinho – Gestora de Projetos da Portugal Nuts.",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48521,
-   "data": "2026-10-30",
-   "hora": "14h00",
-   "tema": "Grupo de Trabalho - Júri do Prémio Mário Soares 2026",
-   "orgao": "Grupo de Trabalho - Júri do Prémio Mário Soares 2026",
-   "interveniente": "",
-   "tipo": [
-    "Grupo de Trabalho"
-   ],
-   "tipoLabel": "Grupo de Trabalho · Reunião n.º 3 · Sala 6",
-   "resumo": "Ponto único: Conclusão da apreciação das candidaturas ao Prémio Mário Soares 2026",
-   "ordemTrabalhos": "Ponto único: Conclusão da apreciação das candidaturas ao Prémio Mário Soares 2026",
-   "ligacao": ""
-  },
-  {
-   "id_ar": 48583,
-   "data": "2026-10-30",
-   "hora": "15h00",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 129 · Plenário",
-   "resumo": "Audição do Ministro Adjunto e da Reforma do Estado no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro Adjunto e da Reforma do Estado – Gonçalo Matias\n Secretário de Estado para a Digitalização – Bernardo Correia\n Secretário",
-   "ordemTrabalhos": "Audição do Ministro Adjunto e da Reforma do Estado no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro Adjunto e da Reforma do Estado – Gonçalo Matias\n Secretário de Estado para a Digitalização – Bernardo Correia\n Secretário de Estado para a Simplificação – Paulo Magro da Luz",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48585,
-   "data": "2026-10-30",
-   "hora": "15h00",
-   "tema": "Comissão da Reforma do Estado e Poder Local",
-   "orgao": "Comissão da Reforma do Estado e Poder Local",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 61 · Plenário",
-   "resumo": "Audição do Ministro Adjunto e da Reforma do Estado no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro Adjunto e da Reforma do Estado – Gonçalo Matias\n Secretário de Estado para a Digitalização – Bernardo Correia\n Secretário",
-   "ordemTrabalhos": "Audição do Ministro Adjunto e da Reforma do Estado no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro Adjunto e da Reforma do Estado – Gonçalo Matias\n Secretário de Estado para a Digitalização – Bernardo Correia\n Secretário de Estado para a Simplificação – Paulo Magro da Luz",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/13CREPL/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48565,
-   "data": "2026-10-30",
-   "hora": "18h00",
-   "tema": "Comissão de Saúde",
-   "orgao": "Comissão de Saúde",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 67 · Plenário",
-   "resumo": "Audição da Ministra da Saúde, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – «Orçamento do Estado para 2027», nos termos do n.º 2 do artigo 211.º do Regimento da Assembleia da República.\n (Reunião conjunta com a Comissão de Orçamento e Finanças e Administração",
-   "ordemTrabalhos": "Audição da Ministra da Saúde, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – «Orçamento do Estado para 2027», nos termos do n.º 2 do artigo 211.º do Regimento da Assembleia da República.\n (Reunião conjunta com a Comissão de Orçamento e Finanças e Administração Pública)",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/9CS/Paginas/default.aspx"
-  },
-  {
-   "id_ar": 48582,
-   "data": "2026-10-30",
-   "hora": "18h00",
-   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
-   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
-   "interveniente": "",
-   "tipo": [
-    "Comissões Parlamentares"
-   ],
-   "tipoLabel": "Comissões Parlamentares · Reunião n.º 130 · Plenário",
-   "resumo": "Audição da Ministra da Saúde no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra da Saúde – Ana Paula Martins\n Secretária de Estado da Saúde – Ana Povo\n Secretário de Estado da Gestão da Saúde – Francisco Catalão",
-   "ordemTrabalhos": "Audição da Ministra da Saúde no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra da Saúde – Ana Paula Martins\n Secretária de Estado da Saúde – Ana Povo\n Secretário de Estado da Gestão da Saúde – Francisco Catalão",
-   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
-  }
- ],
- "futuro": [
   {
    "id_ar": 48600,
    "data": "2026-11-02",
@@ -487,6 +125,21 @@
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx"
   },
   {
+   "id_ar": 48602,
+   "data": "2026-11-04",
+   "hora": "18h00",
+   "tema": "Comissão de Educação e Ciência",
+   "orgao": "Comissão de Educação e Ciência",
+   "interveniente": "",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 59 · Plenário",
+   "resumo": "Audição do Ministro da Educação, Ciência e Inovação , no âmbito da apreciação na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) - «Aprova o Orçamento do Estado para 2027» (conjunta com a Comissão de Orçamento, Finanças e Administração Pública )",
+   "ordemTrabalhos": "Audição do Ministro da Educação, Ciência e Inovação , no âmbito da apreciação na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) - «Aprova o Orçamento do Estado para 2027» (conjunta com a Comissão de Orçamento, Finanças e Administração Pública )",
+   "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx"
+  },
+  {
    "id_ar": 48591,
    "data": "2026-11-05",
    "hora": "09h00",
@@ -500,6 +153,21 @@
    "resumo": "Audição do Conselho Económico e Social, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 .\n [Em conjunto com a Comissão de Orçamento, Finanças e Administração Pública e a Comissão de Economia e Coesão Territorial]",
    "ordemTrabalhos": "Audição do Conselho Económico e Social, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 .\n [Em conjunto com a Comissão de Orçamento, Finanças e Administração Pública e a Comissão de Economia e Coesão Territorial]",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx"
+  },
+  {
+   "id_ar": 48604,
+   "data": "2026-11-05",
+   "hora": "10h30",
+   "tema": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
+   "orgao": "Grupo de Trabalho para a Implementação da Lei n.º 5-A 2026, de 28 de janeiro - Representação de Interesses",
+   "interveniente": "",
+   "tipo": [
+    "Grupo de Trabalho"
+   ],
+   "tipoLabel": "Grupo de Trabalho · Reunião n.º 16 · Auditório António de Almeida Santos",
+   "resumo": "Sessão pública de apresentação da plataforma informática - Registo de Transparência da Representação de Interesses (RTRI)",
+   "ordemTrabalhos": "Sessão pública de apresentação da plataforma informática - Registo de Transparência da Representação de Interesses (RTRI)",
+   "ligacao": ""
   },
   {
    "id_ar": 48566,
@@ -530,7 +198,9 @@
    "resumo": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 , ao abrigo do disposto no n.º 2 do artigo 211.º do RAR.\n [Em conjunto com ",
    "ordemTrabalhos": "Audição da Ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçamento do Estado para 2027 , ao abrigo do disposto no n.º 2 do artigo 211.º do RAR.\n [Em conjunto com a Comissão de Orçamento, Finanças e Administração Pública]",
    "ligacao": "https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx"
-  },
+  }
+ ],
+ "futuro": [
   {
    "id_ar": 48393,
    "data": "2026-11-18",

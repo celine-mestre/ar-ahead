@@ -3,660 +3,240 @@ VERSION:2.0
 PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:AR Preview · 26 de outubro a 1 de novembro de 2026
+X-WR-CALNAME:AR Preview · 2 a 8 de novembro de 2026
 BEGIN:VEVENT
-UID:ar-48525@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261026T100000Z
-DTEND:20261026T120000Z
+UID:ar-48600@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261102T090000Z
+DTEND:20261102T110000Z
 SUMMARY:AR · Comissão de Infraestruturas\, Mobilidade e Habitação
-LOCATION:Assembleia da República · Sala 1
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 70 · Sala 1\nGovern
- o: Ministro das Infraestruturas e Habitação\, Miguel Pinto Luz\nSíntes
- e: Audição sobre um alegado conflito de interesses na aprovação das a
- lterações ao Regime Jurídico da Urbanização e da Edificação e ao R
- egime…\nUnidades DSSD: DACDP\nPágina na AR: https://www.parlamento.pt/
- sites/com/XVIILeg/14CIMH/Paginas/default.aspx\nEmissões em direto (quand
- o houver): https://canal.parlamento.pt/\nAR Preview: https://celine-mestr
- e.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar
- .
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 71 · Plenário\nGov
+ erno: Ministro das Infraestruturas e Habitação\nSíntese: Audição no 
+ âmbito da apreciação\, na especialidade\, da Proposta de Lei n.º 110/
+ XVII/2.ª (GOV) – «Orçamento do Estado para 2027.»\nUnidades DSSD: D
+ ACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlamento.pt
+ /sites/com/XVIILeg/14CIMH/Paginas/default.aspx\nEmissões em direto (quan
+ do houver): https://canal.parlamento.pt/\nAR Preview: https://celine-mest
+ re.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode muda
+ r.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.asp
  x
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ar-48552@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261026T140000Z
-DTEND:20261026T160000Z
-SUMMARY:AR · Comissão Parlamentar de Inquérito para avaliação da inte
- rvenção de Luís Neves enquanto diretor da Polícia Judiciária durante
-  todos os seus mandatos (2018-2026) e eventual responsabilidade de membro
- s do Governo que o nomearam e tutelaram
-LOCATION:Assembleia da República · Sala 6
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 2 · Sala 6\nSíntes
- e: Eventual suspensão de trabalhos durante o OE\; Apreciação das propo
- stas de alteração ao regulamento\nUnidades DSSD: DACDP\nEmissões em di
- reto (quando houver): https://canal.parlamento.pt/\nAR Preview: https://c
- eline-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR
-  pode mudar.
-URL:https://canal.parlamento.pt/
+UID:ar-48571@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261102T150000Z
+DTEND:20261102T170000Z
+SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
+ s e Garantias
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 107 · Plenário\nGo
+ verno: Ministra da Cultura\, Juventude e Desporto\nSíntese: Audição no
+  âmbito da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª
+  – Orçamento do Estado para 2027 \, nos termos conjugados do…\nUnida
+ des DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.pa
+ rlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx\nEmissões em 
+ direto (quando houver): https://canal.parlamento.pt/\nAR Preview: https:/
+ /celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da 
+ AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.as
+ px
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ar-48517@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261026T143000Z
-DTEND:20261026T163000Z
-SUMMARY:AR · Iniciativas europeias de segurança social: Passaporte Europ
- eu de Segurança Social e Autoridade Europeia do Trabalho
-LOCATION:Assembleia da República · Sala 8
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 75 · Sala 8\nGovern
- o: Ministra do Trabalho\, Solidariedade e Segurança Social\, Maria do Ro
- sário Palma Ramalho\nSíntese: Discussão e votação dos relatórios so
- bre as seguintes iniciativas europeias\; COM(2026)980 - Proposta de REGUL
- AMENTO DO PARLAMENTO EUROPEU E…\nUnidades DSSD: DCIRI\, UPE\nPágina na
-  AR: https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.
- aspx\nEmissões em direto (quando houver): https://canal.parlamento.pt/\n
- AR Preview: https://celine-mestre.github.io/ar-ahead/\nHora de fim indica
- tiva\; a agenda da AR pode mudar.
+UID:ar-48588@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261102T150000Z
+DTEND:20261102T170000Z
+SUMMARY:AR · Comissão de Cultura\, Comunicação\, Juventude e Desporto
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 56 · Plenário\nGov
+ erno: Ministra da Cultura\, Juventude e Desporto\nSíntese: Audição no 
+ âmbito da apreciação na especialidade da Proposta de Lei n.º 104/XVII
+  (2.ª) (GOV) – Aprova o Orçamento do Estado para 2027\nUnidades DSSD:
+  DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlamento.
+ pt/sites/com/XVIILeg/12CCCJD/Paginas/default.aspx\nEmissões em direto (q
+ uando houver): https://canal.parlamento.pt/\nAR Preview: https://celine-m
+ estre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode m
+ udar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/12CCCJD/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48595@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261103T090000Z
+DTEND:20261103T110000Z
+SUMMARY:AR · Comissão de Ambiente e Energia
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 61 · Plenário\nGov
+ erno: Ministra do Ambiente e Energia\, Maria da Graça Carvalho\nSíntese
+ : Audição no âmbito da apreciação na especialidade da Proposta de Le
+ i n.º 110/XVII/2.ª (GOV) — Orçamento do Estado para 2027 \, nos term
+ os…\nUnidades DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: ht
+ tps://www.parlamento.pt/sites/com/XVIILeg/11CAEne/Paginas/default.aspx\nE
+ missões em direto (quando houver): https://canal.parlamento.pt/\nAR Prev
+ iew: https://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; 
+ a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/11CAEne/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48570@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261103T143000Z
+DTEND:20261103T163000Z
+SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
+ s e Garantias
+LOCATION:Assembleia da República
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 108\nSíntese: Distr
+ ibuição de iniciativas e nomeação de relatores\; Distribuição de in
+ iciativas europeias\nUnidades DSSD: DCIRI\nPágina na AR: https://www.par
+ lamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx\nEmissões em d
+ ireto (quando houver): https://canal.parlamento.pt/\nAR Preview: https://
+ celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da A
+ R pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48569@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261103T150000Z
+DTEND:20261103T170000Z
+SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
+ s e Garantias
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 109 · Plenário\nGo
+ verno: Ministro da Presidência\nSíntese: Audição no âmbito da apreci
+ ação na especialidade da Proposta de Lei 110/XVI/2.ª – Orçamento do
+  Estado para 2027 \, nos termos conjugados do…\nUnidades DSSD: DACDP\, 
+ DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/
+ com/XVIILeg/1CACDLG/Paginas/default.aspx\nEmissões em direto (quando hou
+ ver): https://canal.parlamento.pt/\nAR Preview: https://celine-mestre.git
+ hub.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48587@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261103T150000Z
+DTEND:20261103T170000Z
+SUMMARY:AR · Comissão de Cultura\, Comunicação\, Juventude e Desporto
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 57 · Plenário\nGov
+ erno: Ministro da Presidência\nSíntese: Audição no âmbito da aprecia
+ ção na especialidade da Proposta de Lei n.º 104/XVII (2.ª) (GOV) – 
+ Aprova o Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Tr
+ ansversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIIL
+ eg/12CCCJD/Paginas/default.aspx\nEmissões em direto (quando houver): htt
+ ps://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar
+ -ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/12CCCJD/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48568@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261104T140000Z
+DTEND:20261104T160000Z
+SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
+ s e Garantias
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 110 · Plenário\nGo
+ verno: Ministra da Justiça\nSíntese: Audição no âmbito da apreciaç
+ ão na especialidade da Proposta de Lei 110/XVI/2.ª – Orçamento do Es
+ tado para 2027 \, nos termos conjugados do…\nUnidades DSSD: DACDP\, DAP
+ L\, Transversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com
+ /XVIILeg/1CACDLG/Paginas/default.aspx\nEmissões em direto (quando houver
+ ): https://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github
+ .io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.as
+ px
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48602@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261104T180000Z
+DTEND:20261104T200000Z
+SUMMARY:AR · Comissão de Educação e Ciência
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 59 · Plenário\nGov
+ erno: Ministro da Educação\, Ciência e Inovação\nSíntese: Audição
+  no âmbito da apreciação na especialidade da Proposta de Lei n.º 110/
+ XVII/2.ª (GOV) - «Aprova o Orçamento do Estado para 2027»…\nUnidade
+ s DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.parl
+ amento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx\nEmissões em diret
+ o (quando houver): https://canal.parlamento.pt/\nAR Preview: https://celi
+ ne-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR po
+ de mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/8CEC/Paginas/default.aspx
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48591@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261105T090000Z
+DTEND:20261105T110000Z
+SUMMARY:AR · Comissão de Trabalho\, Segurança Social e Inclusão
+LOCATION:Assembleia da República
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 76\nSíntese: Audiç
+ ão do Conselho Económico e Social no âmbito da apreciação\, na espec
+ ialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o…\nU
+ nidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlam
+ ento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.aspx\nEmissões em dire
+ to (quando houver): https://canal.parlamento.pt/\nAR Preview: https://cel
+ ine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR p
+ ode mudar.
 URL:https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.as
  px
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ar-48539@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261026T150000Z
-DTEND:20261026T170000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 123 · Plenário\nGo
- verno: Ministra do Trabalho\, Solidariedade e Segurança Social\, Maria d
- o Rosário Palma Ramalho · Secretário de Estado do Trabalho\, Adriano R
- afael Moreira e mais 2 membros do Governo\nSíntese: Audição no âmbito
-  da apreciação\, na generalidade\, da Proposta de Lei n.º 110/XVII/2.
- ª (GOV) – Orçamento do Estado para 2027\nUnidades DSSD: DAPL\, Transv
- ersal\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/
- Paginas/default.aspx\nEmissões em direto (quando houver): https://canal.
- parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHo
- ra de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48520@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261027T110000Z
-DTEND:20261027T130000Z
-SUMMARY:AR · Conselho das Comunidades Portuguesas: direitos e garantias d
- as comunidades no estrangeiro
-LOCATION:Assembleia da República · Sala 6
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 14 · Sala 6\nSínte
- se: Audiência do Conselho das Comunidades Portuguesas sobre direitos e g
- arantias das comunidades portuguesas no estrangeiro\nUnidades DSSD: DCIRI
- \nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Pagi
- nas/default.aspx\nEmissões em direto (quando houver): https://canal.parl
- amento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora d
- e fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.as
- px
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48556@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261027T110000Z
-DTEND:20261027T130000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala 3
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 124 · Sala 3\nSínt
- ese: Discussão e votação do parecer final da Proposta de Lei n.º 110/
- XVII/2.ª (GOV) – Orçamento do Estado para 2027\nUnidades DSSD: DAPL\,
-  Transversal\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/
- 5COFAP/Paginas/default.aspx\nEmissões em direto (quando houver): https:/
- /canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahe
- ad/\nHora de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48522@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261027T120000Z
-DTEND:20261027T140000Z
-SUMMARY:AR · Comissão Parlamentar de Inquérito relativa às decisões\,
-  contratações e responsabilidades na conceção e execução da classif
- icação digital dos exames nacionais de 2025 e 2026
-LOCATION:Assembleia da República · Sala 1
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 2 · Sala 1\nSíntes
- e: Apreciação e votação do Regulamento da Comissão\; Deliberação s
- obre a suspensão dos trabalhos da Comissão durante o período de discus
- são do…\nUnidades DSSD: Transversal\nEmissões em direto (quando houve
- r): https://canal.parlamento.pt/\nAR Preview: https://celine-mestre.githu
- b.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
-URL:https://canal.parlamento.pt/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48551@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261027T133000Z
-DTEND:20261027T153000Z
-SUMMARY:AR · Comissão Parlamentar de Inquérito para avaliação da inte
- rvenção de Luís Neves enquanto diretor da Polícia Judiciária durante
-  todos os seus mandatos (2018-2026) e eventual responsabilidade de membro
- s do Governo que o nomearam e tutelaram
-LOCATION:Assembleia da República · Sala 6
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 2 · Sala 6\nUnidade
- s DSSD: DACDP\nEmissões em direto (quando houver): https://canal.parlame
- nto.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora de f
- im indicativa\; a agenda da AR pode mudar.
-URL:https://canal.parlamento.pt/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48339@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261027T150000Z
-DTEND:20261027T170000Z
-SUMMARY:AR · Plenário — Debate na generalidade do Orçamento do Estado
-  para 2027
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Plenário · Reunião n.º 15 · Plenário\nGoverno: Governo (
- intervenção prevista)\nSíntese: Proposta de Lei n.º 110/XVII/2.ª (GO
- V)\nUnidades DSSD: Transversal\, DACDP\, UPE\, DAPL\nPágina na AR: https
- ://www.parlamento.pt/Paginas/2026/outubro/Orcamento-do-Estado-para-2026.a
- spx\nEmissões em direto (quando houver): https://canal.parlamento.pt/\nA
- R Preview: https://celine-mestre.github.io/ar-ahead/\nHora de fim indicat
- iva\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/Paginas/2026/outubro/Orcamento-do-Estado-par
- a-2026.aspx
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48343@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261028T100000Z
-DTEND:20261028T120000Z
-SUMMARY:AR · Plenário — Continuação do debate na generalidade do Or
- çamento do Estado para 2027
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Plenário · Reunião n.º 16 · Plenário\nGoverno: Governo (
- intervenção prevista)\nSíntese: Proposta de Lei n.º 110/XVII/2.ª (GO
- V)\; Encerramento do debate na generalidade do Orçamento do Estado para 
- 2027\nUnidades DSSD: Transversal\, DACDP\, UPE\, DAPL\nEmissões em diret
- o (quando houver): https://canal.parlamento.pt/\nAR Preview: https://celi
- ne-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR po
- de mudar.
-URL:https://canal.parlamento.pt/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48550@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261028T140000Z
-DTEND:20261028T160000Z
-SUMMARY:AR · Comissão de Negócios Estrangeiros e Comunidades Portuguesa
- s
-LOCATION:Assembleia da República · Sala 7
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 46 · Sala 7\nSínte
- se: Audição do Conselho Permanente do Conselho das Comunidades Portugue
- sas (CP-CCP)\nUnidades DSSD: DCIRI\nPágina na AR: https://www.parlamento
- .pt/sites/com/XVIILeg/2CNECP/Paginas/default.aspx\nEmissões em direto (q
- uando houver): https://canal.parlamento.pt/\nAR Preview: https://celine-m
- estre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode m
- udar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48579@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T090000Z
-DTEND:20261029T110000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala 3
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 27 · Sala 3\nSínte
- se: Audiência da Angelini Pharma Portugal\, Unipessoal\, Lda. no âmbito
-  da apreciação\, na especialidade da Proposta de Lei n.º 110/XVII/2.ª
-  (GOV)…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https:
- //www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmiss
- ões em direto (quando houver): https://canal.parlamento.pt/\nAR Preview:
-  https://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a ag
- enda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48578@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T094500Z
-DTEND:20261029T114500Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala 3
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 28 · Sala 3\nSínte
- se: Audiência da APORMED - Associação Portuguesa das Empresas de Dispo
- sitivos Médicos no âmbito da apreciação\, na especialidade da Propost
- a de…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://
- www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmissõe
- s em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: ht
- tps://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agend
- a da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48577@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T103000Z
-DTEND:20261029T123000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 125 · Plenário\nS
- íntese: Audição do Tribunal de Contas no âmbito da apreciação\, na 
- especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçament
- o do Estado…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: h
- ttps://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nE
- missões em direto (quando houver): https://canal.parlamento.pt/\nAR Prev
- iew: https://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; 
- a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48564@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T134500Z
-DTEND:20261029T154500Z
-SUMMARY:AR · Comissão de Negócios Estrangeiros e Comunidades Portuguesa
- s
-LOCATION:Assembleia da República · Sala 7
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 47 · Sala 7\nUnidad
- es DSSD: DCIRI\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILe
- g/2CNECP/Paginas/default.aspx\nEmissões em direto (quando houver): https
+UID:ar-48566@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261105T140000Z
+DTEND:20261105T160000Z
+SUMMARY:AR · Comissão de Defesa Nacional
+LOCATION:Assembleia da República
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 50\nGoverno: Ministr
+ o da Defesa Nacional\nSíntese: Audição no âmbito da apreciação\, na
+  especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Aprova o
+  Orçamento do Estado para 2027\, nos…\nUnidades DSSD: DACDP\, DAPL\, T
+ ransversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVII
+ Leg/3CDN/Paginas/default.aspx\nEmissões em direto (quando houver): https
  ://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-a
  head/\nHora de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.asp
- x
+URL:https://www.parlamento.pt/sites/com/XVIILeg/3CDN/Paginas/default.aspx
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ar-48567@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T140000Z
-DTEND:20261029T160000Z
-SUMMARY:AR · Comissão de Negócios Estrangeiros e Comunidades Portuguesa
- s
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 48 · Plenário\nGov
- erno: Ministro de Estado e dos Negócios Estrangeiros\nSíntese: Audiçã
- o regimental no âmbito da discussão do OE 2027\nUnidades DSSD: DCIRI\nP
- ágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/
- default.aspx\nEmissões em direto (quando houver): https://canal.parlamen
- to.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora de fi
- m indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48576@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T140000Z
-DTEND:20261029T160000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 126 · Plenário\nGo
- verno: Ministro de Estado e dos Negócios Estrangeiros\, Paulo Rangel · 
- Secretária de Estado dos Assuntos Europeus\, Inês Domingos e mais 2 mem
- bros do Governo\nSíntese: Audição no âmbito da apreciação\, na espe
- cialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do
-  Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, DCIRI\, Transversal\, UP
- E\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Pagi
- nas/default.aspx\nEmissões em direto (quando houver): https://canal.parl
- amento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora d
- e fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48580@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T140000Z
-DTEND:20261029T160000Z
-SUMMARY:AR · Comissão de Assuntos Europeus
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 61 · Plenário\nGov
- erno: Ministro de Estado e dos Negócios Estrangeiros\, Paulo Rangel\nSí
- ntese: Audição do Senhor Ministro de Estado e dos Negócios Estrangeiro
- s\, Paulo Rangel no âmbito da apreciação\, na especialidade\, da Propo
- sta de…\nUnidades DSSD: DACDP\, DAPL\, DCIRI\, Transversal\, UPE\nPági
- na na AR: https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Paginas/defaul
- t.aspx\nEmissões em direto (quando houver): https://canal.parlamento.pt/
- \nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora de fim indi
- cativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Paginas/default.aspx
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48573@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T180000Z
-DTEND:20261029T200000Z
-SUMMARY:AR · Comissão da Reforma do Estado e Poder Local
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 60 · Plenário\nGov
- erno: Ministro da Economia e da Coesão Territorial\, Manuel Castro Almei
- da · Secretário de Estado do Planeamento e Desenvolvimento Regional\, H
- élder Reis e mais 3 membros do Governo\nSíntese: Audição no âmbito d
- a apreciação\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª
-  (GOV) – Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, 
- Transversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVI
- ILeg/13CREPL/Paginas/default.aspx\nEmissões em direto (quando houver): h
- ttps://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/
- ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/13CREPL/Paginas/default.as
+UID:ar-48590@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261106T090000Z
+DTEND:20261106T110000Z
+SUMMARY:AR · Comissão de Trabalho\, Segurança Social e Inclusão
+LOCATION:Assembleia da República
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 77\nGoverno: Ministr
+ a do Trabalho\, Solidariedade e Segurança Social\, Maria do Rosário Pal
+ ma Ramalho\nSíntese: Audição no âmbito da apreciação\, na especiali
+ dade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) — Aprova o Orçament
+ o do Estado para 2027 \, ao…\nUnidades DSSD: DACDP\, DAPL\, Transversal
+ \, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/10CTSS
+ I/Paginas/default.aspx\nEmissões em direto (quando houver): https://cana
+ l.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\n
+ Hora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.as
  px
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48574@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T180000Z
-DTEND:20261029T200000Z
-SUMMARY:AR · Comissão de Economia e Coesão Territorial
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 55 · Plenário\nGov
- erno: Ministro da Economia e da Coesão Territorial\, Manuel Castro Almei
- da · Secretário de Estado do Planeamento e Desenvolvimento Regional\, H
- élder Reis e mais 3 membros do Governo\nSíntese: Audição no âmbito d
- a apreciação\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª
-  (GOV) - Orçamento do Estado para 2027\nUnidades DSSD: DAPL\, Transversa
- l\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/6CECT
- /Paginas/default.aspx\nEmissões em direto (quando houver): https://canal
- .parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nH
- ora de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/6CECT/Paginas/default.aspx
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48575@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T180000Z
-DTEND:20261029T200000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 127 · Plenário\nGo
- verno: Ministro da Economia e da Coesão Territorial\, Manuel Castro Alme
- ida · Secretário de Estado do Planeamento e Desenvolvimento Regional\, 
- Hélder Reis e mais 3 membros do Governo\nSíntese: Audição no âmbito 
- da apreciação\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.
- ª (GOV) – Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\
- , Transversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/X
- VIILeg/5COFAP/Paginas/default.aspx\nEmissões em direto (quando houver): 
- https://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io
- /ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48581@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261029T200000Z
-DTEND:20261029T220000Z
-SUMMARY:AR · Comissão de Agricultura e Pescas
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 69 · Plenário\nGov
- erno: Ministro da Economia e da Coesão Territorial\, Manuel Castro Almei
- da · Secretário de Estado do Planeamento e Desenvolvimento Regional\, H
- élder Reis e mais 3 membros do Governo\nSíntese: Audição no âmbito d
- a apreciação\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª
-  (GOV) – Orçamento do Estado para 2027 (conjunta com…\nUnidades DSSD
- : DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlamento
- .pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx\nEmissões em direto (q
- uando houver): https://canal.parlamento.pt/\nAR Preview: https://celine-m
- estre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode m
- udar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48572@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T090000Z
-DTEND:20261030T110000Z
-SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
- s e Garantias
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 106 · Plenário\nGo
- verno: Ministro da Administração Interna\nSíntese: Audição no âmbit
- o da apreciação na especialidade da Proposta de Lei 110/XVI/2.ª – Or
- çamento do Estado para 2027 \, nos termos conjugados do…\nUnidades DSS
- D: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.parlament
- o.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.aspx\nEmissões em direto 
- (quando houver): https://canal.parlamento.pt/\nAR Preview: https://celine
- -mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode
-  mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/1CACDLG/Paginas/default.as
- px
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48584@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T090000Z
-DTEND:20261030T110000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 128 · Plenário\nGo
- verno: Ministro da Administração Interna\, Luís Neves · Secretário d
- e Estado Adjunto e da Administração Interna\, Paulo Simões Ribeiro e m
- ais 2 membros do Governo\nSíntese: Audição no âmbito da apreciação\
- , na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orç
- amento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Transversal\, U
- PE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Pag
- inas/default.aspx\nEmissões em direto (quando houver): https://canal.par
- lamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora 
- de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48586@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T090000Z
-DTEND:20261030T110000Z
-SUMMARY:AR · Comissão de Agricultura e Pescas
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 70 · Plenário\nGov
- erno: Ministra da Administração Interna · Ministro da Administração 
- Interna\, Luís Neves e mais 3 membros do Governo\nSíntese: Audição no
-  âmbito da apreciação\, na especialidade\, da Proposta de Lei n.º 110
- /XVII/2.ª (GOV) – Orçamento do Estado para 2027\, nos termos do…\nU
- nidades DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://ww
- w.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx\nEmissões 
- em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: http
- s://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda 
- da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48560@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T093000Z
-DTEND:20261030T113000Z
-SUMMARY:AR · Comissão de Assuntos Europeus
-LOCATION:Assembleia da República · Sala 7
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 62 · Sala 7\nSínte
- se: Audição com o Vice-Primeiro Ministro da Ucrânia para a Integraçã
- o Europeia e Euro-Atlântica\, Vsevolod Chentsov\nUnidades DSSD: DACDP\, 
- DAPL\, DCIRI\nPágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/
- 4CAE/Paginas/default.aspx\nEmissões em direto (quando houver): https://c
- anal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead
- /\nHora de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/4CAE/Paginas/default.aspx
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48599@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T124500Z
-DTEND:20261030T144500Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala 1
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 29 · Sala 1\nSínte
- se: Audiência da EQUALMED – Associação Portuguesa de Medicamentos pe
- la Equidade em Saúde  no âmbito da apreciação\, na especialidade da P
- roposta…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https
- ://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmiss
- ões em direto (quando houver): https://canal.parlamento.pt/\nAR Preview:
-  https://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a ag
- enda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48598@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T140000Z
-DTEND:20261030T160000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala 1
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 30 · Sala 1\nSínte
- se: Audiência da Associação Promoção Frutos Secos (APFS) - Portugal 
- Nuts no âmbito da apreciação\, na especialidade da Proposta de Lei n.
- º…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://ww
- w.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmissões 
- em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: http
- s://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda 
- da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48601@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T140000Z
-DTEND:20261030T160000Z
-SUMMARY:AR · Comissão de Agricultura e Pescas
-LOCATION:Assembleia da República · Sala 1
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 71 · Sala 1\nSínte
- se: Audiência da Associação Promoção Frutos Secos (APFS) - Portugal 
- Nuts no âmbito da apreciação\, na especialidade da Proposta de Lei n.
- º…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://ww
- w.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.aspx\nEmissões 
- em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: http
- s://celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda 
- da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/7CAPes/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48583@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T150000Z
-DTEND:20261030T170000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 129 · Plenário\nGo
- verno: Secretário de Estado para a Digitalização\, Bernardo Correia ·
-  Secretário de Estado para a Simplificação\, Paulo Magro da Luz\nSínt
- ese: Audição no âmbito da apreciação\, na especialidade\, da Propost
- a de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027\nUni
- dades DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.
- parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmissões em
-  direto (quando houver): https://canal.parlamento.pt/\nAR Preview: https:
- //celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da
-  AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48585@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T150000Z
-DTEND:20261030T170000Z
-SUMMARY:AR · Comissão da Reforma do Estado e Poder Local
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 61 · Plenário\nGov
- erno: Secretário de Estado para a Digitalização\, Bernardo Correia · 
- Secretário de Estado para a Simplificação\, Paulo Magro da Luz\nSínte
- se: Audição no âmbito da apreciação\, na especialidade\, da Proposta
-  de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027\nUnid
- ades DSSD: DACDP\, DAPL\, Transversal\, UPE\nPágina na AR: https://www.p
- arlamento.pt/sites/com/XVIILeg/13CREPL/Paginas/default.aspx\nEmissões em
-  direto (quando houver): https://canal.parlamento.pt/\nAR Preview: https:
- //celine-mestre.github.io/ar-ahead/\nHora de fim indicativa\; a agenda da
-  AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/13CREPL/Paginas/default.as
- px
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48565@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T180000Z
-DTEND:20261030T200000Z
-SUMMARY:AR · Comissão de Saúde
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 67 · Plenário\nGov
- erno: Ministra da Saúde\nSíntese: Audição no âmbito da apreciação\
- , na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – «Or
- çamento do Estado para 2027»\, nos termos…\nUnidades DSSD: DACDP\, DA
- PL\, Transversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/co
- m/XVIILeg/9CS/Paginas/default.aspx\nEmissões em direto (quando houver): 
- https://canal.parlamento.pt/\nAR Preview: https://celine-mestre.github.io
- /ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/9CS/Paginas/default.aspx
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ar-48582@ar-preview
-DTSTAMP:20261029T224011Z
-DTSTART:20261030T180000Z
-DTEND:20261030T200000Z
-SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
- ca
-LOCATION:Assembleia da República · Sala das Sessões
-DESCRIPTION:Comissões Parlamentares · Reunião n.º 130 · Plenário\nGo
- verno: Ministra da Saúde\, Ana Paula Martins · Secretária de Estado da
-  Saúde\, Ana Povo e mais 1 membro do Governo\nSíntese: Audição no âm
- bito da apreciação\, na especialidade\, da Proposta de Lei n.º 110/XVI
- I/2.ª (GOV) – Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, D
- APL\, Transversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/c
- om/XVIILeg/5COFAP/Paginas/default.aspx\nEmissões em direto (quando houve
- r): https://canal.parlamento.pt/\nAR Preview: https://celine-mestre.githu
- b.io/ar-ahead/\nHora de fim indicativa\; a agenda da AR pode mudar.
-URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
- x
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

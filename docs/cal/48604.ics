@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGGov Suporte à Decisão//AR Preview//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AR Preview
+BEGIN:VEVENT
+UID:ar-48604@ar-preview
+DTSTAMP:20261030T140050Z
+DTSTART:20261105T103000Z
+DTEND:20261105T123000Z
+SUMMARY:AR · Grupo de Trabalho para a Implementação da Lei n.º 5-A 202
+ 6\, de 28 de janeiro - Representação de Interesses
+LOCATION:Assembleia da República · Auditório António de Almeida Santos
+DESCRIPTION:Grupo de Trabalho · Reunião n.º 16 · Auditório António d
+ e Almeida Santos\nSíntese: Sessão pública de apresentação da platafo
+ rma informática - Registo de Transparência da Representação de Intere
+ sses (RTRI)\nEmissões em direto (quando houver): https://canal.parlament
+ o.pt/\nAR Preview: https://celine-mestre.github.io/ar-ahead/\nHora de fim
+  indicativa\; a agenda da AR pode mudar.
+URL:https://canal.parlamento.pt/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
