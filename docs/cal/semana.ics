@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:AR Preview · 2 a 8 de novembro de 2026
 BEGIN:VEVENT
 UID:ar-48600@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261102T090000Z
 DTEND:20261102T110000Z
 SUMMARY:AR · Comissão de Infraestruturas\, Mobilidade e Habitação
@@ -24,8 +24,70 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/14CIMH/Paginas/default.asp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48620@ar-preview
+DTSTAMP:20261030T172158Z
+DTSTART:20261102T090000Z
+DTEND:20261102T110000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 131 · Plenário\nGo
+ verno: Ministro das Infraestruturas e Habitação\, Miguel Pinto Luz · S
+ ecretário de Estado das Infraestruturas\, Hugo Espírito Santo e mais 2 
+ membros do Governo\nSíntese: Audição no âmbito da apreciação\, na e
+ specialidade\, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento
+  do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Transversal\, UPE\nP
+ ágina na AR: https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/
+ default.aspx\nEmissões em direto (quando houver): https://canal.parlamen
+ to.pt/\nAR Preview: https://upe-sggov.github.io/ar-preview/\nHora de fim 
+ indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48619@ar-preview
+DTSTAMP:20261030T172158Z
+DTSTART:20261102T123000Z
+DTEND:20261102T143000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala 1
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 31 · Sala 1\nSínte
+ se: Audiência da Associação Nacional das Farmácias (ANF) no âmbito d
+ a apreciação\, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (
+ GOV)…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://
+ www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmissõe
+ s em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: ht
+ tps://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda 
+ da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48618@ar-preview
+DTSTAMP:20261030T172158Z
+DTSTART:20261102T140000Z
+DTEND:20261102T160000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala 1
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 32 · Sala 1\nSínte
+ se: Audiência da Confederação Portuguesa de Colectividades de Cultura\
+ , Recreio e Desporto no âmbito da apreciação\, na especialidade da Pro
+ posta…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https:/
+ /www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmissõ
+ es em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: h
+ ttps://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda
+  da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48571@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261102T150000Z
 DTEND:20261102T170000Z
 SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
@@ -46,7 +108,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48588@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261102T150000Z
 DTEND:20261102T170000Z
 SUMMARY:AR · Comissão de Cultura\, Comunicação\, Juventude e Desporto
@@ -65,8 +127,30 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/12CCCJD/Paginas/default.as
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48617@ar-preview
+DTSTAMP:20261030T172158Z
+DTSTART:20261102T150000Z
+DTEND:20261102T170000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala das Sessões
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 132 · Plenário\nGo
+ verno: Ministra da Cultura\, Juventude e Desporto\, Margarida Balseiro Lo
+ pes · Secretária de Estado Adjunta da Juventude e da Igualdade\, Carla 
+ Rodrigues e mais 2 membros do Governo\nSíntese: Audição no âmbito da 
+ apreciação\, na especialidade\, da Proposta de Lei n.º 110/XVII/2.ª (
+ GOV) – Orçamento do Estado para 2027\nUnidades DSSD: DACDP\, DAPL\, Tr
+ ansversal\, UPE\nPágina na AR: https://www.parlamento.pt/sites/com/XVIIL
+ eg/5COFAP/Paginas/default.aspx\nEmissões em direto (quando houver): http
+ s://canal.parlamento.pt/\nAR Preview: https://upe-sggov.github.io/ar-prev
+ iew/\nHora de fim indicativa\; a agenda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48595@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261103T090000Z
 DTEND:20261103T110000Z
 SUMMARY:AR · Comissão de Ambiente e Energia
@@ -86,7 +170,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48611@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261103T090000Z
 DTEND:20261103T110000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -107,8 +191,48 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48616@ar-preview
+DTSTAMP:20261030T172158Z
+DTSTART:20261103T123000Z
+DTEND:20261103T143000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala 1
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 33 · Sala 1\nSínte
+ se: Audiência da Fundação José Saramago no âmbito da apreciação\, 
+ na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamen
+ to do…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https:/
+ /www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmissõ
+ es em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: h
+ ttps://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda
+  da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48615@ar-preview
+DTSTAMP:20261030T172158Z
+DTSTART:20261103T140000Z
+DTEND:20261103T160000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala 1
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 34 · Sala 1\nSínte
+ se: Audiência da AUDIOGEST- Associação para a Gestão e Distribuição
+  de Direitos e da APM – Associação para a Promoção da Música no â
+ mbito da…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: http
+ s://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmis
+ sões em direto (quando houver): https://canal.parlamento.pt/\nAR Preview
+ : https://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a age
+ nda da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48570@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261103T143000Z
 DTEND:20261103T163000Z
 SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
@@ -127,7 +251,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48569@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
@@ -147,7 +271,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48587@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Cultura\, Comunicação\, Juventude e Desporto
@@ -166,7 +290,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48605@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Negócios Estrangeiros e Comunidades Portuguesa
@@ -185,7 +309,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48610@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261103T150000Z
 DTEND:20261103T170000Z
 SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
@@ -207,7 +331,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48606@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261103T160000Z
 DTEND:20261103T180000Z
 SUMMARY:AR · Comissão de Negócios Estrangeiros e Comunidades Portuguesa
@@ -224,8 +348,48 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/2CNECP/Paginas/default.asp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48613@ar-preview
+DTSTAMP:20261030T172158Z
+DTSTART:20261104T123000Z
+DTEND:20261104T143000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala 1
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 35 · Sala 1\nSínte
+ se: Audiência da ASPTPS Associação Portuguesa de Planos de Saúde no 
+ âmbito da apreciação\, na especialidade da Proposta de Lei n.º 110/XV
+ II/2.ª…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https
+ ://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmiss
+ ões em direto (quando houver): https://canal.parlamento.pt/\nAR Preview:
+  https://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a agen
+ da da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-48612@ar-preview
+DTSTAMP:20261030T172158Z
+DTSTART:20261104T131500Z
+DTEND:20261104T151500Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala 1
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 36 · Sala 1\nSínte
+ se: Audiência da Ordem dos Contabilistas Certificados - OCC no âmbito d
+ a apreciação\, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (
+ GOV)…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://
+ www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmissõe
+ s em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: ht
+ tps://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda 
+ da AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48568@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261104T140000Z
 DTEND:20261104T160000Z
 SUMMARY:AR · Comissão de Assuntos Constitucionais\, Direitos\, Liberdade
@@ -245,7 +409,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48602@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261104T180000Z
 DTEND:20261104T200000Z
 SUMMARY:AR · Comissão de Educação e Ciência
@@ -264,7 +428,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48591@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261105T090000Z
 DTEND:20261105T110000Z
 SUMMARY:AR · Comissão de Trabalho\, Segurança Social e Inclusão
@@ -282,8 +446,28 @@ URL:https://www.parlamento.pt/sites/com/XVIILeg/10CTSSI/Paginas/default.as
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ar-48614@ar-preview
+DTSTAMP:20261030T172158Z
+DTSTART:20261105T123000Z
+DTEND:20261105T143000Z
+SUMMARY:AR · Comissão de Orçamento\, Finanças e Administração Públi
+ ca
+LOCATION:Assembleia da República · Sala 1
+DESCRIPTION:Comissões Parlamentares · Reunião n.º 37 · Sala 1\nSínte
+ se: Audiência da Associação Nacional de Profissionais de Administraç
+ ão de Condomínios (ANPAC) no âmbito da apreciação\, na especialidade
+  da…\nUnidades DSSD: DAPL\, Transversal\, UPE\nPágina na AR: https://w
+ ww.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx\nEmissões
+  em direto (quando houver): https://canal.parlamento.pt/\nAR Preview: htt
+ ps://upe-sggov.github.io/ar-preview/\nHora de fim indicativa\; a agenda d
+ a AR pode mudar.
+URL:https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.asp
+ x
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ar-48566@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261105T140000Z
 DTEND:20261105T160000Z
 SUMMARY:AR · Comissão de Defesa Nacional
@@ -301,7 +485,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ar-48590@ar-preview
-DTSTAMP:20261030T171952Z
+DTSTAMP:20261030T172158Z
 DTSTART:20261106T090000Z
 DTEND:20261106T110000Z
 SUMMARY:AR · Comissão de Trabalho\, Segurança Social e Inclusão

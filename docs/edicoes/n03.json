@@ -12530,12 +12530,18 @@
     "novos": 4,
     "alterados": 0,
     "retirados": 0
+   },
+   {
+    "data": "2026-10-30",
+    "novos": 9,
+    "alterados": 0,
+    "retirados": 0
    }
   ],
-  "atualizado": "2026-10-30T17:18+00:00",
-  "atualizadoLabel": "30 de outubro, 17h18",
+  "atualizado": "2026-10-30T17:20+00:00",
+  "atualizadoLabel": "30 de outubro, 17h20",
   "estado": "com triagem automática",
-  "aviso": "16 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números.",
+  "aviso": "25 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números.",
   "desdeLabel": "30 de outubro"
  },
  "fichas": {
@@ -12752,19 +12758,10 @@
    "tabelas": [],
    "fundo": [
     {
-     "data": "2026-09-07",
-     "fonte": "Diário de Notícias da Madeira",
-     "url": "https://www.dnoticias.pt/tag/geral/oe2027/",
-     "sintese": "OE2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
      "data": "2026-09-24",
-     "fonte": "Correio da Manhã",
-     "url": "https://www.cmjornal.pt/politica/amp/ministro-da-presidencia-avisa-que-margem-negocial-do-oe2027-e-muito-limitada-e-critica-pessimistas-alertantes",
-     "sintese": "Ministro da Presidência avisa que margem negocial do OE2027 é muito limitada e critica \"pessimistas alertantes\"",
+     "fonte": "Nascer do SOL",
+     "url": "https://sol.iol.pt/economia/noticias/ahresp-apresenta-27-propostas-para-o-oe2027-para-estimular-o-investimento-e-travar-a-pressao-sobre-as-empresas/20260924/6ab565360cf23b0ed4fd94e8",
+     "sintese": "AHRESP apresenta 27 propostas para o OE2027 para estimular o investimento e travar a pressão sobre as empresas",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12789,27 +12786,27 @@
     },
     {
      "data": "2026-10-06",
-     "fonte": "Público",
-     "url": "https://www.publico.pt/2026/10/06/politica/noticia/ps-admite-mudar-viabilizacao-oe2027-medidas-surpresa-gravosas-2190485",
-     "sintese": "PS admite mudar viabilização do OE2027 se este tiver “medidas surpresa” gravosas | Orçamento do Estado 2027",
+     "fonte": "Expresso",
+     "url": "https://expresso.pt/iniciativaseprodutos/projetos-expresso/2026-10-06-o-que-pode-mudar-no-irs-com-o-orcamento-do-estado-para-2027--e827c5aa",
+     "sintese": "O que pode mudar no IRS com o Orçamento do Estado para 2027?",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-07",
-     "fonte": "Jornal de Negócios",
-     "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/orcamento-do-estado-para-2027-vai-ser-apresentado-esta-quinta-feira",
-     "sintese": "Orçamento do Estado para 2027 vai ser apresentado esta quinta-feira",
+     "fonte": "TSF",
+     "url": "https://www.tsf.pt/economia/artigo/oe2027-governo-entrega-proposta-no-parlamento-esta-quinta-feira-a-tarde/18134613",
+     "sintese": "OE2027: Governo entrega proposta no Parlamento esta quinta-feira à tarde",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-08",
-     "fonte": "Expresso",
-     "url": "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-psd-espera-tranquilidade-e-previsibilidade-com-o-oe2027-mas-ps-avisa-que-compromissos-sao-para-cumprir-ab421b1d",
-     "sintese": "PSD espera \"tranquilidade\" e \"previsibilidade\" com o OE2027, mas PS avisa que \"compromissos são para cumprir\"",
+     "fonte": "Correio da Manhã",
+     "url": "https://www.cmjornal.pt/politica/amp/governo-estima-arrecadar-mais-166-milhoes-de-euros-com-impostos-sobre-tabaco-e-alcool-no-oe2027",
+     "sintese": "Governo estima arrecadar mais 166 milhões de euros com impostos sobre tabaco e álcool no OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12860,15 +12857,6 @@
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-22",
-     "fonte": "ECO",
-     "url": "https://eco.sapo.pt/2026/10/22/da-despesa-ao-investimento-guia-para-acompanhar-a-audicao-de-sarmento-sobre-o-oe2027/",
-     "sintese": "Da despesa ao investimento: Guia para acompanhar a audição de Sarmento sobre o OE2027",
-     "impacto": "",
-     "natureza": "contexto",
-     "naturezaLabel": "Por classificar"
-    },
-    {
      "data": "2026-10-23",
      "fonte": "Observador",
      "url": "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/",
@@ -12878,19 +12866,19 @@
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-26",
-     "fonte": "TSF",
-     "url": "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-vai-montar-tendas-em-frente-ao-parlamento-apos-a-discussao-do-oe2027/18141431",
-     "sintese": "Acampada de Lisboa vai montar tendas em frente ao Parlamento após a discussão do OE2027",
+     "data": "2026-10-25",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/jaime-rocha-ey-oe2027-falta-claramente-ambicao-e-estimulo-a-competitividade-das-empresas/",
+     "sintese": "Jaime Rocha, EY: “OE2027? Falta claramente ambição e estímulo à competitividade das empresas”",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-26",
-     "fonte": "Diário de Notícias",
-     "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal",
-     "sintese": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/",
+     "sintese": "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12905,28 +12893,46 @@
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-27",
+     "data": "2026-10-28",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/28/orcamento-do-estado-para-2027-aprovado-na-generalidade-com-abstencao-do-ps/",
+     "sintese": "Orçamento do Estado para 2027 aprovado na generalidade com abstenção do PS",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-28",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/detalhe/carneiro-acusa-psd-e-cds-de-destratar-desconsiderar-e-atacar-ps-no-debate-do-oe2027",
+     "sintese": "Carneiro acusa PSD e CDS de destratar, desconsiderar e atacar PS no debate do OE2027",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-29",
      "fonte": "Notícias ao Minuto",
-     "url": "https://www.noticiasaominuto.com/politica/3074083/oe2027-carneiro-recusa-alterar-posicao-do-ps-e-desafia-governo-a-entregar-imoveis-do-ihru-aos-municipios#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
-     "sintese": "Carneiro reafirma abstenção no OE2027 (e deixa desafio ao Governo)",
+     "url": "https://www.noticiasaominuto.com/pais/3075446/oe2027-decisao-da-galp-e-soberana-e-governo-cumpriu-o-seu-papel-castro-almeida#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed",
+     "sintese": "OE2027: Decisão da Galp \"é soberana\" e Governo cumpriu o seu papel",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-28",
-     "fonte": "Executive Digest",
-     "url": "https://executivedigest.sapo.pt/oe2027-chega-anuncia-voto-contra-na-generalidade/",
-     "sintese": "OE2027: Chega anuncia voto contra na generalidade",
+     "data": "2026-10-30",
+     "fonte": "Público",
+     "url": "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193",
+     "sintese": "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-28",
-     "fonte": "Jornal Económico",
-     "url": "https://jornaleconomico.sapo.pt/noticias/chega-anuncia-voto-contra-o-oe2027-na-generalidade/",
-     "sintese": "Chega anuncia voto contra o OE2027 na generalidade",
+     "data": "2026-10-30",
+     "fonte": "Diário de Notícias",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories",
+     "sintese": "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12934,14 +12940,14 @@
    ],
    "amostra": {
     "analisadas": 20,
-    "encontradas": 1059
+    "encontradas": 1136
    },
    "base": {
-    "ultima": "2026-10-28 12:37",
-    "em": "2026-10-28"
+    "ultima": "2026-10-30 15:47",
+    "em": "2026-10-30"
    },
-   "novas": 67,
-   "enquadramento": "Seleção automática de 20 das 1059 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (125 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "novas": 0,
+   "enquadramento": "Seleção automática de 20 das 1136 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (163 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos": {
    "titulo": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
@@ -14046,7 +14052,141 @@
   },
   "2026-11-03-comiss-o-de-or-amento-finan-as-e-admini": {
    "titulo": "Comissão de Orçamento, Finanças e Administração Pública",
-   "meta": "Comissões Parlamentares · Reunião n.º 134 · Plenário · terça, 3 nov, 15h00 · UO de referência: DACDP · DAPL · Transversal · UPE",
+   "meta": "Comissões Parlamentares · Reunião n.º 34 · Sala 1 · terça, 3 nov, 14h00 · UO de referência: DAPL · Transversal · UPE",
+   "nivel": "curta",
+   "origem": "radar",
+   "gerado_por": "Radar de Notícias — seleção automática, sem análise",
+   "atencao": [],
+   "blocos": [],
+   "tabelas": [],
+   "fundo": [
+    {
+     "data": "2026-09-22",
+     "fonte": "Açoriano Oriental",
+     "url": "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515",
+     "sintese": "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-29",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/",
+     "sintese": "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-02",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/",
+     "sintese": "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-03",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/",
+     "sintese": "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-04",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao",
+     "sintese": "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-06",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941",
+     "sintese": "Agendada nova reunião entre Governo e sindicatos da função pública",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/",
+     "sintese": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "Açoriano Oriental",
+     "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602",
+     "sintese": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
+   "amostra": {
+    "analisadas": 8,
+    "encontradas": 16
+   },
+   "base": {
+    "ultima": "2026-10-29 16:14",
+    "em": "2026-10-30"
+   },
+   "novas": 0,
+   "enquadramento": "Seleção automática de 8 das 16 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+  },
+  "2026-11-03-comiss-o-de-neg-cios-estrangeiros-e-com": {
+   "titulo": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+   "meta": "Comissões Parlamentares · Reunião n.º 50 · terça, 3 nov, 16h00 · UO de referência: DCIRI",
+   "nivel": "curta",
+   "origem": "radar",
+   "gerado_por": "Radar de Notícias — seleção automática, sem análise",
+   "atencao": [],
+   "blocos": [],
+   "tabelas": [],
+   "fundo": [
+    {
+     "data": "2026-09-02",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/portugal-esta-a-identificar-equipamento-energetico-nao-utilizado-para-doar-a-kiev-indicou-rangel_n1763015",
+     "sintese": "Portugal está a identificar equipamento energético não utilizado para doar a Kiev indicou Rangel",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409",
+     "sintese": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
+   "amostra": {
+    "analisadas": 2,
+    "encontradas": 2
+   },
+   "base": {
+    "ultima": "2026-10-29 18:46",
+    "em": "2026-10-30"
+   },
+   "novas": 0,
+   "enquadramento": "Seleção automática de 2 das 2 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+  },
+  "2026-11-02-comiss-o-de-or-amento-finan-as-e-admini": {
+   "titulo": "Comissão de Orçamento, Finanças e Administração Pública",
+   "meta": "Comissões Parlamentares · Reunião n.º 132 · Plenário · segunda, 2 nov, 15h00 · UO de referência: DACDP · DAPL · Transversal · UPE",
    "nivel": "curta",
    "origem": "radar",
    "gerado_por": "Radar de Notícias — seleção automática, sem análise",
@@ -14138,9 +14278,9 @@
    "novas": 0,
    "enquadramento": "Seleção automática de 8 das 17 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
-  "2026-11-03-comiss-o-de-neg-cios-estrangeiros-e-com": {
-   "titulo": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
-   "meta": "Comissões Parlamentares · Reunião n.º 50 · terça, 3 nov, 16h00 · UO de referência: DCIRI",
+  "2026-11-04-comiss-o-de-or-amento-finan-as-e-admini": {
+   "titulo": "Comissão de Orçamento, Finanças e Administração Pública",
+   "meta": "Comissões Parlamentares · Reunião n.º 36 · Sala 1 · quarta, 4 nov, 13h15 · UO de referência: DAPL · Transversal · UPE",
    "nivel": "curta",
    "origem": "radar",
    "gerado_por": "Radar de Notícias — seleção automática, sem análise",
@@ -14149,34 +14289,182 @@
    "tabelas": [],
    "fundo": [
     {
-     "data": "2026-09-02",
+     "data": "2026-09-22",
+     "fonte": "Açoriano Oriental",
+     "url": "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515",
+     "sintese": "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-09-29",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/",
+     "sintese": "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-02",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/",
+     "sintese": "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-03",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/",
+     "sintese": "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-04",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao",
+     "sintese": "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-06",
      "fonte": "RTP Notícias",
-     "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/portugal-esta-a-identificar-equipamento-energetico-nao-utilizado-para-doar-a-kiev-indicou-rangel_n1763015",
-     "sintese": "Portugal está a identificar equipamento energético não utilizado para doar a Kiev indicou Rangel",
+     "url": "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941",
+     "sintese": "Agendada nova reunião entre Governo e sindicatos da função pública",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/",
+     "sintese": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-29",
-     "fonte": "RTP Notícias",
-     "url": "https://www.rtp.pt/noticias/cultura/governo-nunca-defendera-reparacoes-historicas-as-antigas-colonias-portuguesas-diz-mne_n1775409",
-     "sintese": "Governo nunca defenderá reparações históricas às antigas colónias portuguesas diz MNE",
+     "fonte": "Açoriano Oriental",
+     "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602",
+     "sintese": "Serviço de estatística dos Açores vai transformar-se em instituto público",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     }
    ],
    "amostra": {
-    "analisadas": 2,
-    "encontradas": 2
+    "analisadas": 8,
+    "encontradas": 16
    },
    "base": {
-    "ultima": "2026-10-29 18:46",
+    "ultima": "2026-10-29 16:14",
     "em": "2026-10-30"
    },
    "novas": 0,
-   "enquadramento": "Seleção automática de 2 das 2 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "enquadramento": "Seleção automática de 8 das 16 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+  },
+  "2026-11-05-comiss-o-de-or-amento-finan-as-e-admini": {
+   "titulo": "Comissão de Orçamento, Finanças e Administração Pública",
+   "meta": "Comissões Parlamentares · Reunião n.º 37 · Sala 1 · quinta, 5 nov, 12h30 · UO de referência: DAPL · Transversal · UPE",
+   "nivel": "curta",
+   "origem": "radar",
+   "gerado_por": "Radar de Notícias — seleção automática, sem análise",
+   "atencao": [],
+   "blocos": [],
+   "tabelas": [],
+   "fundo": [
+    {
+     "data": "2026-09-29",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/",
+     "sintese": "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-02",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/",
+     "sintese": "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-03",
+     "fonte": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/",
+     "sintese": "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-04",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao",
+     "sintese": "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-06",
+     "fonte": "RTP Notícias",
+     "url": "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941",
+     "sintese": "Agendada nova reunião entre Governo e sindicatos da função pública",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-17",
+     "fonte": "Healthnews",
+     "url": "https://healthnews.pt/2026/10/17/utentes-da-tipologia-sem-medico-nao-elegivel-nao-sao-contabilizados-para-suplementos-de-lista-nem-indicadores-manutencao-da-inscricao-nas-usf-dependente-das-uls/#utm_source=rss&utm_medium=rss&utm_campaign=utentes-da-tipologia-sem-medico-nao-elegivel-nao-sao-contabilizados-para-suplementos-de-lista-nem-indicadores-manutencao-da-inscricao-nas-usf-dependente-das-uls",
+     "sintese": "Utentes da tipologia “sem médico não elegível, não são contabilizados para suplementos de lista nem indicadores”: manutenção da inscrição nas USF, dependente das ULS.",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-21",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/",
+     "sintese": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-29",
+     "fonte": "Açoriano Oriental",
+     "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602",
+     "sintese": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
+   "amostra": {
+    "analisadas": 8,
+    "encontradas": 21
+   },
+   "base": {
+    "ultima": "2026-10-29 16:14",
+    "em": "2026-10-30"
+   },
+   "novas": 0,
+   "enquadramento": "Seleção automática de 8 das 21 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   }
  },
  "destaques": [],
@@ -14228,6 +14516,527 @@
     "todas": []
    },
    "varrimento": "2026-11-02-comiss-o-de-infraestruturas-mobilidade"
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-02",
+   "hora": "09h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 131 · Plenário",
+   "resumo": "Audição do Ministro das Infraestruturas e Habitação no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro das Infraestruturas e Habitação – Miguel Pinto Luz\n Secretário de Estado das Infraestruturas – Hugo Espírito Santo\n Secr",
+   "ordemTrabalhos": "Audição do Ministro das Infraestruturas e Habitação no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministro das Infraestruturas e Habitação – Miguel Pinto Luz\n Secretário de Estado das Infraestruturas – Hugo Espírito Santo\n Secretária de Estado da Mobilidade – Cristina Pinto Dias\n Secretária de Estado da Habitação – Patrícia Gonçalves Costa",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48620,
+   "chave": "ar-48620",
+   "dataLabel": "segunda, 2 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DACDP",
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição do ministro» (Governo na AR → DACDP)"
+   ],
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 17,
+    "n7": 2,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-28",
+      "fonte": "Público",
+      "titulo": "Miguel Pinto Luz: “Nunca se apoiou tanto a habitação como neste Governo”",
+      "url": "https://www.publico.pt/2026/10/28/politica/noticia/governo-volta-parlamento-aprovacao-orcamento-estado-2192872"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-28 10:12",
+      "Público",
+      "Miguel Pinto Luz: “Nunca se apoiou tanto a habitação como neste Governo”",
+      "https://www.publico.pt/2026/10/28/politica/noticia/governo-volta-parlamento-aprovacao-orcamento-estado-2192872"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-02-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-02",
+   "hora": "12h30",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 31 · Sala 1",
+   "resumo": "Audiência da Associação Nacional das Farmácias (ANF), no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ema Paulino, Presidente (por videoconferência);\n Paula Dinis, Vice-Presidente (por videoconferência);\n Ana Tenreiro, Membro da D",
+   "ordemTrabalhos": "Audiência da Associação Nacional das Farmácias (ANF), no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ema Paulino, Presidente (por videoconferência);\n Paula Dinis, Vice-Presidente (por videoconferência);\n Ana Tenreiro, Membro da Direção;\n Nuno Cardoso, Diretor-Geral;\n Manuel Talhinhas, Diretor Político-Institucional.",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48619,
+   "chave": "ar-48619",
+   "dataLabel": "segunda, 2 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 18,
+    "n7": 1,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     },
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-10 11:37",
+      "Açoriano Oriental",
+      "Entrega de vacinas antigripal “bastante inferior” ao solicitado para o privado",
+      "https://www.acorianooriental.pt/noticia/entrega-de-vacinas-antigripal-bastante-inferior-ao-solicitado-para-o-privado-380980"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-28 06:49",
+      "Healthnews",
+      "Futuros farmacêuticos debatem resiliência dos sistemas de saúde no Porto",
+      "https://healthnews.pt/2026/09/28/futuros-farmaceuticos-debatem-resiliencia-dos-sistemas-de-saude-no-porto/#utm_source=rss&utm_medium=rss&utm_campaign=futuros-farmaceuticos-debatem-resiliencia-dos-sistemas-de-saude-no-porto"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-02-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-02",
+   "hora": "14h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 32 · Sala 1",
+   "resumo": "Audiência da Confederação Portuguesa de Colectividades de Cultura, Recreio e Desporto no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Jorge Feliciano – Presidente da Direção\n Marlene Soares – Vice-presidente da Direção\n Joaquim Es",
+   "ordemTrabalhos": "Audiência da Confederação Portuguesa de Colectividades de Cultura, Recreio e Desporto no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Jorge Feliciano – Presidente da Direção\n Marlene Soares – Vice-presidente da Direção\n Joaquim Escoval – Vice-presidente da Direção",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48618,
+   "chave": "ar-48618",
+   "dataLabel": "segunda, 2 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 18,
+    "n7": 1,
+    "n7ant": 4,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "Jornal Económico",
+      "titulo": "Leitão Amaro discorda da interpretação de que Estatutos da Lusa estejam em desconformidade",
+      "url": "https://jornaleconomico.sapo.pt/noticias/leitao-amaro-discorda-da-interpretacao-de-que-estatutos-da-lusa-estejam-em-desconformidade/"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 12:30",
+      "Jornal Económico",
+      "Leitão Amaro discorda da interpretação de que Estatutos da Lusa estejam em desconformidade",
+      "https://jornaleconomico.sapo.pt/noticias/leitao-amaro-discorda-da-interpretacao-de-que-estatutos-da-lusa-estejam-em-desconformidade/"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:44",
+      "ECO",
+      "Sindicato dos Jornalistas diz que estatutos da Lusa estão “feridos de ilegalidade”",
+      "https://eco.sapo.pt/2026/09/22/sindicato-dos-jornalistas-diz-que-estatutos-da-lusa-estao-feridos-de-ilegalidade/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-02-comiss-o-de-or-amento-finan-as-e-admini"
   },
   {
    "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
@@ -14326,6 +15135,177 @@
    "varrimento": "2026-11-02-comiss-o-de-cultura-comunica-o-juventud"
   },
   {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-02",
+   "hora": "15h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 132 · Plenário",
+   "resumo": "Audição da Ministra da Cultura, Juventude e Desporto no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra da Cultura, Juventude e Desporto – Margarida Balseiro Lopes\n Secretária de Estado Adjunta da Juventude e da Igualdade –",
+   "ordemTrabalhos": "Audição da Ministra da Cultura, Juventude e Desporto no âmbito da apreciação, na especialidade, da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Ministra da Cultura, Juventude e Desporto – Margarida Balseiro Lopes\n Secretária de Estado Adjunta da Juventude e da Igualdade – Carla Rodrigues\n Secretário de Estado da Cultura – Alberto Santos\n Secretário de Estado do Desporto – Pedro Dias",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48617,
+   "chave": "ar-48617",
+   "dataLabel": "segunda, 2 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DACDP",
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)",
+    "«audição da ministra» (Governo na AR → DACDP)"
+   ],
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 17,
+    "n7": 1,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     },
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-28 18:11",
+      "Jornal Económico",
+      "OE2027: Apoio às artes vai ter reforço de 10 milhões de euros",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-apoio-as-artes-vai-ter-reforco-de-10-milhoes-de-euros/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-02-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
    "tema": "Comissão de Ambiente e Energia",
    "data": "2026-11-03",
    "hora": "09h00",
@@ -14402,6 +15382,332 @@
     "«audição da ministra» (Governo na AR → DACDP)"
    ],
    "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 16,
+    "n7": 1,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     },
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-03-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-03",
+   "hora": "12h30",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 33 · Sala 1",
+   "resumo": "Audiência da Fundação José Saramago, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.",
+   "ordemTrabalhos": "Audiência da Fundação José Saramago, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48616,
+   "chave": "ar-48616",
+   "dataLabel": "terça, 3 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 16,
+    "n7": 1,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     },
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-03-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-03",
+   "hora": "14h00",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 34 · Sala 1",
+   "resumo": "Audiência da AUDIOGEST- Associação para a Gestão e Distribuição de Direitos e da APM – Associação para a Promoção da Música, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Miguel Carretas, Diretor;\n Francisca Mello Vieira, Assess",
+   "ordemTrabalhos": "Audiência da AUDIOGEST- Associação para a Gestão e Distribuição de Direitos e da APM – Associação para a Promoção da Música, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Miguel Carretas, Diretor;\n Francisca Mello Vieira, Assessora jurídica da Direção;\n Ana Neves, Assessora de políticas públicas da Direção.",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48615,
+   "chave": "ar-48615",
+   "dataLabel": "terça, 3 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Tarde",
    "ligacoes": [
     {
      "titulo": "Agenda parlamentar",
@@ -15080,6 +16386,410 @@
    "varrimento": "2026-11-03-comiss-o-de-neg-cios-estrangeiros-e-com"
   },
   {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-04",
+   "hora": "12h30",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 35 · Sala 1",
+   "resumo": "Audiência da ASPTPS Associação Portuguesa de Planos de Saúde, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Sónia Pereira Coutinho, Presidente da Direção;\n José Pina, Associado",
+   "ordemTrabalhos": "Audiência da ASPTPS Associação Portuguesa de Planos de Saúde, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Sónia Pereira Coutinho, Presidente da Direção;\n José Pina, Associado",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48613,
+   "chave": "ar-48613",
+   "dataLabel": "quarta, 4 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 29,
+    "n7": 2,
+    "n7ant": 4,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-29",
+      "fonte": "Healthnews",
+      "titulo": "Informar não basta, especialistas pedem um ecossistema de literacia em saúde",
+      "url": "https://healthnews.pt/2026/10/29/informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude"
+     },
+     {
+      "data": "2026-10-23",
+      "fonte": "Healthnews",
+      "titulo": "APDI leva microbiota e eixo cérebro-intestino ao centro do debate sobre DII",
+      "url": "https://healthnews.pt/2026/10/23/apdi-leva-microbiota-e-eixo-cerebro-intestino-ao-centro-do-debate-sobre-dii/"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-29 12:50",
+      "Healthnews",
+      "Informar não basta, especialistas pedem um ecossistema de literacia em saúde",
+      "https://healthnews.pt/2026/10/29/informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude"
+     ],
+     [
+      "2026-10-23 12:39",
+      "Healthnews",
+      "APDI leva microbiota e eixo cérebro-intestino ao centro do debate sobre DII",
+      "https://healthnews.pt/2026/10/23/apdi-leva-microbiota-e-eixo-cerebro-intestino-ao-centro-do-debate-sobre-dii/"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-16 14:00",
+      "Healthnews",
+      "Xavier Barreto alerta para corte de 400 milhões e avisa que pôr o SNS a concorrer subfinanciado é “condenar-nos à extinção”",
+      "https://healthnews.pt/2026/10/16/xavier-barreto-alerta-para-corte-de-400-milhoes-e-avisa-que-por-o-sns-a-concorrer-subfinanciado-e-condenar-nos-a-extincao/#utm_source=rss&utm_medium=rss&utm_campaign=xavier-barreto-alerta-para-corte-de-400-milhoes-e-avisa-que-por-o-sns-a-concorrer-subfinanciado-e-condenar-nos-a-extincao"
+     ],
+     [
+      "2026-10-13 09:46",
+      "Observador",
+      "Associação alerta sobre alterações do preço dos genéricos",
+      "https://observador.pt/2026/10/13/alteracao-do-preco-dos-genericos-deve-ser-acompanhada-do-reforco-da-oferta-diz-associacao/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-08 09:34",
+      "RTP Notícias",
+      "Associação de Medicamentos pela Equidade em Saúde quer aumento de 5% para genéricos",
+      "https://www.rtp.pt/noticias/pais/associacao-de-medicamentos-pela-equidade-em-saude-quer-aumento-de-5-para-genericos_n1770244"
+     ],
+     [
+      "2026-10-08 09:19",
+      "Healthnews",
+      "Genéricos e biossimilares: associação pede medidas de apoio ao setor",
+      "https://healthnews.pt/2026/10/08/genericos-e-biossimilares-associacao-pede-medidas-de-apoio-ao-setor/#utm_source=rss&utm_medium=rss&utm_campaign=genericos-e-biossimilares-associacao-pede-medidas-de-apoio-ao-setor"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-05 09:00",
+      "Expresso",
+      "Céu Mateus, presidente da Associação Portuguesa de Economia da Saúde, no podcast “45 Graus”: veja a primeira parte desta conversa",
+      "https://expresso.pt/multimedia/video/2026-10-05-video-ceu-mateus-presidente-da-associacao-portuguesa-de-economia-da-saude-no-podcast-45-graus-veja-a-primeira-parte-desta-conversa-45d80372"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-10-02 08:48",
+      "Jornal de Negócios",
+      "Hospitais privados com recorde de faturação têm mais de 1.000 milhões para investir",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/hospitais-privados-com-recorde-de-faturacao-tem-mais-de-1-000-milhoes-para-investir"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-30 07:37",
+      "Healthnews",
+      "Fertilidade: associação pede programa nacional e tempos máximos de resposta na PMA",
+      "https://healthnews.pt/2026/09/30/fertilidade-associacao-pede-programa-nacional-e-tempos-maximos-de-resposta-na-pma/#utm_source=rss&utm_medium=rss&utm_campaign=fertilidade-associacao-pede-programa-nacional-e-tempos-maximos-de-resposta-na-pma"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-21 09:57",
+      "Healthnews",
+      "Residência Farmacêutica: APFR pede cinco medidas urgentes após inquérito",
+      "https://healthnews.pt/2026/09/21/residencia-farmaceutica-apfr-pede-cinco-medidas-urgentes-apos-inquerito/#utm_source=rss&utm_medium=rss&utm_campaign=residencia-farmaceutica-apfr-pede-cinco-medidas-urgentes-apos-inquerito"
+     ],
+     [
+      "2026-09-17 15:06",
+      "Ambiente Magazine",
+      "Mobilidade elétrica: “o carregamento em casa é fundamental para complementar a rede pública”",
+      "https://www.ambientemagazine.com/mobilidade-eletrica-o-carregamento-em-casa-e-fundamental-para-complementar-a-rede-publica/"
+     ],
+     [
+      "2026-09-14 14:49",
+      "Healthnews",
+      "Pacto para a Saúde em debate: visão de longo prazo para um sistema sustentável",
+      "https://healthnews.pt/2026/09/14/pacto-para-a-saude-em-debate-visao-de-longo-prazo-para-um-sistema-sustentavel/#utm_source=rss&utm_medium=rss&utm_campaign=pacto-para-a-saude-em-debate-visao-de-longo-prazo-para-um-sistema-sustentavel"
+     ],
+     [
+      "2026-09-14 11:02",
+      "Healthnews",
+      "Conversas em Rede: Webinar “Pacto para a Saúde: Da Visão Estratégica ao Compromisso Nacional”",
+      "https://healthnews.pt/2026/09/14/medicos-e-governantes-sentam-se-a-mesma-mesa-sera-desta-que-a-saude-para-de-andar-para-tras/#utm_source=rss&utm_medium=rss&utm_campaign=medicos-e-governantes-sentam-se-a-mesma-mesa-sera-desta-que-a-saude-para-de-andar-para-tras"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-04-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-04",
+   "hora": "13h15",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 36 · Sala 1",
+   "resumo": "Audiência da Ordem dos Contabilistas Certificados - OCC, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Paula Franco - Bastonária da Ordem dos Contabilistas Certificados;\n Amândio Silva",
+   "ordemTrabalhos": "Audiência da Ordem dos Contabilistas Certificados - OCC, no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Paula Franco - Bastonária da Ordem dos Contabilistas Certificados;\n Amândio Silva",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48612,
+   "chave": "ar-48612",
+   "dataLabel": "quarta, 4 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Tarde",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 16,
+    "n7": 1,
+    "n7ant": 3,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     },
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-04-comiss-o-de-or-amento-finan-as-e-admini"
+  },
+  {
    "tema": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
    "data": "2026-11-04",
    "hora": "14h00",
@@ -15326,6 +17036,199 @@
     "ultimas": [],
     "todas": []
    }
+  },
+  {
+   "tema": "Comissão de Orçamento, Finanças e Administração Pública",
+   "data": "2026-11-05",
+   "hora": "12h30",
+   "interveniente": "",
+   "tipoLabel": "Comissões Parlamentares · Reunião n.º 37 · Sala 1",
+   "resumo": "Audiência da Associação Nacional de Profissionais de Administração de Condomínios (ANPAC), no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Alexandre Teixeira Mendes - Presidente da Direção;\n Joana Gonçalves;\n Ana Paula Salgueiro.",
+   "ordemTrabalhos": "Audiência da Associação Nacional de Profissionais de Administração de Condomínios (ANPAC), no âmbito da apreciação, na especialidade da Proposta de Lei n.º 110/XVII/2.ª (GOV) – Orçamento do Estado para 2027.\n Alexandre Teixeira Mendes - Presidente da Direção;\n Joana Gonçalves;\n Ana Paula Salgueiro.",
+   "orgao": "Comissão de Orçamento, Finanças e Administração Pública",
+   "id_ar": 48614,
+   "chave": "ar-48614",
+   "dataLabel": "quinta, 5 nov",
+   "tipo": [
+    "Comissões Parlamentares"
+   ],
+   "uo": [
+    "DAPL",
+    "Transversal",
+    "UPE"
+   ],
+   "pertinencia": "Vigilância",
+   "criterio": [
+    "«proposta de lei» (DAPL)",
+    "«orçamento do estado» (UPE)",
+    "«orçamento do estado» (transversal)"
+   ],
+   "periodo": "Manhã",
+   "ligacoes": [
+    {
+     "titulo": "Agenda parlamentar",
+     "url": "https://www.parlamento.pt/sites/com/XVIILeg/5COFAP/Paginas/default.aspx"
+    }
+   ],
+   "novo": "2026-10-30",
+   "cobertura": {
+    "n": 21,
+    "n7": 1,
+    "n7ant": 4,
+    "dias": 60,
+    "ref": "2026-10-30",
+    "metodo": "palavras",
+    "ultima": "2026-10-29 16:14",
+    "ultimas": [
+     {
+      "data": "2026-10-29",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     },
+     {
+      "data": "2026-10-21",
+      "fonte": "ECO",
+      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     },
+     {
+      "data": "2026-10-20",
+      "fonte": "Açoriano Oriental",
+      "titulo": "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "url": "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-29 16:14",
+      "Açoriano Oriental",
+      "Serviço de estatística dos Açores vai transformar-se em instituto público",
+      "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-21 11:41",
+      "ECO",
+      "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
+      "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
+     ],
+     [
+      "2026-10-20 12:09",
+      "Açoriano Oriental",
+      "Antigas fábricas da Sinaga voltarão a ser “símbolo de desenvolvimento”",
+      "https://www.acorianooriental.pt/noticia/antigas-fabricas-da-sinaga-voltarao-a-ser-simbolo-de-desenvolvimento-381280"
+     ],
+     [
+      "2026-10-19 12:08",
+      "Jornal Económico",
+      "Governo antecipa revisão das ajudas de custo para janeiro de 2027",
+      "https://jornaleconomico.sapo.pt/noticias/governo-antecipa-revisao-das-ajudas-de-custo-para-janeiro-de-2027/"
+     ],
+     [
+      "2026-10-17 13:18",
+      "Healthnews",
+      "Utentes da tipologia “sem médico não elegível, não são contabilizados para suplementos de lista nem indicadores”: manutenção da inscrição nas USF, dependente das ULS.",
+      "https://healthnews.pt/2026/10/17/utentes-da-tipologia-sem-medico-nao-elegivel-nao-sao-contabilizados-para-suplementos-de-lista-nem-indicadores-manutencao-da-inscricao-nas-usf-dependente-das-uls/#utm_source=rss&utm_medium=rss&utm_campaign=utentes-da-tipologia-sem-medico-nao-elegivel-nao-sao-contabilizados-para-suplementos-de-lista-nem-indicadores-manutencao-da-inscricao-nas-usf-dependente-das-uls"
+     ],
+     [
+      "2026-10-16 12:41",
+      "Healthnews",
+      "Vinte anos depois, as mesmas dúvidas: USF-AN recebeu 190 pedidos de apoio jurídico e alerta para exclusões de profissionais à margem da lei",
+      "https://healthnews.pt/2026/10/16/vinte-anos-depois-as-mesmas-duvidas-usf-an-recebeu-190-pedidos-de-apoio-juridico-e-alerta-para-exclusoes-de-profissionais-a-margem-da-lei/#utm_source=rss&utm_medium=rss&utm_campaign=vinte-anos-depois-as-mesmas-duvidas-usf-an-recebeu-190-pedidos-de-apoio-juridico-e-alerta-para-exclusoes-de-profissionais-a-margem-da-lei"
+     ],
+     [
+      "2026-10-08 16:06",
+      "ECO",
+      "Salários da Função Pública sobem 2,3% ou mínimo de 60,52 euros em 2027",
+      "https://eco.sapo.pt/2026/10/08/salarios-da-funcao-publica-sobem-23-ou-minimo-de-6052-euros-em-2027/"
+     ],
+     [
+      "2026-10-06 19:25",
+      "RTP Notícias",
+      "Agendada nova reunião entre Governo e sindicatos da função pública",
+      "https://www.rtp.pt/noticias/economia/agendada-nova-reuniao-entre-governo-e-sindicatos-da-funcao-publica_n1769941"
+     ],
+     [
+      "2026-10-04 19:00",
+      "Jornal de Negócios",
+      "“Esta reforma traz alguns riscos para as finanças públicas”, diz Filipa Calvão",
+      "https://www.jornaldenegocios.pt/economia/detalhe/esta-reforma-traz-alguns-riscos-para-as-financas-publicas-diz-filipa-calvao"
+     ],
+     [
+      "2026-10-03 20:05",
+      "Jornal Económico",
+      "Presidente do Tribunal de Contas admite recorrer ao Constitucional contra a reforma que acaba com o visto prévio",
+      "https://jornaleconomico.sapo.pt/noticias/presidente-do-tribunal-de-contas-admite-recorrer-ao-constitucional-contra-a-reforma-que-acaba-com-o-visto-previo/"
+     ],
+     [
+      "2026-10-02 22:12",
+      "RTP Notícias",
+      "CGTP critica Governo: \"Não percebe aquilo que está a fazer\"",
+      "https://www.rtp.pt/noticias/economia/cgtp-critica-governo-nao-percebe-aquilo-que-esta-a-fazer_v1769257"
+     ],
+     [
+      "2026-10-02 13:07",
+      "Executive Digest",
+      "Milhares de trabalhadores da administração pública manifestam-se no Ministério das Finanças",
+      "https://executivedigest.sapo.pt/milhares-de-trabalhadores-da-administracao-publica-manifestam-se-no-ministerio-das-financas/"
+     ],
+     [
+      "2026-10-01 08:09",
+      "Healthnews",
+      "USF-AN: médico de família para todos é possível até 2029",
+      "https://healthnews.pt/2026/10/01/usf-an-medico-de-familia-para-todos-e-possivel-ate-2029/#utm_source=rss&utm_medium=rss&utm_campaign=usf-an-medico-de-familia-para-todos-e-possivel-ate-2029"
+     ],
+     [
+      "2026-09-30 14:30",
+      "Jornal Económico",
+      "Portugal em 4º lugar da intermediação de crédito à habitação na Europa. ANICA integra federação europeia",
+      "https://jornaleconomico.sapo.pt/noticias/portugal-em-4o-lugar-da-intermediacao-de-credito-a-habitacao-na-europa-anica-integra-federacao-europeia/"
+     ],
+     [
+      "2026-09-30 11:45",
+      "ECO",
+      "Governo já tem proposta da CMVM para contas de poupança e investimento",
+      "https://eco.sapo.pt/2026/09/30/governo-ja-tem-proposta-da-cmvm-para-contas-de-poupanca-e-investimento/"
+     ],
+     [
+      "2026-09-29 19:38",
+      "ECO",
+      "IGCP reduz em 75% processos de habilitação de herdeiros num ano",
+      "https://eco.sapo.pt/2026/09/29/igcp-reduz-em-75-processos-de-habilitacao-de-herdeiros-num-ano/"
+     ],
+     [
+      "2026-09-29 18:19",
+      "ECO",
+      "IGCP tem atualizadas apenas 22% das contas de aforro",
+      "https://eco.sapo.pt/2026/09/29/igcp-tem-atualizadas-apenas-22-das-contas-de-aforro/"
+     ],
+     [
+      "2026-09-29 15:54",
+      "ECO",
+      "OE2027. Governo convoca sindicatos da função pública a dias da entrega da proposta orçamental",
+      "https://eco.sapo.pt/2026/09/29/oe2027-governo-convoca-sindicatos-da-funcao-publica-a-dias-da-entrega-da-proposta-orcamental/"
+     ],
+     [
+      "2026-09-28 06:49",
+      "Healthnews",
+      "Futuros farmacêuticos debatem resiliência dos sistemas de saúde no Porto",
+      "https://healthnews.pt/2026/09/28/futuros-farmaceuticos-debatem-resiliencia-dos-sistemas-de-saude-no-porto/#utm_source=rss&utm_medium=rss&utm_campaign=futuros-farmaceuticos-debatem-resiliencia-dos-sistemas-de-saude-no-porto"
+     ],
+     [
+      "2026-09-22 17:01",
+      "Açoriano Oriental",
+      "Governo dos Açores diz que melhoria de ‘rating’ para BBB+ revela solidez das finanças públicas",
+      "http://www.acorianooriental.pt/noticia/governo-dos-acores-diz-que-melhoria-de-rating-para-bbb-revela-solidez-das-financas-publicas-380515"
+     ],
+     [
+      "2026-09-02 18:58",
+      "RTP Notícias",
+      "Açores vão perder 53 milhões de euros de receitas devido ao número da população diz Governo regional",
+      "https://www.rtp.pt/noticias/economia/acores-vao-perder-53-milhoes-de-euros-de-receitas-devido-ao-numero-da-populacao-diz-governo-regional_n1763011"
+     ]
+    ]
+   },
+   "varrimento": "2026-11-05-comiss-o-de-or-amento-finan-as-e-admini"
   },
   {
    "tema": "Comissão de Defesa Nacional",
