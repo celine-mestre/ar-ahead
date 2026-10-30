@@ -2,7 +2,7 @@
 
 Agenda parlamentar semanal para os dirigentes da Direção de Serviços de Suporte à Decisão (DSSD) da Secretaria-Geral do Governo, triada por unidade orgânica (DACDP, DAPL, UPE, DCIRI), com cobertura mediática e fichas de varrimento.
 
-**Página:** https://celine-mestre.github.io/ar-ahead/ (endereço provisório, para desenvolvimento e testes; o repositório mantém por agora o nome `ar-ahead`)
+**Página:** https://upe-sggov.github.io/ar-preview/ (repositório `upe-sggov/ar-preview`; até 30 de outubro de 2026 esteve em `celine-mestre/ar-ahead`)
 **Responsável:** Unidade de Pesquisa e Estatísticas (UPE)
 
 ---

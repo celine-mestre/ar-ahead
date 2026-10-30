@@ -8,7 +8,7 @@ from sintese import ics, cal_nome
 
 d = json.loads(open(sys.argv[1], encoding='utf-8').read())
 pasta = pathlib.Path(sys.argv[2]); pasta.mkdir(parents=True, exist_ok=True)
-url = os.environ.get('PAGINA_URL', 'https://celine-mestre.github.io/ar-ahead/')
+url = os.environ.get('PAGINA_URL', 'https://upe-sggov.github.io/ar-preview/')
 itens = [x for x in d['destaques'] + d['agenda'] + d.get('futuro', []) if not x.get('retirado') and x.get('data')]
 for velho in pasta.glob('*.ics'): velho.unlink()                # só ficam os da edição em vigor
 for x in itens:
