@@ -45,34 +45,124 @@
    "ligacoes": [],
    "varrimento": "2026-11-18-plen-rio-debate-na-especialidade-do-or",
    "cobertura": {
-    "n": 1140,
-    "n7": 167,
-    "n7ant": 67,
+    "n": 1156,
+    "n7": 181,
+    "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 17:43",
+    "ultima": "2026-10-31 06:20",
     "ultimas": [
      {
-      "data": "2026-10-30",
-      "fonte": "Diário de Notícias",
-      "titulo": "OE2027. Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-voto-eletrnico-ser-testado-nos-emigrantes-para-eleies-do-conselho-das-comunidades"
+      "data": "2026-10-31",
+      "fonte": "Healthnews",
+      "titulo": "Governo rejeita cortes na prevenção em saúde",
+      "url": "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
      },
      {
-      "data": "2026-10-30",
-      "fonte": "Observador",
-      "titulo": "5.200 bodycams para GNR e PSP até 2027",
-      "url": "https://observador.pt/2026/10/30/gnr-e-psp-vao-receber-5-200-bodycams-ate-ao-inicio-de-2027-anuncia-secretario-de-estado-da-administracao-interna/"
-     },
-     {
-      "data": "2026-10-30",
+      "data": "2026-10-31",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://executivedigest.sapo.pt/oe2027-voto-eletronico-sera-testado-nos-emigrantes-para-eleicoes-do-conselho-das-comunidades/"
+      "titulo": "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "url": "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     },
+     {
+      "data": "2026-10-31",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "url": "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
      }
     ],
     "todas": [
+     [
+      "2026-10-31 06:20",
+      "Healthnews",
+      "Governo rejeita cortes na prevenção em saúde",
+      "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
+     ],
+     [
+      "2026-10-31 01:48",
+      "Executive Digest",
+      "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     ],
+     [
+      "2026-10-31 00:17",
+      "Executive Digest",
+      "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
+     ],
+     [
+      "2026-10-30 23:25",
+      "Observador",
+      "OE2027. Carteira Digital tem 18 mil empresas",
+      "https://observador.pt/2026/10/30/oe2027-carteira-digital-tem-18-mil-empresas-e-mais-de-10-tipos-de-documentos/"
+     ],
+     [
+      "2026-10-30 23:17",
+      "Observador",
+      "Governo prevê que financiamento do INEM aumente 117 milhões",
+      "https://observador.pt/2026/10/30/governo-preve-que-financiamento-do-inem-aumente-117-milhoes-de-euros-em-2027/"
+     ],
+     [
+      "2026-10-30 23:09",
+      "Jornal Económico",
+      "OE2027: Ministra atribui saldo negativo de 2.679 milhões do SNS a necessidades de financiamento",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-ministra-atribui-saldo-negativo-de-2-679-milhoes-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 22:01",
+      "Executive Digest",
+      "OE2027: Governo pretende avançar com “mais uma vaga de PPP” na saúde – ministra",
+      "https://executivedigest.sapo.pt/oe2027-governo-pretende-avancar-com-mais-uma-vaga-de-ppp-na-saude-ministra/"
+     ],
+     [
+      "2026-10-30 21:58",
+      "Diário de Notícias",
+      "OE2027. Ministra afirma que novo quadro de referência para o SNS será assinado nos próximos dias",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-ministra-afirma-que-novo-quadro-de-referncia-para-o-sns-ser-assinado-nos-prximos-dias"
+     ],
+     [
+      "2026-10-30 21:36",
+      "Jornal Económico",
+      "OE2027: Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g/"
+     ],
+     [
+      "2026-10-30 21:30",
+      "Executive Digest",
+      "OE2027: Ministra atribui saldo negativo de 2.679 ME do SNS a necessidades de financiamento",
+      "https://executivedigest.sapo.pt/oe2027-ministra-atribui-saldo-negativo-de-2-679-me-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 21:15",
+      "Observador",
+      "IA. Amália é instrumento de soberania digital, diz ministro",
+      "https://observador.pt/2026/10/30/oe2027-modelo-de-ia-portugues-amalia-e-instrumento-de-soberania-digital-diz-goncalo-matias/"
+     ],
+     [
+      "2026-10-30 19:58",
+      "ECO",
+      "PSD entregou proposta de alteração ao OE2027 para travar cortes nas transferências para as freguesia",
+      "https://eco.sapo.pt/2026/10/30/psd-entregou-proposta-de-alteracao-ao-oe2027-para-travar-cortes-nas-transferencias-para-as-freguesia/"
+     ],
+     [
+      "2026-10-30 19:42",
+      "Executive Digest",
+      "OE2027: Anacom atribui 172ME para cobertura 100% do território em 5G - Bernardo Correia",
+      "https://executivedigest.sapo.pt/oe2027-anacom-atribui-172me-para-cobertura-100-do-territorio-em-5g-bernardo-correia/"
+     ],
+     [
+      "2026-10-30 19:40",
+      "Executive Digest",
+      "OE2027: Gonçalo Matias apela a deputados que aprovem rapidamente diplomas pendentes",
+      "https://executivedigest.sapo.pt/oe2027-goncalo-matias-apela-a-deputados-que-aprovem-rapidamente-diplomas-pendentes/"
+     ],
+     [
+      "2026-10-30 19:19",
+      "Executive Digest",
+      "OE2027: Governo prevê que financiamento do INEM aumente 117 ME",
+      "https://executivedigest.sapo.pt/oe2027-governo-preve-que-financiamento-do-inem-aumente-117-me/"
+     ],
      [
       "2026-10-30 17:43",
       "Diário de Notícias",
@@ -93,12 +183,6 @@
      ],
      [
       "2026-10-30 15:47",
-      "Dinheiro Vivo",
-      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad"
-     ],
-     [
-      "2026-10-30 15:47",
       "Diário de Notícias",
       "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
@@ -113,7 +197,7 @@
       "2026-10-30 13:34",
       "Público",
       "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
-      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193?ref=politica"
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      ],
      [
       "2026-10-30 13:10",
@@ -1100,6 +1184,18 @@
       "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b"
      ],
      [
+      "2026-10-23 22:13",
+      "ECO",
+      "Moody’s mantém rating de França e acredita que Orçamento para 2027 será aprovado",
+      "https://eco.sapo.pt/2026/10/23/moodys-mantem-rating-de-franca-e-acredita-que-orcamento-para-2027-sera-aprovado/"
+     ],
+     [
+      "2026-10-23 16:38",
+      "ECO",
+      "Governo deixa Parlamento sem resposta sobre abertura de candidaturas a prémio salarial",
+      "https://eco.sapo.pt/2026/10/23/governo-deixa-parlamento-sem-resposta-sobre-abertura-de-candidaturas-a-premio-salarial/"
+     ],
+     [
       "2026-10-23 16:33",
       "Notícias ao Minuto",
       "ANMP aprova parecer positivo ao OE2027, mas alerta",
@@ -1137,15 +1233,15 @@
      ],
      [
       "2026-10-23 12:18",
-      "RTP Notícias",
-      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
-      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
-     ],
-     [
-      "2026-10-23 12:18",
       "Jornal Económico",
       "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+     ],
+     [
+      "2026-10-23 12:18",
+      "RTP Notícias",
+      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
+      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
      ],
      [
       "2026-10-23 12:06",
@@ -1172,16 +1268,28 @@
       "https://executivedigest.sapo.pt/oe2027-governo-ja-tomou-muitas-medidas-na-habitacao-mas-efeitos-levam-tempo-sarmento/"
      ],
      [
-      "2026-10-23 11:37",
-      "Executive Digest",
-      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
-      "https://executivedigest.sapo.pt/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-23 11:30",
       "Executive Digest",
       "Católica Porto SBE e PwC juntam Governo e empresas para analisar o Orçamento do Estado para 2027",
       "https://executivedigest.sapo.pt/catolica-porto-sbe-e-pwc-juntam-governo-e-empresas-para-analisar-o-orcamento-do-estado-para-2027/"
+     ],
+     [
+      "2026-10-23 11:20",
+      "Executive Digest",
+      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
+      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
+     ],
+     [
+      "2026-10-23 10:57",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 10:54",
@@ -1198,14 +1306,8 @@
      [
       "2026-10-23 10:17",
       "ECO",
-      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "PS só viabiliza OE2027 se houver medidas para combater o custo de vida",
       "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
-     ],
-     [
-      "2026-10-23 09:46",
-      "Executive Digest",
-      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
-      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
      ],
      [
       "2026-10-23 08:35",
@@ -1224,12 +1326,6 @@
       "Diário de Notícias",
       "OE2027: Miranda Sarmento ouvido no arranque da discussão na generalidade",
       "https://www.dn.pt/economia/oe2027-miranda-sarmento-ouvido-no-arranque-da-discusso-na-generalidade"
-     ],
-     [
-      "2026-10-23 07:48",
-      "ECO",
-      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
-      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 06:49",
@@ -2376,102 +2472,6 @@
       "Jornal Económico",
       "Confederação do Desporto saúda aumento da dotação para o desporto no OE2027",
       "https://jornaleconomico.sapo.pt/noticias/confederacao-do-desporto-sauda-aumento-da-dotacao-para-o-desporto-no-oe2027/"
-     ],
-     [
-      "2026-10-09 15:50",
-      "Agroportal",
-      "Arquivo de OE2027",
-      "https://www.agroportal.pt/categoria/oe2027/"
-     ],
-     [
-      "2026-10-09 15:22",
-      "Notícias ao Minuto",
-      "Funcionários judiciais ameaçam greve por falta de compromissos no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064286/funcionarios-judiciais-ameacam-greve-por-falta-de-compromissos-no-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 15:16",
-      "Healthnews",
-      "OE 2027: Adições e saúde mental com verbas reforçadas",
-      "https://healthnews.pt/2026/10/09/oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas"
-     ],
-     [
-      "2026-10-09 15:12",
-      "Executive Digest",
-      "OE2027: Funcionários judiciais desiludidos querem compromissos concretos e ameaçam greve",
-      "https://executivedigest.sapo.pt/oe2027-funcionarios-judiciais-desiludidos-querem-compromissos-concretos-e-ameacam-greve/"
-     ],
-     [
-      "2026-10-09 15:06",
-      "Healthnews",
-      "Xavier Barreto: OE 2024, menos dinheiro e mais promessas",
-      "https://healthnews.pt/2026/10/09/xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas/#utm_source=rss&utm_medium=rss&utm_campaign=xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas"
-     ],
-     [
-      "2026-10-09 14:58",
-      "Executive Digest",
-      "OE2027: Associação Zero critica Governo por não assumir Ambiente como área estratégica",
-      "https://executivedigest.sapo.pt/oe2027-associacao-zero-critica-governo-por-nao-assumir-ambiente-como-area-estrategica/"
-     ],
-     [
-      "2026-10-09 14:52",
-      "Healthnews",
-      "OE 2027: farmacêuticos acusam Governo de não aproveitar o setor",
-      "https://healthnews.pt/2026/10/09/oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma “ajudinha” da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma ‘ajudinha’ da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775?ref=hp&cx=ultimas_1"
-     ],
-     [
-      "2026-10-09 14:29",
-      "ECO",
-      "O “bailarino” que não sabe dançar e o “professor Chibanga”: como foi o debate pós-entrega do OE",
-      "https://eco.sapo.pt/2026/10/09/o-bailarino-que-nao-sabe-dancar-e-o-professor-chibanga-como-foi-o-debate-pos-entrega-do-oe/"
-     ],
-     [
-      "2026-10-09 14:21",
-      "SIC Notícias",
-      "Habitação, propinas e pensões: o que prevê o OE 2027 para jovens e idosos?",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-video-habitacao-propinas-e-pensoes-o-que-preve-o-oe-2027-para-jovens-e-idosos--3cb66d63"
-     ],
-     [
-      "2026-10-09 14:16",
-      "Observador",
-      "OE 2027. O que muda na vida dos portugueses? — Debate",
-      "https://observador.pt/programas/contra-corrente/oe-2027-o-que-muda-na-vida-dos-portugueses-debate/"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Propinas vão subir no próximo ano",
-      "https://www.rtp.pt/noticias/economia/oe2027-propinas-vao-subir-no-proximo-ano_v1770668"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Verbas para a saúde com queda de 1,5%",
-      "https://www.rtp.pt/noticias/economia/oe2027-verbas-para-a-saude-com-queda-de-15_v1770667"
-     ],
-     [
-      "2026-10-09 14:05",
-      "ECO",
-      "OE2027. AEP lamenta falta de ambição e destaca “insuficiências” da proposta",
-      "https://eco.sapo.pt/2026/10/09/oe2027-aep-lamenta-falta-de-ambicao-e-destaca-insuficiencias-da-proposta/"
-     ],
-     [
-      "2026-10-09 14:01",
-      "RTP Notícias",
-      "AEP considera orçamento insuficiente para reforçar competitividade empresarial",
-      "https://www.rtp.pt/noticias/economia/aep-considera-orcamento-insuficiente-para-reforcar-competitividade-empresarial_n1770652"
      ]
     ]
    },
@@ -2511,34 +2511,124 @@
    "ligacoes": [],
    "varrimento": "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1140,
-    "n7": 167,
-    "n7ant": 67,
+    "n": 1156,
+    "n7": 181,
+    "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 17:43",
+    "ultima": "2026-10-31 06:20",
     "ultimas": [
      {
-      "data": "2026-10-30",
-      "fonte": "Diário de Notícias",
-      "titulo": "OE2027. Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-voto-eletrnico-ser-testado-nos-emigrantes-para-eleies-do-conselho-das-comunidades"
+      "data": "2026-10-31",
+      "fonte": "Healthnews",
+      "titulo": "Governo rejeita cortes na prevenção em saúde",
+      "url": "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
      },
      {
-      "data": "2026-10-30",
-      "fonte": "Observador",
-      "titulo": "5.200 bodycams para GNR e PSP até 2027",
-      "url": "https://observador.pt/2026/10/30/gnr-e-psp-vao-receber-5-200-bodycams-ate-ao-inicio-de-2027-anuncia-secretario-de-estado-da-administracao-interna/"
-     },
-     {
-      "data": "2026-10-30",
+      "data": "2026-10-31",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://executivedigest.sapo.pt/oe2027-voto-eletronico-sera-testado-nos-emigrantes-para-eleicoes-do-conselho-das-comunidades/"
+      "titulo": "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "url": "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     },
+     {
+      "data": "2026-10-31",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "url": "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
      }
     ],
     "todas": [
+     [
+      "2026-10-31 06:20",
+      "Healthnews",
+      "Governo rejeita cortes na prevenção em saúde",
+      "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
+     ],
+     [
+      "2026-10-31 01:48",
+      "Executive Digest",
+      "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     ],
+     [
+      "2026-10-31 00:17",
+      "Executive Digest",
+      "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
+     ],
+     [
+      "2026-10-30 23:25",
+      "Observador",
+      "OE2027. Carteira Digital tem 18 mil empresas",
+      "https://observador.pt/2026/10/30/oe2027-carteira-digital-tem-18-mil-empresas-e-mais-de-10-tipos-de-documentos/"
+     ],
+     [
+      "2026-10-30 23:17",
+      "Observador",
+      "Governo prevê que financiamento do INEM aumente 117 milhões",
+      "https://observador.pt/2026/10/30/governo-preve-que-financiamento-do-inem-aumente-117-milhoes-de-euros-em-2027/"
+     ],
+     [
+      "2026-10-30 23:09",
+      "Jornal Económico",
+      "OE2027: Ministra atribui saldo negativo de 2.679 milhões do SNS a necessidades de financiamento",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-ministra-atribui-saldo-negativo-de-2-679-milhoes-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 22:01",
+      "Executive Digest",
+      "OE2027: Governo pretende avançar com “mais uma vaga de PPP” na saúde – ministra",
+      "https://executivedigest.sapo.pt/oe2027-governo-pretende-avancar-com-mais-uma-vaga-de-ppp-na-saude-ministra/"
+     ],
+     [
+      "2026-10-30 21:58",
+      "Diário de Notícias",
+      "OE2027. Ministra afirma que novo quadro de referência para o SNS será assinado nos próximos dias",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-ministra-afirma-que-novo-quadro-de-referncia-para-o-sns-ser-assinado-nos-prximos-dias"
+     ],
+     [
+      "2026-10-30 21:36",
+      "Jornal Económico",
+      "OE2027: Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g/"
+     ],
+     [
+      "2026-10-30 21:30",
+      "Executive Digest",
+      "OE2027: Ministra atribui saldo negativo de 2.679 ME do SNS a necessidades de financiamento",
+      "https://executivedigest.sapo.pt/oe2027-ministra-atribui-saldo-negativo-de-2-679-me-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 21:15",
+      "Observador",
+      "IA. Amália é instrumento de soberania digital, diz ministro",
+      "https://observador.pt/2026/10/30/oe2027-modelo-de-ia-portugues-amalia-e-instrumento-de-soberania-digital-diz-goncalo-matias/"
+     ],
+     [
+      "2026-10-30 19:58",
+      "ECO",
+      "PSD entregou proposta de alteração ao OE2027 para travar cortes nas transferências para as freguesia",
+      "https://eco.sapo.pt/2026/10/30/psd-entregou-proposta-de-alteracao-ao-oe2027-para-travar-cortes-nas-transferencias-para-as-freguesia/"
+     ],
+     [
+      "2026-10-30 19:42",
+      "Executive Digest",
+      "OE2027: Anacom atribui 172ME para cobertura 100% do território em 5G - Bernardo Correia",
+      "https://executivedigest.sapo.pt/oe2027-anacom-atribui-172me-para-cobertura-100-do-territorio-em-5g-bernardo-correia/"
+     ],
+     [
+      "2026-10-30 19:40",
+      "Executive Digest",
+      "OE2027: Gonçalo Matias apela a deputados que aprovem rapidamente diplomas pendentes",
+      "https://executivedigest.sapo.pt/oe2027-goncalo-matias-apela-a-deputados-que-aprovem-rapidamente-diplomas-pendentes/"
+     ],
+     [
+      "2026-10-30 19:19",
+      "Executive Digest",
+      "OE2027: Governo prevê que financiamento do INEM aumente 117 ME",
+      "https://executivedigest.sapo.pt/oe2027-governo-preve-que-financiamento-do-inem-aumente-117-me/"
+     ],
      [
       "2026-10-30 17:43",
       "Diário de Notícias",
@@ -2559,12 +2649,6 @@
      ],
      [
       "2026-10-30 15:47",
-      "Dinheiro Vivo",
-      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad"
-     ],
-     [
-      "2026-10-30 15:47",
       "Diário de Notícias",
       "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
@@ -2579,7 +2663,7 @@
       "2026-10-30 13:34",
       "Público",
       "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
-      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193?ref=politica"
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      ],
      [
       "2026-10-30 13:10",
@@ -3566,6 +3650,18 @@
       "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b"
      ],
      [
+      "2026-10-23 22:13",
+      "ECO",
+      "Moody’s mantém rating de França e acredita que Orçamento para 2027 será aprovado",
+      "https://eco.sapo.pt/2026/10/23/moodys-mantem-rating-de-franca-e-acredita-que-orcamento-para-2027-sera-aprovado/"
+     ],
+     [
+      "2026-10-23 16:38",
+      "ECO",
+      "Governo deixa Parlamento sem resposta sobre abertura de candidaturas a prémio salarial",
+      "https://eco.sapo.pt/2026/10/23/governo-deixa-parlamento-sem-resposta-sobre-abertura-de-candidaturas-a-premio-salarial/"
+     ],
+     [
       "2026-10-23 16:33",
       "Notícias ao Minuto",
       "ANMP aprova parecer positivo ao OE2027, mas alerta",
@@ -3603,15 +3699,15 @@
      ],
      [
       "2026-10-23 12:18",
-      "RTP Notícias",
-      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
-      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
-     ],
-     [
-      "2026-10-23 12:18",
       "Jornal Económico",
       "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+     ],
+     [
+      "2026-10-23 12:18",
+      "RTP Notícias",
+      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
+      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
      ],
      [
       "2026-10-23 12:06",
@@ -3638,16 +3734,28 @@
       "https://executivedigest.sapo.pt/oe2027-governo-ja-tomou-muitas-medidas-na-habitacao-mas-efeitos-levam-tempo-sarmento/"
      ],
      [
-      "2026-10-23 11:37",
-      "Executive Digest",
-      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
-      "https://executivedigest.sapo.pt/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-23 11:30",
       "Executive Digest",
       "Católica Porto SBE e PwC juntam Governo e empresas para analisar o Orçamento do Estado para 2027",
       "https://executivedigest.sapo.pt/catolica-porto-sbe-e-pwc-juntam-governo-e-empresas-para-analisar-o-orcamento-do-estado-para-2027/"
+     ],
+     [
+      "2026-10-23 11:20",
+      "Executive Digest",
+      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
+      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
+     ],
+     [
+      "2026-10-23 10:57",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 10:54",
@@ -3664,14 +3772,8 @@
      [
       "2026-10-23 10:17",
       "ECO",
-      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "PS só viabiliza OE2027 se houver medidas para combater o custo de vida",
       "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
-     ],
-     [
-      "2026-10-23 09:46",
-      "Executive Digest",
-      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
-      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
      ],
      [
       "2026-10-23 08:35",
@@ -3690,12 +3792,6 @@
       "Diário de Notícias",
       "OE2027: Miranda Sarmento ouvido no arranque da discussão na generalidade",
       "https://www.dn.pt/economia/oe2027-miranda-sarmento-ouvido-no-arranque-da-discusso-na-generalidade"
-     ],
-     [
-      "2026-10-23 07:48",
-      "ECO",
-      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
-      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 06:49",
@@ -4842,102 +4938,6 @@
       "Jornal Económico",
       "Confederação do Desporto saúda aumento da dotação para o desporto no OE2027",
       "https://jornaleconomico.sapo.pt/noticias/confederacao-do-desporto-sauda-aumento-da-dotacao-para-o-desporto-no-oe2027/"
-     ],
-     [
-      "2026-10-09 15:50",
-      "Agroportal",
-      "Arquivo de OE2027",
-      "https://www.agroportal.pt/categoria/oe2027/"
-     ],
-     [
-      "2026-10-09 15:22",
-      "Notícias ao Minuto",
-      "Funcionários judiciais ameaçam greve por falta de compromissos no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064286/funcionarios-judiciais-ameacam-greve-por-falta-de-compromissos-no-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 15:16",
-      "Healthnews",
-      "OE 2027: Adições e saúde mental com verbas reforçadas",
-      "https://healthnews.pt/2026/10/09/oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas"
-     ],
-     [
-      "2026-10-09 15:12",
-      "Executive Digest",
-      "OE2027: Funcionários judiciais desiludidos querem compromissos concretos e ameaçam greve",
-      "https://executivedigest.sapo.pt/oe2027-funcionarios-judiciais-desiludidos-querem-compromissos-concretos-e-ameacam-greve/"
-     ],
-     [
-      "2026-10-09 15:06",
-      "Healthnews",
-      "Xavier Barreto: OE 2024, menos dinheiro e mais promessas",
-      "https://healthnews.pt/2026/10/09/xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas/#utm_source=rss&utm_medium=rss&utm_campaign=xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas"
-     ],
-     [
-      "2026-10-09 14:58",
-      "Executive Digest",
-      "OE2027: Associação Zero critica Governo por não assumir Ambiente como área estratégica",
-      "https://executivedigest.sapo.pt/oe2027-associacao-zero-critica-governo-por-nao-assumir-ambiente-como-area-estrategica/"
-     ],
-     [
-      "2026-10-09 14:52",
-      "Healthnews",
-      "OE 2027: farmacêuticos acusam Governo de não aproveitar o setor",
-      "https://healthnews.pt/2026/10/09/oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma “ajudinha” da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma ‘ajudinha’ da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775?ref=hp&cx=ultimas_1"
-     ],
-     [
-      "2026-10-09 14:29",
-      "ECO",
-      "O “bailarino” que não sabe dançar e o “professor Chibanga”: como foi o debate pós-entrega do OE",
-      "https://eco.sapo.pt/2026/10/09/o-bailarino-que-nao-sabe-dancar-e-o-professor-chibanga-como-foi-o-debate-pos-entrega-do-oe/"
-     ],
-     [
-      "2026-10-09 14:21",
-      "SIC Notícias",
-      "Habitação, propinas e pensões: o que prevê o OE 2027 para jovens e idosos?",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-video-habitacao-propinas-e-pensoes-o-que-preve-o-oe-2027-para-jovens-e-idosos--3cb66d63"
-     ],
-     [
-      "2026-10-09 14:16",
-      "Observador",
-      "OE 2027. O que muda na vida dos portugueses? — Debate",
-      "https://observador.pt/programas/contra-corrente/oe-2027-o-que-muda-na-vida-dos-portugueses-debate/"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Propinas vão subir no próximo ano",
-      "https://www.rtp.pt/noticias/economia/oe2027-propinas-vao-subir-no-proximo-ano_v1770668"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Verbas para a saúde com queda de 1,5%",
-      "https://www.rtp.pt/noticias/economia/oe2027-verbas-para-a-saude-com-queda-de-15_v1770667"
-     ],
-     [
-      "2026-10-09 14:05",
-      "ECO",
-      "OE2027. AEP lamenta falta de ambição e destaca “insuficiências” da proposta",
-      "https://eco.sapo.pt/2026/10/09/oe2027-aep-lamenta-falta-de-ambicao-e-destaca-insuficiencias-da-proposta/"
-     ],
-     [
-      "2026-10-09 14:01",
-      "RTP Notícias",
-      "AEP considera orçamento insuficiente para reforçar competitividade empresarial",
-      "https://www.rtp.pt/noticias/economia/aep-considera-orcamento-insuficiente-para-reforcar-competitividade-empresarial_n1770652"
      ]
     ]
    },
@@ -4977,34 +4977,124 @@
    "ligacoes": [],
    "varrimento": "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1140,
-    "n7": 167,
-    "n7ant": 67,
+    "n": 1156,
+    "n7": 181,
+    "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 17:43",
+    "ultima": "2026-10-31 06:20",
     "ultimas": [
      {
-      "data": "2026-10-30",
-      "fonte": "Diário de Notícias",
-      "titulo": "OE2027. Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-voto-eletrnico-ser-testado-nos-emigrantes-para-eleies-do-conselho-das-comunidades"
+      "data": "2026-10-31",
+      "fonte": "Healthnews",
+      "titulo": "Governo rejeita cortes na prevenção em saúde",
+      "url": "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
      },
      {
-      "data": "2026-10-30",
-      "fonte": "Observador",
-      "titulo": "5.200 bodycams para GNR e PSP até 2027",
-      "url": "https://observador.pt/2026/10/30/gnr-e-psp-vao-receber-5-200-bodycams-ate-ao-inicio-de-2027-anuncia-secretario-de-estado-da-administracao-interna/"
-     },
-     {
-      "data": "2026-10-30",
+      "data": "2026-10-31",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://executivedigest.sapo.pt/oe2027-voto-eletronico-sera-testado-nos-emigrantes-para-eleicoes-do-conselho-das-comunidades/"
+      "titulo": "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "url": "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     },
+     {
+      "data": "2026-10-31",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "url": "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
      }
     ],
     "todas": [
+     [
+      "2026-10-31 06:20",
+      "Healthnews",
+      "Governo rejeita cortes na prevenção em saúde",
+      "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
+     ],
+     [
+      "2026-10-31 01:48",
+      "Executive Digest",
+      "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     ],
+     [
+      "2026-10-31 00:17",
+      "Executive Digest",
+      "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
+     ],
+     [
+      "2026-10-30 23:25",
+      "Observador",
+      "OE2027. Carteira Digital tem 18 mil empresas",
+      "https://observador.pt/2026/10/30/oe2027-carteira-digital-tem-18-mil-empresas-e-mais-de-10-tipos-de-documentos/"
+     ],
+     [
+      "2026-10-30 23:17",
+      "Observador",
+      "Governo prevê que financiamento do INEM aumente 117 milhões",
+      "https://observador.pt/2026/10/30/governo-preve-que-financiamento-do-inem-aumente-117-milhoes-de-euros-em-2027/"
+     ],
+     [
+      "2026-10-30 23:09",
+      "Jornal Económico",
+      "OE2027: Ministra atribui saldo negativo de 2.679 milhões do SNS a necessidades de financiamento",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-ministra-atribui-saldo-negativo-de-2-679-milhoes-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 22:01",
+      "Executive Digest",
+      "OE2027: Governo pretende avançar com “mais uma vaga de PPP” na saúde – ministra",
+      "https://executivedigest.sapo.pt/oe2027-governo-pretende-avancar-com-mais-uma-vaga-de-ppp-na-saude-ministra/"
+     ],
+     [
+      "2026-10-30 21:58",
+      "Diário de Notícias",
+      "OE2027. Ministra afirma que novo quadro de referência para o SNS será assinado nos próximos dias",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-ministra-afirma-que-novo-quadro-de-referncia-para-o-sns-ser-assinado-nos-prximos-dias"
+     ],
+     [
+      "2026-10-30 21:36",
+      "Jornal Económico",
+      "OE2027: Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g/"
+     ],
+     [
+      "2026-10-30 21:30",
+      "Executive Digest",
+      "OE2027: Ministra atribui saldo negativo de 2.679 ME do SNS a necessidades de financiamento",
+      "https://executivedigest.sapo.pt/oe2027-ministra-atribui-saldo-negativo-de-2-679-me-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 21:15",
+      "Observador",
+      "IA. Amália é instrumento de soberania digital, diz ministro",
+      "https://observador.pt/2026/10/30/oe2027-modelo-de-ia-portugues-amalia-e-instrumento-de-soberania-digital-diz-goncalo-matias/"
+     ],
+     [
+      "2026-10-30 19:58",
+      "ECO",
+      "PSD entregou proposta de alteração ao OE2027 para travar cortes nas transferências para as freguesia",
+      "https://eco.sapo.pt/2026/10/30/psd-entregou-proposta-de-alteracao-ao-oe2027-para-travar-cortes-nas-transferencias-para-as-freguesia/"
+     ],
+     [
+      "2026-10-30 19:42",
+      "Executive Digest",
+      "OE2027: Anacom atribui 172ME para cobertura 100% do território em 5G - Bernardo Correia",
+      "https://executivedigest.sapo.pt/oe2027-anacom-atribui-172me-para-cobertura-100-do-territorio-em-5g-bernardo-correia/"
+     ],
+     [
+      "2026-10-30 19:40",
+      "Executive Digest",
+      "OE2027: Gonçalo Matias apela a deputados que aprovem rapidamente diplomas pendentes",
+      "https://executivedigest.sapo.pt/oe2027-goncalo-matias-apela-a-deputados-que-aprovem-rapidamente-diplomas-pendentes/"
+     ],
+     [
+      "2026-10-30 19:19",
+      "Executive Digest",
+      "OE2027: Governo prevê que financiamento do INEM aumente 117 ME",
+      "https://executivedigest.sapo.pt/oe2027-governo-preve-que-financiamento-do-inem-aumente-117-me/"
+     ],
      [
       "2026-10-30 17:43",
       "Diário de Notícias",
@@ -5025,12 +5115,6 @@
      ],
      [
       "2026-10-30 15:47",
-      "Dinheiro Vivo",
-      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad"
-     ],
-     [
-      "2026-10-30 15:47",
       "Diário de Notícias",
       "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
@@ -5045,7 +5129,7 @@
       "2026-10-30 13:34",
       "Público",
       "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
-      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193?ref=politica"
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      ],
      [
       "2026-10-30 13:10",
@@ -6032,6 +6116,18 @@
       "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b"
      ],
      [
+      "2026-10-23 22:13",
+      "ECO",
+      "Moody’s mantém rating de França e acredita que Orçamento para 2027 será aprovado",
+      "https://eco.sapo.pt/2026/10/23/moodys-mantem-rating-de-franca-e-acredita-que-orcamento-para-2027-sera-aprovado/"
+     ],
+     [
+      "2026-10-23 16:38",
+      "ECO",
+      "Governo deixa Parlamento sem resposta sobre abertura de candidaturas a prémio salarial",
+      "https://eco.sapo.pt/2026/10/23/governo-deixa-parlamento-sem-resposta-sobre-abertura-de-candidaturas-a-premio-salarial/"
+     ],
+     [
       "2026-10-23 16:33",
       "Notícias ao Minuto",
       "ANMP aprova parecer positivo ao OE2027, mas alerta",
@@ -6069,15 +6165,15 @@
      ],
      [
       "2026-10-23 12:18",
-      "RTP Notícias",
-      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
-      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
-     ],
-     [
-      "2026-10-23 12:18",
       "Jornal Económico",
       "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+     ],
+     [
+      "2026-10-23 12:18",
+      "RTP Notícias",
+      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
+      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
      ],
      [
       "2026-10-23 12:06",
@@ -6104,16 +6200,28 @@
       "https://executivedigest.sapo.pt/oe2027-governo-ja-tomou-muitas-medidas-na-habitacao-mas-efeitos-levam-tempo-sarmento/"
      ],
      [
-      "2026-10-23 11:37",
-      "Executive Digest",
-      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
-      "https://executivedigest.sapo.pt/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-23 11:30",
       "Executive Digest",
       "Católica Porto SBE e PwC juntam Governo e empresas para analisar o Orçamento do Estado para 2027",
       "https://executivedigest.sapo.pt/catolica-porto-sbe-e-pwc-juntam-governo-e-empresas-para-analisar-o-orcamento-do-estado-para-2027/"
+     ],
+     [
+      "2026-10-23 11:20",
+      "Executive Digest",
+      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
+      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
+     ],
+     [
+      "2026-10-23 10:57",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 10:54",
@@ -6130,14 +6238,8 @@
      [
       "2026-10-23 10:17",
       "ECO",
-      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "PS só viabiliza OE2027 se houver medidas para combater o custo de vida",
       "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
-     ],
-     [
-      "2026-10-23 09:46",
-      "Executive Digest",
-      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
-      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
      ],
      [
       "2026-10-23 08:35",
@@ -6156,12 +6258,6 @@
       "Diário de Notícias",
       "OE2027: Miranda Sarmento ouvido no arranque da discussão na generalidade",
       "https://www.dn.pt/economia/oe2027-miranda-sarmento-ouvido-no-arranque-da-discusso-na-generalidade"
-     ],
-     [
-      "2026-10-23 07:48",
-      "ECO",
-      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
-      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 06:49",
@@ -7308,102 +7404,6 @@
       "Jornal Económico",
       "Confederação do Desporto saúda aumento da dotação para o desporto no OE2027",
       "https://jornaleconomico.sapo.pt/noticias/confederacao-do-desporto-sauda-aumento-da-dotacao-para-o-desporto-no-oe2027/"
-     ],
-     [
-      "2026-10-09 15:50",
-      "Agroportal",
-      "Arquivo de OE2027",
-      "https://www.agroportal.pt/categoria/oe2027/"
-     ],
-     [
-      "2026-10-09 15:22",
-      "Notícias ao Minuto",
-      "Funcionários judiciais ameaçam greve por falta de compromissos no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064286/funcionarios-judiciais-ameacam-greve-por-falta-de-compromissos-no-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 15:16",
-      "Healthnews",
-      "OE 2027: Adições e saúde mental com verbas reforçadas",
-      "https://healthnews.pt/2026/10/09/oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas"
-     ],
-     [
-      "2026-10-09 15:12",
-      "Executive Digest",
-      "OE2027: Funcionários judiciais desiludidos querem compromissos concretos e ameaçam greve",
-      "https://executivedigest.sapo.pt/oe2027-funcionarios-judiciais-desiludidos-querem-compromissos-concretos-e-ameacam-greve/"
-     ],
-     [
-      "2026-10-09 15:06",
-      "Healthnews",
-      "Xavier Barreto: OE 2024, menos dinheiro e mais promessas",
-      "https://healthnews.pt/2026/10/09/xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas/#utm_source=rss&utm_medium=rss&utm_campaign=xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas"
-     ],
-     [
-      "2026-10-09 14:58",
-      "Executive Digest",
-      "OE2027: Associação Zero critica Governo por não assumir Ambiente como área estratégica",
-      "https://executivedigest.sapo.pt/oe2027-associacao-zero-critica-governo-por-nao-assumir-ambiente-como-area-estrategica/"
-     ],
-     [
-      "2026-10-09 14:52",
-      "Healthnews",
-      "OE 2027: farmacêuticos acusam Governo de não aproveitar o setor",
-      "https://healthnews.pt/2026/10/09/oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma “ajudinha” da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma ‘ajudinha’ da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775?ref=hp&cx=ultimas_1"
-     ],
-     [
-      "2026-10-09 14:29",
-      "ECO",
-      "O “bailarino” que não sabe dançar e o “professor Chibanga”: como foi o debate pós-entrega do OE",
-      "https://eco.sapo.pt/2026/10/09/o-bailarino-que-nao-sabe-dancar-e-o-professor-chibanga-como-foi-o-debate-pos-entrega-do-oe/"
-     ],
-     [
-      "2026-10-09 14:21",
-      "SIC Notícias",
-      "Habitação, propinas e pensões: o que prevê o OE 2027 para jovens e idosos?",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-video-habitacao-propinas-e-pensoes-o-que-preve-o-oe-2027-para-jovens-e-idosos--3cb66d63"
-     ],
-     [
-      "2026-10-09 14:16",
-      "Observador",
-      "OE 2027. O que muda na vida dos portugueses? — Debate",
-      "https://observador.pt/programas/contra-corrente/oe-2027-o-que-muda-na-vida-dos-portugueses-debate/"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Propinas vão subir no próximo ano",
-      "https://www.rtp.pt/noticias/economia/oe2027-propinas-vao-subir-no-proximo-ano_v1770668"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Verbas para a saúde com queda de 1,5%",
-      "https://www.rtp.pt/noticias/economia/oe2027-verbas-para-a-saude-com-queda-de-15_v1770667"
-     ],
-     [
-      "2026-10-09 14:05",
-      "ECO",
-      "OE2027. AEP lamenta falta de ambição e destaca “insuficiências” da proposta",
-      "https://eco.sapo.pt/2026/10/09/oe2027-aep-lamenta-falta-de-ambicao-e-destaca-insuficiencias-da-proposta/"
-     ],
-     [
-      "2026-10-09 14:01",
-      "RTP Notícias",
-      "AEP considera orçamento insuficiente para reforçar competitividade empresarial",
-      "https://www.rtp.pt/noticias/economia/aep-considera-orcamento-insuficiente-para-reforcar-competitividade-empresarial_n1770652"
      ]
     ]
    },
@@ -7443,34 +7443,124 @@
    "ligacoes": [],
    "varrimento": "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1140,
-    "n7": 167,
-    "n7ant": 67,
+    "n": 1156,
+    "n7": 181,
+    "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 17:43",
+    "ultima": "2026-10-31 06:20",
     "ultimas": [
      {
-      "data": "2026-10-30",
-      "fonte": "Diário de Notícias",
-      "titulo": "OE2027. Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-voto-eletrnico-ser-testado-nos-emigrantes-para-eleies-do-conselho-das-comunidades"
+      "data": "2026-10-31",
+      "fonte": "Healthnews",
+      "titulo": "Governo rejeita cortes na prevenção em saúde",
+      "url": "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
      },
      {
-      "data": "2026-10-30",
-      "fonte": "Observador",
-      "titulo": "5.200 bodycams para GNR e PSP até 2027",
-      "url": "https://observador.pt/2026/10/30/gnr-e-psp-vao-receber-5-200-bodycams-ate-ao-inicio-de-2027-anuncia-secretario-de-estado-da-administracao-interna/"
-     },
-     {
-      "data": "2026-10-30",
+      "data": "2026-10-31",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://executivedigest.sapo.pt/oe2027-voto-eletronico-sera-testado-nos-emigrantes-para-eleicoes-do-conselho-das-comunidades/"
+      "titulo": "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "url": "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     },
+     {
+      "data": "2026-10-31",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "url": "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
      }
     ],
     "todas": [
+     [
+      "2026-10-31 06:20",
+      "Healthnews",
+      "Governo rejeita cortes na prevenção em saúde",
+      "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
+     ],
+     [
+      "2026-10-31 01:48",
+      "Executive Digest",
+      "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     ],
+     [
+      "2026-10-31 00:17",
+      "Executive Digest",
+      "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
+     ],
+     [
+      "2026-10-30 23:25",
+      "Observador",
+      "OE2027. Carteira Digital tem 18 mil empresas",
+      "https://observador.pt/2026/10/30/oe2027-carteira-digital-tem-18-mil-empresas-e-mais-de-10-tipos-de-documentos/"
+     ],
+     [
+      "2026-10-30 23:17",
+      "Observador",
+      "Governo prevê que financiamento do INEM aumente 117 milhões",
+      "https://observador.pt/2026/10/30/governo-preve-que-financiamento-do-inem-aumente-117-milhoes-de-euros-em-2027/"
+     ],
+     [
+      "2026-10-30 23:09",
+      "Jornal Económico",
+      "OE2027: Ministra atribui saldo negativo de 2.679 milhões do SNS a necessidades de financiamento",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-ministra-atribui-saldo-negativo-de-2-679-milhoes-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 22:01",
+      "Executive Digest",
+      "OE2027: Governo pretende avançar com “mais uma vaga de PPP” na saúde – ministra",
+      "https://executivedigest.sapo.pt/oe2027-governo-pretende-avancar-com-mais-uma-vaga-de-ppp-na-saude-ministra/"
+     ],
+     [
+      "2026-10-30 21:58",
+      "Diário de Notícias",
+      "OE2027. Ministra afirma que novo quadro de referência para o SNS será assinado nos próximos dias",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-ministra-afirma-que-novo-quadro-de-referncia-para-o-sns-ser-assinado-nos-prximos-dias"
+     ],
+     [
+      "2026-10-30 21:36",
+      "Jornal Económico",
+      "OE2027: Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g/"
+     ],
+     [
+      "2026-10-30 21:30",
+      "Executive Digest",
+      "OE2027: Ministra atribui saldo negativo de 2.679 ME do SNS a necessidades de financiamento",
+      "https://executivedigest.sapo.pt/oe2027-ministra-atribui-saldo-negativo-de-2-679-me-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 21:15",
+      "Observador",
+      "IA. Amália é instrumento de soberania digital, diz ministro",
+      "https://observador.pt/2026/10/30/oe2027-modelo-de-ia-portugues-amalia-e-instrumento-de-soberania-digital-diz-goncalo-matias/"
+     ],
+     [
+      "2026-10-30 19:58",
+      "ECO",
+      "PSD entregou proposta de alteração ao OE2027 para travar cortes nas transferências para as freguesia",
+      "https://eco.sapo.pt/2026/10/30/psd-entregou-proposta-de-alteracao-ao-oe2027-para-travar-cortes-nas-transferencias-para-as-freguesia/"
+     ],
+     [
+      "2026-10-30 19:42",
+      "Executive Digest",
+      "OE2027: Anacom atribui 172ME para cobertura 100% do território em 5G - Bernardo Correia",
+      "https://executivedigest.sapo.pt/oe2027-anacom-atribui-172me-para-cobertura-100-do-territorio-em-5g-bernardo-correia/"
+     ],
+     [
+      "2026-10-30 19:40",
+      "Executive Digest",
+      "OE2027: Gonçalo Matias apela a deputados que aprovem rapidamente diplomas pendentes",
+      "https://executivedigest.sapo.pt/oe2027-goncalo-matias-apela-a-deputados-que-aprovem-rapidamente-diplomas-pendentes/"
+     ],
+     [
+      "2026-10-30 19:19",
+      "Executive Digest",
+      "OE2027: Governo prevê que financiamento do INEM aumente 117 ME",
+      "https://executivedigest.sapo.pt/oe2027-governo-preve-que-financiamento-do-inem-aumente-117-me/"
+     ],
      [
       "2026-10-30 17:43",
       "Diário de Notícias",
@@ -7491,12 +7581,6 @@
      ],
      [
       "2026-10-30 15:47",
-      "Dinheiro Vivo",
-      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad"
-     ],
-     [
-      "2026-10-30 15:47",
       "Diário de Notícias",
       "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
@@ -7511,7 +7595,7 @@
       "2026-10-30 13:34",
       "Público",
       "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
-      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193?ref=politica"
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      ],
      [
       "2026-10-30 13:10",
@@ -8498,6 +8582,18 @@
       "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b"
      ],
      [
+      "2026-10-23 22:13",
+      "ECO",
+      "Moody’s mantém rating de França e acredita que Orçamento para 2027 será aprovado",
+      "https://eco.sapo.pt/2026/10/23/moodys-mantem-rating-de-franca-e-acredita-que-orcamento-para-2027-sera-aprovado/"
+     ],
+     [
+      "2026-10-23 16:38",
+      "ECO",
+      "Governo deixa Parlamento sem resposta sobre abertura de candidaturas a prémio salarial",
+      "https://eco.sapo.pt/2026/10/23/governo-deixa-parlamento-sem-resposta-sobre-abertura-de-candidaturas-a-premio-salarial/"
+     ],
+     [
       "2026-10-23 16:33",
       "Notícias ao Minuto",
       "ANMP aprova parecer positivo ao OE2027, mas alerta",
@@ -8535,15 +8631,15 @@
      ],
      [
       "2026-10-23 12:18",
-      "RTP Notícias",
-      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
-      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
-     ],
-     [
-      "2026-10-23 12:18",
       "Jornal Económico",
       "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+     ],
+     [
+      "2026-10-23 12:18",
+      "RTP Notícias",
+      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
+      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
      ],
      [
       "2026-10-23 12:06",
@@ -8570,16 +8666,28 @@
       "https://executivedigest.sapo.pt/oe2027-governo-ja-tomou-muitas-medidas-na-habitacao-mas-efeitos-levam-tempo-sarmento/"
      ],
      [
-      "2026-10-23 11:37",
-      "Executive Digest",
-      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
-      "https://executivedigest.sapo.pt/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-23 11:30",
       "Executive Digest",
       "Católica Porto SBE e PwC juntam Governo e empresas para analisar o Orçamento do Estado para 2027",
       "https://executivedigest.sapo.pt/catolica-porto-sbe-e-pwc-juntam-governo-e-empresas-para-analisar-o-orcamento-do-estado-para-2027/"
+     ],
+     [
+      "2026-10-23 11:20",
+      "Executive Digest",
+      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
+      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
+     ],
+     [
+      "2026-10-23 10:57",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 10:54",
@@ -8596,14 +8704,8 @@
      [
       "2026-10-23 10:17",
       "ECO",
-      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "PS só viabiliza OE2027 se houver medidas para combater o custo de vida",
       "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
-     ],
-     [
-      "2026-10-23 09:46",
-      "Executive Digest",
-      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
-      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
      ],
      [
       "2026-10-23 08:35",
@@ -8622,12 +8724,6 @@
       "Diário de Notícias",
       "OE2027: Miranda Sarmento ouvido no arranque da discussão na generalidade",
       "https://www.dn.pt/economia/oe2027-miranda-sarmento-ouvido-no-arranque-da-discusso-na-generalidade"
-     ],
-     [
-      "2026-10-23 07:48",
-      "ECO",
-      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
-      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 06:49",
@@ -9774,102 +9870,6 @@
       "Jornal Económico",
       "Confederação do Desporto saúda aumento da dotação para o desporto no OE2027",
       "https://jornaleconomico.sapo.pt/noticias/confederacao-do-desporto-sauda-aumento-da-dotacao-para-o-desporto-no-oe2027/"
-     ],
-     [
-      "2026-10-09 15:50",
-      "Agroportal",
-      "Arquivo de OE2027",
-      "https://www.agroportal.pt/categoria/oe2027/"
-     ],
-     [
-      "2026-10-09 15:22",
-      "Notícias ao Minuto",
-      "Funcionários judiciais ameaçam greve por falta de compromissos no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064286/funcionarios-judiciais-ameacam-greve-por-falta-de-compromissos-no-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 15:16",
-      "Healthnews",
-      "OE 2027: Adições e saúde mental com verbas reforçadas",
-      "https://healthnews.pt/2026/10/09/oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas"
-     ],
-     [
-      "2026-10-09 15:12",
-      "Executive Digest",
-      "OE2027: Funcionários judiciais desiludidos querem compromissos concretos e ameaçam greve",
-      "https://executivedigest.sapo.pt/oe2027-funcionarios-judiciais-desiludidos-querem-compromissos-concretos-e-ameacam-greve/"
-     ],
-     [
-      "2026-10-09 15:06",
-      "Healthnews",
-      "Xavier Barreto: OE 2024, menos dinheiro e mais promessas",
-      "https://healthnews.pt/2026/10/09/xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas/#utm_source=rss&utm_medium=rss&utm_campaign=xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas"
-     ],
-     [
-      "2026-10-09 14:58",
-      "Executive Digest",
-      "OE2027: Associação Zero critica Governo por não assumir Ambiente como área estratégica",
-      "https://executivedigest.sapo.pt/oe2027-associacao-zero-critica-governo-por-nao-assumir-ambiente-como-area-estrategica/"
-     ],
-     [
-      "2026-10-09 14:52",
-      "Healthnews",
-      "OE 2027: farmacêuticos acusam Governo de não aproveitar o setor",
-      "https://healthnews.pt/2026/10/09/oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma “ajudinha” da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma ‘ajudinha’ da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775?ref=hp&cx=ultimas_1"
-     ],
-     [
-      "2026-10-09 14:29",
-      "ECO",
-      "O “bailarino” que não sabe dançar e o “professor Chibanga”: como foi o debate pós-entrega do OE",
-      "https://eco.sapo.pt/2026/10/09/o-bailarino-que-nao-sabe-dancar-e-o-professor-chibanga-como-foi-o-debate-pos-entrega-do-oe/"
-     ],
-     [
-      "2026-10-09 14:21",
-      "SIC Notícias",
-      "Habitação, propinas e pensões: o que prevê o OE 2027 para jovens e idosos?",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-video-habitacao-propinas-e-pensoes-o-que-preve-o-oe-2027-para-jovens-e-idosos--3cb66d63"
-     ],
-     [
-      "2026-10-09 14:16",
-      "Observador",
-      "OE 2027. O que muda na vida dos portugueses? — Debate",
-      "https://observador.pt/programas/contra-corrente/oe-2027-o-que-muda-na-vida-dos-portugueses-debate/"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Propinas vão subir no próximo ano",
-      "https://www.rtp.pt/noticias/economia/oe2027-propinas-vao-subir-no-proximo-ano_v1770668"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Verbas para a saúde com queda de 1,5%",
-      "https://www.rtp.pt/noticias/economia/oe2027-verbas-para-a-saude-com-queda-de-15_v1770667"
-     ],
-     [
-      "2026-10-09 14:05",
-      "ECO",
-      "OE2027. AEP lamenta falta de ambição e destaca “insuficiências” da proposta",
-      "https://eco.sapo.pt/2026/10/09/oe2027-aep-lamenta-falta-de-ambicao-e-destaca-insuficiencias-da-proposta/"
-     ],
-     [
-      "2026-10-09 14:01",
-      "RTP Notícias",
-      "AEP considera orçamento insuficiente para reforçar competitividade empresarial",
-      "https://www.rtp.pt/noticias/economia/aep-considera-orcamento-insuficiente-para-reforcar-competitividade-empresarial_n1770652"
      ]
     ]
    },
@@ -9909,34 +9909,124 @@
    "ligacoes": [],
    "varrimento": "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos",
    "cobertura": {
-    "n": 1140,
-    "n7": 167,
-    "n7ant": 67,
+    "n": 1156,
+    "n7": 181,
+    "n7ant": 69,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "expressoes",
-    "ultima": "2026-10-30 17:43",
+    "ultima": "2026-10-31 06:20",
     "ultimas": [
      {
-      "data": "2026-10-30",
-      "fonte": "Diário de Notícias",
-      "titulo": "OE2027. Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-voto-eletrnico-ser-testado-nos-emigrantes-para-eleies-do-conselho-das-comunidades"
+      "data": "2026-10-31",
+      "fonte": "Healthnews",
+      "titulo": "Governo rejeita cortes na prevenção em saúde",
+      "url": "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
      },
      {
-      "data": "2026-10-30",
-      "fonte": "Observador",
-      "titulo": "5.200 bodycams para GNR e PSP até 2027",
-      "url": "https://observador.pt/2026/10/30/gnr-e-psp-vao-receber-5-200-bodycams-ate-ao-inicio-de-2027-anuncia-secretario-de-estado-da-administracao-interna/"
-     },
-     {
-      "data": "2026-10-30",
+      "data": "2026-10-31",
       "fonte": "Executive Digest",
-      "titulo": "OE2027: Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
-      "url": "https://executivedigest.sapo.pt/oe2027-voto-eletronico-sera-testado-nos-emigrantes-para-eleicoes-do-conselho-das-comunidades/"
+      "titulo": "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "url": "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     },
+     {
+      "data": "2026-10-31",
+      "fonte": "Executive Digest",
+      "titulo": "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "url": "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
      }
     ],
     "todas": [
+     [
+      "2026-10-31 06:20",
+      "Healthnews",
+      "Governo rejeita cortes na prevenção em saúde",
+      "https://healthnews.pt/2026/10/31/governo-rejeita-cortes-na-prevencao-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=governo-rejeita-cortes-na-prevencao-em-saude"
+     ],
+     [
+      "2026-10-31 01:48",
+      "Executive Digest",
+      "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
+      "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/"
+     ],
+     [
+      "2026-10-31 00:17",
+      "Executive Digest",
+      "OE2027: Governo rejeita cortes no financiamento da prevenção na saúde",
+      "https://executivedigest.sapo.pt/oe2027-governo-rejeita-cortes-no-financiamento-da-prevencao-na-saude/"
+     ],
+     [
+      "2026-10-30 23:25",
+      "Observador",
+      "OE2027. Carteira Digital tem 18 mil empresas",
+      "https://observador.pt/2026/10/30/oe2027-carteira-digital-tem-18-mil-empresas-e-mais-de-10-tipos-de-documentos/"
+     ],
+     [
+      "2026-10-30 23:17",
+      "Observador",
+      "Governo prevê que financiamento do INEM aumente 117 milhões",
+      "https://observador.pt/2026/10/30/governo-preve-que-financiamento-do-inem-aumente-117-milhoes-de-euros-em-2027/"
+     ],
+     [
+      "2026-10-30 23:09",
+      "Jornal Económico",
+      "OE2027: Ministra atribui saldo negativo de 2.679 milhões do SNS a necessidades de financiamento",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-ministra-atribui-saldo-negativo-de-2-679-milhoes-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 22:01",
+      "Executive Digest",
+      "OE2027: Governo pretende avançar com “mais uma vaga de PPP” na saúde – ministra",
+      "https://executivedigest.sapo.pt/oe2027-governo-pretende-avancar-com-mais-uma-vaga-de-ppp-na-saude-ministra/"
+     ],
+     [
+      "2026-10-30 21:58",
+      "Diário de Notícias",
+      "OE2027. Ministra afirma que novo quadro de referência para o SNS será assinado nos próximos dias",
+      "https://www.dn.pt/pol%C3%ADtica/oe2027-ministra-afirma-que-novo-quadro-de-referncia-para-o-sns-ser-assinado-nos-prximos-dias"
+     ],
+     [
+      "2026-10-30 21:36",
+      "Jornal Económico",
+      "OE2027: Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://jornaleconomico.sapo.pt/noticias/oe2027-anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g/"
+     ],
+     [
+      "2026-10-30 21:30",
+      "Executive Digest",
+      "OE2027: Ministra atribui saldo negativo de 2.679 ME do SNS a necessidades de financiamento",
+      "https://executivedigest.sapo.pt/oe2027-ministra-atribui-saldo-negativo-de-2-679-me-do-sns-a-necessidades-de-financiamento/"
+     ],
+     [
+      "2026-10-30 21:15",
+      "Observador",
+      "IA. Amália é instrumento de soberania digital, diz ministro",
+      "https://observador.pt/2026/10/30/oe2027-modelo-de-ia-portugues-amalia-e-instrumento-de-soberania-digital-diz-goncalo-matias/"
+     ],
+     [
+      "2026-10-30 19:58",
+      "ECO",
+      "PSD entregou proposta de alteração ao OE2027 para travar cortes nas transferências para as freguesia",
+      "https://eco.sapo.pt/2026/10/30/psd-entregou-proposta-de-alteracao-ao-oe2027-para-travar-cortes-nas-transferencias-para-as-freguesia/"
+     ],
+     [
+      "2026-10-30 19:42",
+      "Executive Digest",
+      "OE2027: Anacom atribui 172ME para cobertura 100% do território em 5G - Bernardo Correia",
+      "https://executivedigest.sapo.pt/oe2027-anacom-atribui-172me-para-cobertura-100-do-territorio-em-5g-bernardo-correia/"
+     ],
+     [
+      "2026-10-30 19:40",
+      "Executive Digest",
+      "OE2027: Gonçalo Matias apela a deputados que aprovem rapidamente diplomas pendentes",
+      "https://executivedigest.sapo.pt/oe2027-goncalo-matias-apela-a-deputados-que-aprovem-rapidamente-diplomas-pendentes/"
+     ],
+     [
+      "2026-10-30 19:19",
+      "Executive Digest",
+      "OE2027: Governo prevê que financiamento do INEM aumente 117 ME",
+      "https://executivedigest.sapo.pt/oe2027-governo-preve-que-financiamento-do-inem-aumente-117-me/"
+     ],
      [
       "2026-10-30 17:43",
       "Diário de Notícias",
@@ -9957,12 +10047,6 @@
      ],
      [
       "2026-10-30 15:47",
-      "Dinheiro Vivo",
-      "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
-      "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad"
-     ],
-     [
-      "2026-10-30 15:47",
       "Diário de Notícias",
       "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
       "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad?utm_source=website&utm_medium=related-stories"
@@ -9977,7 +10061,7 @@
       "2026-10-30 13:34",
       "Público",
       "OE2027: Anafre vê “avanço muito positivo” na correcção de cortes, mas não afasta protesto",
-      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193?ref=politica"
+      "https://www.publico.pt/2026/10/30/politica/noticia/oe2027-anafre-ve-avanco-positivo-correccao-cortes-nao-afasta-protesto-2193193"
      ],
      [
       "2026-10-30 13:10",
@@ -10964,6 +11048,18 @@
       "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b"
      ],
      [
+      "2026-10-23 22:13",
+      "ECO",
+      "Moody’s mantém rating de França e acredita que Orçamento para 2027 será aprovado",
+      "https://eco.sapo.pt/2026/10/23/moodys-mantem-rating-de-franca-e-acredita-que-orcamento-para-2027-sera-aprovado/"
+     ],
+     [
+      "2026-10-23 16:38",
+      "ECO",
+      "Governo deixa Parlamento sem resposta sobre abertura de candidaturas a prémio salarial",
+      "https://eco.sapo.pt/2026/10/23/governo-deixa-parlamento-sem-resposta-sobre-abertura-de-candidaturas-a-premio-salarial/"
+     ],
+     [
       "2026-10-23 16:33",
       "Notícias ao Minuto",
       "ANMP aprova parecer positivo ao OE2027, mas alerta",
@@ -11001,15 +11097,15 @@
      ],
      [
       "2026-10-23 12:18",
-      "RTP Notícias",
-      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
-      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
-     ],
-     [
-      "2026-10-23 12:18",
       "Jornal Económico",
       "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
       "https://jornaleconomico.sapo.pt/noticias/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+     ],
+     [
+      "2026-10-23 12:18",
+      "RTP Notícias",
+      "OE2027: ministro das Finanças ouvido no Parlamento no arranque da discussão na generalidade",
+      "https://www.rtp.pt/noticias/economia/oe2027-ministro-das-financas-ouvido-no-parlamento-no-arranque-da-discussao-na-generalidade_n1773704"
      ],
      [
       "2026-10-23 12:06",
@@ -11036,16 +11132,28 @@
       "https://executivedigest.sapo.pt/oe2027-governo-ja-tomou-muitas-medidas-na-habitacao-mas-efeitos-levam-tempo-sarmento/"
      ],
      [
-      "2026-10-23 11:37",
-      "Executive Digest",
-      "OE2027: PS promete que propostas de alteração não vão agravar saldo orçamental",
-      "https://executivedigest.sapo.pt/oe2027-ps-promete-que-propostas-de-alteracao-nao-vao-agravar-saldo-orcamental/"
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-23 11:30",
       "Executive Digest",
       "Católica Porto SBE e PwC juntam Governo e empresas para analisar o Orçamento do Estado para 2027",
       "https://executivedigest.sapo.pt/catolica-porto-sbe-e-pwc-juntam-governo-e-empresas-para-analisar-o-orcamento-do-estado-para-2027/"
+     ],
+     [
+      "2026-10-23 11:20",
+      "Executive Digest",
+      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
+      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
+     ],
+     [
+      "2026-10-23 10:57",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 10:54",
@@ -11062,14 +11170,8 @@
      [
       "2026-10-23 10:17",
       "ECO",
-      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "PS só viabiliza OE2027 se houver medidas para combater o custo de vida",
       "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
-     ],
-     [
-      "2026-10-23 09:46",
-      "Executive Digest",
-      "OE2027 sem medidas estruturais, critica sindicato dos impostos que enviou 26 propostas antifraude ao Governo",
-      "https://executivedigest.sapo.pt/oe2027-sem-medidas-estruturais-critica-sindicato-dos-impostos-que-enviou-26-propostas-antifraude-ao-governo/"
      ],
      [
       "2026-10-23 08:35",
@@ -11088,12 +11190,6 @@
       "Diário de Notícias",
       "OE2027: Miranda Sarmento ouvido no arranque da discussão na generalidade",
       "https://www.dn.pt/economia/oe2027-miranda-sarmento-ouvido-no-arranque-da-discusso-na-generalidade"
-     ],
-     [
-      "2026-10-23 07:48",
-      "ECO",
-      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
-      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 06:49",
@@ -12240,102 +12336,6 @@
       "Jornal Económico",
       "Confederação do Desporto saúda aumento da dotação para o desporto no OE2027",
       "https://jornaleconomico.sapo.pt/noticias/confederacao-do-desporto-sauda-aumento-da-dotacao-para-o-desporto-no-oe2027/"
-     ],
-     [
-      "2026-10-09 15:50",
-      "Agroportal",
-      "Arquivo de OE2027",
-      "https://www.agroportal.pt/categoria/oe2027/"
-     ],
-     [
-      "2026-10-09 15:22",
-      "Notícias ao Minuto",
-      "Funcionários judiciais ameaçam greve por falta de compromissos no OE2027",
-      "https://www.noticiasaominuto.com/pais/3064286/funcionarios-judiciais-ameacam-greve-por-falta-de-compromissos-no-oe2027#utm_source=rss-ultima-hora&utm_medium=rss&utm_campaign=rssfeed"
-     ],
-     [
-      "2026-10-09 15:16",
-      "Healthnews",
-      "OE 2027: Adições e saúde mental com verbas reforçadas",
-      "https://healthnews.pt/2026/10/09/oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-adicoes-e-saude-mental-com-verbas-reforcadas"
-     ],
-     [
-      "2026-10-09 15:12",
-      "Executive Digest",
-      "OE2027: Funcionários judiciais desiludidos querem compromissos concretos e ameaçam greve",
-      "https://executivedigest.sapo.pt/oe2027-funcionarios-judiciais-desiludidos-querem-compromissos-concretos-e-ameacam-greve/"
-     ],
-     [
-      "2026-10-09 15:06",
-      "Healthnews",
-      "Xavier Barreto: OE 2024, menos dinheiro e mais promessas",
-      "https://healthnews.pt/2026/10/09/xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas/#utm_source=rss&utm_medium=rss&utm_campaign=xavier-barreto-oe-2024-menos-dinheiro-e-mais-promessas"
-     ],
-     [
-      "2026-10-09 14:58",
-      "Executive Digest",
-      "OE2027: Associação Zero critica Governo por não assumir Ambiente como área estratégica",
-      "https://executivedigest.sapo.pt/oe2027-associacao-zero-critica-governo-por-nao-assumir-ambiente-como-area-estrategica/"
-     ],
-     [
-      "2026-10-09 14:52",
-      "Healthnews",
-      "OE 2027: farmacêuticos acusam Governo de não aproveitar o setor",
-      "https://healthnews.pt/2026/10/09/oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor/#utm_source=rss&utm_medium=rss&utm_campaign=oe-2027-farmaceuticos-acusam-governo-de-nao-aproveitar-o-setor"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma “ajudinha” da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775"
-     ],
-     [
-      "2026-10-09 14:42",
-      "Público",
-      "Sem noites em branco, com mais de 150 pessoas e uma ‘ajudinha’ da IA: como se fez o OE2027",
-      "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775?ref=hp&cx=ultimas_1"
-     ],
-     [
-      "2026-10-09 14:29",
-      "ECO",
-      "O “bailarino” que não sabe dançar e o “professor Chibanga”: como foi o debate pós-entrega do OE",
-      "https://eco.sapo.pt/2026/10/09/o-bailarino-que-nao-sabe-dancar-e-o-professor-chibanga-como-foi-o-debate-pos-entrega-do-oe/"
-     ],
-     [
-      "2026-10-09 14:21",
-      "SIC Notícias",
-      "Habitação, propinas e pensões: o que prevê o OE 2027 para jovens e idosos?",
-      "https://sicnoticias.pt/especiais/orcamento-do-estado/2026-10-09-video-habitacao-propinas-e-pensoes-o-que-preve-o-oe-2027-para-jovens-e-idosos--3cb66d63"
-     ],
-     [
-      "2026-10-09 14:16",
-      "Observador",
-      "OE 2027. O que muda na vida dos portugueses? — Debate",
-      "https://observador.pt/programas/contra-corrente/oe-2027-o-que-muda-na-vida-dos-portugueses-debate/"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Propinas vão subir no próximo ano",
-      "https://www.rtp.pt/noticias/economia/oe2027-propinas-vao-subir-no-proximo-ano_v1770668"
-     ],
-     [
-      "2026-10-09 14:07",
-      "RTP Notícias",
-      "OE2027. Verbas para a saúde com queda de 1,5%",
-      "https://www.rtp.pt/noticias/economia/oe2027-verbas-para-a-saude-com-queda-de-15_v1770667"
-     ],
-     [
-      "2026-10-09 14:05",
-      "ECO",
-      "OE2027. AEP lamenta falta de ambição e destaca “insuficiências” da proposta",
-      "https://eco.sapo.pt/2026/10/09/oe2027-aep-lamenta-falta-de-ambicao-e-destaca-insuficiencias-da-proposta/"
-     ],
-     [
-      "2026-10-09 14:01",
-      "RTP Notícias",
-      "AEP considera orçamento insuficiente para reforçar competitividade empresarial",
-      "https://www.rtp.pt/noticias/economia/aep-considera-orcamento-insuficiente-para-reforcar-competitividade-empresarial_n1770652"
      ]
     ]
    },
@@ -12526,8 +12526,8 @@
     "retirados": 0
    }
   ],
-  "atualizado": "2026-10-31T00:28+00:00",
-  "atualizadoLabel": "31 de outubro, 00h28",
+  "atualizado": "2026-10-31T13:34+00:00",
+  "atualizadoLabel": "31 de outubro, 13h34",
   "estado": "com triagem automática",
   "aviso": "36 matérias foram classificadas automaticamente (regras e Amália) e ainda não foram revistas pela Unidade de Pesquisa e Estatísticas. As fichas geradas pelo Amália não incluem a verificação de números.",
   "desdeLabel": "30 de outubro"
@@ -12545,9 +12545,9 @@
    "fundo": [
     {
      "data": "2026-09-24",
-     "fonte": "Correio da Manhã",
-     "url": "https://www.cmjornal.pt/politica/amp/ministro-da-presidencia-avisa-que-margem-negocial-do-oe2027-e-muito-limitada-e-critica-pessimistas-alertantes",
-     "sintese": "Ministro da Presidência avisa que margem negocial do OE2027 é muito limitada e critica \"pessimistas alertantes\"",
+     "fonte": "Nascer do SOL",
+     "url": "https://sol.iol.pt/economia/noticias/ahresp-apresenta-27-propostas-para-o-oe2027-para-estimular-o-investimento-e-travar-a-pressao-sobre-as-empresas/20260924/6ab565360cf23b0ed4fd94e8",
+     "sintese": "AHRESP apresenta 27 propostas para o OE2027 para estimular o investimento e travar a pressão sobre as empresas",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12590,18 +12590,18 @@
     },
     {
      "data": "2026-10-08",
-     "fonte": "Expresso",
-     "url": "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-psd-espera-tranquilidade-e-previsibilidade-com-o-oe2027-mas-ps-avisa-que-compromissos-sao-para-cumprir-ab421b1d",
-     "sintese": "PSD espera \"tranquilidade\" e \"previsibilidade\" com o OE2027, mas PS avisa que \"compromissos são para cumprir\"",
+     "fonte": "Correio da Manhã",
+     "url": "https://www.cmjornal.pt/politica/amp/governo-estima-arrecadar-mais-166-milhoes-de-euros-com-impostos-sobre-tabaco-e-alcool-no-oe2027",
+     "sintese": "Governo estima arrecadar mais 166 milhões de euros com impostos sobre tabaco e álcool no OE2027",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
      "data": "2026-10-08",
-     "fonte": "CNN Portugal",
-     "url": "https://cnnportugal.iol.pt/videos/orcamento-do-estado-para-2027-e-minimalista-e-tenta-passar-entre-os-pingos-da-chuva/6ac817700cf20dc52779187d",
-     "sintese": "Orçamento do Estado para 2027 \"é minimalista e tenta passar entre os pingos da chuva\"",
+     "fonte": "Expresso",
+     "url": "https://expresso.pt/orcamento-do-estado/orcamento-do-estado-2027/2026-10-08-psd-espera-tranquilidade-e-previsibilidade-com-o-oe2027-mas-ps-avisa-que-compromissos-sao-para-cumprir-ab421b1d",
+     "sintese": "PSD espera \"tranquilidade\" e \"previsibilidade\" com o OE2027, mas PS avisa que \"compromissos são para cumprir\"",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12644,9 +12644,9 @@
     },
     {
      "data": "2026-10-23",
-     "fonte": "Observador",
-     "url": "https://observador.pt/2026/10/23/carneiro-justifica-viabilizacao-do-oe2027-com-crises-em-portugal-e-no-estrangeiro/",
-     "sintese": "OE2027. Carneiro justifica viabilização com crises mundiais",
+     "fonte": "CNN Portugal",
+     "url": "https://cnnportugal.iol.pt/oe2027/jose-luis-carneiro/jose-luis-carneiro-justifica-viabilizacao-do-mau-oe2027-com-crises-em-portugal-e-no-estrangeiro/20261023/6adbd447d34e53c759c77c3b",
+     "sintese": "José Luís Carneiro justifica viabilização do \"mau\" OE2027 com crises em Portugal e no estrangeiro",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12662,9 +12662,9 @@
     },
     {
      "data": "2026-10-26",
-     "fonte": "Executive Digest",
-     "url": "https://executivedigest.sapo.pt/oe2027-carneiro-leva-habitacao-e-custo-de-vida-como-temas-principais-ao-debate-na-ar/",
-     "sintese": "OE2027: Carneiro leva habitação e custo de vida como temas principais ao debate na AR",
+     "fonte": "Diário de Notícias",
+     "url": "http://dinheirovivo.dn.pt/economia/oe2027-rsi-chega-a-menos-de-4-dos-cidados-estrangeiros-em-portugal",
+     "sintese": "OE2027: RSI chega a menos de 4% dos cidadãos estrangeiros em Portugal",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12707,18 +12707,18 @@
     },
     {
      "data": "2026-10-30",
-     "fonte": "Dinheiro Vivo",
-     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-pedro-nuno-santos-critica-absteno-do-ps-estamos-a-dar-mais-um-ano-de-vida-ao-governo-da-ad",
-     "sintese": "OE2027. Pedro Nuno Santos critica abstenção do PS: \"Estamos a dar mais um ano de vida ao Governo da AD\"",
+     "fonte": "Observador",
+     "url": "https://observador.pt/2026/10/30/oe2027-carteira-digital-tem-18-mil-empresas-e-mais-de-10-tipos-de-documentos/",
+     "sintese": "OE2027. Carteira Digital tem 18 mil empresas",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
     },
     {
-     "data": "2026-10-30",
-     "fonte": "Diário de Notícias",
-     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-voto-eletrnico-ser-testado-nos-emigrantes-para-eleies-do-conselho-das-comunidades",
-     "sintese": "OE2027. Voto eletrónico será testado nos emigrantes para eleições do Conselho das Comunidades",
+     "data": "2026-10-31",
+     "fonte": "Executive Digest",
+     "url": "https://executivedigest.sapo.pt/oe2027-ministra-da-saude-afirma-que-nao-houve-regulacao-dos-privados-nos-ultimos-anos/",
+     "sintese": "OE2027: Ministra da Saúde afirma que não houve regulação dos privados nos últimos anos",
      "impacto": "",
      "natureza": "contexto",
      "naturezaLabel": "Por classificar"
@@ -12726,14 +12726,14 @@
    ],
    "amostra": {
     "analisadas": 20,
-    "encontradas": 1141
+    "encontradas": 1156
    },
    "base": {
-    "ultima": "2026-10-30 17:43",
-    "em": "2026-10-30"
+    "ultima": "2026-10-31 06:20",
+    "em": "2026-10-31"
    },
    "novas": 0,
-   "enquadramento": "Seleção automática de 20 das 1141 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (168 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
+   "enquadramento": "Seleção automática de 20 das 1156 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (181 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-19-plen-rio-discuss-o-de-artigos-remetidos": {
    "titulo": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas",
@@ -12934,7 +12934,7 @@
     "ultima": "2026-10-30 17:43",
     "em": "2026-10-31"
    },
-   "novas": 0,
+   "novas": 15,
    "enquadramento": "Seleção automática de 20 das 1140 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (167 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-20-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -13136,7 +13136,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 157,
+   "novas": 172,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-23-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -13338,7 +13338,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 157,
+   "novas": 172,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-24-plen-rio-discuss-o-de-artigos-remetidos": {
@@ -13540,7 +13540,7 @@
     "ultima": "2026-10-26 06:38",
     "em": "2026-10-26"
    },
-   "novas": 157,
+   "novas": 172,
    "enquadramento": "Seleção automática de 20 das 979 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (61 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-02-comiss-o-de-infraestruturas-mobilidade": {
@@ -13699,17 +13699,36 @@
    "atencao": [],
    "blocos": [],
    "tabelas": [],
-   "fundo": [],
+   "fundo": [
+    {
+     "data": "2026-10-23",
+     "fonte": "ECO",
+     "url": "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/",
+     "sintese": "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    },
+    {
+     "data": "2026-10-30",
+     "fonte": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g",
+     "sintese": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+     "impacto": "",
+     "natureza": "contexto",
+     "naturezaLabel": "Por classificar"
+    }
+   ],
    "amostra": {
-    "analisadas": 0,
-    "encontradas": 0
+    "analisadas": 2,
+    "encontradas": 2
    },
    "base": {
-    "ultima": "",
-    "em": "2026-10-30"
+    "ultima": "2026-10-30 22:06",
+    "em": "2026-10-31"
    },
    "novas": 0,
-   "enquadramento": "Sem notícias sobre esta matéria nos órgãos de comunicação social acompanhados pelo Radar de Notícias nos últimos 60 dias (expressões usadas: palavras do assunto). A ficha é refeita automaticamente quando surgirem notícias."
+   "enquadramento": "Seleção automática de 2 das 2 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-05-comiss-o-de-trabalho-seguran-a-social-e": {
    "titulo": "Comissão de Trabalho, Segurança Social e Inclusão",
@@ -14129,7 +14148,7 @@
     "ultima": "2026-10-29 16:14",
     "em": "2026-10-30"
    },
-   "novas": 1,
+   "novas": 2,
    "enquadramento": "Seleção automática de 8 das 16 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-03-comiss-o-de-neg-cios-estrangeiros-e-com": {
@@ -14272,7 +14291,7 @@
     "ultima": "2026-10-29 16:14",
     "em": "2026-10-30"
    },
-   "novas": 1,
+   "novas": 2,
    "enquadramento": "Seleção automática de 8 das 17 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (1 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-04-comiss-o-de-or-amento-finan-as-e-admini": {
@@ -14366,7 +14385,7 @@
     "ultima": "2026-10-30 16:17",
     "em": "2026-10-30"
    },
-   "novas": 0,
+   "novas": 1,
    "enquadramento": "Seleção automática de 8 das 17 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (2 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-05-comiss-o-de-or-amento-finan-as-e-admini": {
@@ -14568,7 +14587,7 @@
     "ultima": "2026-10-30 16:17",
     "em": "2026-10-31"
    },
-   "novas": 0,
+   "novas": 1,
    "enquadramento": "Seleção automática de 20 das 58 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (9 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   },
   "2026-11-05-comiss-o-de-economia-e-coes-o-territori": {
@@ -14864,7 +14883,7 @@
     "ultima": "2026-10-30 16:17",
     "em": "2026-10-30"
    },
-   "novas": 0,
+   "novas": 1,
    "enquadramento": "Seleção automática de 8 das 58 notícias encontradas nos últimos 60 dias nos órgãos de comunicação social acompanhados pelo Radar de Notícias (2 nos últimos 7 dias), escolhidas ao longo do período: dias de maior cobertura, variedade de órgãos e as mais recentes. Sem análise: o enquadramento, a natureza e o impacto de cada notícia são acrescentados automaticamente quando o Amália estiver ativo."
   }
  },
@@ -14955,14 +14974,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 18,
-    "n7": 3,
-    "n7ant": 3,
+    "n": 20,
+    "n7": 4,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -14974,15 +14999,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-28",
-      "fonte": "Público",
-      "titulo": "Miguel Pinto Luz: “Nunca se apoiou tanto a habitação como neste Governo”",
-      "url": "https://www.publico.pt/2026/10/28/politica/noticia/governo-volta-parlamento-aprovacao-orcamento-estado-2192872"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -15000,6 +15025,12 @@
       "Público",
       "Miguel Pinto Luz: “Nunca se apoiou tanto a habitação como neste Governo”",
       "https://www.publico.pt/2026/10/28/politica/noticia/governo-volta-parlamento-aprovacao-orcamento-estado-2192872"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -15130,14 +15161,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 19,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 21,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -15149,15 +15186,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -15169,6 +15206,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -15311,14 +15354,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 19,
-    "n7": 2,
-    "n7ant": 4,
+    "n": 21,
+    "n7": 3,
+    "n7ant": 5,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -15330,15 +15379,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "Jornal Económico",
-      "titulo": "Leitão Amaro discorda da interpretação de que Estatutos da Lusa estejam em desconformidade",
-      "url": "https://jornaleconomico.sapo.pt/noticias/leitao-amaro-discorda-da-interpretacao-de-que-estatutos-da-lusa-estejam-em-desconformidade/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -15350,6 +15399,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 12:30",
@@ -15590,14 +15645,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 18,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 20,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -15609,15 +15670,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -15629,6 +15690,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -15815,14 +15882,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 17,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 19,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -15834,15 +15907,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -15854,6 +15927,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -15984,14 +16063,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 17,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 19,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -16003,15 +16088,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -16023,6 +16108,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -16153,14 +16244,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 17,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 19,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -16172,15 +16269,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -16192,6 +16289,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -16630,14 +16733,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 18,
-    "n7": 3,
-    "n7ant": 3,
+    "n": 20,
+    "n7": 4,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -16649,15 +16758,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-28",
-      "fonte": "Lusa",
-      "titulo": "OE2027: Leitão Amaro critica “contas à Chega” e pergunta se ficará ao lado da esquerda na lei das rendas",
-      "url": "https://www.lusa.pt/national/article/2026-10-28/48026313/oe2027-leit%C3%A3o-amaro-critica-contas-%C3%A0-chega-e-pergunta-se-ficar%C3%A1-ao-lado-da-esquerda-na-lei-das-rendas"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -16675,6 +16784,12 @@
       "Lusa",
       "OE2027: Leitão Amaro critica “contas à Chega” e pergunta se ficará ao lado da esquerda na lei das rendas",
       "https://www.lusa.pt/national/article/2026-10-28/48026313/oe2027-leit%C3%A3o-amaro-critica-contas-%C3%A0-chega-e-pergunta-se-ficar%C3%A1-ao-lado-da-esquerda-na-lei-das-rendas"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -16888,14 +17003,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 29,
-    "n7": 3,
-    "n7ant": 6,
+    "n": 31,
+    "n7": 4,
+    "n7ant": 7,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -16907,15 +17028,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-26",
-      "fonte": "RTP Notícias",
-      "titulo": "Ministro diz que enquadramento do pessoal não docente exige negociação com ANMP",
-      "url": "https://www.rtp.pt/noticias/pais/ministro-diz-que-enquadramento-do-pessoal-nao-docente-exige-negociacao-com-anmp_n1774487"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -16933,6 +17054,12 @@
       "RTP Notícias",
       "Ministro diz que enquadramento do pessoal não docente exige negociação com ANMP",
       "https://www.rtp.pt/noticias/pais/ministro-diz-que-enquadramento-do-pessoal-nao-docente-exige-negociacao-com-anmp_n1774487"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-22 18:07",
@@ -17129,14 +17256,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 20,
-    "n7": 2,
-    "n7ant": 4,
+    "n": 23,
+    "n7": 4,
+    "n7ant": 5,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -17144,19 +17277,19 @@
       "url": "https://www.acorianooriental.pt/noticia/governo-dos-acores-da-prioridade-a-saude-habitacao-e-turismo-em-2027-381629"
      },
      {
-      "data": "2026-10-29",
-      "fonte": "Açoriano Oriental",
-      "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
-      "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Autarcas do PS acusam Governo de incumprimento do acordo com PSD e PCP na ANAFRE",
-      "url": "https://eco.sapo.pt/2026/10/21/autarcas-do-ps-acusam-governo-de-incumprimento-do-acordo-com-psd-e-pcp-na-anafre/"
+      "data": "2026-10-30",
+      "fonte": "Diário de Notícias da Madeira",
+      "titulo": "Freguesias do Funchal solidárias com protesto nacional da Associação Nacional de Freguesias",
+      "url": "https://www.dnoticias.pt/2026/10/30/511027-freguesias-do-funchal-solidarias-com-protesto-nacional-da-associacao-nacional-de-freguesias/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -17164,10 +17297,22 @@
       "https://www.acorianooriental.pt/noticia/governo-dos-acores-da-prioridade-a-saude-habitacao-e-turismo-em-2027-381629"
      ],
      [
+      "2026-10-30 14:27",
+      "Diário de Notícias da Madeira",
+      "Freguesias do Funchal solidárias com protesto nacional da Associação Nacional de Freguesias",
+      "https://www.dnoticias.pt/2026/10/30/511027-freguesias-do-funchal-solidarias-com-protesto-nacional-da-associacao-nacional-de-freguesias/"
+     ],
+     [
       "2026-10-29 16:14",
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 20:44",
@@ -17316,14 +17461,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 30,
-    "n7": 3,
-    "n7ant": 4,
+    "n": 32,
+    "n7": 4,
+    "n7ant": 5,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -17335,15 +17486,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-29",
-      "fonte": "Healthnews",
-      "titulo": "Informar não basta, especialistas pedem um ecossistema de literacia em saúde",
-      "url": "https://healthnews.pt/2026/10/29/informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -17363,10 +17514,16 @@
       "https://healthnews.pt/2026/10/29/informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude/#utm_source=rss&utm_medium=rss&utm_campaign=informar-nao-basta-especialistas-pedem-um-ecossistema-de-literacia-em-saude"
      ],
      [
-      "2026-10-23 12:39",
+      "2026-10-23 12:36",
       "Healthnews",
       "APDI leva microbiota e eixo cérebro-intestino ao centro do debate sobre DII",
-      "https://healthnews.pt/2026/10/23/apdi-leva-microbiota-e-eixo-cerebro-intestino-ao-centro-do-debate-sobre-dii/"
+      "https://healthnews.pt/2026/10/23/apdi-leva-microbiota-e-eixo-cerebro-intestino-ao-centro-do-debate-sobre-dii/#utm_source=rss&utm_medium=rss&utm_campaign=apdi-leva-microbiota-e-eixo-cerebro-intestino-ao-centro-do-debate-sobre-dii"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -17563,14 +17720,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 17,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 19,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -17582,15 +17745,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -17602,6 +17765,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -17783,14 +17952,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 17,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 19,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -17802,15 +17977,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -17822,6 +17997,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -17953,15 +18134,41 @@
     }
    ],
    "cobertura": {
-    "n": 0,
-    "n7": 0,
-    "n7ant": 0,
+    "n": 2,
+    "n7": 1,
+    "n7ant": 1,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "",
-    "ultimas": [],
-    "todas": []
+    "ultima": "2026-10-30 22:06",
+    "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
+     {
+      "data": "2026-10-23",
+      "fonte": "ECO",
+      "titulo": "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "url": "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
+     }
+    ],
+    "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
+     ]
+    ]
    },
    "varrimento": "2026-11-04-comiss-o-de-educa-o-e-ci-ncia"
   },
@@ -18002,14 +18209,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 17,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 19,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -18021,15 +18234,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -18041,6 +18254,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -18291,14 +18510,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 26,
-    "n7": 3,
-    "n7ant": 4,
+    "n": 28,
+    "n7": 4,
+    "n7ant": 5,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -18310,15 +18535,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-26",
-      "fonte": "ECO",
-      "titulo": "Metro de Lisboa com serviços mínimos na greve de 28 e 30 de outubro, mas algumas estações vão estar encerradas",
-      "url": "https://eco.sapo.pt/2026/10/26/metro-de-lisboa-com-servicos-minimos-na-greve-de-28-e-30-de-outubro-mas-algumas-estacoes-vao-estar-encerradas/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -18336,6 +18561,12 @@
       "ECO",
       "Metro de Lisboa com serviços mínimos na greve de 28 e 30 de outubro, mas algumas estações vão estar encerradas",
       "https://eco.sapo.pt/2026/10/26/metro-de-lisboa-com-servicos-minimos-na-greve-de-28-e-30-de-outubro-mas-algumas-estacoes-vao-estar-encerradas/"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -18514,9 +18745,9 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 41,
+    "n": 42,
     "n7": 5,
-    "n7ant": 1,
+    "n7ant": 2,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
@@ -18571,6 +18802,12 @@
       "ECO",
       "Metro de Lisboa com serviços mínimos na greve de 28 e 30 de outubro, mas algumas estações vão estar encerradas",
       "https://eco.sapo.pt/2026/10/26/metro-de-lisboa-com-servicos-minimos-na-greve-de-28-e-30-de-outubro-mas-algumas-estacoes-vao-estar-encerradas/"
+     ],
+     [
+      "2026-10-23 16:58",
+      "ECO",
+      "É oficial. Já há grupo de trabalho para criar o Código do Poder Local",
+      "https://eco.sapo.pt/2026/10/23/e-oficial-ja-ha-grupo-de-trabalho-para-criar-o-codigo-do-poder-local/"
      ],
      [
       "2026-10-20 01:00",
@@ -18859,14 +19096,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 58,
-    "n7": 9,
-    "n7ant": 3,
+    "n": 60,
+    "n7": 10,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -18878,15 +19121,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-29",
-      "fonte": "ECO",
-      "titulo": "Economistas antecipam abrandamento do crescimento do PIB até setembro, após segundo trimestre forte",
-      "url": "https://eco.sapo.pt/2026/10/29/economistas-antecipam-abrandamento-do-crescimento-do-pib-ate-setembro-apos-segundo-trimestre-forte/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -18940,6 +19183,12 @@
       "Jornal de Negócios",
       "CFP: Juros sobrestimados e mais inflação podem aumentar “pequeno excedente” do OE 2027",
       "https://www.jornaldenegocios.pt/economia/financas-publicas/detalhe/cfp-juros-sobrestimados-e-mais-inflacao-podem-aumentar-pequeno-excedente-do-oe-2027"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -19274,14 +19523,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 22,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 24,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -19293,15 +19548,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -19313,6 +19568,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -19474,9 +19735,9 @@
     }
    ],
    "cobertura": {
-    "n": 27,
+    "n": 28,
     "n7": 2,
-    "n7ant": 4,
+    "n7ant": 5,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
@@ -19525,6 +19786,12 @@
       "Observador",
       "Defesa: o PS descobriu agora a importância de planear?",
       "https://observador.pt/opiniao/defesa-nacional-o-ps-descobriu-agora-a-importancia-de-planear/"
+     ],
+     [
+      "2026-10-23 15:39",
+      "ECO",
+      "PS questiona Defesa sobre Lei de Programação Militar e substituição dos F-16",
+      "https://eco.sapo.pt/2026/10/23/ps-questiona-calendario-da-lei-de-programacao-militar-e-substituicao-dos-f-16/"
      ],
      [
       "2026-10-23 12:23",
@@ -19705,14 +19972,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 25,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 27,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -19724,15 +19997,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -19744,6 +20017,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -19924,14 +20203,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 17,
-    "n7": 2,
-    "n7ant": 3,
+    "n": 19,
+    "n7": 3,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -19943,15 +20228,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-21",
-      "fonte": "ECO",
-      "titulo": "Conselho das Finanças Públicas ouvido no Parlamento antes da mudança de estatutos",
-      "url": "https://eco.sapo.pt/2026/10/21/conselho-das-financas-publicas-ouvido-no-parlamento-antes-da-mudanca-de-estatutos/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -19963,6 +20248,12 @@
       "Açoriano Oriental",
       "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -20157,14 +20448,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 18,
-    "n7": 3,
-    "n7ant": 3,
+    "n": 20,
+    "n7": 4,
+    "n7ant": 4,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -20176,15 +20473,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-26",
-      "fonte": "ECO",
-      "titulo": "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
-      "url": "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -20202,6 +20499,12 @@
       "ECO",
       "Salário mínimo, pensões e mercado de trabalho. Palma Ramalho defende OE2027 no Parlamento",
       "https://eco.sapo.pt/2026/10/26/salario-minimo-pensoes-e-mercado-de-trabalho-palma-ramalho-defende-oe2027-no-parlamento/"
+     ],
+     [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
      ],
      [
       "2026-10-21 11:41",
@@ -20334,14 +20637,20 @@
    ],
    "novo": "2026-10-30",
    "cobertura": {
-    "n": 58,
-    "n7": 2,
-    "n7ant": 9,
+    "n": 60,
+    "n7": 3,
+    "n7ant": 10,
     "dias": 60,
     "ref": "2026-10-31",
     "metodo": "palavras",
-    "ultima": "2026-10-30 16:17",
+    "ultima": "2026-10-30 22:06",
     "ultimas": [
+     {
+      "data": "2026-10-30",
+      "fonte": "Jornal de Negócios",
+      "titulo": "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "url": "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     },
      {
       "data": "2026-10-30",
       "fonte": "Açoriano Oriental",
@@ -20353,15 +20662,15 @@
       "fonte": "Açoriano Oriental",
       "titulo": "Serviço de estatística dos Açores vai transformar-se em instituto público",
       "url": "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
-     },
-     {
-      "data": "2026-10-23",
-      "fonte": "Diário de Notícias",
-      "titulo": "OE2027: Miranda Sarmento ouvido no arranque da discussão na generalidade",
-      "url": "https://www.dn.pt/economia/oe2027-miranda-sarmento-ouvido-no-arranque-da-discusso-na-generalidade"
      }
     ],
     "todas": [
+     [
+      "2026-10-30 22:06",
+      "Jornal de Negócios",
+      "Anacom atribui 172 milhões para cobertura 100% do território em 5G",
+      "https://www.jornaldenegocios.pt/empresas/detalhe/anacom-atribui-172-milhoes-para-cobertura-100-do-territorio-em-5g"
+     ],
      [
       "2026-10-30 16:17",
       "Açoriano Oriental",
@@ -20375,16 +20684,22 @@
       "https://www.acorianooriental.pt/noticia/servico-de-estatistica-dos-acores-vai-transformar-se-em-instituto-publico-381602"
      ],
      [
+      "2026-10-23 11:34",
+      "ECO",
+      "PS exige medidas para combater o custo de vida no Orçamento do Estado para 2027",
+      "https://eco.sapo.pt/2026/10/23/ps-so-viabiliza-oe2027-se-houver-medidas-para-combater-o-custo-de-vida/"
+     ],
+     [
+      "2026-10-23 10:57",
+      "ECO",
+      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
+      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
+     ],
+     [
       "2026-10-23 08:09",
       "Diário de Notícias",
       "OE2027: Miranda Sarmento ouvido no arranque da discussão na generalidade",
       "https://www.dn.pt/economia/oe2027-miranda-sarmento-ouvido-no-arranque-da-discusso-na-generalidade"
-     ],
-     [
-      "2026-10-23 07:48",
-      "ECO",
-      "Miranda Sarmento alerta para “riscos” e defende “prudência orçamental” no OE2027",
-      "https://eco.sapo.pt/2026/10/23/miranda-sarmento-alerta-para-riscos-e-defende-prudencia-orcamental-no-oe2027/"
      ],
      [
       "2026-10-23 06:49",
