@@ -101,7 +101,7 @@ def tema(x, txt):
     if x.get('Section') == 'Plenário':
         t = re.sub(r'ORDEM DO DIA|\(sujeito a altera\w+\)|\b\d{1,2}H\d{2}\b|^\s*\d+\s*-\s*', ' ', txt)
         t = re.sub(r'^\d+\s*-\s*', '', re.sub(r'\s+', ' ', t).strip())
-        t = re.split(r'\s(?:Proposta|Projeto|Debate na Generalidade|GOV \d|\d+\s*-)\s', t)[0]
+        t = re.split(r'\s(?:Proposta|Projeto|Debate na Generalidade|Tempos\b|Notas?\b|GOV \d|\d+\s*-)\s?', t)[0]
         return ('Plenário — ' + t.strip(' -:'))[:120] if t.strip() else 'Plenário'
     return (x.get('OrgDes') or x.get('Title') or '').split(' | ')[0].strip()
 
@@ -138,6 +138,12 @@ def calendarizacao(bruto):
             d = re.match(r'Dia (\d+)', cel[0]) if cel else None
             if not d or len(cel) < 3: continue
             horas = ' · '.join(re.findall(r'\d{1,2}h\d{2}', ' '.join(cel[3:])))
+            try: dia = datetime.date(ano, mes, int(d.group(1)))
+            except ValueError: continue
+            sem = ['segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo'][dia.weekday()]
+            if cel[1] and not cel[1].lower().startswith(sem):
+                print(f'calendarização: «Dia {d.group(1)} {cel[1]}» não bate com {dia} ({sem}) no resumo de {m.group(1)} de {ano} — ignorado')
+                continue                                     # dia da semana da AR não bate com a data: linha não fiável
             out.append({'data': datetime.date(ano, mes, int(d.group(1))).isoformat(), 'diaSemana': cel[1], 'atividade': cel[2], 'horas': horas})
     return sorted({c['data'] + c['atividade']: c for c in out}.values(), key=lambda c: c['data'])
 
