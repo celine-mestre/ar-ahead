@@ -1,7 +1,7 @@
 {
  "inicio": "2026-11-02",
  "fim": "2026-11-08",
- "recolha": "2026-10-30T22:08",
+ "recolha": "2026-10-31T00:28",
  "fonte": "Agenda Parlamentar da Assembleia da República — agenda.parlamento.pt (exportação JSON); calendarização: dados abertos",
  "itens": [
   {
@@ -580,7 +580,7 @@
    "id_ar": 48392,
    "data": "2026-11-19",
    "hora": "10h00",
-   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas",
    "orgao": "Plenário",
    "interveniente": "",
    "tipo": [
@@ -595,7 +595,7 @@
    "id_ar": 48391,
    "data": "2026-11-20",
    "hora": "10h00",
-   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas",
    "orgao": "Plenário",
    "interveniente": "",
    "tipo": [
@@ -610,7 +610,7 @@
    "id_ar": 48390,
    "data": "2026-11-23",
    "hora": "10h00",
-   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas",
    "orgao": "Plenário",
    "interveniente": "",
    "tipo": [
@@ -625,7 +625,7 @@
    "id_ar": 48395,
    "data": "2026-11-24",
    "hora": "10h00",
-   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas Tempos 5 minutos ao Governo, a cada GP e DURP",
+   "tema": "Plenário — Discussão de artigos remetidos a Plenário e normas avocadas",
    "orgao": "Plenário",
    "interveniente": "",
    "tipo": [
@@ -640,7 +640,7 @@
    "id_ar": 48394,
    "data": "2026-11-25",
    "hora": "11h00",
-   "tema": "Plenário — Sessão Solene Evocativa do 25 de novembro de 1975 Tempos: 2m30s para cada DURP e 5m30s para cada Grupo Parlam",
+   "tema": "Plenário — Sessão Solene Evocativa do 25 de novembro de 1975",
    "orgao": "Plenário",
    "interveniente": "",
    "tipo": [
@@ -655,7 +655,7 @@
    "id_ar": 48396,
    "data": "2026-12-11",
    "hora": "10h00",
-   "tema": "Plenário — Sessão Plenária alusiva às Comemorações dos 50 anos das Primeiras Eleições Autárquicas Tempos: A definir.",
+   "tema": "Plenário — Sessão Plenária alusiva às Comemorações dos 50 anos das Primeiras Eleições Autárquicas",
    "orgao": "Plenário",
    "interveniente": "",
    "tipo": [
@@ -703,24 +703,6 @@
    "diaSemana": "Quarta-feira",
    "atividade": "Sessão solene 25 de Novembro",
    "horas": "11h00"
-  },
-  {
-   "data": "2026-11-28",
-   "diaSemana": "Segunda-feira",
-   "atividade": "Contacto com o Eleitorado",
-   "horas": ""
-  },
-  {
-   "data": "2026-11-29",
-   "diaSemana": "Terça-feira",
-   "atividade": "Comissões",
-   "horas": ""
-  },
-  {
-   "data": "2026-11-30",
-   "diaSemana": "Quarta-feira",
-   "atividade": "Reunião Plenária",
-   "horas": "15h00"
   }
  ]
 }
